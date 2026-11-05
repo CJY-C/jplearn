@@ -66,6 +66,7 @@ import LearningCore
                 checkpointIssue = "上次学习安排无法恢复。已完成的学习记录仍保留，可以重新开始。"
             }
         }
+        folderName = defaults.string(forKey: "folderName") ?? ""
         #if DEBUG
         if ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_LONG_READING"] == "1",
            ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil, checkpoint == nil {
@@ -74,7 +75,6 @@ import LearningCore
             checkpoint = fixture
         }
         #endif
-        folderName = defaults.string(forKey: "folderName") ?? ""
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
         studyClock.onInterval = { [weak self] id, interval in
