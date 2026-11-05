@@ -1,470 +1,80 @@
 #!/usr/bin/env python3
-"""Authoring source for the original, personal-trial foundation pack.
-
-Stable IDs follow the authored order. Never reorder existing rows: append new items
-or edit their wording in place. Run --check to detect stale generated resources.
-"""
+"""Compile explicit, stable content records. No IDs are inferred from array order."""
 import argparse
+import copy
 import json
-import re
-import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from content_expansion import (EXTRA_EXAMPLES, EXTRA_READINGS,
-                               ORIGINAL_READING_WORDS, ORIGINAL_READING_GRAMMAR)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
-
-# surface | kana | romanization | Chinese gloss | concise usage note
-WORD_GROUPS = [
-"""今日|きょう|kyou|今天|也有「こんにち」的读法；这里先学表示今天的「きょう」。
-昨日|きのう|kinou|昨天|谈及昨天发生的事时，谓语通常也使用过去形式。
-明日|あした|ashita|明天|「あす」也可表示明天，先掌握常见的「あした」。
-今|いま|ima|现在|既可指此刻，也可指当前的一段时期。
-朝|あさ|asa|早晨|「朝に」和「朝」都可作时间表达，具体用法结合句子学习。
-昼|ひる|hiru|白天；中午|既可与夜晚对比，也可指中午前后的时间。
-夜|よる|yoru|夜晚|常见搭配有「夜に」「夜まで」。
-毎日|まいにち|mainichi|每天|「毎日読む」表示每天阅读，不必再添加「に」。
-学校|がっこう|gakkou|学校|注意「っ」占一拍；「学校に行く」表示去学校。
-家|いえ|ie|家；房屋|「家」还可在其他词语中读「うち」「か」，这里学「いえ」。
-図書館|としょかん|toshokan|图书馆|「図書館で読む」中的「で」表示阅读动作发生的场所。
-駅|えき|eki|车站|「駅で待つ」是在车站等，「駅に行く」是去车站。""",
-"""私|わたし|watashi|我|根据语境可省略；不用每个日语句子都重复说「私」。
-僕|ぼく|boku|我|常见于男性说话者的自称，人物自称也传递风格。
-彼|かれ|kare|他；男朋友|具体指谁、是否表示男朋友，需要由上下文判断。
-彼女|かのじょ|kanojo|她；女朋友|既可能是代词，也可能指女朋友。
-友達|ともだち|tomodachi|朋友|单凭这个词通常无法判断朋友是一位还是多位。
-先生|せんせい|sensei|老师；对专业人士的称呼|除了教师，也可用于医生等人的称呼。
-学生|がくせい|gakusei|学生|表示身份时可用「学生です」。
-人|ひと|hito|人|复合词中可能读「じん」「にん」，这里学独立名词「ひと」。
-子供|こども|kodomo|孩子|也常写作「子ども」，两种表记指向同一个词。
-名前|なまえ|namae|名字|「名前を聞く」在不同语境中可表示询问名字或听到名字。
-誰|だれ|dare|谁|询问人物；「誰の本」表示谁的书。
-何|なに|nani|什么|在「何ですか」等表达里常读「なん」，需随表达学习。""",
-"""読む|よむ|yomu|读；阅读|五段动词；过去形是「読んだ」，礼貌形是「読みます」。
-書く|かく|kaku|写|五段动词；「書いた」是过去形，「書いて」是て形。
-聞く|きく|kiku|听；询问|「話を聞く」可表示听别人说话，语境也可能表示询问。
-話す|はなす|hanasu|说；交谈|「友達と話す」中的「と」表示交谈的对象。
-見る|みる|miru|看|一段动词；「見た」「見て」分别是过去形、て形。
-行く|いく|iku|去|「行って」「行った」是不规则的て形、过去形，需要单独记住。
-来る|くる|kuru|来|不规则动词；「来ます」读「きます」，「来た」读「きた」。
-帰る|かえる|kaeru|回去；回家|虽然以「える」结尾，仍是五段动词；て形为「帰って」。
-食べる|たべる|taberu|吃|一段动词；「食べた」「食べない」中的词干是「食べ」。
-飲む|のむ|nomu|喝|五段动词；「飲んだ」「飲んで」的读音变化与「読む」相同。
-本|ほん|hon|书|作量词时还可计数细长物体；本课程先学名词“书”。
-新聞|しんぶん|shinbun|报纸|「新聞を読む」是常见搭配。""",
-"""新しい|あたらしい|atarashii|新的|い形容词；修饰名词可直接说「新しい本」。
-古い|ふるい|furui|旧的；古老的|可描述物品年代久，修饰人时需留意语境和礼貌。
-大きい|おおきい|ookii|大的|注意读音开头是「おお」；不要与「おき」混淆。
-小さい|ちいさい|chiisai|小的|注意「ちい」的长音长度。
-高い|たかい|takai|高的；贵的|谈高度或价格需看语境；不是所有中文“高”都可直接对应。
-安い|やすい|yasui|便宜的|表示价格便宜；与表示容易的「やすい」接尾表达区分。
-長い|ながい|nagai|长的|可描述物体长度或时间的长短。
-短い|みじかい|mijikai|短的|可描述文章、时间、距离等。
-面白い|おもしろい|omoshiroi|有趣的|可指有意思，也可指逗趣，具体感受看上下文。
-難しい|むずかしい|muzukashii|难的|也可能委婉表示某件事不容易办到。
-静か|しずか|shizuka|安静|な形容词；修饰名词用「静かな部屋」。
-便利|べんり|benri|便利；方便|な形容词；「便利な道具」「便利です」。""",
-"""ある|ある|aru|有；存在|常用于无生命事物；过去形「あった」，否定形「ない」。
-いる|いる|iru|有；在|表示人或动物存在；「部屋にいる」是待在房间里。
-部屋|へや|heya|房间|常与存在位置的「に」或动作地点的「で」搭配。
-机|つくえ|tsukue|桌子；书桌|「机の上」表示桌子上方。
-椅子|いす|isu|椅子|「椅子に座る」中的「に」表示落座的位置。
-上|うえ|ue|上方；上面|位置名词；「机の上に本がある」。
-下|した|shita|下面|作为位置名词读「した」，不同复合词里读音会变化。
-前|まえ|mae|前面；之前|「駅の前」表示空间，「読む前」表示时间。
-後ろ|うしろ|ushiro|后面；背后|通常表示位置，时间上的“之后”常用「後」。
-隣|となり|tonari|旁边；相邻处|强调相邻关系；「隣の部屋」是隔壁房间。
-中|なか|naka|里面；当中|「部屋の中」是房间里面；复合词还可能读「ちゅう」。
-外|そと|soto|外面|与「中」对比；「外に出る」表示到外面去。""",
-"""買う|かう|kau|买|五段动词；过去形「買った」，て形「買って」。
-借りる|かりる|kariru|借入|表示从别人那里借来；借给别人用「貸す」。
-返す|かえす|kaesu|归还|「本を返す」是还书，不要和回家的「帰る」混淆。
-会う|あう|au|见面|「友達に会う」或「友達と会う」根据句子侧重点使用。
-待つ|まつ|matsu|等；等待|「駅で友達を待つ」中，等待对象用「を」。
-持つ|もつ|motsu|拿；持有|「持っている」常表示拥有或正拿着某物。
-使う|つかう|tsukau|使用|「辞書を使う」表示使用词典。
-作る|つくる|tsukuru|制作；做|可指做饭、制作物品或创作内容。
-知る|しる|shiru|得知；知道|表示已经知道常用「知っている」，否定常用「知らない」。
-思う|おもう|omou|想；认为|引用想法常用「～と思う」。
-話|はなし|hanashi|话；谈话；故事|这是名词；动词“说话”是「話す」。
-言葉|ことば|kotoba|词语；话语|可以指一个词，也可以指某人说的话。
-手紙|てがみ|tegami|信；书信|不是中文的“手纸”；「手紙を書く」表示写信。""",
-"""起きる|おきる|okiru|起床；发生|「朝起きる」表示早晨起床；事件也可以「起きる」。
-寝る|ねる|neru|睡觉；躺下|一段动词；「早く寝る」表示早点睡。
-働く|はたらく|hataraku|工作；劳动|常用「会社で働く」描述工作的地方。
-勉強|べんきょう|benkyou|学习|加「する」构成动词「勉強する」。
-仕事|しごと|shigoto|工作|可指职业、工作任务或正在做的事情。
-時間|じかん|jikan|时间；小时|既是时间名词，也能在「三時間」里表示三小时。
-休み|やすみ|yasumi|休息；假期|「今日は休みです」可表示今天休息或放假。
-店|みせ|mise|店铺|「店に行く」是去店里，「店で買う」是在店里买。
-道|みち|michi|道路；方法|可指具体道路，也可引申为途径。
-雨|あめ|ame|雨|「雨が降る」是下雨；同音词“糖”写作「飴」。
-天気|てんき|tenki|天气|「天気がいい」是天气好。
-傘|かさ|kasa|伞|「傘を持って行く」表示带伞去。
-持って行く|もっていく|motte iku|带去|「持つ」的て形加「行く」，强调把物品带离当前处。""",
-"""教える|おしえる|oshieru|教；告诉|「人にことを教える」表示教某人某事或告诉某人。
-もらう|もらう|morau|收到；得到|以接受者为视角；来源可用「に」或「から」。
-あげる|あげる|ageru|给；给予|以给予方描述给予行为，使用时留意人物关系。
-くれる|くれる|kureru|给我；给我方|描述别人给说话者或说话者一方的人某物。
-見せる|みせる|miseru|给人看；展示|「写真を見せる」是把照片给别人看。
-手伝う|てつだう|tetsudau|帮忙；协助|五段动词；过去形「手伝った」。
-貸す|かす|kasu|借出；借给|与「借りる」相对，留意借出者和借入者。
-説明|せつめい|setsumei|说明；解释|「説明する」是进行说明。
-質問|しつもん|shitsumon|提问；问题|指为了获得回答而提出的问题。
-答え|こたえ|kotae|答案；回答|名词；动词是「答える」。
-写真|しゃしん|shashin|照片|「写真を見る」「写真を見せる」的动作方向不同。
-地図|ちず|chizu|地图|「地図で確認する」表示用地图确认。
-お願い|おねがい|onegai|请求；拜托|常见表达「お願いします」，具体意义由请求情境决定。""",
-"""できる|できる|dekiru|能；完成|可表示能力，也可表示东西做好了，需看上下文。
-分かる|わかる|wakaru|明白；理解|「意味が分かる」表示理解意思，常用「が」。
-覚える|おぼえる|oboeru|记住；学会|「覚えている」表示还记得。
-忘れる|わすれる|wasureru|忘记|「約束を忘れる」是忘记约定。
-始まる|はじまる|hajimaru|开始|自动词；活动本身开始。让活动开始可用「始める」。
-終わる|おわる|owaru|结束|常用「仕事が終わる」，也有带宾语的用法，先结合例句学。
-開く|あく|aku|打开；开着|这里学自动词「あく」；同一表记还有其他读法和意义。
-閉まる|しまる|shimaru|关上；关闭|自动词；「店が閉まる」表示店关门。
-電車|でんしゃ|densha|电车；列车|「電車に乗る」是乘车，「電車で行く」是坐车去。
-切符|きっぷ|kippu|票；车票|注意「っ」的停顿；「切符を買う」。
-旅行|りょこう|ryokou|旅行|「旅行する」表示去旅行。
-予定|よてい|yotei|计划；预定|「明日の予定」表示明天的安排。
-約束|やくそく|yakusoku|约定；承诺|与仅描述计划的「予定」相比，常涉及与别人的约定。""",
-"""いらっしゃる|いらっしゃる|irassharu|来、去、在的尊敬表达|表示哪个动作需看语境；礼貌形通常为「いらっしゃいます」。
-おっしゃる|おっしゃる|ossharu|说的尊敬表达|通常指值得尊敬的一方所说的话；「おっしゃいます」。
-召し上がる|めしあがる|meshiagaru|吃、喝的尊敬表达|用于描述对方或应尊敬人物的饮食行为。
-伺う|うかがう|ukagau|拜访；请教；听的谦让表达|同一形式可能对应不同动作，需要结合对象和上下文。
-いただく|いただく|itadaku|领受；吃、喝的谦让表达|「ていただく」还可表示谦逊地得到对方帮助。
-申す|もうす|mousu|说；称作的谦逊表达|自我介绍常用「～と申します」。
-くださる|くださる|kudasaru|给我方的尊敬表达|礼貌形常用「くださいます」；也见于「てくださる」。
-お客様|おきゃくさま|okyakusama|客人；顾客的尊敬称呼|称呼顾客时常见，敬称本身也反映人物关系。
-会社|かいしゃ|kaisha|公司|「会社で働く」表示在公司工作。
-連絡|れんらく|renraku|联系；通知|「連絡する」表示联系或通知。
-資料|しりょう|shiryou|资料|长音位置是「りょう」，留意与「しりょ」的区别。
-確認|かくにん|kakunin|确认；核实|「確認する」表示检查并确认。
-失礼|しつれい|shitsurei|失礼；冒昧|「失礼します」可用于进出房间或打断对话等情境。""",
-"""理由|りゆう|riyuu|理由|读「り・ゆ・う」，与拗音「りゅう」区分。
-結果|けっか|kekka|结果|注意促音「っ」；可表示行为或事件的结果。
-問題|もんだい|mondai|问题；题目|可以是待解决的困难，也可以是练习题。
-必要|ひつよう|hitsuyou|必要|「必要な資料」「資料が必要です」是常见形式。
-大切|たいせつ|taisetsu|重要；珍贵|可表达重视程度或情感上的珍惜。
-同じ|おなじ|onaji|相同|直接修饰名词常用「同じ本」，不用「同じな本」。
-違う|ちがう|chigau|不同；不对|既可能表示两者不同，也可能否定对方判断。
-本当|ほんとう|hontou|真实；真的|「本当ですか」询问是否属实，语气会影响意图。
-多分|たぶん|tabun|大概；可能|表示推测，不表示百分之百确定。
-しかし|しかし|shikashi|但是；然而|常用于承接前文并提出转折。
-だから|だから|dakara|所以；因此|提示后文与前文之间的结果或推论关系。
-それでも|それでも|soredemo|尽管如此；即便如此|后文通常表达在前述情况下仍成立的事情。
-つまり|つまり|tsumari|也就是说；总之|引出归纳、换句话说或结论。""",
-"""物語|ものがたり|monogatari|故事；叙事作品|可指具体故事，也可指叙事的内容。
-主人公|しゅじんこう|shujinkou|主人公|注意「しゅ」是拗音；从上下文判断叙事视角。
-気持ち|きもち|kimochi|心情；感受|「気持ちが分かる」表示理解对方感受。
-声|こえ|koe|声音；嗓音|常指人或动物发出的声音，与一般的「音」区分。
-記憶|きおく|kioku|记忆|「記憶にある」表示留在记忆之中。
-まだ|まだ|mada|还；尚未|与肯定、否定搭配时意义不同：「まだ覚えている」「まだ読んでいない」。
-もう|もう|mou|已经；再|「もう読んだ」是已经读过；「もう一度」是再一次。
-ずっと|ずっと|zutto|一直；远为|既能描述持续，也能加强比较，具体意义看句子。
-急に|きゅうに|kyuu ni|突然|读音中的「きゅ」为拗音，后接长音。
-例えば|たとえば|tatoeba|例如|引出用于说明前文观点的具体例子。
-一方|いっぽう|ippou|另一方面；一方|可组织两方的对比或补充信息。
-結局|けっきょく|kekkyoku|结果；到头来|常引出经过变化后最终成立的结果。""",
-]
-
-# Original grammar notes. Reference links are for checking, not copied lesson text.
-GRAMMAR = [
-("は：话题", "N5", "说明接下来谈论什么", "「は」提示话题，读作「わ」。话题可以是人物、时间或事物，后文对它作说明。不要机械地把每个「は」都译成中文主语。"),
-("の：名词之间的关系", "N5", "连接名词，表示所属等关系", "「AのB」中，被说明的中心通常是B。所属、类别和具体关系需要由名词意义和上下文决定。"),
-("を：动作的对象", "N5", "标记动作直接涉及的对象", "「本を読む」中，读的对象是书。「を」在这里读作「お」。先找到动作，再判断哪个成分是动作的对象。"),
-("に・へ：时间与方向", "N5", "根据搭配判断时间点、目的地或方向", "「駅に行く」「駅へ行く」都可描述去车站；方向助词「へ」读「え」。明确的时间点常用「に」，例如「三時に」。"),
-("形容词修饰名词", "N5", "区分い形容词与な形容词", "い形容词通常直接接名词，如「新しい本」。な形容词在这里用「な」，如「静かな部屋」。不要只根据中文意思判断连接方式。"),
-("ある・いる：存在", "N5", "结合位置判断谁或什么在哪里", "典型结构为「場所に物がある」「場所に人がいる」。先区分存在的位置和存在的对象；这是入门规则，具体用法仍需结合语境。"),
-("过去形：た・だ", "N5", "识别已经发生的动作", "「読む→読んだ」「買う→買った」「見る→見た」。活用后的形式要能还原到原形；过去形也能放在名词前作修饰。"),
-("句子修饰名词", "N4", "找到修饰部分后面的中心名词", "「昨日買った本」的中心是「本」，前面的「昨日買った」说明是哪本书。日语通常把修饰内容放在名词之前。"),
-("て形：连接动作", "N5", "读出动作之间的衔接", "「起きて、本を読む」可描述起床后读书。「て」连接时还可能表达方式或原因，不能始终机械地解释为先后。"),
-("から・ので：原因", "N5", "区分原因部分和后面的结果", "原因说明常出现在「から」「ので」之前。「雨だから、家にいる」说明待在家的原因。语气和礼貌程度也受整句语境影响。"),
-("あげる・もらう・くれる", "N4", "辨认给予者、接受者与叙述视角", "「あげる」从给予方描述，「もらう」从接受方描述。「くれる」通常表示别人给说话者或说话者一方的人。不要只根据一个助词猜方向。"),
-("てもらう・てくれる", "N4", "辨认谁替谁做事", "「友達に教えてもらった」表示说话者得到朋友的教导。「友達が教えてくれた」把朋友放在动作主体的位置，表达我方获得帮助。"),
-("可能表达", "N4", "识别能够做某事", "「読む→読める」「食べる→食べられる」「する→できる」。有的形式也可能有其他解释，需要结合句中人物、动作和情境判断。"),
-("たら・なら：条件", "N4", "结合前后句理解条件", "「雨が降ったら、家にいる」把下雨作为条件。「なら」常用于承接提出的话题或前提。先判断前半句是否已经成为事实。"),
-("尊敬表达", "N4", "识别应尊敬人物的动作", "「先生がいらっしゃる」「先生がおっしゃる」描述老师的动作。敬语形式不改变动作参与者；需要还原成来、去、在或说等基本意义。"),
-("谦让表达", "N4", "识别我方动作及所面对的人", "「先生に伺う」「教えていただく」等表达与对方的关系有关。「申す」常用于谦逊地表达自己说或叫作什么。不同表达的礼貌功能应逐项学习。"),
-("はず・かもしれない", "N3", "区分有依据的预期与可能性", "「はず」常表达说话者根据某种依据形成的预期；「かもしれない」表示可能。二者都不应直接当作客观事实。"),
-("のに：与预期不一致", "N4", "读出前后情况的反差", "「読んだのに、忘れた」表示虽然读过，却忘记了。此处的「のに」表达转折；不要和表示用途的「のに」混淆。"),
-("省略与指代", "N4", "从前文恢复人物和事物", "日语经常省略能由语境恢复的成分。「それ」等指示词也依赖前文。根据上下文寻找最有根据的解释，信息不足时保留不确定性。"),
-("一方・つまり：篇章关系", "N3", "识别对比、补充与归纳", "「一方」常引入另一方的情况；「つまり」常引出归纳或换一种说法。理解连接词时，应同时回看前句和后句。"),
-]
-
-# Each pair tests the same structure in two independently written contexts.
-# markup, translation, question, choices, answer, explanatory feedback
-EXAMPLE_PAIRS = [
-[("[今日|きょう]は[学校|がっこう]です。", "今天要上学。", "这句话围绕什么展开？", ["今天的安排", "学校的名字", "昨天的天气"], 0, "「今日は」把今天作为话题，后面说明今天的安排。"),
- ("[図書館|としょかん]は[静|しず]かです。", "图书馆很安静。", "后半句说明了什么？", ["图书馆的位置", "图书馆很安静", "图书馆的开放时间"], 1, "「図書館は」提示话题，「静かです」说明它的状态。")],
-[("これは[先生|せんせい]の[本|ほん]です。", "这是老师的书。", "这里的书与谁有关？", ["老师", "学生", "朋友"], 0, "「先生の本」中，中心名词是书，「先生の」说明所属。"),
- ("あの[人|ひと]は[私|わたし]の[友達|ともだち]です。", "那个人是我的朋友。", "「私の友達」的中心是什么？", ["我", "朋友", "那边"], 1, "中心是「友達」；「私の」说明是谁的朋友。")],
-[("[私|わたし]は[本|ほん]を[読|よ]みます。", "我读书。", "「読む」的对象是什么？", ["我", "书", "朋友"], 1, "「本を」标记读的对象。"),
- ("[友達|ともだち]は[手紙|てがみ]を[書|か]きます。", "朋友写信。", "朋友在写什么？", ["信", "名字", "报纸"], 0, "「手紙を」标记写的对象，不是写信的人。")],
-[("[明日|あした]、[駅|えき]に[行|い]きます。", "明天去车站。", "这里「駅に」表示什么？", ["动作的对象", "去的目的地", "出发时间"], 1, "「行く」前面的「駅に」表示目的地。"),
- ("[朝|あさ]、[学校|がっこう]へ[行|い]きます。", "早晨去学校。", "这里的「へ」怎么理解？", ["去学校的方向", "从学校回来", "在学校读书"], 0, "方向助词「へ」读「え」，这里表示去学校。")],
-[("[新|あたら]しい[本|ほん]を[買|か]いました。", "买了一本新书。", "「新しい」说明哪个词？", ["书", "购买的人", "昨天"], 0, "い形容词「新しい」直接修饰「本」。"),
- ("[静|しず]かな[部屋|へや]で[読|よ]みます。", "在安静的房间读。", "为什么这里用「静かな」？", ["因为它是动词", "な形容词在名词前用な连接", "表示过去"], 1, "「静か」修饰名词「部屋」时使用「な」。")],
-[("[机|つくえ]の[上|うえ]に[本|ほん]があります。", "桌子上有书。", "什么东西在哪里？", ["书在桌子上", "桌子在书上", "人在桌子上"], 0, "「机の上に」是位置，「本が」是存在的事物。"),
- ("[部屋|へや]に[先生|せんせい]がいます。", "老师在房间里。", "这里为何使用「いる」？", ["描述人的存在", "描述书的价格", "表示移动方向"], 0, "老师是人，典型的人物存在表达使用「いる」。")],
-[("[昨日|きのう]、[本|ほん]を[読|よ]んだ。", "昨天读了书。", "「読んだ」的原形是什么？", ["読む", "読める", "書く"], 0, "「読む」的过去形是「読んだ」。"),
- ("[友達|ともだち]は[駅|えき]に[行|い]った。", "朋友去了车站。", "哪部分表明动作已发生？", ["友達", "駅", "行った"], 2, "「行く」的过去形是「行った」，需要记住这个音变。")],
-[("[昨日|きのう][買|か]った[本|ほん]は[面白|おもしろ]い。", "昨天买的书很有趣。", "什么东西很有趣？", ["昨天", "昨天买的书", "买书的人"], 1, "「昨日買った」修饰后面的中心名词「本」。"),
- ("[先生|せんせい]に[借|か]りた[本|ほん]を[返|かえ]した。", "归还了向老师借的书。", "归还的是什么？", ["向老师借的书", "老师本人", "借书的时间"], 0, "「先生に借りた」整体修饰「本」，它是「返した」的对象。")],
-[("[朝|あさ][起|お]きて、[本|ほん]を[読|よ]みます。", "早晨起床后读书。", "这里的动作顺序是什么？", ["先读书再起床", "起床后读书", "一直没有起床"], 1, "在这个日常活动语境中，「起きて」连接接下来的阅读。"),
- ("[手紙|てがみ]を[書|か]いて、[寝|ね]た。", "写了信，然后睡了。", "这里连接的是哪两个动作？", ["写信和睡觉", "听和说", "买和借"], 0, "「書いて」是「書く」的て形，后接过去形「寝た」。")],
-[("[雨|あめ]だから、[家|いえ]にいます。", "因为下雨，所以待在家。", "待在家的原因是什么？", ["家很远", "下雨", "学校放假"], 1, "原因出现在「から」之前。"),
- ("[明日|あした]は[仕事|しごと]があるので、[早|はや]く[寝|ね]ます。", "因为明天有工作，所以早点睡。", "为什么早点睡？", ["明天有工作", "工作已经结束", "忘记了工作"], 0, "「明日は仕事があるので」说明后文行为的原因。")],
-[("[私|わたし]は[友達|ともだち]に[本|ほん]をもらった。", "我从朋友那里得到了一本书。", "谁收到了书？", ["朋友", "我", "老师"], 1, "「もらう」以接受者为视角，这里接受者是「私」。"),
- ("[友達|ともだち]が[私|わたし]に[写真|しゃしん]をくれた。", "朋友给了我照片。", "谁把照片给了谁？", ["我给朋友", "朋友给我", "老师给朋友"], 1, "「友達が」是给予者，「私に」是接受者。")],
-[("[友達|ともだち]に[言葉|ことば]を[教|おし]えてもらった。", "朋友教了我一个词。", "谁进行了教这个动作？", ["朋友", "说话者", "无法确定是人还是物"], 0, "说话者得到帮助；「友達に」指出提供教导的人。"),
- ("[先生|せんせい]が[地図|ちず]を[見|み]せてくれた。", "老师给我看了地图。", "「てくれた」在这里表达什么？", ["老师忘了地图", "老师做的事使我方受益", "我把地图给老师看"], 1, "动作主体是老师，叙述者把展示地图描述为对我方有帮助。")],
-[("この[本|ほん]は[読|よ]めます。", "这本书能读懂。", "「読める」属于哪一种形式？", ["过去形", "可能形", "命令形"], 1, "「読む」的可能形为「読める」。"),
- ("[日本語|にほんご]で[手紙|てがみ]を[書|か]くことができます。", "能够用日语写信。", "这句话表达什么？", ["写信的能力", "收到了一封信", "写信的命令"], 0, "「动词原形＋ことができる」表示能够做某事。")],
-[("[雨|あめ]が[降|ふ]ったら、[家|いえ]で[読|よ]みます。", "如果下雨，就在家读书。", "这里是否已经断定会下雨？", ["是，已经确定", "没有，把下雨作为条件", "是在否认下雨"], 1, "「たら」在这里引出条件，不能据此断定下雨已发生。"),
- ("[図書館|としょかん]に[行|い]くなら、この[道|みち]が[便利|べんり]です。", "如果去图书馆，走这条路方便。", "后半句的建议基于什么前提？", ["打算去图书馆", "图书馆已关门", "已经到家"], 0, "「行くなら」承接去图书馆这个前提。")],
-[("[先生|せんせい]は[学校|がっこう]にいらっしゃいます。", "老师在学校。", "尊敬表达描述的是谁？", ["说话者", "老师", "学校的名字"], 1, "这里「いらっしゃいます」对应「います」，动作人物是老师。"),
- ("[先生|せんせい]がそうおっしゃいました。", "老师是那样说的。", "「おっしゃる」在这里对应什么基本动作？", ["说", "吃", "借入"], 0, "「おっしゃる」是「言う」的尊敬表达。")],
-[("[明日|あした]、[先生|せんせい]の[家|いえ]に[伺|うかが]います。", "明天去拜访老师家。", "谁要去拜访？", ["老师来拜访说话者", "说话者去拜访老师", "房子移动"], 1, "这个语境下「伺う」指说话者一方去拜访，向老师表示敬意。"),
- ("[先生|せんせい]に[教|おし]えていただきました。", "承蒙老师教导。", "谁提供了教导？", ["老师", "说话者", "学生教老师"], 0, "说话者得到老师的帮助，「いただく」表达谦逊。")],
-[("[先生|せんせい]は[学校|がっこう]にいるはずです。", "按理说老师应该在学校。", "这句话是怎样的判断？", ["有依据的预期", "已经亲眼确认", "要求老师去学校"], 0, "「はず」表达说话者根据依据形成的预期，不等于亲眼确认。"),
- ("[明日|あした]は[雨|あめ]かもしれません。", "明天可能下雨。", "说话者对下雨有多确定？", ["表示可能", "表示绝对不会", "表示百分之百确定"], 0, "「かもしれない」表达可能性。")],
-[("[昨日|きのう][読|よ]んだのに、もう[忘|わす]れた。", "明明昨天读过，却已经忘了。", "前后形成了什么关系？", ["单纯列举", "与预期不一致", "说明读书的目的"], 1, "预期读过后应记得，后文却说明忘了。"),
- ("[高|たか]いのに、この[本|ほん]は[人気|にんき]があります。", "虽然很贵，这本书却很受欢迎。", "哪里体现了反差？", ["价格高却仍受欢迎", "书很便宜", "书已经归还"], 0, "「のに」连接价格高与仍受欢迎的情况。")],
-[("[私|わたし]は[本|ほん]を[買|か]った。それを[友達|ともだち]に[貸|か]した。", "我买了一本书，把它借给朋友了。", "「それ」最自然地指什么？", ["买的书", "朋友", "购买的时间"], 0, "前一句引入的书是后一句指示词最有根据的指向。"),
- ("[彼女|かのじょ]は[図書館|としょかん]に[行|い]った。[本|ほん]を[借|か]りて、[家|いえ]に[帰|かえ]った。", "她去了图书馆，借书后回了家。", "第二句省略的动作人物通常是谁？", ["她", "老师", "必须是新人物"], 0, "没有转换人物的线索时，连续叙述通常沿用前句的人物。")],
-[("[彼|かれ]は[本|ほん]を[読|よ]む。[一方|いっぽう]、[彼女|かのじょ]は[手紙|てがみ]を[書|か]く。", "他读书，另一方面，她写信。", "「一方」在这里怎样组织信息？", ["描述另一方的情况", "得出相同结论", "否定两人的存在"], 0, "它引入另一人物所做的事，形成两方的对照。"),
- ("[今日|きょう]も[明日|あした]も[仕事|しごと]です。つまり、[休|やす]みはありません。", "今天和明天都要工作，也就是说没有休息日。", "「つまり」后的内容起什么作用？", ["归纳前面的情况", "引入无关人物", "询问地点"], 0, "它将今天和明天都工作归纳成没有休息日。")],
-]
-
-LESSON_TITLES = [
-("从今天说起", "时间、场所与话题", [0]),
-("谁的书，谁的朋友", "人物、称呼与名词关系", [1]),
-("找到动作和对象", "基本动作、目的地与助词", [2, 3]),
-("把事物描述清楚", "形容词怎样修饰名词", [4]),
-("谁在哪里", "存在句与位置关系", [5]),
-("昨天买的那本书", "过去形与名词修饰", [6, 7]),
-("把事情连起来", "て形与原因表达", [8, 9]),
-("谁帮了谁", "授受视角与受益关系", [10, 11]),
-("能够与如果", "可能表达和条件", [12, 13]),
-("敬语中的人物关系", "还原尊敬与谦让表达", [14, 15]),
-("预期与反差", "推测、事实与转折", [16, 17]),
-("读懂句子之间", "省略、指代与篇章连接", [18, 19]),
-]
-
-READINGS = [
-("去图书馆", "日常叙述", "N5", [
- ("[今日|きょう]は[学校|がっこう]が[休|やす]みです。", "今天学校放假。"),
- ("[私|わたし]は[朝|あさ]、[図書館|としょかん]に[行|い]きます。", "我早晨去图书馆。"),
- ("[友達|ともだち]も[来|き]ます。", "朋友也会来。"),
- ("[私|わたし]たちは[本|ほん]を[読|よ]みます。", "我们读书。")],
- "说话者今天的安排是什么？", ["上学后工作", "和朋友去图书馆读书", "在车站写信"], 1, "学校放假，说话者去图书馆，朋友也来，两人读书。"),
-("两本书", "物品介绍", "N5", [
- ("[机|つくえ]の[上|うえ]に[本|ほん]が[二冊|にさつ]あります。", "桌上有两本书。"),
- ("[新|あたら]しい[本|ほん]は[高|たか]いです。", "新书很贵。"),
- ("[古|ふる]い[本|ほん]は[安|やす]いですが、[面白|おもしろ]いです。", "旧书很便宜，不过很有趣。"),
- ("[私|わたし]は[古|ふる]い[本|ほん]を[読|よ]みます。", "我读旧的那本书。")],
- "说话者选择了哪本书？", ["贵的新书", "便宜而有趣的旧书", "没有选书"], 1, "最后一句明确说明读的是旧书；价格与有趣程度是对它的描述。"),
-("还书之前", "日常叙述", "N5", [
- ("[昨日|きのう]、[先生|せんせい]に[借|か]りた[本|ほん]を[読|よ]みました。", "昨天读了向老师借的书。"),
- ("[短|みじか]い[話|はなし]ですが、とても[面白|おもしろ]かったです。", "虽然故事短，但很有趣。"),
- ("[友達|ともだち]もこの[本|ほん]を[知|し]っています。", "朋友也知道这本书。"),
- ("[明日|あした]、[学校|がっこう]で[先生|せんせい]に[返|かえ]します。", "明天在学校还给老师。")],
- "这本书与老师有什么关系？", ["老师写给朋友的信", "说话者向老师借的书", "朋友刚买的书"], 1, "第一句的「先生に借りた」修饰「本」，最后一句说明将归还给老师。"),
-("地图上的路", "对话叙述", "N4", [
- ("[私|わたし]は[駅|えき]への[道|みち]が[分|わ]かりませんでした。", "我不知道去车站的路。"),
- ("[友達|ともだち]が[地図|ちず]を[見|み]せてくれました。", "朋友给我看了地图。"),
- ("そして、[近|ちか]い[道|みち]を[教|おし]えてくれました。", "然后告诉了我一条近路。"),
- ("[教|おし]えてもらった[道|みち]は、まだ[覚|おぼ]えています。", "朋友教我的那条路，我还记得。")],
- "谁给谁提供了帮助？", ["我给朋友指路", "朋友给我看地图并指路", "老师向我借地图"], 1, "「てくれました」从说话者受益的角度描述朋友的动作。"),
-("拜访前的联系", "工作沟通", "N4", [
- ("[明日|あした]、[先生|せんせい]の[会社|かいしゃ]に[伺|うかが]います。", "明天去拜访老师的公司。"),
- ("[今日|きょう]、[電話|でんわ]で[予定|よてい]を[確認|かくにん]しました。", "今天通过电话确认了安排。"),
- ("[先生|せんせい]は[午前中|ごぜんちゅう]はいらっしゃるそうです。", "听说老师上午在。"),
- ("[資料|しりょう]を[持|も]って[行|い]きます。", "我会带资料去。")],
- "明天去公司的是谁？", ["说话者", "老师去说话者的公司", "没有人去"], 0, "「伺います」在这里是说话者描述自己前往拜访的谦让表达。"),
-("重新读一遍", "阅读随笔", "N4", [
- ("[昨日|きのう]、[短|みじか]い[物語|ものがたり]を[読|よ]みました。", "昨天读了一个短故事。"),
- ("[言葉|ことば]の[意味|いみ]は[分|わ]かりましたが、[主人公|しゅじんこう]の[気持|きも]ちはよく[分|わ]かりませんでした。", "词语的意思懂了，但还不太明白主人公的心情。"),
- ("[今日|きょう]もう[一度|いちど][読|よ]んで、[前|まえ]の[話|はなし]との[関係|かんけい]を[考|かんが]えました。", "今天又读了一遍，思考了它与前文的关系。"),
- ("[少|すこ]しずつ、[主人公|しゅじんこう]の[気持|きも]ちが[分|わ]かってきました。", "渐渐开始理解主人公的心情了。")],
- "说话者第二次阅读时特别注意了什么？", ["书的价格", "和前文的关系、人物心情", "车站的位置"], 1, "第一遍认识词义，第二遍结合前文理解人物心情，体现了句段理解。"),
-]
-
-READING_PREPARATION_WORDS = [
-"""近い|ちかい|chikai|近的|い形容词；「近い道」是近路，「駅に近い」是离车站近。
-遠い|とおい|tooi|远的|注意「とお」的长音；「家から遠い」表示离家远。
-水|みず|mizu|水|「水を飲む」表示喝水。
-お茶|おちゃ|ocha|茶|前面的「お」是常用的礼貌、美化表达。
-電話|でんわ|denwa|电话|「電話で確認する」中的「で」表示使用的手段。
-午前中|ごぜんちゅう|gozenchuu|上午这段时间|「午前中はいる」表示上午在；留意「ちゅう」的长音。
-午後|ごご|gogo|下午|与「午前」相对；可用于「午後に会う」。
-六時|ろくじ|rokuji|六点|明确的钟点常接「に」，例如「六時に起きる」。
-九時|くじ|kuji|九点|这里读「くじ」，不读「きゅうじ」。
-十時|じゅうじ|juuji|十点|注意「じゅう」的长音。
-二冊|にさつ|nisatsu|两本|「冊」用于书册等装订的物品。
-一度|いちど|ichido|一次|「もう一度」表示再一次。
-意味|いみ|imi|意思；含义|「言葉の意味」是词语的意思，「意味が分かる」是明白意思。
-関係|かんけい|kankei|关系|可指人物关系或前后文的关联。
-考える|かんがえる|kangaeru|思考；考虑|一段动词；「考えた」表示想过了。
-とても|とても|totemo|很；非常|常放在形容词之前，表达程度。""",
-"""少しずつ|すこしずつ|sukoshi zutsu|一点一点地|描述渐进变化，例如「少しずつ分かる」。
-言う|いう|iu|说|「言った」是过去形；引用说话内容时常用「と」。
-始める|はじめる|hajimeru|开始做；使开始|「読み始める」表示开始读；与自动词「始まる」区分。
-今朝|けさ|kesa|今天早晨|这是整体读法「けさ」，不能逐字拼读。
-降る|ふる|furu|下雨、下雪等|「雨が降る」表示下雨，降雨的主体用「が」。
-歩く|あるく|aruku|步行；走路|五段动词；て形为「歩いて」。
-心配|しんぱい|shinpai|担心|「心配する」表示担心某件事。
-いい|いい|ii|好的|常见活用使用「よ」开头，如「よかった」「よくない」。
-多い|おおい|ooi|多的|「言葉が多い」表示词语多；注意「おお」的长音。
-すぐ|すぐ|sugu|马上；很快|可描述时间间隔短，也可在位置表达里表示很近。
-最後|さいご|saigo|最后|「最後まで読む」表示读到最后。
-ゆっくり|ゆっくり|yukkuri|慢慢地；从容地|可描述动作速度，也可表示放松、不着急。
-自分|じぶん|jibun|自己|指谁要由句子视角与上下文判断。
-考え|かんがえ|kangae|想法；看法|这是名词；动词为「考える」。
-後|あと|ato|之后；后面|这里学「あ と」的读法，「後で」表示之后。
-よく|よく|yoku|经常；充分地|「よく分かる」表示很明白，不宜机械理解为经常。""",
-]
-
-STEM_LEMMAS = dict(pair.split(":") for pair in """
-休:休み 会:会う 伺:伺う 使:使う 借:借りる 働:働く 分:分かる 古:古い
-召し上:召し上がる 同:同じ 多:多い 大:大きい 始:始まる 安:安い 寝:寝る
-小:小さい 少:少しずつ 帰:帰る 待:待つ 忘:忘れる 思:思う 手伝:手伝う
-持:持つ 教:教える 新:新しい 書:書く 来:来る 歩:歩く 気持:気持ち 申:申す
-知:知る 短:短い 終:終わる 考:考える 行:行く 見:見る 覚:覚える 言:言う
-読:読む 買:買う 貸:貸す 起:起きる 近:近い 返:返す 開:開く 降:降る
-難:難しい 静:静か 面白:面白い 飲:飲む 高:高い 茶:お茶
-""".split())
+COLLECTIONS = ("items", "sentences", "exercises", "lessons", "readings", "introModules")
 
 
 def make_pack():
-    items, groups = [], []
-    for group_index, group in enumerate(WORD_GROUPS):
-        ids = []
-        for row in group.strip().splitlines():
-            text, reading, romaji, meaning, explanation = row.split("|")
-            item_id = f"v{len(items) + 1:04d}"
-            ids.append(item_id)
-            items.append(dict(id=item_id, kind="word", level="N5" if group_index < 7 else "N4",
-                              text=text, reading=reading, romaji=romaji, meaning=meaning,
-                              explanation=explanation, sourceIDs=["jmdict"], status="trial"))
-        groups.append(ids)
-    assert len(items) == 150, len(items)
-    # Append reading prerequisites without changing any of the original 150 word IDs.
-    for group in READING_PREPARATION_WORDS:
-        ids = []
-        for row in group.strip().splitlines():
-            text, reading, romaji, meaning, explanation = row.split("|")
-            item_id = f"v{len(items) + 1:04d}"
-            ids.append(item_id)
-            items.append(dict(id=item_id, kind="word", level="N4", text=text, reading=reading,
-                              romaji=romaji, meaning=meaning, explanation=explanation,
-                              sourceIDs=["jmdict"], status="trial"))
-        groups.append(ids)
-    word_by_text = {item["text"]: item["id"] for item in items}
-    for index, (text, level, meaning, explanation) in enumerate(GRAMMAR):
-        items.append(dict(id=f"g{index + 1:03d}", kind="grammar", level=level, text=text,
-                          reading="", romaji="", meaning=meaning, explanation=explanation,
-                          sourceIDs=["irodori", "taekim"], status="trial"))
-    sentences, exercises = [], []
+    pack = json.loads((ROOT / "content/catalog.json").read_text())
+    for key in COLLECTIONS:
+        path = ROOT / "content/legacy" / (key + ".json")
+        pack[key] = json.loads(path.read_text()) if path.exists() else []
+    for path in sorted((ROOT / "content/batches").glob("*.json")):
+        batch = json.loads(path.read_text())
+        for key in COLLECTIONS:
+            pack[key].extend(copy.deepcopy(batch.get(key, [])))
+    validate(pack)
+    return pack
 
-    def sentence(markup, translation, explanation="结合前后文判断人物、动作及句子之间的关系。", sentence_id=None):
-        segments, position = [], 0
-        for match in re.finditer(r"\[([^|\]]+)\|([^\]]+)\]", markup):
-            if match.start() > position:
-                segments.append(dict(text=markup[position:match.start()], reading=None, itemID=None))
-            text, reading = match.groups()
-            # Explicit stems avoid collisions such as 新 -> 新聞 or 大 -> 大切.
-            item_id = word_by_text.get(STEM_LEMMAS.get(text, text))
-            tail = markup[match.end():]
-            for stem, ending, lemma in [("見", "せ", "見せる"), ("始", "め", "始める")]:
-                if text == stem and tail.startswith(ending):
-                    item_id = word_by_text[lemma]
-            if text == "話" and reading == "はな":
-                item_id = word_by_text["話す"]
-            segments.append(dict(text=text, reading=reading, itemID=item_id))
-            position = match.end()
-        if position < len(markup):
-            segments.append(dict(text=markup[position:], reading=None, itemID=None))
-        result = dict(id=sentence_id or f"s{len(sentences) + 1:03d}", segments=segments,
-                      translation=translation, explanation=explanation, speechText=None)
-        sentences.append(result)
-        return result["id"]
 
-    for index, pair in enumerate(EXAMPLE_PAIRS):
-        for variation, (markup, translation, prompt, choices, correct, feedback) in enumerate(pair):
-            sid = sentence(markup, translation, feedback)
-            exercises.append(dict(id=f"e{index + 1:03d}{'b' if variation else 'a'}",
-                                  targetID=f"g{index + 1:03d}", sentenceID=sid,
-                                  prompt=prompt, choices=choices, answerIndex=correct,
-                                  explanation=feedback, hint=GRAMMAR[index][2], transfer=variation == 1))
-    readings = []
-    for index, (title, genre, level, lines, question, choices, correct, feedback) in enumerate(READINGS):
-        readings.append(dict(id=f"r{index + 1:03d}", title=title, genre=genre, level=level,
-                             sentenceIDs=[sentence(*line) for line in lines], question=question,
-                             choices=choices, answerIndex=correct, explanation=feedback))
-    # Old sentence IDs are already allocated. All expanded material is appended below.
-    for index, pair in enumerate(EXTRA_EXAMPLES):
-        for variation, (markup, translation, prompt, choices, correct, feedback) in enumerate(pair):
-            sid = sentence(markup, translation, feedback)
-            exercises.append(dict(id=f"e{index + 1:03d}{'cd'[variation]}", targetID=f"g{index + 1:03d}",
-                                  sentenceID=sid, prompt=prompt, choices=choices, answerIndex=correct,
-                                  explanation=feedback, hint=GRAMMAR[index][2], transfer=True))
-    def vocabulary(words):
-        return [dict(text=word, itemID=word_by_text.get(word)) for word in words.split()]
-    for reading, words, grammar in zip(readings, ORIGINAL_READING_WORDS, ORIGINAL_READING_GRAMMAR):
-        reading.update(vocabulary=vocabulary(words), grammarIDs=grammar)
-    for title, genre, level, lines, question, choices, correct, feedback, words, grammar in EXTRA_READINGS:
-        readings.append(dict(id=f"r{len(readings) + 1:03d}", title=title, genre=genre, level=level,
-                             sentenceIDs=[sentence(*line) for line in lines], question=question,
-                             choices=choices, answerIndex=correct, explanation=feedback,
-                             vocabulary=vocabulary(words), grammarIDs=grammar))
-    lessons = []
-    for index, (title, subtitle, grammar_indices) in enumerate(LESSON_TITLES + [
-        ("长文前的词汇准备", "补充时间、数量与关系表达", [6, 7]),
-        ("叙事与篇章整合", "结合上下文恢复人物和前后关系", [18, 19]),
-    ]):
-        related = [e for e in exercises if int(e["targetID"][1:]) - 1 in grammar_indices]
-        lessons.append(dict(id=f"l{index + 1:03d}", title=title, subtitle=subtitle,
-                            level="N5" if index < 7 else "N4",
-                            itemIDs=groups[index] + [f"g{g + 1:03d}" for g in grammar_indices],
-                            sentenceIDs=[e["sentenceID"] for e in related],
-                            exerciseIDs=[e["id"] for e in related],
-                            readingID=("r022" if index == 12 else "r024") if index >= 12 else
-                            (f"r{(index + 1) // 2:03d}" if index % 2 else None)))
-    stages = [
-        ("n5", "基础 · 约 N5", "读音补强、助词与基本句法，从简短叙述开始。", 1000, 60),
-        ("n4", "初级 · 约 N4", "连接句子，理解活用、授受、敬语与省略。", 1000, 80),
-        ("n3", "中级 · 约 N3", "逐步读懂较长句段、口语缩略与复合表达。", 1500, 120),
-        ("n2", "中高级 · 约 N2", "复杂修饰、书面语、论述结构与多文体阅读。", 2500, 140),
-    ]
-    return dict(schemaVersion=1, id="foundation", version="0.3.0", title="日语阅读基础篇",
-                notice="目前提供 14 个基础单元、182 个词、80 道结构题与 24 篇阅读。完整 N5–N2 课程将分批补充，内容尚待独立日语审校。",
-                references=[
-                    dict(id="jmdict", title="JMdict：核对词形、读音与词义", url="https://www.edrdg.org/jmdict/j_jmdict.html"),
-                    dict(id="irodori", title="国際交流基金：いろどり", url="https://www.irodori.jpf.go.jp/"),
-                    dict(id="taekim", title="Tae Kim：日语语法指南", url="https://guidetojapanese.org/learn/grammar"),
-                ],
-                stages=[dict(id=s[0], title=s[1], summary=s[2], vocabularyTarget=s[3], grammarTarget=s[4], readingTarget=30) for s in stages],
-                items=items, sentences=sentences, exercises=exercises, lessons=lessons, readings=readings)
+def validate(pack):
+    groups = {}
+    for key in COLLECTIONS:
+        records = pack[key]
+        groups[key] = {r["id"]: r for r in records}
+        if len(groups[key]) != len(records): raise ValueError(f"Duplicate IDs in {key}")
+    references = {r["id"]: r for r in pack["references"]}
+    for key in COLLECTIONS:
+        for record in pack[key]:
+            for c in record.get("citations", []):
+                assert c["sourceID"] in references and c["locator"], c
+                assert c["status"] in {"reference", "adapted", "translated", "sourceChecked", "original"}, c
+    for reading in pack["readings"]:
+        assert reading["sentenceIDs"] and set(reading["sentenceIDs"]) <= groups["sentences"].keys()
+        for question in reading.get("questions", []):
+            assert 2 <= len(question["choices"]) <= 4
+            assert len(set(question["choices"])) == len(question["choices"])
+            assert question["answerIndex"] in range(len(question["choices"]))
+            assert question["evidenceSentenceIDs"] and set(question["evidenceSentenceIDs"]) <= set(reading["sentenceIDs"])
+        if "paragraphs" in reading:
+            assert [sid for p in reading["paragraphs"] for sid in p["sentenceIDs"]] == reading["sentenceIDs"]
+            assert [w for p in reading["paragraphs"] for w in p["vocabulary"]] == reading["vocabulary"]
+    for key in ("items", "lessons"):
+        visited, active = set(), set()
+        def visit(identifier):
+            if identifier in active: raise ValueError(f"Prerequisite cycle: {identifier}")
+            if identifier in visited: return
+            active.add(identifier)
+            for required in groups[key][identifier].get("prerequisiteIDs", []): visit(required)
+            active.remove(identifier); visited.add(identifier)
+        for identifier in groups[key]: visit(identifier)
+
+
+def report(pack):
+    return {"version": pack["version"], "words": sum(i["kind"] == "word" for i in pack["items"]),
+            "knowledgePoints": sum(i["kind"] == "grammar" for i in pack["items"]),
+            "exercises": len(pack["exercises"]), "readings": len(pack["readings"]),
+            "assessments": sum(r.get("purpose") == "assessment" for r in pack["readings"]),
+            "introModules": len(pack["introModules"]),
+            "independentlyReviewed": sum(i["status"] == "reviewed" for i in pack["items"])}
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
-    output = json.dumps(make_pack(), ensure_ascii=False, indent=2) + "\n"
+    pack = make_pack()
+    output = json.dumps(pack, ensure_ascii=False, indent=2) + "\n"
     if args.check:
-        if not OUTPUT.exists() or OUTPUT.read_text() != output:
-            raise SystemExit("Generated course is stale; run python3 scripts/build_content.py")
-        print("Content resource matches authoring source.")
-    else:
-        OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-        OUTPUT.write_text(output)
-        print(f"Wrote {OUTPUT.relative_to(ROOT)}")
+        if not OUTPUT.exists() or OUTPUT.read_text() != output: raise SystemExit("Generated course is stale; run python3 scripts/build_content.py")
+    else: OUTPUT.write_text(output)
+    print(json.dumps(report(pack), ensure_ascii=False))
 
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": main()

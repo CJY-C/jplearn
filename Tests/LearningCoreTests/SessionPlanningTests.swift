@@ -43,13 +43,14 @@ final class SessionPlanningTests: XCTestCase {
         let pack = try ContentPack.bundled()
         var history = prepared(pack)
         var seen = Set<String>()
-        for _ in pack.readings {
+        let practiceReadings = pack.readings.filter { $0.purpose != "assessment" }
+        for _ in practiceReadings {
             let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now)
             let id = try XCTUnwrap(readingIDs(tasks).first)
             XCTAssertTrue(seen.insert(id).inserted)
             history.append(attempt(id))
         }
-        XCTAssertEqual(seen.count, 24)
+        XCTAssertEqual(seen.count, practiceReadings.count)
         XCTAssertTrue(try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now).isEmpty)
     }
 

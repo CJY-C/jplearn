@@ -89,13 +89,18 @@ struct ItemDetailView: View {
                     model.perform { try model.saveNote(note, for: item.id); saved = true }
                 }.disabled(note == model.snapshot.note(item.id))
             }
-            let examples = model.pack.sentences.filter { $0.segments.contains { $0.itemID == item.id } }
+            let examples = item.exampleSentenceIDs?.compactMap { model.pack.sentence($0) } ??
+                model.pack.sentences.filter { $0.segments.contains { $0.itemID == item.id } }
             if !examples.isEmpty {
                 Section(header: Text("例句")) { ForEach(Array(examples.prefix(3))) { SentenceView(sentence: $0) } }
             }
             Section(header: Text("参考资料")) {
+                if let excerpt = item.referenceExcerpt {
+                    DisclosureGroup("教材原文对照") { Text(excerpt).font(.footnote).textSelection(.enabled) }
+                }
+                CitationRows(citations: item.citations ?? [])
                 ForEach(model.pack.references.filter { item.sourceIDs.contains($0.id) }) { reference in
-                    if let url = URL(string: reference.url) { Link(reference.title, destination: url) }
+                    NavigationLink(reference.title, destination: SourceDetailView(reference: reference))
                 }
                 Text(item.status == "trial" ? "个人试用内容，可在笔记中记录疑问。" : "已核对内容")
                     .font(.caption).foregroundColor(.secondary)
@@ -118,5 +123,39 @@ struct ItemDetailView: View {
         let text = item.kind == "word" ? item.reading : (sample?.speechText ?? sample?.text ?? "")
         guard !text.isEmpty else { return }
         model.perform { try model.speech.speak(text, slow: slow, voiceID: voiceID) }
+    }
+}
+
+struct CitationRows: View {
+    @EnvironmentObject private var model: AppModel
+    let citations: [ContentCitation]
+    var body: some View {
+        ForEach(Array(citations.enumerated()), id: \.offset) { _, citation in
+            if let source = model.pack.references.first(where: { $0.id == citation.sourceID }) {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(source.title).font(.caption.weight(.medium))
+                    Text(citation.locator).font(.caption).foregroundColor(.secondary)
+                    Text(citation.status == "sourceChecked" ? "出处已对齐；不代表专业审校" : "项目整理，未独立语言审校")
+                        .font(.caption2).foregroundColor(.secondary)
+                }
+            }
+        }
+    }
+}
+
+struct SourceDetailView: View {
+    let reference: Reference
+    var body: some View {
+        List {
+            Section { Text(reference.title) }
+            if let attribution = reference.attribution { Section(header: Text("署名与使用说明")) { Text(attribution) } }
+            if let license = reference.license {
+                Section(header: Text("许可")) {
+                    Text(license)
+                    if let text = reference.licenseURL, let url = URL(string: text) { Link("查看许可条款", destination: url) }
+                }
+            }
+            if let url = URL(string: reference.url) { Section { Link("原始来源", destination: url) } }
+        }.navigationTitle("内容来源").navigationBarTitleDisplayMode(.inline)
     }
 }

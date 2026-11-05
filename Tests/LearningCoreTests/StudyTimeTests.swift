@@ -75,7 +75,7 @@ final class StudyTimeTests: XCTestCase {
         let original = event(start: date, seconds: 17.125)
         let data = try ArchiveCodec.encode(ExchangeArchive(events: [original], contentVersion: "test"))
         let decoded = try ArchiveCodec.decode(data)
-        XCTAssertEqual(decoded.schemaVersion, 2)
+        XCTAssertEqual(decoded.schemaVersion, 3)
         XCTAssertEqual(decoded.events, [original])
         XCTAssertEqual(StudyTime.seconds(events: decoded.events), 17.125, accuracy: 0.001)
     }

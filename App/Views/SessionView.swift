@@ -126,10 +126,8 @@ struct SessionView: View {
             } else { missing }
         case .reading(let id):
             if let reading = model.pack.readings.first(where: { $0.id == id }) {
-                ReadingCard(reading: reading, previouslyAssisted: assisted,
-                            onAssistance: { assist(entry) }, onSelection: { record(entry, $0, $1) }) {
-                    answer(entry, $0, $1)
-                }
+                ReadingCard(reading: reading, entryID: entry.id, previouslyAssisted: assisted,
+                            onAssistance: { assist(entry) })
             } else { missing }
         }
     }
@@ -319,15 +317,16 @@ private struct StructureCard: View {
 private struct ReadingCard: View {
     @EnvironmentObject private var model: AppModel
     let reading: ReadingPassage
+    let entryID: UUID
     let previouslyAssisted: Bool
     let onAssistance: () -> Void
-    let onSelection: (Int, Bool) -> Void
-    let onAnswer: (Int, Bool) -> Void
     @State private var assisted = false
     @State private var showReading = false
     @State private var selected: KnowledgeItem?
     @State private var choice: Int?
     private var usedHelp: Bool { assisted || previouslyAssisted }
+    private var index: Int { model.checkpoint?.questionIndex ?? 0 }
+    private var question: ReadingQuestion { reading.allQuestions[min(index, reading.allQuestions.count - 1)] }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -340,7 +339,7 @@ private struct ReadingCard: View {
                 }.buttonStyle(StudyQuietButtonStyle())
                 LookupMenu(sentenceIDs: reading.sentenceIDs) { lookup($0) }
             }.padding(.horizontal, 18).padding(.bottom, 8)
-            let readiness = ReadingReadiness.assess(reading, pack: model.pack, events: model.events)
+            let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
             Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
                 .font(.caption).foregroundColor(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
@@ -358,22 +357,26 @@ private struct ReadingCard: View {
             VStack(spacing: 0) {
                 Divider().opacity(0.55)
                 VStack(alignment: .leading, spacing: 12) {
-                    Text(reading.question).font(.headline).fixedSize(horizontal: false, vertical: true)
+                    if reading.allQuestions.count > 1 {
+                        Text("理解 \(index + 1) / \(reading.allQuestions.count)").font(.caption).foregroundColor(.secondary)
+                    }
+                    Text(question.prompt).font(.headline).fixedSize(horizontal: false, vertical: true)
                     if let choice = choice {
-                        AnswerFeedback(correct: choice == reading.answerIndex,
-                                       answer: reading.choices[reading.answerIndex], explanation: reading.explanation)
-                        Button("继续") { onAnswer(choice == reading.answerIndex ? 3 : 1, usedHelp) }
+                        AnswerFeedback(correct: choice == question.answerIndex,
+                                       answer: question.choices[question.answerIndex], explanation: question.explanation)
+                        Button("继续") { model.perform { try model.advanceReadingQuestion(entryID: entryID, questionID: question.id) } }
                             .buttonStyle(StudyPrimaryButtonStyle()).accessibilityIdentifier("study.continue")
                     } else {
-                        ChoiceAnswers(choices: reading.choices) { index in
-                            choice = index
-                            onSelection(index == reading.answerIndex ? 3 : 1, usedHelp)
+                        ChoiceAnswers(choices: question.choices) { selection in
+                            model.perform { try model.recordReadingSelection(entryID: entryID, questionID: question.id, selection: selection, assisted: usedHelp) }
+                            if model.errorMessage == nil { choice = selection }
                         }
                     }
                 }.padding(.horizontal, 18).padding(.vertical, 12)
             }.background(Color(UIColor.systemBackground))
         }
         .sheet(item: $selected) { item in NavigationView { ItemDetailView(item: item) }.navigationViewStyle(.stack) }
+        .onChange(of: index) { _ in choice = nil }
     }
     private func lookup(_ id: String) {
         if choice == nil { onAssistance(); assisted = true }
@@ -398,7 +401,7 @@ private struct LookupMenu: View {
     }
 }
 
-private struct ChoiceAnswers: View {
+struct ChoiceAnswers: View {
     let choices: [String]
     let onSelect: (Int) -> Void
     var body: some View {
@@ -421,7 +424,7 @@ private struct ChoiceAnswers: View {
     }
 }
 
-private struct AnswerFeedback: View {
+struct AnswerFeedback: View {
     let correct: Bool
     let answer: String
     let explanation: String

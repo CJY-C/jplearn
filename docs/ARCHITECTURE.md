@@ -38,7 +38,7 @@ Checkpoint 只在本机保存。同步的是学习记录，另一台设备可以
 
 ## 备份与目录交换
 
-`.jplearnbackup` 和 `.jplearnsync` 均采用同一封装：JSON 包含 SHA-256 校验值和 Base64 编码的原始 payload。校验针对精确字节；payload 包含格式标识 `dev.jplearn.events`、schema version 2、课程版本、创建时间及事件。读取时兼容 version 1；旧版客户端须更新后才能接收新格式。
+`.jplearnbackup` 和 `.jplearnsync` 均采用同一封装：JSON 包含 SHA-256 校验值和 Base64 编码的原始 payload。校验针对精确字节；payload 包含格式标识 `dev.jplearn.events`、schema version 3、课程版本、创建时间及事件。读取时兼容 version 1、2；旧版客户端须更新后才能接收新格式。
 
 目录交换过程：
 
@@ -57,3 +57,11 @@ Checkpoint 只在本机保存。同步的是学习记录，另一台设备可以
 首次实现没有 CloudKit 容器或开发者账号要求。发布自有 CloudKit 后端属于独立迁移，不能复用其他应用的容器身份。
 
 固定 Bundle ID 以保留侧载更新的数据。切换 Bundle ID 会产生独立安装，应通过备份迁移。更改调度参数前为新的事件定义 scheduler version，并保留历史版本的重放路径。
+
+## 0.4.0 内容与题组
+
+课程 schema 2 向后读取 schema 1。知识项记录前置、例句和出处；练习可指定 meaning 或 grammar；旧练习默认为 grammar。旧阅读单题包装成一题组。新 reading.questions 带稳定 ID、证据句和能力标签；checkpoint.questionIndex 可选，兼容旧 checkpoint。
+
+questionAttempt 以当前 entry UUID 为 contextID、questionID 为 targetID，保存选项和是否自主答对；整篇题组完成后才写以 entry UUID 为 ID 的 readingAttempt。重启时依次跳过已保存题目，最后一题提交与位置保存之间退出也可完成恢复。placement 只表示入门诊断结果，不参与 FSRS 重放。
+
+索引在读取课程时构建；阅读知识快照仅在复习记录改变时重建。普通计时写入不重放 FSRS，学习安排按 30 秒、剩余预算与新词设置缓存。

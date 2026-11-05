@@ -14,17 +14,23 @@ import LearningCore
     @Published var isSyncing = false
     @Published var syncMessage = "尚未选择同步文件夹"
     @Published var folderName: String
+    private var cachedPlanKey: String?
+    private var cachedPlan: [SessionTask] = []
+    private var cachedDueCount = 0
+    private(set) var readingKnowledge = ReadingKnowledge(events: [])
+
+    var dueCount: Int { cachedDueCount }
 
     var snapshot: LearningSnapshot { LearningSnapshot(events: events) }
 
-    init() throws {
+    init(storageDirectory: URL? = nil) throws {
         pack = try ContentPack.bundled()
         let defaults = UserDefaults.standard
         if let value = defaults.string(forKey: "deviceID"), let id = UUID(uuidString: value) { deviceID = id }
         else { let generated = UUID(); deviceID = generated; defaults.set(generated.uuidString, forKey: "deviceID") }
         let directory = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask,
                                                     appropriateFor: nil, create: true)
-        var dataDirectory = directory.appendingPathComponent("JPLearn", isDirectory: true)
+        var dataDirectory = storageDirectory ?? directory.appendingPathComponent("JPLearn", isDirectory: true)
         #if DEBUG
         if let testID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"], UUID(uuidString: testID) != nil {
             dataDirectory = directory.appendingPathComponent("JPLearn-UITests-" + testID, isDirectory: true)
@@ -70,13 +76,16 @@ import LearningCore
         #if DEBUG
         if ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_LONG_READING"] == "1",
            ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil, checkpoint == nil {
-            let fixture = SessionCheckpoint(tasks: [.reading("r024")])
+            let readingID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_READING_ID"] ?? "r024"
+            let fixture = SessionCheckpoint(tasks: [.reading(readingID)])
             try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
             checkpoint = fixture
         }
         #endif
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
+        readingKnowledge = ReadingKnowledge(events: loadedEvents)
+        cachedDueCount = (try? ReviewScheduler().dueKeys(events: loadedEvents, pack: pack).count) ?? 0
         studyClock.onInterval = { [weak self] id, interval in
             guard let self = self else { throw LearningError.invalid("暂时无法保存学习时间。") }
             try self.append([LearningEvent(deviceID: self.deviceID, timestamp: interval.end, kind: .studyTime,
@@ -92,8 +101,15 @@ import LearningCore
     func append(_ incoming: [LearningEvent]) throws {
         // Validate scheduler replay before the store transaction, including imported records.
         let merged = try EventMerge.merge(events, incoming)
-        try ReviewScheduler().validateHistory(merged)
+        if incoming.contains(where: { $0.kind == .review }) { try ReviewScheduler().validateHistory(merged) }
         events = try store.append(incoming, existing: events)
+        if incoming.contains(where: { [.review, .readingAttempt, .placement, .lessonCompleted].contains($0.kind) }) {
+            cachedPlanKey = nil
+            if incoming.contains(where: { $0.kind == .review }) {
+                readingKnowledge = ReadingKnowledge(events: events)
+                cachedDueCount = try ReviewScheduler().dueKeys(events: events, pack: pack).count
+            }
+        }
     }
 
     func startToday(minutes: Int) throws {
@@ -107,7 +123,11 @@ import LearningCore
         let remaining = StudyTime.remainingSeconds(targetMinutes: minutes, studiedSeconds: StudyTime.today(events: events))
         let plannedMinutes = remaining > 0 ? max(1, Int(ceil(remaining / 60))) : minutes
         let limit = newWordLimit ?? (UserDefaults.standard.object(forKey: "dailyNewWords") as? Int ?? 10)
-        return try SessionPlanner.make(pack: pack, events: events, minutes: plannedMinutes, newWordLimit: limit)
+        let key = "\(Int(Date().timeIntervalSince1970 / 30)):\(plannedMinutes):\(limit)"
+        if cachedPlanKey == key { return cachedPlan }
+        let result = try SessionPlanner.make(pack: pack, events: events, minutes: plannedMinutes, newWordLimit: limit)
+        cachedPlan = result; cachedPlanKey = key
+        return result
     }
 
     func canStartToday(minutes: Int, newWordLimit: Int? = nil) -> Bool {
@@ -117,6 +137,17 @@ import LearningCore
     func resumeSession() throws {
         guard var current = checkpoint else { return }
         current.recover(recordedIDs: Set(events.map(\.id)))
+        if let entry = current.current, case .reading(let id) = entry.task,
+           let reading = pack.readings.first(where: { $0.id == id }) {
+            let answered = Set(events.filter { $0.kind == .questionAttempt && $0.contextID == entry.id.uuidString }.map(\.targetID))
+            let index = reading.allQuestions.prefix { answered.contains($0.id) }.count
+            current.questionIndex = index
+            if index == reading.allQuestions.count {
+                try completeReading(entry: entry, reading: reading)
+                current.recover(recordedIDs: Set(events.map(\.id)))
+                current.questionIndex = nil
+            }
+        }
         current.removeUnavailableReadings(pack: pack, events: events)
         try saveCheckpoint(current)
     }
@@ -162,7 +193,7 @@ import LearningCore
             case .exercise(let id):
                 guard let exercise = pack.exercise(id) else { throw LearningError.invalid("练习内容缺失。") }
                 event = LearningEvent(id: entryID, deviceID: deviceID, kind: .review, targetID: exercise.targetID,
-                                      skill: .grammar, rating: rating, assisted: wasAssisted)
+                                      skill: exercise.skill ?? .grammar, rating: rating, assisted: wasAssisted)
             case .reading(let id):
                 event = LearningEvent(id: entryID, deviceID: deviceID, kind: .readingAttempt, targetID: id,
                                       assisted: wasAssisted, value: rating > 1 && !wasAssisted ? "correct" : "incorrect")
@@ -176,10 +207,63 @@ import LearningCore
         try recordAnswer(entryID: entryID, rating: rating, assisted: assisted)
         guard var next = checkpoint else { return }
         next.index += 1
+        next.questionIndex = nil
         next.removeUnavailableReadings(pack: pack, events: events)
         try saveCheckpoint(next)
         if next.current == nil { try studyClock.setVisible(false) }
         if next.index % 5 == 0 { Task { await sync() } }
+    }
+
+    func recordReadingSelection(entryID: UUID, questionID: String, selection: Int, assisted: Bool) throws {
+        guard let checkpoint = checkpoint, let entry = checkpoint.current, entry.id == entryID,
+              case .reading(let id) = entry.task, let reading = pack.readings.first(where: { $0.id == id }),
+              reading.allQuestions.indices.contains(checkpoint.questionIndex ?? 0) else { return }
+        let question = reading.allQuestions[checkpoint.questionIndex ?? 0]
+        guard question.id == questionID, question.choices.indices.contains(selection) else { return }
+        guard !events.contains(where: { $0.kind == .questionAttempt && $0.contextID == entryID.uuidString && $0.targetID == questionID }) else { return }
+        try studyClock.flush()
+        let help = assisted || checkpoint.assistedEntryIDs.contains(entryID)
+        try append([LearningEvent(deviceID: deviceID, kind: .questionAttempt, targetID: questionID,
+            assisted: help, value: String(selection), contextID: entryID.uuidString,
+            correct: selection == question.answerIndex && !help)])
+    }
+
+    func advanceReadingQuestion(entryID: UUID, questionID: String) throws {
+        guard var current = checkpoint, let entry = current.current, entry.id == entryID,
+              case .reading(let id) = entry.task, let reading = pack.readings.first(where: { $0.id == id }) else { return }
+        let index = current.questionIndex ?? 0
+        guard reading.allQuestions.indices.contains(index), reading.allQuestions[index].id == questionID,
+              events.contains(where: { $0.kind == .questionAttempt && $0.contextID == entryID.uuidString && $0.targetID == questionID }) else { return }
+        if index + 1 < reading.allQuestions.count {
+            current.questionIndex = index + 1
+        } else {
+            try completeReading(entry: entry, reading: reading)
+            current.index += 1; current.questionIndex = nil
+        }
+        try saveCheckpoint(current)
+        if current.current == nil { try studyClock.setVisible(false) }
+    }
+
+    private func completeReading(entry: SessionEntry, reading: ReadingPassage) throws {
+        guard !events.contains(where: { $0.id == entry.id }) else { return }
+        let attempts = events.filter { $0.kind == .questionAttempt && $0.contextID == entry.id.uuidString }
+        let correct = reading.allQuestions.allSatisfy { question in
+            attempts.contains { $0.targetID == question.id && $0.correct == true && !$0.assisted }
+        }
+        try append([LearningEvent(id: entry.id, deviceID: deviceID, kind: .readingAttempt,
+            targetID: reading.id, assisted: attempts.contains { $0.assisted }, value: correct ? "correct" : "incorrect")])
+    }
+
+    func recordPlacement(moduleID: String, passed: Bool) throws {
+        try append([LearningEvent(deviceID: deviceID, kind: .placement, targetID: moduleID, value: passed ? "passed" : "review")])
+    }
+
+    func startAssessment(_ reading: ReadingPassage) throws {
+        guard checkpoint == nil else { throw LearningError.invalid("请先继续或结束上一次练习。") }
+        guard reading.purpose == "assessment", !events.contains(where: { $0.kind == .readingAttempt && $0.targetID == reading.id }) else {
+            throw LearningError.invalid("这篇材料已检测过，请选择其他未见材料。")
+        }
+        try saveCheckpoint(SessionCheckpoint(tasks: [.reading(reading.id)]))
     }
 
     func finishSession() throws {

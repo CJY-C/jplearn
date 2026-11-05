@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "id": "foundation",
+  "version": "0.4.0",
+  "title": "日语阅读基础篇",
+  "notice": "按教材来源组织的基础课程首批。N5–N2 完整课程分批补充；中文整理与原创练习尚未独立日语审校。",
+  "references": [
+    {
+      "id": "jmdict",
+      "title": "JMdict：核对词形、读音与词义",
+      "url": "https://www.edrdg.org/jmdict/j_jmdict.html",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://www.edrdg.org/edrdg/licence.html",
+      "attribution": "JMdict / EDRDG；本版仅作为核对入口，未打包完整词典。"
+    },
+    {
+      "id": "irodori",
+      "title": "国際交流基金：いろどり",
+      "url": "https://www.irodori.jpf.go.jp/"
+    },
+    {
+      "id": "taekim",
+      "title": "Tae Kim：日语语法指南",
+      "url": "https://guidetojapanese.org/learn/series/grammar-guide/",
+      "license": "CC BY-NC-SA 3.0 US",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+      "attribution": "Tae Kim, A Japanese Guide to Japanese Grammar. 中文整理及练习另行编写，未获作者背书。"
+    },
+    {
+      "id": "project",
+      "title": "日语拾阶：原创练习与中文整理",
+      "url": "https://github.com/CJY-C/jplearn",
+      "license": "CC BY-NC-SA 3.0 US",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+      "attribution": "日语拾阶；中文翻译和新增练习尚未独立语言审校。"
+    },
+    {
+      "id": "pdx",
+      "title": "Emiko Konomi: Beginning Japanese for Professionals",
+      "url": "https://pdxscholar.library.pdx.edu/pdxopen/6/",
+      "license": "CC BY-NC 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "attribution": "Emiko Konomi / Portland State University Library；参考材料，未复制插图或音频。"
+    },
+    {
+      "id": "tadoku",
+      "title": "たどくのひろば：分级阅读",
+      "url": "https://tadoku.info/tadokutoha/",
+      "license": "按作品许可",
+      "licenseURL": "https://tadoku.info/tadokutoha/",
+      "attribution": "仅参考入口；没有许可记录的作品不会打包。"
+    }
+  ],
+  "stages": [
+    {
+      "id": "n5",
+      "title": "基础 · 约 N5",
+      "summary": "读音补强、助词与基本句法，从简短叙述开始。",
+      "vocabularyTarget": 1000,
+      "grammarTarget": 60,
+      "readingTarget": 80
+    },
+    {
+      "id": "n4",
+      "title": "初级 · 约 N4",
+      "summary": "连接句子，理解活用、授受、敬语与省略。",
+      "vocabularyTarget": 1000,
+      "grammarTarget": 80,
+      "readingTarget": 100
+    },
+    {
+      "id": "n3",
+      "title": "中级 · 约 N3",
+      "summary": "逐步读懂较长句段、口语缩略与复合表达。",
+      "vocabularyTarget": 1500,
+      "grammarTarget": 120,
+      "readingTarget": 120
+    },
+    {
+      "id": "n2",
+      "title": "中高级 · 约 N2",
+      "summary": "复杂修饰、书面语、论述结构与多文体阅读。",
+      "vocabularyTarget": 2500,
+      "grammarTarget": 140,
+      "readingTarget": 140
+    }
+  ]
+}

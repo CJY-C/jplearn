@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "id": "taekim",
+      "url": "https://www.guidetojapanese.org/jp_grammar_guide.pdf",
+      "sha256": "aa9855310ad7769c1282f14f4467d30c80205f1b1af274e8a9a2cd87da835db9",
+      "license": "CC BY-NC-SA 3.0 US",
+      "retrieved": "2026-11-05",
+      "usage": "章节核对与改编依据；中文和新增题目为项目整理"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "foundation-1",
+      "words": 300,
+      "knowledgePoints": 30,
+      "readings": 40
+    },
+    {
+      "id": "n5",
+      "words": 1000,
+      "knowledgePoints": 60,
+      "readings": 80
+    },
+    {
+      "id": "n4",
+      "words": 2000,
+      "knowledgePoints": 140,
+      "readings": 180
+    },
+    {
+      "id": "n3",
+      "words": 3500,
+      "knowledgePoints": 260,
+      "readings": 300
+    },
+    {
+      "id": "n2",
+      "words": 6000,
+      "knowledgePoints": 400,
+      "readings": 440
+    }
+  ]
+}

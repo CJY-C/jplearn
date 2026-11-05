@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "e001a",
+    "targetID": "g001",
+    "sentenceID": "s001",
+    "prompt": "这句话围绕什么展开？",
+    "choices": [
+      "今天的安排",
+      "学校的名字",
+      "昨天的天气"
+    ],
+    "answerIndex": 0,
+    "explanation": "「今日は」把今天作为话题，后面说明今天的安排。",
+    "hint": "说明接下来谈论什么",
+    "transfer": false
+  },
+  {
+    "id": "e001b",
+    "targetID": "g001",
+    "sentenceID": "s002",
+    "prompt": "后半句说明了什么？",
+    "choices": [
+      "图书馆的位置",
+      "图书馆很安静",
+      "图书馆的开放时间"
+    ],
+    "answerIndex": 1,
+    "explanation": "「図書館は」提示话题，「静かです」说明它的状态。",
+    "hint": "说明接下来谈论什么",
+    "transfer": true
+  },
+  {
+    "id": "e002a",
+    "targetID": "g002",
+    "sentenceID": "s003",
+    "prompt": "这里的书与谁有关？",
+    "choices": [
+      "老师",
+      "学生",
+      "朋友"
+    ],
+    "answerIndex": 0,
+    "explanation": "「先生の本」中，中心名词是书，「先生の」说明所属。",
+    "hint": "连接名词，表示所属等关系",
+    "transfer": false
+  },
+  {
+    "id": "e002b",
+    "targetID": "g002",
+    "sentenceID": "s004",
+    "prompt": "「私の友達」的中心是什么？",
+    "choices": [
+      "我",
+      "朋友",
+      "那边"
+    ],
+    "answerIndex": 1,
+    "explanation": "中心是「友達」；「私の」说明是谁的朋友。",
+    "hint": "连接名词，表示所属等关系",
+    "transfer": true
+  },
+  {
+    "id": "e003a",
+    "targetID": "g003",
+    "sentenceID": "s005",
+    "prompt": "「読む」的对象是什么？",
+    "choices": [
+      "我",
+      "书",
+      "朋友"
+    ],
+    "answerIndex": 1,
+    "explanation": "「本を」标记读的对象。",
+    "hint": "标记动作直接涉及的对象",
+    "transfer": false
+  },
+  {
+    "id": "e003b",
+    "targetID": "g003",
+    "sentenceID": "s006",
+    "prompt": "朋友在写什么？",
+    "choices": [
+      "信",
+      "名字",
+      "报纸"
+    ],
+    "answerIndex": 0,
+    "explanation": "「手紙を」标记写的对象，不是写信的人。",
+    "hint": "标记动作直接涉及的对象",
+    "transfer": true
+  },
+  {
+    "id": "e004a",
+    "targetID": "g004",
+    "sentenceID": "s007",
+    "prompt": "这里「駅に」表示什么？",
+    "choices": [
+      "动作的对象",
+      "去的目的地",
+      "出发时间"
+    ],
+    "answerIndex": 1,
+    "explanation": "「行く」前面的「駅に」表示目的地。",
+    "hint": "根据搭配判断时间点、目的地或方向",
+    "transfer": false
+  },
+  {
+    "id": "e004b",
+    "targetID": "g004",
+    "sentenceID": "s008",
+    "prompt": "这里的「へ」怎么理解？",
+    "choices": [
+      "去学校的方向",
+      "从学校回来",
+      "在学校读书"
+    ],
+    "answerIndex": 0,
+    "explanation": "方向助词「へ」读「え」，这里表示去学校。",
+    "hint": "根据搭配判断时间点、目的地或方向",
+    "transfer": true
+  },
+  {
+    "id": "e005a",
+    "targetID": "g005",
+    "sentenceID": "s009",
+    "prompt": "「新しい」说明哪个词？",
+    "choices": [
+      "书",
+      "购买的人",
+      "昨天"
+    ],
+    "answerIndex": 0,
+    "explanation": "い形容词「新しい」直接修饰「本」。",
+    "hint": "区分い形容词与な形容词",
+    "transfer": false
+  },
+  {
+    "id": "e005b",
+    "targetID": "g005",
+    "sentenceID": "s010",
+    "prompt": "为什么这里用「静かな」？",
+    "choices": [
+      "因为它是动词",
+      "な形容词在名词前用な连接",
+      "表示过去"
+    ],
+    "answerIndex": 1,
+    "explanation": "「静か」修饰名词「部屋」时使用「な」。",
+    "hint": "区分い形容词与な形容词",
+    "transfer": true
+  },
+  {
+    "id": "e006a",
+    "targetID": "g006",
+    "sentenceID": "s011",
+    "prompt": "什么东西在哪里？",
+    "choices": [
+      "书在桌子上",
+      "桌子在书上",
+      "人在桌子上"
+    ],
+    "answerIndex": 0,
+    "explanation": "「机の上に」是位置，「本が」是存在的事物。",
+    "hint": "结合位置判断谁或什么在哪里",
+    "transfer": false
+  },
+  {
+    "id": "e006b",
+    "targetID": "g006",
+    "sentenceID": "s012",
+    "prompt": "这里为何使用「いる」？",
+    "choices": [
+      "描述人的存在",
+      "描述书的价格",
+      "表示移动方向"
+    ],
+    "answerIndex": 0,
+    "explanation": "老师是人，典型的人物存在表达使用「いる」。",
+    "hint": "结合位置判断谁或什么在哪里",
+    "transfer": true
+  },
+  {
+    "id": "e007a",
+    "targetID": "g007",
+    "sentenceID": "s013",
+    "prompt": "「読んだ」的原形是什么？",
+    "choices": [
+      "読む",
+      "読める",
+      "書く"
+    ],
+    "answerIndex": 0,
+    "explanation": "「読む」的过去形是「読んだ」。",
+    "hint": "识别已经发生的动作",
+    "transfer": false
+  },
+  {
+    "id": "e007b",
+    "targetID": "g007",
+    "sentenceID": "s014",
+    "prompt": "哪部分表明动作已发生？",
+    "choices": [
+      "友達",
+      "駅",
+      "行った"
+    ],
+    "answerIndex": 2,
+    "explanation": "「行く」的过去形是「行った」，需要记住这个音变。",
+    "hint": "识别已经发生的动作",
+    "transfer": true
+  },
+  {
+    "id": "e008a",
+    "targetID": "g008",
+    "sentenceID": "s015",
+    "prompt": "什么东西很有趣？",
+    "choices": [
+      "昨天",
+      "昨天买的书",
+      "买书的人"
+    ],
+    "answerIndex": 1,
+    "explanation": "「昨日買った」修饰后面的中心名词「本」。",
+    "hint": "找到修饰部分后面的中心名词",
+    "transfer": false
+  },
+  {
+    "id": "e008b",
+    "targetID": "g008",
+    "sentenceID": "s016",
+    "prompt": "归还的是什么？",
+    "choices": [
+      "向老师借的书",
+      "老师本人",
+      "借书的时间"
+    ],
+    "answerIndex": 0,
+    "explanation": "「先生に借りた」整体修饰「本」，它是「返した」的对象。",
+    "hint": "找到修饰部分后面的中心名词",
+    "transfer": true
+  },
+  {
+    "id": "e009a",
+    "targetID": "g009",
+    "sentenceID": "s017",
+    "prompt": "这里的动作顺序是什么？",
+    "choices": [
+      "先读书再起床",
+      "起床后读书",
+      "一直没有起床"
+    ],
+    "answerIndex": 1,
+    "explanation": "在这个日常活动语境中，「起きて」连接接下来的阅读。",
+    "hint": "读出动作之间的衔接",
+    "transfer": false
+  },
+  {
+    "id": "e009b",
+    "targetID": "g009",
+    "sentenceID": "s018",
+    "prompt": "这里连接的是哪两个动作？",
+    "choices": [
+      "写信和睡觉",
+      "听和说",
+      "买和借"
+    ],
+    "answerIndex": 0,
+    "explanation": "「書いて」是「書く」的て形，后接过去形「寝た」。",
+    "hint": "读出动作之间的衔接",
+    "transfer": true
+  },
+  {
+    "id": "e010a",
+    "targetID": "g010",
+    "sentenceID": "s019",
+    "prompt": "待在家的原因是什么？",
+    "choices": [
+      "家很远",
+      "下雨",
+      "学校放假"
+    ],
+    "answerIndex": 1,
+    "explanation": "原因出现在「から」之前。",
+    "hint": "区分原因部分和后面的结果",
+    "transfer": false
+  },
+  {
+    "id": "e010b",
+    "targetID": "g010",
+    "sentenceID": "s020",
+    "prompt": "为什么早点睡？",
+    "choices": [
+      "明天有工作",
+      "工作已经结束",
+      "忘记了工作"
+    ],
+    "answerIndex": 0,
+    "explanation": "「明日は仕事があるので」说明后文行为的原因。",
+    "hint": "区分原因部分和后面的结果",
+    "transfer": true
+  },
+  {
+    "id": "e011a",
+    "targetID": "g011",
+    "sentenceID": "s021",
+    "prompt": "谁收到了书？",
+    "choices": [
+      "朋友",
+      "我",
+      "老师"
+    ],
+    "answerIndex": 1,
+    "explanation": "「もらう」以接受者为视角，这里接受者是「私」。",
+    "hint": "辨认给予者、接受者与叙述视角",
+    "transfer": false
+  },
+  {
+    "id": "e011b",
+    "targetID": "g011",
+    "sentenceID": "s022",
+    "prompt": "谁把照片给了谁？",
+    "choices": [
+      "我给朋友",
+      "朋友给我",
+      "老师给朋友"
+    ],
+    "answerIndex": 1,
+    "explanation": "「友達が」是给予者，「私に」是接受者。",
+    "hint": "辨认给予者、接受者与叙述视角",
+    "transfer": true
+  },
+  {
+    "id": "e012a",
+    "targetID": "g012",
+    "sentenceID": "s023",
+    "prompt": "谁进行了教这个动作？",
+    "choices": [
+      "朋友",
+      "说话者",
+      "无法确定是人还是物"
+    ],
+    "answerIndex": 0,
+    "explanation": "说话者得到帮助；「友達に」指出提供教导的人。",
+    "hint": "辨认谁替谁做事",
+    "transfer": false
+  },
+  {
+    "id": "e012b",
+    "targetID": "g012",
+    "sentenceID": "s024",
+    "prompt": "「てくれた」在这里表达什么？",
+    "choices": [
+      "老师忘了地图",
+      "老师做的事使我方受益",
+      "我把地图给老师看"
+    ],
+    "answerIndex": 1,
+    "explanation": "动作主体是老师，叙述者把展示地图描述为对我方有帮助。",
+    "hint": "辨认谁替谁做事",
+    "transfer": true
+  },
+  {
+    "id": "e013a",
+    "targetID": "g013",
+    "sentenceID": "s025",
+    "prompt": "「読める」属于哪一种形式？",
+    "choices": [
+      "过去形",
+      "可能形",
+      "命令形"
+    ],
+    "answerIndex": 1,
+    "explanation": "「読む」的可能形为「読める」。",
+    "hint": "识别能够做某事",
+    "transfer": false
+  },
+  {
+    "id": "e013b",
+    "targetID": "g013",
+    "sentenceID": "s026",
+    "prompt": "这句话表达什么？",
+    "choices": [
+      "写信的能力",
+      "收到了一封信",
+      "写信的命令"
+    ],
+    "answerIndex": 0,
+    "explanation": "「动词原形＋ことができる」表示能够做某事。",
+    "hint": "识别能够做某事",
+    "transfer": true
+  },
+  {
+    "id": "e014a",
+    "targetID": "g014",
+    "sentenceID": "s027",
+    "prompt": "这里是否已经断定会下雨？",
+    "choices": [
+      "是，已经确定",
+      "没有，把下雨作为条件",
+      "是在否认下雨"
+    ],
+    "answerIndex": 1,
+    "explanation": "「たら」在这里引出条件，不能据此断定下雨已发生。",
+    "hint": "结合前后句理解条件",
+    "transfer": false
+  },
+  {
+    "id": "e014b",
+    "targetID": "g014",
+    "sentenceID": "s028",
+    "prompt": "后半句的建议基于什么前提？",
+    "choices": [
+      "打算去图书馆",
+      "图书馆已关门",
+      "已经到家"
+    ],
+    "answerIndex": 0,
+    "explanation": "「行くなら」承接去图书馆这个前提。",
+    "hint": "结合前后句理解条件",
+    "transfer": true
+  },
+  {
+    "id": "e015a",
+    "targetID": "g015",
+    "sentenceID": "s029",
+    "prompt": "尊敬表达描述的是谁？",
+    "choices": [
+      "说话者",
+      "老师",
+      "学校的名字"
+    ],
+    "answerIndex": 1,
+    "explanation": "这里「いらっしゃいます」对应「います」，动作人物是老师。",
+    "hint": "识别应尊敬人物的动作",
+    "transfer": false
+  },
+  {
+    "id": "e015b",
+    "targetID": "g015",
+    "sentenceID": "s030",
+    "prompt": "「おっしゃる」在这里对应什么基本动作？",
+    "choices": [
+      "说",
+      "吃",
+      "借入"
+    ],
+    "answerIndex": 0,
+    "explanation": "「おっしゃる」是「言う」的尊敬表达。",
+    "hint": "识别应尊敬人物的动作",
+    "transfer": true
+  },
+  {
+    "id": "e016a",
+    "targetID": "g016",
+    "sentenceID": "s031",
+    "prompt": "谁要去拜访？",
+    "choices": [
+      "老师来拜访说话者",
+      "说话者去拜访老师",
+      "房子移动"
+    ],
+    "answerIndex": 1,
+    "explanation": "这个语境下「伺う」指说话者一方去拜访，向老师表示敬意。",
+    "hint": "识别我方动作及所面对的人",
+    "transfer": false
+  },
+  {
+    "id": "e016b",
+    "targetID": "g016",
+    "sentenceID": "s032",
+    "prompt": "谁提供了教导？",
+    "choices": [
+      "老师",
+      "说话者",
+      "学生教老师"
+    ],
+    "answerIndex": 0,
+    "explanation": "说话者得到老师的帮助，「いただく」表达谦逊。",
+    "hint": "识别我方动作及所面对的人",
+    "transfer": true
+  },
+  {
+    "id": "e017a",
+    "targetID": "g017",
+    "sentenceID": "s033",
+    "prompt": "这句话是怎样的判断？",
+    "choices": [
+      "有依据的预期",
+      "已经亲眼确认",
+      "要求老师去学校"
+    ],
+    "answerIndex": 0,
+    "explanation": "「はず」表达说话者根据依据形成的预期，不等于亲眼确认。",
+    "hint": "区分有依据的预期与可能性",
+    "transfer": false
+  },
+  {
+    "id": "e017b",
+    "targetID": "g017",
+    "sentenceID": "s034",
+    "prompt": "说话者对下雨有多确定？",
+    "choices": [
+      "表示可能",
+      "表示绝对不会",
+      "表示百分之百确定"
+    ],
+    "answerIndex": 0,
+    "explanation": "「かもしれない」表达可能性。",
+    "hint": "区分有依据的预期与可能性",
+    "transfer": true
+  },
+  {
+    "id": "e018a",
+    "targetID": "g018",
+    "sentenceID": "s035",
+    "prompt": "前后形成了什么关系？",
+    "choices": [
+      "单纯列举",
+      "与预期不一致",
+      "说明读书的目的"
+    ],
+    "answerIndex": 1,
+    "explanation": "预期读过后应记得，后文却说明忘了。",
+    "hint": "读出前后情况的反差",
+    "transfer": false
+  },
+  {
+    "id": "e018b",
+    "targetID": "g018",
+    "sentenceID": "s036",
+    "prompt": "哪里体现了反差？",
+    "choices": [
+      "价格高却仍受欢迎",
+      "书很便宜",
+      "书已经归还"
+    ],
+    "answerIndex": 0,
+    "explanation": "「のに」连接价格高与仍受欢迎的情况。",
+    "hint": "读出前后情况的反差",
+    "transfer": true
+  },
+  {
+    "id": "e019a",
+    "targetID": "g019",
+    "sentenceID": "s037",
+    "prompt": "「それ」最自然地指什么？",
+    "choices": [
+      "买的书",
+      "朋友",
+      "购买的时间"
+    ],
+    "answerIndex": 0,
+    "explanation": "前一句引入的书是后一句指示词最有根据的指向。",
+    "hint": "从前文恢复人物和事物",
+    "transfer": false
+  },
+  {
+    "id": "e019b",
+    "targetID": "g019",
+    "sentenceID": "s038",
+    "prompt": "第二句省略的动作人物通常是谁？",
+    "choices": [
+      "她",
+      "老师",
+      "必须是新人物"
+    ],
+    "answerIndex": 0,
+    "explanation": "没有转换人物的线索时，连续叙述通常沿用前句的人物。",
+    "hint": "从前文恢复人物和事物",
+    "transfer": true
+  },
+  {
+    "id": "e020a",
+    "targetID": "g020",
+    "sentenceID": "s039",
+    "prompt": "「一方」在这里怎样组织信息？",
+    "choices": [
+      "描述另一方的情况",
+      "得出相同结论",
+      "否定两人的存在"
+    ],
+    "answerIndex": 0,
+    "explanation": "它引入另一人物所做的事，形成两方的对照。",
+    "hint": "识别对比、补充与归纳",
+    "transfer": false
+  },
+  {
+    "id": "e020b",
+    "targetID": "g020",
+    "sentenceID": "s040",
+    "prompt": "「つまり」后的内容起什么作用？",
+    "choices": [
+      "归纳前面的情况",
+      "引入无关人物",
+      "询问地点"
+    ],
+    "answerIndex": 0,
+    "explanation": "它将今天和明天都工作归纳成没有休息日。",
+    "hint": "识别对比、补充与归纳",
+    "transfer": true
+  },
+  {
+    "id": "e001c",
+    "targetID": "g001",
+    "sentenceID": "s065",
+    "prompt": "这里的话题是什么？",
+    "choices": [
+      "昨天的天气",
+      "明天的安排",
+      "学校的位置"
+    ],
+    "answerIndex": 1,
+    "explanation": "「明日は」提出明天这个话题，后面说明明天休息。",
+    "hint": "说明接下来谈论什么",
+    "transfer": true
+  },
+  {
+    "id": "e001d",
+    "targetID": "g001",
+    "sentenceID": "s066",
+    "prompt": "说话者评价的对象是什么？",
+    "choices": [
+      "这本书",
+      "说话者的朋友",
+      "图书馆"
+    ],
+    "answerIndex": 0,
+    "explanation": "「この本は」提出要评价的对象，后面说明书很有趣。",
+    "hint": "说明接下来谈论什么",
+    "transfer": true
+  },
+  {
+    "id": "e002c",
+    "targetID": "g002",
+    "sentenceID": "s067",
+    "prompt": "很大的是什么？",
+    "choices": [
+      "朋友",
+      "老师",
+      "朋友的家"
+    ],
+    "answerIndex": 2,
+    "explanation": "「友達の家」的中心是「家」，「友達の」说明是谁的家。",
+    "hint": "连接名词，表示所属等关系",
+    "transfer": true
+  },
+  {
+    "id": "e002d",
+    "targetID": "g002",
+    "sentenceID": "s068",
+    "prompt": "「学校の」在说明什么？",
+    "choices": [
+      "地图涉及的地方",
+      "地图的价格",
+      "学校的老师"
+    ],
+    "answerIndex": 0,
+    "explanation": "「学校の地図」以地图为中心，说明是学校的地图，并非只表示某人的所有物。",
+    "hint": "连接名词，表示所属等关系",
+    "transfer": true
+  },
+  {
+    "id": "e003c",
+    "targetID": "g003",
+    "sentenceID": "s069",
+    "prompt": "被读的是什么？",
+    "choices": [
+      "老师",
+      "报纸",
+      "学校"
+    ],
+    "answerIndex": 1,
+    "explanation": "「新聞を」标记阅读的对象；「先生は」提示谈论的人。",
+    "hint": "标记动作直接涉及的对象",
+    "transfer": true
+  },
+  {
+    "id": "e003d",
+    "targetID": "g003",
+    "sentenceID": "s070",
+    "prompt": "「を」标记哪一部分？",
+    "choices": [
+      "喝的人",
+      "喝的时间",
+      "喝的对象"
+    ],
+    "answerIndex": 2,
+    "explanation": "「水を」是饮用的对象，不是动作发生的地点或时间。",
+    "hint": "标记动作直接涉及的对象",
+    "transfer": true
+  },
+  {
+    "id": "e004c",
+    "targetID": "g004",
+    "sentenceID": "s071",
+    "prompt": "「へ」表达什么？",
+    "choices": [
+      "前往的方向",
+      "动作的对象",
+      "借书的人"
+    ],
+    "answerIndex": 0,
+    "explanation": "助词「へ」读作「え」，这里标记前往图书馆的方向。",
+    "hint": "根据搭配判断时间点、目的地或方向",
+    "transfer": true
+  },
+  {
+    "id": "e004d",
+    "targetID": "g004",
+    "sentenceID": "s072",
+    "prompt": "这里的「に」标记什么？",
+    "choices": [
+      "起床的地点",
+      "动作的对象",
+      "明确的时间点"
+    ],
+    "answerIndex": 2,
+    "explanation": "「六時に」是明确的时间点；不能把所有「に」都解释为目的地。",
+    "hint": "根据搭配判断时间点、目的地或方向",
+    "transfer": true
+  },
+  {
+    "id": "e005c",
+    "targetID": "g005",
+    "sentenceID": "s073",
+    "prompt": "什么很小？",
+    "choices": [
+      "书",
+      "店",
+      "说话者"
+    ],
+    "answerIndex": 1,
+    "explanation": "い形容词「小さい」直接放在名词「店」之前。",
+    "hint": "区分い形容词与な形容词",
+    "transfer": true
+  },
+  {
+    "id": "e005d",
+    "targetID": "g005",
+    "sentenceID": "s074",
+    "prompt": "为什么这里有「な」？",
+    "choices": [
+      "连接な形容词与名词",
+      "表示已经完成",
+      "提出疑问"
+    ],
+    "answerIndex": 0,
+    "explanation": "「便利」修饰名词「道具」时用「便利な道具」。",
+    "hint": "区分い形容词与な形容词",
+    "transfer": true
+  },
+  {
+    "id": "e006c",
+    "targetID": "g006",
+    "sentenceID": "s075",
+    "prompt": "为什么用「います」？",
+    "choices": [
+      "因为房间很大",
+      "因为谈论过去",
+      "存在的是人"
+    ],
+    "answerIndex": 2,
+    "explanation": "孩子是人，此处表达存在用「いる」，礼貌形为「います」。",
+    "hint": "结合位置判断谁或什么在哪里",
+    "transfer": true
+  },
+  {
+    "id": "e006d",
+    "targetID": "g006",
+    "sentenceID": "s076",
+    "prompt": "存在的地点在哪里？",
+    "choices": [
+      "店的里面",
+      "车站前面",
+      "老师家里"
+    ],
+    "answerIndex": 1,
+    "explanation": "「駅の前に」是存在的地点，「店が」是存在的事物。",
+    "hint": "结合位置判断谁或什么在哪里",
+    "transfer": true
+  },
+  {
+    "id": "e007c",
+    "targetID": "g007",
+    "sentenceID": "s077",
+    "prompt": "见面发生在什么时候？",
+    "choices": [
+      "已经发生",
+      "还没发生",
+      "句子无法判断"
+    ],
+    "answerIndex": 0,
+    "explanation": "「会いました」是过去的礼貌形，说明见面已经发生。",
+    "hint": "识别已经发生的动作",
+    "transfer": true
+  },
+  {
+    "id": "e007d",
+    "targetID": "g007",
+    "sentenceID": "s078",
+    "prompt": "「帰りました」表达什么？",
+    "choices": [
+      "打算回家",
+      "正在请老师回家",
+      "已经回家"
+    ],
+    "answerIndex": 2,
+    "explanation": "「ました」表示过去；此句叙述老师已经回家的动作。",
+    "hint": "识别已经发生的动作",
+    "transfer": true
+  },
+  {
+    "id": "e008c",
+    "targetID": "g008",
+    "sentenceID": "s079",
+    "prompt": "被评价为有趣的是什么？",
+    "choices": [
+      "图书馆",
+      "借来的书",
+      "借书的动作"
+    ],
+    "answerIndex": 1,
+    "explanation": "「図書館で借りた」整体修饰后面的「本」，中心名词仍是书。",
+    "hint": "找到修饰部分后面的中心名词",
+    "transfer": true
+  },
+  {
+    "id": "e008d",
+    "targetID": "g008",
+    "sentenceID": "s080",
+    "prompt": "是谁写了这封信？",
+    "choices": [
+      "说话者",
+      "老师",
+      "朋友"
+    ],
+    "answerIndex": 0,
+    "explanation": "修饰句「私が昨日書いた」交代了写信的人和时间。",
+    "hint": "找到修饰部分后面的中心名词",
+    "transfer": true
+  },
+  {
+    "id": "e009c",
+    "targetID": "g009",
+    "sentenceID": "s081",
+    "prompt": "两个动作如何衔接？",
+    "choices": [
+      "二选一",
+      "读报导致起床",
+      "先起床再读报"
+    ],
+    "answerIndex": 2,
+    "explanation": "这个语境中「起きて」连接前后动作，按起床、读报的顺序叙述。",
+    "hint": "读出动作之间的衔接",
+    "transfer": true
+  },
+  {
+    "id": "e009d",
+    "targetID": "g009",
+    "sentenceID": "s082",
+    "prompt": "回家之前要做什么？",
+    "choices": [
+      "买书",
+      "还书",
+      "写信"
+    ],
+    "answerIndex": 1,
+    "explanation": "「返して」连接还书和回家，前一个动作是还书。",
+    "hint": "读出动作之间的衔接",
+    "transfer": true
+  },
+  {
+    "id": "e010c",
+    "targetID": "g010",
+    "sentenceID": "s083",
+    "prompt": "不去的原因是什么？",
+    "choices": [
+      "没有时间",
+      "今天放假",
+      "不知道路"
+    ],
+    "answerIndex": 0,
+    "explanation": "「ので」前面的「時間がない」交代不去的原因。",
+    "hint": "区分原因部分和后面的结果",
+    "transfer": true
+  },
+  {
+    "id": "e010d",
+    "targetID": "g010",
+    "sentenceID": "s084",
+    "prompt": "哪部分说明原因？",
+    "choices": [
+      "再读一遍",
+      "书的价格",
+      "书很有趣"
+    ],
+    "answerIndex": 2,
+    "explanation": "「面白いから」给出再次阅读的理由。",
+    "hint": "区分原因部分和后面的结果",
+    "transfer": true
+  },
+  {
+    "id": "e011c",
+    "targetID": "g011",
+    "sentenceID": "s085",
+    "prompt": "谁收到了书？",
+    "choices": [
+      "老师",
+      "说话者",
+      "朋友"
+    ],
+    "answerIndex": 1,
+    "explanation": "「もらう」以接受者为视角；「私は」表明说话者是接受者。",
+    "hint": "辨认给予者、接受者与叙述视角",
+    "transfer": true
+  },
+  {
+    "id": "e011d",
+    "targetID": "g011",
+    "sentenceID": "s086",
+    "prompt": "照片从谁转给谁？",
+    "choices": [
+      "从说话者给朋友",
+      "从朋友给老师",
+      "从朋友给说话者"
+    ],
+    "answerIndex": 0,
+    "explanation": "「あげる」从给予方描述动作，本句的给予方是说话者。",
+    "hint": "辨认给予者、接受者与叙述视角",
+    "transfer": true
+  },
+  {
+    "id": "e012c",
+    "targetID": "g012",
+    "sentenceID": "s087",
+    "prompt": "提供帮助的是谁？",
+    "choices": [
+      "说话者",
+      "老师",
+      "朋友"
+    ],
+    "answerIndex": 2,
+    "explanation": "「友達が」是帮助的人；「てくれる」从说话者受益的角度叙述。",
+    "hint": "辨认谁替谁做事",
+    "transfer": true
+  },
+  {
+    "id": "e012d",
+    "targetID": "g012",
+    "sentenceID": "s088",
+    "prompt": "谁得到了讲解？",
+    "choices": [
+      "老师",
+      "说话者",
+      "词语"
+    ],
+    "answerIndex": 1,
+    "explanation": "「私は」是得到帮助的一方，「先生に」指出提供讲解的人。",
+    "hint": "辨认谁替谁做事",
+    "transfer": true
+  },
+  {
+    "id": "e013c",
+    "targetID": "g013",
+    "sentenceID": "s089",
+    "prompt": "「読めます」表示什么？",
+    "choices": [
+      "能够阅读",
+      "已经读完",
+      "被要求朗读"
+    ],
+    "answerIndex": 0,
+    "explanation": "「読める」是「読む」的可能形，这里表示可以读报。",
+    "hint": "识别能够做某事",
+    "transfer": true
+  },
+  {
+    "id": "e013d",
+    "targetID": "g013",
+    "sentenceID": "s090",
+    "prompt": "「行けます」的基本意思是什么？",
+    "choices": [
+      "已经离开",
+      "不能前往",
+      "能够前往"
+    ],
+    "answerIndex": 2,
+    "explanation": "「行ける」是「行く」的可能形，表示具备前往的条件或能力。",
+    "hint": "识别能够做某事",
+    "transfer": true
+  },
+  {
+    "id": "e014c",
+    "targetID": "g014",
+    "sentenceID": "s091",
+    "prompt": "见朋友的条件是什么？",
+    "choices": [
+      "朋友先离开",
+      "工作结束",
+      "开始工作"
+    ],
+    "answerIndex": 1,
+    "explanation": "「終わったら」以工作结束作为后面动作的条件。",
+    "hint": "结合前后句理解条件",
+    "transfer": true
+  },
+  {
+    "id": "e014d",
+    "targetID": "g014",
+    "sentenceID": "s092",
+    "prompt": "这条建议针对什么需求？",
+    "choices": [
+      "借书",
+      "买地图",
+      "写信"
+    ],
+    "answerIndex": 0,
+    "explanation": "「借りるなら」承接借书这个前提，给出图书馆方便的建议。",
+    "hint": "结合前后句理解条件",
+    "transfer": true
+  },
+  {
+    "id": "e015c",
+    "targetID": "g015",
+    "sentenceID": "s093",
+    "prompt": "在这个语境中「いらっしゃる」对应什么？",
+    "choices": [
+      "吃",
+      "说",
+      "去"
+    ],
+    "answerIndex": 2,
+    "explanation": "目的地「図書館へ」使这里的尊敬表达对应「行く」。",
+    "hint": "识别应尊敬人物的动作",
+    "transfer": true
+  },
+  {
+    "id": "e015d",
+    "targetID": "g015",
+    "sentenceID": "s094",
+    "prompt": "实际喝茶的是谁？",
+    "choices": [
+      "说话者",
+      "老师",
+      "朋友"
+    ],
+    "answerIndex": 1,
+    "explanation": "「召し上がる」是饮食动作的尊敬表达，不改变动作参与者。",
+    "hint": "识别应尊敬人物的动作",
+    "transfer": true
+  },
+  {
+    "id": "e016c",
+    "targetID": "g016",
+    "sentenceID": "s095",
+    "prompt": "谁向谁请教？",
+    "choices": [
+      "说话者向老师请教",
+      "老师向说话者请教",
+      "老师自言自语"
+    ],
+    "answerIndex": 0,
+    "explanation": "这里的「伺う」表示谦逊地听取或请教，动作主体是说话者。",
+    "hint": "识别我方动作及所面对的人",
+    "transfer": true
+  },
+  {
+    "id": "e016d",
+    "targetID": "g016",
+    "sentenceID": "s096",
+    "prompt": "「申します」在自我介绍中表达什么？",
+    "choices": [
+      "对方的名字",
+      "请求老师回答",
+      "谦逊地报上自己的名字"
+    ],
+    "answerIndex": 2,
+    "explanation": "「～と申します」用于谦逊地说明自己的名字。",
+    "hint": "识别我方动作及所面对的人",
+    "transfer": true
+  },
+  {
+    "id": "e017c",
+    "targetID": "g017",
+    "sentenceID": "s097",
+    "prompt": "说话者的确定程度如何？",
+    "choices": [
+      "亲眼确认",
+      "认为有这种可能",
+      "完全否定"
+    ],
+    "answerIndex": 1,
+    "explanation": "「かもしれない」只表达可能性，不能当作已确认的事实。",
+    "hint": "区分有依据的预期与可能性",
+    "transfer": true
+  },
+  {
+    "id": "e017d",
+    "targetID": "g017",
+    "sentenceID": "s098",
+    "prompt": "判断店开门的依据是什么？",
+    "choices": [
+      "营业时间与当前时间",
+      "已经看到店门",
+      "朋友正在店里"
+    ],
+    "answerIndex": 0,
+    "explanation": "「はず」建立在营业时间这一依据上，仍不是亲眼确认。",
+    "hint": "区分有依据的预期与可能性",
+    "transfer": true
+  },
+  {
+    "id": "e018c",
+    "targetID": "g018",
+    "sentenceID": "s099",
+    "prompt": "前后有什么关系？",
+    "choices": [
+      "说明目的",
+      "列出条件",
+      "结果与预期相反"
+    ],
+    "answerIndex": 2,
+    "explanation": "记住后本应还记得，实际却忘了，「のに」表现这种反差。",
+    "hint": "读出前后情况的反差",
+    "transfer": true
+  },
+  {
+    "id": "e018d",
+    "targetID": "g018",
+    "sentenceID": "s100",
+    "prompt": "说话者觉得什么与预期不一致？",
+    "choices": [
+      "没时间却读书",
+      "有时间却不读书",
+      "读书花了时间"
+    ],
+    "answerIndex": 1,
+    "explanation": "「時間がある」和「読まない」之间形成与预期不一致的关系。",
+    "hint": "读出前后情况的反差",
+    "transfer": true
+  },
+  {
+    "id": "e019c",
+    "targetID": "g019",
+    "sentenceID": "s101",
+    "prompt": "「それ」指什么？",
+    "choices": [
+      "借来的书",
+      "老师",
+      "明天"
+    ],
+    "answerIndex": 0,
+    "explanation": "结合前一句，能被归还的是刚借来的书。",
+    "hint": "从前文恢复人物和事物",
+    "transfer": true
+  },
+  {
+    "id": "e019d",
+    "targetID": "g019",
+    "sentenceID": "s102",
+    "prompt": "后一句省略的参与者最合理的是谁？",
+    "choices": [
+      "只有老师",
+      "与前句无关的人",
+      "说话者和刚来的朋友"
+    ],
+    "answerIndex": 2,
+    "explanation": "「いっしょに」与朋友到来的上下文支持两人一起读报的理解。",
+    "hint": "从前文恢复人物和事物",
+    "transfer": true
+  },
+  {
+    "id": "e020c",
+    "targetID": "g020",
+    "sentenceID": "s103",
+    "prompt": "「一方」在组织什么关系？",
+    "choices": [
+      "原因与结果",
+      "两人的对比",
+      "完全相同的安排"
+    ],
+    "answerIndex": 1,
+    "explanation": "这里对比哥哥和说话者的工作时间。",
+    "hint": "识别对比、补充与归纳",
+    "transfer": true
+  },
+  {
+    "id": "e020d",
+    "targetID": "g020",
+    "sentenceID": "s104",
+    "prompt": "「つまり」后面在做什么？",
+    "choices": [
+      "归纳前文",
+      "提出相反观点",
+      "列出新人物"
+    ],
+    "answerIndex": 0,
+    "explanation": "「つまり」将前面不读书、不读报纸的内容归纳为今天不读东西。",
+    "hint": "识别对比、补充与归纳",
+    "transfer": true
+  }
+]

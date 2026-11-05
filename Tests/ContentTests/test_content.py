@@ -16,11 +16,11 @@ class ContentTests(unittest.TestCase):
                       for key in ["items", "sentences", "exercises", "lessons", "readings", "references"]}
 
     def test_sample_delivery_counts(self):
-        self.assertEqual(len(self.groups["lessons"]), 14)
-        self.assertEqual(len(self.groups["readings"]), 24)
-        self.assertEqual(len(self.groups["exercises"]), 80)
-        self.assertEqual(sum(i["kind"] == "word" for i in self.groups["items"].values()), 182)
-        self.assertEqual(sum(i["kind"] == "grammar" for i in self.groups["items"].values()), 20)
+        self.assertGreaterEqual(len(self.groups["lessons"]), 30)
+        self.assertEqual(len(self.groups["readings"]), 40)
+        self.assertGreaterEqual(len(self.groups["exercises"]), 319)
+        self.assertGreaterEqual(sum(i["kind"] == "word" for i in self.groups["items"].values()), 300)
+        self.assertEqual(sum(i["kind"] == "grammar" for i in self.groups["items"].values()), 30)
 
     def test_identifiers_are_unique_and_stable(self):
         for key, values in self.groups.items():
@@ -31,7 +31,7 @@ class ContentTests(unittest.TestCase):
         self.assertEqual(words[0]["text"], "今日")
         self.assertEqual(words[149]["id"], "v0150")
         self.assertEqual(words[149]["text"], "結局")
-        self.assertEqual(words[-1]["id"], "v0182")
+        self.assertEqual(words[181]["id"], "v0182")
 
     def test_every_word_has_reading_gloss_and_romanization(self):
         for item in self.groups["items"].values():
@@ -84,7 +84,7 @@ class ContentTests(unittest.TestCase):
                 continue
             related = [e for e in self.groups["exercises"].values() if e["targetID"] == item["id"]]
             self.assertEqual({e["transfer"] for e in related}, {False, True})
-            self.assertEqual(len({e["sentenceID"] for e in related}), 4)
+            self.assertGreaterEqual(len({e["sentenceID"] for e in related}), 6)
 
     def test_lesson_references_and_complete_item_coverage(self):
         covered = set()
@@ -107,7 +107,7 @@ class ContentTests(unittest.TestCase):
     def test_roadmap_counts_are_distinct_from_shipped_content(self):
         self.assertEqual(sum(stage["vocabularyTarget"] for stage in self.pack["stages"]), 6000)
         self.assertEqual(sum(stage["grammarTarget"] for stage in self.pack["stages"]), 400)
-        self.assertEqual(sum(stage["readingTarget"] for stage in self.pack["stages"]), 120)
+        self.assertEqual(sum(stage["readingTarget"] for stage in self.pack["stages"]), 440)
         self.assertIn("分批补充", self.pack["notice"])
 
     def test_reading_coverage_has_explicit_occurrences_and_prerequisites(self):
@@ -127,6 +127,31 @@ class ContentTests(unittest.TestCase):
             self.assertFalse(linked - listed, (reading["id"], linked - listed))
         first = self.groups["readings"]["r001"]["vocabulary"]
         self.assertEqual(sum(word["text"] == "私" for word in first), 2)
+
+    def test_every_word_has_two_distinct_context_examples(self):
+        for word in self.pack["items"]:
+            if word["kind"] != "word": continue
+            self.assertGreaterEqual(len(set(word.get("exampleSentenceIDs", []))), 2, word["id"])
+            self.assertTrue(set(word["exampleSentenceIDs"]) <= self.groups["sentences"].keys())
+
+    def test_assessments_have_evidence_and_are_not_reused_as_lesson_reading(self):
+        assessments = [r for r in self.pack["readings"] if r.get("purpose") == "assessment"]
+        self.assertEqual(len(assessments), 8)
+        lesson_readings = {l["readingID"] for l in self.pack["lessons"]}
+        self.assertFalse(lesson_readings & {r["id"] for r in assessments})
+        for reading in self.pack["readings"]:
+            for q in reading.get("questions", []):
+                self.assertTrue(q["evidenceSentenceIDs"])
+                self.assertTrue(set(q["evidenceSentenceIDs"]) <= set(reading["sentenceIDs"]))
+
+    def test_source_licenses_and_intro_modules_are_explicit(self):
+        self.assertEqual(len(self.pack["introModules"]), 6)
+        for module in self.pack["introModules"]:
+            self.assertEqual(len(module["questions"]), 5)
+            self.assertTrue(module["citations"])
+        for source in ["taekim", "project", "pdx"]:
+            self.assertTrue(self.groups["references"][source]["license"])
+            self.assertTrue(self.groups["references"][source]["attribution"])
 
     def test_generated_resource_matches_authoring_source(self):
         spec = importlib.util.spec_from_file_location("authoring", ROOT / "scripts/build_content.py")

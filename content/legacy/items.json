@@ -1,0 +1,3650 @@
+[
+  {
+    "id": "v0001",
+    "kind": "word",
+    "level": "N5",
+    "text": "今日",
+    "reading": "きょう",
+    "romaji": "kyou",
+    "meaning": "今天",
+    "explanation": "也有「こんにち」的读法；这里先学表示今天的「きょう」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s001",
+      "s040"
+    ]
+  },
+  {
+    "id": "v0002",
+    "kind": "word",
+    "level": "N5",
+    "text": "昨日",
+    "reading": "きのう",
+    "romaji": "kinou",
+    "meaning": "昨天",
+    "explanation": "谈及昨天发生的事时，谓语通常也使用过去形式。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s013",
+      "s015"
+    ]
+  },
+  {
+    "id": "v0003",
+    "kind": "word",
+    "level": "N5",
+    "text": "明日",
+    "reading": "あした",
+    "romaji": "ashita",
+    "meaning": "明天",
+    "explanation": "「あす」也可表示明天，先掌握常见的「あした」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s007",
+      "s020"
+    ]
+  },
+  {
+    "id": "v0004",
+    "kind": "word",
+    "level": "N5",
+    "text": "今",
+    "reading": "いま",
+    "romaji": "ima",
+    "meaning": "现在",
+    "explanation": "既可指此刻，也可指当前的一段时期。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s098",
+      "s105"
+    ]
+  },
+  {
+    "id": "v0005",
+    "kind": "word",
+    "level": "N5",
+    "text": "朝",
+    "reading": "あさ",
+    "romaji": "asa",
+    "meaning": "早晨",
+    "explanation": "「朝に」和「朝」都可作时间表达，具体用法结合句子学习。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s008",
+      "s017"
+    ]
+  },
+  {
+    "id": "v0006",
+    "kind": "word",
+    "level": "N5",
+    "text": "昼",
+    "reading": "ひる",
+    "romaji": "hiru",
+    "meaning": "白天；中午",
+    "explanation": "既可与夜晚对比，也可指中午前后的时间。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s112",
+      "s148"
+    ]
+  },
+  {
+    "id": "v0007",
+    "kind": "word",
+    "level": "N5",
+    "text": "夜",
+    "reading": "よる",
+    "romaji": "yoru",
+    "meaning": "夜晚",
+    "explanation": "常见搭配有「夜に」「夜まで」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s103",
+      "s113"
+    ]
+  },
+  {
+    "id": "v0008",
+    "kind": "word",
+    "level": "N5",
+    "text": "毎日",
+    "reading": "まいにち",
+    "romaji": "mainichi",
+    "meaning": "每天",
+    "explanation": "「毎日読む」表示每天阅读，不必再添加「に」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00081",
+      "sxv00082"
+    ]
+  },
+  {
+    "id": "v0009",
+    "kind": "word",
+    "level": "N5",
+    "text": "学校",
+    "reading": "がっこう",
+    "romaji": "gakkou",
+    "meaning": "学校",
+    "explanation": "注意「っ」占一拍；「学校に行く」表示去学校。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s001",
+      "s008"
+    ]
+  },
+  {
+    "id": "v0010",
+    "kind": "word",
+    "level": "N5",
+    "text": "家",
+    "reading": "いえ",
+    "romaji": "ie",
+    "meaning": "家；房屋",
+    "explanation": "「家」还可在其他词语中读「うち」「か」，这里学「いえ」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s019",
+      "s027"
+    ]
+  },
+  {
+    "id": "v0011",
+    "kind": "word",
+    "level": "N5",
+    "text": "図書館",
+    "reading": "としょかん",
+    "romaji": "toshokan",
+    "meaning": "图书馆",
+    "explanation": "「図書館で読む」中的「で」表示阅读动作发生的场所。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s002",
+      "s028"
+    ]
+  },
+  {
+    "id": "v0012",
+    "kind": "word",
+    "level": "N5",
+    "text": "駅",
+    "reading": "えき",
+    "romaji": "eki",
+    "meaning": "车站",
+    "explanation": "「駅で待つ」是在车站等，「駅に行く」是去车站。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s007",
+      "s014"
+    ]
+  },
+  {
+    "id": "v0013",
+    "kind": "word",
+    "level": "N5",
+    "text": "私",
+    "reading": "わたし",
+    "romaji": "watashi",
+    "meaning": "我",
+    "explanation": "根据语境可省略；不用每个日语句子都重复说「私」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s004",
+      "s005"
+    ]
+  },
+  {
+    "id": "v0014",
+    "kind": "word",
+    "level": "N5",
+    "text": "僕",
+    "reading": "ぼく",
+    "romaji": "boku",
+    "meaning": "我",
+    "explanation": "常见于男性说话者的自称，人物自称也传递风格。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00141",
+      "sxv00142"
+    ]
+  },
+  {
+    "id": "v0015",
+    "kind": "word",
+    "level": "N5",
+    "text": "彼",
+    "reading": "かれ",
+    "romaji": "kare",
+    "meaning": "他；男朋友",
+    "explanation": "具体指谁、是否表示男朋友，需要由上下文判断。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s039",
+      "sg0212"
+    ]
+  },
+  {
+    "id": "v0016",
+    "kind": "word",
+    "level": "N5",
+    "text": "彼女",
+    "reading": "かのじょ",
+    "romaji": "kanojo",
+    "meaning": "她；女朋友",
+    "explanation": "既可能是代词，也可能指女朋友。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s038",
+      "s039"
+    ]
+  },
+  {
+    "id": "v0017",
+    "kind": "word",
+    "level": "N5",
+    "text": "友達",
+    "reading": "ともだち",
+    "romaji": "tomodachi",
+    "meaning": "朋友",
+    "explanation": "单凭这个词通常无法判断朋友是一位还是多位。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s004",
+      "s006"
+    ]
+  },
+  {
+    "id": "v0018",
+    "kind": "word",
+    "level": "N5",
+    "text": "先生",
+    "reading": "せんせい",
+    "romaji": "sensei",
+    "meaning": "老师；对专业人士的称呼",
+    "explanation": "除了教师，也可用于医生等人的称呼。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s003",
+      "s012"
+    ]
+  },
+  {
+    "id": "v0019",
+    "kind": "word",
+    "level": "N5",
+    "text": "学生",
+    "reading": "がくせい",
+    "romaji": "gakusei",
+    "meaning": "学生",
+    "explanation": "表示身份时可用「学生です」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sg0211",
+      "sg0225"
+    ]
+  },
+  {
+    "id": "v0020",
+    "kind": "word",
+    "level": "N5",
+    "text": "人",
+    "reading": "ひと",
+    "romaji": "hito",
+    "meaning": "人",
+    "explanation": "复合词中可能读「じん」「にん」，这里学独立名词「ひと」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s004",
+      "sv0296b"
+    ]
+  },
+  {
+    "id": "v0021",
+    "kind": "word",
+    "level": "N5",
+    "text": "子供",
+    "reading": "こども",
+    "romaji": "kodomo",
+    "meaning": "孩子",
+    "explanation": "也常写作「子ども」，两种表记指向同一个词。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s075",
+      "sv0288b"
+    ]
+  },
+  {
+    "id": "v0022",
+    "kind": "word",
+    "level": "N5",
+    "text": "名前",
+    "reading": "なまえ",
+    "romaji": "namae",
+    "meaning": "名字",
+    "explanation": "「名前を聞く」在不同语境中可表示询问名字或听到名字。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0321b",
+      "sg0246"
+    ]
+  },
+  {
+    "id": "v0023",
+    "kind": "word",
+    "level": "N5",
+    "text": "誰",
+    "reading": "だれ",
+    "romaji": "dare",
+    "meaning": "谁",
+    "explanation": "询问人物；「誰の本」表示谁的书。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00231",
+      "sxv00232"
+    ]
+  },
+  {
+    "id": "v0024",
+    "kind": "word",
+    "level": "N5",
+    "text": "何",
+    "reading": "なに",
+    "romaji": "nani",
+    "meaning": "什么",
+    "explanation": "在「何ですか」等表达里常读「なん」，需随表达学习。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s104",
+      "sg0234"
+    ]
+  },
+  {
+    "id": "v0025",
+    "kind": "word",
+    "level": "N5",
+    "text": "読む",
+    "reading": "よむ",
+    "romaji": "yomu",
+    "meaning": "读；阅读",
+    "explanation": "五段动词；过去形是「読んだ」，礼貌形是「読みます」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s005",
+      "s010"
+    ]
+  },
+  {
+    "id": "v0026",
+    "kind": "word",
+    "level": "N5",
+    "text": "書く",
+    "reading": "かく",
+    "romaji": "kaku",
+    "meaning": "写",
+    "explanation": "五段动词；「書いた」是过去形，「書いて」是て形。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s006",
+      "s018"
+    ]
+  },
+  {
+    "id": "v0027",
+    "kind": "word",
+    "level": "N5",
+    "text": "聞く",
+    "reading": "きく",
+    "romaji": "kiku",
+    "meaning": "听；询问",
+    "explanation": "「話を聞く」可表示听别人说话，语境也可能表示询问。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0255b",
+      "sv0277a"
+    ]
+  },
+  {
+    "id": "v0028",
+    "kind": "word",
+    "level": "N5",
+    "text": "話す",
+    "reading": "はなす",
+    "romaji": "hanasu",
+    "meaning": "说；交谈",
+    "explanation": "「友達と話す」中的「と」表示交谈的对象。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s172",
+      "sv0267b"
+    ]
+  },
+  {
+    "id": "v0029",
+    "kind": "word",
+    "level": "N5",
+    "text": "見る",
+    "reading": "みる",
+    "romaji": "miru",
+    "meaning": "看",
+    "explanation": "一段动词；「見た」「見て」分别是过去形、て形。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s090",
+      "s136"
+    ]
+  },
+  {
+    "id": "v0030",
+    "kind": "word",
+    "level": "N5",
+    "text": "行く",
+    "reading": "いく",
+    "romaji": "iku",
+    "meaning": "去",
+    "explanation": "「行って」「行った」是不规则的て形、过去形，需要单独记住。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s007",
+      "s008"
+    ]
+  },
+  {
+    "id": "v0031",
+    "kind": "word",
+    "level": "N5",
+    "text": "来る",
+    "reading": "くる",
+    "romaji": "kuru",
+    "meaning": "来",
+    "explanation": "不规则动词；「来ます」读「きます」，「来た」读「きた」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s043",
+      "s102"
+    ]
+  },
+  {
+    "id": "v0032",
+    "kind": "word",
+    "level": "N5",
+    "text": "帰る",
+    "reading": "かえる",
+    "romaji": "kaeru",
+    "meaning": "回去；回家",
+    "explanation": "虽然以「える」结尾，仍是五段动词；て形为「帰って」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s038",
+      "s078"
+    ]
+  },
+  {
+    "id": "v0033",
+    "kind": "word",
+    "level": "N5",
+    "text": "食べる",
+    "reading": "たべる",
+    "romaji": "taberu",
+    "meaning": "吃",
+    "explanation": "一段动词；「食べた」「食べない」中的词干是「食べ」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sg0232",
+      "sg0243"
+    ]
+  },
+  {
+    "id": "v0034",
+    "kind": "word",
+    "level": "N5",
+    "text": "飲む",
+    "reading": "のむ",
+    "romaji": "nomu",
+    "meaning": "喝",
+    "explanation": "五段动词；「飲んだ」「飲んで」的读音变化与「読む」相同。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s070",
+      "sv0235a"
+    ]
+  },
+  {
+    "id": "v0035",
+    "kind": "word",
+    "level": "N5",
+    "text": "本",
+    "reading": "ほん",
+    "romaji": "hon",
+    "meaning": "书",
+    "explanation": "作量词时还可计数细长物体；本课程先学名词“书”。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s003",
+      "s005"
+    ]
+  },
+  {
+    "id": "v0036",
+    "kind": "word",
+    "level": "N5",
+    "text": "新聞",
+    "reading": "しんぶん",
+    "romaji": "shinbun",
+    "meaning": "报纸",
+    "explanation": "「新聞を読む」是常见搭配。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s069",
+      "s081"
+    ]
+  },
+  {
+    "id": "v0037",
+    "kind": "word",
+    "level": "N5",
+    "text": "新しい",
+    "reading": "あたらしい",
+    "romaji": "atarashii",
+    "meaning": "新的",
+    "explanation": "い形容词；修饰名词可直接说「新しい本」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s009",
+      "s046"
+    ]
+  },
+  {
+    "id": "v0038",
+    "kind": "word",
+    "level": "N5",
+    "text": "古い",
+    "reading": "ふるい",
+    "romaji": "furui",
+    "meaning": "旧的；古老的",
+    "explanation": "可描述物品年代久，修饰人时需留意语境和礼貌。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s047",
+      "s048"
+    ]
+  },
+  {
+    "id": "v0039",
+    "kind": "word",
+    "level": "N5",
+    "text": "大きい",
+    "reading": "おおきい",
+    "romaji": "ookii",
+    "meaning": "大的",
+    "explanation": "注意读音开头是「おお」；不要与「おき」混淆。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s067",
+      "s123"
+    ]
+  },
+  {
+    "id": "v0040",
+    "kind": "word",
+    "level": "N5",
+    "text": "小さい",
+    "reading": "ちいさい",
+    "romaji": "chiisai",
+    "meaning": "小的",
+    "explanation": "注意「ちい」的长音长度。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s073",
+      "s124"
+    ]
+  },
+  {
+    "id": "v0041",
+    "kind": "word",
+    "level": "N5",
+    "text": "高い",
+    "reading": "たかい",
+    "romaji": "takai",
+    "meaning": "高的；贵的",
+    "explanation": "谈高度或价格需看语境；不是所有中文“高”都可直接对应。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s036",
+      "s046"
+    ]
+  },
+  {
+    "id": "v0042",
+    "kind": "word",
+    "level": "N5",
+    "text": "安い",
+    "reading": "やすい",
+    "romaji": "yasui",
+    "meaning": "便宜的",
+    "explanation": "表示价格便宜；与表示容易的「やすい」接尾表达区分。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s047",
+      "sg0292"
+    ]
+  },
+  {
+    "id": "v0043",
+    "kind": "word",
+    "level": "N5",
+    "text": "長い",
+    "reading": "ながい",
+    "romaji": "nagai",
+    "meaning": "长的",
+    "explanation": "可描述物体长度或时间的长短。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00431",
+      "sxv00432"
+    ]
+  },
+  {
+    "id": "v0044",
+    "kind": "word",
+    "level": "N5",
+    "text": "短い",
+    "reading": "みじかい",
+    "romaji": "mijikai",
+    "meaning": "短的",
+    "explanation": "可描述文章、时间、距离等。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s050",
+      "s061"
+    ]
+  },
+  {
+    "id": "v0045",
+    "kind": "word",
+    "level": "N5",
+    "text": "面白い",
+    "reading": "おもしろい",
+    "romaji": "omoshiroi",
+    "meaning": "有趣的",
+    "explanation": "可指有意思，也可指逗趣，具体感受看上下文。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s015",
+      "s047"
+    ]
+  },
+  {
+    "id": "v0046",
+    "kind": "word",
+    "level": "N5",
+    "text": "難しい",
+    "reading": "むずかしい",
+    "romaji": "muzukashii",
+    "meaning": "难的",
+    "explanation": "也可能委婉表示某件事不容易办到。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s161",
+      "sxv00461"
+    ]
+  },
+  {
+    "id": "v0047",
+    "kind": "word",
+    "level": "N5",
+    "text": "静か",
+    "reading": "しずか",
+    "romaji": "shizuka",
+    "meaning": "安静",
+    "explanation": "な形容词；修饰名词用「静かな部屋」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s002",
+      "s010"
+    ]
+  },
+  {
+    "id": "v0048",
+    "kind": "word",
+    "level": "N5",
+    "text": "便利",
+    "reading": "べんり",
+    "romaji": "benri",
+    "meaning": "便利；方便",
+    "explanation": "な形容词；「便利な道具」「便利です」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s028",
+      "s074"
+    ]
+  },
+  {
+    "id": "v0049",
+    "kind": "word",
+    "level": "N5",
+    "text": "ある",
+    "reading": "ある",
+    "romaji": "aru",
+    "meaning": "有；存在",
+    "explanation": "常用于无生命事物；过去形「あった」，否定形「ない」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00571",
+      "sxv00952"
+    ]
+  },
+  {
+    "id": "v0050",
+    "kind": "word",
+    "level": "N5",
+    "text": "いる",
+    "reading": "いる",
+    "romaji": "iru",
+    "meaning": "有；在",
+    "explanation": "表示人或动物存在；「部屋にいる」是待在房间里。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00572",
+      "sxv01342"
+    ]
+  },
+  {
+    "id": "v0051",
+    "kind": "word",
+    "level": "N5",
+    "text": "部屋",
+    "reading": "へや",
+    "romaji": "heya",
+    "meaning": "房间",
+    "explanation": "常与存在位置的「に」或动作地点的「で」搭配。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s010",
+      "s012"
+    ]
+  },
+  {
+    "id": "v0052",
+    "kind": "word",
+    "level": "N5",
+    "text": "机",
+    "reading": "つくえ",
+    "romaji": "tsukue",
+    "meaning": "桌子；书桌",
+    "explanation": "「机の上」表示桌子上方。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s011",
+      "s045"
+    ]
+  },
+  {
+    "id": "v0053",
+    "kind": "word",
+    "level": "N5",
+    "text": "椅子",
+    "reading": "いす",
+    "romaji": "isu",
+    "meaning": "椅子",
+    "explanation": "「椅子に座る」中的「に」表示落座的位置。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s122",
+      "sv0301a"
+    ]
+  },
+  {
+    "id": "v0054",
+    "kind": "word",
+    "level": "N5",
+    "text": "上",
+    "reading": "うえ",
+    "romaji": "ue",
+    "meaning": "上方；上面",
+    "explanation": "位置名词；「机の上に本がある」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s011",
+      "s045"
+    ]
+  },
+  {
+    "id": "v0055",
+    "kind": "word",
+    "level": "N5",
+    "text": "下",
+    "reading": "した",
+    "romaji": "shita",
+    "meaning": "下面",
+    "explanation": "作为位置名词读「した」，不同复合词里读音会变化。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s121",
+      "sg006f"
+    ]
+  },
+  {
+    "id": "v0056",
+    "kind": "word",
+    "level": "N5",
+    "text": "前",
+    "reading": "まえ",
+    "romaji": "mae",
+    "meaning": "前面；之前",
+    "explanation": "「駅の前」表示空间，「読む前」表示时间。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s063",
+      "s076"
+    ]
+  },
+  {
+    "id": "v0057",
+    "kind": "word",
+    "level": "N5",
+    "text": "後ろ",
+    "reading": "うしろ",
+    "romaji": "ushiro",
+    "meaning": "后面；背后",
+    "explanation": "通常表示位置，时间上的“之后”常用「後」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00571",
+      "sxv00572"
+    ]
+  },
+  {
+    "id": "v0058",
+    "kind": "word",
+    "level": "N5",
+    "text": "隣",
+    "reading": "となり",
+    "romaji": "tonari",
+    "meaning": "旁边；相邻处",
+    "explanation": "强调相邻关系；「隣の部屋」是隔壁房间。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s124",
+      "s125"
+    ]
+  },
+  {
+    "id": "v0059",
+    "kind": "word",
+    "level": "N5",
+    "text": "中",
+    "reading": "なか",
+    "romaji": "naka",
+    "meaning": "里面；当中",
+    "explanation": "「部屋の中」是房间里面；复合词还可能读「ちゅう」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s075",
+      "s164"
+    ]
+  },
+  {
+    "id": "v0060",
+    "kind": "word",
+    "level": "N5",
+    "text": "外",
+    "reading": "そと",
+    "romaji": "soto",
+    "meaning": "外面",
+    "explanation": "与「中」对比；「外に出る」表示到外面去。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0293b",
+      "sg009e"
+    ]
+  },
+  {
+    "id": "v0061",
+    "kind": "word",
+    "level": "N5",
+    "text": "買う",
+    "reading": "かう",
+    "romaji": "kau",
+    "meaning": "买",
+    "explanation": "五段动词；过去形「買った」，て形「買って」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s009",
+      "s015"
+    ]
+  },
+  {
+    "id": "v0062",
+    "kind": "word",
+    "level": "N5",
+    "text": "借りる",
+    "reading": "かりる",
+    "romaji": "kariru",
+    "meaning": "借入",
+    "explanation": "表示从别人那里借来；借给别人用「貸す」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s016",
+      "s038"
+    ]
+  },
+  {
+    "id": "v0063",
+    "kind": "word",
+    "level": "N5",
+    "text": "返す",
+    "reading": "かえす",
+    "romaji": "kaesu",
+    "meaning": "归还",
+    "explanation": "「本を返す」是还书，不要和回家的「帰る」混淆。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s016",
+      "s052"
+    ]
+  },
+  {
+    "id": "v0064",
+    "kind": "word",
+    "level": "N5",
+    "text": "会う",
+    "reading": "あう",
+    "romaji": "au",
+    "meaning": "见面",
+    "explanation": "「友達に会う」或「友達と会う」根据句子侧重点使用。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s077",
+      "s091"
+    ]
+  },
+  {
+    "id": "v0065",
+    "kind": "word",
+    "level": "N5",
+    "text": "待つ",
+    "reading": "まつ",
+    "romaji": "matsu",
+    "meaning": "等；等待",
+    "explanation": "「駅で友達を待つ」中，等待对象用「を」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s117",
+      "s162"
+    ]
+  },
+  {
+    "id": "v0066",
+    "kind": "word",
+    "level": "N5",
+    "text": "持つ",
+    "reading": "もつ",
+    "romaji": "motsu",
+    "meaning": "拿；持有",
+    "explanation": "「持っている」常表示拥有或正拿着某物。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s060",
+      "sg0245"
+    ]
+  },
+  {
+    "id": "v0067",
+    "kind": "word",
+    "level": "N5",
+    "text": "使う",
+    "reading": "つかう",
+    "romaji": "tsukau",
+    "meaning": "使用",
+    "explanation": "「辞書を使う」表示使用词典。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s074",
+      "sg0263"
+    ]
+  },
+  {
+    "id": "v0068",
+    "kind": "word",
+    "level": "N5",
+    "text": "作る",
+    "reading": "つくる",
+    "romaji": "tsukuru",
+    "meaning": "制作；做",
+    "explanation": "可指做饭、制作物品或创作内容。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0287b",
+      "sv0291b"
+    ]
+  },
+  {
+    "id": "v0069",
+    "kind": "word",
+    "level": "N5",
+    "text": "知る",
+    "reading": "しる",
+    "romaji": "shiru",
+    "meaning": "得知；知道",
+    "explanation": "表示已经知道常用「知っている」，否定常用「知らない」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s051",
+      "s167"
+    ]
+  },
+  {
+    "id": "v0070",
+    "kind": "word",
+    "level": "N5",
+    "text": "思う",
+    "reading": "おもう",
+    "romaji": "omou",
+    "meaning": "想；认为",
+    "explanation": "引用想法常用「～と思う」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s157",
+      "s167"
+    ]
+  },
+  {
+    "id": "v0071",
+    "kind": "word",
+    "level": "N5",
+    "text": "話",
+    "reading": "はなし",
+    "romaji": "hanashi",
+    "meaning": "话；谈话；故事",
+    "explanation": "这是名词；动词“说话”是「話す」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s050",
+      "s063"
+    ]
+  },
+  {
+    "id": "v0072",
+    "kind": "word",
+    "level": "N5",
+    "text": "言葉",
+    "reading": "ことば",
+    "romaji": "kotoba",
+    "meaning": "词语；话语",
+    "explanation": "可以指一个词，也可以指某人说的话。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s023",
+      "s062"
+    ]
+  },
+  {
+    "id": "v0073",
+    "kind": "word",
+    "level": "N5",
+    "text": "手紙",
+    "reading": "てがみ",
+    "romaji": "tegami",
+    "meaning": "信；书信",
+    "explanation": "不是中文的“手纸”；「手紙を書く」表示写信。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s006",
+      "s018"
+    ]
+  },
+  {
+    "id": "v0074",
+    "kind": "word",
+    "level": "N5",
+    "text": "起きる",
+    "reading": "おきる",
+    "romaji": "okiru",
+    "meaning": "起床；发生",
+    "explanation": "「朝起きる」表示早晨起床；事件也可以「起きる」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s017",
+      "s072"
+    ]
+  },
+  {
+    "id": "v0075",
+    "kind": "word",
+    "level": "N5",
+    "text": "寝る",
+    "reading": "ねる",
+    "romaji": "neru",
+    "meaning": "睡觉；躺下",
+    "explanation": "一段动词；「早く寝る」表示早点睡。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s018",
+      "s020"
+    ]
+  },
+  {
+    "id": "v0076",
+    "kind": "word",
+    "level": "N5",
+    "text": "働く",
+    "reading": "はたらく",
+    "romaji": "hataraku",
+    "meaning": "工作；劳动",
+    "explanation": "常用「会社で働く」描述工作的地方。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s103",
+      "sg0274"
+    ]
+  },
+  {
+    "id": "v0077",
+    "kind": "word",
+    "level": "N5",
+    "text": "勉強",
+    "reading": "べんきょう",
+    "romaji": "benkyou",
+    "meaning": "学习",
+    "explanation": "加「する」构成动词「勉強する」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s158",
+      "sv0278a"
+    ]
+  },
+  {
+    "id": "v0078",
+    "kind": "word",
+    "level": "N5",
+    "text": "仕事",
+    "reading": "しごと",
+    "romaji": "shigoto",
+    "meaning": "工作",
+    "explanation": "可指职业、工作任务或正在做的事情。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s020",
+      "s040"
+    ]
+  },
+  {
+    "id": "v0079",
+    "kind": "word",
+    "level": "N5",
+    "text": "時間",
+    "reading": "じかん",
+    "romaji": "jikan",
+    "meaning": "时间；小时",
+    "explanation": "既是时间名词，也能在「三時間」里表示三小时。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s083",
+      "s100"
+    ]
+  },
+  {
+    "id": "v0080",
+    "kind": "word",
+    "level": "N5",
+    "text": "休み",
+    "reading": "やすみ",
+    "romaji": "yasumi",
+    "meaning": "休息；假期",
+    "explanation": "「今日は休みです」可表示今天休息或放假。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s040",
+      "s041"
+    ]
+  },
+  {
+    "id": "v0081",
+    "kind": "word",
+    "level": "N5",
+    "text": "店",
+    "reading": "みせ",
+    "romaji": "mise",
+    "meaning": "店铺",
+    "explanation": "「店に行く」是去店里，「店で買う」是在店里买。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s073",
+      "s076"
+    ]
+  },
+  {
+    "id": "v0082",
+    "kind": "word",
+    "level": "N5",
+    "text": "道",
+    "reading": "みち",
+    "romaji": "michi",
+    "meaning": "道路；方法",
+    "explanation": "可指具体道路，也可引申为途径。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s028",
+      "s053"
+    ]
+  },
+  {
+    "id": "v0083",
+    "kind": "word",
+    "level": "N5",
+    "text": "雨",
+    "reading": "あめ",
+    "romaji": "ame",
+    "meaning": "雨",
+    "explanation": "「雨が降る」是下雨；同音词“糖”写作「飴」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s019",
+      "s027"
+    ]
+  },
+  {
+    "id": "v0084",
+    "kind": "word",
+    "level": "N5",
+    "text": "天気",
+    "reading": "てんき",
+    "romaji": "tenki",
+    "meaning": "天气",
+    "explanation": "「天気がいい」是天气好。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00841",
+      "sxv00842"
+    ]
+  },
+  {
+    "id": "v0085",
+    "kind": "word",
+    "level": "N5",
+    "text": "傘",
+    "reading": "かさ",
+    "romaji": "kasa",
+    "meaning": "伞",
+    "explanation": "「傘を持って行く」表示带伞去。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sg018e",
+      "sxv00851"
+    ]
+  },
+  {
+    "id": "v0086",
+    "kind": "word",
+    "level": "N5",
+    "text": "持って行く",
+    "reading": "もっていく",
+    "romaji": "motte iku",
+    "meaning": "带去",
+    "explanation": "「持つ」的て形加「行く」，强调把物品带离当前处。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s060",
+      "r036s2"
+    ]
+  },
+  {
+    "id": "v0087",
+    "kind": "word",
+    "level": "N4",
+    "text": "教える",
+    "reading": "おしえる",
+    "romaji": "oshieru",
+    "meaning": "教；告诉",
+    "explanation": "「人にことを教える」表示教某人某事或告诉某人。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s023",
+      "s032"
+    ]
+  },
+  {
+    "id": "v0088",
+    "kind": "word",
+    "level": "N4",
+    "text": "もらう",
+    "reading": "もらう",
+    "romaji": "morau",
+    "meaning": "收到；得到",
+    "explanation": "以接受者为视角；来源可用「に」或「から」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s021",
+      "s023"
+    ]
+  },
+  {
+    "id": "v0089",
+    "kind": "word",
+    "level": "N4",
+    "text": "あげる",
+    "reading": "あげる",
+    "romaji": "ageru",
+    "meaning": "给；给予",
+    "explanation": "以给予方描述给予行为，使用时留意人物关系。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s086",
+      "sg011f"
+    ]
+  },
+  {
+    "id": "v0090",
+    "kind": "word",
+    "level": "N4",
+    "text": "くれる",
+    "reading": "くれる",
+    "romaji": "kureru",
+    "meaning": "给我；给我方",
+    "explanation": "描述别人给说话者或说话者一方的人某物。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s054",
+      "s055"
+    ]
+  },
+  {
+    "id": "v0091",
+    "kind": "word",
+    "level": "N4",
+    "text": "見せる",
+    "reading": "みせる",
+    "romaji": "miseru",
+    "meaning": "给人看；展示",
+    "explanation": "「写真を見せる」是把照片给别人看。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s024",
+      "s054"
+    ]
+  },
+  {
+    "id": "v0092",
+    "kind": "word",
+    "level": "N4",
+    "text": "手伝う",
+    "reading": "てつだう",
+    "romaji": "tetsudau",
+    "meaning": "帮忙；协助",
+    "explanation": "五段动词；过去形「手伝った」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s087",
+      "sv0285b"
+    ]
+  },
+  {
+    "id": "v0093",
+    "kind": "word",
+    "level": "N4",
+    "text": "貸す",
+    "reading": "かす",
+    "romaji": "kasu",
+    "meaning": "借出；借给",
+    "explanation": "与「借りる」相对，留意借出者和借入者。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s037",
+      "sg012e"
+    ]
+  },
+  {
+    "id": "v0094",
+    "kind": "word",
+    "level": "N4",
+    "text": "説明",
+    "reading": "せつめい",
+    "romaji": "setsumei",
+    "meaning": "说明；解释",
+    "explanation": "「説明する」是进行说明。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s139",
+      "sv0283a"
+    ]
+  },
+  {
+    "id": "v0095",
+    "kind": "word",
+    "level": "N4",
+    "text": "質問",
+    "reading": "しつもん",
+    "romaji": "shitsumon",
+    "meaning": "提问；问题",
+    "explanation": "指为了获得回答而提出的问题。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "r036s3",
+      "sxv00951"
+    ]
+  },
+  {
+    "id": "v0096",
+    "kind": "word",
+    "level": "N4",
+    "text": "答え",
+    "reading": "こたえ",
+    "romaji": "kotae",
+    "meaning": "答案；回答",
+    "explanation": "名词；动词是「答える」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00961",
+      "sxv00962"
+    ]
+  },
+  {
+    "id": "v0097",
+    "kind": "word",
+    "level": "N4",
+    "text": "写真",
+    "reading": "しゃしん",
+    "romaji": "shashin",
+    "meaning": "照片",
+    "explanation": "「写真を見る」「写真を見せる」的动作方向不同。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s022",
+      "s086"
+    ]
+  },
+  {
+    "id": "v0098",
+    "kind": "word",
+    "level": "N4",
+    "text": "地図",
+    "reading": "ちず",
+    "romaji": "chizu",
+    "meaning": "地图",
+    "explanation": "「地図で確認する」表示用地图确认。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s024",
+      "s054"
+    ]
+  },
+  {
+    "id": "v0099",
+    "kind": "word",
+    "level": "N4",
+    "text": "お願い",
+    "reading": "おねがい",
+    "romaji": "onegai",
+    "meaning": "请求；拜托",
+    "explanation": "常见表达「お願いします」，具体意义由请求情境决定。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00991",
+      "sxv00992"
+    ]
+  },
+  {
+    "id": "v0100",
+    "kind": "word",
+    "level": "N4",
+    "text": "できる",
+    "reading": "できる",
+    "romaji": "dekiru",
+    "meaning": "能；完成",
+    "explanation": "可表示能力，也可表示东西做好了，需看上下文。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01001",
+      "sxv01002"
+    ]
+  },
+  {
+    "id": "v0101",
+    "kind": "word",
+    "level": "N4",
+    "text": "分かる",
+    "reading": "わかる",
+    "romaji": "wakaru",
+    "meaning": "明白；理解",
+    "explanation": "「意味が分かる」表示理解意思，常用「が」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s053",
+      "s062"
+    ]
+  },
+  {
+    "id": "v0102",
+    "kind": "word",
+    "level": "N4",
+    "text": "覚える",
+    "reading": "おぼえる",
+    "romaji": "oboeru",
+    "meaning": "记住；学会",
+    "explanation": "「覚えている」表示还记得。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s056",
+      "s099"
+    ]
+  },
+  {
+    "id": "v0103",
+    "kind": "word",
+    "level": "N4",
+    "text": "忘れる",
+    "reading": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "忘记",
+    "explanation": "「約束を忘れる」是忘记约定。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s035",
+      "s099"
+    ]
+  },
+  {
+    "id": "v0104",
+    "kind": "word",
+    "level": "N4",
+    "text": "始まる",
+    "reading": "はじまる",
+    "romaji": "hajimaru",
+    "meaning": "开始",
+    "explanation": "自动词；活动本身开始。让活动开始可用「始める」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0269b",
+      "sv0270b"
+    ]
+  },
+  {
+    "id": "v0105",
+    "kind": "word",
+    "level": "N4",
+    "text": "終わる",
+    "reading": "おわる",
+    "romaji": "owaru",
+    "meaning": "结束",
+    "explanation": "常用「仕事が終わる」，也有带宾语的用法，先结合例句学。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s091",
+      "s141"
+    ]
+  },
+  {
+    "id": "v0106",
+    "kind": "word",
+    "level": "N4",
+    "text": "開く",
+    "reading": "あく",
+    "romaji": "aku",
+    "meaning": "打开；开着",
+    "explanation": "这里学自动词「あく」；同一表记还有其他读法和意义。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s098",
+      "sxv01061"
+    ]
+  },
+  {
+    "id": "v0107",
+    "kind": "word",
+    "level": "N4",
+    "text": "閉まる",
+    "reading": "しまる",
+    "romaji": "shimaru",
+    "meaning": "关上；关闭",
+    "explanation": "自动词；「店が閉まる」表示店关门。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01071",
+      "sxv01072"
+    ]
+  },
+  {
+    "id": "v0108",
+    "kind": "word",
+    "level": "N4",
+    "text": "電車",
+    "reading": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "电车；列车",
+    "explanation": "「電車に乗る」是乘车，「電車で行く」是坐车去。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s097",
+      "sv0290a"
+    ]
+  },
+  {
+    "id": "v0109",
+    "kind": "word",
+    "level": "N4",
+    "text": "切符",
+    "reading": "きっぷ",
+    "romaji": "kippu",
+    "meaning": "票；车票",
+    "explanation": "注意「っ」的停顿；「切符を買う」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01091",
+      "sxv01092"
+    ]
+  },
+  {
+    "id": "v0110",
+    "kind": "word",
+    "level": "N4",
+    "text": "旅行",
+    "reading": "りょこう",
+    "romaji": "ryokou",
+    "meaning": "旅行",
+    "explanation": "「旅行する」表示去旅行。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sv0286a",
+      "sxv01101"
+    ]
+  },
+  {
+    "id": "v0111",
+    "kind": "word",
+    "level": "N4",
+    "text": "予定",
+    "reading": "よてい",
+    "romaji": "yotei",
+    "meaning": "计划；预定",
+    "explanation": "「明日の予定」表示明天的安排。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s058",
+      "sv0260b"
+    ]
+  },
+  {
+    "id": "v0112",
+    "kind": "word",
+    "level": "N4",
+    "text": "約束",
+    "reading": "やくそく",
+    "romaji": "yakusoku",
+    "meaning": "约定；承诺",
+    "explanation": "与仅描述计划的「予定」相比，常涉及与别人的约定。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s142",
+      "s158"
+    ]
+  },
+  {
+    "id": "v0113",
+    "kind": "word",
+    "level": "N4",
+    "text": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "romaji": "irassharu",
+    "meaning": "来、去、在的尊敬表达",
+    "explanation": "表示哪个动作需看语境；礼貌形通常为「いらっしゃいます」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s029",
+      "s059"
+    ]
+  },
+  {
+    "id": "v0114",
+    "kind": "word",
+    "level": "N4",
+    "text": "おっしゃる",
+    "reading": "おっしゃる",
+    "romaji": "ossharu",
+    "meaning": "说的尊敬表达",
+    "explanation": "通常指值得尊敬的一方所说的话；「おっしゃいます」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s030",
+      "sg015f"
+    ]
+  },
+  {
+    "id": "v0115",
+    "kind": "word",
+    "level": "N4",
+    "text": "召し上がる",
+    "reading": "めしあがる",
+    "romaji": "meshiagaru",
+    "meaning": "吃、喝的尊敬表达",
+    "explanation": "用于描述对方或应尊敬人物的饮食行为。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s094",
+      "sxv01151"
+    ]
+  },
+  {
+    "id": "v0116",
+    "kind": "word",
+    "level": "N4",
+    "text": "伺う",
+    "reading": "うかがう",
+    "romaji": "ukagau",
+    "meaning": "拜访；请教；听的谦让表达",
+    "explanation": "同一形式可能对应不同动作，需要结合对象和上下文。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s031",
+      "s057"
+    ]
+  },
+  {
+    "id": "v0117",
+    "kind": "word",
+    "level": "N4",
+    "text": "いただく",
+    "reading": "いただく",
+    "romaji": "itadaku",
+    "meaning": "领受；吃、喝的谦让表达",
+    "explanation": "「ていただく」还可表示谦逊地得到对方帮助。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s032",
+      "sg016e"
+    ]
+  },
+  {
+    "id": "v0118",
+    "kind": "word",
+    "level": "N4",
+    "text": "申す",
+    "reading": "もうす",
+    "romaji": "mousu",
+    "meaning": "说；称作的谦逊表达",
+    "explanation": "自我介绍常用「～と申します」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s096",
+      "sg016f"
+    ]
+  },
+  {
+    "id": "v0119",
+    "kind": "word",
+    "level": "N4",
+    "text": "くださる",
+    "reading": "くださる",
+    "romaji": "kudasaru",
+    "meaning": "给我方的尊敬表达",
+    "explanation": "礼貌形常用「くださいます」；也见于「てくださる」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00952",
+      "sxv01191"
+    ]
+  },
+  {
+    "id": "v0120",
+    "kind": "word",
+    "level": "N4",
+    "text": "お客様",
+    "reading": "おきゃくさま",
+    "romaji": "okyakusama",
+    "meaning": "客人；顾客的尊敬称呼",
+    "explanation": "称呼顾客时常见，敬称本身也反映人物关系。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01152",
+      "sxv01201"
+    ]
+  },
+  {
+    "id": "v0121",
+    "kind": "word",
+    "level": "N4",
+    "text": "会社",
+    "reading": "かいしゃ",
+    "romaji": "kaisha",
+    "meaning": "公司",
+    "explanation": "「会社で働く」表示在公司工作。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s057",
+      "s144"
+    ]
+  },
+  {
+    "id": "v0122",
+    "kind": "word",
+    "level": "N4",
+    "text": "連絡",
+    "reading": "れんらく",
+    "romaji": "renraku",
+    "meaning": "联系；通知",
+    "explanation": "「連絡する」表示联系或通知。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s149",
+      "s163"
+    ]
+  },
+  {
+    "id": "v0123",
+    "kind": "word",
+    "level": "N4",
+    "text": "資料",
+    "reading": "しりょう",
+    "romaji": "shiryou",
+    "meaning": "资料",
+    "explanation": "长音位置是「りょう」，留意与「しりょ」的区别。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s060",
+      "r036s3"
+    ]
+  },
+  {
+    "id": "v0124",
+    "kind": "word",
+    "level": "N4",
+    "text": "確認",
+    "reading": "かくにん",
+    "romaji": "kakunin",
+    "meaning": "确认；核实",
+    "explanation": "「確認する」表示检查并确认。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s058",
+      "s170"
+    ]
+  },
+  {
+    "id": "v0125",
+    "kind": "word",
+    "level": "N4",
+    "text": "失礼",
+    "reading": "しつれい",
+    "romaji": "shitsurei",
+    "meaning": "失礼；冒昧",
+    "explanation": "「失礼します」可用于进出房间或打断对话等情境。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01251",
+      "sxv01252"
+    ]
+  },
+  {
+    "id": "v0126",
+    "kind": "word",
+    "level": "N4",
+    "text": "理由",
+    "reading": "りゆう",
+    "romaji": "riyuu",
+    "meaning": "理由",
+    "explanation": "读「り・ゆ・う」，与拗音「りゅう」区分。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01261",
+      "sxv01262"
+    ]
+  },
+  {
+    "id": "v0127",
+    "kind": "word",
+    "level": "N4",
+    "text": "結果",
+    "reading": "けっか",
+    "romaji": "kekka",
+    "meaning": "结果",
+    "explanation": "注意促音「っ」；可表示行为或事件的结果。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01271",
+      "sxv01272"
+    ]
+  },
+  {
+    "id": "v0128",
+    "kind": "word",
+    "level": "N4",
+    "text": "問題",
+    "reading": "もんだい",
+    "romaji": "mondai",
+    "meaning": "问题；题目",
+    "explanation": "可以是待解决的困难，也可以是练习题。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00461",
+      "sxv01281"
+    ]
+  },
+  {
+    "id": "v0129",
+    "kind": "word",
+    "level": "N4",
+    "text": "必要",
+    "reading": "ひつよう",
+    "romaji": "hitsuyou",
+    "meaning": "必要",
+    "explanation": "「必要な資料」「資料が必要です」是常见形式。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01291",
+      "sxv01292"
+    ]
+  },
+  {
+    "id": "v0130",
+    "kind": "word",
+    "level": "N4",
+    "text": "大切",
+    "reading": "たいせつ",
+    "romaji": "taisetsu",
+    "meaning": "重要；珍贵",
+    "explanation": "可表达重视程度或情感上的珍惜。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s173",
+      "sxv01301"
+    ]
+  },
+  {
+    "id": "v0131",
+    "kind": "word",
+    "level": "N4",
+    "text": "同じ",
+    "reading": "おなじ",
+    "romaji": "onaji",
+    "meaning": "相同",
+    "explanation": "直接修饰名词常用「同じ本」，不用「同じな本」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s169",
+      "sxv01311"
+    ]
+  },
+  {
+    "id": "v0132",
+    "kind": "word",
+    "level": "N4",
+    "text": "違う",
+    "reading": "ちがう",
+    "romaji": "chigau",
+    "meaning": "不同；不对",
+    "explanation": "既可能表示两者不同，也可能否定对方判断。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00962",
+      "sxv01321"
+    ]
+  },
+  {
+    "id": "v0133",
+    "kind": "word",
+    "level": "N4",
+    "text": "本当",
+    "reading": "ほんとう",
+    "romaji": "hontou",
+    "meaning": "真实；真的",
+    "explanation": "「本当ですか」询问是否属实，语气会影响意图。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01331",
+      "sxv01332"
+    ]
+  },
+  {
+    "id": "v0134",
+    "kind": "word",
+    "level": "N4",
+    "text": "多分",
+    "reading": "たぶん",
+    "romaji": "tabun",
+    "meaning": "大概；可能",
+    "explanation": "表示推测，不表示百分之百确定。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01341",
+      "sxv01342"
+    ]
+  },
+  {
+    "id": "v0135",
+    "kind": "word",
+    "level": "N4",
+    "text": "しかし",
+    "reading": "しかし",
+    "romaji": "shikashi",
+    "meaning": "但是；然而",
+    "explanation": "常用于承接前文并提出转折。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s148",
+      "s161"
+    ]
+  },
+  {
+    "id": "v0136",
+    "kind": "word",
+    "level": "N4",
+    "text": "だから",
+    "reading": "だから",
+    "romaji": "dakara",
+    "meaning": "所以；因此",
+    "explanation": "提示后文与前文之间的结果或推论关系。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s019",
+      "sg010f"
+    ]
+  },
+  {
+    "id": "v0137",
+    "kind": "word",
+    "level": "N4",
+    "text": "それでも",
+    "reading": "それでも",
+    "romaji": "soredemo",
+    "meaning": "尽管如此；即便如此",
+    "explanation": "后文通常表达在前述情况下仍成立的事情。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01371",
+      "sxv01372"
+    ]
+  },
+  {
+    "id": "v0138",
+    "kind": "word",
+    "level": "N4",
+    "text": "つまり",
+    "reading": "つまり",
+    "romaji": "tsumari",
+    "meaning": "也就是说；总之",
+    "explanation": "引出归纳、换句话说或结论。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s040",
+      "s104"
+    ]
+  },
+  {
+    "id": "v0139",
+    "kind": "word",
+    "level": "N4",
+    "text": "物語",
+    "reading": "ものがたり",
+    "romaji": "monogatari",
+    "meaning": "故事；叙事作品",
+    "explanation": "可指具体故事，也可指叙事的内容。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s061",
+      "s131"
+    ]
+  },
+  {
+    "id": "v0140",
+    "kind": "word",
+    "level": "N4",
+    "text": "主人公",
+    "reading": "しゅじんこう",
+    "romaji": "shujinkou",
+    "meaning": "主人公",
+    "explanation": "注意「しゅ」是拗音；从上下文判断叙事视角。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s062",
+      "s064"
+    ]
+  },
+  {
+    "id": "v0141",
+    "kind": "word",
+    "level": "N4",
+    "text": "気持ち",
+    "reading": "きもち",
+    "romaji": "kimochi",
+    "meaning": "心情；感受",
+    "explanation": "「気持ちが分かる」表示理解对方感受。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s062",
+      "s064"
+    ]
+  },
+  {
+    "id": "v0142",
+    "kind": "word",
+    "level": "N4",
+    "text": "声",
+    "reading": "こえ",
+    "romaji": "koe",
+    "meaning": "声音；嗓音",
+    "explanation": "常指人或动物发出的声音，与一般的「音」区分。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01421",
+      "sxv01422"
+    ]
+  },
+  {
+    "id": "v0143",
+    "kind": "word",
+    "level": "N4",
+    "text": "記憶",
+    "reading": "きおく",
+    "romaji": "kioku",
+    "meaning": "记忆",
+    "explanation": "「記憶にある」表示留在记忆之中。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01431",
+      "sxv01432"
+    ]
+  },
+  {
+    "id": "v0144",
+    "kind": "word",
+    "level": "N4",
+    "text": "まだ",
+    "reading": "まだ",
+    "romaji": "mada",
+    "meaning": "还；尚未",
+    "explanation": "与肯定、否定搭配时意义不同：「まだ覚えている」「まだ読んでいない」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s056",
+      "sg018f"
+    ]
+  },
+  {
+    "id": "v0145",
+    "kind": "word",
+    "level": "N4",
+    "text": "もう",
+    "reading": "もう",
+    "romaji": "mou",
+    "meaning": "已经；再",
+    "explanation": "「もう読んだ」是已经读过；「もう一度」是再一次。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s035",
+      "s063"
+    ]
+  },
+  {
+    "id": "v0146",
+    "kind": "word",
+    "level": "N4",
+    "text": "ずっと",
+    "reading": "ずっと",
+    "romaji": "zutto",
+    "meaning": "一直；远为",
+    "explanation": "既能描述持续，也能加强比较，具体意义看句子。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01461",
+      "sxv01462"
+    ]
+  },
+  {
+    "id": "v0147",
+    "kind": "word",
+    "level": "N4",
+    "text": "急に",
+    "reading": "きゅうに",
+    "romaji": "kyuu ni",
+    "meaning": "突然",
+    "explanation": "读音中的「きゅ」为拗音，后接长音。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01471",
+      "sxv01472"
+    ]
+  },
+  {
+    "id": "v0148",
+    "kind": "word",
+    "level": "N4",
+    "text": "例えば",
+    "reading": "たとえば",
+    "romaji": "tatoeba",
+    "meaning": "例如",
+    "explanation": "引出用于说明前文观点的具体例子。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01481",
+      "sxv01482"
+    ]
+  },
+  {
+    "id": "v0149",
+    "kind": "word",
+    "level": "N4",
+    "text": "一方",
+    "reading": "いっぽう",
+    "romaji": "ippou",
+    "meaning": "另一方面；一方",
+    "explanation": "可组织两方的对比或补充信息。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s039",
+      "s103"
+    ]
+  },
+  {
+    "id": "v0150",
+    "kind": "word",
+    "level": "N4",
+    "text": "結局",
+    "reading": "けっきょく",
+    "romaji": "kekkyoku",
+    "meaning": "结果；到头来",
+    "explanation": "常引出经过变化后最终成立的结果。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01501",
+      "sxv01502"
+    ]
+  },
+  {
+    "id": "v0151",
+    "kind": "word",
+    "level": "N4",
+    "text": "近い",
+    "reading": "ちかい",
+    "romaji": "chikai",
+    "meaning": "近的",
+    "explanation": "い形容词；「近い道」是近路，「駅に近い」是离车站近。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s055",
+      "sv0315b"
+    ]
+  },
+  {
+    "id": "v0152",
+    "kind": "word",
+    "level": "N4",
+    "text": "遠い",
+    "reading": "とおい",
+    "romaji": "tooi",
+    "meaning": "远的",
+    "explanation": "注意「とお」的长音；「家から遠い」表示离家远。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01521",
+      "sxv01522"
+    ]
+  },
+  {
+    "id": "v0153",
+    "kind": "word",
+    "level": "N4",
+    "text": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "meaning": "水",
+    "explanation": "「水を飲む」表示喝水。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s070",
+      "sg0285"
+    ]
+  },
+  {
+    "id": "v0154",
+    "kind": "word",
+    "level": "N4",
+    "text": "お茶",
+    "reading": "おちゃ",
+    "romaji": "ocha",
+    "meaning": "茶",
+    "explanation": "前面的「お」是常用的礼貌、美化表达。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s094",
+      "sxv01202"
+    ]
+  },
+  {
+    "id": "v0155",
+    "kind": "word",
+    "level": "N4",
+    "text": "電話",
+    "reading": "でんわ",
+    "romaji": "denwa",
+    "meaning": "电话",
+    "explanation": "「電話で確認する」中的「で」表示使用的手段。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s058",
+      "sxv01551"
+    ]
+  },
+  {
+    "id": "v0156",
+    "kind": "word",
+    "level": "N4",
+    "text": "午前中",
+    "reading": "ごぜんちゅう",
+    "romaji": "gozenchuu",
+    "meaning": "上午这段时间",
+    "explanation": "「午前中はいる」表示上午在；留意「ちゅう」的长音。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s059",
+      "sxv01561"
+    ]
+  },
+  {
+    "id": "v0157",
+    "kind": "word",
+    "level": "N4",
+    "text": "午後",
+    "reading": "ごご",
+    "romaji": "gogo",
+    "meaning": "下午",
+    "explanation": "与「午前」相对；可用于「午後に会う」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s145",
+      "sxv01571"
+    ]
+  },
+  {
+    "id": "v0158",
+    "kind": "word",
+    "level": "N4",
+    "text": "六時",
+    "reading": "ろくじ",
+    "romaji": "rokuji",
+    "meaning": "六点",
+    "explanation": "明确的钟点常接「に」，例如「六時に起きる」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s072",
+      "sg0302"
+    ]
+  },
+  {
+    "id": "v0159",
+    "kind": "word",
+    "level": "N4",
+    "text": "九時",
+    "reading": "くじ",
+    "romaji": "kuji",
+    "meaning": "九点",
+    "explanation": "这里读「くじ」，不读「きゅうじ」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s098",
+      "sxv01061"
+    ]
+  },
+  {
+    "id": "v0160",
+    "kind": "word",
+    "level": "N4",
+    "text": "十時",
+    "reading": "じゅうじ",
+    "romaji": "juuji",
+    "meaning": "十点",
+    "explanation": "注意「じゅう」的长音。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s098",
+      "sxv01601"
+    ]
+  },
+  {
+    "id": "v0161",
+    "kind": "word",
+    "level": "N4",
+    "text": "二冊",
+    "reading": "にさつ",
+    "romaji": "nisatsu",
+    "meaning": "两本",
+    "explanation": "「冊」用于书册等装订的物品。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s045",
+      "sg0304"
+    ]
+  },
+  {
+    "id": "v0162",
+    "kind": "word",
+    "level": "N4",
+    "text": "一度",
+    "reading": "いちど",
+    "romaji": "ichido",
+    "meaning": "一次",
+    "explanation": "「もう一度」表示再一次。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s063",
+      "s084"
+    ]
+  },
+  {
+    "id": "v0163",
+    "kind": "word",
+    "level": "N4",
+    "text": "意味",
+    "reading": "いみ",
+    "romaji": "imi",
+    "meaning": "意思；含义",
+    "explanation": "「言葉の意味」是词语的意思，「意味が分かる」是明白意思。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s062",
+      "s088"
+    ]
+  },
+  {
+    "id": "v0164",
+    "kind": "word",
+    "level": "N4",
+    "text": "関係",
+    "reading": "かんけい",
+    "romaji": "kankei",
+    "meaning": "关系",
+    "explanation": "可指人物关系或前后文的关联。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s063",
+      "s173"
+    ]
+  },
+  {
+    "id": "v0165",
+    "kind": "word",
+    "level": "N4",
+    "text": "考える",
+    "reading": "かんがえる",
+    "romaji": "kangaeru",
+    "meaning": "思考；考虑",
+    "explanation": "一段动词；「考えた」表示想过了。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s063",
+      "s173"
+    ]
+  },
+  {
+    "id": "v0166",
+    "kind": "word",
+    "level": "N4",
+    "text": "とても",
+    "reading": "とても",
+    "romaji": "totemo",
+    "meaning": "很；非常",
+    "explanation": "常放在形容词之前，表达程度。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s050",
+      "s154"
+    ]
+  },
+  {
+    "id": "v0167",
+    "kind": "word",
+    "level": "N4",
+    "text": "少しずつ",
+    "reading": "すこしずつ",
+    "romaji": "sukoshi zutsu",
+    "meaning": "一点一点地",
+    "explanation": "描述渐进变化，例如「少しずつ分かる」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s064",
+      "sxv01671"
+    ]
+  },
+  {
+    "id": "v0168",
+    "kind": "word",
+    "level": "N4",
+    "text": "言う",
+    "reading": "いう",
+    "romaji": "iu",
+    "meaning": "说",
+    "explanation": "「言った」是过去形；引用说话内容时常用「と」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s153",
+      "r039s3"
+    ]
+  },
+  {
+    "id": "v0169",
+    "kind": "word",
+    "level": "N4",
+    "text": "始める",
+    "reading": "はじめる",
+    "romaji": "hajimeru",
+    "meaning": "开始做；使开始",
+    "explanation": "「読み始める」表示开始读；与自动词「始まる」区分。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s156",
+      "sxv01691"
+    ]
+  },
+  {
+    "id": "v0170",
+    "kind": "word",
+    "level": "N4",
+    "text": "今朝",
+    "reading": "けさ",
+    "romaji": "kesa",
+    "meaning": "今天早晨",
+    "explanation": "这是整体读法「けさ」，不能逐字拼读。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s161",
+      "sxv01701"
+    ]
+  },
+  {
+    "id": "v0171",
+    "kind": "word",
+    "level": "N4",
+    "text": "降る",
+    "reading": "ふる",
+    "romaji": "furu",
+    "meaning": "下雨、下雪等",
+    "explanation": "「雨が降る」表示下雨，降雨的主体用「が」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s027",
+      "s161"
+    ]
+  },
+  {
+    "id": "v0172",
+    "kind": "word",
+    "level": "N4",
+    "text": "歩く",
+    "reading": "あるく",
+    "romaji": "aruku",
+    "meaning": "步行；走路",
+    "explanation": "五段动词；て形为「歩いて」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s161",
+      "sv0307b"
+    ]
+  },
+  {
+    "id": "v0173",
+    "kind": "word",
+    "level": "N4",
+    "text": "心配",
+    "reading": "しんぱい",
+    "romaji": "shinpai",
+    "meaning": "担心",
+    "explanation": "「心配する」表示担心某件事。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s165",
+      "sxv01731"
+    ]
+  },
+  {
+    "id": "v0174",
+    "kind": "word",
+    "level": "N4",
+    "text": "いい",
+    "reading": "いい",
+    "romaji": "ii",
+    "meaning": "好的",
+    "explanation": "常见活用使用「よ」开头，如「よかった」「よくない」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv00841",
+      "sxv01732"
+    ]
+  },
+  {
+    "id": "v0175",
+    "kind": "word",
+    "level": "N4",
+    "text": "多い",
+    "reading": "おおい",
+    "romaji": "ooi",
+    "meaning": "多的",
+    "explanation": "「言葉が多い」表示词语多；注意「おお」的长音。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s167",
+      "r039s1"
+    ]
+  },
+  {
+    "id": "v0176",
+    "kind": "word",
+    "level": "N4",
+    "text": "すぐ",
+    "reading": "すぐ",
+    "romaji": "sugu",
+    "meaning": "马上；很快",
+    "explanation": "可描述时间间隔短，也可在位置表达里表示很近。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s163",
+      "s167"
+    ]
+  },
+  {
+    "id": "v0177",
+    "kind": "word",
+    "level": "N4",
+    "text": "最後",
+    "reading": "さいご",
+    "romaji": "saigo",
+    "meaning": "最后",
+    "explanation": "「最後まで読む」表示读到最后。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s168",
+      "sxv01771"
+    ]
+  },
+  {
+    "id": "v0178",
+    "kind": "word",
+    "level": "N4",
+    "text": "ゆっくり",
+    "reading": "ゆっくり",
+    "romaji": "yukkuri",
+    "meaning": "慢慢地；从容地",
+    "explanation": "可描述动作速度，也可表示放松、不着急。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "sxv01781",
+      "sxv01782"
+    ]
+  },
+  {
+    "id": "v0179",
+    "kind": "word",
+    "level": "N4",
+    "text": "自分",
+    "reading": "じぶん",
+    "romaji": "jibun",
+    "meaning": "自己",
+    "explanation": "指谁要由句子视角与上下文判断。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s172",
+      "sxv01791"
+    ]
+  },
+  {
+    "id": "v0180",
+    "kind": "word",
+    "level": "N4",
+    "text": "考え",
+    "reading": "かんがえ",
+    "romaji": "kangae",
+    "meaning": "想法；看法",
+    "explanation": "这是名词；动词为「考える」。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s172",
+      "sxv01281"
+    ]
+  },
+  {
+    "id": "v0181",
+    "kind": "word",
+    "level": "N4",
+    "text": "後",
+    "reading": "あと",
+    "romaji": "ato",
+    "meaning": "之后；后面",
+    "explanation": "这里学「あ と」的读法，「後で」表示之后。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s173",
+      "sv0238b"
+    ]
+  },
+  {
+    "id": "v0182",
+    "kind": "word",
+    "level": "N4",
+    "text": "よく",
+    "reading": "よく",
+    "romaji": "yoku",
+    "meaning": "经常；充分地",
+    "explanation": "「よく分かる」表示很明白，不宜机械理解为经常。",
+    "sourceIDs": [
+      "jmdict"
+    ],
+    "status": "trial",
+    "exampleSentenceIDs": [
+      "s062",
+      "s159"
+    ]
+  },
+  {
+    "id": "g001",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "は：话题",
+    "reading": "",
+    "romaji": "",
+    "meaning": "说明接下来谈论什么",
+    "explanation": "「は」提示话题，读作「わ」。话题可以是人物、时间或事物，后文对它作说明。不要机械地把每个「は」都译成中文主语。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [],
+    "order": 0
+  },
+  {
+    "id": "g002",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "の：名词之间的关系",
+    "reading": "",
+    "romaji": "",
+    "meaning": "连接名词，表示所属等关系",
+    "explanation": "「AのB」中，被说明的中心通常是B。所属、类别和具体关系需要由名词意义和上下文决定。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g001"
+    ],
+    "order": 3
+  },
+  {
+    "id": "g003",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "を：动作的对象",
+    "reading": "",
+    "romaji": "",
+    "meaning": "标记动作直接涉及的对象",
+    "explanation": "「本を読む」中，读的对象是书。「を」在这里读作「お」。先找到动作，再判断哪个成分是动作的对象。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ],
+    "order": 4
+  },
+  {
+    "id": "g004",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "に・へ：时间与方向",
+    "reading": "",
+    "romaji": "",
+    "meaning": "根据搭配判断时间点、目的地或方向",
+    "explanation": "「駅に行く」「駅へ行く」都可描述去车站；方向助词「へ」读「え」。明确的时间点常用「に」，例如「三時に」。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g003"
+    ],
+    "order": 5
+  },
+  {
+    "id": "g005",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "形容词修饰名词",
+    "reading": "",
+    "romaji": "",
+    "meaning": "区分い形容词与な形容词",
+    "explanation": "い形容词通常直接接名词，如「新しい本」。な形容词在这里用「な」，如「静かな部屋」。不要只根据中文意思判断连接方式。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ],
+    "order": 6
+  },
+  {
+    "id": "g006",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "ある・いる：存在",
+    "reading": "",
+    "romaji": "",
+    "meaning": "结合位置判断谁或什么在哪里",
+    "explanation": "典型结构为「場所に物がある」「場所に人がいる」。先区分存在的位置和存在的对象；这是入门规则，具体用法仍需结合语境。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g004"
+    ],
+    "order": 8
+  },
+  {
+    "id": "g007",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "过去形：た・だ",
+    "reading": "",
+    "romaji": "",
+    "meaning": "识别已经发生的动作",
+    "explanation": "「読む→読んだ」「買う→買った」「見る→見た」。活用后的形式要能还原到原形；过去形也能放在名词前作修饰。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ],
+    "order": 9
+  },
+  {
+    "id": "g008",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "句子修饰名词",
+    "reading": "",
+    "romaji": "",
+    "meaning": "找到修饰部分后面的中心名词",
+    "explanation": "「昨日買った本」的中心是「本」，前面的「昨日買った」说明是哪本书。日语通常把修饰内容放在名词之前。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g007",
+      "g002"
+    ]
+  },
+  {
+    "id": "g009",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "て形：连接动作",
+    "reading": "",
+    "romaji": "",
+    "meaning": "读出动作之间的衔接",
+    "explanation": "「起きて、本を読む」可描述起床后读书。「て」连接时还可能表达方式或原因，不能始终机械地解释为先后。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g007"
+    ],
+    "order": 10
+  },
+  {
+    "id": "g010",
+    "kind": "grammar",
+    "level": "N5",
+    "text": "から・ので：原因",
+    "reading": "",
+    "romaji": "",
+    "meaning": "区分原因部分和后面的结果",
+    "explanation": "原因说明常出现在「から」「ので」之前。「雨だから、家にいる」说明待在家的原因。语气和礼貌程度也受整句语境影响。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ],
+    "order": 11
+  },
+  {
+    "id": "g011",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "あげる・もらう・くれる",
+    "reading": "",
+    "romaji": "",
+    "meaning": "辨认给予者、接受者与叙述视角",
+    "explanation": "「あげる」从给予方描述，「もらう」从接受方描述。「くれる」通常表示别人给说话者或说话者一方的人。不要只根据一个助词猜方向。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g003",
+      "g004"
+    ]
+  },
+  {
+    "id": "g012",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "てもらう・てくれる",
+    "reading": "",
+    "romaji": "",
+    "meaning": "辨认谁替谁做事",
+    "explanation": "「友達に教えてもらった」表示说话者得到朋友的教导。「友達が教えてくれた」把朋友放在动作主体的位置，表达我方获得帮助。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g009",
+      "g011"
+    ]
+  },
+  {
+    "id": "g013",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "可能表达",
+    "reading": "",
+    "romaji": "",
+    "meaning": "识别能够做某事",
+    "explanation": "「読む→読める」「食べる→食べられる」「する→できる」。有的形式也可能有其他解释，需要结合句中人物、动作和情境判断。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ]
+  },
+  {
+    "id": "g014",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "たら・なら：条件",
+    "reading": "",
+    "romaji": "",
+    "meaning": "结合前后句理解条件",
+    "explanation": "「雨が降ったら、家にいる」把下雨作为条件。「なら」常用于承接提出的话题或前提。先判断前半句是否已经成为事实。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g007"
+    ]
+  },
+  {
+    "id": "g015",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "尊敬表达",
+    "reading": "",
+    "romaji": "",
+    "meaning": "识别应尊敬人物的动作",
+    "explanation": "「先生がいらっしゃる」「先生がおっしゃる」描述老师的动作。敬语形式不改变动作参与者；需要还原成来、去、在或说等基本意义。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ]
+  },
+  {
+    "id": "g016",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "谦让表达",
+    "reading": "",
+    "romaji": "",
+    "meaning": "识别我方动作及所面对的人",
+    "explanation": "「先生に伺う」「教えていただく」等表达与对方的关系有关。「申す」常用于谦逊地表达自己说或叫作什么。不同表达的礼貌功能应逐项学习。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g015"
+    ]
+  },
+  {
+    "id": "g017",
+    "kind": "grammar",
+    "level": "N3",
+    "text": "はず・かもしれない",
+    "reading": "",
+    "romaji": "",
+    "meaning": "区分有依据的预期与可能性",
+    "explanation": "「はず」常表达说话者根据某种依据形成的预期；「かもしれない」表示可能。二者都不应直接当作客观事实。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g021"
+    ]
+  },
+  {
+    "id": "g018",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "のに：与预期不一致",
+    "reading": "",
+    "romaji": "",
+    "meaning": "读出前后情况的反差",
+    "explanation": "「読んだのに、忘れた」表示虽然读过，却忘记了。此处的「のに」表达转折；不要和表示用途的「のに」混淆。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g010"
+    ]
+  },
+  {
+    "id": "g019",
+    "kind": "grammar",
+    "level": "N4",
+    "text": "省略与指代",
+    "reading": "",
+    "romaji": "",
+    "meaning": "从前文恢复人物和事物",
+    "explanation": "日语经常省略能由语境恢复的成分。「それ」等指示词也依赖前文。根据上下文寻找最有根据的解释，信息不足时保留不确定性。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g001",
+      "g002"
+    ]
+  },
+  {
+    "id": "g020",
+    "kind": "grammar",
+    "level": "N3",
+    "text": "一方・つまり：篇章关系",
+    "reading": "",
+    "romaji": "",
+    "meaning": "识别对比、补充与归纳",
+    "explanation": "「一方」常引入另一方的情况；「つまり」常引出归纳或换一种说法。理解连接词时，应同时回看前句和后句。",
+    "sourceIDs": [
+      "irodori",
+      "taekim"
+    ],
+    "status": "trial",
+    "prerequisiteIDs": [
+      "g010",
+      "g019"
+    ]
+  }
+]

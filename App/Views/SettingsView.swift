@@ -147,7 +147,7 @@ private struct AboutView: View {
             }
             Section(header: Text("课程参考")) {
                 ForEach(model.pack.references) { reference in
-                    if let url = URL(string: reference.url) { Link(reference.title, destination: url) }
+                    NavigationLink(reference.title, destination: SourceDetailView(reference: reference))
                 }
                 Text("中文说明、例句及练习为本项目编写的个人试用内容。尚未经过完整的独立日语审校。")
                     .font(.footnote).foregroundColor(.secondary)

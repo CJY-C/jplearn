@@ -10,9 +10,12 @@ struct TodayView: View {
     @State private var session = false
     private var studied: TimeInterval { StudyTime.today(events: model.events, live: clock.pendingInterval) }
     private var reached: Bool { studied >= Double(minutes * 60) }
-    private var dueCount: Int { (try? ReviewScheduler().dueKeys(events: model.events, pack: model.pack))?.count ?? 0 }
+    private var dueCount: Int { model.dueCount }
     private var available: Bool { model.canStartToday(minutes: minutes, newWordLimit: dailyNewWords) }
     var body: some View {
+        TimelineView(.periodic(from: Date(), by: 30)) { _ in todayContent }
+    }
+    private var todayContent: some View {
         Group {
             if sizeCategory.isAccessibilityCategory { ScrollView { content } }
             else { content }
@@ -94,6 +97,21 @@ struct CourseView: View {
     @EnvironmentObject private var model: AppModel
     var body: some View {
         List {
+            if let modules = model.pack.introModules, !modules.isEmpty {
+                Section(header: Text("入门与诊断")) {
+                    ForEach(modules) { module in
+                        NavigationLink(destination: IntroModuleView(module: module)) {
+                            HStack {
+                                Text(module.title)
+                                Spacer()
+                                if model.events.last(where: { $0.kind == .placement && $0.targetID == module.id })?.value == "passed" {
+                                    Image(systemName: "checkmark.circle").foregroundColor(.accentColor)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             Section {
                 Text("把基础连成阅读能力").font(.title3.bold())
                 Text("读音与词义分别练习；结构理解之后，再到新的句段中尝试。")
@@ -124,7 +142,7 @@ struct CourseView: View {
                 }
             }
             Section(header: Text("阅读练习 · \(model.pack.readings.count) 篇")) {
-                ForEach(model.pack.readings) { reading in
+                ForEach(model.pack.readings.filter { $0.purpose != "assessment" }) { reading in
                     NavigationLink(destination: PassagePreview(reading: reading)) {
                         HStack {
                             Text(reading.title)
@@ -132,6 +150,13 @@ struct CourseView: View {
                             Text(reading.level).font(.caption).foregroundColor(.secondary)
                         }
                     }
+                }
+            }
+            Section(header: Text("阶段阅读检测")) {
+                Text("用新的篇章看看自己能理解多少。完成后查看依据与解析。")
+                    .font(.caption).foregroundColor(.secondary)
+                ForEach(model.pack.stages) { stage in
+                    NavigationLink(stage.title, destination: AssessmentListView(level: stage.id.uppercased()))
                 }
             }
         }.listStyle(.insetGrouped).navigationTitle("课程")
@@ -213,7 +238,7 @@ struct PassagePreview: View {
         List {
             Section {
                 Text("\(reading.level) · \(reading.genre)").font(.caption).foregroundColor(.secondary)
-                let readiness = ReadingReadiness.assess(reading, pack: model.pack, events: model.events)
+                let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
                 Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
                     .font(.subheadline).foregroundColor(.secondary)
                 if !readiness.unfamiliarWords.isEmpty {

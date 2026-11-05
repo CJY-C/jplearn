@@ -5,13 +5,14 @@ final class SmallScreenTests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false) {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
         app.launchEnvironment["JPLEARN_UI_TEST_SESSION"] = UUID().uuidString
-        if knownVocabulary || exhausted || longReading { app.launchEnvironment["JPLEARN_UI_TEST_KNOWN_VOCABULARY"] = "1" }
+        if knownVocabulary || exhausted || longReading || readingID != nil { app.launchEnvironment["JPLEARN_UI_TEST_KNOWN_VOCABULARY"] = "1" }
         if exhausted { app.launchEnvironment["JPLEARN_UI_TEST_EXHAUSTED"] = "1" }
-        if longReading { app.launchEnvironment["JPLEARN_UI_TEST_LONG_READING"] = "1" }
+        if longReading || readingID != nil { app.launchEnvironment["JPLEARN_UI_TEST_LONG_READING"] = "1" }
+        if let readingID = readingID { app.launchEnvironment["JPLEARN_UI_TEST_READING_ID"] = readingID }
         app.launch()
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
@@ -92,6 +93,36 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.buttons["today.start"].label.contains("今日安排已完成"))
         XCTAssertFalse(app.scrollViews["study.readingScroll"].exists)
         screenshot("SE3-CompletedPlan")
+    }
+
+    @MainActor func testTwoQuestionReadingStaysOnTheSamePage() {
+        launch(readingID: "r025")
+        app.buttons["today.start"].tap()
+        XCTAssertTrue(app.staticTexts["理解 1 / 2"].waitForExistence(timeout: 5))
+        app.buttons["study.choice.0"].tap()
+        visible(app.buttons["study.continue"])
+        app.buttons["study.continue"].tap()
+        XCTAssertTrue(app.staticTexts["理解 2 / 2"].waitForExistence(timeout: 5))
+        visible(app.buttons["study.choice.0"])
+        screenshot("SE3-Reading-SecondQuestion")
+        app.buttons["study.choice.0"].tap()
+        app.buttons["study.continue"].tap()
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
+    @MainActor func testIntroDiagnosticFitsOnSE3() {
+        launch()
+        app.tabBars.buttons["课程"].tap()
+        app.buttons["平假名清音"].tap()
+        visible(app.buttons["intro.start"])
+        screenshot("SE3-Intro")
+        app.buttons["intro.start"].tap()
+        for answer in [0, 1, 2, 0, 1] {
+            visible(app.buttons["study.choice.\(answer)"])
+            app.buttons["study.choice.\(answer)"].tap()
+            app.buttons["study.continue"].tap()
+        }
+        XCTAssertTrue(app.staticTexts["这一项可以跳过"].waitForExistence(timeout: 5))
     }
 
     @MainActor func testLongReadingKeepsCoverageAndAnswerControlsVisible() {
