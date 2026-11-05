@@ -4,11 +4,17 @@
 
 - `LearningCore`：版本化课程模型及资源、假名答案规范化、事件校验与合并、FSRS 重放、学习安排和备份编码。
 - `App`：SwiftUI 界面、Core Text 注音、Core Data 事件日志、系统朗读、文档选择和文件协调。
-- GitHub Actions：内容校验 → macOS 核心测试 → iOS 持久化与文件交换测试 → 设备归档 → 校验最低系统与课程资源 → IPA artifact。
+- GitHub Actions：内容校验 → macOS 核心测试 → iOS 持久化、计时与 SE3 界面测试 → 设备归档 → 校验最低系统与课程资源 → IPA artifact → 版本 Release。
 
 使用 iOS 15 支持的 NavigationView、ObservableObject 与 Core Data。没有引入要求 iOS 16 的 NavigationStack 或要求 iOS 17 的 SwiftData。
 
 应用通过 `dueKeys` 和 `validateHistory` 使用复习调度；FSRS 的 Card 等类型留在核心模块内部。对外接口只返回本项目定义的类型，避免应用链接时直接依赖传递包的类型元数据。
+
+## 界面约定
+
+使用系统字体、语义背景色和统一的青绿色强调色。主要按钮、轻量操作、图标按钮及按压反馈集中在 `StudyStyle.swift`，新增学习操作复用这些样式。主要按钮高 50 点，轻量及图标操作至少 44 点，常规按钮圆角 12 点，学习区水平留白 18 点。每个区域只突出下一步操作，评分和选项保持较低视觉权重。
+
+SE3 标准字号下，普通词卡和句型内容不滚动，操作区通过 safeAreaInset 固定在底部并避让键盘。长文仅上部正文使用独立 ScrollView，下部问题、选项及继续按钮保持可见。辅助功能大字号允许普通内容滚动。界面改动需检查 375×667 的截图与实际可点击范围，包括显示答案前后和键盘打开时。
 
 ## 事件与学习状态
 

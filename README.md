@@ -47,7 +47,7 @@ open JPLearn.xcodeproj
 
 选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；自动测试使用 iOS 18.5 的 iPhone SE3 模拟器，覆盖单屏按钮、键盘、固定答题区与暂停，不代表旧版系统已经完成真机验收。
 
-Linux 可运行所有 Python 内容检查。2026-11-05 已在 [GitHub macOS 工作流](https://github.com/CJY-C/jplearn/actions/runs/41981863480) 通过 12 项内容检查、22 项核心测试和 4 项 iOS 18.5 模拟器集成测试，完成设备归档并生成 IPA。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步尚待验收。
+Linux 可运行所有 Python 内容检查。2026-11-05 的 [0.2.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/41991038430) 已通过 12 项内容检查、31 项核心测试、6 项 iOS 集成测试和 4 项 SE3 界面测试，完成设备归档并自动发布 [0.2.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.2.0)。已复核 SE3 首页、词卡、键盘、句型和长文截图；下载包的版本、arm64 架构及二进制最低系统 15.5 也已核验。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
 
 ## 第一次使用
 
