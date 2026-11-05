@@ -8,10 +8,10 @@ public struct ReviewKey: Hashable, Identifiable, Codable {
     public var id: String { itemID + ":" + skill.rawValue }
 }
 
-public struct ScheduledItem: Identifiable {
-    public let key: ReviewKey
-    public let card: Card
-    public var id: String { key.id }
+struct ScheduledItem: Identifiable {
+    let key: ReviewKey
+    let card: Card
+    var id: String { key.id }
 }
 
 public struct ReviewScheduler {
@@ -20,7 +20,15 @@ public struct ReviewScheduler {
     ))
     public init() {}
 
-    public func replay(_ events: [LearningEvent]) throws -> [ReviewKey: Card] {
+    public func validateHistory(_ events: [LearningEvent]) throws {
+        _ = try replay(events)
+    }
+
+    public func dueKeys(events: [LearningEvent], pack: ContentPack, now: Date = Date()) throws -> [ReviewKey] {
+        try due(events: events, pack: pack, now: now).map(\.key)
+    }
+
+    func replay(_ events: [LearningEvent]) throws -> [ReviewKey: Card] {
         var cards: [ReviewKey: Card] = [:]
         for event in events.sorted(by: LearningEvent.ordered) where event.kind == .review {
             try event.validate()
@@ -33,7 +41,7 @@ public struct ReviewScheduler {
         return cards
     }
 
-    public func due(events: [LearningEvent], pack: ContentPack, now: Date = Date()) throws -> [ScheduledItem] {
+    func due(events: [LearningEvent], pack: ContentPack, now: Date = Date()) throws -> [ScheduledItem] {
         let available = Set(pack.items.flatMap { item in item.skills.map { ReviewKey(itemID: item.id, skill: $0) } })
         return try replay(events).compactMap { key, card in
             available.contains(key) && card.due <= now ? ScheduledItem(key: key, card: card) : nil

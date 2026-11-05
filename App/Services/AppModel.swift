@@ -29,7 +29,7 @@ import LearningCore
         store = eventStore
         let loadedEvents = try eventStore.load()
         events = loadedEvents
-        _ = try ReviewScheduler().replay(loadedEvents)
+        try ReviewScheduler().validateHistory(loadedEvents)
         let sessionURL = dataDirectory.appendingPathComponent("session.json")
         checkpointURL = sessionURL
         var checkpointIssue: String?
@@ -55,7 +55,7 @@ import LearningCore
     func append(_ incoming: [LearningEvent]) throws {
         // Validate scheduler replay before the store transaction, including imported records.
         let merged = try EventMerge.merge(events, incoming)
-        _ = try ReviewScheduler().replay(merged)
+        try ReviewScheduler().validateHistory(merged)
         events = try store.append(incoming, existing: events)
     }
 
@@ -73,14 +73,18 @@ import LearningCore
 
     func startLesson(_ lesson: Lesson) throws {
         guard checkpoint == nil else { throw LearningError.invalid("请先继续或结束上一次练习，再开始这个单元。") }
-        let cards = try ReviewScheduler().replay(events)
+        let due = Set(try ReviewScheduler().dueKeys(events: events, pack: pack))
+        let introduced = Set(events.compactMap { event -> ReviewKey? in
+            guard event.kind == .review, let skill = event.skill else { return nil }
+            return ReviewKey(itemID: event.targetID, skill: skill)
+        })
         var tasks: [SessionTask] = lesson.itemIDs.compactMap { pack.item($0) }.flatMap { item -> [SessionTask] in
             item.kind == "word" ? item.skills.map { .recall(ReviewKey(itemID: item.id, skill: $0)) } : []
         }
         // Known words remain available in the lesson, while scheduled due work stays on Today.
         tasks = tasks.filter { task in
-            guard case .recall(let key) = task, let card = cards[key] else { return true }
-            return card.due <= Date()
+            guard case .recall(let key) = task else { return true }
+            return !introduced.contains(key) || due.contains(key)
         }
         tasks += lesson.exerciseIDs.map { .exercise($0) }
         if let readingID = lesson.readingID { tasks.append(.reading(readingID)) }

@@ -5,7 +5,7 @@ struct TodayView: View {
     @EnvironmentObject private var model: AppModel
     @AppStorage("dailyMinutes") private var minutes = 20
     @State private var session = false
-    private var dueCount: Int { (try? ReviewScheduler().due(events: model.events, pack: model.pack))?.count ?? 0 }
+    private var dueCount: Int { (try? ReviewScheduler().dueKeys(events: model.events, pack: model.pack))?.count ?? 0 }
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
