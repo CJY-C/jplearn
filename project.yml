@@ -24,6 +24,8 @@ targets:
       path: App/Info.plist
       properties:
         CFBundleDisplayName: 日语拾阶
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen: {}
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false

@@ -9,6 +9,8 @@ with (app / "Info.plist").open("rb") as handle:
     info = plistlib.load(handle)
 assert info["MinimumOSVersion"] == "15.5", info.get("MinimumOSVersion")
 assert info["CFBundleIdentifier"] == "dev.jplearn.reader"
+assert info["CFBundleShortVersionString"] == "0.1.0", info.get("CFBundleShortVersionString")
+assert info["CFBundleVersion"] == "1", info.get("CFBundleVersion")
 assert (app / info["CFBundleExecutable"]).is_file(), "Missing executable"
 assert list(app.rglob("foundation.json")), "Course resource missing"
 assert list(app.rglob("ThirdPartyNotices.txt")), "Third-party license notice missing"
