@@ -15,7 +15,10 @@
     "exampleSentenceIDs": [
       "s001",
       "s040"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "今天",
+    "register": "一般"
   },
   {
     "id": "v0002",
@@ -33,7 +36,10 @@
     "exampleSentenceIDs": [
       "s013",
       "s015"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "昨天",
+    "register": "一般"
   },
   {
     "id": "v0003",
@@ -51,7 +57,10 @@
     "exampleSentenceIDs": [
       "s007",
       "s020"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "明天",
+    "register": "一般"
   },
   {
     "id": "v0004",
@@ -69,7 +78,10 @@
     "exampleSentenceIDs": [
       "s098",
       "s105"
-    ]
+    ],
+    "partOfSpeech": "时间名词",
+    "sense": "现在",
+    "register": "一般"
   },
   {
     "id": "v0005",
@@ -87,7 +99,10 @@
     "exampleSentenceIDs": [
       "s008",
       "s017"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "早晨",
+    "register": "一般"
   },
   {
     "id": "v0006",
@@ -105,7 +120,10 @@
     "exampleSentenceIDs": [
       "s112",
       "s148"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "白天",
+    "register": "一般"
   },
   {
     "id": "v0007",
@@ -123,7 +141,10 @@
     "exampleSentenceIDs": [
       "s103",
       "s113"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "夜晚",
+    "register": "一般"
   },
   {
     "id": "v0008",
@@ -141,7 +162,10 @@
     "exampleSentenceIDs": [
       "sxv00081",
       "sxv00082"
-    ]
+    ],
+    "partOfSpeech": "名词／副词性时间表达",
+    "sense": "每天",
+    "register": "一般"
   },
   {
     "id": "v0009",
@@ -159,7 +183,10 @@
     "exampleSentenceIDs": [
       "s001",
       "s008"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "学校",
+    "register": "一般"
   },
   {
     "id": "v0010",
@@ -177,7 +204,10 @@
     "exampleSentenceIDs": [
       "s019",
       "s027"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "家",
+    "register": "一般"
   },
   {
     "id": "v0011",
@@ -195,7 +225,10 @@
     "exampleSentenceIDs": [
       "s002",
       "s028"
-    ]
+    ],
+    "partOfSpeech": "词语表达",
+    "sense": "图书馆",
+    "register": "一般"
   },
   {
     "id": "v0012",
@@ -213,7 +246,10 @@
     "exampleSentenceIDs": [
       "s007",
       "s014"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "车站",
+    "register": "一般"
   },
   {
     "id": "v0013",
@@ -231,7 +267,10 @@
     "exampleSentenceIDs": [
       "s004",
       "s005"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "我",
+    "register": "一般"
   },
   {
     "id": "v0014",
@@ -249,7 +288,10 @@
     "exampleSentenceIDs": [
       "sxv00141",
       "sxv00142"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "我",
+    "register": "口语自称"
   },
   {
     "id": "v0015",
@@ -267,7 +309,10 @@
     "exampleSentenceIDs": [
       "s039",
       "sg0212"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "他",
+    "register": "一般"
   },
   {
     "id": "v0016",
@@ -285,7 +330,10 @@
     "exampleSentenceIDs": [
       "s038",
       "s039"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "她",
+    "register": "一般"
   },
   {
     "id": "v0017",
@@ -303,7 +351,10 @@
     "exampleSentenceIDs": [
       "s004",
       "s006"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "朋友",
+    "register": "一般"
   },
   {
     "id": "v0018",
@@ -321,7 +372,10 @@
     "exampleSentenceIDs": [
       "s003",
       "s012"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "老师",
+    "register": "一般"
   },
   {
     "id": "v0019",
@@ -339,7 +393,10 @@
     "exampleSentenceIDs": [
       "sg0211",
       "sg0225"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "学生",
+    "register": "一般"
   },
   {
     "id": "v0020",
@@ -357,7 +414,10 @@
     "exampleSentenceIDs": [
       "s004",
       "sv0296b"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "人",
+    "register": "一般"
   },
   {
     "id": "v0021",
@@ -375,7 +435,10 @@
     "exampleSentenceIDs": [
       "s075",
       "sv0288b"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "孩子",
+    "register": "一般"
   },
   {
     "id": "v0022",
@@ -393,7 +456,10 @@
     "exampleSentenceIDs": [
       "sv0321b",
       "sg0246"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "名字",
+    "register": "一般"
   },
   {
     "id": "v0023",
@@ -411,7 +477,10 @@
     "exampleSentenceIDs": [
       "sxv00231",
       "sxv00232"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "谁",
+    "register": "一般"
   },
   {
     "id": "v0024",
@@ -429,7 +498,10 @@
     "exampleSentenceIDs": [
       "s104",
       "sg0234"
-    ]
+    ],
+    "partOfSpeech": "代词",
+    "sense": "什么",
+    "register": "一般"
   },
   {
     "id": "v0025",
@@ -447,7 +519,10 @@
     "exampleSentenceIDs": [
       "s005",
       "s010"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "读",
+    "register": "一般"
   },
   {
     "id": "v0026",
@@ -465,7 +540,10 @@
     "exampleSentenceIDs": [
       "s006",
       "s018"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "写",
+    "register": "一般"
   },
   {
     "id": "v0027",
@@ -483,7 +561,10 @@
     "exampleSentenceIDs": [
       "sv0255b",
       "sv0277a"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "听",
+    "register": "一般"
   },
   {
     "id": "v0028",
@@ -501,7 +582,10 @@
     "exampleSentenceIDs": [
       "s172",
       "sv0267b"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "说",
+    "register": "一般"
   },
   {
     "id": "v0029",
@@ -519,7 +603,10 @@
     "exampleSentenceIDs": [
       "s090",
       "s136"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "看",
+    "register": "一般"
   },
   {
     "id": "v0030",
@@ -537,7 +624,10 @@
     "exampleSentenceIDs": [
       "s007",
       "s008"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "去",
+    "register": "一般"
   },
   {
     "id": "v0031",
@@ -555,7 +645,10 @@
     "exampleSentenceIDs": [
       "s043",
       "s102"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "来",
+    "register": "一般"
   },
   {
     "id": "v0032",
@@ -573,7 +666,10 @@
     "exampleSentenceIDs": [
       "s038",
       "s078"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "回去",
+    "register": "一般"
   },
   {
     "id": "v0033",
@@ -591,7 +687,10 @@
     "exampleSentenceIDs": [
       "sg0232",
       "sg0243"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "吃",
+    "register": "一般"
   },
   {
     "id": "v0034",
@@ -609,7 +708,10 @@
     "exampleSentenceIDs": [
       "s070",
       "sv0235a"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "喝",
+    "register": "一般"
   },
   {
     "id": "v0035",
@@ -627,7 +729,10 @@
     "exampleSentenceIDs": [
       "s003",
       "s005"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "书",
+    "register": "一般"
   },
   {
     "id": "v0036",
@@ -645,7 +750,10 @@
     "exampleSentenceIDs": [
       "s069",
       "s081"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "报纸",
+    "register": "一般"
   },
   {
     "id": "v0037",
@@ -663,7 +771,10 @@
     "exampleSentenceIDs": [
       "s009",
       "s046"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "新的",
+    "register": "一般"
   },
   {
     "id": "v0038",
@@ -681,7 +792,10 @@
     "exampleSentenceIDs": [
       "s047",
       "s048"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "旧的",
+    "register": "一般"
   },
   {
     "id": "v0039",
@@ -699,7 +813,10 @@
     "exampleSentenceIDs": [
       "s067",
       "s123"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "大的",
+    "register": "一般"
   },
   {
     "id": "v0040",
@@ -717,7 +834,10 @@
     "exampleSentenceIDs": [
       "s073",
       "s124"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "小的",
+    "register": "一般"
   },
   {
     "id": "v0041",
@@ -735,7 +855,10 @@
     "exampleSentenceIDs": [
       "s036",
       "s046"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "高的",
+    "register": "一般"
   },
   {
     "id": "v0042",
@@ -753,7 +876,10 @@
     "exampleSentenceIDs": [
       "s047",
       "sg0292"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "便宜的",
+    "register": "一般"
   },
   {
     "id": "v0043",
@@ -771,7 +897,10 @@
     "exampleSentenceIDs": [
       "sxv00431",
       "sxv00432"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "长的",
+    "register": "一般"
   },
   {
     "id": "v0044",
@@ -789,7 +918,10 @@
     "exampleSentenceIDs": [
       "s050",
       "s061"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "短的",
+    "register": "一般"
   },
   {
     "id": "v0045",
@@ -807,7 +939,10 @@
     "exampleSentenceIDs": [
       "s015",
       "s047"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "有趣的",
+    "register": "一般"
   },
   {
     "id": "v0046",
@@ -825,7 +960,10 @@
     "exampleSentenceIDs": [
       "s161",
       "sxv00461"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "难的",
+    "register": "一般"
   },
   {
     "id": "v0047",
@@ -843,7 +981,10 @@
     "exampleSentenceIDs": [
       "s002",
       "s010"
-    ]
+    ],
+    "partOfSpeech": "な形容词",
+    "sense": "安静",
+    "register": "一般"
   },
   {
     "id": "v0048",
@@ -861,7 +1002,10 @@
     "exampleSentenceIDs": [
       "s028",
       "s074"
-    ]
+    ],
+    "partOfSpeech": "な形容词",
+    "sense": "便利",
+    "register": "一般"
   },
   {
     "id": "v0049",
@@ -879,7 +1023,10 @@
     "exampleSentenceIDs": [
       "sxv00571",
       "sxv00952"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "有",
+    "register": "一般"
   },
   {
     "id": "v0050",
@@ -897,7 +1044,10 @@
     "exampleSentenceIDs": [
       "sxv00572",
       "sxv01342"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "有",
+    "register": "一般"
   },
   {
     "id": "v0051",
@@ -915,7 +1065,10 @@
     "exampleSentenceIDs": [
       "s010",
       "s012"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "房间",
+    "register": "一般"
   },
   {
     "id": "v0052",
@@ -933,7 +1086,10 @@
     "exampleSentenceIDs": [
       "s011",
       "s045"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "桌子",
+    "register": "一般"
   },
   {
     "id": "v0053",
@@ -951,7 +1107,10 @@
     "exampleSentenceIDs": [
       "s122",
       "sv0301a"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "椅子",
+    "register": "一般"
   },
   {
     "id": "v0054",
@@ -969,7 +1128,10 @@
     "exampleSentenceIDs": [
       "s011",
       "s045"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "上方",
+    "register": "一般"
   },
   {
     "id": "v0055",
@@ -987,7 +1149,10 @@
     "exampleSentenceIDs": [
       "s121",
       "sg006f"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "下面",
+    "register": "一般"
   },
   {
     "id": "v0056",
@@ -1005,7 +1170,10 @@
     "exampleSentenceIDs": [
       "s063",
       "s076"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "前面",
+    "register": "一般"
   },
   {
     "id": "v0057",
@@ -1023,7 +1191,10 @@
     "exampleSentenceIDs": [
       "sxv00571",
       "sxv00572"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "后面",
+    "register": "一般"
   },
   {
     "id": "v0058",
@@ -1041,7 +1212,10 @@
     "exampleSentenceIDs": [
       "s124",
       "s125"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "旁边",
+    "register": "一般"
   },
   {
     "id": "v0059",
@@ -1059,7 +1233,10 @@
     "exampleSentenceIDs": [
       "s075",
       "s164"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "里面",
+    "register": "一般"
   },
   {
     "id": "v0060",
@@ -1077,7 +1254,10 @@
     "exampleSentenceIDs": [
       "sv0293b",
       "sg009e"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "外面",
+    "register": "一般"
   },
   {
     "id": "v0061",
@@ -1095,7 +1275,10 @@
     "exampleSentenceIDs": [
       "s009",
       "s015"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "买",
+    "register": "一般"
   },
   {
     "id": "v0062",
@@ -1113,7 +1296,10 @@
     "exampleSentenceIDs": [
       "s016",
       "s038"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "借入",
+    "register": "一般"
   },
   {
     "id": "v0063",
@@ -1131,7 +1317,10 @@
     "exampleSentenceIDs": [
       "s016",
       "s052"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "归还",
+    "register": "一般"
   },
   {
     "id": "v0064",
@@ -1149,7 +1338,10 @@
     "exampleSentenceIDs": [
       "s077",
       "s091"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "见面",
+    "register": "一般"
   },
   {
     "id": "v0065",
@@ -1167,7 +1359,10 @@
     "exampleSentenceIDs": [
       "s117",
       "s162"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "等",
+    "register": "一般"
   },
   {
     "id": "v0066",
@@ -1185,7 +1380,10 @@
     "exampleSentenceIDs": [
       "s060",
       "sg0245"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "拿",
+    "register": "一般"
   },
   {
     "id": "v0067",
@@ -1203,7 +1401,10 @@
     "exampleSentenceIDs": [
       "s074",
       "sg0263"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "使用",
+    "register": "一般"
   },
   {
     "id": "v0068",
@@ -1221,7 +1422,10 @@
     "exampleSentenceIDs": [
       "sv0287b",
       "sv0291b"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "制作",
+    "register": "一般"
   },
   {
     "id": "v0069",
@@ -1239,7 +1443,10 @@
     "exampleSentenceIDs": [
       "s051",
       "s167"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "得知",
+    "register": "一般"
   },
   {
     "id": "v0070",
@@ -1257,7 +1464,10 @@
     "exampleSentenceIDs": [
       "s157",
       "s167"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "想",
+    "register": "一般"
   },
   {
     "id": "v0071",
@@ -1275,7 +1485,10 @@
     "exampleSentenceIDs": [
       "s050",
       "s063"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "话",
+    "register": "一般"
   },
   {
     "id": "v0072",
@@ -1293,7 +1506,10 @@
     "exampleSentenceIDs": [
       "s023",
       "s062"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "词语",
+    "register": "一般"
   },
   {
     "id": "v0073",
@@ -1311,7 +1527,10 @@
     "exampleSentenceIDs": [
       "s006",
       "s018"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "信",
+    "register": "一般"
   },
   {
     "id": "v0074",
@@ -1329,7 +1548,10 @@
     "exampleSentenceIDs": [
       "s017",
       "s072"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "起床",
+    "register": "一般"
   },
   {
     "id": "v0075",
@@ -1347,7 +1569,10 @@
     "exampleSentenceIDs": [
       "s018",
       "s020"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "睡觉",
+    "register": "一般"
   },
   {
     "id": "v0076",
@@ -1365,7 +1590,10 @@
     "exampleSentenceIDs": [
       "s103",
       "sg0274"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "工作",
+    "register": "一般"
   },
   {
     "id": "v0077",
@@ -1383,7 +1611,10 @@
     "exampleSentenceIDs": [
       "s158",
       "sv0278a"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "学习",
+    "register": "一般"
   },
   {
     "id": "v0078",
@@ -1401,7 +1632,10 @@
     "exampleSentenceIDs": [
       "s020",
       "s040"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "工作",
+    "register": "一般"
   },
   {
     "id": "v0079",
@@ -1419,7 +1653,10 @@
     "exampleSentenceIDs": [
       "s083",
       "s100"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "时间",
+    "register": "一般"
   },
   {
     "id": "v0080",
@@ -1437,7 +1674,10 @@
     "exampleSentenceIDs": [
       "s040",
       "s041"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "休息",
+    "register": "一般"
   },
   {
     "id": "v0081",
@@ -1455,7 +1695,10 @@
     "exampleSentenceIDs": [
       "s073",
       "s076"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "店铺",
+    "register": "一般"
   },
   {
     "id": "v0082",
@@ -1473,7 +1716,10 @@
     "exampleSentenceIDs": [
       "s028",
       "s053"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "道路",
+    "register": "一般"
   },
   {
     "id": "v0083",
@@ -1491,7 +1737,10 @@
     "exampleSentenceIDs": [
       "s019",
       "s027"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "雨",
+    "register": "一般"
   },
   {
     "id": "v0084",
@@ -1509,7 +1758,10 @@
     "exampleSentenceIDs": [
       "sxv00841",
       "sxv00842"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "天气",
+    "register": "一般"
   },
   {
     "id": "v0085",
@@ -1527,7 +1779,10 @@
     "exampleSentenceIDs": [
       "sg018e",
       "sxv00851"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "伞",
+    "register": "一般"
   },
   {
     "id": "v0086",
@@ -1545,7 +1800,10 @@
     "exampleSentenceIDs": [
       "s060",
       "r036s2"
-    ]
+    ],
+    "partOfSpeech": "动词性复合表达",
+    "sense": "带去",
+    "register": "一般"
   },
   {
     "id": "v0087",
@@ -1563,7 +1821,10 @@
     "exampleSentenceIDs": [
       "s023",
       "s032"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "教",
+    "register": "一般"
   },
   {
     "id": "v0088",
@@ -1581,7 +1842,10 @@
     "exampleSentenceIDs": [
       "s021",
       "s023"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "收到",
+    "register": "一般"
   },
   {
     "id": "v0089",
@@ -1599,7 +1863,10 @@
     "exampleSentenceIDs": [
       "s086",
       "sg011f"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "给",
+    "register": "一般"
   },
   {
     "id": "v0090",
@@ -1617,7 +1884,10 @@
     "exampleSentenceIDs": [
       "s054",
       "s055"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "给我",
+    "register": "一般"
   },
   {
     "id": "v0091",
@@ -1635,7 +1905,10 @@
     "exampleSentenceIDs": [
       "s024",
       "s054"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "给人看",
+    "register": "一般"
   },
   {
     "id": "v0092",
@@ -1653,7 +1926,10 @@
     "exampleSentenceIDs": [
       "s087",
       "sv0285b"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "帮忙",
+    "register": "一般"
   },
   {
     "id": "v0093",
@@ -1671,7 +1947,10 @@
     "exampleSentenceIDs": [
       "s037",
       "sg012e"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "借出",
+    "register": "一般"
   },
   {
     "id": "v0094",
@@ -1689,7 +1968,10 @@
     "exampleSentenceIDs": [
       "s139",
       "sv0283a"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "说明",
+    "register": "一般"
   },
   {
     "id": "v0095",
@@ -1707,7 +1989,10 @@
     "exampleSentenceIDs": [
       "r036s3",
       "sxv00951"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "提问",
+    "register": "一般"
   },
   {
     "id": "v0096",
@@ -1725,7 +2010,10 @@
     "exampleSentenceIDs": [
       "sxv00961",
       "sxv00962"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "答案",
+    "register": "一般"
   },
   {
     "id": "v0097",
@@ -1743,7 +2031,10 @@
     "exampleSentenceIDs": [
       "s022",
       "s086"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "照片",
+    "register": "一般"
   },
   {
     "id": "v0098",
@@ -1761,7 +2052,10 @@
     "exampleSentenceIDs": [
       "s024",
       "s054"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "地图",
+    "register": "一般"
   },
   {
     "id": "v0099",
@@ -1779,7 +2073,10 @@
     "exampleSentenceIDs": [
       "sxv00991",
       "sxv00992"
-    ]
+    ],
+    "partOfSpeech": "名词（常与する连用）",
+    "sense": "请求",
+    "register": "一般"
   },
   {
     "id": "v0100",
@@ -1797,7 +2094,10 @@
     "exampleSentenceIDs": [
       "sxv01001",
       "sxv01002"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "能",
+    "register": "一般"
   },
   {
     "id": "v0101",
@@ -1815,7 +2115,10 @@
     "exampleSentenceIDs": [
       "s053",
       "s062"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "明白",
+    "register": "一般"
   },
   {
     "id": "v0102",
@@ -1833,7 +2136,10 @@
     "exampleSentenceIDs": [
       "s056",
       "s099"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "记住",
+    "register": "一般"
   },
   {
     "id": "v0103",
@@ -1851,7 +2157,10 @@
     "exampleSentenceIDs": [
       "s035",
       "s099"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "忘记",
+    "register": "一般"
   },
   {
     "id": "v0104",
@@ -1869,7 +2178,10 @@
     "exampleSentenceIDs": [
       "sv0269b",
       "sv0270b"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "开始",
+    "register": "一般"
   },
   {
     "id": "v0105",
@@ -1887,7 +2199,10 @@
     "exampleSentenceIDs": [
       "s091",
       "s141"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "结束",
+    "register": "一般"
   },
   {
     "id": "v0106",
@@ -1905,7 +2220,10 @@
     "exampleSentenceIDs": [
       "s098",
       "sxv01061"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "打开",
+    "register": "一般"
   },
   {
     "id": "v0107",
@@ -1923,7 +2241,10 @@
     "exampleSentenceIDs": [
       "sxv01071",
       "sxv01072"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "关上",
+    "register": "一般"
   },
   {
     "id": "v0108",
@@ -1941,7 +2262,10 @@
     "exampleSentenceIDs": [
       "s097",
       "sv0290a"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "电车",
+    "register": "一般"
   },
   {
     "id": "v0109",
@@ -1959,7 +2283,10 @@
     "exampleSentenceIDs": [
       "sxv01091",
       "sxv01092"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "票",
+    "register": "一般"
   },
   {
     "id": "v0110",
@@ -1977,7 +2304,10 @@
     "exampleSentenceIDs": [
       "sv0286a",
       "sxv01101"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "旅行",
+    "register": "一般"
   },
   {
     "id": "v0111",
@@ -1995,7 +2325,10 @@
     "exampleSentenceIDs": [
       "s058",
       "sv0260b"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "计划",
+    "register": "一般"
   },
   {
     "id": "v0112",
@@ -2013,7 +2346,10 @@
     "exampleSentenceIDs": [
       "s142",
       "s158"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "约定",
+    "register": "一般"
   },
   {
     "id": "v0113",
@@ -2031,7 +2367,10 @@
     "exampleSentenceIDs": [
       "s029",
       "s059"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "来、去、在的尊敬表达",
+    "register": "敬语"
   },
   {
     "id": "v0114",
@@ -2049,7 +2388,10 @@
     "exampleSentenceIDs": [
       "s030",
       "sg015f"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "说的尊敬表达",
+    "register": "敬语"
   },
   {
     "id": "v0115",
@@ -2067,7 +2409,10 @@
     "exampleSentenceIDs": [
       "s094",
       "sxv01151"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "吃、喝的尊敬表达",
+    "register": "敬语"
   },
   {
     "id": "v0116",
@@ -2085,7 +2430,10 @@
     "exampleSentenceIDs": [
       "s031",
       "s057"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "拜访",
+    "register": "敬语"
   },
   {
     "id": "v0117",
@@ -2103,7 +2451,10 @@
     "exampleSentenceIDs": [
       "s032",
       "sg016e"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "领受",
+    "register": "敬语"
   },
   {
     "id": "v0118",
@@ -2121,7 +2472,10 @@
     "exampleSentenceIDs": [
       "s096",
       "sg016f"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "说",
+    "register": "敬语"
   },
   {
     "id": "v0119",
@@ -2139,7 +2493,10 @@
     "exampleSentenceIDs": [
       "sxv00952",
       "sxv01191"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "给我方的尊敬表达",
+    "register": "敬语"
   },
   {
     "id": "v0120",
@@ -2157,7 +2514,10 @@
     "exampleSentenceIDs": [
       "sxv01152",
       "sxv01201"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "客人",
+    "register": "敬语"
   },
   {
     "id": "v0121",
@@ -2175,7 +2535,10 @@
     "exampleSentenceIDs": [
       "s057",
       "s144"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "公司",
+    "register": "一般"
   },
   {
     "id": "v0122",
@@ -2193,7 +2556,10 @@
     "exampleSentenceIDs": [
       "s149",
       "s163"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "联系",
+    "register": "一般"
   },
   {
     "id": "v0123",
@@ -2211,7 +2577,10 @@
     "exampleSentenceIDs": [
       "s060",
       "r036s3"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "资料",
+    "register": "一般"
   },
   {
     "id": "v0124",
@@ -2229,7 +2598,10 @@
     "exampleSentenceIDs": [
       "s058",
       "s170"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "确认",
+    "register": "一般"
   },
   {
     "id": "v0125",
@@ -2247,7 +2619,10 @@
     "exampleSentenceIDs": [
       "sxv01251",
       "sxv01252"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "失礼",
+    "register": "一般"
   },
   {
     "id": "v0126",
@@ -2265,7 +2640,10 @@
     "exampleSentenceIDs": [
       "sxv01261",
       "sxv01262"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "理由",
+    "register": "一般"
   },
   {
     "id": "v0127",
@@ -2283,7 +2661,10 @@
     "exampleSentenceIDs": [
       "sxv01271",
       "sxv01272"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "结果",
+    "register": "一般"
   },
   {
     "id": "v0128",
@@ -2301,7 +2682,10 @@
     "exampleSentenceIDs": [
       "sxv00461",
       "sxv01281"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "问题",
+    "register": "一般"
   },
   {
     "id": "v0129",
@@ -2319,7 +2703,10 @@
     "exampleSentenceIDs": [
       "sxv01291",
       "sxv01292"
-    ]
+    ],
+    "partOfSpeech": "な形容词／名词",
+    "sense": "必要",
+    "register": "一般"
   },
   {
     "id": "v0130",
@@ -2337,7 +2724,10 @@
     "exampleSentenceIDs": [
       "s173",
       "sxv01301"
-    ]
+    ],
+    "partOfSpeech": "な形容词",
+    "sense": "重要",
+    "register": "一般"
   },
   {
     "id": "v0131",
@@ -2355,7 +2745,10 @@
     "exampleSentenceIDs": [
       "s169",
       "sxv01311"
-    ]
+    ],
+    "partOfSpeech": "连体词／形容词性表达",
+    "sense": "相同",
+    "register": "一般"
   },
   {
     "id": "v0132",
@@ -2373,7 +2766,10 @@
     "exampleSentenceIDs": [
       "sxv00962",
       "sxv01321"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "不同",
+    "register": "一般"
   },
   {
     "id": "v0133",
@@ -2391,7 +2787,10 @@
     "exampleSentenceIDs": [
       "sxv01331",
       "sxv01332"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "真实",
+    "register": "一般"
   },
   {
     "id": "v0134",
@@ -2409,7 +2808,10 @@
     "exampleSentenceIDs": [
       "sxv01341",
       "sxv01342"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "大概",
+    "register": "一般"
   },
   {
     "id": "v0135",
@@ -2427,7 +2829,10 @@
     "exampleSentenceIDs": [
       "s148",
       "s161"
-    ]
+    ],
+    "partOfSpeech": "接续词",
+    "sense": "但是",
+    "register": "一般"
   },
   {
     "id": "v0136",
@@ -2445,7 +2850,10 @@
     "exampleSentenceIDs": [
       "s019",
       "sg010f"
-    ]
+    ],
+    "partOfSpeech": "接续词",
+    "sense": "所以",
+    "register": "一般"
   },
   {
     "id": "v0137",
@@ -2463,7 +2871,10 @@
     "exampleSentenceIDs": [
       "sxv01371",
       "sxv01372"
-    ]
+    ],
+    "partOfSpeech": "接续词",
+    "sense": "尽管如此",
+    "register": "一般"
   },
   {
     "id": "v0138",
@@ -2481,7 +2892,10 @@
     "exampleSentenceIDs": [
       "s040",
       "s104"
-    ]
+    ],
+    "partOfSpeech": "副词／接续表达",
+    "sense": "也就是说",
+    "register": "一般"
   },
   {
     "id": "v0139",
@@ -2499,7 +2913,10 @@
     "exampleSentenceIDs": [
       "s061",
       "s131"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "故事",
+    "register": "一般"
   },
   {
     "id": "v0140",
@@ -2517,7 +2934,10 @@
     "exampleSentenceIDs": [
       "s062",
       "s064"
-    ]
+    ],
+    "partOfSpeech": "词语表达",
+    "sense": "主人公",
+    "register": "一般"
   },
   {
     "id": "v0141",
@@ -2535,7 +2955,10 @@
     "exampleSentenceIDs": [
       "s062",
       "s064"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "心情",
+    "register": "一般"
   },
   {
     "id": "v0142",
@@ -2553,7 +2976,10 @@
     "exampleSentenceIDs": [
       "sxv01421",
       "sxv01422"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "声音",
+    "register": "一般"
   },
   {
     "id": "v0143",
@@ -2571,7 +2997,10 @@
     "exampleSentenceIDs": [
       "sxv01431",
       "sxv01432"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "记忆",
+    "register": "一般"
   },
   {
     "id": "v0144",
@@ -2589,7 +3018,10 @@
     "exampleSentenceIDs": [
       "s056",
       "sg018f"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "还",
+    "register": "一般"
   },
   {
     "id": "v0145",
@@ -2607,7 +3039,10 @@
     "exampleSentenceIDs": [
       "s035",
       "s063"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "已经",
+    "register": "一般"
   },
   {
     "id": "v0146",
@@ -2625,7 +3060,10 @@
     "exampleSentenceIDs": [
       "sxv01461",
       "sxv01462"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "一直",
+    "register": "一般"
   },
   {
     "id": "v0147",
@@ -2643,7 +3081,10 @@
     "exampleSentenceIDs": [
       "sxv01471",
       "sxv01472"
-    ]
+    ],
+    "partOfSpeech": "副词性表达",
+    "sense": "突然",
+    "register": "一般"
   },
   {
     "id": "v0148",
@@ -2661,7 +3102,10 @@
     "exampleSentenceIDs": [
       "sxv01481",
       "sxv01482"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "例如",
+    "register": "一般"
   },
   {
     "id": "v0149",
@@ -2679,7 +3123,10 @@
     "exampleSentenceIDs": [
       "s039",
       "s103"
-    ]
+    ],
+    "partOfSpeech": "接续词",
+    "sense": "另一方面",
+    "register": "一般"
   },
   {
     "id": "v0150",
@@ -2697,7 +3144,10 @@
     "exampleSentenceIDs": [
       "sxv01501",
       "sxv01502"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "结果",
+    "register": "一般"
   },
   {
     "id": "v0151",
@@ -2715,7 +3165,10 @@
     "exampleSentenceIDs": [
       "s055",
       "sv0315b"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "近的",
+    "register": "一般"
   },
   {
     "id": "v0152",
@@ -2733,7 +3186,10 @@
     "exampleSentenceIDs": [
       "sxv01521",
       "sxv01522"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "远的",
+    "register": "一般"
   },
   {
     "id": "v0153",
@@ -2751,7 +3207,10 @@
     "exampleSentenceIDs": [
       "s070",
       "sg0285"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "水",
+    "register": "一般"
   },
   {
     "id": "v0154",
@@ -2769,7 +3228,10 @@
     "exampleSentenceIDs": [
       "s094",
       "sxv01202"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "茶",
+    "register": "一般"
   },
   {
     "id": "v0155",
@@ -2787,7 +3249,10 @@
     "exampleSentenceIDs": [
       "s058",
       "sxv01551"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "电话",
+    "register": "一般"
   },
   {
     "id": "v0156",
@@ -2805,7 +3270,10 @@
     "exampleSentenceIDs": [
       "s059",
       "sxv01561"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "上午这段时间",
+    "register": "一般"
   },
   {
     "id": "v0157",
@@ -2823,7 +3291,10 @@
     "exampleSentenceIDs": [
       "s145",
       "sxv01571"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "下午",
+    "register": "一般"
   },
   {
     "id": "v0158",
@@ -2841,7 +3312,10 @@
     "exampleSentenceIDs": [
       "s072",
       "sg0302"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "六点",
+    "register": "一般"
   },
   {
     "id": "v0159",
@@ -2859,7 +3333,10 @@
     "exampleSentenceIDs": [
       "s098",
       "sxv01061"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "九点",
+    "register": "一般"
   },
   {
     "id": "v0160",
@@ -2877,7 +3354,10 @@
     "exampleSentenceIDs": [
       "s098",
       "sxv01601"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "十点",
+    "register": "一般"
   },
   {
     "id": "v0161",
@@ -2895,7 +3375,10 @@
     "exampleSentenceIDs": [
       "s045",
       "sg0304"
-    ]
+    ],
+    "partOfSpeech": "词语表达",
+    "sense": "两本",
+    "register": "一般"
   },
   {
     "id": "v0162",
@@ -2913,7 +3396,10 @@
     "exampleSentenceIDs": [
       "s063",
       "s084"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "一次",
+    "register": "一般"
   },
   {
     "id": "v0163",
@@ -2931,7 +3417,10 @@
     "exampleSentenceIDs": [
       "s062",
       "s088"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "意思",
+    "register": "一般"
   },
   {
     "id": "v0164",
@@ -2949,7 +3438,10 @@
     "exampleSentenceIDs": [
       "s063",
       "s173"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "关系",
+    "register": "一般"
   },
   {
     "id": "v0165",
@@ -2967,7 +3459,10 @@
     "exampleSentenceIDs": [
       "s063",
       "s173"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "思考",
+    "register": "一般"
   },
   {
     "id": "v0166",
@@ -2985,7 +3480,10 @@
     "exampleSentenceIDs": [
       "s050",
       "s154"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "很",
+    "register": "一般"
   },
   {
     "id": "v0167",
@@ -3003,7 +3501,10 @@
     "exampleSentenceIDs": [
       "s064",
       "sxv01671"
-    ]
+    ],
+    "partOfSpeech": "副词性表达",
+    "sense": "一点一点地",
+    "register": "一般"
   },
   {
     "id": "v0168",
@@ -3021,7 +3522,10 @@
     "exampleSentenceIDs": [
       "s153",
       "r039s3"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "说",
+    "register": "一般"
   },
   {
     "id": "v0169",
@@ -3039,7 +3543,10 @@
     "exampleSentenceIDs": [
       "s156",
       "sxv01691"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "开始做",
+    "register": "一般"
   },
   {
     "id": "v0170",
@@ -3057,7 +3564,10 @@
     "exampleSentenceIDs": [
       "s161",
       "sxv01701"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "今天早晨",
+    "register": "一般"
   },
   {
     "id": "v0171",
@@ -3075,7 +3585,10 @@
     "exampleSentenceIDs": [
       "s027",
       "s161"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "下雨、下雪等",
+    "register": "一般"
   },
   {
     "id": "v0172",
@@ -3093,7 +3606,10 @@
     "exampleSentenceIDs": [
       "s161",
       "sv0307b"
-    ]
+    ],
+    "partOfSpeech": "动词",
+    "sense": "步行",
+    "register": "一般"
   },
   {
     "id": "v0173",
@@ -3111,7 +3627,10 @@
     "exampleSentenceIDs": [
       "s165",
       "sxv01731"
-    ]
+    ],
+    "partOfSpeech": "名词／な形容词",
+    "sense": "担心",
+    "register": "一般"
   },
   {
     "id": "v0174",
@@ -3129,7 +3648,10 @@
     "exampleSentenceIDs": [
       "sxv00841",
       "sxv01732"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "好的",
+    "register": "一般"
   },
   {
     "id": "v0175",
@@ -3147,7 +3669,10 @@
     "exampleSentenceIDs": [
       "s167",
       "r039s1"
-    ]
+    ],
+    "partOfSpeech": "い形容词",
+    "sense": "多的",
+    "register": "一般"
   },
   {
     "id": "v0176",
@@ -3165,7 +3690,10 @@
     "exampleSentenceIDs": [
       "s163",
       "s167"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "马上",
+    "register": "一般"
   },
   {
     "id": "v0177",
@@ -3183,7 +3711,10 @@
     "exampleSentenceIDs": [
       "s168",
       "sxv01771"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "最后",
+    "register": "一般"
   },
   {
     "id": "v0178",
@@ -3201,7 +3732,10 @@
     "exampleSentenceIDs": [
       "sxv01781",
       "sxv01782"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "慢慢地",
+    "register": "一般"
   },
   {
     "id": "v0179",
@@ -3219,7 +3753,10 @@
     "exampleSentenceIDs": [
       "s172",
       "sxv01791"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "自己",
+    "register": "一般"
   },
   {
     "id": "v0180",
@@ -3237,7 +3774,10 @@
     "exampleSentenceIDs": [
       "s172",
       "sxv01281"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "想法",
+    "register": "一般"
   },
   {
     "id": "v0181",
@@ -3255,7 +3795,10 @@
     "exampleSentenceIDs": [
       "s173",
       "sv0238b"
-    ]
+    ],
+    "partOfSpeech": "名词",
+    "sense": "之后",
+    "register": "一般"
   },
   {
     "id": "v0182",
@@ -3273,7 +3816,10 @@
     "exampleSentenceIDs": [
       "s062",
       "s159"
-    ]
+    ],
+    "partOfSpeech": "副词",
+    "sense": "经常",
+    "register": "一般"
   },
   {
     "id": "g001",

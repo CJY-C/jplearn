@@ -270,9 +270,12 @@ public struct ContentPack: Codable {
         }
         try checkGraph(Dictionary(uniqueKeysWithValues: items.map { ($0.id, $0.prerequisiteIDs ?? []) }))
         try checkGraph(Dictionary(uniqueKeysWithValues: lessons.map { ($0.id, $0.prerequisiteIDs ?? []) }))
-        let citations = items.flatMap { $0.citations ?? [] } + sentences.flatMap { $0.citations ?? [] } +
-            readings.flatMap { $0.citations ?? [] } + exercises.flatMap { $0.citations ?? [] } +
-            (introModules ?? []).flatMap(\.citations)
+        var citations: [ContentCitation] = []
+        for item in items { citations.append(contentsOf: item.citations ?? []) }
+        for sentence in sentences { citations.append(contentsOf: sentence.citations ?? []) }
+        for reading in readings { citations.append(contentsOf: reading.citations ?? []) }
+        for exercise in exercises { citations.append(contentsOf: exercise.citations ?? []) }
+        for module in introModules ?? [] { citations.append(contentsOf: module.citations) }
         guard citations.allSatisfy({ sourceIDs.contains($0.sourceID) && !$0.locator.isEmpty &&
             ["reference", "adapted", "translated", "sourceChecked", "original"].contains($0.status) }) else {
             throw LearningError.invalid("内容来源或核验状态无效。")

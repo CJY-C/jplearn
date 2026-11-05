@@ -60,6 +60,10 @@ struct ItemDetailView: View {
                 if !item.reading.isEmpty { Text(item.reading).font(.title3).foregroundColor(.secondary) }
                 if showRomaji && !item.romaji.isEmpty { Text(item.romaji).foregroundColor(.secondary) }
                 Text(item.meaning).font(.headline)
+                if let partOfSpeech = item.partOfSpeech {
+                    Text(partOfSpeech + ((item.register ?? "一般") == "一般" ? "" : " · " + (item.register ?? "")))
+                        .font(.caption).foregroundColor(.secondary)
+                }
                 HStack {
                     Button { speak(slow: false) } label: { Label("朗读", systemImage: "speaker.wave.2") }
                     Spacer()
