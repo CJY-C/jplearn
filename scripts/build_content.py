@@ -7,7 +7,11 @@ or edit their wording in place. Run --check to detect stale generated resources.
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from content_expansion import (EXTRA_EXAMPLES, EXTRA_READINGS,
+                               ORIGINAL_READING_WORDS, ORIGINAL_READING_GRAMMAR)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
@@ -289,6 +293,51 @@ READINGS = [
  "说话者第二次阅读时特别注意了什么？", ["书的价格", "和前文的关系、人物心情", "车站的位置"], 1, "第一遍认识词义，第二遍结合前文理解人物心情，体现了句段理解。"),
 ]
 
+READING_PREPARATION_WORDS = [
+"""近い|ちかい|chikai|近的|い形容词；「近い道」是近路，「駅に近い」是离车站近。
+遠い|とおい|tooi|远的|注意「とお」的长音；「家から遠い」表示离家远。
+水|みず|mizu|水|「水を飲む」表示喝水。
+お茶|おちゃ|ocha|茶|前面的「お」是常用的礼貌、美化表达。
+電話|でんわ|denwa|电话|「電話で確認する」中的「で」表示使用的手段。
+午前中|ごぜんちゅう|gozenchuu|上午这段时间|「午前中はいる」表示上午在；留意「ちゅう」的长音。
+午後|ごご|gogo|下午|与「午前」相对；可用于「午後に会う」。
+六時|ろくじ|rokuji|六点|明确的钟点常接「に」，例如「六時に起きる」。
+九時|くじ|kuji|九点|这里读「くじ」，不读「きゅうじ」。
+十時|じゅうじ|juuji|十点|注意「じゅう」的长音。
+二冊|にさつ|nisatsu|两本|「冊」用于书册等装订的物品。
+一度|いちど|ichido|一次|「もう一度」表示再一次。
+意味|いみ|imi|意思；含义|「言葉の意味」是词语的意思，「意味が分かる」是明白意思。
+関係|かんけい|kankei|关系|可指人物关系或前后文的关联。
+考える|かんがえる|kangaeru|思考；考虑|一段动词；「考えた」表示想过了。
+とても|とても|totemo|很；非常|常放在形容词之前，表达程度。""",
+"""少しずつ|すこしずつ|sukoshi zutsu|一点一点地|描述渐进变化，例如「少しずつ分かる」。
+言う|いう|iu|说|「言った」是过去形；引用说话内容时常用「と」。
+始める|はじめる|hajimeru|开始做；使开始|「読み始める」表示开始读；与自动词「始まる」区分。
+今朝|けさ|kesa|今天早晨|这是整体读法「けさ」，不能逐字拼读。
+降る|ふる|furu|下雨、下雪等|「雨が降る」表示下雨，降雨的主体用「が」。
+歩く|あるく|aruku|步行；走路|五段动词；て形为「歩いて」。
+心配|しんぱい|shinpai|担心|「心配する」表示担心某件事。
+いい|いい|ii|好的|常见活用使用「よ」开头，如「よかった」「よくない」。
+多い|おおい|ooi|多的|「言葉が多い」表示词语多；注意「おお」的长音。
+すぐ|すぐ|sugu|马上；很快|可描述时间间隔短，也可在位置表达里表示很近。
+最後|さいご|saigo|最后|「最後まで読む」表示读到最后。
+ゆっくり|ゆっくり|yukkuri|慢慢地；从容地|可描述动作速度，也可表示放松、不着急。
+自分|じぶん|jibun|自己|指谁要由句子视角与上下文判断。
+考え|かんがえ|kangae|想法；看法|这是名词；动词为「考える」。
+後|あと|ato|之后；后面|这里学「あ と」的读法，「後で」表示之后。
+よく|よく|yoku|经常；充分地|「よく分かる」表示很明白，不宜机械理解为经常。""",
+]
+
+STEM_LEMMAS = dict(pair.split(":") for pair in """
+休:休み 会:会う 伺:伺う 使:使う 借:借りる 働:働く 分:分かる 古:古い
+召し上:召し上がる 同:同じ 多:多い 大:大きい 始:始まる 安:安い 寝:寝る
+小:小さい 少:少しずつ 帰:帰る 待:待つ 忘:忘れる 思:思う 手伝:手伝う
+持:持つ 教:教える 新:新しい 書:書く 来:来る 歩:歩く 気持:気持ち 申:申す
+知:知る 短:短い 終:終わる 考:考える 行:行く 見:見る 覚:覚える 言:言う
+読:読む 買:買う 貸:貸す 起:起きる 近:近い 返:返す 開:開く 降:降る
+難:難しい 静:静か 面白:面白い 飲:飲む 高:高い 茶:お茶
+""".split())
+
 
 def make_pack():
     items, groups = [], []
@@ -303,6 +352,17 @@ def make_pack():
                               explanation=explanation, sourceIDs=["jmdict"], status="trial"))
         groups.append(ids)
     assert len(items) == 150, len(items)
+    # Append reading prerequisites without changing any of the original 150 word IDs.
+    for group in READING_PREPARATION_WORDS:
+        ids = []
+        for row in group.strip().splitlines():
+            text, reading, romaji, meaning, explanation = row.split("|")
+            item_id = f"v{len(items) + 1:04d}"
+            ids.append(item_id)
+            items.append(dict(id=item_id, kind="word", level="N4", text=text, reading=reading,
+                              romaji=romaji, meaning=meaning, explanation=explanation,
+                              sourceIDs=["jmdict"], status="trial"))
+        groups.append(ids)
     word_by_text = {item["text"]: item["id"] for item in items}
     for index, (text, level, meaning, explanation) in enumerate(GRAMMAR):
         items.append(dict(id=f"g{index + 1:03d}", kind="grammar", level=level, text=text,
@@ -316,12 +376,14 @@ def make_pack():
             if match.start() > position:
                 segments.append(dict(text=markup[position:match.start()], reading=None, itemID=None))
             text, reading = match.groups()
-            # Curated conjugated forms keep their lemma link (読 -> 読む, 教 -> 教える).
-            item_id = word_by_text.get(text)
-            if item_id is None:
-                candidates = [word for word in word_by_text if word.startswith(text)]
-                if candidates:
-                    item_id = word_by_text[min(candidates, key=lambda word: (len(word), word))]
+            # Explicit stems avoid collisions such as 新 -> 新聞 or 大 -> 大切.
+            item_id = word_by_text.get(STEM_LEMMAS.get(text, text))
+            tail = markup[match.end():]
+            for stem, ending, lemma in [("見", "せ", "見せる"), ("始", "め", "始める")]:
+                if text == stem and tail.startswith(ending):
+                    item_id = word_by_text[lemma]
+            if text == "話" and reading == "はな":
+                item_id = word_by_text["話す"]
             segments.append(dict(text=text, reading=reading, itemID=item_id))
             position = match.end()
         if position < len(markup):
@@ -343,23 +405,43 @@ def make_pack():
         readings.append(dict(id=f"r{index + 1:03d}", title=title, genre=genre, level=level,
                              sentenceIDs=[sentence(*line) for line in lines], question=question,
                              choices=choices, answerIndex=correct, explanation=feedback))
+    # Old sentence IDs are already allocated. All expanded material is appended below.
+    for index, pair in enumerate(EXTRA_EXAMPLES):
+        for variation, (markup, translation, prompt, choices, correct, feedback) in enumerate(pair):
+            sid = sentence(markup, translation, feedback)
+            exercises.append(dict(id=f"e{index + 1:03d}{'cd'[variation]}", targetID=f"g{index + 1:03d}",
+                                  sentenceID=sid, prompt=prompt, choices=choices, answerIndex=correct,
+                                  explanation=feedback, hint=GRAMMAR[index][2], transfer=True))
+    def vocabulary(words):
+        return [dict(text=word, itemID=word_by_text.get(word)) for word in words.split()]
+    for reading, words, grammar in zip(readings, ORIGINAL_READING_WORDS, ORIGINAL_READING_GRAMMAR):
+        reading.update(vocabulary=vocabulary(words), grammarIDs=grammar)
+    for title, genre, level, lines, question, choices, correct, feedback, words, grammar in EXTRA_READINGS:
+        readings.append(dict(id=f"r{len(readings) + 1:03d}", title=title, genre=genre, level=level,
+                             sentenceIDs=[sentence(*line) for line in lines], question=question,
+                             choices=choices, answerIndex=correct, explanation=feedback,
+                             vocabulary=vocabulary(words), grammarIDs=grammar))
     lessons = []
-    for index, (title, subtitle, grammar_indices) in enumerate(LESSON_TITLES):
+    for index, (title, subtitle, grammar_indices) in enumerate(LESSON_TITLES + [
+        ("长文前的词汇准备", "补充时间、数量与关系表达", [6, 7]),
+        ("叙事与篇章整合", "结合上下文恢复人物和前后关系", [18, 19]),
+    ]):
         related = [e for e in exercises if int(e["targetID"][1:]) - 1 in grammar_indices]
         lessons.append(dict(id=f"l{index + 1:03d}", title=title, subtitle=subtitle,
                             level="N5" if index < 7 else "N4",
                             itemIDs=groups[index] + [f"g{g + 1:03d}" for g in grammar_indices],
                             sentenceIDs=[e["sentenceID"] for e in related],
                             exerciseIDs=[e["id"] for e in related],
-                            readingID=f"r{(index + 1) // 2:03d}" if index % 2 else None))
+                            readingID=("r022" if index == 12 else "r024") if index >= 12 else
+                            (f"r{(index + 1) // 2:03d}" if index % 2 else None)))
     stages = [
         ("n5", "基础 · 约 N5", "读音补强、助词与基本句法，从简短叙述开始。", 1000, 60),
         ("n4", "初级 · 约 N4", "连接句子，理解活用、授受、敬语与省略。", 1000, 80),
         ("n3", "中级 · 约 N3", "逐步读懂较长句段、口语缩略与复合表达。", 1500, 120),
         ("n2", "中高级 · 约 N2", "复杂修饰、书面语、论述结构与多文体阅读。", 2500, 140),
     ]
-    return dict(schemaVersion=1, id="foundation", version="0.1.0", title="日语阅读基础样章",
-                notice="目前提供 12 个个人试用样章。完整 N5–N2 路线将分批补充，样章尚待独立日语审校。",
+    return dict(schemaVersion=1, id="foundation", version="0.3.0", title="日语阅读基础篇",
+                notice="目前提供 14 个基础单元、182 个词、80 道结构题与 24 篇阅读。完整 N5–N2 课程将分批补充，内容尚待独立日语审校。",
                 references=[
                     dict(id="jmdict", title="JMdict：核对词形、读音与词义", url="https://www.edrdg.org/jmdict/j_jmdict.html"),
                     dict(id="irodori", title="国際交流基金：いろどり", url="https://www.irodori.jpf.go.jp/"),

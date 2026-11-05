@@ -8,6 +8,7 @@ struct SessionView: View {
     @AppStorage("dailyMinutes") private var minutes = 20
     private var studiedToday: TimeInterval { StudyTime.today(events: model.events, live: clock.pendingInterval) }
     private var goalReached: Bool { studiedToday >= Double(minutes * 60) }
+    private var moreAvailable: Bool { ((try? model.plannedTasks(minutes: minutes).isEmpty) == false) }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -91,17 +92,19 @@ struct SessionView: View {
             Text(goalReached ? "今日目标已完成" : "本轮练习完成").font(.title2.weight(.semibold))
             Text("本轮 \(StudyTime.clock(clock.elapsedSeconds)) · 今日 \(StudyTime.clock(studiedToday))")
                 .font(.subheadline.monospacedDigit()).foregroundColor(.secondary)
-            Text(goalReached ? "按自己的节奏，继续阅读。" : "距离今天的目标还需 \(StudyTime.clock(Double(minutes * 60) - studiedToday))。")
+            Text(goalReached ? "按自己的节奏，继续阅读。" : (moreAvailable ? "距离今天的目标还需 \(StudyTime.clock(Double(minutes * 60) - studiedToday))。" : "今日可安排的内容已完成，无需重复凑满时间。"))
                 .font(.subheadline).foregroundColor(.secondary)
             Spacer()
-            if !goalReached {
+            if !goalReached && moreAvailable {
                 Button("继续下一轮") {
                     model.perform { try model.finishSession(); try model.startToday(minutes: minutes) }
                 }.buttonStyle(StudyPrimaryButtonStyle())
+                    .accessibilityIdentifier("study.nextRound")
             }
             Button(goalReached ? "完成学习" : "先到这里") {
                 model.perform { try model.finishSession(); dismiss() }
             }.buttonStyle(StudyQuietButtonStyle())
+                .accessibilityIdentifier("study.finish")
         }.padding(24)
     }
 
@@ -337,6 +340,11 @@ private struct ReadingCard: View {
                 }.buttonStyle(StudyQuietButtonStyle())
                 LookupMenu(sentenceIDs: reading.sentenceIDs) { lookup($0) }
             }.padding(.horizontal, 18).padding(.bottom, 8)
+            let readiness = ReadingReadiness.assess(reading, pack: model.pack, events: model.events)
+            Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+                .font(.caption).foregroundColor(.secondary)
+                .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
+                .accessibilityIdentifier("study.readingCoverage")
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
                     ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in

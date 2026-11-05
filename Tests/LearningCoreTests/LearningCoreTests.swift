@@ -15,11 +15,11 @@ final class LearningCoreTests: XCTestCase {
     func testBundledSampleIsCompleteAndValid() throws {
         let pack = try ContentPack.bundled()
         try pack.validate()
-        XCTAssertEqual(pack.items.filter { $0.kind == "word" }.count, 150)
+        XCTAssertEqual(pack.items.filter { $0.kind == "word" }.count, 182)
         XCTAssertEqual(pack.items.filter { $0.kind == "grammar" }.count, 20)
-        XCTAssertEqual(pack.lessons.count, 12)
-        XCTAssertEqual(pack.readings.count, 6)
-        XCTAssertEqual(pack.exercises.count, 40)
+        XCTAssertEqual(pack.lessons.count, 14)
+        XCTAssertEqual(pack.readings.count, 24)
+        XCTAssertEqual(pack.exercises.count, 80)
     }
 
     func testReadingAndMeaningHaveIndependentMemory() throws {
@@ -154,7 +154,7 @@ final class LearningCoreTests: XCTestCase {
     func testGrammarReviewRotatesSentenceContexts() throws {
         let pack = try ContentPack.bundled()
         let history = [review("g001", skill: .grammar, grade: 1, time: now.addingTimeInterval(-86400))]
-        let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now)
+        let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now, newWordLimit: 5)
         guard let first = tasks.first, case .exercise(let id) = first else { return XCTFail("Expected grammar review") }
         XCTAssertEqual(id, "e001b")
     }
@@ -164,19 +164,19 @@ final class LearningCoreTests: XCTestCase {
         let history = (1...5).flatMap { n in
             [review(String(format: "v%04d", n)), review(String(format: "v%04d", n), skill: .meaning)]
         }
-        let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now)
+        let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now, newWordLimit: 5)
         let recallIDs = tasks.compactMap { task -> String? in
             if case .recall(let key) = task { return key.itemID }; return nil
         }
         XCTAssertTrue(recallIDs.allSatisfy { Int($0.dropFirst())! <= 5 })
     }
 
-    func testBudgetAndReadingAreRetainedWhenReviewQueueIsLarge() throws {
+    func testLargeReviewQueueRespectsBudgetWithoutUnpreparedReading() throws {
         let pack = try ContentPack.bundled()
         let history = (1...30).map { review(String(format: "v%04d", $0), grade: 1, time: now.addingTimeInterval(-86400)) }
         let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 5, now: now)
         XCTAssertEqual(tasks.count, 10)
-        guard let last = tasks.last, case .reading = last else { return XCTFail("A short reading should retain a place in the session") }
+        XCTAssertFalse(tasks.contains { if case .reading = $0 { return true }; return false }, "Unprepared readings must not be forced into a full review queue")
         let unseen = tasks.compactMap { task -> String? in if case .recall(let key) = task { return key.itemID }; return nil }
         XCTAssertTrue(unseen.allSatisfy { Int($0.dropFirst())! <= 30 })
     }

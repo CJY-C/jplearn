@@ -5,10 +5,13 @@ final class SmallScreenTests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch() {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
         app.launchEnvironment["JPLEARN_UI_TEST_SESSION"] = UUID().uuidString
+        if knownVocabulary || exhausted || longReading { app.launchEnvironment["JPLEARN_UI_TEST_KNOWN_VOCABULARY"] = "1" }
+        if exhausted { app.launchEnvironment["JPLEARN_UI_TEST_EXHAUSTED"] = "1" }
+        if longReading { app.launchEnvironment["JPLEARN_UI_TEST_LONG_READING"] = "1" }
         app.launch()
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
@@ -52,13 +55,14 @@ final class SmallScreenTests: XCTestCase {
     }
 
     @MainActor func testGrammarAndReadingKeepActionsVisible() {
-        launch()
+        launch(knownVocabulary: true)
         app.buttons["today.start"].tap()
         var checkedGrammar = false
         for _ in 0..<40 {
             if app.scrollViews["study.readingScroll"].exists {
                 for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
                 screenshot("SE3-Reading")
+                XCTAssertTrue(app.staticTexts["study.readingCoverage"].exists)
                 let before = app.buttons["study.choice.0"].frame
                 app.scrollViews["study.readingScroll"].swipeUp()
                 XCTAssertEqual(app.buttons["study.choice.0"].frame, before)
@@ -80,6 +84,32 @@ final class SmallScreenTests: XCTestCase {
             }
         }
         XCTFail("Reading task did not appear")
+    }
+
+    @MainActor func testExhaustedPlanDoesNotStartAnotherLibraryLoop() {
+        launch(exhausted: true)
+        XCTAssertFalse(app.buttons["today.start"].isEnabled)
+        XCTAssertTrue(app.buttons["today.start"].label.contains("今日安排已完成"))
+        XCTAssertFalse(app.scrollViews["study.readingScroll"].exists)
+        screenshot("SE3-CompletedPlan")
+    }
+
+    @MainActor func testLongReadingKeepsCoverageAndAnswerControlsVisible() {
+        launch(longReading: true)
+        app.buttons["today.start"].tap()
+        let scroll = app.scrollViews["study.readingScroll"]
+        XCTAssertTrue(scroll.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["study.readingCoverage"].label.contains("100%"))
+        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        let fixed = app.buttons["study.choice.0"].frame
+        scroll.swipeUp()
+        XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
+        screenshot("SE3-LongReading")
+        app.buttons["study.choice.0"].tap()
+        visible(app.buttons["study.continue"])
+        screenshot("SE3-LongReading-Feedback")
+        app.buttons["study.continue"].tap()
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
     }
 
     @MainActor func testPauseStopsTheVisibleTimer() {

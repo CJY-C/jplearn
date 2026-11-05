@@ -6,10 +6,12 @@ struct TodayView: View {
     @EnvironmentObject private var clock: StudyClock
     @Environment(\.sizeCategory) private var sizeCategory
     @AppStorage("dailyMinutes") private var minutes = 20
+    @AppStorage("dailyNewWords") private var dailyNewWords = 10
     @State private var session = false
     private var studied: TimeInterval { StudyTime.today(events: model.events, live: clock.pendingInterval) }
     private var reached: Bool { studied >= Double(minutes * 60) }
     private var dueCount: Int { (try? ReviewScheduler().dueKeys(events: model.events, pack: model.pack))?.count ?? 0 }
+    private var available: Bool { model.canStartToday(minutes: minutes, newWordLimit: dailyNewWords) }
     var body: some View {
         Group {
             if sizeCategory.isAccessibilityCategory { ScrollView { content } }
@@ -21,8 +23,10 @@ struct TodayView: View {
             Button {
                 model.perform { try model.startToday(minutes: minutes); session = model.checkpoint != nil }
             } label: {
-                Label(model.checkpoint != nil ? "继续学习" : (reached ? "继续巩固" : "开始学习"), systemImage: "arrow.right")
+                Label(available ? (model.checkpoint != nil ? "继续学习" : (reached ? "继续巩固" : "开始学习")) : "今日安排已完成",
+                      systemImage: available ? "arrow.right" : "checkmark")
             }.buttonStyle(StudyPrimaryButtonStyle()).accessibilityIdentifier("today.start")
+                .disabled(!available).opacity(available ? 1 : 0.55)
                 .padding(.horizontal, 18).padding(.vertical, 12)
                 .background(Color(UIColor.systemGroupedBackground))
         }
@@ -73,7 +77,7 @@ struct TodayView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                 }.buttonStyle(.plain)
             }
-            Text("学习时计时，暂停或离开时自动停下。")
+            Text(available ? "学习时计时，暂停或离开时自动停下。" : "到期后再复习，也可以在课程中主动学习新内容。")
                 .font(.caption).foregroundColor(.secondary)
             Spacer(minLength: 0)
         }.padding(.horizontal, 18).padding(.top, 14)
@@ -117,6 +121,17 @@ struct CourseView: View {
                     if lessons.isEmpty { Text("课程正在制作中").foregroundColor(.secondary) }
                     Text("制作目标：新增 \(stage.vocabularyTarget) 个词、\(stage.grammarTarget) 个表达、\(stage.readingTarget) 篇短文")
                         .font(.caption).foregroundColor(.secondary)
+                }
+            }
+            Section(header: Text("阅读练习 · \(model.pack.readings.count) 篇")) {
+                ForEach(model.pack.readings) { reading in
+                    NavigationLink(destination: PassagePreview(reading: reading)) {
+                        HStack {
+                            Text(reading.title)
+                            Spacer()
+                            Text(reading.level).font(.caption).foregroundColor(.secondary)
+                        }
+                    }
                 }
             }
         }.listStyle(.insetGrouped).navigationTitle("课程")
@@ -196,7 +211,20 @@ struct PassagePreview: View {
     let reading: ReadingPassage
     var body: some View {
         List {
-            Section { Text("\(reading.level) · \(reading.genre)").font(.caption).foregroundColor(.secondary) }
+            Section {
+                Text("\(reading.level) · \(reading.genre)").font(.caption).foregroundColor(.secondary)
+                let readiness = ReadingReadiness.assess(reading, pack: model.pack, events: model.events)
+                Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+                    .font(.subheadline).foregroundColor(.secondary)
+                if !readiness.unfamiliarWords.isEmpty {
+                    Text("建议先学：" + readiness.unfamiliarWords.prefix(8).map(\.text).joined(separator: "、"))
+                        .font(.caption).foregroundColor(.secondary)
+                }
+                if !readiness.missingGrammarIDs.isEmpty {
+                    Text("前置表达：" + readiness.missingGrammarIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
+                        .font(.caption).foregroundColor(.secondary)
+                }
+            }
             Section {
                 ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { SentenceView(sentence: $0) }
             }

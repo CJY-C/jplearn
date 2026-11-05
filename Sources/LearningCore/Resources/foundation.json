@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "foundation",
-  "version": "0.1.0",
-  "title": "日语阅读基础样章",
-  "notice": "目前提供 12 个个人试用样章。完整 N5–N2 路线将分批补充，样章尚待独立日语审校。",
+  "version": "0.3.0",
+  "title": "日语阅读基础篇",
+  "notice": "目前提供 14 个基础单元、182 个词、80 道结构题与 24 篇阅读。完整 N5–N2 课程将分批补充，内容尚待独立日语审校。",
   "references": [
     {
       "id": "jmdict",
@@ -2157,6 +2157,454 @@
       "status": "trial"
     },
     {
+      "id": "v0151",
+      "kind": "word",
+      "level": "N4",
+      "text": "近い",
+      "reading": "ちかい",
+      "romaji": "chikai",
+      "meaning": "近的",
+      "explanation": "い形容词；「近い道」是近路，「駅に近い」是离车站近。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0152",
+      "kind": "word",
+      "level": "N4",
+      "text": "遠い",
+      "reading": "とおい",
+      "romaji": "tooi",
+      "meaning": "远的",
+      "explanation": "注意「とお」的长音；「家から遠い」表示离家远。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0153",
+      "kind": "word",
+      "level": "N4",
+      "text": "水",
+      "reading": "みず",
+      "romaji": "mizu",
+      "meaning": "水",
+      "explanation": "「水を飲む」表示喝水。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0154",
+      "kind": "word",
+      "level": "N4",
+      "text": "お茶",
+      "reading": "おちゃ",
+      "romaji": "ocha",
+      "meaning": "茶",
+      "explanation": "前面的「お」是常用的礼貌、美化表达。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0155",
+      "kind": "word",
+      "level": "N4",
+      "text": "電話",
+      "reading": "でんわ",
+      "romaji": "denwa",
+      "meaning": "电话",
+      "explanation": "「電話で確認する」中的「で」表示使用的手段。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0156",
+      "kind": "word",
+      "level": "N4",
+      "text": "午前中",
+      "reading": "ごぜんちゅう",
+      "romaji": "gozenchuu",
+      "meaning": "上午这段时间",
+      "explanation": "「午前中はいる」表示上午在；留意「ちゅう」的长音。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0157",
+      "kind": "word",
+      "level": "N4",
+      "text": "午後",
+      "reading": "ごご",
+      "romaji": "gogo",
+      "meaning": "下午",
+      "explanation": "与「午前」相对；可用于「午後に会う」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0158",
+      "kind": "word",
+      "level": "N4",
+      "text": "六時",
+      "reading": "ろくじ",
+      "romaji": "rokuji",
+      "meaning": "六点",
+      "explanation": "明确的钟点常接「に」，例如「六時に起きる」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0159",
+      "kind": "word",
+      "level": "N4",
+      "text": "九時",
+      "reading": "くじ",
+      "romaji": "kuji",
+      "meaning": "九点",
+      "explanation": "这里读「くじ」，不读「きゅうじ」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0160",
+      "kind": "word",
+      "level": "N4",
+      "text": "十時",
+      "reading": "じゅうじ",
+      "romaji": "juuji",
+      "meaning": "十点",
+      "explanation": "注意「じゅう」的长音。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0161",
+      "kind": "word",
+      "level": "N4",
+      "text": "二冊",
+      "reading": "にさつ",
+      "romaji": "nisatsu",
+      "meaning": "两本",
+      "explanation": "「冊」用于书册等装订的物品。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0162",
+      "kind": "word",
+      "level": "N4",
+      "text": "一度",
+      "reading": "いちど",
+      "romaji": "ichido",
+      "meaning": "一次",
+      "explanation": "「もう一度」表示再一次。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0163",
+      "kind": "word",
+      "level": "N4",
+      "text": "意味",
+      "reading": "いみ",
+      "romaji": "imi",
+      "meaning": "意思；含义",
+      "explanation": "「言葉の意味」是词语的意思，「意味が分かる」是明白意思。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0164",
+      "kind": "word",
+      "level": "N4",
+      "text": "関係",
+      "reading": "かんけい",
+      "romaji": "kankei",
+      "meaning": "关系",
+      "explanation": "可指人物关系或前后文的关联。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0165",
+      "kind": "word",
+      "level": "N4",
+      "text": "考える",
+      "reading": "かんがえる",
+      "romaji": "kangaeru",
+      "meaning": "思考；考虑",
+      "explanation": "一段动词；「考えた」表示想过了。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0166",
+      "kind": "word",
+      "level": "N4",
+      "text": "とても",
+      "reading": "とても",
+      "romaji": "totemo",
+      "meaning": "很；非常",
+      "explanation": "常放在形容词之前，表达程度。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0167",
+      "kind": "word",
+      "level": "N4",
+      "text": "少しずつ",
+      "reading": "すこしずつ",
+      "romaji": "sukoshi zutsu",
+      "meaning": "一点一点地",
+      "explanation": "描述渐进变化，例如「少しずつ分かる」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0168",
+      "kind": "word",
+      "level": "N4",
+      "text": "言う",
+      "reading": "いう",
+      "romaji": "iu",
+      "meaning": "说",
+      "explanation": "「言った」是过去形；引用说话内容时常用「と」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0169",
+      "kind": "word",
+      "level": "N4",
+      "text": "始める",
+      "reading": "はじめる",
+      "romaji": "hajimeru",
+      "meaning": "开始做；使开始",
+      "explanation": "「読み始める」表示开始读；与自动词「始まる」区分。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0170",
+      "kind": "word",
+      "level": "N4",
+      "text": "今朝",
+      "reading": "けさ",
+      "romaji": "kesa",
+      "meaning": "今天早晨",
+      "explanation": "这是整体读法「けさ」，不能逐字拼读。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0171",
+      "kind": "word",
+      "level": "N4",
+      "text": "降る",
+      "reading": "ふる",
+      "romaji": "furu",
+      "meaning": "下雨、下雪等",
+      "explanation": "「雨が降る」表示下雨，降雨的主体用「が」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0172",
+      "kind": "word",
+      "level": "N4",
+      "text": "歩く",
+      "reading": "あるく",
+      "romaji": "aruku",
+      "meaning": "步行；走路",
+      "explanation": "五段动词；て形为「歩いて」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0173",
+      "kind": "word",
+      "level": "N4",
+      "text": "心配",
+      "reading": "しんぱい",
+      "romaji": "shinpai",
+      "meaning": "担心",
+      "explanation": "「心配する」表示担心某件事。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0174",
+      "kind": "word",
+      "level": "N4",
+      "text": "いい",
+      "reading": "いい",
+      "romaji": "ii",
+      "meaning": "好的",
+      "explanation": "常见活用使用「よ」开头，如「よかった」「よくない」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0175",
+      "kind": "word",
+      "level": "N4",
+      "text": "多い",
+      "reading": "おおい",
+      "romaji": "ooi",
+      "meaning": "多的",
+      "explanation": "「言葉が多い」表示词语多；注意「おお」的长音。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0176",
+      "kind": "word",
+      "level": "N4",
+      "text": "すぐ",
+      "reading": "すぐ",
+      "romaji": "sugu",
+      "meaning": "马上；很快",
+      "explanation": "可描述时间间隔短，也可在位置表达里表示很近。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0177",
+      "kind": "word",
+      "level": "N4",
+      "text": "最後",
+      "reading": "さいご",
+      "romaji": "saigo",
+      "meaning": "最后",
+      "explanation": "「最後まで読む」表示读到最后。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0178",
+      "kind": "word",
+      "level": "N4",
+      "text": "ゆっくり",
+      "reading": "ゆっくり",
+      "romaji": "yukkuri",
+      "meaning": "慢慢地；从容地",
+      "explanation": "可描述动作速度，也可表示放松、不着急。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0179",
+      "kind": "word",
+      "level": "N4",
+      "text": "自分",
+      "reading": "じぶん",
+      "romaji": "jibun",
+      "meaning": "自己",
+      "explanation": "指谁要由句子视角与上下文判断。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0180",
+      "kind": "word",
+      "level": "N4",
+      "text": "考え",
+      "reading": "かんがえ",
+      "romaji": "kangae",
+      "meaning": "想法；看法",
+      "explanation": "这是名词；动词为「考える」。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0181",
+      "kind": "word",
+      "level": "N4",
+      "text": "後",
+      "reading": "あと",
+      "romaji": "ato",
+      "meaning": "之后；后面",
+      "explanation": "这里学「あ と」的读法，「後で」表示之后。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
+      "id": "v0182",
+      "kind": "word",
+      "level": "N4",
+      "text": "よく",
+      "reading": "よく",
+      "romaji": "yoku",
+      "meaning": "经常；充分地",
+      "explanation": "「よく分かる」表示很明白，不宜机械理解为经常。",
+      "sourceIDs": [
+        "jmdict"
+      ],
+      "status": "trial"
+    },
+    {
       "id": "g001",
       "kind": "grammar",
       "level": "N5",
@@ -2748,7 +3196,7 @@
         {
           "text": "新",
           "reading": "あたら",
-          "itemID": "v0036"
+          "itemID": "v0037"
         },
         {
           "text": "しい",
@@ -3348,7 +3796,7 @@
         {
           "text": "見",
           "reading": "み",
-          "itemID": "v0029"
+          "itemID": "v0091"
         },
         {
           "text": "せてくれた。",
@@ -3447,7 +3895,7 @@
         {
           "text": "降",
           "reading": "ふ",
-          "itemID": null
+          "itemID": "v0171"
         },
         {
           "text": "ったら、",
@@ -4226,7 +4674,7 @@
         {
           "text": "二冊",
           "reading": "にさつ",
-          "itemID": null
+          "itemID": "v0161"
         },
         {
           "text": "あります。",
@@ -4244,7 +4692,7 @@
         {
           "text": "新",
           "reading": "あたら",
-          "itemID": "v0036"
+          "itemID": "v0037"
         },
         {
           "text": "しい",
@@ -4628,7 +5076,7 @@
         {
           "text": "見",
           "reading": "み",
-          "itemID": "v0029"
+          "itemID": "v0091"
         },
         {
           "text": "せてくれました。",
@@ -4651,7 +5099,7 @@
         {
           "text": "近",
           "reading": "ちか",
-          "itemID": null
+          "itemID": "v0151"
         },
         {
           "text": "い",
@@ -4785,7 +5233,7 @@
         {
           "text": "電話",
           "reading": "でんわ",
-          "itemID": null
+          "itemID": "v0155"
         },
         {
           "text": "で",
@@ -4833,7 +5281,7 @@
         {
           "text": "午前中",
           "reading": "ごぜんちゅう",
-          "itemID": null
+          "itemID": "v0156"
         },
         {
           "text": "はいらっしゃるそうです。",
@@ -4947,7 +5395,7 @@
         {
           "text": "意味",
           "reading": "いみ",
-          "itemID": null
+          "itemID": "v0163"
         },
         {
           "text": "は",
@@ -5015,7 +5463,7 @@
         {
           "text": "一度",
           "reading": "いちど",
-          "itemID": null
+          "itemID": "v0162"
         },
         {
           "text": "読",
@@ -5050,7 +5498,7 @@
         {
           "text": "関係",
           "reading": "かんけい",
-          "itemID": null
+          "itemID": "v0164"
         },
         {
           "text": "を",
@@ -5060,7 +5508,7 @@
         {
           "text": "考",
           "reading": "かんが",
-          "itemID": null
+          "itemID": "v0165"
         },
         {
           "text": "えました。",
@@ -5078,7 +5526,7 @@
         {
           "text": "少",
           "reading": "すこ",
-          "itemID": null
+          "itemID": "v0167"
         },
         {
           "text": "しずつ、",
@@ -5117,6 +5565,4948 @@
         }
       ],
       "translation": "渐渐开始理解主人公的心情了。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s065",
+      "segments": [
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "明天休息。",
+      "explanation": "「明日は」提出明天这个话题，后面说明明天休息。",
+      "speechText": null
+    },
+    {
+      "id": "s066",
+      "segments": [
+        {
+          "text": "この",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "面白",
+          "reading": "おもしろ",
+          "itemID": "v0045"
+        },
+        {
+          "text": "いです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这本书很有趣。",
+      "explanation": "「この本は」提出要评价的对象，后面说明书很有趣。",
+      "speechText": null
+    },
+    {
+      "id": "s067",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友的家很大。",
+      "explanation": "「友達の家」的中心是「家」，「友達の」说明是谁的家。",
+      "speechText": null
+    },
+    {
+      "id": "s068",
+      "segments": [
+        {
+          "text": "これは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这是学校的地图。",
+      "explanation": "「学校の地図」以地图为中心，说明是学校的地图，并非只表示某人的所有物。",
+      "speechText": null
+    },
+    {
+      "id": "s069",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师读报纸。",
+      "explanation": "「新聞を」标记阅读的对象；「先生は」提示谈论的人。",
+      "speechText": null
+    },
+    {
+      "id": "s070",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飲",
+          "reading": "の",
+          "itemID": "v0034"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我喝水。",
+      "explanation": "「水を」是饮用的对象，不是动作发生的地点或时间。",
+      "speechText": null
+    },
+    {
+      "id": "s071",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友去图书馆。",
+      "explanation": "助词「へ」读作「え」，这里标记前往图书馆的方向。",
+      "speechText": null
+    },
+    {
+      "id": "s072",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "六時",
+          "reading": "ろくじ",
+          "itemID": "v0158"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "起",
+          "reading": "お",
+          "itemID": "v0074"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我早晨六点起床。",
+      "explanation": "「六時に」是明确的时间点；不能把所有「に」都解释为目的地。",
+      "speechText": null
+    },
+    {
+      "id": "s073",
+      "segments": [
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "買",
+          "reading": "か",
+          "itemID": "v0061"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在小店里买了书。",
+      "explanation": "い形容词「小さい」直接放在名词「店」之前。",
+      "speechText": null
+    },
+    {
+      "id": "s074",
+      "segments": [
+        {
+          "text": "便利",
+          "reading": "べんり",
+          "itemID": "v0048"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "使用方便的工具。",
+      "explanation": "「便利」修饰名词「道具」时用「便利な道具」。",
+      "speechText": null
+    },
+    {
+      "id": "s075",
+      "segments": [
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "がいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "房间里有孩子。",
+      "explanation": "孩子是人，此处表达存在用「いる」，礼貌形为「います」。",
+      "speechText": null
+    },
+    {
+      "id": "s076",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "车站前面有店。",
+      "explanation": "「駅の前に」是存在的地点，「店が」是存在的事物。",
+      "speechText": null
+    },
+    {
+      "id": "s077",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天见了朋友。",
+      "explanation": "「会いました」是过去的礼貌形，说明见面已经发生。",
+      "speechText": null
+    },
+    {
+      "id": "s078",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师回家了。",
+      "explanation": "「ました」表示过去；此句叙述老师已经回家的动作。",
+      "speechText": null
+    },
+    {
+      "id": "s079",
+      "segments": [
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "面白",
+          "reading": "おもしろ",
+          "itemID": "v0045"
+        },
+        {
+          "text": "いです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在图书馆借的书很有趣。",
+      "explanation": "「図書館で借りた」整体修饰后面的「本」，中心名词仍是书。",
+      "speechText": null
+    },
+    {
+      "id": "s080",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这是我昨天写的信。",
+      "explanation": "修饰句「私が昨日書いた」交代了写信的人和时间。",
+      "speechText": null
+    },
+    {
+      "id": "s081",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "起",
+          "reading": "お",
+          "itemID": "v0074"
+        },
+        {
+          "text": "きて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "早晨起床后读了报纸。",
+      "explanation": "这个语境中「起きて」连接前后动作，按起床、读报的顺序叙述。",
+      "speechText": null
+    },
+    {
+      "id": "s082",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "itemID": "v0063"
+        },
+        {
+          "text": "して、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "ります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "还书之后回家。",
+      "explanation": "「返して」连接还书和回家，前一个动作是还书。",
+      "speechText": null
+    },
+    {
+      "id": "s083",
+      "segments": [
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "がないので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为没有时间，今天不去。",
+      "explanation": "「ので」前面的「時間がない」交代不去的原因。",
+      "speechText": null
+    },
+    {
+      "id": "s084",
+      "segments": [
+        {
+          "text": "この",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "面白",
+          "reading": "おもしろ",
+          "itemID": "v0045"
+        },
+        {
+          "text": "いから、もう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一度",
+          "reading": "いちど",
+          "itemID": "v0162"
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这本书很有趣，所以再读一遍。",
+      "explanation": "「面白いから」给出再次阅读的理由。",
+      "speechText": null
+    },
+    {
+      "id": "s085",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "をもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我从老师那里得到了书。",
+      "explanation": "「もらう」以接受者为视角；「私は」表明说话者是接受者。",
+      "speechText": null
+    },
+    {
+      "id": "s086",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "をあげました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把照片给了朋友。",
+      "explanation": "「あげる」从给予方描述动作，本句的给予方是说话者。",
+      "speechText": null
+    },
+    {
+      "id": "s087",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手伝",
+          "reading": "てつだ",
+          "itemID": "v0092"
+        },
+        {
+          "text": "ってくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友帮我做了工作。",
+      "explanation": "「友達が」是帮助的人；「てくれる」从说话者受益的角度叙述。",
+      "speechText": null
+    },
+    {
+      "id": "s088",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我请老师讲解了词语的意思。",
+      "explanation": "「私は」是得到帮助的一方，「先生に」指出提供讲解的人。",
+      "speechText": null
+    },
+    {
+      "id": "s089",
+      "segments": [
+        {
+          "text": "この",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "めます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在这个图书馆也能读报纸。",
+      "explanation": "「読める」是「読む」的可能形，这里表示可以读报。",
+      "speechText": null
+    },
+    {
+      "id": "s090",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "れば、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "けます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我看地图就能去车站。",
+      "explanation": "「行ける」是「行く」的可能形，表示具备前往的条件或能力。",
+      "speechText": null
+    },
+    {
+      "id": "s091",
+      "segments": [
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わったら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "工作结束后去见朋友。",
+      "explanation": "「終わったら」以工作结束作为后面动作的条件。",
+      "speechText": null
+    },
+    {
+      "id": "s092",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りるなら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "便利",
+          "reading": "べんり",
+          "itemID": "v0048"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "如果要借书，图书馆很方便。",
+      "explanation": "「借りるなら」承接借书这个前提，给出图书馆方便的建议。",
+      "speechText": null
+    },
+    {
+      "id": "s093",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "へいらっしゃいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师去图书馆。",
+      "explanation": "目的地「図書館へ」使这里的尊敬表达对应「行く」。",
+      "speechText": null
+    },
+    {
+      "id": "s094",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "はお",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "茶",
+          "reading": "ちゃ",
+          "itemID": "v0154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "召し上",
+          "reading": "めしあ",
+          "itemID": "v0115"
+        },
+        {
+          "text": "がりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师喝了茶。",
+      "explanation": "「召し上がる」是饮食动作的尊敬表达，不改变动作参与者。",
+      "speechText": null
+    },
+    {
+      "id": "s095",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "にお",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伺",
+          "reading": "うかが",
+          "itemID": "v0116"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我明天向老师请教、听取意见。",
+      "explanation": "这里的「伺う」表示谦逊地听取或请教，动作主体是说话者。",
+      "speechText": null
+    },
+    {
+      "id": "s096",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "山田",
+          "reading": "やまだ",
+          "itemID": null
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "申",
+          "reading": "もう",
+          "itemID": "v0118"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我叫山田。",
+      "explanation": "「～と申します」用于谦逊地说明自己的名字。",
+      "speechText": null
+    },
+    {
+      "id": "s097",
+      "segments": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "はもう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": null
+        },
+        {
+          "text": "たかもしれません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "电车可能已经开走了。",
+      "explanation": "「かもしれない」只表达可能性，不能当作已确认的事实。",
+      "speechText": null
+    },
+    {
+      "id": "s098",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "九時",
+          "reading": "くじ",
+          "itemID": "v0159"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0106"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十時",
+          "reading": "じゅうじ",
+          "itemID": "v0160"
+        },
+        {
+          "text": "なので、もう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0106"
+        },
+        {
+          "text": "いているはずです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店九点开门。现在十点，所以按理应该开着了。",
+      "explanation": "「はず」建立在营业时间这一依据上，仍不是亲眼确认。",
+      "speechText": null
+    },
+    {
+      "id": "s099",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "覚",
+          "reading": "おぼ",
+          "itemID": "v0102"
+        },
+        {
+          "text": "えたのに、もう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘",
+          "reading": "わす",
+          "itemID": "v0103"
+        },
+        {
+          "text": "れました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天刚记住，却已经忘了。",
+      "explanation": "记住后本应还记得，实际却忘了，「のに」表现这种反差。",
+      "speechText": null
+    },
+    {
+      "id": "s100",
+      "segments": [
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "があるのに、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "明明有时间，却不读书。",
+      "explanation": "「時間がある」和「読まない」之间形成与预期不一致的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s101",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "、それを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "itemID": "v0063"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "向老师借了书。明天归还它。",
+      "explanation": "结合前一句，能被归还的是刚借来的书。",
+      "speechText": null
+    },
+    {
+      "id": "s102",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ました。いっしょに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友来了。我们一起读了报纸。",
+      "explanation": "「いっしょに」与朋友到来的上下文支持两人一起读报的理解。",
+      "speechText": null
+    },
+    {
+      "id": "s103",
+      "segments": [
+        {
+          "text": "兄",
+          "reading": "あに",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "働",
+          "reading": "はたら",
+          "itemID": "v0076"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一方",
+          "reading": "いっぽう",
+          "itemID": "v0149"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "働",
+          "reading": "はたら",
+          "itemID": "v0076"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "哥哥早晨工作。另一方面，我晚上工作。",
+      "explanation": "这里对比哥哥和说话者的工作时间。",
+      "speechText": null
+    },
+    {
+      "id": "s104",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みません。つまり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "何",
+          "reading": "なに",
+          "itemID": "v0024"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "书和报纸都不读。也就是说，今天什么也不读。",
+      "explanation": "「つまり」将前面不读书、不读报纸的内容归纳为今天不读东西。",
+      "speechText": null
+    },
+    {
+      "id": "s105",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "现在是早晨。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s106",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天要上学。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s107",
+      "segments": [
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "明天休息。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s108",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "でした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天要上学。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s109",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天休息。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s110",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "现在在家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s111",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "にいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "早晨在家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s112",
+      "segments": [
+        {
+          "text": "昼",
+          "reading": "ひる",
+          "itemID": "v0006"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "にいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "白天在学校。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s113",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "はまた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "にいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "晚上又在家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s114",
+      "segments": [
+        {
+          "text": "これは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这是我的书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s115",
+      "segments": [
+        {
+          "text": "あれは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "那是老师的书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s116",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "にあります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友的书在家里。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s117",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我在车站等朋友。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s118",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友从学校来。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s119",
+      "segments": [
+        {
+          "text": "それから、いっしょに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "ります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "然后一起回家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s120",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上",
+          "reading": "うえ",
+          "itemID": "v0054"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "桌上有书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s121",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "下",
+          "reading": "した",
+          "itemID": "v0055"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "桌下也有书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s122",
+      "segments": [
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "椅子",
+          "reading": "いす",
+          "itemID": "v0053"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上",
+          "reading": "うえ",
+          "itemID": "v0054"
+        },
+        {
+          "text": "にあります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "报纸在椅子上。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s123",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "车站前有大店。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s124",
+      "segments": [
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "隣",
+          "reading": "となり",
+          "itemID": "v0058"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "家旁边有小店。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s125",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "隣",
+          "reading": "となり",
+          "itemID": "v0058"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "買",
+          "reading": "か",
+          "itemID": "v0061"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天在家旁边的店买书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s126",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "早晨读了报纸。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s127",
+      "segments": [
+        {
+          "text": "それから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "然后给朋友写了信。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s128",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "书在晚上读。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s129",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天下雨。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s130",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "なので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "にいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为下雨，所以在家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s131",
+      "segments": [
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在房间里读短故事。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s132",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "itemID": "v0063"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "归还了昨天借的书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s133",
+      "segments": [
+        {
+          "text": "そして、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "然后借了一本新书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s134",
+      "segments": [
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "ってから、その",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "回家之后读那本书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s135",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "をくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友给了我地图。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s136",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "はその",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我看了那张地图。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s137",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "までの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "明白了去车站的路。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s138",
+      "segments": [
+        {
+          "text": "この",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "之前不明白这个词的意思。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s139",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "してもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "请老师讲解了。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s140",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "现在明白意思了。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s141",
+      "segments": [
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わったら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "工作结束后去车站。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s142",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "約束",
+          "reading": "やくそく",
+          "itemID": "v0112"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "约好了和朋友见面。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s143",
+      "segments": [
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "があれば、いっしょに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "如果有时间，也一起去店里。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s144",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ",
+          "itemID": "v0121"
+        },
+        {
+          "text": "にいらっしゃいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师现在在公司。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s145",
+      "segments": [
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "へいらっしゃいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "下午去图书馆。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s146",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伺",
+          "reading": "うかが",
+          "itemID": "v0116"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我明天去拜访老师家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s147",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "来",
+          "reading": "く",
+          "itemID": "v0031"
+        },
+        {
+          "text": "るはずでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友按理应当早晨来。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s148",
+      "segments": [
+        {
+          "text": "しかし、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昼",
+          "reading": "ひる",
+          "itemID": "v0006"
+        },
+        {
+          "text": "になっても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "但是到了白天还没来。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s149",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我联系了朋友。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s150",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "にある",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天我和朋友去了车站前的店。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s151",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "には、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店里有新书和旧书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s152",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "v0041"
+        },
+        {
+          "text": "かったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "新书很贵，所以我看了旧书。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s153",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は、その",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "をもう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友说，那本书他已经读过。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s154",
+      "segments": [
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "いですが、とても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "面白",
+          "reading": "おもしろ",
+          "itemID": "v0045"
+        },
+        {
+          "text": "いそうです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "听说故事虽然短，却很有趣。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s155",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "買",
+          "reading": "か",
+          "itemID": "v0061"
+        },
+        {
+          "text": "って、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我买了旧书，回了家。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s156",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "み",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "めると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "晚上在房间开始读时，我明白了朋友的话。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s157",
+      "segments": [
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に、この",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "をしたいと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我想明天和朋友聊聊这个故事。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s158",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう",
+          "itemID": "v0077"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "約束",
+          "reading": "やくそく",
+          "itemID": "v0112"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天约好和朋友在图书馆学习。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s159",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "までの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "がよく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我不太清楚从车站到图书馆的路。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s160",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0091"
+        },
+        {
+          "text": "せてくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天朋友给我看了地图。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s161",
+      "segments": [
+        {
+          "text": "しかし、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今朝",
+          "reading": "けさ",
+          "itemID": "v0170"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "っていて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ながら",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "くのは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "難",
+          "reading": "むずか",
+          "itemID": "v0046"
+        },
+        {
+          "text": "しいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "但是今早下着雨，一边看地图一边走很不方便。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s162",
+      "segments": [
+        {
+          "text": "そこで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "つことにしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "于是决定在车站等朋友。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s163",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "から、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わったらすぐに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "く",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友发来消息，说工作结束就来。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s164",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我在车站里面读短书等着。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s165",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "たら、いっしょに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "けるので、もう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "心配",
+          "reading": "しんぱい",
+          "itemID": "v0173"
+        },
+        {
+          "text": "しなくてもいいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友来了就能一起去图书馆，因此不用再担心路线。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s166",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天读了向朋友借的故事。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s167",
+      "segments": [
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "多",
+          "reading": "おお",
+          "itemID": "v0175"
+        },
+        {
+          "text": "かったので、すぐに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为认识的词多，我原以为很快就能读懂。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s168",
+      "segments": [
+        {
+          "text": "しかし、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んだのに、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "主人公",
+          "reading": "しゅじんこう",
+          "itemID": "v0140"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気持",
+          "reading": "きも",
+          "itemID": "v0141"
+        },
+        {
+          "text": "ちはよく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "但读到最后，还是不太理解主人公的心情。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s169",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "をもう",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一度",
+          "reading": "いちど",
+          "itemID": "v0162"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "からゆっくり",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んでいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天从早晨起又慢慢读同一个故事。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s170",
+      "segments": [
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "すると、だれの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "なのかが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "回看前文后，明白了那是谁说的话。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s171",
+      "segments": [
+        {
+          "text": "主人公",
+          "reading": "しゅじんこう",
+          "itemID": "v0140"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘",
+          "reading": "わす",
+          "itemID": "v0103"
+        },
+        {
+          "text": "れたのではなく、ずっと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "覚",
+          "reading": "おぼ",
+          "itemID": "v0102"
+        },
+        {
+          "text": "えていたのです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "主人公并非忘记朋友，而是一直记得。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s172",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "み",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わってから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ",
+          "itemID": "v0180"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "したいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我想读完后把自己的想法告诉朋友。",
+      "explanation": "结合前后文判断人物、动作及句子之间的关系。",
+      "speechText": null
+    },
+    {
+      "id": "s173",
+      "segments": [
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "だけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "関係",
+          "reading": "かんけい",
+          "itemID": "v0164"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考",
+          "reading": "かんが",
+          "itemID": "v0165"
+        },
+        {
+          "text": "えることも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ",
+          "itemID": "v0130"
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我觉得不仅要懂词义，也要思考前后文的关系。",
       "explanation": "结合前后文判断人物、动作及句子之间的关系。",
       "speechText": null
     }
@@ -5721,6 +11111,606 @@
       "explanation": "它将今天和明天都工作归纳成没有休息日。",
       "hint": "识别对比、补充与归纳",
       "transfer": true
+    },
+    {
+      "id": "e001c",
+      "targetID": "g001",
+      "sentenceID": "s065",
+      "prompt": "这里的话题是什么？",
+      "choices": [
+        "昨天的天气",
+        "明天的安排",
+        "学校的位置"
+      ],
+      "answerIndex": 1,
+      "explanation": "「明日は」提出明天这个话题，后面说明明天休息。",
+      "hint": "说明接下来谈论什么",
+      "transfer": true
+    },
+    {
+      "id": "e001d",
+      "targetID": "g001",
+      "sentenceID": "s066",
+      "prompt": "说话者评价的对象是什么？",
+      "choices": [
+        "这本书",
+        "说话者的朋友",
+        "图书馆"
+      ],
+      "answerIndex": 0,
+      "explanation": "「この本は」提出要评价的对象，后面说明书很有趣。",
+      "hint": "说明接下来谈论什么",
+      "transfer": true
+    },
+    {
+      "id": "e002c",
+      "targetID": "g002",
+      "sentenceID": "s067",
+      "prompt": "很大的是什么？",
+      "choices": [
+        "朋友",
+        "老师",
+        "朋友的家"
+      ],
+      "answerIndex": 2,
+      "explanation": "「友達の家」的中心是「家」，「友達の」说明是谁的家。",
+      "hint": "连接名词，表示所属等关系",
+      "transfer": true
+    },
+    {
+      "id": "e002d",
+      "targetID": "g002",
+      "sentenceID": "s068",
+      "prompt": "「学校の」在说明什么？",
+      "choices": [
+        "地图涉及的地方",
+        "地图的价格",
+        "学校的老师"
+      ],
+      "answerIndex": 0,
+      "explanation": "「学校の地図」以地图为中心，说明是学校的地图，并非只表示某人的所有物。",
+      "hint": "连接名词，表示所属等关系",
+      "transfer": true
+    },
+    {
+      "id": "e003c",
+      "targetID": "g003",
+      "sentenceID": "s069",
+      "prompt": "被读的是什么？",
+      "choices": [
+        "老师",
+        "报纸",
+        "学校"
+      ],
+      "answerIndex": 1,
+      "explanation": "「新聞を」标记阅读的对象；「先生は」提示谈论的人。",
+      "hint": "标记动作直接涉及的对象",
+      "transfer": true
+    },
+    {
+      "id": "e003d",
+      "targetID": "g003",
+      "sentenceID": "s070",
+      "prompt": "「を」标记哪一部分？",
+      "choices": [
+        "喝的人",
+        "喝的时间",
+        "喝的对象"
+      ],
+      "answerIndex": 2,
+      "explanation": "「水を」是饮用的对象，不是动作发生的地点或时间。",
+      "hint": "标记动作直接涉及的对象",
+      "transfer": true
+    },
+    {
+      "id": "e004c",
+      "targetID": "g004",
+      "sentenceID": "s071",
+      "prompt": "「へ」表达什么？",
+      "choices": [
+        "前往的方向",
+        "动作的对象",
+        "借书的人"
+      ],
+      "answerIndex": 0,
+      "explanation": "助词「へ」读作「え」，这里标记前往图书馆的方向。",
+      "hint": "根据搭配判断时间点、目的地或方向",
+      "transfer": true
+    },
+    {
+      "id": "e004d",
+      "targetID": "g004",
+      "sentenceID": "s072",
+      "prompt": "这里的「に」标记什么？",
+      "choices": [
+        "起床的地点",
+        "动作的对象",
+        "明确的时间点"
+      ],
+      "answerIndex": 2,
+      "explanation": "「六時に」是明确的时间点；不能把所有「に」都解释为目的地。",
+      "hint": "根据搭配判断时间点、目的地或方向",
+      "transfer": true
+    },
+    {
+      "id": "e005c",
+      "targetID": "g005",
+      "sentenceID": "s073",
+      "prompt": "什么很小？",
+      "choices": [
+        "书",
+        "店",
+        "说话者"
+      ],
+      "answerIndex": 1,
+      "explanation": "い形容词「小さい」直接放在名词「店」之前。",
+      "hint": "区分い形容词与な形容词",
+      "transfer": true
+    },
+    {
+      "id": "e005d",
+      "targetID": "g005",
+      "sentenceID": "s074",
+      "prompt": "为什么这里有「な」？",
+      "choices": [
+        "连接な形容词与名词",
+        "表示已经完成",
+        "提出疑问"
+      ],
+      "answerIndex": 0,
+      "explanation": "「便利」修饰名词「道具」时用「便利な道具」。",
+      "hint": "区分い形容词与な形容词",
+      "transfer": true
+    },
+    {
+      "id": "e006c",
+      "targetID": "g006",
+      "sentenceID": "s075",
+      "prompt": "为什么用「います」？",
+      "choices": [
+        "因为房间很大",
+        "因为谈论过去",
+        "存在的是人"
+      ],
+      "answerIndex": 2,
+      "explanation": "孩子是人，此处表达存在用「いる」，礼貌形为「います」。",
+      "hint": "结合位置判断谁或什么在哪里",
+      "transfer": true
+    },
+    {
+      "id": "e006d",
+      "targetID": "g006",
+      "sentenceID": "s076",
+      "prompt": "存在的地点在哪里？",
+      "choices": [
+        "店的里面",
+        "车站前面",
+        "老师家里"
+      ],
+      "answerIndex": 1,
+      "explanation": "「駅の前に」是存在的地点，「店が」是存在的事物。",
+      "hint": "结合位置判断谁或什么在哪里",
+      "transfer": true
+    },
+    {
+      "id": "e007c",
+      "targetID": "g007",
+      "sentenceID": "s077",
+      "prompt": "见面发生在什么时候？",
+      "choices": [
+        "已经发生",
+        "还没发生",
+        "句子无法判断"
+      ],
+      "answerIndex": 0,
+      "explanation": "「会いました」是过去的礼貌形，说明见面已经发生。",
+      "hint": "识别已经发生的动作",
+      "transfer": true
+    },
+    {
+      "id": "e007d",
+      "targetID": "g007",
+      "sentenceID": "s078",
+      "prompt": "「帰りました」表达什么？",
+      "choices": [
+        "打算回家",
+        "正在请老师回家",
+        "已经回家"
+      ],
+      "answerIndex": 2,
+      "explanation": "「ました」表示过去；此句叙述老师已经回家的动作。",
+      "hint": "识别已经发生的动作",
+      "transfer": true
+    },
+    {
+      "id": "e008c",
+      "targetID": "g008",
+      "sentenceID": "s079",
+      "prompt": "被评价为有趣的是什么？",
+      "choices": [
+        "图书馆",
+        "借来的书",
+        "借书的动作"
+      ],
+      "answerIndex": 1,
+      "explanation": "「図書館で借りた」整体修饰后面的「本」，中心名词仍是书。",
+      "hint": "找到修饰部分后面的中心名词",
+      "transfer": true
+    },
+    {
+      "id": "e008d",
+      "targetID": "g008",
+      "sentenceID": "s080",
+      "prompt": "是谁写了这封信？",
+      "choices": [
+        "说话者",
+        "老师",
+        "朋友"
+      ],
+      "answerIndex": 0,
+      "explanation": "修饰句「私が昨日書いた」交代了写信的人和时间。",
+      "hint": "找到修饰部分后面的中心名词",
+      "transfer": true
+    },
+    {
+      "id": "e009c",
+      "targetID": "g009",
+      "sentenceID": "s081",
+      "prompt": "两个动作如何衔接？",
+      "choices": [
+        "二选一",
+        "读报导致起床",
+        "先起床再读报"
+      ],
+      "answerIndex": 2,
+      "explanation": "这个语境中「起きて」连接前后动作，按起床、读报的顺序叙述。",
+      "hint": "读出动作之间的衔接",
+      "transfer": true
+    },
+    {
+      "id": "e009d",
+      "targetID": "g009",
+      "sentenceID": "s082",
+      "prompt": "回家之前要做什么？",
+      "choices": [
+        "买书",
+        "还书",
+        "写信"
+      ],
+      "answerIndex": 1,
+      "explanation": "「返して」连接还书和回家，前一个动作是还书。",
+      "hint": "读出动作之间的衔接",
+      "transfer": true
+    },
+    {
+      "id": "e010c",
+      "targetID": "g010",
+      "sentenceID": "s083",
+      "prompt": "不去的原因是什么？",
+      "choices": [
+        "没有时间",
+        "今天放假",
+        "不知道路"
+      ],
+      "answerIndex": 0,
+      "explanation": "「ので」前面的「時間がない」交代不去的原因。",
+      "hint": "区分原因部分和后面的结果",
+      "transfer": true
+    },
+    {
+      "id": "e010d",
+      "targetID": "g010",
+      "sentenceID": "s084",
+      "prompt": "哪部分说明原因？",
+      "choices": [
+        "再读一遍",
+        "书的价格",
+        "书很有趣"
+      ],
+      "answerIndex": 2,
+      "explanation": "「面白いから」给出再次阅读的理由。",
+      "hint": "区分原因部分和后面的结果",
+      "transfer": true
+    },
+    {
+      "id": "e011c",
+      "targetID": "g011",
+      "sentenceID": "s085",
+      "prompt": "谁收到了书？",
+      "choices": [
+        "老师",
+        "说话者",
+        "朋友"
+      ],
+      "answerIndex": 1,
+      "explanation": "「もらう」以接受者为视角；「私は」表明说话者是接受者。",
+      "hint": "辨认给予者、接受者与叙述视角",
+      "transfer": true
+    },
+    {
+      "id": "e011d",
+      "targetID": "g011",
+      "sentenceID": "s086",
+      "prompt": "照片从谁转给谁？",
+      "choices": [
+        "从说话者给朋友",
+        "从朋友给老师",
+        "从朋友给说话者"
+      ],
+      "answerIndex": 0,
+      "explanation": "「あげる」从给予方描述动作，本句的给予方是说话者。",
+      "hint": "辨认给予者、接受者与叙述视角",
+      "transfer": true
+    },
+    {
+      "id": "e012c",
+      "targetID": "g012",
+      "sentenceID": "s087",
+      "prompt": "提供帮助的是谁？",
+      "choices": [
+        "说话者",
+        "老师",
+        "朋友"
+      ],
+      "answerIndex": 2,
+      "explanation": "「友達が」是帮助的人；「てくれる」从说话者受益的角度叙述。",
+      "hint": "辨认谁替谁做事",
+      "transfer": true
+    },
+    {
+      "id": "e012d",
+      "targetID": "g012",
+      "sentenceID": "s088",
+      "prompt": "谁得到了讲解？",
+      "choices": [
+        "老师",
+        "说话者",
+        "词语"
+      ],
+      "answerIndex": 1,
+      "explanation": "「私は」是得到帮助的一方，「先生に」指出提供讲解的人。",
+      "hint": "辨认谁替谁做事",
+      "transfer": true
+    },
+    {
+      "id": "e013c",
+      "targetID": "g013",
+      "sentenceID": "s089",
+      "prompt": "「読めます」表示什么？",
+      "choices": [
+        "能够阅读",
+        "已经读完",
+        "被要求朗读"
+      ],
+      "answerIndex": 0,
+      "explanation": "「読める」是「読む」的可能形，这里表示可以读报。",
+      "hint": "识别能够做某事",
+      "transfer": true
+    },
+    {
+      "id": "e013d",
+      "targetID": "g013",
+      "sentenceID": "s090",
+      "prompt": "「行けます」的基本意思是什么？",
+      "choices": [
+        "已经离开",
+        "不能前往",
+        "能够前往"
+      ],
+      "answerIndex": 2,
+      "explanation": "「行ける」是「行く」的可能形，表示具备前往的条件或能力。",
+      "hint": "识别能够做某事",
+      "transfer": true
+    },
+    {
+      "id": "e014c",
+      "targetID": "g014",
+      "sentenceID": "s091",
+      "prompt": "见朋友的条件是什么？",
+      "choices": [
+        "朋友先离开",
+        "工作结束",
+        "开始工作"
+      ],
+      "answerIndex": 1,
+      "explanation": "「終わったら」以工作结束作为后面动作的条件。",
+      "hint": "结合前后句理解条件",
+      "transfer": true
+    },
+    {
+      "id": "e014d",
+      "targetID": "g014",
+      "sentenceID": "s092",
+      "prompt": "这条建议针对什么需求？",
+      "choices": [
+        "借书",
+        "买地图",
+        "写信"
+      ],
+      "answerIndex": 0,
+      "explanation": "「借りるなら」承接借书这个前提，给出图书馆方便的建议。",
+      "hint": "结合前后句理解条件",
+      "transfer": true
+    },
+    {
+      "id": "e015c",
+      "targetID": "g015",
+      "sentenceID": "s093",
+      "prompt": "在这个语境中「いらっしゃる」对应什么？",
+      "choices": [
+        "吃",
+        "说",
+        "去"
+      ],
+      "answerIndex": 2,
+      "explanation": "目的地「図書館へ」使这里的尊敬表达对应「行く」。",
+      "hint": "识别应尊敬人物的动作",
+      "transfer": true
+    },
+    {
+      "id": "e015d",
+      "targetID": "g015",
+      "sentenceID": "s094",
+      "prompt": "实际喝茶的是谁？",
+      "choices": [
+        "说话者",
+        "老师",
+        "朋友"
+      ],
+      "answerIndex": 1,
+      "explanation": "「召し上がる」是饮食动作的尊敬表达，不改变动作参与者。",
+      "hint": "识别应尊敬人物的动作",
+      "transfer": true
+    },
+    {
+      "id": "e016c",
+      "targetID": "g016",
+      "sentenceID": "s095",
+      "prompt": "谁向谁请教？",
+      "choices": [
+        "说话者向老师请教",
+        "老师向说话者请教",
+        "老师自言自语"
+      ],
+      "answerIndex": 0,
+      "explanation": "这里的「伺う」表示谦逊地听取或请教，动作主体是说话者。",
+      "hint": "识别我方动作及所面对的人",
+      "transfer": true
+    },
+    {
+      "id": "e016d",
+      "targetID": "g016",
+      "sentenceID": "s096",
+      "prompt": "「申します」在自我介绍中表达什么？",
+      "choices": [
+        "对方的名字",
+        "请求老师回答",
+        "谦逊地报上自己的名字"
+      ],
+      "answerIndex": 2,
+      "explanation": "「～と申します」用于谦逊地说明自己的名字。",
+      "hint": "识别我方动作及所面对的人",
+      "transfer": true
+    },
+    {
+      "id": "e017c",
+      "targetID": "g017",
+      "sentenceID": "s097",
+      "prompt": "说话者的确定程度如何？",
+      "choices": [
+        "亲眼确认",
+        "认为有这种可能",
+        "完全否定"
+      ],
+      "answerIndex": 1,
+      "explanation": "「かもしれない」只表达可能性，不能当作已确认的事实。",
+      "hint": "区分有依据的预期与可能性",
+      "transfer": true
+    },
+    {
+      "id": "e017d",
+      "targetID": "g017",
+      "sentenceID": "s098",
+      "prompt": "判断店开门的依据是什么？",
+      "choices": [
+        "营业时间与当前时间",
+        "已经看到店门",
+        "朋友正在店里"
+      ],
+      "answerIndex": 0,
+      "explanation": "「はず」建立在营业时间这一依据上，仍不是亲眼确认。",
+      "hint": "区分有依据的预期与可能性",
+      "transfer": true
+    },
+    {
+      "id": "e018c",
+      "targetID": "g018",
+      "sentenceID": "s099",
+      "prompt": "前后有什么关系？",
+      "choices": [
+        "说明目的",
+        "列出条件",
+        "结果与预期相反"
+      ],
+      "answerIndex": 2,
+      "explanation": "记住后本应还记得，实际却忘了，「のに」表现这种反差。",
+      "hint": "读出前后情况的反差",
+      "transfer": true
+    },
+    {
+      "id": "e018d",
+      "targetID": "g018",
+      "sentenceID": "s100",
+      "prompt": "说话者觉得什么与预期不一致？",
+      "choices": [
+        "没时间却读书",
+        "有时间却不读书",
+        "读书花了时间"
+      ],
+      "answerIndex": 1,
+      "explanation": "「時間がある」和「読まない」之间形成与预期不一致的关系。",
+      "hint": "读出前后情况的反差",
+      "transfer": true
+    },
+    {
+      "id": "e019c",
+      "targetID": "g019",
+      "sentenceID": "s101",
+      "prompt": "「それ」指什么？",
+      "choices": [
+        "借来的书",
+        "老师",
+        "明天"
+      ],
+      "answerIndex": 0,
+      "explanation": "结合前一句，能被归还的是刚借来的书。",
+      "hint": "从前文恢复人物和事物",
+      "transfer": true
+    },
+    {
+      "id": "e019d",
+      "targetID": "g019",
+      "sentenceID": "s102",
+      "prompt": "后一句省略的参与者最合理的是谁？",
+      "choices": [
+        "只有老师",
+        "与前句无关的人",
+        "说话者和刚来的朋友"
+      ],
+      "answerIndex": 2,
+      "explanation": "「いっしょに」与朋友到来的上下文支持两人一起读报的理解。",
+      "hint": "从前文恢复人物和事物",
+      "transfer": true
+    },
+    {
+      "id": "e020c",
+      "targetID": "g020",
+      "sentenceID": "s103",
+      "prompt": "「一方」在组织什么关系？",
+      "choices": [
+        "原因与结果",
+        "两人的对比",
+        "完全相同的安排"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里对比哥哥和说话者的工作时间。",
+      "hint": "识别对比、补充与归纳",
+      "transfer": true
+    },
+    {
+      "id": "e020d",
+      "targetID": "g020",
+      "sentenceID": "s104",
+      "prompt": "「つまり」后面在做什么？",
+      "choices": [
+        "归纳前文",
+        "提出相反观点",
+        "列出新人物"
+      ],
+      "answerIndex": 0,
+      "explanation": "「つまり」将前面不读书、不读报纸的内容归纳为今天不读东西。",
+      "hint": "识别对比、补充与归纳",
+      "transfer": true
     }
   ],
   "lessons": [
@@ -5746,11 +11736,15 @@
       ],
       "sentenceIDs": [
         "s001",
-        "s002"
+        "s002",
+        "s065",
+        "s066"
       ],
       "exerciseIDs": [
         "e001a",
-        "e001b"
+        "e001b",
+        "e001c",
+        "e001d"
       ],
       "readingID": null
     },
@@ -5776,11 +11770,15 @@
       ],
       "sentenceIDs": [
         "s003",
-        "s004"
+        "s004",
+        "s067",
+        "s068"
       ],
       "exerciseIDs": [
         "e002a",
-        "e002b"
+        "e002b",
+        "e002c",
+        "e002d"
       ],
       "readingID": "r001"
     },
@@ -5809,13 +11807,21 @@
         "s005",
         "s006",
         "s007",
-        "s008"
+        "s008",
+        "s069",
+        "s070",
+        "s071",
+        "s072"
       ],
       "exerciseIDs": [
         "e003a",
         "e003b",
         "e004a",
-        "e004b"
+        "e004b",
+        "e003c",
+        "e003d",
+        "e004c",
+        "e004d"
       ],
       "readingID": null
     },
@@ -5841,11 +11847,15 @@
       ],
       "sentenceIDs": [
         "s009",
-        "s010"
+        "s010",
+        "s073",
+        "s074"
       ],
       "exerciseIDs": [
         "e005a",
-        "e005b"
+        "e005b",
+        "e005c",
+        "e005d"
       ],
       "readingID": "r002"
     },
@@ -5871,11 +11881,15 @@
       ],
       "sentenceIDs": [
         "s011",
-        "s012"
+        "s012",
+        "s075",
+        "s076"
       ],
       "exerciseIDs": [
         "e006a",
-        "e006b"
+        "e006b",
+        "e006c",
+        "e006d"
       ],
       "readingID": null
     },
@@ -5905,13 +11919,21 @@
         "s013",
         "s014",
         "s015",
-        "s016"
+        "s016",
+        "s077",
+        "s078",
+        "s079",
+        "s080"
       ],
       "exerciseIDs": [
         "e007a",
         "e007b",
         "e008a",
-        "e008b"
+        "e008b",
+        "e007c",
+        "e007d",
+        "e008c",
+        "e008d"
       ],
       "readingID": "r003"
     },
@@ -5941,13 +11963,21 @@
         "s017",
         "s018",
         "s019",
-        "s020"
+        "s020",
+        "s081",
+        "s082",
+        "s083",
+        "s084"
       ],
       "exerciseIDs": [
         "e009a",
         "e009b",
         "e010a",
-        "e010b"
+        "e010b",
+        "e009c",
+        "e009d",
+        "e010c",
+        "e010d"
       ],
       "readingID": null
     },
@@ -5977,13 +12007,21 @@
         "s021",
         "s022",
         "s023",
-        "s024"
+        "s024",
+        "s085",
+        "s086",
+        "s087",
+        "s088"
       ],
       "exerciseIDs": [
         "e011a",
         "e011b",
         "e012a",
-        "e012b"
+        "e012b",
+        "e011c",
+        "e011d",
+        "e012c",
+        "e012d"
       ],
       "readingID": "r004"
     },
@@ -6013,13 +12051,21 @@
         "s025",
         "s026",
         "s027",
-        "s028"
+        "s028",
+        "s089",
+        "s090",
+        "s091",
+        "s092"
       ],
       "exerciseIDs": [
         "e013a",
         "e013b",
         "e014a",
-        "e014b"
+        "e014b",
+        "e013c",
+        "e013d",
+        "e014c",
+        "e014d"
       ],
       "readingID": null
     },
@@ -6049,13 +12095,21 @@
         "s029",
         "s030",
         "s031",
-        "s032"
+        "s032",
+        "s093",
+        "s094",
+        "s095",
+        "s096"
       ],
       "exerciseIDs": [
         "e015a",
         "e015b",
         "e016a",
-        "e016b"
+        "e016b",
+        "e015c",
+        "e015d",
+        "e016c",
+        "e016d"
       ],
       "readingID": "r005"
     },
@@ -6085,13 +12139,21 @@
         "s033",
         "s034",
         "s035",
-        "s036"
+        "s036",
+        "s097",
+        "s098",
+        "s099",
+        "s100"
       ],
       "exerciseIDs": [
         "e017a",
         "e017b",
         "e018a",
-        "e018b"
+        "e018b",
+        "e017c",
+        "e017d",
+        "e018c",
+        "e018d"
       ],
       "readingID": null
     },
@@ -6120,15 +12182,117 @@
         "s037",
         "s038",
         "s039",
-        "s040"
+        "s040",
+        "s101",
+        "s102",
+        "s103",
+        "s104"
       ],
       "exerciseIDs": [
         "e019a",
         "e019b",
         "e020a",
-        "e020b"
+        "e020b",
+        "e019c",
+        "e019d",
+        "e020c",
+        "e020d"
       ],
       "readingID": "r006"
+    },
+    {
+      "id": "l013",
+      "title": "长文前的词汇准备",
+      "subtitle": "补充时间、数量与关系表达",
+      "level": "N4",
+      "itemIDs": [
+        "v0151",
+        "v0152",
+        "v0153",
+        "v0154",
+        "v0155",
+        "v0156",
+        "v0157",
+        "v0158",
+        "v0159",
+        "v0160",
+        "v0161",
+        "v0162",
+        "v0163",
+        "v0164",
+        "v0165",
+        "v0166",
+        "g007",
+        "g008"
+      ],
+      "sentenceIDs": [
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s077",
+        "s078",
+        "s079",
+        "s080"
+      ],
+      "exerciseIDs": [
+        "e007a",
+        "e007b",
+        "e008a",
+        "e008b",
+        "e007c",
+        "e007d",
+        "e008c",
+        "e008d"
+      ],
+      "readingID": "r022"
+    },
+    {
+      "id": "l014",
+      "title": "叙事与篇章整合",
+      "subtitle": "结合上下文恢复人物和前后关系",
+      "level": "N4",
+      "itemIDs": [
+        "v0167",
+        "v0168",
+        "v0169",
+        "v0170",
+        "v0171",
+        "v0172",
+        "v0173",
+        "v0174",
+        "v0175",
+        "v0176",
+        "v0177",
+        "v0178",
+        "v0179",
+        "v0180",
+        "v0181",
+        "v0182",
+        "g019",
+        "g020"
+      ],
+      "sentenceIDs": [
+        "s037",
+        "s038",
+        "s039",
+        "s040",
+        "s101",
+        "s102",
+        "s103",
+        "s104"
+      ],
+      "exerciseIDs": [
+        "e019a",
+        "e019b",
+        "e020a",
+        "e020b",
+        "e019c",
+        "e019d",
+        "e020c",
+        "e020d"
+      ],
+      "readingID": "r024"
     }
   ],
   "readings": [
@@ -6150,7 +12314,62 @@
         "在车站写信"
       ],
       "answerIndex": 1,
-      "explanation": "学校放假，说话者去图书馆，朋友也来，两人读书。"
+      "explanation": "学校放假，说话者去图书馆，朋友也来，两人读书。",
+      "vocabulary": [
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "休み",
+          "itemID": "v0080"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "図書館",
+          "itemID": "v0011"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        }
+      ],
+      "grammarIDs": [
+        "g001",
+        "g003",
+        "g004"
+      ]
     },
     {
       "id": "r002",
@@ -6170,7 +12389,78 @@
         "没有选书"
       ],
       "answerIndex": 1,
-      "explanation": "最后一句明确说明读的是旧书；价格与有趣程度是对它的描述。"
+      "explanation": "最后一句明确说明读的是旧书；价格与有趣程度是对它的描述。",
+      "vocabulary": [
+        {
+          "text": "机",
+          "itemID": "v0052"
+        },
+        {
+          "text": "上",
+          "itemID": "v0054"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "二冊",
+          "itemID": "v0161"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "高い",
+          "itemID": "v0041"
+        },
+        {
+          "text": "古い",
+          "itemID": "v0038"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "安い",
+          "itemID": "v0042"
+        },
+        {
+          "text": "面白い",
+          "itemID": "v0045"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "古い",
+          "itemID": "v0038"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        }
+      ],
+      "grammarIDs": [
+        "g002",
+        "g005",
+        "g006"
+      ]
     },
     {
       "id": "r003",
@@ -6190,7 +12480,77 @@
         "朋友刚买的书"
       ],
       "answerIndex": 1,
-      "explanation": "第一句的「先生に借りた」修饰「本」，最后一句说明将归还给老师。"
+      "explanation": "第一句的「先生に借りた」修饰「本」，最后一句说明将归还给老师。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "借りる",
+          "itemID": "v0062"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "短い",
+          "itemID": "v0044"
+        },
+        {
+          "text": "話",
+          "itemID": "v0071"
+        },
+        {
+          "text": "とても",
+          "itemID": "v0166"
+        },
+        {
+          "text": "面白い",
+          "itemID": "v0045"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "知る",
+          "itemID": "v0069"
+        },
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "返す",
+          "itemID": "v0063"
+        }
+      ],
+      "grammarIDs": [
+        "g007",
+        "g008"
+      ]
     },
     {
       "id": "r004",
@@ -6210,7 +12570,80 @@
         "老师向我借地图"
       ],
       "answerIndex": 1,
-      "explanation": "「てくれました」从说话者受益的角度描述朋友的动作。"
+      "explanation": "「てくれました」从说话者受益的角度描述朋友的动作。",
+      "vocabulary": [
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "地図",
+          "itemID": "v0098"
+        },
+        {
+          "text": "見せる",
+          "itemID": "v0091"
+        },
+        {
+          "text": "くれる",
+          "itemID": "v0090"
+        },
+        {
+          "text": "近い",
+          "itemID": "v0151"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "教える",
+          "itemID": "v0087"
+        },
+        {
+          "text": "くれる",
+          "itemID": "v0090"
+        },
+        {
+          "text": "教える",
+          "itemID": "v0087"
+        },
+        {
+          "text": "もらう",
+          "itemID": "v0088"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "覚える",
+          "itemID": "v0102"
+        }
+      ],
+      "grammarIDs": [
+        "g012"
+      ]
     },
     {
       "id": "r005",
@@ -6230,7 +12663,69 @@
         "没有人去"
       ],
       "answerIndex": 0,
-      "explanation": "「伺います」在这里是说话者描述自己前往拜访的谦让表达。"
+      "explanation": "「伺います」在这里是说话者描述自己前往拜访的谦让表达。",
+      "vocabulary": [
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "会社",
+          "itemID": "v0121"
+        },
+        {
+          "text": "伺う",
+          "itemID": "v0116"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "電話",
+          "itemID": "v0155"
+        },
+        {
+          "text": "予定",
+          "itemID": "v0111"
+        },
+        {
+          "text": "確認",
+          "itemID": "v0124"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "午前中",
+          "itemID": "v0156"
+        },
+        {
+          "text": "いらっしゃる",
+          "itemID": "v0113"
+        },
+        {
+          "text": "資料",
+          "itemID": "v0123"
+        },
+        {
+          "text": "持つ",
+          "itemID": "v0066"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        }
+      ],
+      "grammarIDs": [
+        "g015",
+        "g016"
+      ]
     },
     {
       "id": "r006",
@@ -6250,7 +12745,1738 @@
         "车站的位置"
       ],
       "answerIndex": 1,
-      "explanation": "第一遍认识词义，第二遍结合前文理解人物心情，体现了句段理解。"
+      "explanation": "第一遍认识词义，第二遍结合前文理解人物心情，体现了句段理解。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "短い",
+          "itemID": "v0044"
+        },
+        {
+          "text": "物語",
+          "itemID": "v0139"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "意味",
+          "itemID": "v0163"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "主人公",
+          "itemID": "v0140"
+        },
+        {
+          "text": "気持ち",
+          "itemID": "v0141"
+        },
+        {
+          "text": "よく",
+          "itemID": "v0182"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "もう",
+          "itemID": "v0145"
+        },
+        {
+          "text": "一度",
+          "itemID": "v0162"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "話",
+          "itemID": "v0071"
+        },
+        {
+          "text": "関係",
+          "itemID": "v0164"
+        },
+        {
+          "text": "考える",
+          "itemID": "v0165"
+        },
+        {
+          "text": "少しずつ",
+          "itemID": "v0167"
+        },
+        {
+          "text": "主人公",
+          "itemID": "v0140"
+        },
+        {
+          "text": "気持ち",
+          "itemID": "v0141"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        }
+      ],
+      "grammarIDs": [
+        "g007",
+        "g009",
+        "g019"
+      ]
+    },
+    {
+      "id": "r007",
+      "title": "今天与明天",
+      "genre": "简短对照",
+      "level": "N5",
+      "sentenceIDs": [
+        "s105",
+        "s106",
+        "s107"
+      ],
+      "question": "哪一天休息？",
+      "choices": [
+        "今天",
+        "明天",
+        "昨天"
+      ],
+      "answerIndex": 1,
+      "explanation": "最后一句说明明天休息，与今天上学形成对照。",
+      "vocabulary": [
+        {
+          "text": "今",
+          "itemID": "v0004"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "休み",
+          "itemID": "v0080"
+        }
+      ],
+      "grammarIDs": [
+        "g001"
+      ]
+    },
+    {
+      "id": "r008",
+      "title": "昨天的安排",
+      "genre": "简短对照",
+      "level": "N5",
+      "sentenceIDs": [
+        "s108",
+        "s109",
+        "s110"
+      ],
+      "question": "说话者现在在哪里？",
+      "choices": [
+        "学校",
+        "车站",
+        "家里"
+      ],
+      "answerIndex": 2,
+      "explanation": "「今は家です」说明现在在家；学校是昨天的安排。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "休み",
+          "itemID": "v0080"
+        },
+        {
+          "text": "今",
+          "itemID": "v0004"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        }
+      ],
+      "grammarIDs": [
+        "g001",
+        "g007"
+      ]
+    },
+    {
+      "id": "r009",
+      "title": "早晨的两个地方",
+      "genre": "行程叙述",
+      "level": "N5",
+      "sentenceIDs": [
+        "s111",
+        "s112",
+        "s113"
+      ],
+      "question": "白天在哪里？",
+      "choices": [
+        "学校",
+        "图书馆",
+        "家里"
+      ],
+      "answerIndex": 0,
+      "explanation": "中间一句的「昼は学校にいます」直接说明白天的地点。",
+      "vocabulary": [
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "昼",
+          "itemID": "v0006"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "夜",
+          "itemID": "v0007"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        }
+      ],
+      "grammarIDs": [
+        "g001",
+        "g006"
+      ]
+    },
+    {
+      "id": "r010",
+      "title": "谁的书",
+      "genre": "物品关系",
+      "level": "N5",
+      "sentenceIDs": [
+        "s114",
+        "s115",
+        "s116"
+      ],
+      "question": "哪本书在家里？",
+      "choices": [
+        "老师的书",
+        "朋友的书",
+        "所有的书"
+      ],
+      "answerIndex": 1,
+      "explanation": "第三句明确把在家里的书与朋友联系起来。",
+      "vocabulary": [
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        }
+      ],
+      "grammarIDs": [
+        "g002",
+        "g006"
+      ]
+    },
+    {
+      "id": "r011",
+      "title": "在车站等候",
+      "genre": "行程叙述",
+      "level": "N5",
+      "sentenceIDs": [
+        "s117",
+        "s118",
+        "s119"
+      ],
+      "question": "说话者在等谁？",
+      "choices": [
+        "老师",
+        "车站工作人员",
+        "朋友"
+      ],
+      "answerIndex": 2,
+      "explanation": "第一句的「友達を待ちます」表明等待对象是朋友。",
+      "vocabulary": [
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "待つ",
+          "itemID": "v0065"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "帰る",
+          "itemID": "v0032"
+        }
+      ],
+      "grammarIDs": [
+        "g003",
+        "g004"
+      ]
+    },
+    {
+      "id": "r012",
+      "title": "桌上的东西",
+      "genre": "位置说明",
+      "level": "N5",
+      "sentenceIDs": [
+        "s120",
+        "s121",
+        "s122"
+      ],
+      "question": "报纸在哪里？",
+      "choices": [
+        "椅子上",
+        "桌下",
+        "书里"
+      ],
+      "answerIndex": 0,
+      "explanation": "最后一句说明报纸的位置，前两句谈论的是书。",
+      "vocabulary": [
+        {
+          "text": "机",
+          "itemID": "v0052"
+        },
+        {
+          "text": "上",
+          "itemID": "v0054"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "机",
+          "itemID": "v0052"
+        },
+        {
+          "text": "下",
+          "itemID": "v0055"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "新聞",
+          "itemID": "v0036"
+        },
+        {
+          "text": "椅子",
+          "itemID": "v0053"
+        },
+        {
+          "text": "上",
+          "itemID": "v0054"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        }
+      ],
+      "grammarIDs": [
+        "g002",
+        "g006"
+      ]
+    },
+    {
+      "id": "r013",
+      "title": "选择小店",
+      "genre": "选择与理由",
+      "level": "N5",
+      "sentenceIDs": [
+        "s123",
+        "s124",
+        "s125"
+      ],
+      "question": "今天去哪家店买书？",
+      "choices": [
+        "车站前的大店",
+        "家旁边的小店",
+        "学校里的店"
+      ],
+      "answerIndex": 1,
+      "explanation": "最后一句指定了家旁边的店，不能只根据店的大小猜测。",
+      "vocabulary": [
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "大きい",
+          "itemID": "v0039"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "隣",
+          "itemID": "v0058"
+        },
+        {
+          "text": "小さい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "隣",
+          "itemID": "v0058"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "買う",
+          "itemID": "v0061"
+        }
+      ],
+      "grammarIDs": [
+        "g002",
+        "g005",
+        "g006"
+      ]
+    },
+    {
+      "id": "r014",
+      "title": "读报与写信",
+      "genre": "动作顺序",
+      "level": "N5",
+      "sentenceIDs": [
+        "s126",
+        "s127",
+        "s128"
+      ],
+      "question": "已经完成的事情包括什么？",
+      "choices": [
+        "晚上读书",
+        "去朋友家",
+        "读报和写信"
+      ],
+      "answerIndex": 2,
+      "explanation": "前两句用「ました」叙述已经完成的动作，最后一句是后面的安排。",
+      "vocabulary": [
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "新聞",
+          "itemID": "v0036"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "手紙",
+          "itemID": "v0073"
+        },
+        {
+          "text": "書く",
+          "itemID": "v0026"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "夜",
+          "itemID": "v0007"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        }
+      ],
+      "grammarIDs": [
+        "g003",
+        "g007"
+      ]
+    },
+    {
+      "id": "r015",
+      "title": "雨天在家",
+      "genre": "选择与理由",
+      "level": "N5",
+      "sentenceIDs": [
+        "s129",
+        "s130",
+        "s131"
+      ],
+      "question": "为什么待在家里？",
+      "choices": [
+        "因为下雨",
+        "因为忘了书",
+        "因为老师来访"
+      ],
+      "answerIndex": 0,
+      "explanation": "第二句用「なので」明确说明原因是下雨。",
+      "vocabulary": [
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "雨",
+          "itemID": "v0083"
+        },
+        {
+          "text": "雨",
+          "itemID": "v0083"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "いる",
+          "itemID": "v0050"
+        },
+        {
+          "text": "部屋",
+          "itemID": "v0051"
+        },
+        {
+          "text": "短い",
+          "itemID": "v0044"
+        },
+        {
+          "text": "物語",
+          "itemID": "v0139"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        }
+      ],
+      "grammarIDs": [
+        "g006",
+        "g010"
+      ]
+    },
+    {
+      "id": "r016",
+      "title": "归还与再借",
+      "genre": "动作顺序",
+      "level": "N5",
+      "sentenceIDs": [
+        "s132",
+        "s133",
+        "s134"
+      ],
+      "question": "后面要读的是哪本书？",
+      "choices": [
+        "已经归还的书",
+        "新借来的书",
+        "老师写的书"
+      ],
+      "answerIndex": 1,
+      "explanation": "「その本」承接刚借的新书，旧书已经归还。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "借りる",
+          "itemID": "v0062"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "返す",
+          "itemID": "v0063"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "借りる",
+          "itemID": "v0062"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "帰る",
+          "itemID": "v0032"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        }
+      ],
+      "grammarIDs": [
+        "g007",
+        "g008",
+        "g009",
+        "g019"
+      ]
+    },
+    {
+      "id": "r017",
+      "title": "朋友给的地图",
+      "genre": "人物关系",
+      "level": "N4",
+      "sentenceIDs": [
+        "s135",
+        "s136",
+        "s137"
+      ],
+      "question": "地图由谁给谁？",
+      "choices": [
+        "我给老师",
+        "老师给朋友",
+        "朋友给我"
+      ],
+      "answerIndex": 2,
+      "explanation": "「友達が私にくれました」明确指出给予者和接受者。",
+      "vocabulary": [
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "地図",
+          "itemID": "v0098"
+        },
+        {
+          "text": "くれる",
+          "itemID": "v0090"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "地図",
+          "itemID": "v0098"
+        },
+        {
+          "text": "見る",
+          "itemID": "v0029"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        }
+      ],
+      "grammarIDs": [
+        "g011",
+        "g019"
+      ]
+    },
+    {
+      "id": "r018",
+      "title": "借助说明",
+      "genre": "人物关系",
+      "level": "N4",
+      "sentenceIDs": [
+        "s138",
+        "s139",
+        "s140"
+      ],
+      "question": "谁提供了讲解？",
+      "choices": [
+        "老师",
+        "说话者",
+        "没有人"
+      ],
+      "answerIndex": 0,
+      "explanation": "「先生に説明してもらいました」以说话者得到帮助为视角。",
+      "vocabulary": [
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "意味",
+          "itemID": "v0163"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "説明",
+          "itemID": "v0094"
+        },
+        {
+          "text": "もらう",
+          "itemID": "v0088"
+        },
+        {
+          "text": "今",
+          "itemID": "v0004"
+        },
+        {
+          "text": "意味",
+          "itemID": "v0163"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        }
+      ],
+      "grammarIDs": [
+        "g012"
+      ]
+    },
+    {
+      "id": "r019",
+      "title": "工作之后",
+      "genre": "条件与安排",
+      "level": "N4",
+      "sentenceIDs": [
+        "s141",
+        "s142",
+        "s143"
+      ],
+      "question": "去店里的安排取决于什么？",
+      "choices": [
+        "是否下雨",
+        "是否有时间",
+        "有没有地图"
+      ],
+      "answerIndex": 1,
+      "explanation": "最后一句的条件是「時間があれば」，不是工作是否结束。",
+      "vocabulary": [
+        {
+          "text": "仕事",
+          "itemID": "v0078"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "会う",
+          "itemID": "v0064"
+        },
+        {
+          "text": "約束",
+          "itemID": "v0112"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "時間",
+          "itemID": "v0079"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        }
+      ],
+      "grammarIDs": [
+        "g014"
+      ]
+    },
+    {
+      "id": "r020",
+      "title": "老师的午后",
+      "genre": "敬语理解",
+      "level": "N4",
+      "sentenceIDs": [
+        "s144",
+        "s145",
+        "s146"
+      ],
+      "question": "明天去拜访老师家的是谁？",
+      "choices": [
+        "老师",
+        "朋友",
+        "说话者"
+      ],
+      "answerIndex": 2,
+      "explanation": "最后一句用谦让表达「伺います」，主体是「私」。",
+      "vocabulary": [
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "今",
+          "itemID": "v0004"
+        },
+        {
+          "text": "会社",
+          "itemID": "v0121"
+        },
+        {
+          "text": "いらっしゃる",
+          "itemID": "v0113"
+        },
+        {
+          "text": "午後",
+          "itemID": "v0157"
+        },
+        {
+          "text": "図書館",
+          "itemID": "v0011"
+        },
+        {
+          "text": "いらっしゃる",
+          "itemID": "v0113"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "伺う",
+          "itemID": "v0116"
+        }
+      ],
+      "grammarIDs": [
+        "g015",
+        "g016"
+      ]
+    },
+    {
+      "id": "r021",
+      "title": "预定与实际",
+      "genre": "预期与反差",
+      "level": "N4",
+      "sentenceIDs": [
+        "s147",
+        "s148",
+        "s149"
+      ],
+      "question": "哪件事已经实际发生？",
+      "choices": [
+        "说话者联系了朋友",
+        "朋友早晨到了",
+        "朋友保证不来"
+      ],
+      "answerIndex": 0,
+      "explanation": "「はずでした」是原先预期，最后一句才明确叙述了联系朋友这一实际动作。",
+      "vocabulary": [
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "しかし",
+          "itemID": "v0135"
+        },
+        {
+          "text": "昼",
+          "itemID": "v0006"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "連絡",
+          "itemID": "v0122"
+        }
+      ],
+      "grammarIDs": [
+        "g017",
+        "g020"
+      ]
+    },
+    {
+      "id": "r022",
+      "title": "店里的两种选择",
+      "genre": "长文整合",
+      "level": "N4",
+      "sentenceIDs": [
+        "s150",
+        "s151",
+        "s152",
+        "s153",
+        "s154",
+        "s155",
+        "s156",
+        "s157"
+      ],
+      "question": "说话者选择旧书的依据最完整的是哪项？",
+      "choices": [
+        "新书太贵且朋友说旧书有趣",
+        "老师要求买旧书",
+        "店里没有新书"
+      ],
+      "answerIndex": 0,
+      "explanation": "价格使说话者转向旧书，朋友的评价又提供了内容方面的理由。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        },
+        {
+          "text": "店",
+          "itemID": "v0081"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "古い",
+          "itemID": "v0038"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "高い",
+          "itemID": "v0041"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "古い",
+          "itemID": "v0038"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "見る",
+          "itemID": "v0029"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "もう",
+          "itemID": "v0145"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "言う",
+          "itemID": "v0168"
+        },
+        {
+          "text": "話",
+          "itemID": "v0071"
+        },
+        {
+          "text": "短い",
+          "itemID": "v0044"
+        },
+        {
+          "text": "面白い",
+          "itemID": "v0045"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "古い",
+          "itemID": "v0038"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "買う",
+          "itemID": "v0061"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "帰る",
+          "itemID": "v0032"
+        },
+        {
+          "text": "夜",
+          "itemID": "v0007"
+        },
+        {
+          "text": "部屋",
+          "itemID": "v0051"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "始める",
+          "itemID": "v0169"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "意味",
+          "itemID": "v0163"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "物語",
+          "itemID": "v0139"
+        },
+        {
+          "text": "話",
+          "itemID": "v0071"
+        },
+        {
+          "text": "思う",
+          "itemID": "v0070"
+        }
+      ],
+      "grammarIDs": [
+        "g008",
+        "g009",
+        "g010",
+        "g019"
+      ]
+    },
+    {
+      "id": "r023",
+      "title": "约好的那条路",
+      "genre": "长文整合",
+      "level": "N4",
+      "sentenceIDs": [
+        "s158",
+        "s159",
+        "s160",
+        "s161",
+        "s162",
+        "s163",
+        "s164",
+        "s165"
+      ],
+      "question": "说话者最后怎样解决路线问题？",
+      "choices": [
+        "独自沿地图走",
+        "在车站等朋友一起去",
+        "取消学习约定"
+      ],
+      "answerIndex": 1,
+      "explanation": "路线不熟加上下雨，使说话者改为等朋友同行，约定并未取消。",
+      "vocabulary": [
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "図書館",
+          "itemID": "v0011"
+        },
+        {
+          "text": "勉強",
+          "itemID": "v0077"
+        },
+        {
+          "text": "約束",
+          "itemID": "v0112"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "図書館",
+          "itemID": "v0011"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "地図",
+          "itemID": "v0098"
+        },
+        {
+          "text": "見せる",
+          "itemID": "v0091"
+        },
+        {
+          "text": "くれる",
+          "itemID": "v0090"
+        },
+        {
+          "text": "しかし",
+          "itemID": "v0135"
+        },
+        {
+          "text": "今朝",
+          "itemID": "v0170"
+        },
+        {
+          "text": "雨",
+          "itemID": "v0083"
+        },
+        {
+          "text": "降る",
+          "itemID": "v0171"
+        },
+        {
+          "text": "地図",
+          "itemID": "v0098"
+        },
+        {
+          "text": "見る",
+          "itemID": "v0029"
+        },
+        {
+          "text": "歩く",
+          "itemID": "v0172"
+        },
+        {
+          "text": "難しい",
+          "itemID": "v0046"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "待つ",
+          "itemID": "v0065"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "仕事",
+          "itemID": "v0078"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "連絡",
+          "itemID": "v0122"
+        },
+        {
+          "text": "ある",
+          "itemID": "v0049"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "駅",
+          "itemID": "v0012"
+        },
+        {
+          "text": "中",
+          "itemID": "v0059"
+        },
+        {
+          "text": "短い",
+          "itemID": "v0044"
+        },
+        {
+          "text": "本",
+          "itemID": "v0035"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "待つ",
+          "itemID": "v0065"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "図書館",
+          "itemID": "v0011"
+        },
+        {
+          "text": "行く",
+          "itemID": "v0030"
+        },
+        {
+          "text": "もう",
+          "itemID": "v0145"
+        },
+        {
+          "text": "道",
+          "itemID": "v0082"
+        },
+        {
+          "text": "心配",
+          "itemID": "v0173"
+        },
+        {
+          "text": "いい",
+          "itemID": "v0174"
+        }
+      ],
+      "grammarIDs": [
+        "g012",
+        "g013",
+        "g014",
+        "g020"
+      ]
+    },
+    {
+      "id": "r024",
+      "title": "重读后的不同理解",
+      "genre": "长文整合",
+      "level": "N4",
+      "sentenceIDs": [
+        "s166",
+        "s167",
+        "s168",
+        "s169",
+        "s170",
+        "s171",
+        "s172",
+        "s173"
+      ],
+      "question": "第二次阅读帮助说话者发现了什么？",
+      "choices": [
+        "故事没有朋友这个人物",
+        "主人公已经忘了朋友",
+        "说话人物与前后文关系影响理解"
+      ],
+      "answerIndex": 2,
+      "explanation": "回看前文恢复了话语归属，也修正了对人物心情的理解。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "借りる",
+          "itemID": "v0062"
+        },
+        {
+          "text": "物語",
+          "itemID": "v0139"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "知る",
+          "itemID": "v0069"
+        },
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "多い",
+          "itemID": "v0175"
+        },
+        {
+          "text": "すぐ",
+          "itemID": "v0176"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "思う",
+          "itemID": "v0070"
+        },
+        {
+          "text": "しかし",
+          "itemID": "v0135"
+        },
+        {
+          "text": "最後",
+          "itemID": "v0177"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "主人公",
+          "itemID": "v0140"
+        },
+        {
+          "text": "気持ち",
+          "itemID": "v0141"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "同じ",
+          "itemID": "v0131"
+        },
+        {
+          "text": "物語",
+          "itemID": "v0139"
+        },
+        {
+          "text": "もう",
+          "itemID": "v0145"
+        },
+        {
+          "text": "一度",
+          "itemID": "v0162"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "ゆっくり",
+          "itemID": "v0178"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "話",
+          "itemID": "v0071"
+        },
+        {
+          "text": "確認",
+          "itemID": "v0124"
+        },
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "主人公",
+          "itemID": "v0140"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "忘れる",
+          "itemID": "v0103"
+        },
+        {
+          "text": "ずっと",
+          "itemID": "v0146"
+        },
+        {
+          "text": "覚える",
+          "itemID": "v0102"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "読む",
+          "itemID": "v0025"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "自分",
+          "itemID": "v0179"
+        },
+        {
+          "text": "考え",
+          "itemID": "v0180"
+        },
+        {
+          "text": "話す",
+          "itemID": "v0028"
+        },
+        {
+          "text": "言葉",
+          "itemID": "v0072"
+        },
+        {
+          "text": "意味",
+          "itemID": "v0163"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "後",
+          "itemID": "v0181"
+        },
+        {
+          "text": "関係",
+          "itemID": "v0164"
+        },
+        {
+          "text": "考える",
+          "itemID": "v0165"
+        },
+        {
+          "text": "大切",
+          "itemID": "v0130"
+        },
+        {
+          "text": "思う",
+          "itemID": "v0070"
+        }
+      ],
+      "grammarIDs": [
+        "g008",
+        "g017",
+        "g018",
+        "g019",
+        "g020"
+      ]
     }
   ]
 }

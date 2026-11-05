@@ -76,6 +76,15 @@ public struct ReadingPassage: Codable, Identifiable {
     public let choices: [String]
     public let answerIndex: Int
     public let explanation: String
+    public let vocabulary: [ReadingWord]?
+    public let grammarIDs: [String]?
+}
+
+/// Author-checked content-word occurrences, including words outside the bundled dictionary.
+/// Particles and inflection endings are assessed separately through grammar prerequisites.
+public struct ReadingWord: Codable, Hashable {
+    public let text: String
+    public let itemID: String?
 }
 
 public struct CurriculumStage: Codable, Identifiable {
@@ -143,7 +152,12 @@ public struct ContentPack: Codable {
             throw LearningError.invalid("练习引用或答案无效。")
         }
         guard readings.allSatisfy({ !$0.sentenceIDs.isEmpty && Set($0.sentenceIDs).isSubset(of: sentenceIDs) &&
-            $0.choices.indices.contains($0.answerIndex) }) else { throw LearningError.invalid("短文引用或答案无效。") }
+            $0.choices.indices.contains($0.answerIndex) &&
+            ($0.vocabulary?.allSatisfy { word in
+                !word.text.isEmpty && (word.itemID == nil || item(word.itemID!)?.kind == "word")
+            } ?? true) &&
+            ($0.grammarIDs?.allSatisfy { item($0)?.kind == "grammar" } ?? true)
+        }) else { throw LearningError.invalid("短文引用或答案无效。") }
         guard lessons.allSatisfy({ !($0.itemIDs.isEmpty || $0.sentenceIDs.isEmpty || $0.exerciseIDs.isEmpty) &&
             Set($0.itemIDs).isSubset(of: itemIDs) && Set($0.sentenceIDs).isSubset(of: sentenceIDs) &&
             Set($0.exerciseIDs).isSubset(of: exerciseIDs) && ($0.readingID == nil || readingIDs.contains($0.readingID!))

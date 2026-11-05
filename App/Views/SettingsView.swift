@@ -17,6 +17,7 @@ struct SettingsView: View {
     @EnvironmentObject private var model: AppModel
     @Environment(\.dismiss) private var dismiss
     @AppStorage("dailyMinutes") private var minutes = 20
+    @AppStorage("dailyNewWords") private var dailyNewWords = 10
     @AppStorage("showRomaji") private var showRomaji = false
     @AppStorage("showFurigana") private var showFurigana = true
     @AppStorage("voiceID") private var voiceID = ""
@@ -29,7 +30,10 @@ struct SettingsView: View {
         Form {
             Section(header: Text("学习节奏")) {
                 Stepper("每天约 \(minutes) 分钟", value: $minutes, in: 5...60, step: 5)
+                Stepper("每天最多 \(dailyNewWords) 个新词", value: $dailyNewWords, in: 5...20, step: 5)
                 Text("按实际学习时间完成目标。学习页在前台时计时，暂停、锁屏或离开时停止；同一天的多轮学习会累计。")
+                    .font(.caption).foregroundColor(.secondary)
+                Text("到期复习优先，每天最多引入 2 个新表达。没有合适内容时结束安排，不用重复阅读凑满时间。")
                     .font(.caption).foregroundColor(.secondary)
             }
             Section(header: Text("日语显示")) {
@@ -73,7 +77,7 @@ struct SettingsView: View {
             }
             Section(header: Text("关于")) {
                 Text("日语拾阶 · \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
-                Text("课程 \(model.pack.version) · \(model.pack.items.filter { $0.kind == "word" }.count) 个词 · \(model.pack.lessons.count) 个样章")
+                Text("课程 \(model.pack.version) · \(model.pack.items.filter { $0.kind == "word" }.count) 个词 · \(model.pack.lessons.count) 个单元")
                     .font(.callout).foregroundColor(.secondary)
                 Text(model.pack.notice).font(.caption).foregroundColor(.secondary)
                 NavigationLink("学习方法与参考资料", destination: AboutView())
@@ -137,6 +141,7 @@ private struct AboutView: View {
             Section(header: Text("研究与工具")) {
                 Link("2026 · 间隔练习与词汇知识", destination: URL(string: "https://pressto.amu.edu.pl/index.php/ssllt/article/view/49487")!)
                 Link("2025 · 泛读研究元分析", destination: URL(string: "https://link.springer.com/article/10.1007/s10648-025-10068-6")!)
+                Link("2025 · 词汇覆盖与阅读理解", destination: URL(string: "https://discovery.ucl.ac.uk/id/eprint/10216385/")!)
                 Link("FSRS · 开源复习调度", destination: URL(string: "https://github.com/open-spaced-repetition/swift-fsrs")!)
                 NavigationLink("开源许可", destination: LicenseView())
             }

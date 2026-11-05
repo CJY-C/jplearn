@@ -33,7 +33,23 @@ import LearningCore
         try FileManager.default.createDirectory(at: dataDirectory, withIntermediateDirectories: true)
         let eventStore = try EventStore(directory: dataDirectory)
         store = eventStore
-        let loadedEvents = try eventStore.load()
+        var loadedEvents = try eventStore.load()
+        #if DEBUG
+        if ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_KNOWN_VOCABULARY"] == "1",
+           ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil, loadedEvents.isEmpty {
+            let fixtureDeviceID = deviceID
+            let exhausted = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_EXHAUSTED"] == "1"
+            let longReading = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_LONG_READING"] == "1"
+            var seed = pack.items.flatMap { item -> [LearningEvent] in
+                let skills: [Skill] = item.kind == "word" || exhausted || longReading ? item.skills : (item.id == "g001" ? [.grammar] : [])
+                return skills.map { LearningEvent(deviceID: fixtureDeviceID, kind: .review, targetID: item.id, skill: $0, rating: 3) }
+            }
+            if exhausted {
+                seed += pack.readings.map { LearningEvent(deviceID: fixtureDeviceID, kind: .readingAttempt, targetID: $0.id, value: "correct") }
+            }
+            loadedEvents = try eventStore.append(seed, existing: [])
+        }
+        #endif
         events = loadedEvents
         try ReviewScheduler().validateHistory(loadedEvents)
         let sessionURL = dataDirectory.appendingPathComponent("session.json")
@@ -44,11 +60,20 @@ import LearningCore
                 var restored = try ExchangeCoding.decoder().decode(SessionCheckpoint.self, from: Data(contentsOf: sessionURL))
                 try restored.validate()
                 restored.recover(recordedIDs: Set(loadedEvents.map(\.id)))
+                restored.removeUnavailableReadings(pack: pack, events: loadedEvents)
                 checkpoint = restored
             } catch {
                 checkpointIssue = "上次学习安排无法恢复。已完成的学习记录仍保留，可以重新开始。"
             }
         }
+        #if DEBUG
+        if ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_LONG_READING"] == "1",
+           ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil, checkpoint == nil {
+            let fixture = SessionCheckpoint(tasks: [.reading("r024")])
+            try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
+            checkpoint = fixture
+        }
+        #endif
         folderName = defaults.string(forKey: "folderName") ?? ""
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
@@ -73,15 +98,26 @@ import LearningCore
 
     func startToday(minutes: Int) throws {
         if checkpoint != nil { try resumeSession(); return }
+        let tasks = try plannedTasks(minutes: minutes)
+        guard !tasks.isEmpty else { return }
+        try saveCheckpoint(SessionCheckpoint(tasks: tasks))
+    }
+
+    func plannedTasks(minutes: Int, newWordLimit: Int? = nil) throws -> [SessionTask] {
         let remaining = StudyTime.remainingSeconds(targetMinutes: minutes, studiedSeconds: StudyTime.today(events: events))
         let plannedMinutes = remaining > 0 ? max(1, Int(ceil(remaining / 60))) : minutes
-        let tasks = try SessionPlanner.make(pack: pack, events: events, minutes: plannedMinutes)
-        try saveCheckpoint(SessionCheckpoint(tasks: tasks))
+        let limit = newWordLimit ?? (UserDefaults.standard.object(forKey: "dailyNewWords") as? Int ?? 10)
+        return try SessionPlanner.make(pack: pack, events: events, minutes: plannedMinutes, newWordLimit: limit)
+    }
+
+    func canStartToday(minutes: Int, newWordLimit: Int? = nil) -> Bool {
+        checkpoint != nil || ((try? plannedTasks(minutes: minutes, newWordLimit: newWordLimit).isEmpty) == false)
     }
 
     func resumeSession() throws {
         guard var current = checkpoint else { return }
         current.recover(recordedIDs: Set(events.map(\.id)))
+        current.removeUnavailableReadings(pack: pack, events: events)
         try saveCheckpoint(current)
     }
 
@@ -101,7 +137,8 @@ import LearningCore
             return !introduced.contains(key) || due.contains(key)
         }
         tasks += lesson.exerciseIDs.map { .exercise($0) }
-        if let readingID = lesson.readingID { tasks.append(.reading(readingID)) }
+        if let readingID = lesson.readingID, let reading = pack.readings.first(where: { $0.id == readingID }),
+           SessionPlanner.readingAvailable(reading, pack: pack, events: events) { tasks.append(.reading(readingID)) }
         try saveCheckpoint(SessionCheckpoint(tasks: tasks, lessonID: lesson.id))
     }
 
@@ -139,6 +176,7 @@ import LearningCore
         try recordAnswer(entryID: entryID, rating: rating, assisted: assisted)
         guard var next = checkpoint else { return }
         next.index += 1
+        next.removeUnavailableReadings(pack: pack, events: events)
         try saveCheckpoint(next)
         if next.current == nil { try studyClock.setVisible(false) }
         if next.index % 5 == 0 { Task { await sync() } }

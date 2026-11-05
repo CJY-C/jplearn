@@ -1,4 +1,5 @@
 import importlib.util
+from collections import Counter
 import json
 import re
 import unittest
@@ -15,10 +16,10 @@ class ContentTests(unittest.TestCase):
                       for key in ["items", "sentences", "exercises", "lessons", "readings", "references"]}
 
     def test_sample_delivery_counts(self):
-        self.assertEqual(len(self.groups["lessons"]), 12)
-        self.assertEqual(len(self.groups["readings"]), 6)
-        self.assertEqual(len(self.groups["exercises"]), 40)
-        self.assertEqual(sum(i["kind"] == "word" for i in self.groups["items"].values()), 150)
+        self.assertEqual(len(self.groups["lessons"]), 14)
+        self.assertEqual(len(self.groups["readings"]), 24)
+        self.assertEqual(len(self.groups["exercises"]), 80)
+        self.assertEqual(sum(i["kind"] == "word" for i in self.groups["items"].values()), 182)
         self.assertEqual(sum(i["kind"] == "grammar" for i in self.groups["items"].values()), 20)
 
     def test_identifiers_are_unique_and_stable(self):
@@ -28,8 +29,9 @@ class ContentTests(unittest.TestCase):
         words = [item for item in self.pack["items"] if item["kind"] == "word"]
         self.assertEqual(words[0]["id"], "v0001")
         self.assertEqual(words[0]["text"], "今日")
-        self.assertEqual(words[-1]["id"], "v0150")
-        self.assertEqual(words[-1]["text"], "結局")
+        self.assertEqual(words[149]["id"], "v0150")
+        self.assertEqual(words[149]["text"], "結局")
+        self.assertEqual(words[-1]["id"], "v0182")
 
     def test_every_word_has_reading_gloss_and_romanization(self):
         for item in self.groups["items"].values():
@@ -70,6 +72,11 @@ class ContentTests(unittest.TestCase):
         sentence = self.groups["sentences"][exercise["sentenceID"]]
         stem = next(segment for segment in sentence["segments"] if segment["text"] == "読")
         self.assertEqual(self.groups["items"][stem["itemID"]]["text"], "読む")
+        expected = {"新": "新しい", "大": "大きい", "考": "考える"}
+        for sentence in self.groups["sentences"].values():
+            for segment in sentence["segments"]:
+                if segment["text"] in expected:
+                    self.assertEqual(self.groups["items"][segment["itemID"]]["text"], expected[segment["text"]])
 
     def test_each_grammar_has_a_different_transfer_sentence(self):
         for item in self.groups["items"].values():
@@ -77,7 +84,7 @@ class ContentTests(unittest.TestCase):
                 continue
             related = [e for e in self.groups["exercises"].values() if e["targetID"] == item["id"]]
             self.assertEqual({e["transfer"] for e in related}, {False, True})
-            self.assertEqual(len({e["sentenceID"] for e in related}), 2)
+            self.assertEqual(len({e["sentenceID"] for e in related}), 4)
 
     def test_lesson_references_and_complete_item_coverage(self):
         covered = set()
@@ -101,7 +108,25 @@ class ContentTests(unittest.TestCase):
         self.assertEqual(sum(stage["vocabularyTarget"] for stage in self.pack["stages"]), 6000)
         self.assertEqual(sum(stage["grammarTarget"] for stage in self.pack["stages"]), 400)
         self.assertEqual(sum(stage["readingTarget"] for stage in self.pack["stages"]), 120)
-        self.assertIn("样章", self.pack["notice"])
+        self.assertIn("分批补充", self.pack["notice"])
+
+    def test_reading_coverage_has_explicit_occurrences_and_prerequisites(self):
+        for reading in self.groups["readings"].values():
+            words = reading["vocabulary"]
+            self.assertTrue(words, reading["id"])
+            self.assertTrue(reading["grammarIDs"], reading["id"])
+            for word in words:
+                self.assertTrue(word["text"])
+                self.assertIsNotNone(word["itemID"], (reading["id"], word))
+                self.assertEqual(self.groups["items"][word["itemID"]]["text"], word["text"])
+            for identifier in reading["grammarIDs"]:
+                self.assertEqual(self.groups["items"][identifier]["kind"], "grammar")
+            linked = Counter(segment["itemID"] for sid in reading["sentenceIDs"]
+                             for segment in self.groups["sentences"][sid]["segments"] if segment["itemID"])
+            listed = Counter(word["itemID"] for word in words)
+            self.assertFalse(linked - listed, (reading["id"], linked - listed))
+        first = self.groups["readings"]["r001"]["vocabulary"]
+        self.assertEqual(sum(word["text"] == "私" for word in first), 2)
 
     def test_generated_resource_matches_authoring_source(self):
         spec = importlib.util.spec_from_file_location("authoring", ROOT / "scripts/build_content.py")

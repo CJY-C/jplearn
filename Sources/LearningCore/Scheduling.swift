@@ -64,7 +64,8 @@ public enum SessionTask: Identifiable, Codable {
 
 public enum SessionPlanner {
     public static func make(pack: ContentPack, events: [LearningEvent], minutes: Int,
-                            now: Date = Date(), calendar: Calendar = .current) throws -> [SessionTask] {
+                            now: Date = Date(), calendar: Calendar = .current,
+                            newWordLimit: Int = 10, newGrammarLimit: Int = 2) throws -> [SessionTask] {
         let capacity = max(1, min(minutes, 60) * 2)
         let scheduler = ReviewScheduler()
         let due = try scheduler.due(events: events, pack: pack, now: now)
@@ -83,8 +84,8 @@ public enum SessionPlanner {
             guard let first = reviews.min(by: LearningEvent.ordered), calendar.isDate(first.timestamp, inSameDayAs: now) else { return nil }
             return id
         })
-        let wordSlots = max(0, 5 - newToday.filter { pack.item($0)?.kind == "word" }.count)
-        let grammarSlots = max(0, 1 - newToday.filter { pack.item($0)?.kind == "grammar" }.count)
+        let wordSlots = max(0, min(20, max(0, newWordLimit)) - newToday.filter { pack.item($0)?.kind == "word" }.count)
+        let grammarSlots = max(0, min(3, max(0, newGrammarLimit)) - newToday.filter { pack.item($0)?.kind == "grammar" }.count)
         if due.count < capacity / 2 {
             let unfinishedWords = pack.items.filter { item in
                 item.kind == "word" && item.skills.contains { cards[ReviewKey(itemID: item.id, skill: $0)] != nil }
@@ -93,28 +94,52 @@ public enum SessionPlanner {
             let newWords = pack.items.filter { item in
                 item.kind == "word" && item.skills.allSatisfy { cards[ReviewKey(itemID: item.id, skill: $0)] == nil }
             }.prefix(wordSlots)
-            for item in unfinishedWords + Array(newWords) {
-                for skill in item.skills where cards[ReviewKey(itemID: item.id, skill: skill)] == nil {
+            // Separate the two skills with other words instead of showing the same word twice in succession.
+            for skill in [Skill.reading, .meaning] {
+                for item in unfinishedWords + Array(newWords) where cards[ReviewKey(itemID: item.id, skill: skill)] == nil {
                     tasks.append(.recall(ReviewKey(itemID: item.id, skill: skill)))
                 }
             }
-            if grammarSlots > 0,
-               let exercise = pack.exercises.first(where: { cards[ReviewKey(itemID: $0.targetID, skill: .grammar)] == nil }) {
+            let newGrammar = pack.items.filter {
+                $0.kind == "grammar" && cards[ReviewKey(itemID: $0.id, skill: .grammar)] == nil
+            }.prefix(grammarSlots)
+            for item in newGrammar {
                 // An unseen example follows the first exercise for the same structure.
-                tasks.append(.exercise(exercise.id))
-                if let transfer = pack.exercises.first(where: { $0.targetID == exercise.targetID && $0.transfer }) {
+                if let exercise = pack.exercises.first(where: { $0.targetID == item.id && !$0.transfer }) {
+                    tasks.append(.exercise(exercise.id))
+                }
+                if let transfer = pack.exercises.first(where: { $0.targetID == item.id && $0.transfer }) {
                     tasks.append(.exercise(transfer.id))
                 }
             }
         }
-        // Revisit passages in order, without making reading contingent on completing all cards.
-        if let passage = pack.readings.first(where: { reading in
-            !events.contains { $0.kind == .readingAttempt && $0.targetID == reading.id }
-        }) ?? pack.readings.first {
+        // Never fall back to the first passage to fill a time goal.
+        // Suitable unseen readings come first; spaced rereading is allowed on a later day.
+        let candidates = pack.readings.filter {
+            readingAvailable($0, pack: pack, events: events, now: now, calendar: calendar)
+        }.sorted { a, b in
+            let aLast = events.filter { $0.kind == .readingAttempt && $0.targetID == a.id }.map(\.timestamp).max()
+            let bLast = events.filter { $0.kind == .readingAttempt && $0.targetID == b.id }.map(\.timestamp).max()
+            if aLast != bLast { return (aLast ?? .distantPast) < (bLast ?? .distantPast) }
+            let aLength = a.vocabulary?.count ?? Int.max, bLength = b.vocabulary?.count ?? Int.max
+            return aLength == bLength ? a.id < b.id : aLength < bLength
+        }
+        if let passage = candidates.first {
             tasks = Array(tasks.prefix(max(0, capacity - 1)))
             tasks.append(.reading(passage.id))
         }
-        return Array(tasks.prefix(capacity))
+        var seen = Set<String>()
+        return Array(tasks.filter { seen.insert($0.id).inserted }.prefix(capacity))
+    }
+
+    public static func readingAvailable(_ reading: ReadingPassage, pack: ContentPack,
+                                        events: [LearningEvent], now: Date = Date(),
+                                        calendar: Calendar = .current) -> Bool {
+        guard ReadingReadiness.assess(reading, pack: pack, events: events).isEligible else { return false }
+        return !events.contains {
+            $0.kind == .readingAttempt && $0.targetID == reading.id &&
+            (calendar.isDate($0.timestamp, inSameDayAs: now) || now.timeIntervalSince($0.timestamp) < 86_400)
+        }
     }
 }
 
@@ -127,7 +152,7 @@ public struct SessionEntry: Codable, Identifiable {
 public struct SessionCheckpoint: Codable {
     public let schemaVersion: Int
     public let id: UUID
-    public let entries: [SessionEntry]
+    public private(set) var entries: [SessionEntry]
     public var index: Int
     public var assistedEntryIDs: Set<UUID>
     public let lessonID: String?
@@ -146,5 +171,13 @@ public struct SessionCheckpoint: Codable {
     }
     public mutating func recover(recordedIDs: Set<UUID>) {
         while let entry = current, recordedIDs.contains(entry.id) { index += 1 }
+    }
+    public mutating func removeUnavailableReadings(pack: ContentPack, events: [LearningEvent], now: Date = Date()) {
+        entries = Array(entries.prefix(index)) + entries.dropFirst(index).filter { entry in
+            guard case .reading(let id) = entry.task else { return true }
+            guard let reading = pack.readings.first(where: { $0.id == id }) else { return false }
+            return SessionPlanner.readingAvailable(reading, pack: pack, events: events, now: now)
+        }
+        assistedEntryIDs.formIntersection(Set(entries.map(\.id)))
     }
 }
