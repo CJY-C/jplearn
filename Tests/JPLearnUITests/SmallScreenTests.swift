@@ -13,7 +13,9 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
     @MainActor private func visible(_ element: XCUIElement, file: StaticString = #filePath, line: UInt = #line) {
-        XCTAssertTrue(element.waitForExistence(timeout: 5), file: file, line: line)
+        let exists = element.waitForExistence(timeout: 5)
+        if !exists { print(app.debugDescription); screenshot("SE3-MissingControl") }
+        XCTAssertTrue(exists, file: file, line: line)
         XCTAssertTrue(element.isHittable, file: file, line: line)
         XCTAssertTrue(app.frame.insetBy(dx: -1, dy: -1).contains(element.frame), "Control is outside the SE3 screen", file: file, line: line)
     }

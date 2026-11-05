@@ -363,7 +363,7 @@ private struct ReadingCard: View {
                         }
                     }
                 }.padding(.horizontal, 18).padding(.vertical, 12)
-            }.background(Color(UIColor.systemBackground)).accessibilityIdentifier("study.actions")
+            }.background(Color(UIColor.systemBackground))
         }
         .sheet(item: $selected) { item in NavigationView { ItemDetailView(item: item) }.navigationViewStyle(.stack) }
     }

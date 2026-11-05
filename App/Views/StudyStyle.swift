@@ -64,7 +64,6 @@ struct StudyCardLayout<Content: View, Actions: View>: View {
                 Divider().opacity(0.55)
                 actions().padding(.horizontal, 18).padding(.top, 12).padding(.bottom, 12)
             }.background(Color(UIColor.systemBackground))
-                .accessibilityIdentifier("study.actions")
         }
     }
 }
