@@ -1,0 +1,79 @@
+name: Validate and build iOS IPA
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  content:
+    name: Validate authored course
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate sample content
+        run: |
+          python3 scripts/build_content.py --check
+          python3 -m unittest discover -s Tests/ContentTests -v
+
+  ios:
+    name: Test and package iOS 15.5+
+    needs: content
+    runs-on: macos-15
+    timeout-minutes: 35
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.4.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@v4
+      - name: Confirm toolchain
+        run: xcodebuild -version
+      - name: Install pinned XcodeGen
+        env:
+          XCODEGEN_URL: https://github.com/yonaskolb/XcodeGen/releases/download/2.46.0/xcodegen.zip
+          XCODEGEN_SHA256: 4d9e34b62172d645eed6457cac13fc222569974098ef4ee9c3368bedf0196806
+        run: |
+          curl --fail --location --retry 3 "$XCODEGEN_URL" --output "$RUNNER_TEMP/xcodegen.zip"
+          printf '%s  %s\n' "$XCODEGEN_SHA256" "$RUNNER_TEMP/xcodegen.zip" | shasum -a 256 --check
+          ditto -x -k "$RUNNER_TEMP/xcodegen.zip" "$RUNNER_TEMP/xcodegen"
+          generator=$(find "$RUNNER_TEMP/xcodegen" -type f -name xcodegen | head -n 1)
+          test -n "$generator"
+          "$generator" generate --spec project.yml
+      - name: Test learning core
+        run: swift test --parallel
+      - name: Select available iOS 18.5 simulator
+        run: |
+          simulator_id=$(xcrun simctl list devices available --json | python3 -c 'import json,sys; d=json.load(sys.stdin); devices=[x for runtime,entries in d["devices"].items() if "iOS-18-5" in runtime for x in entries if x["name"].startswith("iPhone") and x["isAvailable"]]; assert devices, "iOS 18.5 simulator missing from runner"; print(devices[0]["udid"])')
+          printf 'SIMULATOR_ID=%s\n' "$simulator_id" >> "$GITHUB_ENV"
+      - name: Test persistence and folder exchange on iOS
+        run: |
+          xcodebuild test -project JPLearn.xcodeproj -scheme JPLearn -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -resultBundlePath build/TestResults.xcresult CODE_SIGNING_ALLOWED=NO
+      - name: Build device archive
+        run: |
+          xcodebuild archive -project JPLearn.xcodeproj -scheme JPLearn -configuration Release -destination 'generic/platform=iOS' -archivePath build/JPLearn.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=
+      - name: Package TrollStore IPA
+        run: |
+          python3 scripts/check_archive.py build/JPLearn.xcarchive/Products/Applications/JPLearn.app
+          mkdir -p build/ipa/Payload
+          cp -R build/JPLearn.xcarchive/Products/Applications/JPLearn.app build/ipa/Payload/
+          cd build/ipa
+          ditto -c -k --keepParent Payload ../JPLearn.ipa
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: JPLearn-${{ github.sha }}
+          path: build/JPLearn.ipa
+          if-no-files-found: error
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iOS-test-results
+          path: build/TestResults.xcresult
+          if-no-files-found: ignore

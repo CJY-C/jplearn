@@ -1,0 +1,64 @@
+name: JPLearn
+options:
+  bundleIdPrefix: dev.jplearn
+  deploymentTarget:
+    iOS: "15.5"
+  xcodeVersion: "16.4"
+packages:
+  LearningCore:
+    path: .
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "15.5"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: 1
+    CODE_SIGNING_ALLOWED: NO
+targets:
+  JPLearn:
+    type: application
+    platform: iOS
+    sources:
+      - App
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: 日语拾阶
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        LSSupportsOpeningDocumentsInPlace: true
+        UIFileSharingEnabled: true
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: dev.jplearn.backup
+            UTTypeDescription: 日语拾阶备份
+            UTTypeConformsTo: [public.json]
+            UTTypeTagSpecification:
+              public.filename-extension: [jplearnbackup]
+    dependencies:
+      - package: LearningCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.jplearn.reader
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    scheme:
+      testTargets: [JPLearnAppTests]
+  JPLearnAppTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests/JPLearnAppTests
+    dependencies:
+      - target: JPLearn
+      - package: LearningCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.jplearn.reader.tests
+        GENERATE_INFOPLIST_FILE: YES

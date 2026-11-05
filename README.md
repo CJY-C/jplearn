@@ -1,0 +1,69 @@
+# 日语拾阶 · JPLearn
+
+面向日语原版阅读的原生 iOS 训练应用。离线学习，逐项保存，使用系统日语朗读；最低系统为 iOS 15.5。
+
+当前交付是应用底座与 **12 个个人试用样章**：150 个词、20 个语法及表达、40 道结构练习、6 篇短文。N5–N2 的完整路线和制作目标已建模，剩余课程尚未编写，不能将当前样章视为完整 N2 课程。样章为原创试用内容，尚待独立日语审校。
+
+## 已实现
+
+- 今天／课程／资料三个入口；可调整每日学习时长。
+- 汉字、注音、中文释义、可选罗马音；系统日语朗读和慢速播放。
+- 词义与读音分别复习；假名输入、自主回忆、结构判断、新句迁移和短文理解。
+- 固定版本 FSRS-6，目标回忆率 90%；使用提示的回答按未独立回忆处理。
+- 逐项保存答案；暂停后继续；提交答案与更新位置之间退出也可恢复。
+- 课程资料搜索、收藏、笔记；带完整性校验的备份与幂等合并。
+- 用户授权的 iCloud Drive 文件夹交换；按事件合并，支持两机离线后汇合。
+- GitHub Actions 的内容检查、Swift 单元测试、iOS 集成测试、设备归档和 IPA 打包。
+
+## 通过 GitHub 构建
+
+1. 将项目放入自己的 GitHub 仓库，保留 `.github/workflows/build.yml`。
+2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；push 和 pull request 也会触发检查。
+3. 工作流通过后，下载 `JPLearn-<commit>` artifact，解压取得 `JPLearn.ipa`。
+4. 在已经安装 TrollStore 的兼容设备上打开 IPA 并安装。应用固定 Bundle ID 为 `dev.jplearn.reader`，后续同 ID 更新可保留应用数据。
+
+构建不需要 Apple 开发者证书、Team ID 或仓库签名 secrets。此产物用于 TrollStore；普通系统安装需要另外配置合法签名。
+
+工作流明确使用 macOS 15、Xcode 16.4 和校验过 SHA-256 的 XcodeGen 2.46.0。XcodeGen 从 `project.yml` 生成 Xcode 工程及 Info.plist，SwiftPM 从根目录 `Package.swift` 加载核心模块。FSRS 依赖固定到提交 `4fbaf20184d62f82a9f44f343337c61a2c5483e9`。
+
+## 本地开发与检查
+
+macOS 安装 Xcode 16.4 与 XcodeGen 2.46.0 后：
+
+```sh
+python3 scripts/build_content.py --check
+python3 -m unittest discover -s Tests/ContentTests -v
+swift test
+xcodegen generate --spec project.yml
+open JPLearn.xcodeproj
+```
+
+选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；模拟器测试使用 runner 可用的 iOS 18.5，不代表旧版系统已经完成真机验收。
+
+Linux 可运行所有 Python 内容检查。当前执行环境没有 Swift/Xcode，未进行 Swift 类型检查、模拟器运行、IPA 构建或真机验收。Swift 与 iOS 测试已配置，须在 GitHub 工作流或 macOS 上实际运行后确认结果。
+
+## 第一次使用
+
+在“设置”选择学习时长。在系统“辅助功能 → 朗读内容 → 声音”准备日语语音，然后在应用内试播；开启飞行模式再试一次，确认设备已具备离线语音。语音选择只在本机保存。
+
+“今天”从到期复习开始，每天默认引入至多 5 个新词和 1 个表达；读音与词义独立计分。遇到较大复习队列时减少新内容，仍保留一段阅读。“吃力想起”只用于已经想起的答案，忘记时选“没记住”。
+
+在“课程”可查看样章、先查阅讲解，再练习该单元；所有阶段可浏览。“资料”搜索的是已随应用提供的课程内容，不包含完整外部词典。
+
+## iCloud Drive 与备份
+
+1. 在“文件”里创建一个专用的 iCloud Drive 文件夹。
+2. 在每台设备的“设置 → iCloud Drive 同步”选择同一个文件夹。
+3. 两台设备分别完成练习，再点“现在同步”；等待系统上传下载后，另一台再同步。
+
+本地 Core Data 数据库始终保留在应用容器内；同步文件是带 SHA-256 校验的不可变事件批次。重入前台、每完成 5 项练习以及结束安排时尝试交换。界面显示文件夹交换状态，不把本地写入成功等同于另一台已经收到。iCloud 下载延迟时可稍后再次同步。
+
+此方案不使用应用专属 CloudKit 容器，也不使用 Aidoku 的容器或签名身份。TrollStore 下的目录授权、系统语音和跨设备 iCloud 传输仍需按 [真机验收清单](docs/DEVICE_TESTS.md) 验证。
+
+“导出学习备份”生成 `.jplearnbackup` 文件，含复习、课程进度、收藏与笔记；“合并备份”保留已有数据、去重相同事件。课程正文随 IPA 提供，备份记录课程版本。请保留独立备份；同步目录里的事件文件属于同步历史。
+
+## 内容维护
+
+[课程制作说明](docs/CONTENT.md) 包含稳定编号、资料核对、生成与发布流程。[架构说明](docs/ARCHITECTURE.md) 说明学习状态、同步协议及版本兼容规则。
+
+本轮没有加入全文阅读器、OCR、任意文本自动解析或运行时联网 AI。应用无自建业务服务器和分析 SDK。

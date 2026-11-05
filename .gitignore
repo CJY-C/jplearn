@@ -1,0 +1,12 @@
+.build/
+.swiftpm/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.xcarchive
+__pycache__/
+.DS_Store
+JPLearn.xcodeproj/
+App/Info.plist
