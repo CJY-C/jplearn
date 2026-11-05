@@ -3,59 +3,84 @@ import LearningCore
 
 struct TodayView: View {
     @EnvironmentObject private var model: AppModel
+    @EnvironmentObject private var clock: StudyClock
+    @Environment(\.sizeCategory) private var sizeCategory
     @AppStorage("dailyMinutes") private var minutes = 20
     @State private var session = false
+    private var studied: TimeInterval { StudyTime.today(events: model.events, live: clock.pendingInterval) }
+    private var reached: Bool { studied >= Double(minutes * 60) }
     private var dueCount: Int { (try? ReviewScheduler().dueKeys(events: model.events, pack: model.pack))?.count ?? 0 }
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                Text(Date(), style: .date).font(.subheadline).foregroundColor(.secondary)
-                VStack(alignment: .leading, spacing: 10) {
-                    Text("每天拾起一点，\n读懂更大的世界。").font(.largeTitle.bold())
-                    Text("从读音、句子到完整的段落，按自己的节奏前进。")
-                        .foregroundColor(.secondary)
-                }
-                HStack(spacing: 0) {
-                    metric("\(dueCount)", "待复习")
-                    Spacer()
-                    metric("\(model.snapshot.reviewedToday())", "今日练习")
-                    Spacer()
-                    metric("\(minutes) 分钟", "学习安排")
-                }.padding(20).background(Color(UIColor.secondarySystemGroupedBackground)).cornerRadius(18)
-                Button {
-                    model.perform { try model.startToday(minutes: minutes); session = model.checkpoint != nil }
-                } label: {
-                    Label(model.checkpoint == nil ? "开始学习" : "继续上次学习", systemImage: "play.fill")
-                        .font(.headline).frame(maxWidth: .infinity).padding(.vertical, 12)
-                }.buttonStyle(.borderedProminent).controlSize(.large)
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("今天的节奏", systemImage: "leaf")
-                    Text("先复习，再学少量新内容，最后读一段短文。需要休息时随时离开，答案会逐项保存。")
-                        .font(.callout).foregroundColor(.secondary)
-                }
-                if let lesson = model.pack.lessons.first(where: { !model.snapshot.completedLessons.contains($0.id) }) {
-                    NavigationLink(destination: LessonDetailView(lesson: lesson)) {
-                        HStack {
-                            VStack(alignment: .leading, spacing: 6) {
-                                Text("接着学习").font(.caption).foregroundColor(.secondary)
-                                Text(lesson.title).font(.headline).foregroundColor(.primary)
-                                Text(lesson.subtitle).font(.caption).foregroundColor(.secondary)
-                            }
-                            Spacer()
-                            Image(systemName: "chevron.right").foregroundColor(.secondary)
-                        }.padding(18).background(Color(UIColor.secondarySystemGroupedBackground)).cornerRadius(16)
-                    }
-                }
-                Text(model.pack.notice).font(.footnote).foregroundColor(.secondary)
-            }.padding(24)
+        Group {
+            if sizeCategory.isAccessibilityCategory { ScrollView { content } }
+            else { content }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(Color(UIColor.systemGroupedBackground).ignoresSafeArea())
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            Button {
+                model.perform { try model.startToday(minutes: minutes); session = model.checkpoint != nil }
+            } label: {
+                Label(model.checkpoint != nil ? "继续学习" : (reached ? "继续巩固" : "开始学习"), systemImage: "arrow.right")
+            }.buttonStyle(StudyPrimaryButtonStyle()).accessibilityIdentifier("today.start")
+                .padding(.horizontal, 18).padding(.vertical, 12)
+                .background(Color(UIColor.systemGroupedBackground))
+        }
         .navigationTitle("今天").navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(isPresented: $session) { NavigationView { SessionView() }.navigationViewStyle(.stack) }
     }
+
+    private var content: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack {
+                Text("今天读一点").font(.title2.weight(.semibold))
+                Spacer()
+                Text(Date(), format: .dateTime.month().day()).font(.caption).foregroundColor(.secondary)
+            }
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    Text("今日学习").font(.subheadline.weight(.medium))
+                    Spacer()
+                    Text(reached ? "目标已完成" : "目标 \(minutes) 分钟")
+                        .font(.caption).foregroundColor(reached ? .accentColor : .secondary)
+                }
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Text(StudyTime.clock(studied)).font(.system(size: 34, weight: .medium, design: .rounded)).monospacedDigit()
+                        .accessibilityIdentifier("today.studyTime")
+                    Text("/ \(StudyTime.clock(Double(minutes * 60)))").font(.subheadline.monospacedDigit()).foregroundColor(.secondary)
+                }
+                ProgressView(value: min(studied, Double(minutes * 60)), total: Double(minutes * 60))
+            }.padding(18).background(Color(UIColor.secondarySystemGroupedBackground))
+                .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+            HStack {
+                metric("\(dueCount)", "待复习")
+                Spacer()
+                metric("\(model.snapshot.reviewedToday())", "今日练习")
+                Spacer()
+                Image(systemName: "leaf").foregroundColor(.accentColor)
+            }.padding(.horizontal, 4)
+            if let lesson = model.pack.lessons.first(where: { !model.snapshot.completedLessons.contains($0.id) }) {
+                NavigationLink(destination: LessonDetailView(lesson: lesson)) {
+                    HStack(spacing: 12) {
+                        Image(systemName: "book.closed").foregroundColor(.accentColor)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("接着学习").font(.caption).foregroundColor(.secondary)
+                            Text(lesson.title).font(.subheadline.weight(.medium)).foregroundColor(.primary)
+                        }
+                        Spacer()
+                        Image(systemName: "chevron.right").font(.caption).foregroundColor(.secondary)
+                    }.padding(16).background(Color(UIColor.secondarySystemGroupedBackground))
+                        .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
+                }.buttonStyle(.plain)
+            }
+            Text("学习时计时，暂停或离开时自动停下。")
+                .font(.caption).foregroundColor(.secondary)
+            Spacer(minLength: 0)
+        }.padding(.horizontal, 18).padding(.top, 14)
+    }
     private func metric(_ value: String, _ label: String) -> some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Text(value).font(.title3.bold()).foregroundColor(.accentColor)
+        VStack(alignment: .leading, spacing: 3) {
+            Text(value).font(.title3.weight(.semibold))
             Text(label).font(.caption).foregroundColor(.secondary)
         }
     }
@@ -108,7 +133,8 @@ struct LessonDetailView: View {
                 Text(lesson.subtitle).foregroundColor(.secondary)
                 Button {
                     model.perform { try model.startLesson(lesson); session = model.checkpoint != nil }
-                } label: { Label("练习本单元", systemImage: "play.fill") }
+                } label: { Label("练习本单元", systemImage: "arrow.right") }
+                    .buttonStyle(StudyPrimaryButtonStyle())
                 if model.checkpoint != nil {
                     Button("继续上次练习") { model.perform { try model.resumeSession(); session = true } }
                 }

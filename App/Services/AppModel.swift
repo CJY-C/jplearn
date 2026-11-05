@@ -4,6 +4,7 @@ import LearningCore
 @MainActor final class AppModel: ObservableObject {
     let pack: ContentPack
     let speech = SpeechService()
+    let studyClock = StudyClock()
     let deviceID: UUID
     private let store: EventStore
     private let checkpointURL: URL
@@ -23,7 +24,12 @@ import LearningCore
         else { let generated = UUID(); deviceID = generated; defaults.set(generated.uuidString, forKey: "deviceID") }
         let directory = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask,
                                                     appropriateFor: nil, create: true)
-        let dataDirectory = directory.appendingPathComponent("JPLearn", isDirectory: true)
+        var dataDirectory = directory.appendingPathComponent("JPLearn", isDirectory: true)
+        #if DEBUG
+        if let testID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"], UUID(uuidString: testID) != nil {
+            dataDirectory = directory.appendingPathComponent("JPLearn-UITests-" + testID, isDirectory: true)
+        }
+        #endif
         try FileManager.default.createDirectory(at: dataDirectory, withIntermediateDirectories: true)
         let eventStore = try EventStore(directory: dataDirectory)
         store = eventStore
@@ -46,6 +52,12 @@ import LearningCore
         folderName = defaults.string(forKey: "folderName") ?? ""
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
+        studyClock.onInterval = { [weak self] id, interval in
+            guard let self = self else { throw LearningError.invalid("暂时无法保存学习时间。") }
+            try self.append([LearningEvent(deviceID: self.deviceID, timestamp: interval.end, kind: .studyTime,
+                                           targetID: id.uuidString, durationSeconds: interval.duration)])
+        }
+        studyClock.onError = { [weak self] error in self?.errorMessage = error.localizedDescription }
     }
 
     func perform(_ action: () throws -> Void) {
@@ -61,7 +73,9 @@ import LearningCore
 
     func startToday(minutes: Int) throws {
         if checkpoint != nil { try resumeSession(); return }
-        let tasks = try SessionPlanner.make(pack: pack, events: events, minutes: minutes)
+        let remaining = StudyTime.remainingSeconds(targetMinutes: minutes, studiedSeconds: StudyTime.today(events: events))
+        let plannedMinutes = remaining > 0 ? max(1, Int(ceil(remaining / 60))) : minutes
+        let tasks = try SessionPlanner.make(pack: pack, events: events, minutes: plannedMinutes)
         try saveCheckpoint(SessionCheckpoint(tasks: tasks))
     }
 
@@ -100,6 +114,7 @@ import LearningCore
 
     func recordAnswer(entryID: UUID, rating: Int, assisted: Bool) throws {
         guard let current = checkpoint?.current, current.id == entryID else { return }
+        try studyClock.flush()
         let wasAssisted = assisted || (checkpoint?.assistedEntryIDs.contains(entryID) ?? false)
         if !events.contains(where: { $0.id == entryID }) {
             let event: LearningEvent
@@ -125,10 +140,12 @@ import LearningCore
         guard var next = checkpoint else { return }
         next.index += 1
         try saveCheckpoint(next)
+        if next.current == nil { try studyClock.setVisible(false) }
         if next.index % 5 == 0 { Task { await sync() } }
     }
 
     func finishSession() throws {
+        try studyClock.setVisible(false)
         guard var current = checkpoint else { return }
         current.recover(recordedIDs: Set(events.map(\.id)))
         if current.current == nil, let lessonID = current.lessonID,
@@ -157,7 +174,17 @@ import LearningCore
         try append([LearningEvent(deviceID: deviceID, kind: .note, targetID: id, value: note)])
     }
     func exportBackup() throws -> Data {
-        try ArchiveCodec.encode(ExchangeArchive(events: events, contentVersion: pack.version))
+        try studyClock.flush()
+        return try ArchiveCodec.encode(ExchangeArchive(events: events, contentVersion: pack.version))
+    }
+
+    func updateStudyTiming() throws {
+        guard let current = checkpoint, current.current != nil else {
+            try studyClock.setVisible(false)
+            return
+        }
+        try studyClock.bind(sessionID: current.id, recordedSeconds: StudyTime.seconds(events: events, sessionID: current.id))
+        try studyClock.setVisible(true)
     }
     func importBackup(_ url: URL) throws {
         let accessed = url.startAccessingSecurityScopedResource()

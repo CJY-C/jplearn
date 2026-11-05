@@ -29,7 +29,7 @@ struct SettingsView: View {
         Form {
             Section(header: Text("学习节奏")) {
                 Stepper("每天约 \(minutes) 分钟", value: $minutes, in: 5...60, step: 5)
-                Text("复习优先；新内容会根据待复习数量减少。每次安排都可以中途暂停。")
+                Text("按实际学习时间完成目标。学习页在前台时计时，暂停、锁屏或离开时停止；同一天的多轮学习会累计。")
                     .font(.caption).foregroundColor(.secondary)
             }
             Section(header: Text("日语显示")) {
@@ -72,7 +72,7 @@ struct SettingsView: View {
                     .font(.caption).foregroundColor(.secondary)
             }
             Section(header: Text("关于")) {
-                Text("日语拾阶 · 0.1.0")
+                Text("日语拾阶 · \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
                 Text("课程 \(model.pack.version) · \(model.pack.items.filter { $0.kind == "word" }.count) 个词 · \(model.pack.lessons.count) 个样章")
                     .font(.callout).foregroundColor(.secondary)
                 Text(model.pack.notice).font(.caption).foregroundColor(.secondary)
@@ -131,7 +131,7 @@ private struct AboutView: View {
         List {
             Section(header: Text("从记忆到阅读")) {
                 Text("先回想再揭示答案，间隔一段时间后再练。在不同句子里理解同一表达，并逐渐减少注音与解释。")
-                Text("“吃力想起”表示已经想起答案；没有想起时请选择“没记住”。用了提示的练习会安排再次复习。")
+                Text("“费力”表示已经想起答案；没有想起时请选择“忘记”。用了提示的练习会安排再次复习。")
                 Text("短文理解单独记录，不作为词汇掌握的替代。系统朗读用于读音辅助。")
             }
             Section(header: Text("研究与工具")) {

@@ -11,9 +11,10 @@ settings:
   base:
     SWIFT_VERSION: "5.0"
     IPHONEOS_DEPLOYMENT_TARGET: "15.5"
-    MARKETING_VERSION: "0.1.0"
-    CURRENT_PROJECT_VERSION: 1
     CODE_SIGNING_ALLOWED: NO
+configFiles:
+  Debug: Version.xcconfig
+  Release: Version.xcconfig
 targets:
   JPLearn:
     type: application
@@ -51,7 +52,7 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
     scheme:
-      testTargets: [JPLearnAppTests]
+      testTargets: [JPLearnAppTests, JPLearnUITests]
   JPLearnAppTests:
     type: bundle.unit-test
     platform: iOS
@@ -63,4 +64,15 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.jplearn.reader.tests
+        GENERATE_INFOPLIST_FILE: YES
+  JPLearnUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - Tests/JPLearnUITests
+    dependencies:
+      - target: JPLearn
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.jplearn.reader.uitests
         GENERATE_INFOPLIST_FILE: YES

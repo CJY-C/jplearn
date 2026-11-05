@@ -10,7 +10,7 @@ import LearningCore
         WindowGroup {
             Group {
                 if let model = model {
-                    MainView().environmentObject(model)
+                    MainView().environmentObject(model).environmentObject(model.studyClock)
                 } else if let message = startupError {
                     VStack(spacing: 20) {
                         Image(systemName: "externaldrive.badge.exclamationmark").font(.largeTitle)
@@ -23,6 +23,7 @@ import LearningCore
             }
             .task { if model == nil { load() } }
             .onChange(of: scenePhase) { phase in
+                if let model = model { model.perform { try model.studyClock.setForeground(phase == .active) } }
                 if phase == .active {
                     Task { await model?.sync() }
                 } else { model?.speech.stop() }

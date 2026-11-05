@@ -1,6 +1,6 @@
 import Foundation
 
-public enum EventKind: String, Codable { case review, lessonCompleted, bookmark, note, readingAttempt }
+public enum EventKind: String, Codable { case review, lessonCompleted, bookmark, note, readingAttempt, studyTime }
 
 public struct LearningEvent: Codable, Identifiable, Equatable {
     public let id: UUID
@@ -13,15 +13,18 @@ public struct LearningEvent: Codable, Identifiable, Equatable {
     public let assisted: Bool
     public let value: String?
     public let schedulerVersion: Int
+    public let durationSeconds: TimeInterval?
 
     public init(id: UUID = UUID(), deviceID: UUID, timestamp: Date = Date(), kind: EventKind,
                 targetID: String, skill: Skill? = nil, rating: Int? = nil,
-                assisted: Bool = false, value: String? = nil, schedulerVersion: Int = 1) {
+                assisted: Bool = false, value: String? = nil, schedulerVersion: Int = 1,
+                durationSeconds: TimeInterval? = nil) {
         self.id = id; self.deviceID = deviceID
         self.timestamp = Date(timeIntervalSince1970: (timestamp.timeIntervalSince1970 * 1000).rounded() / 1000)
         self.kind = kind
         self.targetID = targetID; self.skill = skill; self.rating = rating
         self.assisted = assisted; self.value = value; self.schedulerVersion = schedulerVersion
+        self.durationSeconds = durationSeconds.map { ($0 * 1000).rounded() / 1000 }
     }
 
     public func validate() throws {
@@ -39,6 +42,11 @@ public struct LearningEvent: Codable, Identifiable, Equatable {
         case .note: guard value != nil else { throw LearningError.invalid("笔记记录无效。") }
         case .readingAttempt: guard ["correct", "incorrect"].contains(value ?? "") else { throw LearningError.invalid("阅读记录无效。") }
         case .lessonCompleted: break
+        case .studyTime:
+            guard let seconds = durationSeconds, seconds.isFinite, seconds > 0, seconds <= 86_400,
+                  timestamp.timeIntervalSince1970 >= seconds, skill == nil, rating == nil else {
+                throw LearningError.invalid("学习时间记录无效。")
+            }
         }
     }
 
@@ -99,7 +107,7 @@ public struct ExchangeArchive: Codable {
     public let events: [LearningEvent]
 
     public init(events: [LearningEvent], contentVersion: String, createdAt: Date = Date()) {
-        format = "dev.jplearn.events"; schemaVersion = 1; self.contentVersion = contentVersion
+        format = "dev.jplearn.events"; schemaVersion = 2; self.contentVersion = contentVersion
         self.createdAt = createdAt; self.events = events
     }
     public func encoded() throws -> Data {
@@ -109,7 +117,7 @@ public struct ExchangeArchive: Codable {
     public static func decode(_ data: Data) throws -> ExchangeArchive {
         guard data.count <= 50_000_000 else { throw LearningError.invalid("文件超过 50 MB，请分批导入。") }
         let archive = try ExchangeCoding.decoder().decode(Self.self, from: data)
-        guard archive.format == "dev.jplearn.events", archive.schemaVersion == 1 else {
+        guard archive.format == "dev.jplearn.events", [1, 2].contains(archive.schemaVersion) else {
             throw LearningError.invalid("备份或同步文件版本不受支持，请先更新应用。")
         }
         _ = try EventMerge.merge([], archive.events)

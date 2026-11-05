@@ -28,6 +28,8 @@ jobs:
     needs: content
     runs-on: macos-15
     timeout-minutes: 35
+    outputs:
+      app_version: ${{ steps.package.outputs.app_version }}
     env:
       DEVELOPER_DIR: /Applications/Xcode_16.4.app/Contents/Developer
     steps:
@@ -47,19 +49,22 @@ jobs:
           "$generator" generate --spec project.yml
       - name: Test learning core
         run: swift test --parallel
-      - name: Select available iOS 18.5 simulator
+      - name: Select iPhone SE3 simulator
         run: |
-          simulator_id=$(xcrun simctl list devices available --json | python3 -c 'import json,sys; d=json.load(sys.stdin); devices=[x for runtime,entries in d["devices"].items() if "iOS-18-5" in runtime for x in entries if x["name"].startswith("iPhone") and x["isAvailable"]]; assert devices, "iOS 18.5 simulator missing from runner"; print(devices[0]["udid"])')
+          simulator_id=$(python3 scripts/select_simulator.py)
           printf 'SIMULATOR_ID=%s\n' "$simulator_id" >> "$GITHUB_ENV"
-      - name: Test persistence and folder exchange on iOS
+      - name: Test persistence, timing and SE3 layouts
         run: |
           xcodebuild test -project JPLearn.xcodeproj -scheme JPLearn -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -resultBundlePath build/TestResults.xcresult CODE_SIGNING_ALLOWED=NO
       - name: Build device archive
         run: |
           xcodebuild archive -project JPLearn.xcodeproj -scheme JPLearn -configuration Release -destination 'generic/platform=iOS' -archivePath build/JPLearn.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=
       - name: Package TrollStore IPA
+        id: package
         run: |
           python3 scripts/check_archive.py build/JPLearn.xcarchive/Products/Applications/JPLearn.app
+          app_version=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' build/JPLearn.xcarchive/Products/Applications/JPLearn.app/Info.plist)
+          printf 'app_version=%s\n' "$app_version" >> "$GITHUB_OUTPUT"
           mkdir -p build/ipa/Payload
           cp -R build/JPLearn.xcarchive/Products/Applications/JPLearn.app build/ipa/Payload/
           cd build/ipa
@@ -77,3 +82,39 @@ jobs:
           name: iOS-test-results
           path: build/TestResults.xcresult
           if-no-files-found: ignore
+      - name: Export SE3 screenshots
+        if: always()
+        run: |
+          if test -d build/TestResults.xcresult; then
+            xcrun xcresulttool export attachments --path build/TestResults.xcresult --output-path build/screenshots || true
+          fi
+      - name: Upload SE3 screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: SE3-screenshots
+          path: build/screenshots
+          if-no-files-found: ignore
+
+  release:
+    name: Publish versioned IPA
+    needs: ios
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: JPLearn-${{ github.sha }}
+          path: build/release
+      - name: Publish release without replacing existing versions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          APP_VERSION: ${{ needs.ios.outputs.app_version }}
+          RELEASE_COMMIT: ${{ github.sha }}
+          RELEASE_REF: ${{ github.ref }}
+        run: bash scripts/publish_release.sh
