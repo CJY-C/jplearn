@@ -2,6 +2,8 @@
 
 面向日语原版阅读的原生 iOS 训练应用。离线学习，逐项保存，使用系统日语朗读；最低系统为 iOS 15.5。
 
+[GitHub 仓库](https://github.com/CJY-C/jplearn) · [构建与 IPA 下载](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
+
 当前交付是应用底座与 **12 个个人试用样章**：150 个词、20 个语法及表达、40 道结构练习、6 篇短文。N5–N2 的完整路线和制作目标已建模，剩余课程尚未编写，不能将当前样章视为完整 N2 课程。样章为原创试用内容，尚待独立日语审校。
 
 ## 已实现
@@ -40,7 +42,7 @@ open JPLearn.xcodeproj
 
 选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；模拟器测试使用 runner 可用的 iOS 18.5，不代表旧版系统已经完成真机验收。
 
-Linux 可运行所有 Python 内容检查。当前执行环境没有 Swift/Xcode，未进行 Swift 类型检查、模拟器运行、IPA 构建或真机验收。Swift 与 iOS 测试已配置，须在 GitHub 工作流或 macOS 上实际运行后确认结果。
+Linux 可运行所有 Python 内容检查。2026-11-05 已在 [GitHub macOS 工作流](https://github.com/CJY-C/jplearn/actions/runs/41981863480) 通过 12 项内容检查、22 项核心测试和 4 项 iOS 18.5 模拟器集成测试，完成设备归档并生成 IPA。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步尚待验收。
 
 ## 第一次使用
 

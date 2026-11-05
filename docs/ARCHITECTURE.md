@@ -8,6 +8,8 @@
 
 使用 iOS 15 支持的 NavigationView、ObservableObject 与 Core Data。没有引入要求 iOS 16 的 NavigationStack 或要求 iOS 17 的 SwiftData。
 
+应用通过 `dueKeys` 和 `validateHistory` 使用复习调度；FSRS 的 Card 等类型留在核心模块内部。对外接口只返回本项目定义的类型，避免应用链接时直接依赖传递包的类型元数据。
+
 ## 事件与学习状态
 
 日志事件包括复习、单元完成、收藏、笔记与阅读尝试。每个事件有 UUID、设备 UUID、毫秒时间、目标编号及事件内容。Core Data 用事件 UUID 做唯一约束，单批写入事务提交，失败回滚。
