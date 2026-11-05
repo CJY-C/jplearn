@@ -102,7 +102,19 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["study.readingCoverage"].label.contains("100%"))
         for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
         let fixed = app.buttons["study.choice.0"].frame
-        scroll.swipeUp()
+        let firstLine = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "昨日、友達に借りた物語")).firstMatch
+        XCTAssertTrue(firstLine.exists)
+        let originalY = firstLine.frame.minY
+        // safeAreaInset may leave the underlying scroll view's frame extending behind the footer.
+        // Start the gesture inside the visible text area, above the fixed question.
+        let top = app.staticTexts["study.readingCoverage"].frame.maxY + 12
+        let bottom = app.staticTexts["第二次阅读帮助说话者发现了什么？"].frame.minY - 18
+        let origin = app.coordinate(withNormalizedOffset: .zero)
+        let start = origin.withOffset(CGVector(dx: app.frame.midX, dy: bottom))
+        let end = origin.withOffset(CGVector(dx: app.frame.midX, dy: top))
+        start.press(forDuration: 0.1, thenDragTo: end)
+        screenshot("SE3-LongReading-Scrolled")
+        XCTAssertLessThan(firstLine.frame.minY, originalY - 20, "Long reading text must actually move")
         XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
         screenshot("SE3-LongReading")
         app.buttons["study.choice.0"].tap()
