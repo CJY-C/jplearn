@@ -48,7 +48,9 @@ open JPLearn.xcodeproj
 
 选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；自动测试使用 iOS 18.5 的 iPhone SE3 模拟器，覆盖单屏按钮、键盘、固定答题区与暂停，不代表旧版系统已经完成真机验收。
 
-Linux 可运行所有 Python 内容检查。2026-11-05 的 [0.2.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/41991038430) 已通过 12 项内容检查、31 项核心测试、6 项 iOS 集成测试和 4 项 SE3 界面测试，完成设备归档并自动发布 [0.2.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.2.0)。已复核 SE3 首页、词卡、键盘、句型和长文截图；下载包的版本、arm64 架构及二进制最低系统 15.5 也已核验。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
+Linux 可运行所有 Python 内容检查。2026-11-05 的 [0.3.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/41998322288) 已通过 13 项内容检查、43 项核心测试、6 项 iOS 集成测试和 6 项 SE3 界面测试，完成设备归档并自动发布 [0.3.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.3.0)。回归覆盖阅读耗尽、连续 24 轮不重复、跨午夜间隔、词汇覆盖率、旧安排恢复和小屏固定答题区。已复核截图及下载包的扩充内容、版本、arm64 架构、二进制最低系统 15.5 和 SHA-256。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
+
+[补充滚动检查](https://github.com/CJY-C/jplearn/actions/runs/41999294775) 也已通过：从上方可见正文区域滑动后，正文位置实际变化，底部选项位置保持不变。
 
 ## 第一次使用
 
