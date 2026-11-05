@@ -89,18 +89,24 @@ struct AssessmentListView: View {
     private var readings: [ReadingPassage] { model.pack.readings.filter { $0.level == level && $0.purpose == "assessment" } }
     var body: some View {
         List {
+            if model.checkpoint != nil { Text("还有未完成的练习，可以到“今天”继续。").font(.caption).foregroundColor(.secondary) }
             if readings.isEmpty { Text("本阶段检测材料尚在制作。") }
             ForEach(readings) { reading in
                 let attempted = model.events.contains { $0.kind == .readingAttempt && $0.targetID == reading.id }
-                Button {
-                    model.perform { try model.startAssessment(reading); session = model.checkpoint != nil }
-                } label: {
-                    HStack {
-                        Text(attempted ? reading.title + " · 已检测" : "阅读检测 " + String((readings.firstIndex(where: { $0.id == reading.id }) ?? 0) + 1))
-                        Spacer()
-                        Image(systemName: attempted ? "checkmark.circle" : "arrow.right")
+                if attempted {
+                    NavigationLink(reading.title + " · 查看解析", destination: PassagePreview(reading: reading))
+                } else {
+                    Button {
+                        model.perform { try model.startAssessment(reading); session = model.checkpoint != nil }
+                    } label: {
+                        HStack {
+                            Text("阅读检测 " + String((readings.firstIndex(where: { $0.id == reading.id }) ?? 0) + 1))
+                            Spacer()
+                            Image(systemName: "arrow.right")
+                        }
                     }
-                }.disabled(attempted || model.checkpoint != nil)
+                    .disabled(model.checkpoint != nil)
+                }
             }
         }.navigationTitle(level + " 阅读检测").navigationBarTitleDisplayMode(.inline)
             .fullScreenCover(isPresented: $session) { NavigationView { SessionView() }.navigationViewStyle(.stack) }

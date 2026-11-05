@@ -254,8 +254,18 @@ struct PassagePreview: View {
                 ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { SentenceView(sentence: $0) }
             }
             Section(header: Text("想一想")) {
-                Text(reading.question)
-                DisclosureGroup("查看参考答案") { Text(reading.explanation).padding(.vertical, 8) }
+                ForEach(reading.allQuestions) { question in
+                    Text(question.prompt)
+                    DisclosureGroup("查看参考答案与依据") {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(question.choices[question.answerIndex]).font(.subheadline.weight(.medium))
+                            Text(question.explanation)
+                            ForEach(question.evidenceSentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in
+                                Text(sentence.text).font(.callout).foregroundColor(.secondary)
+                            }
+                        }.padding(.vertical, 8)
+                    }
+                }
             }
         }.navigationTitle(reading.title).navigationBarTitleDisplayMode(.inline)
     }

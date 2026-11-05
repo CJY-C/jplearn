@@ -348,6 +348,8 @@ private struct ReadingCard: View {
                 VStack(alignment: .leading, spacing: 12) {
                     ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in
                         RubyText(segments: sentence.segments, showReading: showReading) { lookup($0) }
+                            .background(choice != nil && reading.questions != nil && question.evidenceSentenceIDs.contains(sentence.id)
+                                ? Color.accentColor.opacity(0.08) : Color.clear)
                     }
                 }.padding(.horizontal, 18).padding(.vertical, 8)
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
