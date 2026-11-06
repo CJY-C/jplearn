@@ -32,6 +32,24 @@ final class SmallScreenTests: XCTestCase {
         attachment.name = name; attachment.lifetime = .keepAlways
         add(attachment)
     }
+    @MainActor private func visibleChoices(file: StaticString = #filePath, line: UInt = #line) {
+        var previous: CGRect?
+        for index in 0...2 {
+            let button = app.buttons["study.choice.\(index)"]
+            visible(button, file: file, line: line)
+            let frame = button.frame
+            XCTAssertGreaterThanOrEqual(frame.height, 44, "Answer needs a full touch target", file: file, line: line)
+            if let previous = previous {
+                XCTAssertGreaterThanOrEqual(frame.minY, previous.maxY + 6,
+                    "Adjacent answers must have a visible gap: \(previous), \(frame)", file: file, line: line)
+            }
+            for label in button.descendants(matching: .staticText).allElementsBoundByIndex {
+                XCTAssertTrue(frame.insetBy(dx: -1, dy: -1).contains(label.frame),
+                    "Answer label must fit its button: \(label.label)", file: file, line: line)
+            }
+            previous = frame
+        }
+    }
     @MainActor private func scrollWordNotes() {
         let origin = app.coordinate(withNormalizedOffset: .zero)
         let bottom = app.staticTexts["按刚才回想的表现选择"].frame.minY - 18
@@ -119,7 +137,7 @@ final class SmallScreenTests: XCTestCase {
         start.press(forDuration: 0.1, thenDragTo: end)
         XCTAssertLessThan(hint.frame.minY, originalY - 5)
         XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
-        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        visibleChoices()
         screenshot("SE3-N4-Grammar-Hint-LargeText")
         app.buttons["study.choice.0"].tap()
         visible(app.buttons["study.continue"])
@@ -130,7 +148,7 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["today.start"].tap()
         let scroll = app.scrollViews["study.textScroll"]
         XCTAssertTrue(scroll.waitForExistence(timeout: 5))
-        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        visibleChoices()
         let fixed = app.buttons["study.choice.0"].frame
         let sentence = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "眠れなくて困りましたが")).firstMatch
         XCTAssertTrue(sentence.waitForExistence(timeout: 5))
@@ -142,7 +160,7 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertLessThan(sentence.frame.minY, originalY - 5)
         XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
         visible(app.buttons["study.hintButton"])
-        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        visibleChoices()
         screenshot("SE3-N4-LongSentence-LargeText")
         app.buttons["study.choice.0"].tap()
         visible(app.buttons["study.continue"])
@@ -155,7 +173,7 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["study.readingCoverage"].label.contains("100%"))
         for index in 1...2 {
             XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
-            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            visibleChoices()
             screenshot("SE3-N4-Notice-LargeText-Question\(index)")
             app.buttons["study.choice.0"].tap()
             visible(app.buttons["study.continue"])
@@ -169,7 +187,7 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["today.start"].tap()
         for index in 1...2 {
             XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
-            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            visibleChoices()
             screenshot("SE3-N4-Voice-Question\(index)")
             app.buttons["study.choice.0"].tap()
             visible(app.buttons["study.continue"])
@@ -184,7 +202,7 @@ final class SmallScreenTests: XCTestCase {
         var checkedGrammar = false
         for _ in 0..<40 {
             if app.scrollViews["study.readingScroll"].exists {
-                for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+                visibleChoices()
                 screenshot("SE3-Reading")
                 XCTAssertTrue(app.staticTexts["study.readingCoverage"].exists)
                 let before = app.buttons["study.choice.0"].frame
@@ -200,7 +218,7 @@ final class SmallScreenTests: XCTestCase {
             else if app.buttons["study.grade.3"].exists { app.buttons["study.grade.3"].tap() }
             else if app.buttons["study.continue"].exists { app.buttons["study.continue"].tap() }
             else if app.buttons["study.choice.0"].exists {
-                for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+                visibleChoices()
                 screenshot("SE3-Grammar")
                 checkedGrammar = true
                 app.buttons["study.choice.0"].tap()
@@ -253,7 +271,7 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["today.start"].tap()
         for index in 1...2 {
             XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
-            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            visibleChoices()
             screenshot("SE3-N5-Notice-Question\(index)")
             app.buttons["study.choice.0"].tap()
             visible(app.buttons["study.continue"])
@@ -268,7 +286,7 @@ final class SmallScreenTests: XCTestCase {
         let scroll = app.scrollViews["study.readingScroll"]
         XCTAssertTrue(scroll.waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["study.readingCoverage"].label.contains("100%"))
-        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        visibleChoices()
         let fixed = app.buttons["study.choice.0"].frame
         let firstLine = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "昨日、友達に借りた物語")).firstMatch
         XCTAssertTrue(firstLine.exists)

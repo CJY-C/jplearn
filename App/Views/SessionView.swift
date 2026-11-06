@@ -388,6 +388,9 @@ private struct ReadingCard: View {
                         }
                     }
                 }.padding(.horizontal, 18).padding(.vertical, 12)
+                    // Give the question and choices their full height before allocating the
+                    // remaining space to the reading scroll view, including at large text sizes.
+                    .fixedSize(horizontal: false, vertical: true)
             }.background(Color(UIColor.systemBackground))
         }
         .sheet(item: $selected) { item in NavigationView { ItemDetailView(item: item) }.navigationViewStyle(.stack) }
@@ -436,6 +439,9 @@ struct ChoiceAnswers: View {
                 }.buttonStyle(StudyPressFeedbackStyle()).accessibilityIdentifier("study.choice.\(index)")
             }
         }
+        // Text inside a button can retain its height while the surrounding stack is
+        // compressed. Preserve the complete stack so adjacent answer labels cannot overlap.
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
