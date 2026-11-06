@@ -4,7 +4,7 @@
 
 [GitHub 仓库](https://github.com/CJY-C/jplearn) · [版本与 IPA 下载](https://github.com/CJY-C/jplearn/releases) · [构建记录](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
 
-当前为完整 N5–N2 制作中的阅读扩充版：80 个单元、386 个词与常用数量表达、72 个知识点、634 道词句练习、98 篇阅读，以及 6 个入门诊断模块。N5 实际有 288 个词、61 个知识点、80 篇阅读（含 16 篇独立检测），词汇仍缺 712 项。完整目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。材料尚未独立日语审校。
+当前课程整理分支准备 0.7.0：103 个单元、686 个词与常用数量表达、72 个知识点、934 道词句练习、98 篇阅读，以及 6 个入门诊断模块。N5 实际有 588 个词、61 个知识点、80 篇阅读（含 16 篇独立检测），词汇仍缺 412 项。完整目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。材料尚未独立日语审校。当前已发布安装包仍为 [v0.6.1](https://github.com/CJY-C/jplearn/releases/tag/v0.6.1)；本分支在 N5 词汇补齐并验收后再发布。
 
 ## 已实现
 
@@ -44,6 +44,8 @@ macOS 安装 Xcode 16.4 与 XcodeGen 2.46.0 后：
 python3 scripts/compile_grammar.py content/authoring/n5-structures.tsv content/batches/002-n5-structures.json --check
 python3 scripts/compile_readings.py content/authoring/n5-readings.tsv content/batches/003-n5-readings.json --check
 python3 scripts/compile_words.py content/authoring/n5-reading-words.tsv content/batches/004-n5-reading-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-core-words.tsv content/batches/005-n5-core-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-everyday-words.tsv content/batches/006-n5-everyday-vocabulary.json --check
 python3 scripts/build_content.py --check
 python3 scripts/audit_curriculum.py
 python3 -m unittest discover -s Tests/ContentTests -v

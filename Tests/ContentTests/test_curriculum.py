@@ -76,7 +76,9 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_reading_and_word_manuscripts_match_committed_batches(self):
         for compiler, source, batch in [
             (compile_readings, "n5-readings.tsv", "003-n5-readings.json"),
-            (compile_words, "n5-reading-words.tsv", "004-n5-reading-vocabulary.json")]:
+            (compile_words, "n5-reading-words.tsv", "004-n5-reading-vocabulary.json"),
+            (compile_words, "n5-core-words.tsv", "005-n5-core-vocabulary.json"),
+            (compile_words, "n5-everyday-words.tsv", "006-n5-everyday-vocabulary.json")]:
             self.assertEqual(compiler(ROOT / "content/authoring" / source, self.pack),
                 json.loads((ROOT / "content/batches" / batch).read_text()))
 
@@ -92,6 +94,27 @@ class CurriculumDeliveryTests(unittest.TestCase):
         for n in range(1, 43):
             lesson = next(l for l in self.pack["lessons"] if l["id"] == f"lgn5{n:02d}")
             self.assertEqual(lesson["readingID"], f"rn5{n:03d}")
+
+    def test_new_homophones_keep_separate_targets_and_sense_cues(self):
+        words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
+        for first, second in [("早い", "速い"), ("いる", "要る"), ("閉める", "締める"), ("箸", "橋")]:
+            self.assertNotEqual(words[first]["id"], words[second]["id"])
+            self.assertEqual(words[first]["reading"], words[second]["reading"])
+            self.assertTrue(words[second].get("readingCue"), second)
+        _, occurrences = markup_sentence(
+            "[ネクタイ|ねくたい]を[締|し|締める]めて、[ドア|どあ]を[閉|し|閉める]めます。", words)
+        self.assertEqual([w["itemID"] for w in occurrences],
+            [words[t]["id"] for t in ["ネクタイ", "締める", "ドア", "閉める"]])
+
+    def test_alternative_readings_are_same_sense_with_a_source(self):
+        words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
+        for spelling, variant in [("毎月", "まいげつ"), ("毎年", "まいねん"),
+                ("昨夜", "さくや"), ("一昨日", "いっさくじつ"), ("一昨年", "いっさくねん")]:
+            word = words[spelling]
+            self.assertIn(variant, word["acceptedReadings"])
+            self.assertTrue(any(c["sourceID"] == "jmdict" and c["status"] == "reference"
+                for c in word["citations"]))
+        self.assertNotIn("つらい", words["辛い"].get("acceptedReadings", []))
 
     def test_heldout_sentences_cannot_become_word_examples(self):
         pack = copy.deepcopy(self.pack)
