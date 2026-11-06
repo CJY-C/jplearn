@@ -52,7 +52,7 @@ open JPLearn.xcodeproj
 
 选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；自动测试使用 iOS 18.5 的 iPhone SE3 模拟器，覆盖单屏按钮、键盘、固定答题区与暂停，不代表旧版系统已经完成真机验收。
 
-Linux 可运行所有 Python 内容检查。2026-11-05 的 [0.4.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42032455029) 已通过 16 项内容检查、48 项核心测试、9 项 iOS 集成测试和 8 项 SE3 界面测试，完成设备归档并自动发布 [0.4.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.4.0)。新回归覆盖题组断点恢复、重复提交、诊断不生成 FSRS 记录、未见材料隔离、段落生词密度、入门单屏操作与阅读第二题。下载包中的课程与编写源一致，版本、arm64 架构、二进制最低系统 15.5 和 SHA-256 均已核验。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
+Linux 可运行所有 Python 内容检查。2026-11-06 的 [0.5.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42141487621) 已通过 23 项内容检查、48 项核心测试、9 项 iOS 集成测试和 8 项 SE3 界面测试，完成设备归档并自动发布 [0.5.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.5.0)。新检查覆盖 N5 模式逐项映射、真实句子去重、级别顺序、编写源与批次一致性，以及不能用条目数量替代完整课程。下载包中的课程与编写源一致，版本 0.5.0 / build 5、arm64、二进制最低系统 15.5 和 SHA-256 均已核验。原有 353 个词汇及知识点、707 个句子、319 道题、40 篇阅读的既有编号和核心内容保留；仅修正「開ける」的例句引用。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
 
 [补充滚动检查](https://github.com/CJY-C/jplearn/actions/runs/41999294775) 也已通过：从上方可见正文区域滑动后，正文位置实际变化，底部选项位置保持不变。
 
