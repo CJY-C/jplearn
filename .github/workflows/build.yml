@@ -21,6 +21,8 @@ jobs:
       - name: Validate authored content and curriculum coverage
         run: |
           python3 scripts/compile_grammar.py content/authoring/n5-structures.tsv content/batches/002-n5-structures.json --check
+          python3 scripts/compile_readings.py content/authoring/n5-readings.tsv content/batches/003-n5-readings.json --check
+          python3 scripts/compile_words.py content/authoring/n5-reading-words.tsv content/batches/004-n5-reading-vocabulary.json --check
           python3 scripts/build_content.py --check
           python3 scripts/audit_curriculum.py --output curriculum-audit.json
           python3 -m unittest discover -s Tests/ContentTests -v

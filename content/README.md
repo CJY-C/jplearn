@@ -2,7 +2,7 @@
 
 `catalog.json` 保存课程版本、来源与阶段预算；`legacy/` 保留已发布内容的固定编号；`batches/` 保存新增的显式记录。`scripts/build_content.py` 仅合并并校验这些记录，不根据顺序重新分配编号。`scripts/author_batch.py` 是早期可选的编写辅助。新结构课程以 `authoring/n5-structures.tsv` 的显式语境键为编写源，使用 `scripts/compile_grammar.py` 编译为批次 JSON；CI 会检查二者一致。
 
-当前：323 个词、72 个知识点、571 道词句题、40 篇阅读、6 个入门模块。补充批含 42 个 N5 知识点，每项六个显式、不同正文的语境。阅读中 8 篇标记为 assessment，其余进入日常推荐或轻松阅读。
+当前：386 个词与常用数量表达、72 个知识点、634 道词句题、97 篇阅读、6 个入门模块。补充批含 42 个 N5 知识点，每项六个显式、不同正文的语境。阅读中 20 篇标记为 assessment，其余进入日常推荐或轻松阅读。
 
 新增记录须提供具体出处或明确标记为项目原创。`reference` 是核对入口，`translated` 是项目翻译，`adapted` 是改编，`sourceChecked` 仅表示已与出处对齐；这些状态均不能替代独立语言审校。本批没有独立专业审校记录。
 
@@ -17,3 +17,7 @@ PDX、いろどり、JMdict、たどくのひろば在本批作为核对或后�
 `reference/openjlpt-grammar.json` 固定 403 项 N5–N2 参考模式；`syllabus.json` 保留四级实际目标、覆盖映射和六项原版衔接要求。`scripts/audit_curriculum.py --require-complete` 只有所有阶段满足门槛才通过，当前会如实失败。规划清单、对应编号、实际编写和独立审校是不同状态。
 
 OpenJLPT 覆盖清单与新增 `002-n5-structures.json` 按 CC BY-SA 4.0 分别署名；后者的例句、规则和问题为项目原创。早期 Tae Kim 译编及项目内容保留 CC BY-NC-SA 3.0 US，不将不同许可合并为统一授权。OpenJLPT 的源版本、许可证与上游署名见 `manifest.json` 和 `licenses/OpenJLPT-*`；此批没有打包其词汇或 Tatoeba 例句。
+
+`authoring/n5-readings.tsv` 保存 56 篇 N5 阅读、1 篇替换泄露材料的 N4 检测和 6 个修复例句，由 `scripts/compile_readings.py` 编译。每个标记包含词形、注音和可选原形，未收录的原形保留空 itemID。`-` 专用于有注音的语法部分，`?` 专用于不能直接套用同形词义的专名；助词和辅助词尾不作为独立词语重复计数。
+
+`authoring/n5-reading-words.tsv` 保存显式词条、两个语境及辨义干扰项，由 `scripts/compile_words.py` 编译。数量表达用于阅读中的钟点、时长和次数区分，不按数字组合批量造词。A 记录仅列同一义项的其他读音；D 记录为孤立字形提供义项线索，例如「十分」的十分钟读音不与「充分」混用。三个编译器都必须通过 `--check`。

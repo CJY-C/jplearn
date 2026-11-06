@@ -22,6 +22,15 @@ def audit(pack, syllabus, reference):
     requirements = {f'{p["level"]}:{p["id"]}': p for p in reference["patterns"]}
     mappings = syllabus["grammarCoverage"]
     errors = []
+    heldout_ids = {sid for reading in pack["readings"] if reading.get("purpose") == "assessment" for sid in reading["sentenceIDs"]}
+    heldout_texts = {"".join(x["text"] for x in sentences[sid]["segments"]) for sid in heldout_ids}
+    practice_ids = {sid for item in pack["items"] for sid in item.get("exampleSentenceIDs", [])}
+    practice_ids.update(e["sentenceID"] for e in pack["exercises"])
+    practice_ids.update(sid for lesson in pack["lessons"] for sid in lesson["sentenceIDs"])
+    practice_ids.update(sid for reading in pack["readings"] if reading.get("purpose") != "assessment" for sid in reading["sentenceIDs"])
+    for sid in sorted(practice_ids):
+        if sid in heldout_ids or "".join(x["text"] for x in sentences[sid]["segments"]) in heldout_texts:
+            errors.append(f"Held-out sentence leaked to practice: {sid}")
     exercises = defaultdict(list)
     for exercise in pack["exercises"]: exercises[exercise["targetID"]].append(exercise)
     for key in mappings:

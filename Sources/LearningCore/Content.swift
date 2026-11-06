@@ -29,6 +29,8 @@ public struct KnowledgeItem: Codable, Identifiable {
     public let level: String
     public let text: String
     public let reading: String
+    public var acceptedReadings: [String]?
+    public var readingCue: String?
     public let romaji: String
     public let meaning: String
     public let explanation: String
@@ -219,6 +221,11 @@ public struct ContentPack: Codable {
             ($0.kind != "word" || !$0.reading.isEmpty) }) else {
             throw LearningError.invalid("词条内容或资料来源不完整。")
         }
+        guard items.allSatisfy({ item in
+            guard let alternatives = item.acceptedReadings else { return true }
+            return item.kind == "word" && !alternatives.isEmpty &&
+                unique(([item.reading] + alternatives).map { AnswerChecker.normalizeKana($0) })
+        }) else { throw LearningError.invalid("同一义项的其他读音无效。") }
         guard sentences.allSatisfy({ !$0.text.isEmpty && !$0.translation.isEmpty && $0.segments.allSatisfy {
             !$0.text.isEmpty && ($0.itemID == nil || itemIDs.contains($0.itemID!))
         } }) else { throw LearningError.invalid("例句标注不完整。") }
@@ -291,7 +298,8 @@ public enum AnswerChecker {
         return hiragana.precomposedStringWithCanonicalMapping
             .filter { !$0.isWhitespace }
     }
-    public static func matches(_ answer: String, reading: String) -> Bool {
-        !answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && normalizeKana(answer) == normalizeKana(reading)
+    public static func matches(_ answer: String, reading: String, alternatives: [String] = []) -> Bool {
+        !answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty &&
+            ([reading] + alternatives).contains { normalizeKana(answer) == normalizeKana($0) }
     }
 }

@@ -2,6 +2,7 @@
 """Compile explicitly keyed, human-editable grammar manuscripts into course batches.
 
 G: id, title, reading, romaji, meaning, rule, prerequisites, reference patterns.
+   An optional final field links a practice passage to the unit.
 C: target id, stable context key, ruby text, translation, prompt, answer,
    two distractors, explanation. TSV fields never contain literal tabs/newlines.
 No network, NLP, generated prose or inferred content IDs are used at build time.
@@ -26,11 +27,12 @@ def compile_manuscript(path, pack):
         fields = line.split("\t")
         try:
             if fields[0] == "G":
-                _, gid, title, reading, romaji, meaning, rule, required, patterns = fields
+                assert len(fields) in [9, 10], "expected 9 or 10 grammar fields"
+                _, gid, title, reading, romaji, meaning, rule, required, patterns = fields[:9]
                 assert gid not in groups, f"duplicate grammar: {gid}"
                 groups[gid] = dict(id=gid, title=title, reading=reading, romaji=romaji,
                     meaning=meaning, rule=rule, required=required.split(",") if required else [],
-                    patterns=patterns.split(","))
+                    patterns=patterns.split(","), passageID=fields[9] if len(fields) == 10 else None)
             elif fields[0] == "C":
                 _, gid, key, markup, translation, prompt, answer, wrong1, wrong2, note = fields
                 assert (gid, key) not in contexts, f"duplicate context: {gid}/{key}"
@@ -81,7 +83,7 @@ def compile_manuscript(path, pack):
             sourceIDs=["openjlpt", "projectopen"], status="trial", prerequisiteIDs=group["required"],
             citations=citations, exampleSentenceIDs=sids, tags=["structure", "n5-completion"], order=1000 + len(batch["items"])))
         batch["lessons"].append(dict(id="l" + gid, title=group["title"], subtitle=group["meaning"], level="N5",
-            itemIDs=[gid], sentenceIDs=sids, exerciseIDs=eids, readingID=None,
+            itemIDs=[gid], sentenceIDs=sids, exerciseIDs=eids, readingID=group["passageID"],
             prerequisiteIDs=[], objectives=[group["rule"]]))
         for pattern in group["patterns"]:
             coverage.setdefault(pattern, []).append(gid)

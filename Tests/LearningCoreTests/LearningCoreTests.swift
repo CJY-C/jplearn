@@ -28,6 +28,14 @@ final class LearningCoreTests: XCTestCase {
         XCTAssertNil(states[ReviewKey(itemID: "v0001", skill: .meaning)])
     }
 
+    func testEquivalentNumberReadingsDoNotAcceptDifferentMeanings() throws {
+        let word = try XCTUnwrap(ContentPack.bundled().item("vn5031"))
+        XCTAssertTrue(AnswerChecker.matches("ジップン", reading: word.reading, alternatives: word.acceptedReadings ?? []))
+        XCTAssertTrue(AnswerChecker.matches("じゅっぷん", reading: word.reading, alternatives: word.acceptedReadings ?? []))
+        XCTAssertFalse(AnswerChecker.matches("じゅうぶん", reading: word.reading, alternatives: word.acceptedReadings ?? []))
+        XCTAssertFalse(AnswerChecker.matches("", reading: word.reading, alternatives: word.acceptedReadings ?? []))
+    }
+
     func testAssistedRecallSchedulesAsFailure() throws {
         let scheduler = ReviewScheduler()
         let withHint = try scheduler.replay([review(grade: 4, assisted: true)])

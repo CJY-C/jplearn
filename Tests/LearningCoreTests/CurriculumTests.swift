@@ -12,7 +12,21 @@ final class CurriculumTests: XCTestCase {
         for task in tasks {
             if case .reading(let id) = task { XCTAssertFalse(heldOut.contains(id)) }
         }
-        XCTAssertEqual(heldOut.count, 8)
+        XCTAssertGreaterThanOrEqual(heldOut.count, 20)
+    }
+
+    func testPreparedLearnerCanReadNewPracticeWithoutInventingUnknownWordMastery() throws {
+        let pack = try ContentPack.bundled()
+        let history = pack.items.flatMap { item in item.skills.map {
+            LearningEvent(deviceID: UUID(), kind: .review, targetID: item.id, skill: $0, rating: 3)
+        } }
+        for reading in pack.readings where reading.id.hasPrefix("rn5") && reading.purpose == "practice" {
+            XCTAssertTrue(ReadingReadiness.assess(reading, pack: pack, events: history).isEligible, reading.id)
+        }
+        let names = try XCTUnwrap(pack.readings.first { $0.id == "rn5042" })
+        let readiness = ReadingReadiness.assess(names, pack: pack, events: history)
+        XCTAssertLessThan(readiness.percentage, 100)
+        XCTAssertTrue(readiness.unfamiliarWords.contains { $0.text == "森" && $0.itemID == nil })
     }
 
     func testLegacySingleQuestionAndCheckpointDecodeWithNewReader() throws {

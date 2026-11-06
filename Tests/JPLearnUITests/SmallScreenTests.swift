@@ -125,6 +125,20 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["这一项可以跳过"].waitForExistence(timeout: 5))
     }
 
+    @MainActor func testNewN5NoticeKeepsBothQuestionActionsVisible() {
+        launch(readingID: "rn5053")
+        app.buttons["today.start"].tap()
+        for index in 1...2 {
+            XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
+            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            screenshot("SE3-N5-Notice-Question\(index)")
+            app.buttons["study.choice.0"].tap()
+            visible(app.buttons["study.continue"])
+            app.buttons["study.continue"].tap()
+        }
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
     @MainActor func testLongReadingKeepsCoverageAndAnswerControlsVisible() {
         launch(longReading: true)
         app.buttons["today.start"].tap()

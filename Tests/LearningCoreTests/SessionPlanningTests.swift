@@ -128,12 +128,17 @@ final class SessionPlanningTests: XCTestCase {
         XCTAssertEqual(Set(result.missingGrammarIDs), Set(reading.grammarIDs!))
     }
 
-    func testExpandedLongReadingsCanBeUnlockedByBundledCurriculum() throws {
+    func testReadinessCountsBundledAndOutsideOccurrencesInAllPassages() throws {
         let pack = try ContentPack.bundled()
         for reading in pack.readings {
             let readiness = ReadingReadiness.assess(reading, pack: pack, events: prepared(pack))
-            XCTAssertTrue(readiness.isEligible, reading.id)
-            XCTAssertEqual(readiness.percentage, 100)
+            if reading.purpose != "assessment" { XCTAssertTrue(readiness.isEligible, reading.id) }
+            let known = (reading.vocabulary ?? []).filter { $0.itemID != nil }.count
+            let total = reading.vocabulary?.count ?? 0
+            XCTAssertEqual(readiness.knownOccurrences, known, reading.id)
+            XCTAssertEqual(readiness.totalOccurrences, total, reading.id)
+            if known == total { XCTAssertEqual(readiness.percentage, 100) }
+            else { XCTAssertLessThan(readiness.percentage, 100) }
         }
     }
 

@@ -178,10 +178,16 @@ private struct RecallCard: View {
                 }
                 Text(item.text).font(.system(size: compact ? wordSize * 0.81 : wordSize, weight: .medium))
                     .minimumScaleFactor(0.75).lineLimit(2)
+                if skill == .reading && !revealed, let cue = item.readingCue {
+                    Text(cue).font(.subheadline).foregroundColor(.secondary)
+                }
                 if skill == .meaning || revealed {
                     HStack(spacing: 8) {
                         VStack(alignment: .leading, spacing: 3) {
                             Text(item.reading).font(.title3).foregroundColor(.secondary)
+                            if revealed, let alternatives = item.acceptedReadings, !alternatives.isEmpty {
+                                Text("也读作：" + alternatives.joined(separator: "、")).font(.caption).foregroundColor(.secondary)
+                            }
                             if revealed && showRomaji && !item.romaji.isEmpty { Text(item.romaji).font(.caption).foregroundColor(.secondary) }
                         }
                         Spacer()
@@ -236,7 +242,7 @@ private struct RecallCard: View {
     private func reveal(checkTyped: Bool = true) {
         typing = false
         if checkTyped && skill == .reading && !answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-            typedCorrect = AnswerChecker.matches(answer, reading: item.reading)
+            typedCorrect = AnswerChecker.matches(answer, reading: item.reading, alternatives: item.acceptedReadings ?? [])
             if typedCorrect == false { onAssistance() }
         }
         revealed = true

@@ -117,8 +117,11 @@ class ContentTests(unittest.TestCase):
             self.assertTrue(reading["grammarIDs"], reading["id"])
             for word in words:
                 self.assertTrue(word["text"])
-                self.assertIsNotNone(word["itemID"], (reading["id"], word))
-                self.assertEqual(self.groups["items"][word["itemID"]]["text"], word["text"])
+                if word["itemID"] is not None:
+                    self.assertEqual(self.groups["items"][word["itemID"]]["text"], word["text"])
+                else:
+                    self.assertNotIn(word["text"], ["?", "-"])
+                    self.assertTrue(reading["id"].startswith(("rn5", "rn4")), (reading["id"], word))
             for identifier in reading["grammarIDs"]:
                 self.assertEqual(self.groups["items"][identifier]["kind"], "grammar")
             linked = Counter(segment["itemID"] for sid in reading["sentenceIDs"]

@@ -59,6 +59,9 @@ struct ItemDetailView: View {
                 Text(item.text).font(.largeTitle)
                 if !item.reading.isEmpty { Text(item.reading).font(.title3).foregroundColor(.secondary) }
                 if showRomaji && !item.romaji.isEmpty { Text(item.romaji).foregroundColor(.secondary) }
+                if let alternatives = item.acceptedReadings, !alternatives.isEmpty {
+                    Text("也读作：" + alternatives.joined(separator: "、")).font(.callout).foregroundColor(.secondary)
+                }
                 Text(item.meaning).font(.headline)
                 if let partOfSpeech = item.partOfSpeech {
                     Text(partOfSpeech + ((item.register ?? "一般") == "一般" ? "" : " · " + (item.register ?? "")))

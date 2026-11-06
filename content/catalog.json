@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -65,6 +65,12 @@
       "license": "CC BY-SA 4.0",
       "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
       "attribution": "新增中文规则、例句、题目与解析为项目原创；未独立语言审校。与早期 CC BY-NC-SA 内容分别署名。"
+    },
+    {
+      "id": "numberreadings",
+      "title": "东京书籍：十与量词组合的两种读音",
+      "url": "https://faq.tokyo-shoseki.co.jp/fa/customer/web/knowledge8248.html",
+      "attribution": "东京书籍小学国语教材 FAQ；仅核对读音事实，未打包教材或网页正文。"
     }
   ],
   "stages": [
