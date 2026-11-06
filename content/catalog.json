@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -71,6 +71,30 @@
       "title": "东京书籍：十与量词组合的两种读音",
       "url": "https://faq.tokyo-shoseki.co.jp/fa/customer/web/knowledge8248.html",
       "attribution": "东京书籍小学国语教材 FAQ；仅核对读音事实，未打包教材或网页正文。"
+    },
+    {
+      "id": "tufsgrammar",
+      "title": "东京外国語大学：日本语文法模块",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/083.html",
+      "attribution": "东京外国語大学；仅核对语法事实并链接具体章节，未复制网页正文、插图或例句。"
+    },
+    {
+      "id": "jpfgrammar",
+      "title": "国際交流基金：文法を楽しく",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/backnumber.html",
+      "attribution": "国際交流基金；仅核对语法事实并链接具体章节，未复制网页正文、插图或例句。"
+    },
+    {
+      "id": "tufskeigo",
+      "title": "东京外国语大学：敬语中的人物关系",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents_m/explanation/092.html",
+      "attribution": "东京外国语大学；仅核对语法事实并链接具体章节，未复制网页正文、插图或例句。"
+    },
+    {
+      "id": "ninjaloki",
+      "title": "国立国語研究所：おき的间隔与单位",
+      "url": "https://mmsrv.ninjal.ac.jp/kamus/data/item2507.html",
+      "attribution": "国立国語研究所日本語・インドネシア語辞典；仅核对语法事实，未复制词典正文或例句。"
     }
   ],
   "stages": [

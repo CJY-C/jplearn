@@ -9485,19 +9485,9 @@
           "itemID": null
         },
         {
-          "text": "電話",
-          "reading": "でんわ",
-          "itemID": "v0155"
-        },
-        {
-          "text": "に",
-          "reading": null,
-          "itemID": null
-        },
-        {
-          "text": "出",
-          "reading": "で",
-          "itemID": null
+          "text": "電話に出",
+          "reading": "でんわにで",
+          "itemID": "vn4438"
         },
         {
           "text": "ません。",
@@ -12697,7 +12687,7 @@
         {
           "text": "カード",
           "reading": "かーど",
-          "itemID": null
+          "itemID": "vn4417"
         },
         {
           "text": "も",

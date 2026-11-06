@@ -3059,19 +3059,9 @@
           "itemID": null
         },
         {
-          "text": "電話",
-          "reading": "でんわ",
-          "itemID": "v0155"
-        },
-        {
-          "text": "にも",
-          "reading": null,
-          "itemID": null
-        },
-        {
-          "text": "出",
-          "reading": "で",
-          "itemID": null
+          "text": "電話にも出",
+          "reading": "でんわにもで",
+          "itemID": "vn4438"
         },
         {
           "text": "ないので、",
@@ -3796,7 +3786,7 @@
         {
           "text": "出",
           "reading": "で",
-          "itemID": null
+          "itemID": "vn4438"
         },
         {
           "text": "られなかったので、",
@@ -8925,12 +8915,8 @@
           "itemID": "vn5204"
         },
         {
-          "text": "電話",
-          "itemID": "v0155"
-        },
-        {
-          "text": "出る（応答）",
-          "itemID": null
+          "text": "電話に出る",
+          "itemID": "vn4438"
         },
         {
           "text": "留守",
@@ -9053,12 +9039,8 @@
               "itemID": "vn5204"
             },
             {
-              "text": "電話",
-              "itemID": "v0155"
-            },
-            {
-              "text": "出る（応答）",
-              "itemID": null
+              "text": "電話に出る",
+              "itemID": "vn4438"
             },
             {
               "text": "留守",
@@ -9566,8 +9548,8 @@
           "itemID": "vn5305"
         },
         {
-          "text": "出る（応答）",
-          "itemID": null
+          "text": "電話に出る",
+          "itemID": "vn4438"
         },
         {
           "text": "会議",
@@ -9658,8 +9640,8 @@
               "itemID": "vn5305"
             },
             {
-              "text": "出る（応答）",
-              "itemID": null
+              "text": "電話に出る",
+              "itemID": "vn4438"
             },
             {
               "text": "会議",

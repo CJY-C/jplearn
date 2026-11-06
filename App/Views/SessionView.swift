@@ -281,7 +281,9 @@ private struct StructureCard: View {
     private var usedHelp: Bool { assisted || previouslyAssisted }
 
     var body: some View {
-        StudyCardLayout(scrolling: showHint || choice != nil) { compact in
+        // Examples can also overflow at large text sizes before a hint is opened.
+        // Short examples fit without a gesture; only the upper area can scroll.
+        StudyCardLayout(scrolling: true) { compact in
             VStack(alignment: .leading, spacing: compact ? 10 : 16) {
                 Text(exercise.transfer ? "换个句子试试" : "读懂句子").font(.caption.weight(.medium)).foregroundColor(.secondary)
                 RubyText(segments: sentence.segments) { lookup($0) }

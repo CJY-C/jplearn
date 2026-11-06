@@ -3469,6 +3469,106 @@
         "svn5604b"
       ],
       "order": 2103
+    },
+    {
+      "id": "vn6501",
+      "kind": "word",
+      "level": "N5",
+      "text": "階",
+      "reading": "かい",
+      "romaji": "kai",
+      "meaning": "楼层的计数单位",
+      "explanation": "本单元义项：楼层的计数单位。通过两个不同语境辨认；其他义项须结合上下文。\n階用于楼层；回かい用于次数。组合读音要连同数字核对，一階いっかい有促音，三階常读さんがい。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "助数词",
+      "sense": "楼层的计数单位",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6501；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn6501a",
+        "svn6501b"
+      ],
+      "order": 2104
+    },
+    {
+      "id": "vn6502",
+      "kind": "word",
+      "level": "N5",
+      "text": "一階",
+      "reading": "いっかい",
+      "romaji": "ikkai",
+      "meaning": "一楼；地面层（常用数量表达）",
+      "explanation": "本单元义项：一楼；地面层（常用数量表达）。通过两个不同语境辨认；其他义项须结合上下文。\n常用不规则读法いっかい，不读いちかい；与同音的一回（一次）区分。本课程不批量生成所有楼层组合。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "数量表达",
+      "sense": "一楼；地面层（常用数量表达）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6502；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn6502a",
+        "svn6502b"
+      ],
+      "order": 2105
+    },
+    {
+      "id": "vn6503",
+      "kind": "word",
+      "level": "N5",
+      "text": "四時",
+      "reading": "よじ",
+      "romaji": "yoji",
+      "meaning": "四点（钟点）",
+      "explanation": "本单元义项：四点（钟点）。通过两个不同语境辨认；其他义项须结合上下文。\n钟点四時读よじ，不读よんじ；四小时则是四時間よじかん。本条不把同字的“四季”义读音并入钟点读音。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "数量表达",
+      "sense": "四点（钟点）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6503；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn6503a",
+        "svn6503b"
+      ],
+      "order": 2106,
+      "readingCue": "表示钟点的数量表达"
     }
   ],
   "sentences": [
@@ -13351,6 +13451,291 @@
           "status": "original"
         }
       ]
+    },
+    {
+      "id": "svn6501a",
+      "segments": [
+        {
+          "text": "教室",
+          "reading": "きょうしつ",
+          "itemID": "v0189"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二",
+          "reading": "に",
+          "itemID": "vn5502"
+        },
+        {
+          "text": "階",
+          "reading": "かい",
+          "itemID": "vn6501"
+        },
+        {
+          "text": "にあります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "教室在二楼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6501；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn6501b",
+      "segments": [
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "五",
+          "reading": "ご",
+          "itemID": "vn5505"
+        },
+        {
+          "text": "階",
+          "reading": "かい",
+          "itemID": "vn6501"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "エレベーター",
+          "reading": "えれべーたー",
+          "itemID": "vn5362"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "房间在五楼，会使用电梯。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6501；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn6502a",
+      "segments": [
+        {
+          "text": "食堂",
+          "reading": "しょくどう",
+          "itemID": "v0188"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一階",
+          "reading": "いっかい",
+          "itemID": "vn6502"
+        },
+        {
+          "text": "にあります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "食堂在一楼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6502；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn6502b",
+      "segments": [
+        {
+          "text": "一階",
+          "reading": "いっかい",
+          "itemID": "vn6502"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在一楼入口等了朋友。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6502；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn6503a",
+      "segments": [
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "四時",
+          "reading": "よじ",
+          "itemID": "vn6503"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0104"
+        },
+        {
+          "text": "まります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "会议下午四点开始。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6503；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn6503b",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "四時",
+          "reading": "よじ",
+          "itemID": "vn6503"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "にいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天在图书馆待到了四点。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6503；未独立语言审校",
+          "status": "original"
+        }
+      ]
     }
   ],
   "exercises": [
@@ -15968,6 +16353,81 @@
           "status": "original"
         }
       ]
+    },
+    {
+      "id": "evn6501a",
+      "targetID": "vn6501",
+      "sentenceID": "svn6501b",
+      "skill": "meaning",
+      "prompt": "句中「階」表示什么？",
+      "choices": [
+        "回数单位",
+        "纸张计数单位",
+        "楼层的计数单位"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「楼层的计数单位」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "階",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6501；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn6502a",
+      "targetID": "vn6502",
+      "sentenceID": "svn6502b",
+      "skill": "meaning",
+      "prompt": "句中「一階」表示什么？",
+      "choices": [
+        "一次",
+        "十楼",
+        "一楼；地面层（常用数量表达）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「一楼；地面层（常用数量表达）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "いっかい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "一階",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6502；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn6503a",
+      "targetID": "vn6503",
+      "sentenceID": "svn6503b",
+      "skill": "meaning",
+      "prompt": "句中「四時」表示什么？",
+      "choices": [
+        "四小时",
+        "下午的全部时段",
+        "四点（钟点）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「四点（钟点）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "よじ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "四時",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn6503；未独立语言审校",
+          "status": "original"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -16189,7 +16649,10 @@
         "vn5544",
         "vn5545",
         "vn5546",
-        "vn5547"
+        "vn5547",
+        "vn6501",
+        "vn6502",
+        "vn6503"
       ],
       "sentenceIDs": [
         "svn5538a",
@@ -16211,7 +16674,13 @@
         "svn5546a",
         "svn5546b",
         "svn5547a",
-        "svn5547b"
+        "svn5547b",
+        "svn6501a",
+        "svn6501b",
+        "svn6502a",
+        "svn6502b",
+        "svn6503a",
+        "svn6503b"
       ],
       "exerciseIDs": [
         "evn5538a",
@@ -16223,7 +16692,10 @@
         "evn5544a",
         "evn5545a",
         "evn5546a",
-        "evn5547a"
+        "evn5547a",
+        "evn6501a",
+        "evn6502a",
+        "evn6503a"
       ],
       "readingID": null,
       "prerequisiteIDs": [],

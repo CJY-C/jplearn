@@ -125,6 +125,45 @@ final class SmallScreenTests: XCTestCase {
         visible(app.buttons["study.continue"])
     }
 
+    @MainActor func testLongN4SentenceScrollsBeforeHintAboveFixedChoices() {
+        launch(exerciseID: "egn470e", largeText: true)
+        app.buttons["today.start"].tap()
+        let scroll = app.scrollViews["study.textScroll"]
+        XCTAssertTrue(scroll.waitForExistence(timeout: 5))
+        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        let fixed = app.buttons["study.choice.0"].frame
+        let sentence = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "眠れなくて困りましたが")).firstMatch
+        XCTAssertTrue(sentence.waitForExistence(timeout: 5))
+        let originalY = sentence.frame.minY
+        let origin = app.coordinate(withNormalizedOffset: .zero)
+        let start = origin.withOffset(CGVector(dx: app.frame.midX, dy: fixed.minY - 18))
+        let end = origin.withOffset(CGVector(dx: app.frame.midX, dy: 170))
+        start.press(forDuration: 0.1, thenDragTo: end)
+        XCTAssertLessThan(sentence.frame.minY, originalY - 5)
+        XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
+        visible(app.buttons["study.hintButton"])
+        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        screenshot("SE3-N4-LongSentence-LargeText")
+        app.buttons["study.choice.0"].tap()
+        visible(app.buttons["study.continue"])
+    }
+
+    @MainActor func testNewN4NoticeKeepsQuantityAndDeadlineQuestionsVisible() {
+        launch(readingID: "rn4120", largeText: true)
+        app.buttons["today.start"].tap()
+        XCTAssertTrue(app.staticTexts["study.readingCoverage"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["study.readingCoverage"].label.contains("100%"))
+        for index in 1...2 {
+            XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
+            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            screenshot("SE3-N4-Notice-LargeText-Question\(index)")
+            app.buttons["study.choice.0"].tap()
+            visible(app.buttons["study.continue"])
+            app.buttons["study.continue"].tap()
+        }
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
     @MainActor func testN4VoiceReadingKeepsBothQuestionActionsVisible() {
         launch(readingID: "rn4020")
         app.buttons["today.start"].tap()

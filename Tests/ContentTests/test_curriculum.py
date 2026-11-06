@@ -174,12 +174,14 @@ class CurriculumDeliveryTests(unittest.TestCase):
             self.assertEqual(batch, json.loads(path.read_text()), path.name)
 
     def test_new_n4_batches_keep_their_level_and_actual_contexts(self):
-        for name in ["011-n4-structures.json", "012-n4-reading-vocabulary.json"]:
-            batch = json.loads((ROOT / "content/batches" / name).read_text())
-            self.assertTrue(all(i["level"] == "N4" for i in batch["items"] + batch["lessons"]))
+        for record in compile_course.entries():
+            if not record["source"].startswith("n4-"): continue
+            batch = json.loads((ROOT / "content/batches" / record["batch"]).read_text())
+            self.assertTrue(all(i["level"] == "N4" for i in batch.get("items", []) + batch.get("lessons", [])), record["source"])
         result = audit(self.pack, self.syllabus, self.reference)
         n4 = result["stages"][1]
-        self.assertGreaterEqual(n4["grammarPatterns"]["covered"], 37)
+        self.assertEqual(n4["grammarPatterns"]["covered"], 98)
+        self.assertEqual(n4["grammarPatterns"]["missing"], [])
         self.assertEqual(n4["required"]["words"], 1000)
         self.assertEqual(n4["required"]["readings"], 100)
         self.assertFalse(result["errors"])
@@ -195,6 +197,54 @@ class CurriculumDeliveryTests(unittest.TestCase):
                     (compile_manuscript, "H\tN4\nH\tN3")]:
                 path.write_text(content)
                 with self.assertRaises(ValueError): compiler(path, self.pack)
+
+    def test_additional_grammar_references_propagate_and_reject_unknown_sources(self):
+        path = ROOT / "content/authoring/n4-completion-structures.tsv"
+        batch, _ = compile_manuscript(path, self.pack)
+        unit = next(i for i in batch["items"] if i["id"] == "gn439")
+        self.assertIn("tufsgrammar", unit["sourceIDs"])
+        related = [e for e in batch["exercises"] if e["targetID"] == unit["id"]]
+        sentences = {e["sentenceID"] for e in related}
+        for record in [unit] + related + [s for s in batch["sentences"] if s["id"] in sentences]:
+            citation = next(c for c in record["citations"] if c["sourceID"] == "tufsgrammar")
+            self.assertEqual(citation["status"], "reference")
+            self.assertIn("083.html", citation["locator"])
+        with tempfile.TemporaryDirectory() as directory:
+            bad = Path(directory) / "grammar.tsv"
+            for suffix, error in [
+                ("B\tgn439\tmissing-source\tlocation\n", "Unknown grammar reference source"),
+                ("B\tmissing-unit\ttufsgrammar\tlocation\n", "orphan grammar reference")]:
+                bad.write_text(path.read_text() + suffix)
+                with self.assertRaisesRegex(AssertionError, error): compile_manuscript(bad, self.pack)
+
+    def test_controlled_n4_readings_are_teachable_and_link_each_new_structure(self):
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith("rn41")}
+        self.assertEqual(len(readings), 20)
+        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 4)
+        for reading in readings.values():
+            self.assertEqual(len(reading["paragraphs"]), 2)
+            self.assertEqual(len(reading["questions"]), 2)
+            self.assertGreaterEqual(len(reading["sentenceIDs"]), 6)
+            self.assertTrue(all(w["itemID"] is not None for w in reading["vocabulary"]), reading["id"])
+        for n in range(434, 495):
+            unit = f"gn{n}"
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + unit)
+            reading = readings[lesson["readingID"]]
+            self.assertEqual(reading["purpose"], "practice")
+            self.assertIn(unit, reading["grammarIDs"])
+
+    def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        phone = next(i for i in items.values() if i["text"] == "電話に出る")
+        exit_word = next(i for i in items.values() if i["text"] == "出る")
+        self.assertNotEqual(phone["id"], exit_word["id"])
+        self.assertEqual(exit_word["meaning"], "出去；离开")
+        for sid in ["sgn530e", "sgn417d", "rn4011s2", "rn4013s3"]:
+            sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
+            self.assertTrue(any(s["itemID"] == phone["id"] for s in sentence["segments"]), sid)
+            self.assertFalse(any(s["itemID"] == exit_word["id"] for s in sentence["segments"]), sid)
+        departure = next(s for s in self.pack["sentences"] if s["id"] == "rn4007s1")
+        self.assertTrue(any(s["itemID"] == exit_word["id"] for s in departure["segments"]))
 
     def test_registry_cannot_silently_omit_a_new_manuscript(self):
         with tempfile.TemporaryDirectory() as directory:

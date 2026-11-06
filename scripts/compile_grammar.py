@@ -6,6 +6,7 @@ G: id, title, reading, romaji, meaning, rule, prerequisites, reference patterns.
    An optional final field links a practice passage to the unit.
 C: target id, stable context key, ruby text, translation, prompt, answer,
    two distractors, explanation. TSV fields never contain literal tabs/newlines.
+B: target id, additional reference source id, precise reference locator.
 No network, NLP, generated prose or inferred content IDs are used at build time.
 """
 import argparse
@@ -23,7 +24,7 @@ KANJI = re.compile(r"[一-龯]")
 
 def compile_manuscript(path, pack):
     words = {w["text"]: w for w in pack["items"] if w["kind"] == "word"}
-    groups, contexts = {}, {}
+    groups, contexts, bibliography = {}, {}, {}
     level, has_header = "N5", False
     for line_number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
@@ -31,7 +32,7 @@ def compile_manuscript(path, pack):
         try:
             if fields[0] == "H":
                 _, level = fields
-                assert not has_header and not groups and not contexts
+                assert not has_header and not groups and not contexts and not bibliography
                 assert level in ("N5", "N4", "N3", "N2")
                 has_header = True
             elif fields[0] == "G":
@@ -46,10 +47,19 @@ def compile_manuscript(path, pack):
                 assert (gid, key) not in contexts, f"duplicate context: {gid}/{key}"
                 contexts[(gid, key)] = dict(markup=markup, translation=translation, prompt=prompt,
                     choices=[answer, wrong1, wrong2], answer=answer, note=note)
-            else: raise ValueError("expected H, G or C record")
+            elif fields[0] == "B":
+                _, gid, source, locator = fields
+                assert source and locator
+                entry = dict(sourceID=source, locator=locator, status="reference")
+                assert entry not in bibliography.setdefault(gid, [])
+                bibliography[gid].append(entry)
+            else: raise ValueError("expected H, G, C or B record")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{line_number}: {error}") from error
     assert all(gid in groups for gid, _ in contexts), "orphan context"
+    assert bibliography.keys() <= groups.keys(), "orphan grammar reference"
+    known_sources = {r["id"] for r in pack.get("references", [])}
+    assert all(c["sourceID"] in known_sources for refs in bibliography.values() for c in refs), "Unknown grammar reference source"
     batch = {key: [] for key in ["items", "sentences", "exercises", "lessons"]}
     coverage = {}
     for gid, group in groups.items():
@@ -58,6 +68,7 @@ def compile_manuscript(path, pack):
         assert len({v["markup"] for _, v in examples}) == len(examples), gid
         citations = [dict(sourceID="openjlpt", locator=f"grammar/{level.lower()}: " + ", ".join(group["patterns"]), status="reference"),
             dict(sourceID="projectopen", locator=f"原创中文规则、例句及题目 {gid}；未独立语言审校", status="original")]
+        citations.extend(bibliography.get(gid, []))
         sids, eids = [], []
         for key, context in examples:
             sid, eid = "s" + gid + key, "e" + gid + key
@@ -87,7 +98,7 @@ def compile_manuscript(path, pack):
             sids.append(sid); eids.append(eid)
         batch["items"].append(dict(id=gid, kind="grammar", level=level, text=group["title"],
             reading=group["reading"], romaji=group["romaji"], meaning=group["meaning"], explanation=group["rule"],
-            sourceIDs=["openjlpt", "projectopen"], status="trial", prerequisiteIDs=group["required"],
+            sourceIDs=list(dict.fromkeys(c["sourceID"] for c in citations)), status="trial", prerequisiteIDs=group["required"],
             citations=citations, exampleSentenceIDs=sids, tags=["structure", level.lower() + "-completion"], order=1000 + len(batch["items"])))
         batch["lessons"].append(dict(id="l" + gid, title=group["title"], subtitle=group["meaning"], level=level,
             itemIDs=[gid], sentenceIDs=sids, exerciseIDs=eids, readingID=group["passageID"],
