@@ -40,6 +40,23 @@ def compile_all():
     # Compile from authored/static records; stale managed JSON must not provide
     # phantom targets or prevent regeneration. All replacements validate later.
     index = make_pack(overrides={ROOT / "content/batches" / r["batch"]: {} for r in records})
+    # Explicit sense references may point to a later manuscript. Seed every
+    # declared word before compiling examples, so file order cannot pick a sense.
+    for record in records:
+        if record["kind"] != "word": continue
+        declared = {}
+        fields = [line.split("\t") for line in (ROOT / "content/authoring" / record["source"]).read_text().splitlines()
+                  if line and not line.startswith("#")]
+        for row in fields:
+            if row[0] == "W":
+                _, wid, text, reading, _, meaning, *_ = row
+                assert wid not in declared, f"Duplicate word declaration: {wid}"
+                declared[wid] = dict(id=wid, kind="word", text=text, reading=reading, meaning=meaning)
+        for row in fields:
+            if row[0] == "A": declared[row[1]]["acceptedReadings"] = row[2].split(",")
+            if row[0] == "G": declared[row[1]]["lexemeID"] = row[2]
+        assert not {w["id"] for w in index["items"]} & declared.keys(), "Duplicate authored word ID"
+        index["items"].extend(declared.values())
     outputs = {}
 
     def compile_one(record):

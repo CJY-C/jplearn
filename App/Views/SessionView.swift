@@ -168,9 +168,14 @@ private struct RecallCard: View {
     @ScaledMetric(relativeTo: .largeTitle) private var wordSize: CGFloat = 42
     private var needsAgain: Bool { assisted || previouslyAssisted || typedCorrect == false }
     private var hasLongExplanation: Bool { revealed && (item.explanation.count > 80 || item.meaning.count > 28) }
+    private var senseContext: AnnotatedSentence? {
+        guard skill == .meaning, model.pack.hasSenseVariants(item),
+              let id = item.exampleSentenceIDs?.first else { return nil }
+        return model.pack.sentence(id)
+    }
 
     var body: some View {
-        StudyCardLayout(scrolling: hasLongExplanation) { compact in
+        StudyCardLayout(scrolling: hasLongExplanation || senseContext != nil) { compact in
             VStack(alignment: .leading, spacing: compact ? 10 : 16) {
                 HStack {
                     Text(skill.title).font(.caption.weight(.medium)).foregroundColor(.secondary)
@@ -195,6 +200,11 @@ private struct RecallCard: View {
                         if revealed { speechButton(slow: false); speechButton(slow: true) }
                     }
                 }
+                if let context = senseContext {
+                    RubyText(segments: context.segments)
+                        .accessibilityIdentifier("study.senseContext")
+                        .accessibilityHint("根据例句回想这个用法的词义")
+                }
                 if revealed {
                     Divider().padding(.vertical, 2)
                     Text(item.meaning).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
@@ -204,7 +214,7 @@ private struct RecallCard: View {
                             .font(.caption).foregroundColor(.accentColor)
                     }
                 } else {
-                    Text(skill == .reading ? "这个词怎么读？" : "这个词是什么意思？").font(.headline)
+                    Text(skill == .reading ? "这个词怎么读？" : (senseContext == nil ? "这个词是什么意思？" : "句中这个词是什么意思？")).font(.headline)
                     if skill == .reading {
                         TextField("输入假名（可选）", text: $answer)
                             .padding(12).background(Color(UIColor.secondarySystemBackground))

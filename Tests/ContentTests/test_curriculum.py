@@ -9,7 +9,8 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
 from audit_curriculum import audit
-from build_content import make_pack
+from build_content import make_pack, report, validate
+from word_links import validate_lexemes, word_lookup
 from compile_grammar import compile_manuscript
 from compile_readings import compile_manuscript as compile_readings, markup_sentence
 from compile_words import compile_manuscript as compile_words
@@ -22,6 +23,47 @@ class CurriculumDeliveryTests(unittest.TestCase):
         cls.pack = make_pack()
         cls.syllabus = json.loads((ROOT / "content/syllabus.json").read_text())
         cls.reference = json.loads((ROOT / "content/reference/openjlpt-grammar.json").read_text())
+
+    def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
+        targets = [w for w in self.pack["items"] if w["kind"] == "word"]
+        senses = [w for w in targets if w.get("lexemeID")]
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963"})
+        expected = len({w.get("lexemeID") or w["id"] for w in targets})
+        self.assertEqual(report(self.pack)["words"], expected)
+        self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
+        result = audit(self.pack, self.syllabus, self.reference)
+        self.assertEqual(sum(s["actual"]["words"] for s in result["stages"]), expected)
+        self.assertEqual(result["stages"][1]["required"]["words"], 1000)
+        for sense in senses:
+            self.assertEqual(sense["readingOwnerID"], sense["lexemeID"])
+        for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963")]:
+            sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
+            self.assertTrue(any(s["itemID"] == wid for s in sentence["segments"]), sid)
+
+    def test_ambiguous_forms_require_explicit_ids_in_either_index_order(self):
+        for items in (self.pack["items"], list(reversed(self.pack["items"]))):
+            words = word_lookup(items)
+            _, occurrences = markup_sentence("[抜|ぬ|@vn4869]ける。[抜|ぬ|@vn4960]ける。[抜|ぬ|@vn4961]ける。", words)
+            self.assertEqual([w["itemID"] for w in occurrences], ["vn4869", "vn4960", "vn4961"])
+            with self.assertRaisesRegex(ValueError, "Ambiguous word reference"):
+                markup_sentence("[抜|ぬ|抜ける]ける。", words)
+            with self.assertRaisesRegex(ValueError, "Unknown explicit word reference"):
+                markup_sentence("[抜|ぬ|@missing-word]ける。", words)
+
+    def test_sense_associations_reject_invalid_owners_and_different_reading_constraints(self):
+        owner = dict(id="physical", kind="word", text="抱く", reading="だく", acceptedReadings=["いだく"], meaning="身体拥抱")
+        sense = dict(id="abstract", kind="word", text="抱く", reading="いだく", meaning="怀有想法", lexemeID="physical")
+        validate_lexemes([owner, sense])
+        with self.assertRaisesRegex(AssertionError, "different reading constraints"):
+            validate_lexemes([owner, dict(sense, readingOwnerID="physical")])
+        for bad in [dict(sense, lexemeID="missing"), dict(sense, lexemeID="abstract"),
+                    dict(sense, lexemeID=""), dict(sense, text="違う語"), dict(sense, reading="なまもの"),
+                    dict(sense, meaning=owner["meaning"])]:
+            with self.assertRaises(AssertionError): validate_lexemes([owner, bad])
+        broken = copy.deepcopy(self.pack)
+        item = next(w for w in broken["items"] if w["id"] == "vn4960")
+        item["exampleSentenceIDs"] = next(w for w in broken["items"] if w["id"] == "vn4869")["exampleSentenceIDs"]
+        with self.assertRaisesRegex(AssertionError, "different meaning"): validate(broken)
 
     def test_full_goal_is_not_shrunk_to_the_delivered_batch(self):
         requirements = self.syllabus["levels"]
@@ -225,9 +267,9 @@ class CurriculumDeliveryTests(unittest.TestCase):
                 with self.assertRaisesRegex(AssertionError, error): compile_manuscript(bad, self.pack)
 
     def test_controlled_n4_readings_are_teachable_and_link_each_new_structure(self):
-        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith(("rn41", "rn42"))}
-        self.assertEqual(len(readings), 32)
-        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 7)
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith(("rn41", "rn42", "rn43"))}
+        self.assertEqual(len(readings), 42)
+        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 10)
         for reading in readings.values():
             self.assertEqual(len(reading["paragraphs"]), 2)
             self.assertEqual(len(reading["questions"]), 2)

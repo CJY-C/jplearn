@@ -110,7 +110,7 @@ public enum SessionPlanner {
             }.sorted(by: comesFirst).prefix(wordSlots)
             // Separate the two skills with other words instead of showing the same word twice in succession.
             for skill in [Skill.reading, .meaning] {
-                for item in unfinishedWords + Array(newWords) where cards[ReviewKey(itemID: item.id, skill: skill)] == nil {
+                for item in unfinishedWords + Array(newWords) where item.skills.contains(skill) && cards[ReviewKey(itemID: item.id, skill: skill)] == nil {
                     tasks.append(.recall(ReviewKey(itemID: item.id, skill: skill)))
                 }
             }

@@ -30,10 +30,12 @@ struct SettingsView: View {
         Form {
             Section(header: Text("学习节奏")) {
                 Stepper("每天约 \(minutes) 分钟", value: $minutes, in: 5...60, step: 5)
-                Stepper("每天最多 \(dailyNewWords) 个新词", value: $dailyNewWords, in: 5...20, step: 5)
+                Stepper("每天最多 \(dailyNewWords) 项新词义", value: $dailyNewWords, in: 5...20, step: 5)
                 Text("按实际学习时间完成目标。学习页在前台时计时，暂停、锁屏或离开时停止；同一天的多轮学习会累计。")
                     .font(.caption).foregroundColor(.secondary)
                 Text("到期复习优先，每天最多引入 2 个新表达。没有合适内容时结束安排，不用重复阅读凑满时间。")
+                    .font(.caption).foregroundColor(.secondary)
+                Text("新词义包括新词和已学词的新用法；相同字形的不同用法会配例句区分，读音完全相同时不重复引入。")
                     .font(.caption).foregroundColor(.secondary)
             }
             Section(header: Text("日语显示")) {
@@ -77,7 +79,7 @@ struct SettingsView: View {
             }
             Section(header: Text("关于")) {
                 Text("日语拾阶 · \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
-                Text("课程 \(model.pack.version) · \(model.pack.items.filter { $0.kind == "word" }.count) 个词 · \(model.pack.lessons.count) 个单元")
+                Text("课程 \(model.pack.version) · \(model.pack.wordCount) 个词 · \(model.pack.lessons.count) 个单元")
                     .font(.callout).foregroundColor(.secondary)
                 Text(model.pack.notice).font(.caption).foregroundColor(.secondary)
                 NavigationLink("学习方法与参考资料", destination: AboutView())

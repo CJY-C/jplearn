@@ -16,14 +16,14 @@ import re
 from pathlib import Path
 
 from build_content import ROOT, make_pack
-from word_links import resolve_word
+from word_links import resolve_word, word_lookup
 
 RUBY = re.compile(r"\[([^|\]]+)\|([^|\]]+)(?:\|([^\]]+))?\]")
 KANJI = re.compile(r"[一-龯]")
 
 
 def compile_manuscript(path, pack):
-    words = {w["text"]: w for w in pack["items"] if w["kind"] == "word"}
+    words = word_lookup(pack["items"])
     groups, contexts, bibliography = {}, {}, {}
     level, has_header = "N5", False
     for line_number, line in enumerate(path.read_text().splitlines(), 1):

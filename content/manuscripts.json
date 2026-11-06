@@ -22,6 +22,8 @@
     {"kind": "word", "source": "n4-completion-words.tsv", "batch": "019-n4-completion-words.json"},
     {"kind": "word", "source": "n4-notices-and-scene-words.tsv", "batch": "020-n4-notices-and-scene-words.json"},
     {"kind": "reading", "source": "n4-public-and-scene-readings.tsv", "batch": "021-n4-public-and-scene-readings.json"},
-    {"kind": "word", "source": "n4-public-reading-words.tsv", "batch": "022-n4-public-reading-words.json"}
+    {"kind": "word", "source": "n4-public-reading-words.tsv", "batch": "022-n4-public-reading-words.json"},
+    {"kind": "word", "source": "n4-actions-and-states.tsv", "batch": "023-n4-actions-and-states.json"},
+    {"kind": "reading", "source": "n4-actions-and-states-readings.tsv", "batch": "024-n4-actions-and-states-readings.json"}
   ]
 }

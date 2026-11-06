@@ -9,6 +9,7 @@ A: word id, alternative readings, source id, source locator (same sense only).
 D: word id, a short sense cue needed to disambiguate an isolated spelling.
 N: word id, an authored usage note appended to the explanation.
 R: word id, register or politeness label.
+G: word id, canonical word id (an additional, independently trained sense).
 This compiler never manufactures sentences or translates source material.
 """
 import argparse
@@ -18,10 +19,11 @@ import re
 
 from build_content import ROOT, make_pack
 from compile_readings import markup_sentence
+from word_links import kana, validate_lexemes, word_lookup
 
 
 def compile_manuscript(path, pack):
-    lessons, words, examples, alternatives, cues, notes, registers = {}, {}, {}, {}, {}, {}, {}
+    lessons, words, examples, alternatives, cues, notes, registers, owners = {}, {}, {}, {}, {}, {}, {}, {}
     level, has_header = "N5", False
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
@@ -40,7 +42,7 @@ def compile_manuscript(path, pack):
                 _, wid, text, reading, romaji, meaning, pos, lid, wrong1, wrong2 = fields
                 assert wid not in words
                 assert re.fullmatch("[ぁ-ゖー]+", reading)
-                words[wid] = dict(id=wid, text=text, reading=reading, romaji=romaji,
+                words[wid] = dict(id=wid, kind="word", text=text, reading=reading, romaji=romaji,
                     meaning=meaning, pos=pos, lessonID=lid, distractors=[wrong1, wrong2])
             elif fields[0] == "E":
                 _, wid, key, text, translation = fields
@@ -62,20 +64,30 @@ def compile_manuscript(path, pack):
                 _, wid, register = fields
                 assert wid not in registers and register
                 registers[wid] = register
-            else: raise ValueError("expected H, L, W, E, A, D, N or R")
+            elif fields[0] == "G":
+                _, wid, owner = fields
+                assert wid not in owners and wid != owner
+                owners[wid] = owner
+            else: raise ValueError("expected H, L, W, E, A, D, N, R or G")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
-    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes) | set(registers)) <= words.keys()
-    lookup = {}
-    for word in pack["items"]:
-        if word["kind"] == "word" and word["id"] not in words:
-            lookup.setdefault(word["text"], word)
+    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes) | set(registers) | set(owners)) <= words.keys()
+    indexed = [w for w in pack["items"] if w["kind"] == "word" and w["id"] not in words]
     for word in words.values():
-        assert word["text"] not in lookup, (word["id"], "duplicate spelling; reuse the existing target")
         if word["id"] in alternatives:
             word["acceptedReadings"] = alternatives[word["id"]][0]
-        lookup[word["text"]] = word
+        if word["id"] in owners: word["lexemeID"] = owners[word["id"]]
         assert word["lessonID"] in lessons
+    indexed.extend(words.values())
+    by_id = {w["id"]: w for w in indexed}
+    for wid, owner_id in owners.items():
+        owner = by_id.get(owner_id)
+        assert owner, (wid, "invalid lexeme owner")
+        own = words[wid]
+        if {kana(x) for x in [own["reading"]] + own.get("acceptedReadings", [])} == {kana(x) for x in [owner["reading"]] + owner.get("acceptedReadings", [])}:
+            own["readingOwnerID"] = owner_id
+    validate_lexemes(indexed)
+    lookup = word_lookup(indexed)
     batch = {key: [] for key in ["items", "sentences", "exercises", "lessons"]}
     for word in words.values():
         wid = word["id"]
@@ -105,6 +117,10 @@ def compile_manuscript(path, pack):
             batch["items"][-1]["citations"].append(dict(sourceID=source, locator=locator, status="reference"))
         if wid in cues: batch["items"][-1]["readingCue"] = cues[wid]
         if wid in notes: batch["items"][-1]["explanation"] += "\n" + notes[wid]
+        if wid in owners:
+            batch["items"][-1]["lexemeID"] = owners[wid]
+            batch["items"][-1]["prerequisiteIDs"] = [owners[wid]]
+            if word.get("readingOwnerID"): batch["items"][-1]["readingOwnerID"] = word["readingOwnerID"]
         answer = word["meaning"]
         choices = [answer] + word["distractors"]
         assert len(set(choices)) == 3 and all(choices), wid

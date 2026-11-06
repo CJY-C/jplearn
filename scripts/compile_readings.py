@@ -22,7 +22,7 @@ import re
 
 from build_content import ROOT, make_pack
 from compile_grammar import RUBY, KANJI
-from word_links import resolve_word
+from word_links import resolve_word, word_lookup
 
 
 def markup_sentence(markup, words):
@@ -46,9 +46,7 @@ def markup_sentence(markup, words):
 
 
 def compile_manuscript(path, pack):
-    words = {}
-    for word in pack["items"]:
-        if word["kind"] == "word": words.setdefault(word["text"], word)
+    words = word_lookup(pack["items"])
     readings, sentences, questions, standalone = {}, {}, {}, {}
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue

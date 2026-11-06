@@ -4,6 +4,7 @@ import argparse
 import copy
 import json
 from pathlib import Path
+from word_links import lexical_words, validate_lexemes
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
@@ -36,6 +37,15 @@ def validate(pack):
         groups[key] = {r["id"]: r for r in records}
         if len(groups[key]) != len(records): raise ValueError(f"Duplicate IDs in {key}")
     references = {r["id"]: r for r in pack["references"]}
+    validate_lexemes(pack["items"])
+    for word in pack["items"]:
+        if owner := word.get("lexemeID"):
+            assert owner in word.get("prerequisiteIDs", []), (word["id"], "sense needs its base word")
+            levels = ["N5", "N4", "N3", "N2"]
+            assert levels.index(groups["items"][owner]["level"]) <= levels.index(word["level"]), (word["id"], "sense taught before its word")
+            examples = [groups["sentences"][sid] for sid in word.get("exampleSentenceIDs", [])]
+            assert len({"".join(s["text"] for s in e["segments"]) for e in examples}) >= 2, (word["id"], "sense needs distinct contexts")
+            assert all(any(s.get("itemID") == word["id"] for s in e["segments"]) for e in examples), (word["id"], "sense example points to a different meaning")
     for key in COLLECTIONS:
         for record in pack[key]:
             for c in record.get("citations", []):
@@ -63,7 +73,8 @@ def validate(pack):
 
 
 def report(pack):
-    return {"version": pack["version"], "words": sum(i["kind"] == "word" for i in pack["items"]),
+    return {"version": pack["version"], "words": len(lexical_words(pack["items"])),
+            "wordTargets": sum(i["kind"] == "word" for i in pack["items"]),
             "knowledgePoints": sum(i["kind"] == "grammar" for i in pack["items"]),
             "exercises": len(pack["exercises"]), "readings": len(pack["readings"]),
             "assessments": sum(r.get("purpose") == "assessment" for r in pack["readings"]),

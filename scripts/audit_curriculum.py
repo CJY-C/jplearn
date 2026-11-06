@@ -12,6 +12,7 @@ import json
 import math
 
 from build_content import ROOT, make_pack
+from word_links import lexical_words
 
 LEVELS = ["N5", "N4", "N3", "N2"]
 
@@ -74,7 +75,7 @@ def audit(pack, syllabus, reference):
     for target in syllabus["levels"]:
         level = target["level"]
         readings = [r for r in pack["readings"] if r["level"] == level]
-        actual = dict(words=sum(i["kind"] == "word" and i["level"] == level for i in items.values()),
+        actual = dict(words=sum(i["level"] == level for i in lexical_words(items.values())),
             knowledgePoints=sum(i["kind"] == "grammar" and i["level"] == level for i in items.values()),
             readings=len(readings), lessons=sum(l["level"] == level for l in pack["lessons"]),
             assessments=sum(r.get("purpose") == "assessment" for r in readings))

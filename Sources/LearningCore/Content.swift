@@ -31,6 +31,10 @@ public struct KnowledgeItem: Codable, Identifiable {
     public let reading: String
     public var acceptedReadings: [String]?
     public var readingCue: String?
+    /// Extra meanings share the spelling/pronunciation of an existing word,
+    /// while keeping their own meaning review history.
+    public var lexemeID: String?
+    public var readingOwnerID: String?
     public let romaji: String
     public let meaning: String
     public let explanation: String
@@ -45,7 +49,8 @@ public struct KnowledgeItem: Codable, Identifiable {
     public var exampleSentenceIDs: [String]?
     public var order: Int?
     public var referenceExcerpt: String?
-    public var skills: [Skill] { kind == "word" ? [.reading, .meaning] : [.grammar] }
+    public var isLexeme: Bool { kind == "word" && lexemeID == nil }
+    public var skills: [Skill] { kind == "word" ? (readingOwnerID == nil ? [.reading, .meaning] : [.meaning]) : [.grammar] }
 }
 
 public struct RubySegment: Codable, Hashable {
@@ -207,6 +212,11 @@ public struct ContentPack: Codable {
         if let index = exerciseIndex[id] { return exercises[index] }; return exercises.first { $0.id == id }
     }
 
+    public var wordCount: Int { items.filter(\.isLexeme).count }
+    public func hasSenseVariants(_ item: KnowledgeItem) -> Bool {
+        item.kind == "word" && (item.lexemeID != nil || items.contains { $0.lexemeID == item.id })
+    }
+
     public func validate() throws {
         guard [1, 2].contains(schemaVersion) else { throw LearningError.invalid("课程格式版本不受支持。") }
         func unique(_ ids: [String]) -> Bool { Set(ids).count == ids.count && ids.allSatisfy { !$0.isEmpty } }
@@ -226,6 +236,33 @@ public struct ContentPack: Codable {
             return item.kind == "word" && !alternatives.isEmpty &&
                 unique(([item.reading] + alternatives).map { AnswerChecker.normalizeKana($0) })
         }) else { throw LearningError.invalid("同一义项的其他读音无效。") }
+        guard items.allSatisfy({ item in
+            guard let id = item.lexemeID else { return true }
+            guard let owner = knownItems[id] else { return false }
+            let readings = Set(([item.reading] + (item.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+            let ownerReadings = Set(([owner.reading] + (owner.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+            return item.kind == "word" && owner.isLexeme && id != item.id &&
+                item.text == owner.text && readings.isSubset(of: ownerReadings) && item.meaning != owner.meaning &&
+                (item.prerequisiteIDs ?? []).contains(id)
+        }) else { throw LearningError.invalid("词义与原词的关联无效。") }
+        guard items.allSatisfy({ item in
+            guard let id = item.readingOwnerID else { return true }
+            guard let owner = knownItems[id], item.lexemeID == id else { return false }
+            let readings = Set(([item.reading] + (item.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+            let ownerReadings = Set(([owner.reading] + (owner.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+            return readings == ownerReadings
+        }) else { throw LearningError.invalid("不同读音条件的词义不能共用读音练习。") }
+        let wordForms = Dictionary(grouping: items.filter { $0.kind == "word" }, by: \.text)
+        guard wordForms.values.allSatisfy({ words in
+            words.enumerated().allSatisfy { index, word in
+                let readings = Set(([word.reading] + (word.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+                return words.dropFirst(index + 1).allSatisfy { other in
+                    let others = Set(([other.reading] + (other.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+                    return readings.isDisjoint(with: others) ||
+                        ((word.lexemeID ?? word.id) == (other.lexemeID ?? other.id) && word.meaning != other.meaning)
+                }
+            }
+        }) else { throw LearningError.invalid("同词的不同义项需要明确关联，不能重复计为新词。") }
         guard sentences.allSatisfy({ !$0.text.isEmpty && !$0.translation.isEmpty && $0.segments.allSatisfy {
             !$0.text.isEmpty && ($0.itemID == nil || itemIDs.contains($0.itemID!))
         } }) else { throw LearningError.invalid("例句标注不完整。") }

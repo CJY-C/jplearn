@@ -72,6 +72,26 @@ final class SmallScreenTests: XCTestCase {
         screenshot("SE3-Recall")
     }
 
+    @MainActor func testAnotherWordMeaningShowsContextAboveFixedRatings() {
+        launch(wordID: "vn4960", largeText: true)
+        app.buttons["today.start"].tap()
+        visible(app.buttons["study.reveal"])
+        let context = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "森を抜けると")).firstMatch
+        XCTAssertTrue(context.waitForExistence(timeout: 5))
+        XCTAssertFalse(app.staticTexts["穿过；通过（空间通行）"].exists)
+        screenshot("SE3-WordSense-Context-LargeText")
+        app.buttons["study.reveal"].tap()
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        let fixed = app.buttons["study.grade.3"].frame
+        XCTAssertTrue(app.scrollViews["study.textScroll"].exists)
+        scrollWordNotes()
+        XCTAssertEqual(fixed, app.buttons["study.grade.3"].frame)
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        screenshot("SE3-WordSense-Answer-LargeText")
+        app.buttons["study.grade.3"].tap()
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
     @MainActor func testKeyboardLeavesTheAnswerActionVisible() {
         launch()
         app.buttons["today.start"].tap()
