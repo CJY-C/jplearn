@@ -83,8 +83,9 @@ import LearningCore
         }
         if let wordID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_WORD_ID"],
            ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil,
-           pack.item(wordID)?.kind == "word", checkpoint == nil {
-            let fixture = SessionCheckpoint(tasks: [.recall(ReviewKey(itemID: wordID, skill: .reading))])
+           let item = pack.item(wordID), item.kind == "word", checkpoint == nil,
+           let skill = item.skills.first {
+            let fixture = SessionCheckpoint(tasks: [.recall(ReviewKey(itemID: wordID, skill: skill))])
             try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
             checkpoint = fixture
         }
