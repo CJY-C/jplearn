@@ -196,6 +196,38 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
     }
 
+    @MainActor func testLargeReadingFeedbackScrollsAboveFixedContinue() {
+        launch(readingID: "rn4204", largeText: true)
+        app.buttons["today.start"].tap()
+        for index in 1...2 {
+            XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
+            visibleChoices()
+            // Both questions have their correct answer at index 2; exercise the
+            // longer wrong-answer feedback, including its explicit correction.
+            app.buttons["study.choice.0"].tap()
+            visible(app.buttons["study.continue"])
+            XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "正确答案：")).firstMatch.exists)
+            let fixed = app.buttons["study.continue"].frame
+            let feedback = app.scrollViews["study.readingScroll"].staticTexts["study.feedbackExplanation"]
+            XCTAssertTrue(feedback.waitForExistence(timeout: 5), "Reading feedback belongs in the upper scroll area")
+            let originalY = feedback.frame.minY
+            let origin = app.coordinate(withNormalizedOffset: .zero)
+            let top = app.staticTexts["study.readingCoverage"].frame.maxY + 20
+            let bottom = fixed.minY - 20
+            let start = origin.withOffset(CGVector(dx: app.frame.midX, dy: top))
+            let end = origin.withOffset(CGVector(dx: app.frame.midX, dy: bottom))
+            start.press(forDuration: 0.1, thenDragTo: end)
+            XCTAssertGreaterThan(feedback.frame.minY, originalY + 5)
+            XCTAssertEqual(fixed, app.buttons["study.continue"].frame)
+            end.press(forDuration: 0.1, thenDragTo: start)
+            visible(feedback)
+            visible(app.buttons["study.continue"])
+            screenshot("SE3-N4-ReadingFeedback-LargeText-Question\(index)")
+            app.buttons["study.continue"].tap()
+        }
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
     @MainActor func testGrammarAndReadingKeepActionsVisible() {
         launch(knownVocabulary: true)
         app.buttons["today.start"].tap()

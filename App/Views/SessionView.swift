@@ -357,31 +357,45 @@ private struct ReadingCard: View {
                 .font(.caption).foregroundColor(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
                 .accessibilityIdentifier("study.readingCoverage")
-            ScrollView {
-                VStack(alignment: .leading, spacing: 12) {
-                    ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in
-                        RubyText(segments: sentence.segments, showReading: showReading) { lookup($0) }
-                            .background(choice != nil && reading.questions != nil && question.evidenceSentenceIDs.contains(sentence.id)
-                                ? Color.accentColor.opacity(0.08) : Color.clear)
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 12) {
+                        ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in
+                            RubyText(segments: sentence.segments, showReading: showReading) { lookup($0) }
+                                .background(choice != nil && reading.questions != nil && question.evidenceSentenceIDs.contains(sentence.id)
+                                    ? Color.accentColor.opacity(0.08) : Color.clear)
+                        }
+                        if let choice = choice {
+                            VStack(alignment: .leading, spacing: 12) {
+                                if reading.allQuestions.count > 1 {
+                                    Text("理解 \(index + 1) / \(reading.allQuestions.count)").font(.caption).foregroundColor(.secondary)
+                                }
+                                Text(question.prompt).font(.headline).fixedSize(horizontal: false, vertical: true)
+                                AnswerFeedback(correct: choice == question.answerIndex,
+                                               answer: question.choices[question.answerIndex], explanation: question.explanation)
+                            }.padding(.top, 8).id("reading.feedback")
+                        }
                     }
-                }.padding(.horizontal, 18).padding(.vertical, 8)
-            }.frame(maxWidth: .infinity, maxHeight: .infinity)
-                .accessibilityIdentifier("study.readingScroll")
+                    .padding(.horizontal, 18).padding(.vertical, 8)
+                }.frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .accessibilityIdentifier("study.readingScroll")
+                    .onChange(of: choice) { selection in
+                        if selection != nil { proxy.scrollTo("reading.feedback", anchor: .top) }
+                    }
+            }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
             VStack(spacing: 0) {
                 Divider().opacity(0.55)
                 VStack(alignment: .leading, spacing: 12) {
-                    if reading.allQuestions.count > 1 {
-                        Text("理解 \(index + 1) / \(reading.allQuestions.count)").font(.caption).foregroundColor(.secondary)
-                    }
-                    Text(question.prompt).font(.headline).fixedSize(horizontal: false, vertical: true)
-                    if let choice = choice {
-                        AnswerFeedback(correct: choice == question.answerIndex,
-                                       answer: question.choices[question.answerIndex], explanation: question.explanation)
+                    if choice != nil {
                         Button("继续") { model.perform { try model.advanceReadingQuestion(entryID: entryID, questionID: question.id) } }
                             .buttonStyle(StudyPrimaryButtonStyle()).accessibilityIdentifier("study.continue")
                     } else {
+                        if reading.allQuestions.count > 1 {
+                            Text("理解 \(index + 1) / \(reading.allQuestions.count)").font(.caption).foregroundColor(.secondary)
+                        }
+                        Text(question.prompt).font(.headline).fixedSize(horizontal: false, vertical: true)
                         ChoiceAnswers(choices: question.choices) { selection in
                             model.perform { try model.recordReadingSelection(entryID: entryID, questionID: question.id, selection: selection, assisted: usedHelp) }
                             if model.errorMessage == nil { choice = selection }
@@ -455,6 +469,7 @@ struct AnswerFeedback: View {
                 .font(.subheadline.weight(.semibold)).foregroundColor(.accentColor)
             if !correct { Text("正确答案：\(answer)").font(.subheadline.weight(.medium)) }
             Text(explanation).font(.callout).foregroundColor(.secondary).fixedSize(horizontal: false, vertical: true)
+                .accessibilityIdentifier("study.feedbackExplanation")
         }.frame(maxWidth: .infinity, alignment: .leading)
     }
 }
