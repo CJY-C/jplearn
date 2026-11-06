@@ -1,0 +1,439 @@
+{
+  "items": [
+    {
+      "id": "vn5s001",
+      "kind": "word",
+      "level": "N5",
+      "text": "引く",
+      "reading": "ひく",
+      "romaji": "hiku",
+      "meaning": "减去；从数量中扣除",
+      "explanation": "本单元义项：减去；从数量中扣除。通过两个不同语境辨认；其他义项须结合上下文。\n本组说从数量中减去，から前是原数量，を前是扣掉的数量；ドアを引く是拉门，不是做减法。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "减去；从数量中扣除",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5224"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s001；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn5s001a",
+        "svn5s001b"
+      ],
+      "order": 2000,
+      "lexemeID": "vn5224",
+      "readingOwnerID": "vn5224"
+    },
+    {
+      "id": "vn5s002",
+      "kind": "word",
+      "level": "N5",
+      "text": "引く",
+      "reading": "ひく",
+      "romaji": "hiku",
+      "meaning": "画出；划出（线等）",
+      "explanation": "本单元义项：画出；划出（线等）。通过两个不同语境辨认；其他义项须结合上下文。\n線を引く是画、划线；不要因同读ひく，就把它当成拉动物品或从金额中扣除。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "画出；划出（线等）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5224"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s002；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn5s002a",
+        "svn5s002b"
+      ],
+      "order": 2001,
+      "lexemeID": "vn5224",
+      "readingOwnerID": "vn5224"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn5s001a",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "じゅう",
+          "itemID": "vn5510"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "三",
+          "reading": "さん",
+          "itemID": "vn5503"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引",
+          "reading": "ひ",
+          "itemID": "vn5s001"
+        },
+        {
+          "text": "くと、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "七",
+          "reading": "なな",
+          "itemID": "vn5507"
+        },
+        {
+          "text": "になります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "十减去三，得到七。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn5s001b",
+      "segments": [
+        {
+          "text": "持",
+          "reading": "も",
+          "itemID": "v0066"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お金",
+          "reading": "おかね",
+          "itemID": "vn5250"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "代金",
+          "reading": "だいきん",
+          "itemID": "vn4535"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引",
+          "reading": "ひ",
+          "itemID": "vn5s001"
+        },
+        {
+          "text": "いて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "計算",
+          "reading": "けいさん",
+          "itemID": null
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "从手里的钱中扣除书款，计算了余额。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn5s002a",
+      "segments": [
+        {
+          "text": "ノート",
+          "reading": "のーと",
+          "itemID": "v0217"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "下",
+          "reading": "した",
+          "itemID": "v0055"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "線",
+          "reading": "せん",
+          "itemID": "vn4i090"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引",
+          "reading": "ひ",
+          "itemID": "vn5s002"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在笔记本下方画了一条短线。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn5s002b",
+      "segments": [
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "青",
+          "reading": "あお",
+          "itemID": "v0248"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "線",
+          "reading": "せん",
+          "itemID": "vn4i090"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引",
+          "reading": "ひ",
+          "itemID": "vn5s002"
+        },
+        {
+          "text": "いて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "川",
+          "reading": "かわ",
+          "itemID": "vn5178"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "描",
+          "reading": "か",
+          "itemID": "vn5035"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在地图上画了蓝线，描出了河流。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn5s001a",
+      "targetID": "vn5s001",
+      "sentenceID": "svn5s001b",
+      "skill": "meaning",
+      "prompt": "句中「引く」表示什么？",
+      "choices": [
+        "用手把物品拉过来",
+        "减去；从数量中扣除",
+        "把数字相加"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「减去；从数量中扣除」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "引く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn5s002a",
+      "targetID": "vn5s002",
+      "sentenceID": "svn5s002b",
+      "skill": "meaning",
+      "prompt": "句中「引く」表示什么？",
+      "choices": [
+        "把数量扣掉",
+        "用手把物品拉近",
+        "画出；划出（线等）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「画出；划出（线等）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "引く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn5s01",
+      "title": "“引く”的画线与减法",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N5",
+      "itemIDs": [
+        "vn5s001",
+        "vn5s002"
+      ],
+      "sentenceIDs": [
+        "svn5s001a",
+        "svn5s001b",
+        "svn5s002a",
+        "svn5s002b"
+      ],
+      "exerciseIDs": [
+        "evn5s001a",
+        "evn5s002a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

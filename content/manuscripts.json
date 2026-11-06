@@ -24,6 +24,9 @@
     {"kind": "reading", "source": "n4-public-and-scene-readings.tsv", "batch": "021-n4-public-and-scene-readings.json"},
     {"kind": "word", "source": "n4-public-reading-words.tsv", "batch": "022-n4-public-reading-words.json"},
     {"kind": "word", "source": "n4-actions-and-states.tsv", "batch": "023-n4-actions-and-states.json"},
-    {"kind": "reading", "source": "n4-actions-and-states-readings.tsv", "batch": "024-n4-actions-and-states-readings.json"}
+    {"kind": "reading", "source": "n4-actions-and-states-readings.tsv", "batch": "024-n4-actions-and-states-readings.json"},
+    {"kind": "word", "source": "n4-society-and-daily-life.tsv", "batch": "025-n4-society-and-daily-life.json"},
+    {"kind": "reading", "source": "n4-society-and-daily-life-readings.tsv", "batch": "026-n4-society-and-daily-life-readings.json"},
+    {"kind": "word", "source": "n5-everyday-senses.tsv", "batch": "027-n5-everyday-senses.json"}
   ]
 }

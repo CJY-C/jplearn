@@ -27,7 +27,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
@@ -36,7 +36,8 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertEqual(result["stages"][1]["required"]["words"], 1000)
         for sense in senses:
             self.assertEqual(sense["readingOwnerID"], sense["lexemeID"])
-        for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963")]:
+        for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963"),
+                         ("rn4414s6", "vn5s001"), ("svn5335b", "vn5s002"), ("svn5224a", "vn5224")]:
             sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
             self.assertTrue(any(s["itemID"] == wid for s in sentence["segments"]), sid)
 
@@ -267,9 +268,9 @@ class CurriculumDeliveryTests(unittest.TestCase):
                 with self.assertRaisesRegex(AssertionError, error): compile_manuscript(bad, self.pack)
 
     def test_controlled_n4_readings_are_teachable_and_link_each_new_structure(self):
-        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith(("rn41", "rn42", "rn43"))}
-        self.assertEqual(len(readings), 42)
-        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 10)
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith(("rn41", "rn42", "rn43", "rn44"))}
+        self.assertEqual(len(readings), 62)
+        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 14)
         for reading in readings.values():
             self.assertEqual(len(reading["paragraphs"]), 2)
             self.assertEqual(len(reading["questions"]), 2)
