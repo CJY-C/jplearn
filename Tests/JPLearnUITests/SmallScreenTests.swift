@@ -1,13 +1,15 @@
 import XCTest
+import UIKit
 
 final class SmallScreenTests: XCTestCase {
     private var app: XCUIApplication!
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil) {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil, largeText: Bool = false) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
+        if largeText { app.launchArguments += ["-UIPreferredContentSizeCategoryName", UIContentSizeCategory.extraExtraExtraLarge.rawValue] }
         app.launchEnvironment["JPLEARN_UI_TEST_SESSION"] = UUID().uuidString
         if knownVocabulary || exhausted || longReading || readingID != nil { app.launchEnvironment["JPLEARN_UI_TEST_KNOWN_VOCABULARY"] = "1" }
         if exhausted { app.launchEnvironment["JPLEARN_UI_TEST_EXHAUSTED"] = "1" }
@@ -28,6 +30,13 @@ final class SmallScreenTests: XCTestCase {
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = name; attachment.lifetime = .keepAlways
         add(attachment)
+    }
+    @MainActor private func scrollWordNotes() {
+        let origin = app.coordinate(withNormalizedOffset: .zero)
+        let bottom = app.staticTexts["按刚才回想的表现选择"].frame.minY - 18
+        let start = origin.withOffset(CGVector(dx: app.frame.midX, dy: bottom))
+        let end = origin.withOffset(CGVector(dx: app.frame.midX, dy: 170))
+        start.press(forDuration: 0.1, thenDragTo: end)
     }
 
     @MainActor func testRecallAndRatingControlsFitOnSE3() {
@@ -67,14 +76,31 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(scroll.waitForExistence(timeout: 5))
         let note = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "小动物常用匹")).firstMatch
         XCTAssertTrue(note.exists)
-        let originalY = note.frame.minY
-        scroll.swipeUp()
-        XCTAssertLessThan(note.frame.minY, originalY - 5)
+        scrollWordNotes()
+        visible(note)
+        XCTAssertLessThanOrEqual(note.frame.maxY, app.staticTexts["按刚才回想的表现选择"].frame.minY)
         XCTAssertEqual(fixed, app.buttons["study.grade.3"].frame)
         visible(app.buttons["study.grade.3"])
         screenshot("SE3-ExpandedWord-Notes")
         app.buttons["study.grade.3"].tap()
         XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
+    }
+
+    @MainActor func testLargeWordNotesScrollAboveFixedRatingsOnSE3() {
+        launch(wordID: "vn5546", largeText: true)
+        app.buttons["today.start"].tap()
+        app.buttons["study.reveal"].tap()
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        let fixed = app.buttons["study.grade.3"].frame
+        let scroll = app.scrollViews["study.textScroll"]
+        XCTAssertTrue(scroll.waitForExistence(timeout: 5))
+        let note = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "小动物常用匹")).firstMatch
+        let originalY = note.frame.minY
+        scrollWordNotes()
+        XCTAssertLessThan(note.frame.minY, originalY - 5)
+        XCTAssertEqual(fixed, app.buttons["study.grade.3"].frame)
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        screenshot("SE3-ExpandedWord-LargeText")
     }
 
     @MainActor func testGrammarAndReadingKeepActionsVisible() {
