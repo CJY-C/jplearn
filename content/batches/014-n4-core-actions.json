@@ -1,0 +1,8733 @@
+{
+  "items": [
+    {
+      "id": "vn4101",
+      "kind": "word",
+      "level": "N4",
+      "text": "謝る",
+      "reading": "あやまる",
+      "romaji": "ayamaru",
+      "meaning": "道歉",
+      "explanation": "本单元义项：道歉。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "道歉",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4101；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4101a",
+        "svn4101b"
+      ],
+      "order": 2000
+    },
+    {
+      "id": "vn4102",
+      "kind": "word",
+      "level": "N4",
+      "text": "生きる",
+      "reading": "いきる",
+      "romaji": "ikiru",
+      "meaning": "活着；生存",
+      "explanation": "本单元义项：活着；生存。通过两个不同语境辨认；其他义项须结合上下文。\n生きる重在活着、生存；生活する重在过日子、日常生活。不要把出生的生まれる当成同一动作。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "活着；生存",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4102；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4102a",
+        "svn4102b"
+      ],
+      "order": 2001
+    },
+    {
+      "id": "vn4103",
+      "kind": "word",
+      "level": "N4",
+      "text": "祈る",
+      "reading": "いのる",
+      "romaji": "inoru",
+      "meaning": "祈祷；祈愿",
+      "explanation": "本单元义项：祈祷；祈愿。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "祈祷；祈愿",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4103；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4103a",
+        "svn4103b"
+      ],
+      "order": 2002
+    },
+    {
+      "id": "vn4104",
+      "kind": "word",
+      "level": "N4",
+      "text": "植える",
+      "reading": "うえる",
+      "romaji": "ueru",
+      "meaning": "种植；栽种",
+      "explanation": "本单元义项：种植；栽种。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "种植；栽种",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4104；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4104a",
+        "svn4104b"
+      ],
+      "order": 2003
+    },
+    {
+      "id": "vn4105",
+      "kind": "word",
+      "level": "N4",
+      "text": "打つ",
+      "reading": "うつ",
+      "romaji": "utsu",
+      "meaning": "击打；撞击（本单元义项）",
+      "explanation": "本单元义项：击打；撞击（本单元义项）。通过两个不同语境辨认；其他义项须结合上下文。\n这里指物理上的击打或撞击，如击球、雨打窗户、膝盖撞到东西。注射を打つ、メールを打つ等搭配另有具体含义，不能只靠本义逐字替换。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "击打；撞击（本单元义项）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4105；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4105a",
+        "svn4105b"
+      ],
+      "order": 2004
+    },
+    {
+      "id": "vn4106",
+      "kind": "word",
+      "level": "N4",
+      "text": "写す",
+      "reading": "うつす",
+      "romaji": "utsusu",
+      "meaning": "抄写；照着复制（本单元义项）",
+      "explanation": "本单元义项：抄写；照着复制（本单元义项）。通过两个不同语境辨认；其他义项须结合上下文。\n本组练照着原物抄写或复制。与表示转移的移す、表示映出的映す分开辨认。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "抄写；照着复制（本单元义项）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4106；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4106a",
+        "svn4106b"
+      ],
+      "order": 2005
+    },
+    {
+      "id": "vn4107",
+      "kind": "word",
+      "level": "N4",
+      "text": "移る",
+      "reading": "うつる",
+      "romaji": "utsuru",
+      "meaning": "转移；迁到另一处",
+      "explanation": "本单元义项：转移；迁到另一处。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "转移；迁到另一处",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4107；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4107a",
+        "svn4107b"
+      ],
+      "order": 2006
+    },
+    {
+      "id": "vn4108",
+      "kind": "word",
+      "level": "N4",
+      "text": "踊る",
+      "reading": "おどる",
+      "romaji": "odoru",
+      "meaning": "跳舞",
+      "explanation": "本单元义项：跳舞。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "跳舞",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4108；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4108a",
+        "svn4108b"
+      ],
+      "order": 2007
+    },
+    {
+      "id": "vn4109",
+      "kind": "word",
+      "level": "N4",
+      "text": "驚く",
+      "reading": "おどろく",
+      "romaji": "odoroku",
+      "meaning": "吃惊；惊讶",
+      "explanation": "本单元义项：吃惊；惊讶。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "吃惊；惊讶",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4109；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4109a",
+        "svn4109b"
+      ],
+      "order": 2008
+    },
+    {
+      "id": "vn4110",
+      "kind": "word",
+      "level": "N4",
+      "text": "思い出す",
+      "reading": "おもいだす",
+      "romaji": "omoidasu",
+      "meaning": "想起；回忆起",
+      "explanation": "本单元义项：想起；回忆起。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "想起；回忆起",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4110；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4110a",
+        "svn4110b"
+      ],
+      "order": 2009
+    },
+    {
+      "id": "vn4111",
+      "kind": "word",
+      "level": "N4",
+      "text": "飾る",
+      "reading": "かざる",
+      "romaji": "kazaru",
+      "meaning": "装饰；摆放作装饰",
+      "explanation": "本单元义项：装饰；摆放作装饰。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "装饰；摆放作装饰",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4111；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4111a",
+        "svn4111b"
+      ],
+      "order": 2010
+    },
+    {
+      "id": "vn4112",
+      "kind": "word",
+      "level": "N4",
+      "text": "勝つ",
+      "reading": "かつ",
+      "romaji": "katsu",
+      "meaning": "获胜；赢",
+      "explanation": "本单元义项：获胜；赢。通过两个不同语境辨认；其他义项须结合上下文。\n試合に勝つ表示赢得比赛；相手に勝つ表示战胜某个对手。不要把に前的比赛误认为获胜者。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "获胜；赢",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4112；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4112a",
+        "svn4112b"
+      ],
+      "order": 2011
+    },
+    {
+      "id": "vn4113",
+      "kind": "word",
+      "level": "N4",
+      "text": "騒ぐ",
+      "reading": "さわぐ",
+      "romaji": "sawagu",
+      "meaning": "吵闹；喧闹",
+      "explanation": "本单元义项：吵闹；喧闹。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "吵闹；喧闹",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4113；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4113a",
+        "svn4113b"
+      ],
+      "order": 2012
+    },
+    {
+      "id": "vn4114",
+      "kind": "word",
+      "level": "N4",
+      "text": "育てる",
+      "reading": "そだてる",
+      "romaji": "sodateru",
+      "meaning": "养育；培育",
+      "explanation": "本单元义项：养育；培育。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "养育；培育",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4114；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4114a",
+        "svn4114b"
+      ],
+      "order": 2013
+    },
+    {
+      "id": "vn4115",
+      "kind": "word",
+      "level": "N4",
+      "text": "滑る",
+      "reading": "すべる",
+      "romaji": "suberu",
+      "meaning": "滑；滑动",
+      "explanation": "本单元义项：滑；滑动。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "滑；滑动",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4115；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4115a",
+        "svn4115b"
+      ],
+      "order": 2014
+    },
+    {
+      "id": "vn4116",
+      "kind": "word",
+      "level": "N4",
+      "text": "捕まえる",
+      "reading": "つかまえる",
+      "romaji": "tsukamaeru",
+      "meaning": "抓住；捉住",
+      "explanation": "本单元义项：抓住；捉住。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "抓住；捉住",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4116；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4116a",
+        "svn4116b"
+      ],
+      "order": 2015
+    },
+    {
+      "id": "vn4117",
+      "kind": "word",
+      "level": "N4",
+      "text": "包む",
+      "reading": "つつむ",
+      "romaji": "tsutsumu",
+      "meaning": "包裹；包起来",
+      "explanation": "本单元义项：包裹；包起来。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "包裹；包起来",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4117；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4117a",
+        "svn4117b"
+      ],
+      "order": 2016
+    },
+    {
+      "id": "vn4118",
+      "kind": "word",
+      "level": "N4",
+      "text": "釣る",
+      "reading": "つる",
+      "romaji": "tsuru",
+      "meaning": "钓（鱼）",
+      "explanation": "本单元义项：钓（鱼）。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "钓（鱼）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4118；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4118a",
+        "svn4118b"
+      ],
+      "order": 2017
+    },
+    {
+      "id": "vn4119",
+      "kind": "word",
+      "level": "N4",
+      "text": "届ける",
+      "reading": "とどける",
+      "romaji": "todokeru",
+      "meaning": "送到；送交",
+      "explanation": "本单元义项：送到；送交。通过两个不同语境辨认；其他义项须结合上下文。\n荷物が届く说东西到达；人が荷物を届ける说人把东西送到。主语和を前的对象不同。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "送到；送交",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4119；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4119a",
+        "svn4119b"
+      ],
+      "order": 2018
+    },
+    {
+      "id": "vn4120",
+      "kind": "word",
+      "level": "N4",
+      "text": "取り替える",
+      "reading": "とりかえる",
+      "romaji": "torikaeru",
+      "meaning": "更换；换成另一个",
+      "explanation": "本单元义项：更换；换成另一个。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "更换；换成另一个",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4120；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4120a",
+        "svn4120b"
+      ],
+      "order": 2019
+    },
+    {
+      "id": "vn4121",
+      "kind": "word",
+      "level": "N4",
+      "text": "投げる",
+      "reading": "なげる",
+      "romaji": "nageru",
+      "meaning": "扔；投掷",
+      "explanation": "本单元义项：扔；投掷。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "扔；投掷",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4121；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4121a",
+        "svn4121b"
+      ],
+      "order": 2020
+    },
+    {
+      "id": "vn4122",
+      "kind": "word",
+      "level": "N4",
+      "text": "慣れる",
+      "reading": "なれる",
+      "romaji": "nareru",
+      "meaning": "习惯；适应",
+      "explanation": "本单元义项：习惯；适应。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "习惯；适应",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4122；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4122a",
+        "svn4122b"
+      ],
+      "order": 2021
+    },
+    {
+      "id": "vn4123",
+      "kind": "word",
+      "level": "N4",
+      "text": "逃げる",
+      "reading": "にげる",
+      "romaji": "nigeru",
+      "meaning": "逃跑；逃离",
+      "explanation": "本单元义项：逃跑；逃离。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "逃跑；逃离",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4123；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4123a",
+        "svn4123b"
+      ],
+      "order": 2022
+    },
+    {
+      "id": "vn4124",
+      "kind": "word",
+      "level": "N4",
+      "text": "似る",
+      "reading": "にる",
+      "romaji": "niru",
+      "meaning": "相像；相似",
+      "explanation": "本单元义项：相像；相似。通过两个不同语境辨认；其他义项须结合上下文。\n日常描述“很像”常用似ている。相似不等于完全相同，也不直接表示有人刻意模仿。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "相像；相似",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4124；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4124a",
+        "svn4124b"
+      ],
+      "order": 2023
+    },
+    {
+      "id": "vn4125",
+      "kind": "word",
+      "level": "N4",
+      "text": "盗む",
+      "reading": "ぬすむ",
+      "romaji": "nusumu",
+      "meaning": "偷；盗取",
+      "explanation": "本单元义项：偷；盗取。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "偷；盗取",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4125；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4125a",
+        "svn4125b"
+      ],
+      "order": 2024
+    },
+    {
+      "id": "vn4126",
+      "kind": "word",
+      "level": "N4",
+      "text": "塗る",
+      "reading": "ぬる",
+      "romaji": "nuru",
+      "meaning": "涂；涂抹",
+      "explanation": "本单元义项：涂；涂抹。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "涂；涂抹",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4126；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4126a",
+        "svn4126b"
+      ],
+      "order": 2025
+    },
+    {
+      "id": "vn4127",
+      "kind": "word",
+      "level": "N4",
+      "text": "残る",
+      "reading": "のこる",
+      "romaji": "nokoru",
+      "meaning": "剩下；留下",
+      "explanation": "本单元义项：剩下；留下。通过两个不同语境辨认；其他义项须结合上下文。\n残る描述东西或人留下的状态；也可说话语、印象留在心里。残す描述某人把对象留下，分别注意が与を。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "剩下；留下",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4127；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4127a",
+        "svn4127b"
+      ],
+      "order": 2026
+    },
+    {
+      "id": "vn4128",
+      "kind": "word",
+      "level": "N4",
+      "text": "冷える",
+      "reading": "ひえる",
+      "romaji": "hieru",
+      "meaning": "变冷；凉下来",
+      "explanation": "本单元义项：变冷；凉下来。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "变冷；凉下来",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4128；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4128a",
+        "svn4128b"
+      ],
+      "order": 2027
+    },
+    {
+      "id": "vn4129",
+      "kind": "word",
+      "level": "N4",
+      "text": "光る",
+      "reading": "ひかる",
+      "romaji": "hikaru",
+      "meaning": "发光；闪光",
+      "explanation": "本单元义项：发光；闪光。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "发光；闪光",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4129；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4129a",
+        "svn4129b"
+      ],
+      "order": 2028
+    },
+    {
+      "id": "vn4130",
+      "kind": "word",
+      "level": "N4",
+      "text": "引き出す",
+      "reading": "ひきだす",
+      "romaji": "hikidasu",
+      "meaning": "取出；提取（本单元义项）",
+      "explanation": "本单元义项：取出；提取（本单元义项）。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "取出；提取（本单元义项）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4130；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4130a",
+        "svn4130b"
+      ],
+      "order": 2029
+    },
+    {
+      "id": "vn4131",
+      "kind": "word",
+      "level": "N4",
+      "text": "太る",
+      "reading": "ふとる",
+      "romaji": "futoru",
+      "meaning": "变胖",
+      "explanation": "本单元义项：变胖。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "变胖",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4131；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4131a",
+        "svn4131b"
+      ],
+      "order": 2030
+    },
+    {
+      "id": "vn4132",
+      "kind": "word",
+      "level": "N4",
+      "text": "踏む",
+      "reading": "ふむ",
+      "romaji": "fumu",
+      "meaning": "踩；踏",
+      "explanation": "本单元义项：踩；踏。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "踩；踏",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4132；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4132a",
+        "svn4132b"
+      ],
+      "order": 2031
+    },
+    {
+      "id": "vn4133",
+      "kind": "word",
+      "level": "N4",
+      "text": "負ける",
+      "reading": "まける",
+      "romaji": "makeru",
+      "meaning": "输；败",
+      "explanation": "本单元义项：输；败。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "输；败",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4133；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4133a",
+        "svn4133b"
+      ],
+      "order": 2032
+    },
+    {
+      "id": "vn4134",
+      "kind": "word",
+      "level": "N4",
+      "text": "間に合う",
+      "reading": "まにあう",
+      "romaji": "maniau",
+      "meaning": "赶得上；来得及",
+      "explanation": "本单元义项：赶得上；来得及。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "赶得上；来得及",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4134；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4134a",
+        "svn4134b"
+      ],
+      "order": 2033
+    },
+    {
+      "id": "vn4135",
+      "kind": "word",
+      "level": "N4",
+      "text": "向かう",
+      "reading": "むかう",
+      "romaji": "mukau",
+      "meaning": "朝向；前往",
+      "explanation": "本单元义项：朝向；前往。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "朝向；前往",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4135；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4135a",
+        "svn4135b"
+      ],
+      "order": 2034
+    },
+    {
+      "id": "vn4136",
+      "kind": "word",
+      "level": "N4",
+      "text": "焼く",
+      "reading": "やく",
+      "romaji": "yaku",
+      "meaning": "烤；煎（本单元义项）",
+      "explanation": "本单元义项：烤；煎（本单元义项）。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "烤；煎（本单元义项）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4136；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4136a",
+        "svn4136b"
+      ],
+      "order": 2035
+    },
+    {
+      "id": "vn4137",
+      "kind": "word",
+      "level": "N4",
+      "text": "焼ける",
+      "reading": "やける",
+      "romaji": "yakeru",
+      "meaning": "烤熟；烤好（本单元义项）",
+      "explanation": "本单元义项：烤熟；烤好（本单元义项）。通过两个不同语境辨认；其他义项须结合上下文。\n人が魚を焼く是人把鱼烤熟；魚が焼ける是鱼烤好了。本组不把烧毁、晒黑等其他义项算作已学。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "烤熟；烤好（本单元义项）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4137；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4137a",
+        "svn4137b"
+      ],
+      "order": 2036
+    },
+    {
+      "id": "vn4138",
+      "kind": "word",
+      "level": "N4",
+      "text": "痩せる",
+      "reading": "やせる",
+      "romaji": "yaseru",
+      "meaning": "变瘦",
+      "explanation": "本单元义项：变瘦。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "变瘦",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4138；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4138a",
+        "svn4138b"
+      ],
+      "order": 2037
+    },
+    {
+      "id": "vn4139",
+      "kind": "word",
+      "level": "N4",
+      "text": "揺れる",
+      "reading": "ゆれる",
+      "romaji": "yureru",
+      "meaning": "摇晃；晃动",
+      "explanation": "本单元义项：摇晃；晃动。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "摇晃；晃动",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4139；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4139a",
+        "svn4139b"
+      ],
+      "order": 2038
+    },
+    {
+      "id": "vn4140",
+      "kind": "word",
+      "level": "N4",
+      "text": "沸かす",
+      "reading": "わかす",
+      "romaji": "wakasu",
+      "meaning": "把水烧开",
+      "explanation": "本单元义项：把水烧开。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "把水烧开",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4140；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4140a",
+        "svn4140b"
+      ],
+      "order": 2039
+    },
+    {
+      "id": "vn4141",
+      "kind": "word",
+      "level": "N4",
+      "text": "沸く",
+      "reading": "わく",
+      "romaji": "waku",
+      "meaning": "水沸腾；水烧开",
+      "explanation": "本单元义项：水沸腾；水烧开。通过两个不同语境辨认；其他义项须结合上下文。\nお湯を沸かす是人主动烧水；お湯が沸く是水达到沸腾状态。不要只按相同的わか／わ来猜执行者。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "水沸腾；水烧开",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4141；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4141a",
+        "svn4141b"
+      ],
+      "order": 2040
+    },
+    {
+      "id": "vn4142",
+      "kind": "word",
+      "level": "N4",
+      "text": "別れる",
+      "reading": "わかれる",
+      "romaji": "wakareru",
+      "meaning": "分别；与人分开",
+      "explanation": "本单元义项：分别；与人分开。通过两个不同语境辨认；其他义项须结合上下文。\n本组是普通的离别；是否指恋人分手须看人物关系。物品分成几部分常写分かれる，不自动合并。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "分别；与人分开",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4142；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4142a",
+        "svn4142b"
+      ],
+      "order": 2041
+    },
+    {
+      "id": "vn4143",
+      "kind": "word",
+      "level": "N4",
+      "text": "亡くなる",
+      "reading": "なくなる",
+      "romaji": "nakunaru",
+      "meaning": "去世",
+      "explanation": "本单元义项：去世。通过两个不同语境辨认；其他义项须结合上下文。\n亡くなる用于人的去世，是较委婉的说法；与东西不见、用完的無くなる分开学习。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "去世",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4143；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4143a",
+        "svn4143b"
+      ],
+      "order": 2042,
+      "readingCue": "表示人去世的动词"
+    },
+    {
+      "id": "vn4144",
+      "kind": "word",
+      "level": "N4",
+      "text": "無くなる",
+      "reading": "なくなる",
+      "romaji": "nakunaru",
+      "meaning": "没有了；消失；用完",
+      "explanation": "本单元义项：没有了；消失；用完。通过两个不同语境辨认；其他义项须结合上下文。\n也常写成なくなる。本组练物品消失、数量用尽；人的去世写亡くなる。なくす则有“某人把东西弄丢”的他动词用法。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "没有了；消失；用完",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4144；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4144a",
+        "svn4144b"
+      ],
+      "order": 2043,
+      "readingCue": "表示东西消失或用完的动词"
+    },
+    {
+      "id": "vn4145",
+      "kind": "word",
+      "level": "N4",
+      "text": "残す",
+      "reading": "のこす",
+      "romaji": "nokosu",
+      "meaning": "留下；使剩余",
+      "explanation": "本单元义项：留下；使剩余。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "留下；使剩余",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4145；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4145a",
+        "svn4145b"
+      ],
+      "order": 2044
+    },
+    {
+      "id": "vn4146",
+      "kind": "word",
+      "level": "N4",
+      "text": "褒める",
+      "reading": "ほめる",
+      "romaji": "homeru",
+      "meaning": "表扬；称赞",
+      "explanation": "本单元义项：表扬；称赞。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "表扬；称赞",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4146；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4146a",
+        "svn4146b"
+      ],
+      "order": 2045
+    },
+    {
+      "id": "vn4147",
+      "kind": "word",
+      "level": "N4",
+      "text": "役に立つ",
+      "reading": "やくにたつ",
+      "romaji": "yaku ni tatsu",
+      "meaning": "有用；派得上用场",
+      "explanation": "本单元义项：有用；派得上用场。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "固定表达",
+      "sense": "有用；派得上用场",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4147；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4147a",
+        "svn4147b"
+      ],
+      "order": 2046
+    },
+    {
+      "id": "vn4148",
+      "kind": "word",
+      "level": "N4",
+      "text": "楽しむ",
+      "reading": "たのしむ",
+      "romaji": "tanoshimu",
+      "meaning": "享受；以……为乐",
+      "explanation": "本单元义项：享受；以……为乐。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "享受；以……为乐",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4148；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4148a",
+        "svn4148b"
+      ],
+      "order": 2047
+    },
+    {
+      "id": "vn4149",
+      "kind": "word",
+      "level": "N4",
+      "text": "贈る",
+      "reading": "おくる",
+      "romaji": "okuru",
+      "meaning": "赠送（礼物等）",
+      "explanation": "本单元义项：赠送（礼物等）。通过两个不同语境辨认；其他义项须结合上下文。\n贈る强调作为礼物或祝福送给对方。送る可表示寄送、护送等，不把这些义项都算入本词。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "赠送（礼物等）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4149；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4149a",
+        "svn4149b"
+      ],
+      "order": 2048,
+      "readingCue": "表示赠送礼物的动词"
+    },
+    {
+      "id": "vn4150",
+      "kind": "word",
+      "level": "N4",
+      "text": "なさる",
+      "reading": "なさる",
+      "romaji": "nasaru",
+      "meaning": "做（する的尊敬语）",
+      "explanation": "本单元义项：做（する的尊敬语）。通过两个不同语境辨认；其他义项须结合上下文。\n尊敬地描述对方或应受尊敬人物的动作；不是我方自谦。礼貌形常用なさいます、なさいました，命令形なさい在语气上另须结合场景。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "动词／尊敬语",
+      "sense": "做（する的尊敬语）",
+      "register": "尊敬语",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4150；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4150a",
+        "svn4150b"
+      ],
+      "order": 2049
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4101a",
+      "segments": [
+        {
+          "text": "約束",
+          "reading": "やくそく",
+          "itemID": "v0112"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "謝",
+          "reading": "あやま",
+          "itemID": "vn4101"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为赴约迟到，向朋友道了歉。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4101；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4101b",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "割",
+          "reading": "わ",
+          "itemID": "vn6129"
+        },
+        {
+          "text": "ったことを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "父",
+          "reading": "ちち",
+          "itemID": "v0194"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "謝",
+          "reading": "あやま",
+          "itemID": "vn4101"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "弟弟因打破窗户向父亲道了歉。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4101；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4102a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "魚",
+          "reading": "さかな",
+          "itemID": "v0230"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "冷",
+          "reading": "つめ",
+          "itemID": "vn5025"
+        },
+        {
+          "text": "たい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "でも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "生",
+          "reading": "い",
+          "itemID": "vn4102"
+        },
+        {
+          "text": "きられます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这种鱼在冷水中也能生存。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4102；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4102b",
+      "segments": [
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "皆",
+          "reading": "みな",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "生",
+          "reading": "い",
+          "itemID": "vn4102"
+        },
+        {
+          "text": "きていると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "故事最后，大家得知他还活着。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4102；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4103a",
+      "segments": [
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "健康",
+          "reading": "けんこう",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "祈",
+          "reading": "いの",
+          "itemID": "vn4103"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "祈愿家人健康。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4103；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4103b",
+      "segments": [
+        {
+          "text": "神社",
+          "reading": "じんじゃ",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "試験",
+          "reading": "しけん",
+          "itemID": "vn4032"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合格",
+          "reading": "ごうかく",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "祈",
+          "reading": "いの",
+          "itemID": "vn4103"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "がいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "神社里有人祈愿通过考试。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4103；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4104a",
+      "segments": [
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "木",
+          "reading": "き",
+          "itemID": "vn5176"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "植",
+          "reading": "う",
+          "itemID": "vn4104"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在院子里栽了一棵小树。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4104；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4104b",
+      "segments": [
+        {
+          "text": "春",
+          "reading": "はる",
+          "itemID": "v0256"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "植",
+          "reading": "う",
+          "itemID": "vn4104"
+        },
+        {
+          "text": "えた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "花",
+          "reading": "はな",
+          "itemID": "v0221"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "咲",
+          "reading": "さ",
+          "itemID": "vn5231"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "春天种的花开了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4104；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4105a",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ボール",
+          "reading": "ぼーる",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "打",
+          "reading": "う",
+          "itemID": "vn4105"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "弟弟击出了球。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4105；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4105b",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "強",
+          "reading": "つよ",
+          "itemID": "v0253"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "打",
+          "reading": "う",
+          "itemID": "vn4105"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "雨在猛烈地敲打窗户。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4105；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4106a",
+      "segments": [
+        {
+          "text": "黒板",
+          "reading": "こくばん",
+          "itemID": "vn5559"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "文",
+          "reading": "ぶん",
+          "itemID": "vn5548"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ノート",
+          "reading": "のーと",
+          "itemID": "v0217"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写",
+          "reading": "うつ",
+          "itemID": "vn4106"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把黑板上的句子抄到了笔记本上。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4106；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4106b",
+      "segments": [
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写",
+          "reading": "うつ",
+          "itemID": "vn4106"
+        },
+        {
+          "text": "して、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把地图照着画在纸上，确认了路线。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4106；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4107a",
+      "segments": [
+        {
+          "text": "来月",
+          "reading": "らいげつ",
+          "itemID": "vn5038"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会社",
+          "reading": "かいしゃ",
+          "itemID": "v0121"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ビル",
+          "reading": "びる",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "移",
+          "reading": "うつ",
+          "itemID": "vn4107"
+        },
+        {
+          "text": "ります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "下个月公司将迁到新楼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4107；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4107b",
+      "segments": [
+        {
+          "text": "ここ",
+          "reading": "ここ",
+          "itemID": "vn5307"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暑",
+          "reading": "あつ",
+          "itemID": "v0241"
+        },
+        {
+          "text": "いので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "涼",
+          "reading": "すず",
+          "itemID": "v0244"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "移",
+          "reading": "うつ",
+          "itemID": "vn4107"
+        },
+        {
+          "text": "りましょう。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这里热，换到凉快的房间去吧。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4107；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4108a",
+      "segments": [
+        {
+          "text": "お祭り",
+          "reading": "おまつり",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "皆",
+          "reading": "みな",
+          "itemID": null
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "踊",
+          "reading": "おど",
+          "itemID": "vn4108"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在节日庆典上和大家一起跳了舞。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4108；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4108b",
+      "segments": [
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音楽",
+          "reading": "おんがく",
+          "itemID": "v0277"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "わせて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "踊",
+          "reading": "おど",
+          "itemID": "vn4108"
+        },
+        {
+          "text": "るのが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "好",
+          "reading": "す",
+          "itemID": "v0281"
+        },
+        {
+          "text": "きです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "妹妹喜欢跟着音乐跳舞。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4108；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4109a",
+      "segments": [
+        {
+          "text": "突然",
+          "reading": "とつぜん",
+          "itemID": null
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音",
+          "reading": "おと",
+          "itemID": "vn5794"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "驚",
+          "reading": "おどろ",
+          "itemID": "vn4109"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "被突然的巨响吓了一跳。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4109；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4109b",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "itemID": "v0315"
+        },
+        {
+          "text": "んでいると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "驚",
+          "reading": "おどろ",
+          "itemID": "vn4109"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "得知朋友也住在同一个镇，很惊讶。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4109；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4110a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "頃",
+          "reading": "ころ",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思い出",
+          "reading": "おもいだ",
+          "itemID": "vn4110"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "看到这张照片就想起小时候。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4110；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4110b",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思い出",
+          "reading": "おもいだ",
+          "itemID": "vn4110"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在车站想起了朋友的名字。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4110；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4111a",
+      "segments": [
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "花",
+          "reading": "はな",
+          "itemID": "v0221"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飾",
+          "reading": "かざ",
+          "itemID": "vn4111"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在房间里摆了花作装饰。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4111；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4111b",
+      "segments": [
+        {
+          "text": "姉",
+          "reading": "あね",
+          "itemID": "v0197"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "壁",
+          "reading": "かべ",
+          "itemID": "vn5902"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飾",
+          "reading": "かざ",
+          "itemID": "vn4111"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "姐姐把旅行照片挂在墙上作装饰。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4111；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4112a",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "試合",
+          "reading": "しあい",
+          "itemID": "vn4034"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勝",
+          "reading": "か",
+          "itemID": "vn4112"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "赢了昨天的比赛。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4112；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4112b",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "兄",
+          "reading": "あに",
+          "itemID": "v0196"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勝",
+          "reading": "か",
+          "itemID": "vn4112"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "喜",
+          "reading": "よろこ",
+          "itemID": "vn5749"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "弟弟第一次赢过哥哥，非常高兴。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4112；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4113a",
+      "segments": [
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "たちが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "廊下",
+          "reading": "ろうか",
+          "itemID": "vn5135"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "騒",
+          "reading": "さわ",
+          "itemID": "vn4113"
+        },
+        {
+          "text": "いでいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "孩子们在走廊里吵闹。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4113；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4113b",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近所",
+          "reading": "きんじょ",
+          "itemID": "vn4004"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "迷惑",
+          "reading": "めいわく",
+          "itemID": null
+        },
+        {
+          "text": "になるので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "騒",
+          "reading": "さわ",
+          "itemID": "vn4113"
+        },
+        {
+          "text": "がないでください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "夜里会打扰邻居，请不要喧闹。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4113；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4114a",
+      "segments": [
+        {
+          "text": "祖父",
+          "reading": "そふ",
+          "itemID": "v0200"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "野菜",
+          "reading": "やさい",
+          "itemID": "v0231"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "育",
+          "reading": "そだ",
+          "itemID": "vn4114"
+        },
+        {
+          "text": "てています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "祖父在院子里种菜。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4114；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4114b",
+      "segments": [
+        {
+          "text": "母",
+          "reading": "はは",
+          "itemID": "v0195"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "三人",
+          "reading": "さんにん",
+          "itemID": "vn5012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "育",
+          "reading": "そだ",
+          "itemID": "vn4114"
+        },
+        {
+          "text": "てました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "母亲养育了三个孩子。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4114；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4115a",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "滑",
+          "reading": "すべ",
+          "itemID": "vn4115"
+        },
+        {
+          "text": "りやすいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "雨天这条路容易打滑。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4115；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4115b",
+      "segments": [
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "氷",
+          "reading": "こおり",
+          "itemID": null
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上",
+          "reading": "うえ",
+          "itemID": "v0054"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "滑",
+          "reading": "すべ",
+          "itemID": "vn4115"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "孩子在冰面上滑行。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4115；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4116a",
+      "segments": [
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "虫",
+          "reading": "むし",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "捕",
+          "reading": "つか",
+          "itemID": "vn4116"
+        },
+        {
+          "text": "まえました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在院子里捉了一只小虫。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4116；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4116b",
+      "segments": [
+        {
+          "text": "警察",
+          "reading": "けいさつ",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "逃",
+          "reading": "に",
+          "itemID": "vn4123"
+        },
+        {
+          "text": "げた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "男",
+          "reading": "おとこ",
+          "itemID": "vn5115"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "捕",
+          "reading": "つか",
+          "itemID": "vn4116"
+        },
+        {
+          "text": "まえました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "警察抓住了逃跑的男子。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4116；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4117a",
+      "segments": [
+        {
+          "text": "贈り物",
+          "reading": "おくりもの",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "包",
+          "reading": "つつ",
+          "itemID": "vn4117"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "用纸把礼物包了起来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4117b",
+      "segments": [
+        {
+          "text": "パン",
+          "reading": "ぱん",
+          "itemID": "v0227"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "包",
+          "reading": "つつ",
+          "itemID": "vn4117"
+        },
+        {
+          "text": "んで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "い",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "れました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "包好面包，放进了袋子。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4118a",
+      "segments": [
+        {
+          "text": "父",
+          "reading": "ちち",
+          "itemID": "v0194"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "川",
+          "reading": "かわ",
+          "itemID": "vn5178"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "魚",
+          "reading": "さかな",
+          "itemID": "v0230"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "釣",
+          "reading": "つ",
+          "itemID": "vn4118"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "父亲正在河边钓鱼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4118b",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "釣",
+          "reading": "つ",
+          "itemID": "vn4118"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "魚",
+          "reading": "さかな",
+          "itemID": "v0230"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夕飯",
+          "reading": "ゆうはん",
+          "itemID": "vn5725"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "晚饭吃了昨天钓的鱼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4119a",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘れ物",
+          "reading": "わすれもの",
+          "itemID": "vn5997"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "届",
+          "reading": "とど",
+          "itemID": "vn4119"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把遗失的东西送到了朋友家。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4119；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4119b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "書類",
+          "reading": "しょるい",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受付",
+          "reading": "うけつけ",
+          "itemID": "vn5994"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "届",
+          "reading": "とど",
+          "itemID": "vn4119"
+        },
+        {
+          "text": "けてください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "请把这份文件送到接待处。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4119；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4120a",
+      "segments": [
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": "vn6133"
+        },
+        {
+          "text": "れた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電球",
+          "reading": "でんきゅう",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "取り替",
+          "reading": "とりか",
+          "itemID": "vn4120"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "换掉了烧坏的灯泡。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4120；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4120b",
+      "segments": [
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "カーテン",
+          "reading": "かーてん",
+          "itemID": "vn5929"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "取り替",
+          "reading": "とりか",
+          "itemID": "vn4120"
+        },
+        {
+          "text": "えます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把房间的旧窗帘换成新的。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4120；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4121a",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ボール",
+          "reading": "ぼーる",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "投",
+          "reading": "な",
+          "itemID": "vn4121"
+        },
+        {
+          "text": "げました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把球扔给了朋友。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4121；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4121b",
+      "segments": [
+        {
+          "text": "川",
+          "reading": "かわ",
+          "itemID": "vn5178"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "石",
+          "reading": "いし",
+          "itemID": "vn5931"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "投",
+          "reading": "な",
+          "itemID": "vn4121"
+        },
+        {
+          "text": "げてはいけません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不许往河里扔石头。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4121；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4122a",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "慣",
+          "reading": "な",
+          "itemID": "vn4122"
+        },
+        {
+          "text": "れました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "稍微适应了新工作。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4122；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4122b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "生活",
+          "reading": "せいかつ",
+          "itemID": "vn4313"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "慣",
+          "reading": "な",
+          "itemID": "vn4122"
+        },
+        {
+          "text": "れるまで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "がかかりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "适应这个镇上的生活花了一些时间。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4122；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4123a",
+      "segments": [
+        {
+          "text": "猫",
+          "reading": "ねこ",
+          "itemID": "v0297"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "逃",
+          "reading": "に",
+          "itemID": "vn4123"
+        },
+        {
+          "text": "げました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "猫从窗户逃到外面去了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4123；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4123b",
+      "segments": [
+        {
+          "text": "火事",
+          "reading": "かじ",
+          "itemID": null
+        },
+        {
+          "text": "のときは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "階段",
+          "reading": "かいだん",
+          "itemID": "vn5137"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "逃",
+          "reading": "に",
+          "itemID": "vn4123"
+        },
+        {
+          "text": "げてください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "发生火灾时，请走楼梯逃生。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4123；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4124a",
+      "segments": [
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "母",
+          "reading": "はは",
+          "itemID": "v0195"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "似",
+          "reading": "に",
+          "itemID": "vn4124"
+        },
+        {
+          "text": "ています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "妹妹长得像母亲。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4124；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4124b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "二",
+          "reading": "ふた",
+          "itemID": "vn5516"
+        },
+        {
+          "text": "つの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "似",
+          "reading": "に",
+          "itemID": "vn4124"
+        },
+        {
+          "text": "ています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这两个词的意思相近。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4124；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4125a",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "品物",
+          "reading": "しなもの",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "盗",
+          "reading": "ぬす",
+          "itemID": "vn4125"
+        },
+        {
+          "text": "んではいけません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不许偷店里的商品。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4125；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4125b",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "財布",
+          "reading": "さいふ",
+          "itemID": "v0207"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "盗",
+          "reading": "ぬす",
+          "itemID": "vn4125"
+        },
+        {
+          "text": "まれた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "がいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "有人在车站被偷了钱包。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4125；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4126a",
+      "segments": [
+        {
+          "text": "パン",
+          "reading": "ぱん",
+          "itemID": "v0227"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "バター",
+          "reading": "ばたー",
+          "itemID": "vn5164"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "塗",
+          "reading": "ぬ",
+          "itemID": "vn4126"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在面包上抹了黄油。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4126；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4126b",
+      "segments": [
+        {
+          "text": "壁",
+          "reading": "かべ",
+          "itemID": "vn5902"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "白",
+          "reading": "しろ",
+          "itemID": "v0245"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "塗",
+          "reading": "ぬ",
+          "itemID": "vn4126"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "打算把墙涂白。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4126；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4127a",
+      "segments": [
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お菓子",
+          "reading": "おかし",
+          "itemID": "vn5156"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一",
+          "reading": "ひと",
+          "itemID": "vn5515"
+        },
+        {
+          "text": "つ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "盒子里还剩一块点心。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4127；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4127b",
+      "segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "も、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "三人",
+          "reading": "さんにん",
+          "itemID": "vn5012"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "会议结束后，还有三个人留在房间里。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4127；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4128a",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "になると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "山",
+          "reading": "やま",
+          "itemID": "vn5177"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "空気",
+          "reading": "くうき",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "冷",
+          "reading": "ひ",
+          "itemID": "vn4128"
+        },
+        {
+          "text": "えます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "到了夜里，山上的空气变冷。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4128；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4128b",
+      "segments": [
+        {
+          "text": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "itemID": "vn5142"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ジュース",
+          "reading": "じゅーす",
+          "itemID": "v0237"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "よく",
+          "reading": "よく",
+          "itemID": "v0182"
+        },
+        {
+          "text": "冷",
+          "reading": "ひ",
+          "itemID": "vn4128"
+        },
+        {
+          "text": "えていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "果汁在冰箱里冰得很凉。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4128；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4129a",
+      "segments": [
+        {
+          "text": "暗",
+          "reading": "くら",
+          "itemID": "vn5204"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "猫",
+          "reading": "ねこ",
+          "itemID": "v0297"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "目",
+          "reading": "め",
+          "itemID": "vn5103"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "光",
+          "reading": "ひか",
+          "itemID": "vn4129"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "黑暗的路上，猫的眼睛闪着光。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4129；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4129b",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "葉",
+          "reading": "は",
+          "itemID": "vn5934"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上",
+          "reading": "うえ",
+          "itemID": "v0054"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "光",
+          "reading": "ひか",
+          "itemID": "vn4129"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "雨后，叶子上的水珠闪着光。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4129；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4130a",
+      "segments": [
+        {
+          "text": "銀行",
+          "reading": "ぎんこう",
+          "itemID": "v0185"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お金",
+          "reading": "おかね",
+          "itemID": "vn5250"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引き出",
+          "reading": "ひきだ",
+          "itemID": "vn4130"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在银行取了钱。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4130；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4130b",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "下",
+          "reading": "した",
+          "itemID": "v0055"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "引き出",
+          "reading": "ひきだ",
+          "itemID": "vn4130"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把箱子从桌子下面拉了出来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4130；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4131a",
+      "segments": [
+        {
+          "text": "去年",
+          "reading": "きょねん",
+          "itemID": "v0266"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "太",
+          "reading": "ふと",
+          "itemID": "vn4131"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "比去年稍微胖了一点。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4131；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4131b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "服",
+          "reading": "ふく",
+          "itemID": "v0210"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "買",
+          "reading": "か",
+          "itemID": "v0061"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "頃",
+          "reading": "ころ",
+          "itemID": null
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "太",
+          "reading": "ふと",
+          "itemID": "vn4131"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "买这件衣服时，我比现在胖。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4131；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4132a",
+      "segments": [
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "足",
+          "reading": "あし",
+          "itemID": "vn5101"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "踏",
+          "reading": "ふ",
+          "itemID": "vn4132"
+        },
+        {
+          "text": "まれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在电车上被踩了脚。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4132；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4132b",
+      "segments": [
+        {
+          "text": "床",
+          "reading": "ゆか",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "踏",
+          "reading": "ふ",
+          "itemID": "vn4132"
+        },
+        {
+          "text": "まないでください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "请不要踩地上的纸。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4132；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4133a",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "試合",
+          "reading": "しあい",
+          "itemID": "vn4034"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "負",
+          "reading": "ま",
+          "itemID": "vn4133"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天的比赛输了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4133；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4133b",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "負",
+          "reading": "ま",
+          "itemID": "vn4133"
+        },
+        {
+          "text": "けたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "もう一度",
+          "reading": "もういちど",
+          "itemID": "vn5730"
+        },
+        {
+          "text": "練習",
+          "reading": "れんしゅう",
+          "itemID": "vn5239"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为输给了弟弟，要再练习一遍。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4133；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4134a",
+      "segments": [
+        {
+          "text": "走",
+          "reading": "はし",
+          "itemID": "v0309"
+        },
+        {
+          "text": "ったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間に合",
+          "reading": "まにあ",
+          "itemID": "vn4134"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为跑着赶路，赶上了末班电车。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4134；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4134b",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "めれば、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発表",
+          "reading": "はっぴょう",
+          "itemID": "vn4015"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間に合",
+          "reading": "まにあ",
+          "itemID": "vn4134"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "现在开始的话，来得及赶上明天的报告。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4134；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4135a",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "早",
+          "reading": "はや",
+          "itemID": "v0289"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": "vn4135"
+        },
+        {
+          "text": "かいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "一大早朝车站去了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4135；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4135b",
+      "segments": [
+        {
+          "text": "船",
+          "reading": "ふね",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "島",
+          "reading": "しま",
+          "itemID": "vn5939"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": "vn4135"
+        },
+        {
+          "text": "かっています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "船正驶向岛屿。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4135；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4136a",
+      "segments": [
+        {
+          "text": "夕飯",
+          "reading": "ゆうはん",
+          "itemID": "vn5725"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "魚",
+          "reading": "さかな",
+          "itemID": "v0230"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "焼",
+          "reading": "や",
+          "itemID": "vn4136"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "晚饭要烤鱼。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4136；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4136b",
+      "segments": [
+        {
+          "text": "姉",
+          "reading": "あね",
+          "itemID": "v0197"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "パン",
+          "reading": "ぱん",
+          "itemID": "v0227"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "焼",
+          "reading": "や",
+          "itemID": "vn4136"
+        },
+        {
+          "text": "いてくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "姐姐给我烤了面包。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4136；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4137a",
+      "segments": [
+        {
+          "text": "魚",
+          "reading": "さかな",
+          "itemID": "v0230"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "焼",
+          "reading": "や",
+          "itemID": "vn4137"
+        },
+        {
+          "text": "けましたから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べましょう。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "鱼烤好了，吃吧。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4137；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4137b",
+      "segments": [
+        {
+          "text": "パン",
+          "reading": "ぱん",
+          "itemID": "v0227"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "焼",
+          "reading": "や",
+          "itemID": "vn4137"
+        },
+        {
+          "text": "けるまで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お茶",
+          "reading": "おちゃ",
+          "itemID": "v0154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飲",
+          "reading": "の",
+          "itemID": "v0034"
+        },
+        {
+          "text": "んで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "等面包烤好之前，喝茶等着。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4137；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4138a",
+      "segments": [
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "頃",
+          "reading": "ころ",
+          "itemID": null
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "痩",
+          "reading": "や",
+          "itemID": "vn4138"
+        },
+        {
+          "text": "せました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "比照片拍摄时瘦了一点。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4138；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4138b",
+      "segments": [
+        {
+          "text": "久しぶり",
+          "reading": "ひさしぶり",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "以前",
+          "reading": "いぜん",
+          "itemID": null
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "痩",
+          "reading": "や",
+          "itemID": "vn4138"
+        },
+        {
+          "text": "せていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "久别重逢的朋友比以前瘦了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4138；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4139a",
+      "segments": [
+        {
+          "text": "風",
+          "reading": "かぜ",
+          "itemID": "v0255"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "木",
+          "reading": "き",
+          "itemID": "vn5176"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "枝",
+          "reading": "えだ",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "揺",
+          "reading": "ゆ",
+          "itemID": "vn4139"
+        },
+        {
+          "text": "れています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "树枝在风中摇晃。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4139；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4139b",
+      "segments": [
+        {
+          "text": "船",
+          "reading": "ふね",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "揺",
+          "reading": "ゆ",
+          "itemID": "vn4139"
+        },
+        {
+          "text": "れたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "椅子",
+          "reading": "いす",
+          "itemID": "v0053"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "座",
+          "reading": "すわ",
+          "itemID": "v0301"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为船晃得厉害，坐到了椅子上。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4139；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4140a",
+      "segments": [
+        {
+          "text": "お茶",
+          "reading": "おちゃ",
+          "itemID": "v0154"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ため",
+          "reading": "ため",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お湯",
+          "reading": "おゆ",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "沸",
+          "reading": "わ",
+          "itemID": "vn4140"
+        },
+        {
+          "text": "かします。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为泡茶烧水。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4140；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4140b",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "やかん",
+          "reading": "やかん",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "沸",
+          "reading": "わ",
+          "itemID": "vn4140"
+        },
+        {
+          "text": "かしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "早上用水壶烧开了水。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4140；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4141a",
+      "segments": [
+        {
+          "text": "お湯",
+          "reading": "おゆ",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "沸",
+          "reading": "わ",
+          "itemID": "vn4141"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "水烧开了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4141；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4141b",
+      "segments": [
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "沸",
+          "reading": "わ",
+          "itemID": "vn4141"
+        },
+        {
+          "text": "くまで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "カップ",
+          "reading": "かっぷ",
+          "itemID": "vn5147"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "用意",
+          "reading": "ようい",
+          "itemID": "vn4016"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "趁水烧开前准备杯子。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4141；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4142a",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "わか",
+          "itemID": "vn4142"
+        },
+        {
+          "text": "れました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在车站和朋友分别了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4142；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4142b",
+      "segments": [
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "皆",
+          "reading": "みな",
+          "itemID": null
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "わか",
+          "itemID": "vn4142"
+        },
+        {
+          "text": "れるのは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "寂",
+          "reading": "さび",
+          "itemID": "vn5779"
+        },
+        {
+          "text": "しかったです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "旅行结束时，和大家分别令人不舍。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4142；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4143a",
+      "segments": [
+        {
+          "text": "祖父",
+          "reading": "そふ",
+          "itemID": "v0200"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十年",
+          "reading": "じゅうねん",
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "亡",
+          "reading": "な",
+          "itemID": "vn4143"
+        },
+        {
+          "text": "くなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "祖父十年前去世了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4143；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4143b",
+      "segments": [
+        {
+          "text": "去年",
+          "reading": "きょねん",
+          "itemID": "v0266"
+        },
+        {
+          "text": "亡",
+          "reading": "な",
+          "itemID": "vn4143"
+        },
+        {
+          "text": "くなった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "读了去年去世的那位老师的书。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4143；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4144a",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置",
+          "reading": "お",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "いた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "鍵",
+          "reading": "かぎ",
+          "itemID": "v0208"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "無",
+          "reading": "な",
+          "itemID": "vn4144"
+        },
+        {
+          "text": "くなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "放在桌上的钥匙不见了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4144；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4144b",
+      "segments": [
+        {
+          "text": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "itemID": "v0235"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "無",
+          "reading": "な",
+          "itemID": "vn4144"
+        },
+        {
+          "text": "くなったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "買",
+          "reading": "か",
+          "itemID": "v0061"
+        },
+        {
+          "text": "いに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "牛奶没了，要去买。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4144；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4145a",
+      "segments": [
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ため",
+          "reading": "ため",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お菓子",
+          "reading": "おかし",
+          "itemID": "vn5156"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4145"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "给妹妹留了点心。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4145；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4145b",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "メモ",
+          "reading": "めも",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4145"
+        },
+        {
+          "text": "して",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "vn5026"
+        },
+        {
+          "text": "かけました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在桌上留下简短便条后出门了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4145；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4146a",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作文",
+          "reading": "さくぶん",
+          "itemID": "vn5410"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "褒",
+          "reading": "ほ",
+          "itemID": "vn4146"
+        },
+        {
+          "text": "めてくださいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师表扬了我的作文。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4146；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4146b",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "父",
+          "reading": "ちち",
+          "itemID": "v0194"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "褒",
+          "reading": "ほ",
+          "itemID": "vn4146"
+        },
+        {
+          "text": "められて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "嬉",
+          "reading": "うれ",
+          "itemID": "vn5781"
+        },
+        {
+          "text": "しそうでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "弟弟被父亲表扬，看起来很高兴。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4146；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4147a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "役に立",
+          "reading": "やくにた",
+          "itemID": "vn4147"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这张地图在旅行中派上了用场。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4147；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4147b",
+      "segments": [
+        {
+          "text": "日本語",
+          "reading": "にほんご",
+          "itemID": "v0278"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知識",
+          "reading": "ちしき",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "役に立",
+          "reading": "やくにた",
+          "itemID": "vn4147"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "日语知识对工作有帮助。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4147；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4148a",
+      "segments": [
+        {
+          "text": "休日",
+          "reading": "きゅうじつ",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音楽",
+          "reading": "おんがく",
+          "itemID": "v0277"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "楽",
+          "reading": "たの",
+          "itemID": "vn4148"
+        },
+        {
+          "text": "しみます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "休息日会在家享受音乐。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4148；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4148b",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "楽",
+          "reading": "たの",
+          "itemID": "vn4148"
+        },
+        {
+          "text": "しみました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "和朋友愉快地旅行了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4148；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4149a",
+      "segments": [
+        {
+          "text": "母",
+          "reading": "はは",
+          "itemID": "v0195"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誕生日",
+          "reading": "たんじょうび",
+          "itemID": "vn5057"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "花",
+          "reading": "はな",
+          "itemID": "v0221"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "贈",
+          "reading": "おく",
+          "itemID": "vn4149"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "母亲生日时送了花。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4149；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4149b",
+      "segments": [
+        {
+          "text": "卒業",
+          "reading": "そつぎょう",
+          "itemID": "vn4027"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先輩",
+          "reading": "せんぱい",
+          "itemID": "vn4024"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記念",
+          "reading": "きねん",
+          "itemID": null
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "贈",
+          "reading": "おく",
+          "itemID": "vn4149"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "给即将毕业的前辈赠送了纪念书籍。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4149；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4150a",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "毎朝",
+          "reading": "まいあさ",
+          "itemID": "v0267"
+        },
+        {
+          "text": "散歩",
+          "reading": "さんぽ",
+          "itemID": "vn5414"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "なさい",
+          "reading": "なさい",
+          "itemID": "vn4150"
+        },
+        {
+          "text": "ます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师每天早晨散步。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4150；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4150b",
+      "segments": [
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "何",
+          "reading": "なに",
+          "itemID": "v0024"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "なさい",
+          "reading": "なさい",
+          "itemID": "vn4150"
+        },
+        {
+          "text": "ましたか。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "您旅行时做了些什么？",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4150；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4101a",
+      "targetID": "vn4101",
+      "sentenceID": "svn4101b",
+      "skill": "meaning",
+      "prompt": "句中「謝る」表示什么？",
+      "choices": [
+        "责骂对方",
+        "向人炫耀",
+        "道歉"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「道歉」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "あやまる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "謝る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4101；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4102a",
+      "targetID": "vn4102",
+      "sentenceID": "svn4102b",
+      "skill": "meaning",
+      "prompt": "句中「生きる」表示什么？",
+      "choices": [
+        "出生",
+        "死亡",
+        "活着；生存"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「活着；生存」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "いきる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "生きる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4102；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4103a",
+      "targetID": "vn4103",
+      "sentenceID": "svn4103b",
+      "skill": "meaning",
+      "prompt": "句中「祈る」表示什么？",
+      "choices": [
+        "批评",
+        "祈祷；祈愿",
+        "命令"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「祈祷；祈愿」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "いのる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "祈る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4103；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4104a",
+      "targetID": "vn4104",
+      "sentenceID": "svn4104b",
+      "skill": "meaning",
+      "prompt": "句中「植える」表示什么？",
+      "choices": [
+        "收割",
+        "种植；栽种",
+        "拔掉"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「种植；栽种」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うえる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "植える",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4104；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4105a",
+      "targetID": "vn4105",
+      "sentenceID": "svn4105b",
+      "skill": "meaning",
+      "prompt": "句中「打つ」表示什么？",
+      "choices": [
+        "接住不动",
+        "击打；撞击（本单元义项）",
+        "轻轻抚摸"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「击打；撞击（本单元义项）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うつ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "打つ",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4105；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4106a",
+      "targetID": "vn4106",
+      "sentenceID": "svn4106b",
+      "skill": "meaning",
+      "prompt": "句中「写す」表示什么？",
+      "choices": [
+        "抄写；照着复制（本单元义项）",
+        "擦掉内容",
+        "自行创作"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「抄写；照着复制（本单元义项）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うつす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "写す",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4106；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4107a",
+      "targetID": "vn4107",
+      "sentenceID": "svn4107b",
+      "skill": "meaning",
+      "prompt": "句中「移る」表示什么？",
+      "choices": [
+        "转移；迁到另一处",
+        "留在原处",
+        "抄写文字"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「转移；迁到另一处」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うつる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "移る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4107；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4108a",
+      "targetID": "vn4108",
+      "sentenceID": "svn4108b",
+      "skill": "meaning",
+      "prompt": "句中「踊る」表示什么？",
+      "choices": [
+        "唱歌",
+        "演奏乐器",
+        "跳舞"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「跳舞」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "おどる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "踊る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4108；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4109a",
+      "targetID": "vn4109",
+      "sentenceID": "svn4109b",
+      "skill": "meaning",
+      "prompt": "句中「驚く」表示什么？",
+      "choices": [
+        "吃惊；惊讶",
+        "安心",
+        "责备"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「吃惊；惊讶」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "おどろく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "驚く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4109；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4110a",
+      "targetID": "vn4110",
+      "sentenceID": "svn4110b",
+      "skill": "meaning",
+      "prompt": "句中「思い出す」表示什么？",
+      "choices": [
+        "想起；回忆起",
+        "忘掉",
+        "提前计划"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「想起；回忆起」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "おもいだす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "思い出す",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4110；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4111a",
+      "targetID": "vn4111",
+      "sentenceID": "svn4111b",
+      "skill": "meaning",
+      "prompt": "句中「飾る」表示什么？",
+      "choices": [
+        "装饰；摆放作装饰",
+        "藏起来",
+        "拆掉"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「装饰；摆放作装饰」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かざる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "飾る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4111；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4112a",
+      "targetID": "vn4112",
+      "sentenceID": "svn4112b",
+      "skill": "meaning",
+      "prompt": "句中「勝つ」表示什么？",
+      "choices": [
+        "输掉",
+        "退出比赛",
+        "获胜；赢"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「获胜；赢」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かつ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "勝つ",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4112；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4113a",
+      "targetID": "vn4113",
+      "sentenceID": "svn4113b",
+      "skill": "meaning",
+      "prompt": "句中「騒ぐ」表示什么？",
+      "choices": [
+        "吵闹；喧闹",
+        "安静地等待",
+        "小声耳语"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「吵闹；喧闹」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "さわぐ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "騒ぐ",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4113；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4114a",
+      "targetID": "vn4114",
+      "sentenceID": "svn4114b",
+      "skill": "meaning",
+      "prompt": "句中「育てる」表示什么？",
+      "choices": [
+        "遗弃",
+        "破坏",
+        "养育；培育"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「养育；培育」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "そだてる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "育てる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4114；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4115a",
+      "targetID": "vn4115",
+      "sentenceID": "svn4115b",
+      "skill": "meaning",
+      "prompt": "句中「滑る」表示什么？",
+      "choices": [
+        "滑；滑动",
+        "牢牢固定",
+        "跳起来"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「滑；滑动」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "すべる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "滑る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4115；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4116a",
+      "targetID": "vn4116",
+      "sentenceID": "svn4116b",
+      "skill": "meaning",
+      "prompt": "句中「捕まえる」表示什么？",
+      "choices": [
+        "躲避",
+        "抓住；捉住",
+        "放走"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「抓住；捉住」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "つかまえる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "捕まえる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4116；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4117a",
+      "targetID": "vn4117",
+      "sentenceID": "svn4117b",
+      "skill": "meaning",
+      "prompt": "句中「包む」表示什么？",
+      "choices": [
+        "包裹；包起来",
+        "打开包装",
+        "撕碎"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「包裹；包起来」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "つつむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "包む",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4118a",
+      "targetID": "vn4118",
+      "sentenceID": "svn4118b",
+      "skill": "meaning",
+      "prompt": "句中「釣る」表示什么？",
+      "choices": [
+        "养殖鱼",
+        "切鱼",
+        "钓（鱼）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「钓（鱼）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "つる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "釣る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4119a",
+      "targetID": "vn4119",
+      "sentenceID": "svn4119b",
+      "skill": "meaning",
+      "prompt": "句中「届ける」表示什么？",
+      "choices": [
+        "丢掉不管",
+        "送到；送交",
+        "原处保管"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「送到；送交」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "とどける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "届ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4119；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4120a",
+      "targetID": "vn4120",
+      "sentenceID": "svn4120b",
+      "skill": "meaning",
+      "prompt": "句中「取り替える」表示什么？",
+      "choices": [
+        "更换；换成另一个",
+        "退回原位置",
+        "原样修补"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「更换；换成另一个」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "とりかえる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "取り替える",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4120；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4121a",
+      "targetID": "vn4121",
+      "sentenceID": "svn4121b",
+      "skill": "meaning",
+      "prompt": "句中「投げる」表示什么？",
+      "choices": [
+        "接住",
+        "捡起",
+        "扔；投掷"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「扔；投掷」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "なげる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "投げる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4121；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4122a",
+      "targetID": "vn4122",
+      "sentenceID": "svn4122b",
+      "skill": "meaning",
+      "prompt": "句中「慣れる」表示什么？",
+      "choices": [
+        "习惯；适应",
+        "厌倦放弃",
+        "第一次知道"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「习惯；适应」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "なれる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "慣れる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4122；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4123a",
+      "targetID": "vn4123",
+      "sentenceID": "svn4123b",
+      "skill": "meaning",
+      "prompt": "句中「逃げる」表示什么？",
+      "choices": [
+        "靠近",
+        "逃跑；逃离",
+        "追赶"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「逃跑；逃离」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "にげる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "逃げる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4123；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4124a",
+      "targetID": "vn4124",
+      "sentenceID": "svn4124b",
+      "skill": "meaning",
+      "prompt": "句中「似る」表示什么？",
+      "choices": [
+        "相像；相似",
+        "完全不同",
+        "模仿表演"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「相像；相似」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "にる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "似る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4124；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4125a",
+      "targetID": "vn4125",
+      "sentenceID": "svn4125b",
+      "skill": "meaning",
+      "prompt": "句中「盗む」表示什么？",
+      "choices": [
+        "借用后归还",
+        "送给别人",
+        "偷；盗取"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「偷；盗取」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ぬすむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "盗む",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4125；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4126a",
+      "targetID": "vn4126",
+      "sentenceID": "svn4126b",
+      "skill": "meaning",
+      "prompt": "句中「塗る」表示什么？",
+      "choices": [
+        "擦掉",
+        "剪开",
+        "涂；涂抹"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「涂；涂抹」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ぬる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "塗る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4126；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4127a",
+      "targetID": "vn4127",
+      "sentenceID": "svn4127b",
+      "skill": "meaning",
+      "prompt": "句中「残る」表示什么？",
+      "choices": [
+        "新增",
+        "剩下；留下",
+        "全部消失"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「剩下；留下」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "のこる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "残る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4127；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4128a",
+      "targetID": "vn4128",
+      "sentenceID": "svn4128b",
+      "skill": "meaning",
+      "prompt": "句中「冷える」表示什么？",
+      "choices": [
+        "变冷；凉下来",
+        "加热",
+        "沸腾"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「变冷；凉下来」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひえる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "冷える",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4128；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4129a",
+      "targetID": "vn4129",
+      "sentenceID": "svn4129b",
+      "skill": "meaning",
+      "prompt": "句中「光る」表示什么？",
+      "choices": [
+        "发出声音",
+        "遮住光线",
+        "发光；闪光"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「发光；闪光」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひかる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "光る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4129；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4130a",
+      "targetID": "vn4130",
+      "sentenceID": "svn4130b",
+      "skill": "meaning",
+      "prompt": "句中「引き出す」表示什么？",
+      "choices": [
+        "存入",
+        "推回里面",
+        "取出；提取（本单元义项）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「取出；提取（本单元义项）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひきだす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "引き出す",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4130；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4131a",
+      "targetID": "vn4131",
+      "sentenceID": "svn4131b",
+      "skill": "meaning",
+      "prompt": "句中「太る」表示什么？",
+      "choices": [
+        "长高",
+        "变胖",
+        "变瘦"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「变胖」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ふとる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "太る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4131；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4132a",
+      "targetID": "vn4132",
+      "sentenceID": "svn4132b",
+      "skill": "meaning",
+      "prompt": "句中「踏む」表示什么？",
+      "choices": [
+        "跨过不碰",
+        "用手抓住",
+        "踩；踏"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「踩；踏」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ふむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "踏む",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4132；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4133a",
+      "targetID": "vn4133",
+      "sentenceID": "svn4133b",
+      "skill": "meaning",
+      "prompt": "句中「負ける」表示什么？",
+      "choices": [
+        "输；败",
+        "赢得比赛",
+        "取消比赛"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「输；败」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "まける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "負ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4133；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4134a",
+      "targetID": "vn4134",
+      "sentenceID": "svn4134b",
+      "skill": "meaning",
+      "prompt": "句中「間に合う」表示什么？",
+      "choices": [
+        "错过",
+        "提前取消",
+        "赶得上；来得及"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「赶得上；来得及」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "まにあう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "間に合う",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4134；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4135a",
+      "targetID": "vn4135",
+      "sentenceID": "svn4135b",
+      "skill": "meaning",
+      "prompt": "句中「向かう」表示什么？",
+      "choices": [
+        "朝向；前往",
+        "背离目的地",
+        "停留不动"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「朝向；前往」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "むかう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "向かう",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4135；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4136a",
+      "targetID": "vn4136",
+      "sentenceID": "svn4136b",
+      "skill": "meaning",
+      "prompt": "句中「焼く」表示什么？",
+      "choices": [
+        "冷冻",
+        "清洗",
+        "烤；煎（本单元义项）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「烤；煎（本单元义项）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "やく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "焼く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4136；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4137a",
+      "targetID": "vn4137",
+      "sentenceID": "svn4137b",
+      "skill": "meaning",
+      "prompt": "句中「焼ける」表示什么？",
+      "choices": [
+        "保持生的状态",
+        "烤熟；烤好（本单元义项）",
+        "开始清洗"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「烤熟；烤好（本单元义项）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "やける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "焼ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4137；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4138a",
+      "targetID": "vn4138",
+      "sentenceID": "svn4138b",
+      "skill": "meaning",
+      "prompt": "句中「痩せる」表示什么？",
+      "choices": [
+        "长高",
+        "变瘦",
+        "变胖"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「变瘦」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "やせる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "痩せる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4138；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4139a",
+      "targetID": "vn4139",
+      "sentenceID": "svn4139b",
+      "skill": "meaning",
+      "prompt": "句中「揺れる」表示什么？",
+      "choices": [
+        "断裂落下",
+        "摇晃；晃动",
+        "静止不动"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「摇晃；晃动」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ゆれる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "揺れる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4139；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4140a",
+      "targetID": "vn4140",
+      "sentenceID": "svn4140b",
+      "skill": "meaning",
+      "prompt": "句中「沸かす」表示什么？",
+      "choices": [
+        "把水冷却",
+        "把水倒掉",
+        "把水烧开"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「把水烧开」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "わかす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "沸かす",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4140；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4141a",
+      "targetID": "vn4141",
+      "sentenceID": "svn4141b",
+      "skill": "meaning",
+      "prompt": "句中「沸く」表示什么？",
+      "choices": [
+        "水沸腾；水烧开",
+        "水冷却",
+        "水结冰"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「水沸腾；水烧开」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "わく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "沸く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4141；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4142a",
+      "targetID": "vn4142",
+      "sentenceID": "svn4142b",
+      "skill": "meaning",
+      "prompt": "句中「別れる」表示什么？",
+      "choices": [
+        "分别；与人分开",
+        "偶然相遇",
+        "互相介绍"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「分别；与人分开」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "わかれる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "別れる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4142；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4143a",
+      "targetID": "vn4143",
+      "sentenceID": "svn4143b",
+      "skill": "meaning",
+      "prompt": "句中「亡くなる」表示什么？",
+      "choices": [
+        "搬家",
+        "去世",
+        "出生"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「去世」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "なくなる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "亡くなる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4143；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4144a",
+      "targetID": "vn4144",
+      "sentenceID": "svn4144b",
+      "skill": "meaning",
+      "prompt": "句中「無くなる」表示什么？",
+      "choices": [
+        "没有了；消失；用完",
+        "找到了",
+        "增加了"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「没有了；消失；用完」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "なくなる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "無くなる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4144；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4145a",
+      "targetID": "vn4145",
+      "sentenceID": "svn4145b",
+      "skill": "meaning",
+      "prompt": "句中「残す」表示什么？",
+      "choices": [
+        "留下；使剩余",
+        "全部带走",
+        "全部用光"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「留下；使剩余」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "のこす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "残す",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4145；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4146a",
+      "targetID": "vn4146",
+      "sentenceID": "svn4146b",
+      "skill": "meaning",
+      "prompt": "句中「褒める」表示什么？",
+      "choices": [
+        "怀疑",
+        "表扬；称赞",
+        "责骂"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「表扬；称赞」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ほめる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "褒める",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4146；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4147a",
+      "targetID": "vn4147",
+      "sentenceID": "svn4147b",
+      "skill": "meaning",
+      "prompt": "句中「役に立つ」表示什么？",
+      "choices": [
+        "有用；派得上用场",
+        "造成妨碍",
+        "毫无关系"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「有用；派得上用场」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "やくにたつ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "役に立つ",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4147；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4148a",
+      "targetID": "vn4148",
+      "sentenceID": "svn4148b",
+      "skill": "meaning",
+      "prompt": "句中「楽しむ」表示什么？",
+      "choices": [
+        "享受；以……为乐",
+        "忍受痛苦",
+        "避免接触"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「享受；以……为乐」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "たのしむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "楽しむ",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4148；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4149a",
+      "targetID": "vn4149",
+      "sentenceID": "svn4149b",
+      "skill": "meaning",
+      "prompt": "句中「贈る」表示什么？",
+      "choices": [
+        "归还借物",
+        "收费出售",
+        "赠送（礼物等）"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「赠送（礼物等）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "おくる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "贈る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4149；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4150a",
+      "targetID": "vn4150",
+      "sentenceID": "svn4150b",
+      "skill": "meaning",
+      "prompt": "句中「なさる」表示什么？",
+      "choices": [
+        "请对方停止一切活动",
+        "做（する的尊敬语）",
+        "做（贬低对方）"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「做（する的尊敬语）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "なさる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "なさる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4150；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4b01",
+      "title": "读懂人物的反应与回忆",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4101",
+        "vn4102",
+        "vn4103",
+        "vn4104",
+        "vn4105",
+        "vn4106",
+        "vn4107",
+        "vn4108",
+        "vn4109",
+        "vn4110"
+      ],
+      "sentenceIDs": [
+        "svn4101a",
+        "svn4101b",
+        "svn4102a",
+        "svn4102b",
+        "svn4103a",
+        "svn4103b",
+        "svn4104a",
+        "svn4104b",
+        "svn4105a",
+        "svn4105b",
+        "svn4106a",
+        "svn4106b",
+        "svn4107a",
+        "svn4107b",
+        "svn4108a",
+        "svn4108b",
+        "svn4109a",
+        "svn4109b",
+        "svn4110a",
+        "svn4110b"
+      ],
+      "exerciseIDs": [
+        "evn4101a",
+        "evn4102a",
+        "evn4103a",
+        "evn4104a",
+        "evn4105a",
+        "evn4106a",
+        "evn4107a",
+        "evn4108a",
+        "evn4109a",
+        "evn4110a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4b02",
+      "title": "读懂物品处理与活动",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4111",
+        "vn4112",
+        "vn4113",
+        "vn4114",
+        "vn4115",
+        "vn4116",
+        "vn4117",
+        "vn4118",
+        "vn4119",
+        "vn4120"
+      ],
+      "sentenceIDs": [
+        "svn4111a",
+        "svn4111b",
+        "svn4112a",
+        "svn4112b",
+        "svn4113a",
+        "svn4113b",
+        "svn4114a",
+        "svn4114b",
+        "svn4115a",
+        "svn4115b",
+        "svn4116a",
+        "svn4116b",
+        "svn4117a",
+        "svn4117b",
+        "svn4118a",
+        "svn4118b",
+        "svn4119a",
+        "svn4119b",
+        "svn4120a",
+        "svn4120b"
+      ],
+      "exerciseIDs": [
+        "evn4111a",
+        "evn4112a",
+        "evn4113a",
+        "evn4114a",
+        "evn4115a",
+        "evn4116a",
+        "evn4117a",
+        "evn4118a",
+        "evn4119a",
+        "evn4120a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4b03",
+      "title": "读懂动作结果与状态变化",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4121",
+        "vn4122",
+        "vn4123",
+        "vn4124",
+        "vn4125",
+        "vn4126",
+        "vn4127",
+        "vn4128",
+        "vn4129",
+        "vn4130"
+      ],
+      "sentenceIDs": [
+        "svn4121a",
+        "svn4121b",
+        "svn4122a",
+        "svn4122b",
+        "svn4123a",
+        "svn4123b",
+        "svn4124a",
+        "svn4124b",
+        "svn4125a",
+        "svn4125b",
+        "svn4126a",
+        "svn4126b",
+        "svn4127a",
+        "svn4127b",
+        "svn4128a",
+        "svn4128b",
+        "svn4129a",
+        "svn4129b",
+        "svn4130a",
+        "svn4130b"
+      ],
+      "exerciseIDs": [
+        "evn4121a",
+        "evn4122a",
+        "evn4123a",
+        "evn4124a",
+        "evn4125a",
+        "evn4126a",
+        "evn4127a",
+        "evn4128a",
+        "evn4129a",
+        "evn4130a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4b04",
+      "title": "读懂行程、胜负与烹饪",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4131",
+        "vn4132",
+        "vn4133",
+        "vn4134",
+        "vn4135",
+        "vn4136",
+        "vn4137",
+        "vn4138",
+        "vn4139",
+        "vn4140"
+      ],
+      "sentenceIDs": [
+        "svn4131a",
+        "svn4131b",
+        "svn4132a",
+        "svn4132b",
+        "svn4133a",
+        "svn4133b",
+        "svn4134a",
+        "svn4134b",
+        "svn4135a",
+        "svn4135b",
+        "svn4136a",
+        "svn4136b",
+        "svn4137a",
+        "svn4137b",
+        "svn4138a",
+        "svn4138b",
+        "svn4139a",
+        "svn4139b",
+        "svn4140a",
+        "svn4140b"
+      ],
+      "exerciseIDs": [
+        "evn4131a",
+        "evn4132a",
+        "evn4133a",
+        "evn4134a",
+        "evn4135a",
+        "evn4136a",
+        "evn4137a",
+        "evn4138a",
+        "evn4139a",
+        "evn4140a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4b05",
+      "title": "读懂留下、失去与交往",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4141",
+        "vn4142",
+        "vn4143",
+        "vn4144",
+        "vn4145",
+        "vn4146",
+        "vn4147",
+        "vn4148",
+        "vn4149",
+        "vn4150"
+      ],
+      "sentenceIDs": [
+        "svn4141a",
+        "svn4141b",
+        "svn4142a",
+        "svn4142b",
+        "svn4143a",
+        "svn4143b",
+        "svn4144a",
+        "svn4144b",
+        "svn4145a",
+        "svn4145b",
+        "svn4146a",
+        "svn4146b",
+        "svn4147a",
+        "svn4147b",
+        "svn4148a",
+        "svn4148b",
+        "svn4149a",
+        "svn4149b",
+        "svn4150a",
+        "svn4150b"
+      ],
+      "exerciseIDs": [
+        "evn4141a",
+        "evn4142a",
+        "evn4143a",
+        "evn4144a",
+        "evn4145a",
+        "evn4146a",
+        "evn4147a",
+        "evn4148a",
+        "evn4149a",
+        "evn4150a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

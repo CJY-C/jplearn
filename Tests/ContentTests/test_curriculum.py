@@ -104,7 +104,8 @@ class CurriculumDeliveryTests(unittest.TestCase):
 
     def test_new_homophones_keep_separate_targets_and_sense_cues(self):
         words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
-        for first, second in [("早い", "速い"), ("いる", "要る"), ("閉める", "締める"), ("箸", "橋")]:
+        for first, second in [("早い", "速い"), ("いる", "要る"), ("閉める", "締める"), ("箸", "橋"),
+                ("送る", "贈る"), ("亡くなる", "無くなる")]:
             self.assertNotEqual(words[first]["id"], words[second]["id"])
             self.assertEqual(words[first]["reading"], words[second]["reading"])
             self.assertTrue(words[second].get("readingCue"), second)
@@ -112,6 +113,13 @@ class CurriculumDeliveryTests(unittest.TestCase):
             "[ネクタイ|ねくたい]を[締|し|締める]めて、[ドア|どあ]を[閉|し|閉める]めます。", words)
         self.assertEqual([w["itemID"] for w in occurrences],
             [words[t]["id"] for t in ["ネクタイ", "締める", "ドア", "閉める"]])
+        _, occurrences = markup_sentence(
+            "[母|はは]に[花|はな]を[贈|おく|贈る]る。[駅|えき]まで[母|はは]を[送|おく|送る]る。"
+            "[祖父|そふ]が[亡|な|亡くなる]くなる。[鍵|かぎ]が[無|な|無くなる]くなる。", words)
+        targets = [o["itemID"] for o in occurrences]
+        self.assertEqual([t for t in targets if t in {words[w]["id"] for w in
+            ["贈る", "送る", "亡くなる", "無くなる"]}],
+            [words[w]["id"] for w in ["贈る", "送る", "亡くなる", "無くなる"]])
 
     def test_alternative_readings_are_same_sense_with_a_source(self):
         words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}

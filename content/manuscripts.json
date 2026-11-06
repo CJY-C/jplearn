@@ -13,6 +13,9 @@
     {"kind": "word", "source": "n5-foundation-actions.tsv", "batch": "010-n5-foundation-actions.json"},
     {"kind": "grammar", "source": "n4-structures.tsv", "batch": "011-n4-structures.json"},
     {"kind": "word", "source": "n4-reading-words.tsv", "batch": "012-n4-reading-vocabulary.json"},
-    {"kind": "reading", "source": "n4-readings.tsv", "batch": "013-n4-readings.json"}
+    {"kind": "reading", "source": "n4-readings.tsv", "batch": "013-n4-readings.json"},
+    {"kind": "word", "source": "n4-core-actions.tsv", "batch": "014-n4-core-actions.json"},
+    {"kind": "word", "source": "n4-states-and-cues.tsv", "batch": "015-n4-states-and-cues.json"},
+    {"kind": "word", "source": "n4-activities-and-notices.tsv", "batch": "016-n4-activities-and-notices.json"}
   ]
 }
