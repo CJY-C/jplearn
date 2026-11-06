@@ -18,10 +18,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate sample content
+      - name: Validate authored content and curriculum coverage
         run: |
+          python3 scripts/compile_grammar.py content/authoring/n5-structures.tsv content/batches/002-n5-structures.json --check
           python3 scripts/build_content.py --check
+          python3 scripts/audit_curriculum.py --output curriculum-audit.json
           python3 -m unittest discover -s Tests/ContentTests -v
+      - name: Upload actual curriculum coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curriculum-coverage
+          path: curriculum-audit.json
+          if-no-files-found: ignore
 
   ios:
     name: Test and package iOS 15.5+

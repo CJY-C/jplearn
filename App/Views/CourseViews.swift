@@ -137,7 +137,11 @@ struct CourseView: View {
                         }
                     }
                     if lessons.isEmpty { Text("课程正在制作中").foregroundColor(.secondary) }
-                    Text("制作目标：新增 \(stage.vocabularyTarget) 个词、\(stage.grammarTarget) 个表达、\(stage.readingTarget) 篇短文")
+                    let items = model.pack.items.filter { $0.level.lowercased() == stage.id }
+                    let readings = model.pack.readings.filter { $0.level.lowercased() == stage.id }
+                    Text("已收录 \(items.filter { $0.kind == "word" }.count) 词 · \(items.filter { $0.kind == "grammar" }.count) 个表达 · \(readings.count) 篇阅读")
+                        .font(.caption).foregroundColor(.secondary)
+                    Text("阶段目标：\(stage.vocabularyTarget) 个词、\(stage.grammarTarget) 个表达、\(stage.readingTarget) 篇阅读")
                         .font(.caption).foregroundColor(.secondary)
                 }
             }

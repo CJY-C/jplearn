@@ -7,6 +7,15 @@
       "license": "CC BY-NC-SA 3.0 US",
       "retrieved": "2026-11-05",
       "usage": "章节核对与改编依据；中文和新增题目为项目整理"
+    },
+    {
+      "id": "openjlpt",
+      "url": "https://github.com/evanclan/OpenJLPT/tree/0d1d3410bec90bd4098a7c72de820543cb4f707c",
+      "commit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+      "license": "CC BY-SA 4.0",
+      "retrieved": "2026-11-06",
+      "sha256": "a326e9b95a20900f3cbc58cab1f78a1f0da640874fd798a89b12e600ba5de791",
+      "usage": "403 项 N5–N2 语法模式覆盖检查；本批例句、中文规则及练习另行原创"
     }
   ],
   "milestones": [

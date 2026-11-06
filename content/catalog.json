@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "title": "日语阅读基础篇",
-  "notice": "按教材来源组织的基础课程首批。N5–N2 完整课程分批补充；中文整理与原创练习尚未独立日语审校。",
+  "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
     {
       "id": "jmdict",
@@ -49,6 +49,22 @@
       "license": "按作品许可",
       "licenseURL": "https://tadoku.info/tadokutoha/",
       "attribution": "仅参考入口；没有许可记录的作品不会打包。"
+    },
+    {
+      "id": "openjlpt",
+      "title": "OpenJLPT：分级语法覆盖清单",
+      "url": "https://github.com/evanclan/OpenJLPT/tree/0d1d3410bec90bd4098a7c72de820543cb4f707c",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "OpenJLPT contributors；使用固定版本的语法模式清单。词汇、汉字、例句的上游分别包括 EDRDG、Jonathan Waller 与 Tatoeba；详见随附来源声明。"
+    },
+    {
+      "id": "projectopen",
+      "title": "日语拾阶：补充课程原创内容",
+      "url": "https://github.com/CJY-C/jplearn",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "新增中文规则、例句、题目与解析为项目原创；未独立语言审校。与早期 CC BY-NC-SA 内容分别署名。"
     }
   ],
   "stages": [

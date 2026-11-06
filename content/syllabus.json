@@ -1,0 +1,564 @@
+{
+  "version": 1,
+  "scope": "N5–N2 非官方阅读课程；保留原定规模及独立阶段检测。",
+  "minimumGrammarContexts": 6,
+  "minimumWordContexts": 2,
+  "assessmentFraction": 0.2,
+  "levels": [
+    {
+      "level": "N5",
+      "words": 1000,
+      "knowledgePoints": 60,
+      "readings": 80,
+      "lessons": 50
+    },
+    {
+      "level": "N4",
+      "words": 1000,
+      "knowledgePoints": 80,
+      "readings": 100,
+      "lessons": 50
+    },
+    {
+      "level": "N3",
+      "words": 1500,
+      "knowledgePoints": 120,
+      "readings": 120,
+      "lessons": 60
+    },
+    {
+      "level": "N2",
+      "words": 2500,
+      "knowledgePoints": 140,
+      "readings": 140,
+      "lessons": 100
+    }
+  ],
+  "grammarCoverage": {
+    "N5:wa": {
+      "itemIDs": [
+        "g001"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ga-subject": {
+      "itemIDs": [
+        "gn501"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:o": {
+      "itemIDs": [
+        "g003",
+        "gn502"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ni-time": {
+      "itemIDs": [
+        "g004"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ni-destination": {
+      "itemIDs": [
+        "g004"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ni-location": {
+      "itemIDs": [
+        "gn503"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ni-indirect-object": {
+      "itemIDs": [
+        "gn504"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ni-frequency": {
+      "itemIDs": [
+        "gn505"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:e": {
+      "itemIDs": [
+        "g004"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:de-place": {
+      "itemIDs": [
+        "gn506"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:de-means": {
+      "itemIDs": [
+        "gn507"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:to-and": {
+      "itemIDs": [
+        "g026"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:to-with": {
+      "itemIDs": [
+        "gn508"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ya": {
+      "itemIDs": [
+        "g026"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ka-or": {
+      "itemIDs": [
+        "gn509"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mo": {
+      "itemIDs": [
+        "g025"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:no": {
+      "itemIDs": [
+        "g002"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:kara-from": {
+      "itemIDs": [
+        "g027"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:made": {
+      "itemIDs": [
+        "g027"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ka-question": {
+      "itemIDs": [
+        "gn509"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ne": {
+      "itemIDs": [
+        "gn510"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:yo": {
+      "itemIDs": [
+        "gn510"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:yori": {
+      "itemIDs": [
+        "g029"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:no-hou-ga-yori": {
+      "itemIDs": [
+        "g029"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:to-to-dochira-ga": {
+      "itemIDs": [
+        "gn511"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:no-naka-de-ga-ichiban": {
+      "itemIDs": [
+        "gn511"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:desu": {
+      "itemIDs": [
+        "g021"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:da": {
+      "itemIDs": [
+        "g021"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:de-wa-arimasen-ja-nai": {
+      "itemIDs": [
+        "g022"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:deshita": {
+      "itemIDs": [
+        "gn512"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:masu": {
+      "itemIDs": [
+        "gn513"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:masen": {
+      "itemIDs": [
+        "gn513"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mashita": {
+      "itemIDs": [
+        "g007"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:masen-deshita": {
+      "itemIDs": [
+        "gn514"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nai": {
+      "itemIDs": [
+        "g023"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ta": {
+      "itemIDs": [
+        "g007"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:mashou": {
+      "itemIDs": [
+        "gn515"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mashou-ka": {
+      "itemIDs": [
+        "gn515"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:masen-ka": {
+      "itemIDs": [
+        "gn515"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:tai": {
+      "itemIDs": [
+        "g028"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ga-hoshii": {
+      "itemIDs": [
+        "gn516"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:o-kudasai": {
+      "itemIDs": [
+        "gn516"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:te-kudasai": {
+      "itemIDs": [
+        "gn517"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:naide-kudasai": {
+      "itemIDs": [
+        "gn518"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:te-mo-ii": {
+      "itemIDs": [
+        "gn519"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:te-wa-ikenai": {
+      "itemIDs": [
+        "gn520"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nakereba-naranai-nakute-wa-ikenai": {
+      "itemIDs": [
+        "gn521"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nakute-mo-ii": {
+      "itemIDs": [
+        "gn522"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:te-iru": {
+      "itemIDs": [
+        "g024"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:te": {
+      "itemIDs": [
+        "g009"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:te-kara": {
+      "itemIDs": [
+        "gn523"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:tari-tari-suru": {
+      "itemIDs": [
+        "gn524"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ta-koto-ga-aru": {
+      "itemIDs": [
+        "gn525"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mae-ni": {
+      "itemIDs": [
+        "gn526"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ato-de": {
+      "itemIDs": [
+        "gn526"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nagara": {
+      "itemIDs": [
+        "gn527"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ni-iku": {
+      "itemIDs": [
+        "gn528"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ga-suki-ga-kirai": {
+      "itemIDs": [
+        "gn529"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ga-jouzu-ga-heta": {
+      "itemIDs": [
+        "gn529"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ga-aru-ga-iru": {
+      "itemIDs": [
+        "g006"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:kara-reason": {
+      "itemIDs": [
+        "g010"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:ga-but": {
+      "itemIDs": [
+        "gn530"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:deshou": {
+      "itemIDs": [
+        "gn531"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ku-naru-ni-naru": {
+      "itemIDs": [
+        "gn532"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ni-suru": {
+      "itemIDs": [
+        "gn533"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mada-te-inai": {
+      "itemIDs": [
+        "gn534"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:mou-ta": {
+      "itemIDs": [
+        "gn534"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:amari-nai": {
+      "itemIDs": [
+        "gn535"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:zenzen-nai": {
+      "itemIDs": [
+        "gn535"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:dake": {
+      "itemIDs": [
+        "gn536"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:kurai-gurai": {
+      "itemIDs": [
+        "gn537"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:goro": {
+      "itemIDs": [
+        "gn537"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nani-mo-nai-dare-mo-nai": {
+      "itemIDs": [
+        "gn538"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:nani-ka-dare-ka-doko-ka": {
+      "itemIDs": [
+        "gn538"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:kore-sore-are-dore": {
+      "itemIDs": [
+        "gn539"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:kono-sono-ano-dono": {
+      "itemIDs": [
+        "gn539"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:koko-soko-asoko-doko": {
+      "itemIDs": [
+        "gn539"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:ku-nai-katta-ku-nakatta": {
+      "itemIDs": [
+        "gn540"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:na-na-adjective": {
+      "itemIDs": [
+        "g005"
+      ],
+      "note": "现有单元已讲解该模式并提供至少六个语境；保留原编号。"
+    },
+    "N5:kute-de": {
+      "itemIDs": [
+        "gn541"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    },
+    "N5:to-iu-named": {
+      "itemIDs": [
+        "gn542"
+      ],
+      "note": "对应补充单元的中文规则和六个明确语境。"
+    }
+  },
+  "readingBridges": [
+    {
+      "id": "dialogue",
+      "title": "会话省略与口语缩略",
+      "minimumReadings": 3,
+      "readingIDs": []
+    },
+    {
+      "id": "narration",
+      "title": "叙事视角与人物指代",
+      "minimumReadings": 3,
+      "readingIDs": []
+    },
+    {
+      "id": "description",
+      "title": "描写长句与修饰范围",
+      "minimumReadings": 3,
+      "readingIDs": []
+    },
+    {
+      "id": "honorifics",
+      "title": "敬语、授受与人际距离",
+      "minimumReadings": 3,
+      "readingIDs": []
+    },
+    {
+      "id": "argument",
+      "title": "说明论述与作者立场",
+      "minimumReadings": 3,
+      "readingIDs": []
+    },
+    {
+      "id": "integration",
+      "title": "多文体整合与原版阅读策略",
+      "minimumReadings": 3,
+      "readingIDs": []
+    }
+  ]
+}

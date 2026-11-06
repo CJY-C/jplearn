@@ -19,6 +19,10 @@ def make_pack():
         batch = json.loads(path.read_text())
         for key in COLLECTIONS:
             pack[key].extend(copy.deepcopy(batch.get(key, [])))
+    # Keep each batch's authored order within a level, while preventing a legacy
+    # N3 lesson from being recommended ahead of newly added N5 foundations.
+    stage_order = {s["id"].upper(): index for index, s in enumerate(pack["stages"])}
+    pack["lessons"].sort(key=lambda lesson: stage_order[lesson["level"]])
     validate(pack)
     return pack
 

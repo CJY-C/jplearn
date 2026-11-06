@@ -4,7 +4,7 @@
 
 [GitHub 仓库](https://github.com/CJY-C/jplearn) · [版本与 IPA 下载](https://github.com/CJY-C/jplearn/releases) · [构建记录](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
 
-当前交付是完整路线的**第一批基础课程**：31 个单元、323 个词、30 个知识点、319 道词句练习、40 篇阅读，以及 6 个入门诊断模块。40 篇中有 8 篇留作阶段检测。N5–N2 的完整路线和制作目标已建模，剩余课程尚未编写，不能将当前基础篇视为完整 N2 课程。材料为原创试用内容，尚待独立日语审校。
+当前为完整 N5–N2 制作中的语法扩充版：73 个单元、323 个词、72 个知识点、571 道词句练习、40 篇阅读，以及 6 个入门诊断模块。N5 部分有 61 个知识点，对照 81 项社区语法模式；词汇与阅读仍有缺口。完整目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。材料尚未独立日语审校。
 
 ## 已实现
 
@@ -41,7 +41,9 @@
 macOS 安装 Xcode 16.4 与 XcodeGen 2.46.0 后：
 
 ```sh
+python3 scripts/compile_grammar.py content/authoring/n5-structures.tsv content/batches/002-n5-structures.json --check
 python3 scripts/build_content.py --check
+python3 scripts/audit_curriculum.py
 python3 -m unittest discover -s Tests/ContentTests -v
 swift test
 xcodegen generate --spec project.yml

@@ -17,10 +17,10 @@ class ContentTests(unittest.TestCase):
 
     def test_sample_delivery_counts(self):
         self.assertGreaterEqual(len(self.groups["lessons"]), 30)
-        self.assertEqual(len(self.groups["readings"]), 40)
-        self.assertGreaterEqual(len(self.groups["exercises"]), 319)
+        self.assertGreaterEqual(len(self.groups["readings"]), 40)
+        self.assertGreaterEqual(len(self.groups["exercises"]), 571)
         self.assertGreaterEqual(sum(i["kind"] == "word" for i in self.groups["items"].values()), 300)
-        self.assertEqual(sum(i["kind"] == "grammar" for i in self.groups["items"].values()), 30)
+        self.assertGreaterEqual(sum(i["kind"] == "grammar" for i in self.groups["items"].values()), 72)
 
     def test_identifiers_are_unique_and_stable(self):
         for key, values in self.groups.items():
@@ -133,10 +133,13 @@ class ContentTests(unittest.TestCase):
             if word["kind"] != "word": continue
             self.assertGreaterEqual(len(set(word.get("exampleSentenceIDs", []))), 2, word["id"])
             self.assertTrue(set(word["exampleSentenceIDs"]) <= self.groups["sentences"].keys())
+            texts = {"".join(segment["text"] for segment in self.groups["sentences"][sid]["segments"])
+                     for sid in word["exampleSentenceIDs"]}
+            self.assertGreaterEqual(len(texts), 2, word["id"])
 
     def test_assessments_have_evidence_and_are_not_reused_as_lesson_reading(self):
         assessments = [r for r in self.pack["readings"] if r.get("purpose") == "assessment"]
-        self.assertEqual(len(assessments), 8)
+        self.assertGreaterEqual(len(assessments), 8)
         lesson_readings = {l["readingID"] for l in self.pack["lessons"]}
         self.assertFalse(lesson_readings & {r["id"] for r in assessments})
         for reading in self.pack["readings"]:

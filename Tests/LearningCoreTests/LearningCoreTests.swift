@@ -16,10 +16,10 @@ final class LearningCoreTests: XCTestCase {
         let pack = try ContentPack.bundled()
         try pack.validate()
         XCTAssertGreaterThanOrEqual(pack.items.filter { $0.kind == "word" }.count, 300)
-        XCTAssertEqual(pack.items.filter { $0.kind == "grammar" }.count, 30)
+        XCTAssertGreaterThanOrEqual(pack.items.filter { $0.kind == "grammar" }.count, 72)
         XCTAssertGreaterThanOrEqual(pack.lessons.count, 30)
-        XCTAssertEqual(pack.readings.count, 40)
-        XCTAssertGreaterThanOrEqual(pack.exercises.count, 319)
+        XCTAssertGreaterThanOrEqual(pack.readings.count, 40)
+        XCTAssertGreaterThanOrEqual(pack.exercises.count, 571)
     }
 
     func testReadingAndMeaningHaveIndependentMemory() throws {
