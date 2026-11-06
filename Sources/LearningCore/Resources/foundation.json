@@ -320478,6 +320478,16 @@
           "itemID": null
         },
         {
+          "text": "姉",
+          "reading": "あね",
+          "itemID": "v0197"
+        },
+        {
+          "text": "に「",
+          "reading": null,
+          "itemID": null
+        },
+        {
           "text": "弟",
           "reading": "おとうと",
           "itemID": "v0198"
@@ -320493,17 +320503,7 @@
           "itemID": "vn5313"
         },
         {
-          "text": "かと",
-          "reading": null,
-          "itemID": null
-        },
-        {
-          "text": "姉",
-          "reading": "あね",
-          "itemID": "v0197"
-        },
-        {
-          "text": "に",
+          "text": "？」と",
           "reading": null,
           "itemID": null
         },
@@ -320518,7 +320518,7 @@
           "itemID": null
         }
       ],
-      "translation": "我以为是弟弟从包里拿出纸弄乱了房间，问姐姐弟弟在哪里。",
+      "translation": "我以为是弟弟从包里拿出纸弄乱了房间，问姐姐：“弟弟在哪里？”",
       "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
       "speechText": null,
       "citations": [
@@ -321818,17 +321818,7 @@
           "itemID": "vn4209"
         },
         {
-          "text": "の",
-          "reading": null,
-          "itemID": null
-        },
-        {
-          "text": "方",
-          "reading": "ほう",
-          "itemID": null
-        },
-        {
-          "text": "へ",
+          "text": "に",
           "reading": null,
           "itemID": null
         },
@@ -323348,22 +323338,12 @@
           "itemID": "vn6131"
         },
         {
-          "text": "り",
-          "reading": null,
-          "itemID": null
-        },
-        {
-          "text": "直",
-          "reading": "なお",
-          "itemID": null
-        },
-        {
-          "text": "しました。",
+          "text": "りました。",
           "reading": null,
           "itemID": null
         }
       ],
-      "translation": "我按住纸，弟弟仔细看着姐姐的手，自己重新折了角。",
+      "translation": "我按住纸，弟弟仔细看着姐姐的手，自己折了角。",
       "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
       "speechText": null,
       "citations": [
@@ -445291,8 +445271,7 @@
         "gn445",
         "gn459",
         "gn494",
-        "gn487",
-        "gn461"
+        "gn487"
       ],
       "sentenceIDs": [
         "rn4303s1",
@@ -445376,16 +445355,16 @@
           "itemID": "v0070"
         },
         {
+          "text": "姉",
+          "itemID": "v0197"
+        },
+        {
           "text": "弟",
           "itemID": "v0198"
         },
         {
           "text": "どこ",
           "itemID": "vn5313"
-        },
-        {
-          "text": "姉",
-          "itemID": "v0197"
         },
         {
           "text": "聞く",
@@ -445629,16 +445608,16 @@
               "itemID": "v0070"
             },
             {
+              "text": "姉",
+              "itemID": "v0197"
+            },
+            {
               "text": "弟",
               "itemID": "v0198"
             },
             {
               "text": "どこ",
               "itemID": "vn5313"
-            },
-            {
-              "text": "姉",
-              "itemID": "v0197"
             },
             {
               "text": "聞く",
@@ -446950,7 +446929,8 @@
         "gn411",
         "gn407",
         "gn445",
-        "gn494"
+        "gn429",
+        "gn442"
       ],
       "sentenceIDs": [
         "rn4306s1",
@@ -447479,7 +447459,8 @@
         "gn445",
         "gn414",
         "gn425",
-        "gn455"
+        "gn455",
+        "gn429"
       ],
       "sentenceIDs": [
         "rn4307s1",
@@ -448033,7 +448014,8 @@
         "gn445",
         "gn449",
         "gn406",
-        "g012"
+        "g012",
+        "gn461"
       ],
       "sentenceIDs": [
         "rn4308s1",
