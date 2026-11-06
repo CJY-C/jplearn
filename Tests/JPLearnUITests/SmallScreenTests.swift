@@ -5,7 +5,7 @@ final class SmallScreenTests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil) {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
         app.launchEnvironment["JPLEARN_UI_TEST_SESSION"] = UUID().uuidString
@@ -13,6 +13,7 @@ final class SmallScreenTests: XCTestCase {
         if exhausted { app.launchEnvironment["JPLEARN_UI_TEST_EXHAUSTED"] = "1" }
         if longReading || readingID != nil { app.launchEnvironment["JPLEARN_UI_TEST_LONG_READING"] = "1" }
         if let readingID = readingID { app.launchEnvironment["JPLEARN_UI_TEST_READING_ID"] = readingID }
+        if let wordID = wordID { app.launchEnvironment["JPLEARN_UI_TEST_WORD_ID"] = wordID }
         app.launch()
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
@@ -53,6 +54,27 @@ final class SmallScreenTests: XCTestCase {
         screenshot("SE3-Keyboard")
         app.buttons["study.reveal"].tap()
         visible(app.buttons["study.continue"])
+    }
+
+    @MainActor func testExpandedWordNotesKeepRatingsVisibleOnSE3() {
+        launch(wordID: "vn5546")
+        app.buttons["today.start"].tap()
+        visible(app.buttons["study.reveal"])
+        app.buttons["study.reveal"].tap()
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        let fixed = app.buttons["study.grade.3"].frame
+        let scroll = app.scrollViews["study.textScroll"]
+        XCTAssertTrue(scroll.waitForExistence(timeout: 5))
+        let note = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "小动物常用匹")).firstMatch
+        XCTAssertTrue(note.exists)
+        let originalY = note.frame.minY
+        scroll.swipeUp()
+        XCTAssertLessThan(note.frame.minY, originalY - 5)
+        XCTAssertEqual(fixed, app.buttons["study.grade.3"].frame)
+        visible(app.buttons["study.grade.3"])
+        screenshot("SE3-ExpandedWord-Notes")
+        app.buttons["study.grade.3"].tap()
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
     }
 
     @MainActor func testGrammarAndReadingKeepActionsVisible() {

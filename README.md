@@ -4,7 +4,7 @@
 
 [GitHub 仓库](https://github.com/CJY-C/jplearn) · [版本与 IPA 下载](https://github.com/CJY-C/jplearn/releases) · [构建记录](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
 
-当前课程整理分支准备 0.7.0：103 个单元、686 个词与常用数量表达、72 个知识点、934 道词句练习、98 篇阅读，以及 6 个入门诊断模块。N5 实际有 588 个词、61 个知识点、80 篇阅读（含 16 篇独立检测），词汇仍缺 412 项。完整目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。材料尚未独立日语审校。当前已发布安装包仍为 [v0.6.1](https://github.com/CJY-C/jplearn/releases/tag/v0.6.1)；本分支在 N5 词汇补齐并验收后再发布。
+0.7.0 课程包共有 133 个单元、1,102 个词与常用数量表达、72 个知识点、1,350 道词句练习、98 篇阅读，以及 6 个入门诊断模块。N5 基础阶段实际有 1,004 项词汇、61 个知识点、80 篇阅读（含 16 篇独立检测），达到本阶段原定数量及结构门槛。分级为非官方学习范围，包含生活与原文阅读的前置扩充；材料尚未独立日语审校。完整 N5–N2 目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，N4–N2 继续制作，实际进度见 [课程实施表](docs/CURRICULUM.md)。0.7.0 构建验收中；已发布安装包仍可在 [Releases](https://github.com/CJY-C/jplearn/releases) 下载。
 
 ## 已实现
 
@@ -46,6 +46,10 @@ python3 scripts/compile_readings.py content/authoring/n5-readings.tsv content/ba
 python3 scripts/compile_words.py content/authoring/n5-reading-words.tsv content/batches/004-n5-reading-vocabulary.json --check
 python3 scripts/compile_words.py content/authoring/n5-core-words.tsv content/batches/005-n5-core-vocabulary.json --check
 python3 scripts/compile_words.py content/authoring/n5-everyday-words.tsv content/batches/006-n5-everyday-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-numbers-and-reading-words.tsv content/batches/007-n5-numbers-and-reading-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-expanded-context-words.tsv content/batches/008-n5-expanded-context-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-scene-words.tsv content/batches/009-n5-scene-vocabulary.json --check
+python3 scripts/compile_words.py content/authoring/n5-foundation-actions.tsv content/batches/010-n5-foundation-actions.json --check
 python3 scripts/build_content.py --check
 python3 scripts/audit_curriculum.py
 python3 -m unittest discover -s Tests/ContentTests -v

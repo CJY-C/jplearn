@@ -338,7 +338,7 @@
       "reading": "せ",
       "romaji": "se",
       "meaning": "身高；个子",
-      "explanation": "本单元义项：身高；个子。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：身高；个子。通过两个不同语境辨认；其他义项须结合上下文。\n背が高い／低い描述身高；背中せなか指背部。这里练身高义的せ。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -405,7 +405,7 @@
       "reading": "あなた",
       "romaji": "anata",
       "meaning": "你；您",
-      "explanation": "本单元义项：你；您。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：你；您。通过两个不同语境辨认；其他义项须结合上下文。\n日语对话常用姓名、职务或省略主语。あなた并不是对所有对象都合适的敬称；不要把每个中文“你”都直译成あなた。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -3621,7 +3621,7 @@
       "reading": "からい",
       "romaji": "karai",
       "meaning": "辣的",
-      "explanation": "本单元义项：辣的。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：辣的。通过两个不同语境辨认；其他义项须结合上下文。\n本条是味觉的からい。辛い也可读つらい表示痛苦、难受；两个义项不能互相替代。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -4084,7 +4084,7 @@
       "reading": "おす",
       "romaji": "osu",
       "meaning": "推；按",
-      "explanation": "本单元义项：推；按。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：推；按。通过两个不同语境辨认；其他义项须结合上下文。\n押す常用を标记被按、推的对象；与引く“拉”相对。门上的押す标记是在说明开门方向。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -4216,7 +4216,7 @@
       "reading": "ならぶ",
       "romaji": "narabu",
       "meaning": "排队；排列着",
-      "explanation": "本单元义项：排队；排列着。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：排队；排列着。通过两个不同语境辨认；其他义项须结合上下文。\n人や車が並ぶ表示自己排成一列；物を並べる表示把东西排列好，注意动作参与者不同。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -4249,7 +4249,7 @@
       "reading": "ならべる",
       "romaji": "naraberu",
       "meaning": "摆放；排列物品",
-      "explanation": "本单元义项：摆放；排列物品。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：摆放；排列物品。通过两个不同语境辨认；其他义项须结合上下文。\n並べる是把多个东西摆成一定顺序，常用「物を並べる」。並ぶ则描述人或物本身排着。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -4843,7 +4843,7 @@
       "reading": "つける",
       "romaji": "tsukeru",
       "meaning": "打开（灯、电器等）",
-      "explanation": "本单元义项：打开（灯、电器等）。通过两个不同语境辨认；其他义项须结合上下文。",
+      "explanation": "本单元义项：打开（灯、电器等）。通过两个不同语境辨认；其他义项须结合上下文。\n本条练开灯、开电视的つける，与消す相对；不是所有中文“开”都用它，开门用開ける。",
       "sourceIDs": [
         "projectopen"
       ],
@@ -5334,7 +5334,7 @@
         {
           "text": "動",
           "reading": "うご",
-          "itemID": null
+          "itemID": "vn5763"
         },
         {
           "text": "きました。",
@@ -5559,7 +5559,7 @@
         {
           "text": "触",
           "reading": "さわ",
-          "itemID": null
+          "itemID": "vn5762"
         },
         {
           "text": "りました。",
@@ -5904,7 +5904,7 @@
         {
           "text": "動",
           "reading": "うご",
-          "itemID": null
+          "itemID": "vn5764"
         },
         {
           "text": "かします。",
@@ -8059,7 +8059,7 @@
         {
           "text": "戻",
           "reading": "もど",
-          "itemID": null
+          "itemID": "vn5768"
         },
         {
           "text": "しました。",
@@ -12289,7 +12289,7 @@
         {
           "text": "見",
           "reading": "み",
-          "itemID": null
+          "itemID": "vn6164"
         },
         {
           "text": "えます。",
@@ -12459,7 +12459,7 @@
         {
           "text": "周",
           "reading": "まわ",
-          "itemID": null
+          "itemID": "vn6195"
         },
         {
           "text": "りを",
@@ -14969,7 +14969,7 @@
         {
           "text": "味",
           "reading": "あじ",
-          "itemID": null
+          "itemID": "vn5583"
         },
         {
           "text": "が",
@@ -15074,7 +15074,7 @@
         {
           "text": "気",
           "reading": "き",
-          "itemID": null
+          "itemID": "vn5791"
         },
         {
           "text": "をつけてください。",
@@ -15719,7 +15719,7 @@
         {
           "text": "触",
           "reading": "さわ",
-          "itemID": null
+          "itemID": "vn5762"
         },
         {
           "text": "らないでください。",
@@ -16089,7 +16089,7 @@
         {
           "text": "指",
           "reading": "ゆび",
-          "itemID": null
+          "itemID": "vn5968"
         },
         {
           "text": "は",
@@ -16689,7 +16689,7 @@
         {
           "text": "棚",
           "reading": "たな",
-          "itemID": null
+          "itemID": "vn5901"
         },
         {
           "text": "から",
@@ -17014,7 +17014,7 @@
         {
           "text": "順番",
           "reading": "じゅんばん",
-          "itemID": null
+          "itemID": "vn5996"
         },
         {
           "text": "に",
@@ -18474,7 +18474,7 @@
         {
           "text": "黒板",
           "reading": "こくばん",
-          "itemID": null
+          "itemID": "vn5559"
         },
         {
           "text": "の",
@@ -18484,7 +18484,7 @@
         {
           "text": "字",
           "reading": "じ",
-          "itemID": null
+          "itemID": "vn5550"
         },
         {
           "text": "を",
@@ -18574,7 +18574,7 @@
         {
           "text": "雲",
           "reading": "くも",
-          "itemID": null
+          "itemID": "vn5798"
         },
         {
           "text": "が",

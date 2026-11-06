@@ -2,6 +2,7 @@ import copy
 import json
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -78,7 +79,11 @@ class CurriculumDeliveryTests(unittest.TestCase):
             (compile_readings, "n5-readings.tsv", "003-n5-readings.json"),
             (compile_words, "n5-reading-words.tsv", "004-n5-reading-vocabulary.json"),
             (compile_words, "n5-core-words.tsv", "005-n5-core-vocabulary.json"),
-            (compile_words, "n5-everyday-words.tsv", "006-n5-everyday-vocabulary.json")]:
+            (compile_words, "n5-everyday-words.tsv", "006-n5-everyday-vocabulary.json"),
+            (compile_words, "n5-numbers-and-reading-words.tsv", "007-n5-numbers-and-reading-vocabulary.json"),
+            (compile_words, "n5-expanded-context-words.tsv", "008-n5-expanded-context-vocabulary.json"),
+            (compile_words, "n5-scene-words.tsv", "009-n5-scene-vocabulary.json"),
+            (compile_words, "n5-foundation-actions.tsv", "010-n5-foundation-actions.json")]:
             self.assertEqual(compiler(ROOT / "content/authoring" / source, self.pack),
                 json.loads((ROOT / "content/batches" / batch).read_text()))
 
@@ -115,6 +120,40 @@ class CurriculumDeliveryTests(unittest.TestCase):
             self.assertTrue(any(c["sourceID"] == "jmdict" and c["status"] == "reference"
                 for c in word["citations"]))
         self.assertNotIn("つらい", words["辛い"].get("acceptedReadings", []))
+
+    def test_new_words_cannot_claim_other_readings_of_the_same_spelling(self):
+        words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
+        segments, occurrences = markup_sentence(
+            "[空|から]の[箱|はこ]。[一日|ついたち]。[方|ほう]。[年|ねん]。", words)
+        self.assertEqual([o["itemID"] for o in occurrences],
+            [None, words["箱"]["id"], None, None, None])
+        self.assertIsNone(segments[0]["itemID"])
+        _, known = markup_sentence("[何|なん]。[四|し]。[読|よ|読む]みます。", words)
+        self.assertEqual([o["itemID"] for o in known],
+            [words[t]["id"] for t in ["何", "四", "読む"]])
+        train = next(s for s in self.pack["sentences"] if s["id"] == "sgn531e")
+        self.assertIsNone(next(s for s in train["segments"] if s["text"] == "空")["itemID"])
+
+    def test_a_new_words_own_examples_can_use_its_alternative_reading(self):
+        source = "\n".join([
+            "L\tlesson\t测试",
+            "W\tword\t明日\tあした\tashita\t明天\t名词\tlesson\t昨天\t后天",
+            "E\tword\ta\t[明日|あした]です。\t是明天。",
+            "E\tword\tb\t[明日|あす]にします。\t改到明天。",
+            "A\tword\tあす\tjmdict\t同义读音",
+            "N\tword\t明天的两种读音。"])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "words.tsv"; path.write_text(source)
+            result = compile_words(path, {"items": []})
+        self.assertEqual(result["items"][0]["acceptedReadings"], ["あす"])
+        self.assertTrue(result["items"][0]["explanation"].endswith("明天的两种读音。"))
+        for sentence in result["sentences"]:
+            self.assertEqual(sentence["segments"][0]["itemID"], "word")
+
+    def test_n5_foundation_stage_meets_its_existing_delivery_contract(self):
+        n5 = audit(self.pack, self.syllabus, self.reference)["stages"][0]
+        self.assertTrue(n5["complete"])
+        self.assertFalse(n5["deficits"])
 
     def test_heldout_sentences_cannot_become_word_examples(self):
         pack = copy.deepcopy(self.pack)

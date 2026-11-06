@@ -25,6 +25,10 @@ jobs:
           python3 scripts/compile_words.py content/authoring/n5-reading-words.tsv content/batches/004-n5-reading-vocabulary.json --check
           python3 scripts/compile_words.py content/authoring/n5-core-words.tsv content/batches/005-n5-core-vocabulary.json --check
           python3 scripts/compile_words.py content/authoring/n5-everyday-words.tsv content/batches/006-n5-everyday-vocabulary.json --check
+          python3 scripts/compile_words.py content/authoring/n5-numbers-and-reading-words.tsv content/batches/007-n5-numbers-and-reading-vocabulary.json --check
+          python3 scripts/compile_words.py content/authoring/n5-expanded-context-words.tsv content/batches/008-n5-expanded-context-vocabulary.json --check
+          python3 scripts/compile_words.py content/authoring/n5-scene-words.tsv content/batches/009-n5-scene-vocabulary.json --check
+          python3 scripts/compile_words.py content/authoring/n5-foundation-actions.tsv content/batches/010-n5-foundation-actions.json --check
           python3 scripts/build_content.py --check
           python3 scripts/audit_curriculum.py --output curriculum-audit.json
           python3 -m unittest discover -s Tests/ContentTests -v

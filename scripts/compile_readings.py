@@ -22,6 +22,7 @@ import re
 
 from build_content import ROOT, make_pack
 from compile_grammar import RUBY, KANJI
+from word_links import resolve_word
 
 
 def markup_sentence(markup, words):
@@ -30,7 +31,7 @@ def markup_sentence(markup, words):
         if match.start() > position:
             segments.append(dict(text=markup[position:match.start()], reading=None, itemID=None))
         text, reading, lemma = match.groups()
-        word = words.get(lemma or text) if lemma not in ["-", "?"] else None
+        word = resolve_word(words, text, reading, lemma)
         segments.append(dict(text=text, reading=reading, itemID=word["id"] if word else None))
         if lemma != "-":
             occurrences.append(dict(text=word["text"] if word else text if lemma == "?" else lemma or text,

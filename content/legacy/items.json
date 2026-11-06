@@ -488,6 +488,14 @@
     "level": "N5",
     "text": "何",
     "reading": "なに",
+    "acceptedReadings": ["なん"],
+    "citations": [
+      {
+        "sourceID": "jmdict",
+        "locator": "JMdict 1577100 / 2846738；何，なに与なん的疑问用法；なん常用于です、の及助数词前。",
+        "status": "reference"
+      }
+    ],
     "romaji": "nani",
     "meaning": "什么",
     "explanation": "在「何ですか」等表达里常读「なん」，需随表达学习。",

@@ -167,9 +167,10 @@ private struct RecallCard: View {
     @FocusState private var typing: Bool
     @ScaledMetric(relativeTo: .largeTitle) private var wordSize: CGFloat = 42
     private var needsAgain: Bool { assisted || previouslyAssisted || typedCorrect == false }
+    private var hasLongExplanation: Bool { revealed && (item.explanation.count > 80 || item.meaning.count > 28) }
 
     var body: some View {
-        StudyCardLayout { compact in
+        StudyCardLayout(scrolling: hasLongExplanation) { compact in
             VStack(alignment: .leading, spacing: compact ? 10 : 16) {
                 HStack {
                     Text(skill.title).font(.caption.weight(.medium)).foregroundColor(.secondary)

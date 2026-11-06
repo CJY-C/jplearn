@@ -6,6 +6,7 @@ L: lesson id, title. W: id, spelling, reading, romaji, Chinese sense, POS, lesso
 E: word id, stable context key, ruby sentence, Chinese translation.
 A: word id, alternative readings, source id, source locator (same sense only).
 D: word id, a short sense cue needed to disambiguate an isolated spelling.
+N: word id, an authored usage note appended to the explanation.
 This compiler never manufactures sentences or translates source material.
 """
 import argparse
@@ -18,7 +19,7 @@ from compile_readings import markup_sentence
 
 
 def compile_manuscript(path, pack):
-    lessons, words, examples, alternatives, cues = {}, {}, {}, {}, {}
+    lessons, words, examples, alternatives, cues, notes = {}, {}, {}, {}, {}, {}
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
         try:
@@ -45,16 +46,22 @@ def compile_manuscript(path, pack):
                 _, wid, cue = fields
                 assert wid not in cues and cue
                 cues[wid] = cue
-            else: raise ValueError("expected L, W or E")
+            elif fields[0] == "N":
+                _, wid, note = fields
+                assert wid not in notes and note
+                notes[wid] = note
+            else: raise ValueError("expected L, W, E, A, D or N")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
-    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues)) <= words.keys()
+    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes)) <= words.keys()
     lookup = {}
     for word in pack["items"]:
         if word["kind"] == "word" and word["id"] not in words:
             lookup.setdefault(word["text"], word)
     for word in words.values():
         assert word["text"] not in lookup, (word["id"], "duplicate spelling; reuse the existing target")
+        if word["id"] in alternatives:
+            word["acceptedReadings"] = alternatives[word["id"]][0]
         lookup[word["text"]] = word
         assert word["lessonID"] in lessons
     batch = {key: [] for key in ["items", "sentences", "exercises", "lessons"]}
@@ -85,6 +92,7 @@ def compile_manuscript(path, pack):
             batch["items"][-1]["sourceIDs"].append(source)
             batch["items"][-1]["citations"].append(dict(sourceID=source, locator=locator, status="reference"))
         if wid in cues: batch["items"][-1]["readingCue"] = cues[wid]
+        if wid in notes: batch["items"][-1]["explanation"] += "\n" + notes[wid]
         answer = word["meaning"]
         choices = [answer] + word["distractors"]
         assert len(set(choices)) == 3 and all(choices), wid

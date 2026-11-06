@@ -14,6 +14,7 @@ import re
 from pathlib import Path
 
 from build_content import ROOT, make_pack
+from word_links import resolve_word
 
 RUBY = re.compile(r"\[([^|\]]+)\|([^|\]]+)(?:\|([^\]]+))?\]")
 KANJI = re.compile(r"[一-龯]")
@@ -59,7 +60,7 @@ def compile_manuscript(path, pack):
                     segments.append(dict(text=context["markup"][position:match.start()], reading=None, itemID=None))
                 text, reading, lemma = match.groups()
                 if lemma: assert lemma in words, (gid, key, lemma)
-                word = words.get(lemma or text)
+                word = resolve_word(words, text, reading, lemma)
                 segments.append(dict(text=text, reading=reading, itemID=word["id"] if word else None))
                 position = match.end()
             if position < len(context["markup"]):
