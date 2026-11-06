@@ -4,7 +4,7 @@
 
 [GitHub 仓库](https://github.com/CJY-C/jplearn) · [版本与 IPA 下载](https://github.com/CJY-C/jplearn/releases) · [构建记录](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
 
-0.8.0 课程包共有 172 个单元、1,154 个词与常用数量表达、105 个知识点、1,608 道词句练习、118 篇阅读，以及 6 个入门诊断模块。N5 基础阶段保持 1,004 项词汇、61 个知识点、80 篇阅读（含 16 篇独立检测）；N4 现有 150 项词汇、42 个知识点、38 篇阅读（含 8 篇检测），继续扩充。分级为非官方学习范围，材料尚未独立日语审校。完整 N5–N2 目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。0.8.0 构建验收中；现有安装包可在 [Releases](https://github.com/CJY-C/jplearn/releases) 下载。
+0.8.0 课程包共有 172 个单元、1,154 个词与常用数量表达、105 个知识点、1,608 道词句练习、118 篇阅读，以及 6 个入门诊断模块。N5 基础阶段保持 1,004 项词汇、61 个知识点、80 篇阅读（含 16 篇独立检测）；N4 现有 150 项词汇、42 个知识点、38 篇阅读（含 8 篇检测），继续扩充。分级为非官方学习范围，材料尚未独立日语审校。完整 N5–N2 目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。[0.8.0 IPA 已发布](https://github.com/CJY-C/jplearn/releases/tag/v0.8.0)。
 
 ## 已实现
 
@@ -54,9 +54,9 @@ open JPLearn.xcodeproj
 
 修改编写源后运行 `python3 scripts/compile_course.py`，再运行 `python3 scripts/build_content.py`。统一编译器从 [编写源注册表](content/manuscripts.json) 建立完整词条索引，拒绝遗漏的源文件或未注册批次；不使用旧生成文件中的残留词条来补链接。新增 N4–N2 源用 `H` 明确声明级别；旧 N5 源保持兼容。
 
-Linux 可运行所有 Python 内容检查。2026-11-06 的 [0.7.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42184940919) 已通过 34 项内容检查、50 项核心测试、9 项 iOS 集成测试和 11 项 SE3 界面测试，完成归档并自动发布 [0.7.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.7.0)。新回归覆盖同音异义目标、整词读音不符时保持未知、同义读音、编写源与批次一致及 N5 阶段门槛。默认字号和大字号下的“匹”用法说明截图已复核：说明完整可读，大字号上部可滚动，评分区位置固定。下载 IPA 与编写源资源逐字节一致，版本 0.7.0 / build 8、arm64、Mach-O 二进制最低系统 15.5、98 篇阅读及原目标编号、句子正文与题目答案均已核验。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
+Linux 可运行所有 Python 内容检查。2026-11-06 的 [0.8.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42197928075) 已通过 39 项内容检查、50 项核心测试、9 项 iOS 集成测试和 13 项 SE3 界面测试，完成归档并自动发布 [0.8.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.8.0)。新回归覆盖全部注册编写源的编译、跨批次词语链接、N4 级别、未收录词义和检测隔离。SE3 大字号语法提示及双题受身／使役阅读截图已复核：上部可滚动，底部答题区固定。下载 IPA 与编写源资源逐字节一致，版本 0.8.0 / build 9、arm64、Mach-O 二进制最低系统 15.5、118 篇阅读均已核验；原有目标编号、句子正文与题目答案保持。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
 
-发布提交 `a55ff3c8d879ce8e4f84b5c54ef49ed858cacc88`，IPA SHA-256：`d7d046b6f07b2b9ba08df09e9030cb30dbf1acafd30a425a2707b166454f99e9`。
+发布提交 `bb41beff757ea4b2cac53e456e8faf3091c9fb59`，IPA SHA-256：`e5b07b833f918c329b1c60bca91a7759e59a285120701a0893a14a833a1d1d7c`。
 
 [补充滚动检查](https://github.com/CJY-C/jplearn/actions/runs/41999294775) 也已通过：从上方可见正文区域滑动后，正文位置实际变化，底部选项位置保持不变。
 
