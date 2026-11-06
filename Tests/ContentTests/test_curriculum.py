@@ -225,9 +225,9 @@ class CurriculumDeliveryTests(unittest.TestCase):
                 with self.assertRaisesRegex(AssertionError, error): compile_manuscript(bad, self.pack)
 
     def test_controlled_n4_readings_are_teachable_and_link_each_new_structure(self):
-        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith("rn41")}
-        self.assertEqual(len(readings), 20)
-        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 4)
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"].startswith(("rn41", "rn42"))}
+        self.assertEqual(len(readings), 32)
+        self.assertEqual(sum(r["purpose"] == "assessment" for r in readings.values()), 7)
         for reading in readings.values():
             self.assertEqual(len(reading["paragraphs"]), 2)
             self.assertEqual(len(reading["questions"]), 2)

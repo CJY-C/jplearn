@@ -20,6 +20,8 @@
     {"kind": "grammar", "source": "n4-completion-structures.tsv", "batch": "017-n4-completion-structures.json"},
     {"kind": "reading", "source": "n4-completion-readings.tsv", "batch": "018-n4-completion-readings.json"},
     {"kind": "word", "source": "n4-completion-words.tsv", "batch": "019-n4-completion-words.json"},
-    {"kind": "word", "source": "n4-notices-and-scene-words.tsv", "batch": "020-n4-notices-and-scene-words.json"}
+    {"kind": "word", "source": "n4-notices-and-scene-words.tsv", "batch": "020-n4-notices-and-scene-words.json"},
+    {"kind": "reading", "source": "n4-public-and-scene-readings.tsv", "batch": "021-n4-public-and-scene-readings.json"},
+    {"kind": "word", "source": "n4-public-reading-words.tsv", "batch": "022-n4-public-reading-words.json"}
   ]
 }
