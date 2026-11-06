@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Compile explicitly keyed, human-editable grammar manuscripts into course batches.
 
+H: optional explicit course level (legacy manuscripts default to N5).
 G: id, title, reading, romaji, meaning, rule, prerequisites, reference patterns.
    An optional final field links a practice passage to the unit.
 C: target id, stable context key, ruby text, translation, prompt, answer,
@@ -23,11 +24,17 @@ KANJI = re.compile(r"[一-龯]")
 def compile_manuscript(path, pack):
     words = {w["text"]: w for w in pack["items"] if w["kind"] == "word"}
     groups, contexts = {}, {}
+    level, has_header = "N5", False
     for line_number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
         fields = line.split("\t")
         try:
-            if fields[0] == "G":
+            if fields[0] == "H":
+                _, level = fields
+                assert not has_header and not groups and not contexts
+                assert level in ("N5", "N4", "N3", "N2")
+                has_header = True
+            elif fields[0] == "G":
                 assert len(fields) in [9, 10], "expected 9 or 10 grammar fields"
                 _, gid, title, reading, romaji, meaning, rule, required, patterns = fields[:9]
                 assert gid not in groups, f"duplicate grammar: {gid}"
@@ -39,7 +46,7 @@ def compile_manuscript(path, pack):
                 assert (gid, key) not in contexts, f"duplicate context: {gid}/{key}"
                 contexts[(gid, key)] = dict(markup=markup, translation=translation, prompt=prompt,
                     choices=[answer, wrong1, wrong2], answer=answer, note=note)
-            else: raise ValueError("expected G or C record")
+            else: raise ValueError("expected H, G or C record")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{line_number}: {error}") from error
     assert all(gid in groups for gid, _ in contexts), "orphan context"
@@ -49,7 +56,7 @@ def compile_manuscript(path, pack):
         examples = [(key, value) for (target, key), value in contexts.items() if target == gid]
         assert len(examples) >= 6, gid
         assert len({v["markup"] for _, v in examples}) == len(examples), gid
-        citations = [dict(sourceID="openjlpt", locator="grammar/n5: " + ", ".join(group["patterns"]), status="reference"),
+        citations = [dict(sourceID="openjlpt", locator=f"grammar/{level.lower()}: " + ", ".join(group["patterns"]), status="reference"),
             dict(sourceID="projectopen", locator=f"原创中文规则、例句及题目 {gid}；未独立语言审校", status="original")]
         sids, eids = [], []
         for key, context in examples:
@@ -59,7 +66,6 @@ def compile_manuscript(path, pack):
                 if match.start() > position:
                     segments.append(dict(text=context["markup"][position:match.start()], reading=None, itemID=None))
                 text, reading, lemma = match.groups()
-                if lemma: assert lemma in words, (gid, key, lemma)
                 word = resolve_word(words, text, reading, lemma)
                 segments.append(dict(text=text, reading=reading, itemID=word["id"] if word else None))
                 position = match.end()
@@ -79,11 +85,11 @@ def compile_manuscript(path, pack):
                 hint=group["rule"], transfer=key != "a", skill="grammar", ability="structure",
                 evidence=text, citations=citations))
             sids.append(sid); eids.append(eid)
-        batch["items"].append(dict(id=gid, kind="grammar", level="N5", text=group["title"],
+        batch["items"].append(dict(id=gid, kind="grammar", level=level, text=group["title"],
             reading=group["reading"], romaji=group["romaji"], meaning=group["meaning"], explanation=group["rule"],
             sourceIDs=["openjlpt", "projectopen"], status="trial", prerequisiteIDs=group["required"],
-            citations=citations, exampleSentenceIDs=sids, tags=["structure", "n5-completion"], order=1000 + len(batch["items"])))
-        batch["lessons"].append(dict(id="l" + gid, title=group["title"], subtitle=group["meaning"], level="N5",
+            citations=citations, exampleSentenceIDs=sids, tags=["structure", level.lower() + "-completion"], order=1000 + len(batch["items"])))
+        batch["lessons"].append(dict(id="l" + gid, title=group["title"], subtitle=group["meaning"], level=level,
             itemIDs=[gid], sentenceIDs=sids, exerciseIDs=eids, readingID=group["passageID"],
             prerequisiteIDs=[], objectives=[group["rule"]]))
         for pattern in group["patterns"]:

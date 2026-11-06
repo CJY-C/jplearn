@@ -6,7 +6,7 @@ final class SmallScreenTests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil, largeText: Bool = false) {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil, exerciseID: String? = nil, largeText: Bool = false) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
         if largeText { app.launchArguments += ["-UIPreferredContentSizeCategoryName", UIContentSizeCategory.extraExtraExtraLarge.rawValue] }
@@ -16,6 +16,7 @@ final class SmallScreenTests: XCTestCase {
         if longReading || readingID != nil { app.launchEnvironment["JPLEARN_UI_TEST_LONG_READING"] = "1" }
         if let readingID = readingID { app.launchEnvironment["JPLEARN_UI_TEST_READING_ID"] = readingID }
         if let wordID = wordID { app.launchEnvironment["JPLEARN_UI_TEST_WORD_ID"] = wordID }
+        if let exerciseID = exerciseID { app.launchEnvironment["JPLEARN_UI_TEST_EXERCISE_ID"] = exerciseID }
         app.launch()
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
@@ -101,6 +102,41 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertEqual(fixed, app.buttons["study.grade.3"].frame)
         for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
         screenshot("SE3-ExpandedWord-LargeText")
+    }
+
+    @MainActor func testLongN4GrammarHintScrollsAboveFixedChoicesOnSE3() {
+        launch(exerciseID: "egn426g", largeText: true)
+        app.buttons["today.start"].tap()
+        visible(app.buttons["study.hintButton"])
+        let fixed = app.buttons["study.choice.0"].frame
+        app.buttons["study.hintButton"].tap()
+        let hint = app.staticTexts["study.hint"]
+        XCTAssertTrue(hint.waitForExistence(timeout: 5))
+        let originalY = hint.frame.minY
+        let origin = app.coordinate(withNormalizedOffset: .zero)
+        let start = origin.withOffset(CGVector(dx: app.frame.midX, dy: fixed.minY - 18))
+        let end = origin.withOffset(CGVector(dx: app.frame.midX, dy: 170))
+        start.press(forDuration: 0.1, thenDragTo: end)
+        XCTAssertLessThan(hint.frame.minY, originalY - 5)
+        XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
+        for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+        screenshot("SE3-N4-Grammar-Hint-LargeText")
+        app.buttons["study.choice.0"].tap()
+        visible(app.buttons["study.continue"])
+    }
+
+    @MainActor func testN4VoiceReadingKeepsBothQuestionActionsVisible() {
+        launch(readingID: "rn4020")
+        app.buttons["today.start"].tap()
+        for index in 1...2 {
+            XCTAssertTrue(app.staticTexts["理解 \(index) / 2"].waitForExistence(timeout: 5))
+            for choice in 0...2 { visible(app.buttons["study.choice.\(choice)"]) }
+            screenshot("SE3-N4-Voice-Question\(index)")
+            app.buttons["study.choice.0"].tap()
+            visible(app.buttons["study.continue"])
+            app.buttons["study.continue"].tap()
+        }
+        XCTAssertTrue(app.buttons["study.finish"].waitForExistence(timeout: 5))
     }
 
     @MainActor func testGrammarAndReadingKeepActionsVisible() {

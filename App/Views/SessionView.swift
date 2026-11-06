@@ -281,7 +281,7 @@ private struct StructureCard: View {
     private var usedHelp: Bool { assisted || previouslyAssisted }
 
     var body: some View {
-        StudyCardLayout { compact in
+        StudyCardLayout(scrolling: showHint || choice != nil) { compact in
             VStack(alignment: .leading, spacing: compact ? 10 : 16) {
                 Text(exercise.transfer ? "换个句子试试" : "读懂句子").font(.caption.weight(.medium)).foregroundColor(.secondary)
                 RubyText(segments: sentence.segments) { lookup($0) }
@@ -292,9 +292,13 @@ private struct StructureCard: View {
                     if choice == nil {
                         Button("提示") { onAssistance(); showHint = true; assisted = true }
                             .buttonStyle(StudyQuietButtonStyle())
+                            .accessibilityIdentifier("study.hintButton")
                     }
                 }
-                if showHint && choice == nil { Text(exercise.hint).font(.callout).foregroundColor(.secondary) }
+                if showHint && choice == nil {
+                    Text(exercise.hint).font(.callout).foregroundColor(.secondary)
+                        .fixedSize(horizontal: false, vertical: true).accessibilityIdentifier("study.hint")
+                }
                 if let choice = choice {
                     AnswerFeedback(correct: choice == exercise.answerIndex,
                                    answer: exercise.choices[exercise.answerIndex],

@@ -10,13 +10,15 @@ OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
 COLLECTIONS = ("items", "sentences", "exercises", "lessons", "readings", "introModules")
 
 
-def make_pack():
+def make_pack(overrides=None):
+    overrides = overrides or {}
     pack = json.loads((ROOT / "content/catalog.json").read_text())
     for key in COLLECTIONS:
         path = ROOT / "content/legacy" / (key + ".json")
         pack[key] = json.loads(path.read_text()) if path.exists() else []
-    for path in sorted((ROOT / "content/batches").glob("*.json")):
-        batch = json.loads(path.read_text())
+    paths = set((ROOT / "content/batches").glob("*.json")) | set(overrides)
+    for path in sorted(paths):
+        batch = overrides[path] if path in overrides else json.loads(path.read_text())
         for key in COLLECTIONS:
             pack[key].extend(copy.deepcopy(batch.get(key, [])))
     # Keep each batch's authored order within a level, while preventing a legacy

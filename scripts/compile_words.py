@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Compile explicitly authored vocabulary and two real contexts per target.
 
+H: optional explicit course level (legacy manuscripts default to N5).
 L: lesson id, title. W: id, spelling, reading, romaji, Chinese sense, POS, lesson,
    two explicitly authored contrasting meanings.
 E: word id, stable context key, ruby sentence, Chinese translation.
 A: word id, alternative readings, source id, source locator (same sense only).
 D: word id, a short sense cue needed to disambiguate an isolated spelling.
 N: word id, an authored usage note appended to the explanation.
+R: word id, register or politeness label.
 This compiler never manufactures sentences or translates source material.
 """
 import argparse
@@ -19,12 +21,18 @@ from compile_readings import markup_sentence
 
 
 def compile_manuscript(path, pack):
-    lessons, words, examples, alternatives, cues, notes = {}, {}, {}, {}, {}, {}
+    lessons, words, examples, alternatives, cues, notes, registers = {}, {}, {}, {}, {}, {}, {}
+    level, has_header = "N5", False
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
         try:
             fields = line.split("\t")
-            if fields[0] == "L":
+            if fields[0] == "H":
+                _, level = fields
+                assert not has_header and not lessons and not words and not examples
+                assert level in ("N5", "N4", "N3", "N2")
+                has_header = True
+            elif fields[0] == "L":
                 _, lid, title = fields
                 assert lid not in lessons
                 lessons[lid] = title
@@ -50,10 +58,14 @@ def compile_manuscript(path, pack):
                 _, wid, note = fields
                 assert wid not in notes and note
                 notes[wid] = note
-            else: raise ValueError("expected L, W, E, A, D or N")
+            elif fields[0] == "R":
+                _, wid, register = fields
+                assert wid not in registers and register
+                registers[wid] = register
+            else: raise ValueError("expected H, L, W, E, A, D, N or R")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
-    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes)) <= words.keys()
+    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes) | set(registers)) <= words.keys()
     lookup = {}
     for word in pack["items"]:
         if word["kind"] == "word" and word["id"] not in words:
@@ -79,10 +91,10 @@ def compile_manuscript(path, pack):
             texts.add(text); sids.append(sid)
             batch["sentences"].append(dict(id=sid, segments=segments, translation=translation,
                 explanation="注意本词在这个具体场景中的意思及搭配。", speechText=None, citations=citations))
-        batch["items"].append(dict(id=wid, kind="word", level="N5", text=word["text"], reading=word["reading"],
+        batch["items"].append(dict(id=wid, kind="word", level=level, text=word["text"], reading=word["reading"],
             romaji=word["romaji"], meaning=word["meaning"], explanation=f'本单元义项：{word["meaning"]}。通过两个不同语境辨认；其他义项须结合上下文。',
             sourceIDs=["projectopen"], status="trial", partOfSpeech=word["pos"], sense=word["meaning"],
-            register="一般", tags=["reading-foundation"], prerequisiteIDs=[], citations=citations,
+            register=registers.get(wid, "一般"), tags=["reading-foundation"], prerequisiteIDs=[], citations=citations,
             exampleSentenceIDs=sids, order=2000 + len(batch["items"])))
         if wid in alternatives:
             readings, source, locator = alternatives[wid]
@@ -106,7 +118,7 @@ def compile_manuscript(path, pack):
     for lid, title in lessons.items():
         ids = [w["id"] for w in words.values() if w["lessonID"] == lid]
         assert ids, lid
-        batch["lessons"].append(dict(id=lid, title=title, subtitle="读音、词义和两个实际语境", level="N5", itemIDs=ids,
+        batch["lessons"].append(dict(id=lid, title=title, subtitle="读音、词义和两个实际语境", level=level, itemIDs=ids,
             sentenceIDs=["s" + wid + key for wid, key in examples if wid in ids],
             exerciseIDs=["e" + wid + "a" for wid in ids], readingID=None, prerequisiteIDs=[],
             objectives=["辨认本组词在句段中的读音与具体含义。"] ))

@@ -88,6 +88,13 @@ import LearningCore
             try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
             checkpoint = fixture
         }
+        if let exerciseID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_EXERCISE_ID"],
+           ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil,
+           pack.exercises.contains(where: { $0.id == exerciseID }), checkpoint == nil {
+            let fixture = SessionCheckpoint(tasks: [.exercise(exerciseID)])
+            try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
+            checkpoint = fixture
+        }
         #endif
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue

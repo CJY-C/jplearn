@@ -4,7 +4,7 @@
 
 [GitHub 仓库](https://github.com/CJY-C/jplearn) · [版本与 IPA 下载](https://github.com/CJY-C/jplearn/releases) · [构建记录](https://github.com/CJY-C/jplearn/actions/workflows/build.yml)
 
-0.7.0 课程包共有 133 个单元、1,102 个词与常用数量表达、72 个知识点、1,350 道词句练习、98 篇阅读，以及 6 个入门诊断模块。N5 基础阶段实际有 1,004 项词汇、61 个知识点、80 篇阅读（含 16 篇独立检测），达到本阶段原定数量及结构门槛。分级为非官方学习范围，包含生活与原文阅读的前置扩充；材料尚未独立日语审校。完整 N5–N2 目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，N4–N2 继续制作，实际进度见 [课程实施表](docs/CURRICULUM.md)。[下载 0.7.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.7.0)。
+0.8.0 课程包共有 172 个单元、1,154 个词与常用数量表达、105 个知识点、1,608 道词句练习、118 篇阅读，以及 6 个入门诊断模块。N5 基础阶段保持 1,004 项词汇、61 个知识点、80 篇阅读（含 16 篇独立检测）；N4 现有 150 项词汇、42 个知识点、38 篇阅读（含 8 篇检测），继续扩充。分级为非官方学习范围，材料尚未独立日语审校。完整 N5–N2 目标仍为 6,000 词、400 个知识点、440 篇阅读与六项原版阅读衔接，实际进度见 [课程实施表](docs/CURRICULUM.md)。0.8.0 构建验收中；现有安装包可在 [Releases](https://github.com/CJY-C/jplearn/releases) 下载。
 
 ## 已实现
 
@@ -41,15 +41,7 @@
 macOS 安装 Xcode 16.4 与 XcodeGen 2.46.0 后：
 
 ```sh
-python3 scripts/compile_grammar.py content/authoring/n5-structures.tsv content/batches/002-n5-structures.json --check
-python3 scripts/compile_readings.py content/authoring/n5-readings.tsv content/batches/003-n5-readings.json --check
-python3 scripts/compile_words.py content/authoring/n5-reading-words.tsv content/batches/004-n5-reading-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-core-words.tsv content/batches/005-n5-core-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-everyday-words.tsv content/batches/006-n5-everyday-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-numbers-and-reading-words.tsv content/batches/007-n5-numbers-and-reading-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-expanded-context-words.tsv content/batches/008-n5-expanded-context-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-scene-words.tsv content/batches/009-n5-scene-vocabulary.json --check
-python3 scripts/compile_words.py content/authoring/n5-foundation-actions.tsv content/batches/010-n5-foundation-actions.json --check
+python3 scripts/compile_course.py --check
 python3 scripts/build_content.py --check
 python3 scripts/audit_curriculum.py
 python3 -m unittest discover -s Tests/ContentTests -v
@@ -59,6 +51,8 @@ open JPLearn.xcodeproj
 ```
 
 选择 JPLearn scheme，可在模拟器运行。设备支持目标设置为 iOS 15.5；自动测试使用 iOS 18.5 的 iPhone SE3 模拟器，覆盖单屏按钮、键盘、固定答题区与暂停，不代表旧版系统已经完成真机验收。
+
+修改编写源后运行 `python3 scripts/compile_course.py`，再运行 `python3 scripts/build_content.py`。统一编译器从 [编写源注册表](content/manuscripts.json) 建立完整词条索引，拒绝遗漏的源文件或未注册批次；不使用旧生成文件中的残留词条来补链接。新增 N4–N2 源用 `H` 明确声明级别；旧 N5 源保持兼容。
 
 Linux 可运行所有 Python 内容检查。2026-11-06 的 [0.7.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42184940919) 已通过 34 项内容检查、50 项核心测试、9 项 iOS 集成测试和 11 项 SE3 界面测试，完成归档并自动发布 [0.7.0 IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.7.0)。新回归覆盖同音异义目标、整词读音不符时保持未知、同义读音、编写源与批次一致及 N5 阶段门槛。默认字号和大字号下的“匹”用法说明截图已复核：说明完整可读，大字号上部可滚动，评分区位置固定。下载 IPA 与编写源资源逐字节一致，版本 0.7.0 / build 8、arm64、Mach-O 二进制最低系统 15.5、98 篇阅读及原目标编号、句子正文与题目答案均已核验。iOS 15.5、16.6 真机安装、朗读和双机 iCloud Drive 同步仍需按清单验收。
 

@@ -4,6 +4,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -12,6 +13,7 @@ from build_content import make_pack
 from compile_grammar import compile_manuscript
 from compile_readings import compile_manuscript as compile_readings, markup_sentence
 from compile_words import compile_manuscript as compile_words
+import compile_course
 
 
 class CurriculumDeliveryTests(unittest.TestCase):
@@ -154,6 +156,58 @@ class CurriculumDeliveryTests(unittest.TestCase):
         n5 = audit(self.pack, self.syllabus, self.reference)["stages"][0]
         self.assertTrue(n5["complete"])
         self.assertFalse(n5["deficits"])
+
+    def test_all_registered_manuscripts_match_batches_in_either_compile_order(self):
+        normal = compile_course.compile_all()
+        records = compile_course.entries()
+        with patch.object(compile_course, "entries", return_value=list(reversed(records))):
+            self.assertEqual(normal, compile_course.compile_all())
+        for path, batch in normal.items():
+            self.assertEqual(batch, json.loads(path.read_text()), path.name)
+
+    def test_new_n4_batches_keep_their_level_and_actual_contexts(self):
+        for name in ["011-n4-structures.json", "012-n4-reading-vocabulary.json"]:
+            batch = json.loads((ROOT / "content/batches" / name).read_text())
+            self.assertTrue(all(i["level"] == "N4" for i in batch["items"] + batch["lessons"]))
+        result = audit(self.pack, self.syllabus, self.reference)
+        n4 = result["stages"][1]
+        self.assertGreaterEqual(n4["grammarPatterns"]["covered"], 37)
+        self.assertEqual(n4["required"]["words"], 1000)
+        self.assertEqual(n4["required"]["readings"], 100)
+        self.assertFalse(result["errors"])
+        words = {w["id"]: w for w in self.pack["items"]}
+        self.assertEqual(words["vn4037"]["register"], "较正式")
+        self.assertIn("にっぽん", words["vn4026"]["acceptedReadings"])
+
+    def test_invalid_or_late_level_headers_fail_instead_of_relabeling_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "bad.tsv"
+            for compiler, content in [(compile_words, "H\tN1"),
+                    (compile_words, "L\tlesson\t标题\nH\tN4"),
+                    (compile_manuscript, "H\tN4\nH\tN3")]:
+                path.write_text(content)
+                with self.assertRaises(ValueError): compiler(path, self.pack)
+
+    def test_registry_cannot_silently_omit_a_new_manuscript(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); folder = root / "content/authoring"; folder.mkdir(parents=True)
+            (folder / "unregistered.tsv").write_text("H\tN4\n")
+            (root / "content/manuscripts.json").write_text(json.dumps(dict(version=1, entries=[], staticBatches=[])))
+            with patch.object(compile_course, "ROOT", root), self.assertRaisesRegex(AssertionError, "Unregistered"):
+                compile_course.entries()
+
+    def test_new_n4_readings_keep_assessments_and_unknown_senses_separate(self):
+        new = [r for r in self.pack["readings"] if r["id"].startswith("rn40")]
+        self.assertGreaterEqual(len(new), 20)
+        self.assertGreaterEqual(sum(r["purpose"] == "assessment" for r in new), 4)
+        for reading in new:
+            self.assertEqual(len(reading["questions"]), 2)
+            self.assertEqual(len(reading["paragraphs"]), 2)
+        ordinary_out = next(w["id"] for w in self.pack["items"] if w["kind"] == "word" and w["text"] == "出る")
+        for sid in ["rn4011s2", "rn4013s3"]:
+            sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
+            response = next(s for s in sentence["segments"] if "出" in s["text"])
+            self.assertNotEqual(response["itemID"], ordinary_out, "An exit-word review does not prove the telephone-answering sense")
 
     def test_heldout_sentences_cannot_become_word_examples(self):
         pack = copy.deepcopy(self.pack)

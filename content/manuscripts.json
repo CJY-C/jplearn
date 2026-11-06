@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "staticBatches": ["001-foundation.json"],
+  "entries": [
+    {"kind": "grammar", "source": "n5-structures.tsv", "batch": "002-n5-structures.json"},
+    {"kind": "reading", "source": "n5-readings.tsv", "batch": "003-n5-readings.json"},
+    {"kind": "word", "source": "n5-reading-words.tsv", "batch": "004-n5-reading-vocabulary.json"},
+    {"kind": "word", "source": "n5-core-words.tsv", "batch": "005-n5-core-vocabulary.json"},
+    {"kind": "word", "source": "n5-everyday-words.tsv", "batch": "006-n5-everyday-vocabulary.json"},
+    {"kind": "word", "source": "n5-numbers-and-reading-words.tsv", "batch": "007-n5-numbers-and-reading-vocabulary.json"},
+    {"kind": "word", "source": "n5-expanded-context-words.tsv", "batch": "008-n5-expanded-context-vocabulary.json"},
+    {"kind": "word", "source": "n5-scene-words.tsv", "batch": "009-n5-scene-vocabulary.json"},
+    {"kind": "word", "source": "n5-foundation-actions.tsv", "batch": "010-n5-foundation-actions.json"},
+    {"kind": "grammar", "source": "n4-structures.tsv", "batch": "011-n4-structures.json"},
+    {"kind": "word", "source": "n4-reading-words.tsv", "batch": "012-n4-reading-vocabulary.json"},
+    {"kind": "reading", "source": "n4-readings.tsv", "batch": "013-n4-readings.json"}
+  ]
+}
