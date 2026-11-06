@@ -124,12 +124,15 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_alternative_readings_are_same_sense_with_a_source(self):
         words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
         for spelling, variant in [("毎月", "まいげつ"), ("毎年", "まいねん"),
-                ("昨夜", "さくや"), ("一昨日", "いっさくじつ"), ("一昨年", "いっさくねん")]:
+                ("昨夜", "さくや"), ("一昨日", "いっさくじつ"), ("一昨年", "いっさくねん"), ("頬", "ほほ")]:
             word = words[spelling]
             self.assertIn(variant, word["acceptedReadings"])
             self.assertTrue(any(c["sourceID"] == "jmdict" and c["status"] == "reference"
                 for c in word["citations"]))
         self.assertNotIn("つらい", words["辛い"].get("acceptedReadings", []))
+        self.assertNotIn("つら", words["頬"].get("acceptedReadings", []))
+        _, occurrences = markup_sentence("[頬|ほお]。[頬|ほほ]。[頬|つら]。", words)
+        self.assertEqual([o["itemID"] for o in occurrences], [words["頬"]["id"], words["頬"]["id"], None])
 
     def test_new_words_cannot_claim_other_readings_of_the_same_spelling(self):
         words = {w["text"]: w for w in self.pack["items"] if w["kind"] == "word"}
@@ -138,6 +141,10 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertEqual([o["itemID"] for o in occurrences],
             [None, words["箱"]["id"], None, None, None])
         self.assertIsNone(segments[0]["itemID"])
+        _, occurrences = markup_sentence("[実|じつ]は。[側|そば]に。[縁|えん]。", words)
+        self.assertTrue(all(o["itemID"] is None for o in occurrences))
+        _, occurrences = markup_sentence("[実|み]。[側|がわ]。[縁|ふち]。", words)
+        self.assertEqual([o["itemID"] for o in occurrences], [words[t]["id"] for t in ["実", "側", "縁"]])
         _, known = markup_sentence("[何|なん]。[四|し]。[読|よ|読む]みます。", words)
         self.assertEqual([o["itemID"] for o in known],
             [words[t]["id"] for t in ["何", "四", "読む"]])
