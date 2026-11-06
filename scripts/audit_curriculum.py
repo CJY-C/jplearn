@@ -22,6 +22,16 @@ def audit(pack, syllabus, reference):
     requirements = {f'{p["level"]}:{p["id"]}': p for p in reference["patterns"]}
     mappings = syllabus["grammarCoverage"]
     errors = []
+    reading_index = {r["id"]: r for r in pack["readings"]}
+    for retirement in syllabus.get("retiredAssessments", []):
+        old = reading_index.get(retirement["id"])
+        replacement = reading_index.get(retirement["replacementID"])
+        if not old or old.get("purpose") == "assessment":
+            errors.append(f'Historically exposed assessment must stay retired: {retirement["id"]}')
+        if not replacement or replacement.get("purpose") != "assessment" or replacement["id"] == retirement["id"]:
+            errors.append(f'Missing fresh assessment replacement: {retirement["replacementID"]}')
+        if old and replacement and old["level"] != replacement["level"]:
+            errors.append(f'Assessment replacement level mismatch: {retirement["id"]}')
     heldout_ids = {sid for reading in pack["readings"] if reading.get("purpose") == "assessment" for sid in reading["sentenceIDs"]}
     heldout_texts = {"".join(x["text"] for x in sentences[sid]["segments"]) for sid in heldout_ids}
     practice_ids = {sid for item in pack["items"] for sid in item.get("exampleSentenceIDs", [])}

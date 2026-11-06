@@ -560,5 +560,25 @@
       "minimumReadings": 3,
       "readingIDs": []
     }
+  ],
+  "retiredAssessments": [
+    {
+      "id": "r036",
+      "replacementID": "rn4a001",
+      "exposedSentenceIDs": [
+        "r036s2",
+        "r036s3"
+      ],
+      "reason": "0.4.0/0.5.0 词条例句已引用检测句；当前删除引用不能撤销旧版曝光"
+    },
+    {
+      "id": "r039",
+      "replacementID": "rn4a002",
+      "exposedSentenceIDs": [
+        "r039s1",
+        "r039s3"
+      ],
+      "reason": "0.4.0/0.5.0 词条例句已引用检测句；当前删除引用不能撤销旧版曝光"
+    }
   ]
 }

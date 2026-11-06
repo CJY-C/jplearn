@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -74376,6 +74376,266 @@
       ]
     },
     {
+      "id": "rn4a002s1",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "いただ",
+          "reading": "いただ",
+          "itemID": "v0117"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天在学校从老师那里领了资料。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn4a002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn4a002s2",
+      "segments": [
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "重",
+          "reading": "おも",
+          "itemID": "v0249"
+        },
+        {
+          "text": "かったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "運",
+          "reading": "はこ",
+          "itemID": null
+        },
+        {
+          "text": "んでくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为资料很重，朋友帮我运到了我家。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn4a002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn4a002s3",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お茶",
+          "reading": "おちゃ",
+          "itemID": "v0154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "あげ",
+          "reading": "あげ",
+          "itemID": "v0089"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我给了朋友茶。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn4a002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn4a002s4",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "はその",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一緒",
+          "reading": "いっしょ",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう",
+          "itemID": "v0077"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天打算用那些资料一起学习。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn4a002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
       "id": "svn5001a",
       "segments": [
         {
@@ -105744,7 +106004,7 @@
           ]
         }
       ],
-      "purpose": "assessment",
+      "purpose": "practice",
       "citations": [
         {
           "sourceID": "project",
@@ -119198,6 +119458,254 @@
         {
           "sourceID": "projectopen",
           "locator": "原创分级短文与题目 rn4a001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn4a002",
+      "title": "送到家里的资料",
+      "genre": "授受与受益视点",
+      "level": "N4",
+      "purpose": "assessment",
+      "grammarIDs": [
+        "g011",
+        "g012",
+        "g016",
+        "g007",
+        "g010"
+      ],
+      "sentenceIDs": [
+        "rn4a002s1",
+        "rn4a002s2",
+        "rn4a002s3",
+        "rn4a002s4"
+      ],
+      "question": "谁把资料运到了谁的家？",
+      "choices": [
+        "老师运到公司",
+        "朋友运到说话者家",
+        "说话者运到朋友家"
+      ],
+      "answerIndex": 1,
+      "explanation": "友達が是行动者，私の家まで是目的地，不能把行动者与受助者颠倒。",
+      "vocabulary": [
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "学校",
+          "itemID": "v0009"
+        },
+        {
+          "text": "先生",
+          "itemID": "v0018"
+        },
+        {
+          "text": "資料",
+          "itemID": "v0123"
+        },
+        {
+          "text": "いただく",
+          "itemID": "v0117"
+        },
+        {
+          "text": "資料",
+          "itemID": "v0123"
+        },
+        {
+          "text": "重い",
+          "itemID": "v0249"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "家",
+          "itemID": "v0010"
+        },
+        {
+          "text": "運ぶ",
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "友達",
+          "itemID": "v0017"
+        },
+        {
+          "text": "お茶",
+          "itemID": "v0154"
+        },
+        {
+          "text": "あげる",
+          "itemID": "v0089"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "資料",
+          "itemID": "v0123"
+        },
+        {
+          "text": "一緒",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "勉強",
+          "itemID": "v0077"
+        },
+        {
+          "text": "予定",
+          "itemID": "v0111"
+        }
+      ],
+      "paragraphs": [
+        {
+          "sentenceIDs": [
+            "rn4a002s1",
+            "rn4a002s2"
+          ],
+          "vocabulary": [
+            {
+              "text": "昨日",
+              "itemID": "v0002"
+            },
+            {
+              "text": "学校",
+              "itemID": "v0009"
+            },
+            {
+              "text": "先生",
+              "itemID": "v0018"
+            },
+            {
+              "text": "資料",
+              "itemID": "v0123"
+            },
+            {
+              "text": "いただく",
+              "itemID": "v0117"
+            },
+            {
+              "text": "資料",
+              "itemID": "v0123"
+            },
+            {
+              "text": "重い",
+              "itemID": "v0249"
+            },
+            {
+              "text": "友達",
+              "itemID": "v0017"
+            },
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "家",
+              "itemID": "v0010"
+            },
+            {
+              "text": "運ぶ",
+              "itemID": null
+            }
+          ]
+        },
+        {
+          "sentenceIDs": [
+            "rn4a002s3",
+            "rn4a002s4"
+          ],
+          "vocabulary": [
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "友達",
+              "itemID": "v0017"
+            },
+            {
+              "text": "お茶",
+              "itemID": "v0154"
+            },
+            {
+              "text": "あげる",
+              "itemID": "v0089"
+            },
+            {
+              "text": "今日",
+              "itemID": "v0001"
+            },
+            {
+              "text": "資料",
+              "itemID": "v0123"
+            },
+            {
+              "text": "一緒",
+              "itemID": "vn5010"
+            },
+            {
+              "text": "勉強",
+              "itemID": "v0077"
+            },
+            {
+              "text": "予定",
+              "itemID": "v0111"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rn4a002q1",
+          "prompt": "谁把资料运到了谁的家？",
+          "choices": [
+            "老师运到公司",
+            "朋友运到说话者家",
+            "说话者运到朋友家"
+          ],
+          "answerIndex": 1,
+          "explanation": "友達が是行动者，私の家まで是目的地，不能把行动者与受助者颠倒。",
+          "evidenceSentenceIDs": [
+            "rn4a002s2"
+          ],
+          "ability": "path"
+        },
+        {
+          "id": "rn4a002q2",
+          "prompt": "「運んでくれました」把谁呈现为获得运送帮助的一方？",
+          "choices": [
+            "老师",
+            "朋友",
+            "说话者"
+          ],
+          "answerIndex": 2,
+          "explanation": "てくれる从说话者一方描写朋友提供的帮助；第三句给茶是另外一个方向的给予。",
+          "evidenceSentenceIDs": [
+            "rn4a002s1",
+            "rn4a002s2"
+          ],
+          "ability": "perspective"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn4a002；未独立语言审校",
           "status": "original"
         }
       ]

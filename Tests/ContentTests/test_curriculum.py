@@ -115,3 +115,12 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertEqual(occurrences[1], dict(text="本", itemID="book"))
         self.assertEqual(occurrences[2], dict(text="読む", itemID=None))
         self.assertEqual(len(occurrences), 3)
+
+    def test_historical_exposure_cannot_be_undone_by_deleting_references(self):
+        retired = {r["id"]: r for r in self.syllabus["retiredAssessments"]}
+        self.assertEqual(set(retired), {"r036", "r039"})
+        pack = copy.deepcopy(self.pack)
+        for reading in pack["readings"]:
+            if reading["id"] == "r039": reading["purpose"] = "assessment"
+        result = audit(pack, self.syllabus, self.reference)
+        self.assertTrue(any("Historically exposed assessment must stay retired: r039" == e for e in result["errors"]))
