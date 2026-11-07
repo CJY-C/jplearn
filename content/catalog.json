@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -113,6 +113,30 @@
       "title": "国立国語研究所：複合動詞研究资料",
       "url": "https://www2.ninjal.ac.jp/vvlexicon/about.html",
       "attribution": "国立国語研究所；仅核对复合动词的语义和结构，具体资料页随知识点注明。"
+    },
+    {
+      "id": "wakemodality",
+      "title": "野田春美：わけにはいかない的语料研究",
+      "url": "https://www.human.kobegakuin.ac.jp/~noda/pdf/corpus.pdf",
+      "attribution": "野田春美，神戸学院大学；仅核对第131页起的情理约束说明，不复制语料用例。"
+    },
+    {
+      "id": "jfpmarugoto2",
+      "title": "国際交流基金：まるごと 中級2 教え方の手引き",
+      "url": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf",
+      "attribution": "The Japan Foundation，2017；仅核对推量与主观感想的接续、使用关系，不复制教材例句或正文。"
+    },
+    {
+      "id": "modalitypractice",
+      "title": "三枝令子・中西久実子：話し手の気持ちを表す表現",
+      "url": "https://www.3anet.co.jp/np/books/4926/",
+      "attribution": "スリーエーネットワーク；参考作者与出版社公布的模态功能分类，不复制书中规则或题目。"
+    },
+    {
+      "id": "doublenegation",
+      "title": "ルチラ パリハワダナ：二重否定诸形式的使用区别",
+      "url": "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/187059/1/Ronko3_043.pdf",
+      "attribution": "京都大学国際交流センター 論攷3，2013，第43页起；核对有限肯定、表达意图与语境作用，不复制论文例句。"
     }
   ],
   "stages": [

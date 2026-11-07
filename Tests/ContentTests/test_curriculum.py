@@ -327,6 +327,41 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertFalse(result["errors"])
         self.assertFalse(result["wordContextGaps"])
 
+    def test_n3_inference_chapter_keeps_senses_and_unseen_transfer_separate(self):
+        items = {item["id"]: item for item in self.pack["items"]}
+        sentences = {sentence["id"]: sentence for sentence in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"] in {f"rn{n}" for n in range(3011, 3031)}}
+        self.assertEqual(len(readings), 20)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"},
+                         {f"rn{n}" for n in range(3027, 3031)})
+        for passage in readings.values():
+            self.assertEqual(passage["level"], "N3")
+            self.assertEqual(len(passage["paragraphs"]), 2)
+            self.assertEqual(len(passage["questions"]), 2)
+            self.assertGreaterEqual(sum(len("".join(s["text"] for s in sentences[sid]["segments"]))
+                                        for sid in passage["sentenceIDs"]), 300)
+            self.assertTrue(all(w["itemID"] in items for w in passage["vocabulary"]), passage["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in passage["vocabulary"]))
+        for number in range(309, 325):
+            gid = f"gn{number}"
+            self.assertEqual(items[gid]["level"], "N3")
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            passage = readings[lesson["readingID"]]
+            self.assertEqual(passage["purpose"], "practice")
+            self.assertIn(gid, passage["grammarIDs"])
+        for pattern, ids in [("tte", ["gn318", "gn319"]), ("to-iu-koto-da", ["gn316", "gn317"])]:
+            self.assertEqual(self.syllabus["grammarCoverage"]["N3:" + pattern]["itemIDs"], ids)
+            self.assertNotEqual(items[ids[0]]["meaning"], items[ids[1]]["meaning"])
+        # Lexical idioms contribute their own meaning recall, rather than being
+        # excluded from the readiness denominator as if they were grammar.
+        for sid, wid in [("rn3012s2", "vn4j015"), ("rn3024s2", "vn4j012"), ("rn3029s2", "vn4j012")]:
+            self.assertIn(wid, [segment["itemID"] for segment in sentences[sid]["segments"]])
+        self.assertNotIn(next(i["id"] for i in items.values() if i["text"] == "追う"),
+                         [segment["itemID"] for segment in sentences["rn3024s5"]["segments"]])
+        result = audit(self.pack, self.syllabus, self.reference)
+        self.assertFalse(result["errors"])
+        self.assertFalse(result["complete"])
+
     def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
         items = {i["id"]: i for i in self.pack["items"]}
         phone = next(i for i in items.values() if i["text"] == "電話に出る")

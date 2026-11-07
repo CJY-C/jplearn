@@ -31,6 +31,10 @@
     {"kind": "word", "source": "n4-reactions-and-decisions.tsv", "batch": "028-n4-reactions-and-decisions.json"},
     {"kind": "word", "source": "n3-observation-and-explanation.tsv", "batch": "029-n3-observation-and-explanation.json"},
     {"kind": "grammar", "source": "n3-source-role-and-viewpoint.tsv", "batch": "030-n3-source-role-and-viewpoint.json"},
-    {"kind": "reading", "source": "n3-source-role-and-viewpoint-readings.tsv", "batch": "031-n3-source-role-and-viewpoint-readings.json"}
+    {"kind": "reading", "source": "n3-source-role-and-viewpoint-readings.tsv", "batch": "031-n3-source-role-and-viewpoint-readings.json"},
+    {"kind": "word", "source": "n3-judgment-and-belief.tsv", "batch": "032-n3-judgment-and-belief.json"},
+    {"kind": "word", "source": "n3-reading-and-event-words.tsv", "batch": "033-n3-reading-and-event-words.json"},
+    {"kind": "grammar", "source": "n3-inference-and-negation.tsv", "batch": "034-n3-inference-and-negation.json"},
+    {"kind": "reading", "source": "n3-inference-and-negation-readings.tsv", "batch": "035-n3-inference-and-negation-readings.json"}
   ]
 }
