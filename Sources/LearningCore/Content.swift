@@ -331,8 +331,16 @@ public enum AnswerChecker {
     /// Normalize width and kana script, without equating distinct sounds such as おう / おお / おー.
     public static func normalizeKana(_ text: String) -> String {
         let narrow = text.applyingTransform(.fullwidthToHalfwidth, reverse: true) ?? text
-        let hiragana = narrow.applyingTransform(.hiraganaToKatakana, reverse: true) ?? narrow
-        return hiragana.precomposedStringWithCanonicalMapping
+        // ICU script transliteration expands ー using the preceding vowel.
+        // Convert kana code points directly so explicit long-vowel spellings
+        // remain distinct and are accepted only through authored alternatives.
+        let scalars = narrow.precomposedStringWithCanonicalMapping.unicodeScalars.map { scalar -> UnicodeScalar in
+            if (0x30A1...0x30F6).contains(scalar.value) {
+                return UnicodeScalar(scalar.value - 0x60)!
+            }
+            return scalar
+        }
+        return String(String.UnicodeScalarView(scalars)).precomposedStringWithCanonicalMapping
             .filter { !$0.isWhitespace }
     }
     public static func matches(_ answer: String, reading: String, alternatives: [String] = []) -> Bool {

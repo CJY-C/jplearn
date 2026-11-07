@@ -36,6 +36,18 @@ final class LearningCoreTests: XCTestCase {
         XCTAssertFalse(AnswerChecker.matches("", reading: word.reading, alternatives: word.acceptedReadings ?? []))
     }
 
+    func testKanaNormalizationPreservesLongVowelSpellingsAndAuthoredAlternatives() throws {
+        XCTAssertEqual(AnswerChecker.normalizeKana(" ｽﾞｰｽﾞｰｼｲ "), "ずーずーしい")
+        XCTAssertNotEqual(AnswerChecker.normalizeKana("おー"), AnswerChecker.normalizeKana("おう"))
+        XCTAssertNotEqual(AnswerChecker.normalizeKana("おー"), AnswerChecker.normalizeKana("おお"))
+        XCTAssertFalse(AnswerChecker.matches("ずーずーしい", reading: "ずうずうしい"))
+        let word = try XCTUnwrap(ContentPack.bundled().item("vn4j040"))
+        XCTAssertTrue(AnswerChecker.matches("ｽﾞｰｽﾞｰｼｲ", reading: word.reading,
+                                           alternatives: word.acceptedReadings ?? []))
+        XCTAssertFalse(AnswerChecker.matches("ずずしい", reading: word.reading,
+                                            alternatives: word.acceptedReadings ?? []))
+    }
+
     func testAssistedRecallSchedulesAsFailure() throws {
         let scheduler = ReviewScheduler()
         let withHint = try scheduler.replay([review(grade: 4, assisted: true)])
