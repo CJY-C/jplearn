@@ -28,6 +28,9 @@
     {"kind": "word", "source": "n4-society-and-daily-life.tsv", "batch": "025-n4-society-and-daily-life.json"},
     {"kind": "reading", "source": "n4-society-and-daily-life-readings.tsv", "batch": "026-n4-society-and-daily-life-readings.json"},
     {"kind": "word", "source": "n5-everyday-senses.tsv", "batch": "027-n5-everyday-senses.json"},
-    {"kind": "word", "source": "n4-reactions-and-decisions.tsv", "batch": "028-n4-reactions-and-decisions.json"}
+    {"kind": "word", "source": "n4-reactions-and-decisions.tsv", "batch": "028-n4-reactions-and-decisions.json"},
+    {"kind": "word", "source": "n3-observation-and-explanation.tsv", "batch": "029-n3-observation-and-explanation.json"},
+    {"kind": "grammar", "source": "n3-source-role-and-viewpoint.tsv", "batch": "030-n3-source-role-and-viewpoint.json"},
+    {"kind": "reading", "source": "n3-source-role-and-viewpoint-readings.tsv", "batch": "031-n3-source-role-and-viewpoint-readings.json"}
   ]
 }

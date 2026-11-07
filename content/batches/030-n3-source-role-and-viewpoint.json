@@ -1,0 +1,6048 @@
+{
+  "items": [
+    {
+      "id": "gn301",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "について：限定正在谈的主题",
+      "reading": "について",
+      "romaji": "ni tsuite",
+      "meaning": "区分话题、信息来源与动作对象",
+      "explanation": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "g021",
+        "g008",
+        "g015"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn301a",
+        "sgn301b",
+        "sgn301c",
+        "sgn301d",
+        "sgn301e",
+        "sgn301f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn302",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "によると・によれば：追踪信息来源",
+      "reading": "によると・によれば",
+      "romaji": "ni yoru to / ni yoreba",
+      "meaning": "把报道或他人提供的内容与确认事实分开",
+      "explanation": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn301",
+        "gn414",
+        "gn415",
+        "gn426",
+        "gn430"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn302a",
+        "sgn302b",
+        "sgn302c",
+        "sgn302d",
+        "sgn302e",
+        "sgn302f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn303",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "にとって：限定评价所依据的立场",
+      "reading": "にとって",
+      "romaji": "ni totte",
+      "meaning": "辨认谁觉得重要、困难或合适",
+      "explanation": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn301",
+        "gn429",
+        "gn430",
+        "gn466",
+        "gn443",
+        "gn418"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn303a",
+        "sgn303b",
+        "sgn303c",
+        "sgn303d",
+        "sgn303e",
+        "sgn303f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    },
+    {
+      "id": "gn304",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "ずに：不做前项而进行后项",
+      "reading": "ずに",
+      "romaji": "zu ni",
+      "meaning": "保留没有做的动作及实际做的动作",
+      "explanation": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jfpmarugoto"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn518",
+        "gn494",
+        "gn430"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn304a",
+        "sgn304b",
+        "sgn304c",
+        "sgn304d",
+        "sgn304e",
+        "sgn304f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1003
+    },
+    {
+      "id": "gn305",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "べきだ・べきではない：主张应当怎样",
+      "reading": "べきだ・べきではない",
+      "romaji": "beki da / beki dewa nai",
+      "meaning": "区分规范性判断、禁止建议与完成事实",
+      "explanation": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn430",
+        "gn483",
+        "gn518",
+        "gn481"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn305a",
+        "sgn305b",
+        "sgn305c",
+        "sgn305d",
+        "sgn305e",
+        "sgn305f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1004
+    },
+    {
+      "id": "gn306",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "合う：相互行动与共同进行",
+      "reading": "あう",
+      "romaji": "au",
+      "meaning": "辨认相互关系，不把共同商量误当意见一致",
+      "explanation": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "ninjalcomp"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn467",
+        "gn430"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn306a",
+        "sgn306b",
+        "sgn306c",
+        "sgn306d",
+        "sgn306e",
+        "sgn306f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1005
+    },
+    {
+      "id": "gn307",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "だけでなく：保留前项并追加后项",
+      "reading": "だけでなく",
+      "romaji": "dake de naku",
+      "meaning": "不把追加关系误读成排除前项",
+      "explanation": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn301",
+        "gn429",
+        "g005"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn307a",
+        "sgn307b",
+        "sgn307c",
+        "sgn307d",
+        "sgn307e",
+        "sgn307f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1006
+    },
+    {
+      "id": "gn308",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "として：以某种身份或作用行动",
+      "reading": "として",
+      "romaji": "to shite",
+      "meaning": "区分行动身份、使用作用与评价立场",
+      "explanation": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn301",
+        "gn303",
+        "gn430"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn308a",
+        "sgn308b",
+        "sgn308c",
+        "sgn308d",
+        "sgn308e",
+        "sgn308f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1007
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn301a",
+      "segments": [
+        {
+          "text": "日本",
+          "reading": "にほん",
+          "itemID": "vn4026"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歴史",
+          "reading": "れきし",
+          "itemID": "vn4323"
+        },
+        {
+          "text": "について",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "正在调查日本历史。",
+      "explanation": "について把日本の歴史标成调查主题，不说明资料是谁提供的。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn301b",
+      "segments": [
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日程",
+          "reading": "にってい",
+          "itemID": null
+        },
+        {
+          "text": "について、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しましょう。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们明天谈谈旅行日程吧。",
+      "explanation": "話しましょう是提议，明日是谈论时点，不能推出已出发。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn301c",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "では、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今年",
+          "reading": "ことし",
+          "itemID": "v0264"
+        },
+        {
+          "text": "ではなく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来年",
+          "reading": "らいねん",
+          "itemID": "v0265"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "計画",
+          "reading": "けいかく",
+          "itemID": "vn4302"
+        },
+        {
+          "text": "について",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天的会议谈的是明年的计划，而不是今年的。",
+      "explanation": "ではなく否定今年这一话题，について连接实际讨论的来年の計画。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn301d",
+      "segments": [
+        {
+          "text": "地震",
+          "reading": "じしん",
+          "itemID": "vn4308"
+        },
+        {
+          "text": "についての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在图书馆借了关于地震的资料。",
+      "explanation": "名词地震加についての修饰資料，表示资料谈什么。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn301e",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "試験",
+          "reading": "しけん",
+          "itemID": "vn4032"
+        },
+        {
+          "text": "について",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "しましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日程",
+          "reading": "にってい",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ご存",
+          "reading": "ごぞん",
+          "itemID": "vn4j133"
+        },
+        {
+          "text": "じではありませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我向老师问了考试的事，但老师也不知道日程。",
+      "explanation": "先生に标接受提问的人，試験について标主题；后句明确未获日程信息。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn301f",
+      "segments": [
+        {
+          "text": "料金",
+          "reading": "りょうきん",
+          "itemID": "vn4534"
+        },
+        {
+          "text": "については",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "がありましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返金",
+          "reading": "へんきん",
+          "itemID": "vn4j090"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう",
+          "itemID": "vn4951"
+        },
+        {
+          "text": "については",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "费用已有说明，但退款方法还没有说明。",
+      "explanation": "两次については对比话题，まだ只对应后半的返金の方法。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302a",
+      "segments": [
+        {
+          "text": "天気",
+          "reading": "てんき",
+          "itemID": "v0084"
+        },
+        {
+          "text": "予報",
+          "reading": "よほう",
+          "itemID": null
+        },
+        {
+          "text": "によると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "るそうです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "根据天气预报，听说明天会下雨。",
+      "explanation": "によると指出来源是天気予報；明天尚未到来，不是已观察的事实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302b",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案内",
+          "reading": "あんない",
+          "itemID": "vn5999"
+        },
+        {
+          "text": "によれば、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れているそうです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "根据车站的通知，听说下一班电车晚点了。",
+      "explanation": "来源标记不是原因或动作执行者；句子也未报告列车到达。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302c",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "によると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来月",
+          "reading": "らいげつ",
+          "itemID": "vn5038"
+        },
+        {
+          "text": "移転",
+          "reading": "いてん",
+          "itemID": null
+        },
+        {
+          "text": "するそうですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "していません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "据朋友说，店下个月会搬迁，但我还没有向店里确认。",
+      "explanation": "朋友是信息来源，未确认的范围由后半句明确保留。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302d",
+      "segments": [
+        {
+          "text": "先週",
+          "reading": "せんしゅう",
+          "itemID": "v0263"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記事",
+          "reading": "きじ",
+          "itemID": "vn3a092"
+        },
+        {
+          "text": "によると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "公演",
+          "reading": "こうえん",
+          "itemID": "vn3a014"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "土曜日",
+          "reading": "どようび",
+          "itemID": "v0274"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "でしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日曜日",
+          "reading": "にちようび",
+          "itemID": "v0275"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変更",
+          "reading": "へんこう",
+          "itemID": "vn4520"
+        },
+        {
+          "text": "されたと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発表",
+          "reading": "はっぴょう",
+          "itemID": "vn4015"
+        },
+        {
+          "text": "されました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "根据上周的报道，演出原定星期六，但今天公布改到星期天了。",
+      "explanation": "先週の記事是旧来源，今日の発表是后来的更改，不应沿用旧安排。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302e",
+      "segments": [
+        {
+          "text": "父",
+          "reading": "ちち",
+          "itemID": "v0194"
+        },
+        {
+          "text": "によれば、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "建物",
+          "reading": "たてもの",
+          "itemID": "vn5363"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昔",
+          "reading": "むかし",
+          "itemID": "vn5986"
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "だったそうです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "据父亲说，这座建筑从前是学校。",
+      "explanation": "によれば表示信息来源；だった把用途放在过去，并未指定建造者或当前用途。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn302f",
+      "segments": [
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "によると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "市内",
+          "reading": "しない",
+          "itemID": "vn3a030"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雪",
+          "reading": "ゆき",
+          "itemID": "vn5377"
+        },
+        {
+          "text": "だそうですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "周",
+          "reading": "まわ",
+          "itemID": "vn6195"
+        },
+        {
+          "text": "りでは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "っていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "据报纸说市内下雪了，但我家周围还没下。",
+      "explanation": "范围分别是市内与家の周り；局部观察不能直接扩大成全市状况。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "辞書",
+          "reading": "じしょ",
+          "itemID": "v0216"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初心者",
+          "reading": "しょしんしゃ",
+          "itemID": null
+        },
+        {
+          "text": "にとって",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "いやすいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这本词典对初学者来说容易使用。",
+      "explanation": "にとって限定评价群体，并未把易用性扩大到所有人。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303b",
+      "segments": [
+        {
+          "text": "兄",
+          "reading": "あに",
+          "itemID": "v0196"
+        },
+        {
+          "text": "にとっては",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "簡単",
+          "reading": "かんたん",
+          "itemID": "vn6181"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい",
+          "itemID": "v0128"
+        },
+        {
+          "text": "でも、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "難",
+          "reading": "むずか",
+          "itemID": "v0046"
+        },
+        {
+          "text": "しかったです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "对哥哥来说简单的问题，对我却很难。",
+      "explanation": "兄の立场与私の立场形成对比，不能把其中一人的评价替代另一人。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303c",
+      "segments": [
+        {
+          "text": "住民",
+          "reading": "じゅうみん",
+          "itemID": "vn4i119"
+        },
+        {
+          "text": "にとって、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "への",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "安全",
+          "reading": "あんぜん",
+          "itemID": "vn6178"
+        },
+        {
+          "text": "であることは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ",
+          "itemID": "v0130"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "对居民而言，去车站的路安全很重要。",
+      "explanation": "にとって指出评价立场，不指定修路者，也不限定进站资格。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303d",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "にとって、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結果",
+          "reading": "けっか",
+          "itemID": "v0127"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "努力",
+          "reading": "どりょく",
+          "itemID": "vn3a028"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ",
+          "itemID": "v0130"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "对老师而言，结果与努力都重要。",
+      "explanation": "两次も保留结果与努力两项，不应误读为排除其中一项。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303e",
+      "segments": [
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "者",
+          "reading": "しゃ",
+          "itemID": null
+        },
+        {
+          "text": "にとっては",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "便利",
+          "reading": "べんり",
+          "itemID": "v0048"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "ですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "itemID": "v0315"
+        },
+        {
+          "text": "むには",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "騒々",
+          "reading": "そうぞう",
+          "itemID": "vn4j033"
+        },
+        {
+          "text": "しすぎます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "对游客来说是方便的地方，但居住起来过于嘈杂。",
+      "explanation": "旅行者的使用目的与居住用途不同，便利不能消除后句的嘈杂评价。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn303f",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "にとって",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "価値",
+          "reading": "かち",
+          "itemID": "vn3a127"
+        },
+        {
+          "text": "があるのは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "値段",
+          "reading": "ねだん",
+          "itemID": "vn5742"
+        },
+        {
+          "text": "ではなく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "祖母",
+          "reading": "そぼ",
+          "itemID": "v0201"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受け取",
+          "reading": "うけと",
+          "itemID": "vn6157"
+        },
+        {
+          "text": "ったということです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "对我而言，有价值的是它来自祖母，而不是它的价格。",
+      "explanation": "私にとって限定个人立场，ではなく更换评价依据，并未说明全体人的判断。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304a",
+      "segments": [
+        {
+          "text": "説明書",
+          "reading": "せつめいしょ",
+          "itemID": "vn4014"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "まずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "機械",
+          "reading": "きかい",
+          "itemID": "vn4022"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "い、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "操作",
+          "reading": "そうさ",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間違",
+          "reading": "まちが",
+          "itemID": "vn6161"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "没读说明书就用了机器，操作弄错了。",
+      "explanation": "ずに否定前项読む，后半仍明确发生了使用和操作错误。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304b",
+      "segments": [
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "itemID": "v0023"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "せずに、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": "vn5524"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "没有和任何人商量，一个人决定了。",
+      "explanation": "相談する的する变せずに，不能写しずに；后句已作决定。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304c",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "ご",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飯",
+          "reading": "はん",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "ましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昼",
+          "reading": "ひる",
+          "itemID": "v0006"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "没吃早饭就出门了，但午饭吃了。",
+      "explanation": "食べずに只否定早饭这项前行动，后句排除“全天没吃”的扩大解释。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304d",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "こ",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ずに、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "メール",
+          "reading": "めーる",
+          "itemID": "vn5447"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "他没有来会场，而是通过邮件发送了资料。",
+      "explanation": "来ずに读こずに，否定到场；发送由送りました明确报告。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304e",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "何",
+          "reading": "なに",
+          "itemID": "v0024"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "わずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "怒",
+          "reading": "おこ",
+          "itemID": "vn5748"
+        },
+        {
+          "text": "っていたかどうかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "朋友什么也没说就回去了。是否生气并不知道。",
+      "explanation": "言わずに说明未说话，不能由沉默必然推出愤怒，后句也明确未知。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn304f",
+      "segments": [
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "閉",
+          "reading": "し",
+          "itemID": "v0305"
+        },
+        {
+          "text": "めずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "寝",
+          "reading": "ね",
+          "itemID": "v0075"
+        },
+        {
+          "text": "たので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "寒",
+          "reading": "さむ",
+          "itemID": "v0242"
+        },
+        {
+          "text": "かったです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "没关窗就睡了，所以早上房间很冷。",
+      "explanation": "閉めずに否定关窗，寝た说明睡了；不能把它解释成没睡。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305a",
+      "segments": [
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "公開",
+          "reading": "こうかい",
+          "itemID": "vn3a108"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "するべきだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我认为，资料内容在公开之前应当核实。",
+      "explanation": "べきだと思う是规范性意见，未报告核实或公开已经发生。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305b",
+      "segments": [
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": "vn5524"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "証言",
+          "reading": "しょうげん",
+          "itemID": "vn3a089"
+        },
+        {
+          "text": "だけで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "犯人",
+          "reading": "はんにん",
+          "itemID": "vn4j116"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めるべきではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不应该仅凭一个人的证言就认定作案者。",
+      "explanation": "べきではない否定整个“单一证言で決める”的做法，不是禁止听证言或调查。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305c",
+      "segments": [
+        {
+          "text": "姉",
+          "reading": "あね",
+          "itemID": "v0197"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "計画",
+          "reading": "けいかく",
+          "itemID": "vn4302"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えるべきだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "いましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "姐姐说应该改计划，但我还没有决定。",
+      "explanation": "引语内容属于姉，后半的私未决定限制了实际进度。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305d",
+      "segments": [
+        {
+          "text": "問題",
+          "reading": "もんだい",
+          "itemID": "v0128"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "隠",
+          "reading": "かく",
+          "itemID": "vn6210"
+        },
+        {
+          "text": "すのではなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "早",
+          "reading": "はや",
+          "itemID": "v0289"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "報告",
+          "reading": "ほうこく",
+          "itemID": "vn3a114"
+        },
+        {
+          "text": "すべきです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "应该尽早报告问题，而不是隐瞒。",
+      "explanation": "すべき是するべき的形式，报告是被主张的行动，尚不表示完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305e",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "は「",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "らないことを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "事実",
+          "reading": "じじつ",
+          "itemID": "vn3a058"
+        },
+        {
+          "text": "のように",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "語",
+          "reading": "かた",
+          "itemID": "vn3a076"
+        },
+        {
+          "text": "るべきではない」と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "主張",
+          "reading": "しゅちょう",
+          "itemID": "vn3a050"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "他主张：“不应把不知道的事讲得像事实一样。”",
+      "explanation": "べきではない提出应避免的做法，不对谁未来必然行动作事实预测。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn305f",
+      "segments": [
+        {
+          "text": "本人",
+          "reading": "ほんにん",
+          "itemID": "vn3a043"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめるべきでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "その",
+          "reading": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "時",
+          "reading": "とき",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "きませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "原本应该向本人确认，但当时没有问。",
+      "explanation": "べきでした回看应做之事，后半明确未询问；实际行为不能从べき一项推定。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306a",
+      "segments": [
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": "vn5525"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "撮",
+          "reading": "と",
+          "itemID": "vn5036"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0091"
+        },
+        {
+          "text": "せ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "两人互相给对方看了拍摄的照片。",
+      "explanation": "見せ合う以二人为相互参与者，不是只向一个方向展示。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306b",
+      "segments": [
+        {
+          "text": "計画",
+          "reading": "けいかく",
+          "itemID": "vn4302"
+        },
+        {
+          "text": "について",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "いましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一",
+          "reading": "ひと",
+          "itemID": "vn5515"
+        },
+        {
+          "text": "つになりませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "共同商量了计划，但意见没有统一。",
+      "explanation": "話し合う是共同商量，结果仍由后半句限制。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306c",
+      "segments": [
+        {
+          "text": "村",
+          "reading": "むら",
+          "itemID": "vn5126"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "たちは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "困",
+          "reading": "こま",
+          "itemID": "v0322"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時",
+          "reading": "とき",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "助",
+          "reading": "たす",
+          "itemID": "vn4i175"
+        },
+        {
+          "text": "け",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "村里的人们遇到困难时互相帮助。",
+      "explanation": "合う在此把帮助理解为群体内部的相互行动。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306d",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "たちは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "え",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们互相教了各自知道的词。",
+      "explanation": "教え合う说明相互贡献，不把范围扩大成全部知识。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306e",
+      "segments": [
+        {
+          "text": "離",
+          "reading": "はな",
+          "itemID": "vn6207"
+        },
+        {
+          "text": "れて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暮",
+          "reading": "く",
+          "itemID": "vn6212"
+        },
+        {
+          "text": "らしていても、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "兄弟",
+          "reading": "きょうだい",
+          "itemID": "vn5120"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "り",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "即使分开生活，兄弟仍互相通信。",
+      "explanation": "送り合う在本句是两人相互寄信，不能只理解为单向发送。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn306f",
+      "segments": [
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "itemID": "v0019"
+        },
+        {
+          "text": "たちは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作文",
+          "reading": "さくぶん",
+          "itemID": "vn5410"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "み",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "い、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "違",
+          "reading": "ちが",
+          "itemID": "v0132"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伝",
+          "reading": "つた",
+          "itemID": "vn6166"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "学生们互相阅读作文，也说出了不同意见。",
+      "explanation": "相互阅读说明交流方式，不能从读过他人作文推定全部赞同，后句也明确有不同意见。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307a",
+      "segments": [
+        {
+          "text": "題名",
+          "reading": "だいめい",
+          "itemID": "vn3a067"
+        },
+        {
+          "text": "だけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本文",
+          "reading": "ほんぶん",
+          "itemID": "vn3a103"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んでください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不只看题名，也请读正文。",
+      "explanation": "だけでなく追加本文も，不是否定题名本身。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会員",
+          "reading": "かいいん",
+          "itemID": null
+        },
+        {
+          "text": "だけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "からいる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会員",
+          "reading": "かいいん",
+          "itemID": null
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "役に立",
+          "reading": "やくにた",
+          "itemID": "vn4147"
+        },
+        {
+          "text": "ちます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这份资料不只对新会员，也对原有会员有用。",
+      "explanation": "前项未被排除，にも把原有会员加入受益范围。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307c",
+      "segments": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ",
+          "itemID": "v0016"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご",
+          "itemID": "v0278"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "むだけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ",
+          "itemID": "vn5566"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "きます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "她不只读日语，也自己写小说。",
+      "explanation": "だけでなく并不撤销前项的阅读，追加了写作活动。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307d",
+      "segments": [
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "いだけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明確",
+          "reading": "めいかく",
+          "itemID": "vn4j053"
+        },
+        {
+          "text": "でした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "说明不只简短，内容也很明确。",
+      "explanation": "い形容词短い直接接だけでなく，后项追加另一维度的肯定评价。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307e",
+      "segments": [
+        {
+          "text": "便利",
+          "reading": "べんり",
+          "itemID": "v0048"
+        },
+        {
+          "text": "なだけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "安全",
+          "reading": "あんぜん",
+          "itemID": "vn6178"
+        },
+        {
+          "text": "でもある",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選",
+          "reading": "えら",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "选了不仅方便，而且安全的工具。",
+      "explanation": "便利なだけでなく是な形容词接续，安全でもある追加安全性。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn307f",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "にだけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変更",
+          "reading": "へんこう",
+          "itemID": "vn4520"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "vn6168"
+        },
+        {
+          "text": "らせました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不仅通知了店里，也把变更通知了会场。",
+      "explanation": "に保留通知对象的角色，だけでなく让后项会场也加入。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308a",
+      "segments": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ",
+          "itemID": "v0016"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記者",
+          "reading": "きしゃ",
+          "itemID": "vn4j127"
+        },
+        {
+          "text": "として",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "她以记者身份来到会场。",
+      "explanation": "記者として限定此次行动的身份，不是便利等评价或交通手段。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308b",
+      "segments": [
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日記",
+          "reading": "にっき",
+          "itemID": "vn6174"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時代",
+          "reading": "じだい",
+          "itemID": "vn4i070"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "として",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把旧日记作为了解时代的资料来读。",
+      "explanation": "資料として说明用途和看待方式，不保证日记中的每句内容真实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308c",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選手",
+          "reading": "せんしゅ",
+          "itemID": "vn3a033"
+        },
+        {
+          "text": "としてではなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "係員",
+          "reading": "かかりいん",
+          "itemID": "vn3a015"
+        },
+        {
+          "text": "として",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大会",
+          "reading": "たいかい",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "参加",
+          "reading": "さんか",
+          "itemID": "vn4410"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我参加大会时不是选手身份，而是工作人员身份。",
+      "explanation": "としてではなく否定选手身份，后项明确采用係員身份。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308d",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "としての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "ですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "無理",
+          "reading": "むり",
+          "itemID": "vn6183"
+        },
+        {
+          "text": "はしないほうがいいと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "作为朋友，我的意见是最好别勉强。",
+      "explanation": "としての修饰意見，声明发言角色，后句仍是建议。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308e",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "い",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "れるだけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "椅子",
+          "reading": "いす",
+          "itemID": "v0053"
+        },
+        {
+          "text": "としても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "えます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这个箱子不只可以装东西，也可以作为椅子使用。",
+      "explanation": "此处として是用途，も追加一项，不能只看ても字形就当假定让步。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn308f",
+      "segments": [
+        {
+          "text": "母",
+          "reading": "はは",
+          "itemID": "v0195"
+        },
+        {
+          "text": "として",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "心配",
+          "reading": "しんぱい",
+          "itemID": "v0173"
+        },
+        {
+          "text": "していますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "としては",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "挑戦",
+          "reading": "ちょうせん",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "応援",
+          "reading": "おうえん",
+          "itemID": null
+        },
+        {
+          "text": "したいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "作为母亲很担心，但作为老师又想支持孩子的挑战。",
+      "explanation": "一个人可具有多个角色，として分别限定当前采用的角色；此处不是身份互斥。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn301a",
+      "targetID": "gn301",
+      "sentenceID": "sgn301a",
+      "prompt": "调查的主题是什么？",
+      "choices": [
+        "调查者的出生地",
+        "资料的提供人",
+        "日本历史"
+      ],
+      "answerIndex": 2,
+      "explanation": "について把日本の歴史标成调查主题，不说明资料是谁提供的。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "日本の歴史について調べています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn301b",
+      "targetID": "gn301",
+      "sentenceID": "sgn301b",
+      "prompt": "目前可以确定什么？",
+      "choices": [
+        "提出明天谈日程",
+        "已经按日程出发",
+        "日程已经全部执行"
+      ],
+      "answerIndex": 0,
+      "explanation": "話しましょう是提议，明日是谈论时点，不能推出已出发。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "旅行の日程について、明日話しましょう。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn301c",
+      "targetID": "gn301",
+      "sentenceID": "sgn301c",
+      "prompt": "关于哪一年的计划进行了讨论？",
+      "choices": [
+        "去年",
+        "明年",
+        "今年"
+      ],
+      "answerIndex": 1,
+      "explanation": "ではなく否定今年这一话题，について连接实际讨论的来年の計画。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "昨日の会議では、今年ではなく来年の計画について話しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn301d",
+      "targetID": "gn301",
+      "sentenceID": "sgn301d",
+      "prompt": "についての说明资料的什么？",
+      "choices": [
+        "主题",
+        "作者的姓名",
+        "借阅的时长"
+      ],
+      "answerIndex": 0,
+      "explanation": "名词地震加についての修饰資料，表示资料谈什么。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "地震についての資料を、図書館で借りました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn301e",
+      "targetID": "gn301",
+      "sentenceID": "sgn301e",
+      "prompt": "哪一项区分是正确的？",
+      "choices": [
+        "日程已经得到老师确认",
+        "主题是考试，询问对象是老师",
+        "主题是老师，询问对象是考试"
+      ],
+      "answerIndex": 1,
+      "explanation": "先生に标接受提问的人，試験について标主题；后句明确未获日程信息。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "私は先生に試験について質問しましたが、先生も日程はご存じではありませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn301f",
+      "targetID": "gn301",
+      "sentenceID": "sgn301f",
+      "prompt": "哪个主题尚未说明？",
+      "choices": [
+        "退款方法",
+        "费用",
+        "两项都已说明"
+      ],
+      "answerIndex": 0,
+      "explanation": "两次については对比话题，まだ只对应后半的返金の方法。",
+      "hint": "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "料金については説明がありましたが、返金の方法についてはまだです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-tsuite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn301；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00007/ja/render.do：话题义与についての；本单元不训练按单位或理由的につき。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302a",
+      "targetID": "gn302",
+      "sentenceID": "sgn302a",
+      "prompt": "明天下雨这条信息来自哪里？",
+      "choices": [
+        "邻居昨天借的书",
+        "天气预报",
+        "叙述者已观察到的明天"
+      ],
+      "answerIndex": 1,
+      "explanation": "によると指出来源是天気予報；明天尚未到来，不是已观察的事实。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "天気予報によると、明日は雨が降るそうです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302b",
+      "targetID": "gn302",
+      "sentenceID": "sgn302b",
+      "prompt": "哪项符合原句的信息关系？",
+      "choices": [
+        "列车已经到达本站",
+        "晚点消息来自车站通知",
+        "叙述者负责使列车晚点"
+      ],
+      "answerIndex": 1,
+      "explanation": "来源标记不是原因或动作执行者；句子也未报告列车到达。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "駅の案内によれば、次の電車は遅れているそうです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302c",
+      "targetID": "gn302",
+      "sentenceID": "sgn302c",
+      "prompt": "叙述者目前掌握到哪一步？",
+      "choices": [
+        "已向店里核实并搬完",
+        "亲眼看到下个月已经到来",
+        "听朋友说，尚未向店里确认"
+      ],
+      "answerIndex": 2,
+      "explanation": "朋友是信息来源，未确认的范围由后半句明确保留。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友達によると、店は来月移転するそうですが、私はまだ店に確認していません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302d",
+      "targetID": "gn302",
+      "sentenceID": "sgn302d",
+      "prompt": "按后来的公布，演出改在哪天？",
+      "choices": [
+        "星期六",
+        "上周已经结束",
+        "星期天"
+      ],
+      "answerIndex": 2,
+      "explanation": "先週の記事是旧来源，今日の発表是后来的更改，不应沿用旧安排。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "先週の記事によると公演は土曜日の予定でしたが、今日、日曜日に変更されたと発表されました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302e",
+      "targetID": "gn302",
+      "sentenceID": "sgn302e",
+      "prompt": "哪项关系可以直接读出？",
+      "choices": [
+        "现在仍一定是学校",
+        "父亲提供了建筑过去用途的信息",
+        "父亲建造了整座学校"
+      ],
+      "answerIndex": 1,
+      "explanation": "によれば表示信息来源；だった把用途放在过去，并未指定建造者或当前用途。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "父によれば、この建物は昔学校だったそうです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn302f",
+      "targetID": "gn302",
+      "sentenceID": "sgn302f",
+      "prompt": "两条信息有怎样的范围差别？",
+      "choices": [
+        "后句确认市内所有地方都没下雪",
+        "报纸谈市内，自述谈家附近",
+        "两句都只说同一时点的同一地点"
+      ],
+      "answerIndex": 1,
+      "explanation": "范围分别是市内与家の周り；局部观察不能直接扩大成全市状况。",
+      "hint": "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "新聞によると市内は雪だそうですが、私の家の周りではまだ降っていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-yoru-to-ni-yoreba",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn302；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00001/ja/render.do：信息来源、判断根据及传闻句末。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303a",
+      "targetID": "gn303",
+      "sentenceID": "sgn303a",
+      "prompt": "容易使用是从谁的立场作出的评价？",
+      "choices": [
+        "售卖词典的所有店员",
+        "初学者",
+        "所有词典作者"
+      ],
+      "answerIndex": 1,
+      "explanation": "にとって限定评价群体，并未把易用性扩大到所有人。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この辞書は、初心者にとって使いやすいです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303b",
+      "targetID": "gn303",
+      "sentenceID": "sgn303b",
+      "prompt": "两人的判断怎样？",
+      "choices": [
+        "我已认为所有问题都简单",
+        "同一问题因人而有不同难度",
+        "哥哥也明确说很难"
+      ],
+      "answerIndex": 1,
+      "explanation": "兄の立场与私の立场形成对比，不能把其中一人的评价替代另一人。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "兄にとっては簡単な問題でも、私には難しかったです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303c",
+      "targetID": "gn303",
+      "sentenceID": "sgn303c",
+      "prompt": "居民在句中是什么角色？",
+      "choices": [
+        "已经修好了道路的人",
+        "唯一能够进站的人",
+        "安全重要性评价所依据的群体"
+      ],
+      "answerIndex": 2,
+      "explanation": "にとって指出评价立场，不指定修路者，也不限定进站资格。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "住民にとって、駅への道が安全であることは大切です。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303d",
+      "targetID": "gn303",
+      "sentenceID": "sgn303d",
+      "prompt": "老师重视的范围是什么？",
+      "choices": [
+        "只看努力而完全不看结果",
+        "结果与努力都看",
+        "只看结果而排除努力"
+      ],
+      "answerIndex": 1,
+      "explanation": "两次も保留结果与努力两项，不应误读为排除其中一项。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "先生にとって、結果も努力も大切です。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303e",
+      "targetID": "gn303",
+      "sentenceID": "sgn303e",
+      "prompt": "两种评价为何能够同时成立？",
+      "choices": [
+        "旅行便利和居住舒适的评价角度不同",
+        "便利就证明适合任何人长期居住",
+        "说话者确认这里完全没有噪声"
+      ],
+      "answerIndex": 0,
+      "explanation": "旅行者的使用目的与居住用途不同，便利不能消除后句的嘈杂评价。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "旅行者にとっては便利な場所ですが、住むには騒々しすぎます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn303f",
+      "targetID": "gn303",
+      "sentenceID": "sgn303f",
+      "prompt": "说话者看重什么？",
+      "choices": [
+        "来自祖母这层意义",
+        "价格越高就必定越珍贵",
+        "所有人都给它同一估价"
+      ],
+      "answerIndex": 0,
+      "explanation": "私にとって限定个人立场，ではなく更换评价依据，并未说明全体人的判断。",
+      "hint": "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "私にとって価値があるのは、値段ではなく祖母から受け取ったということです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: ni-totte",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn303；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00004/ja/render.do：从某人或组织立场作评价；不能机械替代好き、上手等关系。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304a",
+      "targetID": "gn304",
+      "sentenceID": "sgn304a",
+      "prompt": "没有做的是哪一步？",
+      "choices": [
+        "阅读说明书",
+        "使用机器",
+        "弄错操作"
+      ],
+      "answerIndex": 0,
+      "explanation": "ずに否定前项読む，后半仍明确发生了使用和操作错误。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "説明書を読まずに機械を使い、操作を間違えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304b",
+      "targetID": "gn304",
+      "sentenceID": "sgn304b",
+      "prompt": "せずに对应哪个动词？",
+      "choices": [
+        "来る",
+        "見る",
+        "する"
+      ],
+      "answerIndex": 2,
+      "explanation": "相談する的する变せずに，不能写しずに；后句已作决定。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "誰にも相談せずに、一人で決めました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304c",
+      "targetID": "gn304",
+      "sentenceID": "sgn304c",
+      "prompt": "否定的范围是什么？",
+      "choices": [
+        "一整天什么都没吃",
+        "没有离开家",
+        "出门前没吃早饭"
+      ],
+      "answerIndex": 2,
+      "explanation": "食べずに只否定早饭这项前行动，后句排除“全天没吃”的扩大解释。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "朝ご飯を食べずに家を出ましたが、昼は食べました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304d",
+      "targetID": "gn304",
+      "sentenceID": "sgn304d",
+      "prompt": "哪项行动确实发生了？",
+      "choices": [
+        "来到会场",
+        "在会场收邮件",
+        "发送资料"
+      ],
+      "answerIndex": 2,
+      "explanation": "来ずに读こずに，否定到场；发送由送りました明确报告。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "彼は会場に来ずに、資料をメールで送りました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304e",
+      "targetID": "gn304",
+      "sentenceID": "sgn304e",
+      "prompt": "能从前句直接确定什么？",
+      "choices": [
+        "没有说话就回去了",
+        "一定很生气",
+        "已经解释了全部理由"
+      ],
+      "answerIndex": 0,
+      "explanation": "言わずに说明未说话，不能由沉默必然推出愤怒，后句也明确未知。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友達は何も言わずに帰りました。怒っていたかどうかは分かりません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn304f",
+      "targetID": "gn304",
+      "sentenceID": "sgn304f",
+      "prompt": "ずに否定哪个动作？",
+      "choices": [
+        "关窗",
+        "睡觉",
+        "到了早晨"
+      ],
+      "answerIndex": 0,
+      "explanation": "閉めずに否定关窗，寝た说明睡了；不能把它解释成没睡。",
+      "hint": "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "窓を閉めずに寝たので、朝は部屋が寒かったです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zu-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn304；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jfpmarugoto",
+          "locator": "教え方の手引き 中級1，第2部Topic 6，PDF第107页（正文106页），Vずに：ない形、来ずに与する→せずに；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305a",
+      "targetID": "gn305",
+      "sentenceID": "sgn305a",
+      "prompt": "说话者表达了什么？",
+      "choices": [
+        "确认全部资料已公开",
+        "预测资料一定会自动改正",
+        "认为公开前核实才妥当"
+      ],
+      "answerIndex": 2,
+      "explanation": "べきだと思う是规范性意见，未报告核实或公开已经发生。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "資料の内容は、公開する前に確認するべきだと思います。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305b",
+      "targetID": "gn305",
+      "sentenceID": "sgn305b",
+      "prompt": "被否定的是哪种做法？",
+      "choices": [
+        "只凭单一证言认定作案者",
+        "听取任何人的证言",
+        "所有调查都不应进行"
+      ],
+      "answerIndex": 0,
+      "explanation": "べきではない否定整个“单一证言で決める”的做法，不是禁止听证言或调查。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "一人の証言だけで犯人を決めるべきではありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305c",
+      "targetID": "gn305",
+      "sentenceID": "sgn305c",
+      "prompt": "哪些人物和状态区分正确？",
+      "choices": [
+        "主张改计划的是姐姐，我尚未决定",
+        "我和姐姐已经共同改完",
+        "我提出的意见被姐姐拒绝了"
+      ],
+      "answerIndex": 0,
+      "explanation": "引语内容属于姉，后半的私未决定限制了实际进度。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "姉は計画を変えるべきだと言いましたが、私はまだ決めていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305d",
+      "targetID": "gn305",
+      "sentenceID": "sgn305d",
+      "prompt": "すべき对应什么？",
+      "choices": [
+        "すぐできた，报告已完成",
+        "しないべき，要求隐瞒",
+        "するべき，要求报告"
+      ],
+      "answerIndex": 2,
+      "explanation": "すべき是するべき的形式，报告是被主张的行动，尚不表示完成。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "問題を隠すのではなく、早く報告すべきです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305e",
+      "targetID": "gn305",
+      "sentenceID": "sgn305e",
+      "prompt": "这句话首先在表达什么？",
+      "choices": [
+        "预测谁以后一定会撒谎",
+        "对讲述方式的规范性意见",
+        "已经证实所有话都是真的"
+      ],
+      "answerIndex": 1,
+      "explanation": "べきではない提出应避免的做法，不对谁未来必然行动作事实预测。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "彼は「知らないことを事実のように語るべきではない」と主張しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn305f",
+      "targetID": "gn305",
+      "sentenceID": "sgn305f",
+      "prompt": "实际发生了什么？",
+      "choices": [
+        "当时已经确认全部内容",
+        "现在宣布永远不再问",
+        "当时没有询问，现在回顾认为该确认"
+      ],
+      "answerIndex": 2,
+      "explanation": "べきでした回看应做之事，后半明确未询问；实际行为不能从べき一项推定。",
+      "hint": "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "本人に確かめるべきでしたが、その時は聞きませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: beki-da-beki-de-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn305；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00044/ja/render.do：辞书形接续、否定形式、する／す、过去回顾及与单纯规定日程的区别；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306a",
+      "targetID": "gn306",
+      "sentenceID": "sgn306a",
+      "prompt": "谁给谁看照片？",
+      "choices": [
+        "只有一个人给所有路人看",
+        "两人始终没有展示",
+        "双方互相展示"
+      ],
+      "answerIndex": 2,
+      "explanation": "見せ合う以二人为相互参与者，不是只向一个方向展示。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "二人は撮った写真を見せ合いました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306b",
+      "targetID": "gn306",
+      "sentenceID": "sgn306b",
+      "prompt": "話し合った是否表示意见一致？",
+      "choices": [
+        "表示从来没有交谈",
+        "不表示，后句明确未统一",
+        "表示已经全体同意"
+      ],
+      "answerIndex": 1,
+      "explanation": "話し合う是共同商量，结果仍由后半句限制。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "計画について話し合いましたが、意見は一つになりませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306c",
+      "targetID": "gn306",
+      "sentenceID": "sgn306c",
+      "prompt": "助け合う的关系是什么？",
+      "choices": [
+        "所有人都拒绝帮助",
+        "彼此互相帮助",
+        "只有所有人帮助同一外人"
+      ],
+      "answerIndex": 1,
+      "explanation": "合う在此把帮助理解为群体内部的相互行动。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "村の人たちは、困った時に助け合っていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306d",
+      "targetID": "gn306",
+      "sentenceID": "sgn306d",
+      "prompt": "能直接读出什么？",
+      "choices": [
+        "双方已掌握全世界所有词",
+        "双方都提供了自己知道的词",
+        "只有老师单向教学生"
+      ],
+      "answerIndex": 1,
+      "explanation": "教え合う说明相互贡献，不把范围扩大成全部知识。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "私たちは知っている言葉を教え合いました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306e",
+      "targetID": "gn306",
+      "sentenceID": "sgn306e",
+      "prompt": "手纸的寄送方向怎样？",
+      "choices": [
+        "只寄给没有提到的第三人",
+        "双方互相寄送",
+        "只有弟弟从未收到任何信"
+      ],
+      "answerIndex": 1,
+      "explanation": "送り合う在本句是两人相互寄信，不能只理解为单向发送。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "離れて暮らしていても、兄弟は手紙を送り合っています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn306f",
+      "targetID": "gn306",
+      "sentenceID": "sgn306f",
+      "prompt": "読み合う能保证意见完全一致吗？",
+      "choices": [
+        "能，读过就代表认可",
+        "不能，后句说明还有不同意见",
+        "能，所有人必然同意"
+      ],
+      "answerIndex": 1,
+      "explanation": "相互阅读说明交流方式，不能从读过他人作文推定全部赞同，后句也明确有不同意见。",
+      "hint": "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "学生たちは作文を読み合い、違う意見も伝えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: au",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn306；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/past-projects/lexicon/%E5%BD%B1%E5%B1%B1%282012-09-24%29.pdf：第11页，统语性复合动词后项与动作相互作用；另参複合動詞レキシコン about.html 的范围说明。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307a",
+      "targetID": "gn307",
+      "sentenceID": "sgn307a",
+      "prompt": "阅读要求包括哪些内容？",
+      "choices": [
+        "只看正文并禁止看题名",
+        "只看题名",
+        "题名和正文"
+      ],
+      "answerIndex": 2,
+      "explanation": "だけでなく追加本文も，不是否定题名本身。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "題名だけでなく、本文も読んでください。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307b",
+      "targetID": "gn307",
+      "sentenceID": "sgn307b",
+      "prompt": "适用范围怎样？",
+      "choices": [
+        "新会员与原有会员都包括",
+        "只有新会员",
+        "所有会员一律不能使用"
+      ],
+      "answerIndex": 0,
+      "explanation": "前项未被排除，にも把原有会员加入受益范围。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この資料は新しい会員だけでなく、前からいる会員にも役に立ちます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307c",
+      "targetID": "gn307",
+      "sentenceID": "sgn307c",
+      "prompt": "后半追加了什么信息？",
+      "choices": [
+        "她也写小说",
+        "她已经不再读日语",
+        "她只会读不能写"
+      ],
+      "answerIndex": 0,
+      "explanation": "だけでなく并不撤销前项的阅读，追加了写作活动。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "彼女は日本語を読むだけでなく、自分で小説も書きます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307d",
+      "targetID": "gn307",
+      "sentenceID": "sgn307d",
+      "prompt": "句子给了哪些评价？",
+      "choices": [
+        "简短并且明确",
+        "冗长而含糊",
+        "简短就必定不明确"
+      ],
+      "answerIndex": 0,
+      "explanation": "い形容词短い直接接だけでなく，后项追加另一维度的肯定评价。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "説明は短いだけでなく、内容も明確でした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307e",
+      "targetID": "gn307",
+      "sentenceID": "sgn307e",
+      "prompt": "な在这里的作用是什么？",
+      "choices": [
+        "连接な形容词便利与だけでなく",
+        "否定方便",
+        "把方便变成已经完成的动作"
+      ],
+      "answerIndex": 0,
+      "explanation": "便利なだけでなく是な形容词接续，安全でもある追加安全性。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "便利なだけでなく、安全でもある道具を選びました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn307f",
+      "targetID": "gn307",
+      "sentenceID": "sgn307f",
+      "prompt": "通知对象是哪些地方？",
+      "choices": [
+        "只有店里而没通知会场",
+        "店里与会场",
+        "只有会场而没通知店里"
+      ],
+      "answerIndex": 1,
+      "explanation": "に保留通知对象的角色，だけでなく让后项会场也加入。",
+      "hint": "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "店にだけでなく、会場にも変更を知らせました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: dake-de-naku",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn307；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00003/ja/render.do：追加关系、常体接续、な形容词与名词接续及助词位置；例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308a",
+      "targetID": "gn308",
+      "sentenceID": "sgn308a",
+      "prompt": "として说明什么？",
+      "choices": [
+        "来会场的直接交通工具",
+        "这次到场时的身份",
+        "她认为会场一定方便"
+      ],
+      "answerIndex": 1,
+      "explanation": "記者として限定此次行动的身份，不是便利等评价或交通手段。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "彼女は記者として会場に来ました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308b",
+      "targetID": "gn308",
+      "sentenceID": "sgn308b",
+      "prompt": "日记在这次阅读中起什么作用？",
+      "choices": [
+        "只作为包装纸",
+        "已被证实每句话都无误",
+        "作为了解时代的资料"
+      ],
+      "answerIndex": 2,
+      "explanation": "資料として说明用途和看待方式，不保证日记中的每句内容真实。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "古い日記を、時代を知る資料として読みました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308c",
+      "targetID": "gn308",
+      "sentenceID": "sgn308c",
+      "prompt": "这次实际参与身份是什么？",
+      "choices": [
+        "工作人员",
+        "选手",
+        "两种身份都被否定"
+      ],
+      "answerIndex": 0,
+      "explanation": "としてではなく否定选手身份，后项明确采用係員身份。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "私は選手としてではなく、係員として大会に参加しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308d",
+      "targetID": "gn308",
+      "sentenceID": "sgn308d",
+      "prompt": "としての怎样连接后文？",
+      "choices": [
+        "以朋友身份提出的意见",
+        "朋友已替对方完成行动",
+        "所有人的共同决定"
+      ],
+      "answerIndex": 0,
+      "explanation": "としての修饰意見，声明发言角色，后句仍是建议。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友達としての意見ですが、無理はしないほうがいいと思います。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308e",
+      "targetID": "gn308",
+      "sentenceID": "sgn308e",
+      "prompt": "椅子としても的も在此表示什么？",
+      "choices": [
+        "追加作为椅子的用途",
+        "假设箱子其实从未存在",
+        "排除装东西的用途"
+      ],
+      "answerIndex": 0,
+      "explanation": "此处として是用途，も追加一项，不能只看ても字形就当假定让步。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この箱は、物を入れるだけでなく、椅子としても使えます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn308f",
+      "targetID": "gn308",
+      "sentenceID": "sgn308f",
+      "prompt": "说话人的身份与看法怎样区分？",
+      "choices": [
+        "同一人从母亲和老师两种角色表达想法",
+        "一定是两个不同的人分别说话",
+        "既是母亲就不可能也是老师"
+      ],
+      "answerIndex": 0,
+      "explanation": "一个人可具有多个角色，として分别限定当前采用的角色；此处不是身份互斥。",
+      "hint": "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "母として心配していますが、先生としては子供の挑戦を応援したいです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: to-shite",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn308；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00002/ja/render.do：身份、角色、用途与としての；区别作为角色的も和假定让步用法，例句未复制。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn301",
+      "title": "について：限定正在谈的主题",
+      "subtitle": "区分话题、信息来源与动作对象",
+      "level": "N3",
+      "itemIDs": [
+        "gn301"
+      ],
+      "sentenceIDs": [
+        "sgn301a",
+        "sgn301b",
+        "sgn301c",
+        "sgn301d",
+        "sgn301e",
+        "sgn301f"
+      ],
+      "exerciseIDs": [
+        "egn301a",
+        "egn301b",
+        "egn301c",
+        "egn301d",
+        "egn301e",
+        "egn301f"
+      ],
+      "readingID": "rn3001",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加について表示谈论、调查、考虑等所涉及的主题；についての后可接名词。它不指定谁提供信息，也不保证计划已经执行。带は时可对比不同主题，否定或尚未完成的范围要分别保留。"
+      ]
+    },
+    {
+      "id": "lgn302",
+      "title": "によると・によれば：追踪信息来源",
+      "subtitle": "把报道或他人提供的内容与确认事实分开",
+      "level": "N3",
+      "itemIDs": [
+        "gn302"
+      ],
+      "sentenceIDs": [
+        "sgn302a",
+        "sgn302b",
+        "sgn302c",
+        "sgn302d",
+        "sgn302e",
+        "sgn302f"
+      ],
+      "exerciseIDs": [
+        "egn302a",
+        "egn302b",
+        "egn302c",
+        "egn302d",
+        "egn302e",
+        "egn302f"
+      ],
+      "readingID": "rn3002",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加によると或によれば指出信息来源，后句常用そうだ、という、らしい等转述。来源可以是人、通知或报道；句中出现来源不保证内容绝对可靠。未确认的消息、过去的报道和说话者自己的观察须分别理解。"
+      ]
+    },
+    {
+      "id": "lgn303",
+      "title": "にとって：限定评价所依据的立场",
+      "subtitle": "辨认谁觉得重要、困难或合适",
+      "level": "N3",
+      "itemIDs": [
+        "gn303"
+      ],
+      "sentenceIDs": [
+        "sgn303a",
+        "sgn303b",
+        "sgn303c",
+        "sgn303d",
+        "sgn303e",
+        "sgn303f"
+      ],
+      "exerciseIDs": [
+        "egn303a",
+        "egn303b",
+        "egn303c",
+        "egn303d",
+        "egn303e",
+        "egn303f"
+      ],
+      "readingID": "rn3003",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加にとって表示从某人、群体的立场看，后面常接重要、困难、有价值等评价。它不同于授受的接受者、动作的执行者或单纯的受益目的；同一事物可因立场不同而得到不同评价。"
+      ]
+    },
+    {
+      "id": "lgn304",
+      "title": "ずに：不做前项而进行后项",
+      "subtitle": "保留没有做的动作及实际做的动作",
+      "level": "N3",
+      "itemIDs": [
+        "gn304"
+      ],
+      "sentenceIDs": [
+        "sgn304a",
+        "sgn304b",
+        "sgn304c",
+        "sgn304d",
+        "sgn304e",
+        "sgn304f"
+      ],
+      "exerciseIDs": [
+        "egn304a",
+        "egn304b",
+        "egn304c",
+        "egn304d",
+        "egn304e",
+        "egn304f"
+      ],
+      "readingID": "rn3004",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ない形去掉ない接ずに，如読まない→読まずに、食べない→食べずに、来ない→来ずに（こずに）。する例外为せずに。常对应ないで，书面语较常见；本组是“不做某事而……”，不是“不能做”，也不是后项没有发生。"
+      ]
+    },
+    {
+      "id": "lgn305",
+      "title": "べきだ・べきではない：主张应当怎样",
+      "subtitle": "区分规范性判断、禁止建议与完成事实",
+      "level": "N3",
+      "itemIDs": [
+        "gn305"
+      ],
+      "sentenceIDs": [
+        "sgn305a",
+        "sgn305b",
+        "sgn305c",
+        "sgn305d",
+        "sgn305e",
+        "sgn305f"
+      ],
+      "exerciseIDs": [
+        "egn305a",
+        "egn305b",
+        "egn305c",
+        "egn305d",
+        "egn305e",
+        "egn305f"
+      ],
+      "readingID": "rn3005",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词辞书形接べきだ，表达说话者认为应该做、做才妥当的主张；否定为べきではない，不写成ないべきだ。するべき也可作すべき。不是对未来必然发生的预测，也不表示已经执行；单纯陈述规定、日程时不机械替代なければならない。べきだった可用于回顾过去的判断或后悔。"
+      ]
+    },
+    {
+      "id": "lgn306",
+      "title": "合う：相互行动与共同进行",
+      "subtitle": "辨认相互关系，不把共同商量误当意见一致",
+      "level": "N3",
+      "itemIDs": [
+        "gn306"
+      ],
+      "sentenceIDs": [
+        "sgn306a",
+        "sgn306b",
+        "sgn306c",
+        "sgn306d",
+        "sgn306e",
+        "sgn306f"
+      ],
+      "exerciseIDs": [
+        "egn306a",
+        "egn306b",
+        "egn306c",
+        "egn306d",
+        "egn306e",
+        "egn306f"
+      ],
+      "readingID": "rn3006",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干后接合う，可表达双方或多人相互进行动作，或共同做一件事，如見せ合う、助け合う、話し合う。具体是否互为接受者、是否共同推进，要看动作与参与者；商量不保证达成一致。并非所有末尾为あう的词都能机械拆成此义，如似合う等须按词理解。"
+      ]
+    },
+    {
+      "id": "lgn307",
+      "title": "だけでなく：保留前项并追加后项",
+      "subtitle": "不把追加关系误读成排除前项",
+      "level": "N3",
+      "itemIDs": [
+        "gn307"
+      ],
+      "sentenceIDs": [
+        "sgn307a",
+        "sgn307b",
+        "sgn307c",
+        "sgn307d",
+        "sgn307e",
+        "sgn307f"
+      ],
+      "exerciseIDs": [
+        "egn307a",
+        "egn307b",
+        "egn307c",
+        "egn307d",
+        "egn307e",
+        "egn307f"
+      ],
+      "readingID": "rn3007",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "XだけでなくYも表示不只是X，Y也成立，前项并未被排除。名词可直接接だけでなく，动词、い形容词用普通形，な形容词常用な或である接续。に、から等助词的范围须保留；与XではなくY只否定X而换为Y的关系不同。"
+      ]
+    },
+    {
+      "id": "lgn308",
+      "title": "として：以某种身份或作用行动",
+      "subtitle": "区分行动身份、使用作用与评价立场",
+      "level": "N3",
+      "itemIDs": [
+        "gn308"
+      ],
+      "sentenceIDs": [
+        "sgn308a",
+        "sgn308b",
+        "sgn308c",
+        "sgn308d",
+        "sgn308e",
+        "sgn308f"
+      ],
+      "exerciseIDs": [
+        "egn308a",
+        "egn308b",
+        "egn308c",
+        "egn308d",
+        "egn308e",
+        "egn308f"
+      ],
+      "readingID": "rn3008",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词接として表示以某种身份、资格、角色或用途来看待并行动；としての可连接名词。一个人可能同时具有多种角色，只声明当前采用哪一角色。区别にとって的评价立场；としても的假定让步、としては的比较评价另设语境学习，本组先训练身份与作用。"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -95,6 +95,24 @@
       "title": "国立国語研究所：おき的间隔与单位",
       "url": "https://mmsrv.ninjal.ac.jp/kamus/data/item2507.html",
       "attribution": "国立国語研究所日本語・インドネシア語辞典；仅核对语法事实，未复制词典正文或例句。"
+    },
+    {
+      "id": "jpfmaterials",
+      "title": "国際交流基金：教科書を作ろう 文法解説",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/grammar/text/kanalist/ja/render.do",
+      "attribution": "The Japan Foundation；仅核对接续、意义和使用限制，未复制教材例句或正文。"
+    },
+    {
+      "id": "jfpmarugoto",
+      "title": "国際交流基金：まるごと 中級1 教え方の手引き",
+      "url": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate1/intermediate1_teaching_topic.pdf",
+      "attribution": "The Japan Foundation，2017；仅核对文法说明，未打包教材或复制例句。"
+    },
+    {
+      "id": "ninjalcomp",
+      "title": "国立国語研究所：複合動詞研究资料",
+      "url": "https://www2.ninjal.ac.jp/vvlexicon/about.html",
+      "attribution": "国立国語研究所；仅核对复合动词的语义和结构，具体资料页随知识点注明。"
     }
   ],
   "stages": [

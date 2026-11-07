@@ -27,7 +27,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
@@ -37,7 +37,8 @@ class CurriculumDeliveryTests(unittest.TestCase):
         for sense in senses:
             self.assertEqual(sense["readingOwnerID"], sense["lexemeID"])
         for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963"),
-                         ("rn4414s6", "vn5s001"), ("svn5335b", "vn5s002"), ("svn5224a", "vn5224")]:
+                         ("rn4414s6", "vn5s001"), ("svn5335b", "vn5s002"), ("svn5224a", "vn5224"),
+                         ("svn4i174b", "vn3a133"), ("svn4j065b", "vn3a101")]:
             sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
             self.assertTrue(any(s["itemID"] == wid for s in sentence["segments"]), sid)
 
@@ -298,6 +299,33 @@ class CurriculumDeliveryTests(unittest.TestCase):
             reading = readings[lesson["readingID"]]
             self.assertEqual(reading["purpose"], "practice")
             self.assertIn(unit, reading["grammarIDs"])
+
+    def test_first_n3_chapter_connects_teaching_to_controlled_and_heldout_reading(self):
+        items = {item["id"]: item for item in self.pack["items"]}
+        sentences = {sentence["id"]: sentence for sentence in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"] in {f"rn{n}" for n in range(3001, 3011)}}
+        self.assertEqual(len(readings), 10)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"}, {"rn3009", "rn3010"})
+        for reading in readings.values():
+            self.assertEqual(reading["level"], "N3")
+            self.assertEqual(len(reading["paragraphs"]), 2)
+            self.assertEqual(len(reading["questions"]), 2)
+            self.assertGreaterEqual(sum(len("".join(s["text"] for s in sentences[sid]["segments"])) for sid in reading["sentenceIDs"]), 300)
+            self.assertTrue(all(w["itemID"] in items for w in reading["vocabulary"]), reading["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in reading["vocabulary"]))
+        for number in range(301, 309):
+            gid = f"gn{number}"
+            self.assertEqual(items[gid]["level"], "N3")
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            passage = readings[lesson["readingID"]]
+            self.assertEqual(passage["purpose"], "practice")
+            self.assertIn(gid, passage["grammarIDs"])
+        result = audit(self.pack, self.syllabus, self.reference)
+        n3 = next(stage for stage in result["stages"] if stage["level"] == "N3")
+        self.assertGreaterEqual(n3["actual"]["words"], 132)
+        self.assertGreaterEqual(n3["grammarPatterns"]["covered"], 8)
+        self.assertFalse(result["errors"])
+        self.assertFalse(result["wordContextGaps"])
 
     def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
         items = {i["id"]: i for i in self.pack["items"]}
