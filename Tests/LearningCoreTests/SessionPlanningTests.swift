@@ -72,6 +72,36 @@ final class SessionPlanningTests: XCTestCase {
         XCTAssertEqual(Set(tasks.map(\.id)).count, tasks.count)
     }
 
+    func testOutOfOrderAttemptsUseLatestCooldownAndOldestAvailableReading() throws {
+        let pack = try ContentPack.bundled()
+        let candidates = Array(pack.readings.filter { $0.purpose != "assessment" }.prefix(2))
+        let first = candidates[0], second = candidates[1]
+        var history = prepared(pack) + pack.readings.filter { !candidates.map(\.id).contains($0.id) }
+            .map { attempt($0.id) }
+        history += [attempt(first.id, time: now.addingTimeInterval(-3 * 86_400)),
+                    attempt(second.id, time: now.addingTimeInterval(-2 * 86_400)),
+                    attempt(first.id, time: now.addingTimeInterval(-5 * 86_400))]
+        XCTAssertEqual(readingIDs(try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now)), [first.id])
+        history += [attempt(first.id, time: now.addingTimeInterval(-60)),
+                    attempt(first.id, time: now.addingTimeInterval(-4 * 86_400))]
+        XCTAssertFalse(SessionPlanner.readingAvailable(first, pack: pack, events: history, now: now))
+        XCTAssertTrue(SessionPlanner.readingAvailable(second, pack: pack, events: history, now: now))
+        XCTAssertEqual(readingIDs(try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: now)), [second.id])
+    }
+
+    func testReadingCooldownKeepsSameDayRuleAcrossTwentyFiveHourDay() throws {
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = try XCTUnwrap(TimeZone(identifier: "America/Los_Angeles"))
+        let late = try XCTUnwrap(calendar.date(from: DateComponents(year: 2026, month: 11, day: 1, hour: 23, minute: 45)))
+        let early = try XCTUnwrap(calendar.date(from: DateComponents(year: 2026, month: 11, day: 1, hour: 0, minute: 15)))
+        XCTAssertGreaterThan(late.timeIntervalSince(early), 86_400)
+        let pack = try ContentPack.bundled(), reading = pack.readings.first { $0.purpose != "assessment" }!
+        let reviews = pack.items.flatMap { item in item.skills.map { review(item.id, $0, time: late) } }
+        let history = reviews + pack.readings.map { attempt($0.id, time: $0.id == reading.id ? early : late) }
+        XCTAssertFalse(SessionPlanner.readingAvailable(reading, pack: pack, events: history, now: late, calendar: calendar))
+        XCTAssertTrue(readingIDs(try SessionPlanner.make(pack: pack, events: history, minutes: 20, now: late, calendar: calendar)).isEmpty)
+    }
+
     func testNewWordSkillsAreSeparatedAndRespectConfiguredQuota() throws {
         let pack = try ContentPack.bundled()
         let tasks = try SessionPlanner.make(pack: pack, events: [], minutes: 20, now: now, newWordLimit: 5)

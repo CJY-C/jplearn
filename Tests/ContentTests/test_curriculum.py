@@ -362,6 +362,39 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertFalse(result["errors"])
         self.assertFalse(result["complete"])
 
+    def test_n3_norms_chapter_preserves_function_and_reading_boundaries(self):
+        items = {item["id"]: item for item in self.pack["items"]}
+        sentences = {sentence["id"]: sentence for sentence in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"] in {f"rn{n}" for n in range(3031, 3046)}}
+        self.assertEqual(len(readings), 15)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"},
+                         {"rn3043", "rn3044", "rn3045"})
+        for passage in readings.values():
+            self.assertEqual(passage["level"], "N3")
+            self.assertEqual(len(passage["paragraphs"]), 2)
+            self.assertEqual(len(passage["questions"]), 2)
+            self.assertGreaterEqual(sum(len("".join(s["text"] for s in sentences[sid]["segments"]))
+                                        for sid in passage["sentenceIDs"]), 350)
+            self.assertTrue(all(w["itemID"] in items for w in passage["vocabulary"]), passage["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in passage["vocabulary"]))
+        for number in range(325, 335):
+            gid = f"gn{number}"
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            passage = readings[lesson["readingID"]]
+            self.assertEqual(passage["purpose"], "practice")
+            self.assertIn(gid, passage["grammarIDs"])
+        # Recollection and generalization are taught separately without counting
+        # one reference pattern twice. Productive 方 uses its existing unit.
+        self.assertEqual(self.syllabus["grammarCoverage"]["N3:mono-da"]["itemIDs"], ["gn325", "gn326"])
+        self.assertNotEqual(items["gn325"]["meaning"], items["gn326"]["meaning"])
+        self.assertIn("gn419", readings["rn3033"]["grammarIDs"])
+        words = word_lookup(self.pack["items"])
+        self.assertNotIn("言い方", words)
+        _, occurrences = markup_sentence("[素振り|そぶり]。[素振り|すぶり]。[質|しつ]。[質|たち]。", words)
+        self.assertEqual([w["itemID"] for w in occurrences], ["vn3d043", None, "vn3d124", None])
+        for sid in ["svn3b097a", "rn3042s5"]:
+            self.assertIn("vn3d122", [segment["itemID"] for segment in sentences[sid]["segments"]])
+
     def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
         items = {i["id"]: i for i in self.pack["items"]}
         phone = next(i for i in items.values() if i["text"] == "電話に出る")

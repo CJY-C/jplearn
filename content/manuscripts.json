@@ -35,6 +35,10 @@
     {"kind": "word", "source": "n3-judgment-and-belief.tsv", "batch": "032-n3-judgment-and-belief.json"},
     {"kind": "word", "source": "n3-reading-and-event-words.tsv", "batch": "033-n3-reading-and-event-words.json"},
     {"kind": "grammar", "source": "n3-inference-and-negation.tsv", "batch": "034-n3-inference-and-negation.json"},
-    {"kind": "reading", "source": "n3-inference-and-negation-readings.tsv", "batch": "035-n3-inference-and-negation-readings.json"}
+    {"kind": "reading", "source": "n3-inference-and-negation-readings.tsv", "batch": "035-n3-inference-and-negation-readings.json"},
+    {"kind": "word", "source": "n3-relationships-and-expression.tsv", "batch": "036-n3-relationships-and-expression.json"},
+    {"kind": "word", "source": "n3-reading-and-correspondence-words.tsv", "batch": "037-n3-reading-and-correspondence-words.json"},
+    {"kind": "grammar", "source": "n3-norms-memory-and-reasons.tsv", "batch": "038-n3-norms-memory-and-reasons.json"},
+    {"kind": "reading", "source": "n3-norms-memory-and-reasons-readings.tsv", "batch": "039-n3-norms-memory-and-reasons-readings.json"}
   ]
 }
