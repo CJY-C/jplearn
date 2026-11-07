@@ -484557,9 +484557,9 @@
           "itemID": null
         },
         {
-          "text": "録音",
-          "reading": "ろくおん",
-          "itemID": "vn4957"
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
         },
         {
           "text": "した",
@@ -484567,9 +484567,9 @@
           "itemID": null
         },
         {
-          "text": "人",
-          "reading": "ひと",
-          "itemID": "v0020"
+          "text": "本人",
+          "reading": "ほんにん",
+          "itemID": "vn3a043"
         },
         {
           "text": "に",
@@ -484607,7 +484607,7 @@
           "itemID": null
         }
       ],
-      "translation": "在听取镇上历史的活动中，录了祖父的讲述。据负责人的邮件说，要请被录音者确认内容后再写成文章。",
+      "translation": "在听取镇上历史的活动中，录了祖父的讲述。据负责人的邮件说，要请讲述者本人确认内容后再写成文章。",
       "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
       "speechText": null,
       "citations": [
@@ -668012,12 +668012,12 @@
           "itemID": "vn5447"
         },
         {
-          "text": "録音",
-          "itemID": "vn4957"
+          "text": "話す",
+          "itemID": "v0028"
         },
         {
-          "text": "人",
-          "itemID": "v0020"
+          "text": "本人",
+          "itemID": "vn3a043"
         },
         {
           "text": "内容",
@@ -668361,12 +668361,12 @@
               "itemID": "vn5447"
             },
             {
-              "text": "録音",
-              "itemID": "vn4957"
+              "text": "話す",
+              "itemID": "v0028"
             },
             {
-              "text": "人",
-              "itemID": "v0020"
+              "text": "本人",
+              "itemID": "vn3a043"
             },
             {
               "text": "内容",
