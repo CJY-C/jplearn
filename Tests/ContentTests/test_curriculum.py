@@ -223,6 +223,22 @@ class CurriculumDeliveryTests(unittest.TestCase):
         for path, batch in normal.items():
             self.assertEqual(batch, json.loads(path.read_text()), path.name)
 
+    def test_n4_stage_meets_its_delivery_contract_without_later_levels(self):
+        result = audit(self.pack, self.syllabus, self.reference)
+        n4 = next(stage for stage in result["stages"] if stage["level"] == "N4")
+        self.assertTrue(n4["complete"])
+        self.assertFalse(n4["deficits"])
+        self.assertEqual(n4["grammarPatterns"]["covered"], 98)
+        self.assertFalse(result["errors"])
+        self.assertFalse(result["wordContextGaps"])
+        # The milestone stands on its own N4 material, not later-level previews.
+        foundations = copy.deepcopy(self.pack)
+        for field in ["items", "lessons", "readings"]:
+            foundations[field] = [row for row in foundations[field] if row["level"] in ["N5", "N4"]]
+        separate = audit(foundations, self.syllabus, self.reference)
+        self.assertEqual(separate["stages"][1], n4)
+        self.assertFalse(separate["complete"])
+
     def test_new_n4_batches_keep_their_level_and_actual_contexts(self):
         for record in compile_course.entries():
             if not record["source"].startswith("n4-"): continue

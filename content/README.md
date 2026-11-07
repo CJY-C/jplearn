@@ -2,7 +2,7 @@
 
 `catalog.json` 保存课程版本、来源与阶段预算；`legacy/` 保留已发布内容的固定编号；`batches/` 保存新增的显式记录。`scripts/build_content.py` 仅合并并校验这些记录，不根据顺序重新分配编号。`scripts/author_batch.py` 是早期可选的编写辅助。新结构课程以 `authoring/n5-structures.tsv` 的显式语境键为编写源，使用 `scripts/compile_grammar.py` 编译为批次 JSON；CI 会检查二者一致。
 
-0.12.0：1,856 个词、固定搭配与常用数量表达，另 6 个已有词的新义项；166 个知识点、2,687 道词句题、180 篇阅读、6 个入门模块。38 篇阅读标记为 assessment；其余进入日常推荐或轻松阅读。实际覆盖与剩余门槛由 `scripts/audit_curriculum.py` 报告。
+0.13.0：2,007 个词、固定搭配与常用数量表达，另 6 个已有词的新义项；166 个知识点、2,838 道词句题、180 篇阅读、6 个入门模块。38 篇阅读标记为 assessment；其余进入日常推荐或轻松阅读。实际覆盖与剩余门槛由 `scripts/audit_curriculum.py` 报告。
 
 新增记录须提供具体出处或明确标记为项目原创。`reference` 是核对入口，`translated` 是项目翻译，`adapted` 是改编，`sourceChecked` 仅表示已与出处对齐；这些状态均不能替代独立语言审校。本批没有独立专业审校记录。
 
