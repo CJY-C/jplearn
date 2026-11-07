@@ -394,6 +394,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertEqual([w["itemID"] for w in occurrences], ["vn3d043", None, "vn3d124", None])
         for sid in ["svn3b097a", "rn3042s5"]:
             self.assertIn("vn3d122", [segment["itemID"] for segment in sentences[sid]["segments"]])
+        self.assertIn("vn3e034", [segment["itemID"] for segment in sentences["sgn327f"]["segments"]])
 
     def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
         items = {i["id"]: i for i in self.pack["items"]}
