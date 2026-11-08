@@ -25,7 +25,12 @@ final class SmallScreenTests: XCTestCase {
         if !exists { print(app.debugDescription); screenshot("SE3-MissingControl") }
         XCTAssertTrue(exists, file: file, line: line)
         XCTAssertTrue(element.isHittable, file: file, line: line)
-        XCTAssertTrue(app.frame.insetBy(dx: -1, dy: -1).contains(element.frame), "Control is outside the SE3 screen", file: file, line: line)
+        let contained = app.frame.insetBy(dx: -1, dy: -1).contains(element.frame)
+        if !contained {
+            print("Offscreen element: \(element.frame), application: \(app.frame)")
+            screenshot("SE3-OffscreenControl")
+        }
+        XCTAssertTrue(contained, "Control is outside the SE3 screen", file: file, line: line)
     }
     @MainActor private func screenshot(_ name: String) {
         let attachment = XCTAttachment(screenshot: app.screenshot())
@@ -240,7 +245,27 @@ final class SmallScreenTests: XCTestCase {
             XCTAssertGreaterThan(feedback.frame.minY, originalY + 5)
             XCTAssertEqual(fixed, app.buttons["study.continue"].frame)
             end.press(forDuration: 0.1, thenDragTo: start)
+            // Opposite drags do not necessarily undo the same scroll offset:
+            // deceleration and edge clamping depend on the current question.
+            // Reveal the complete explanation using its actual position while
+            // keeping every gesture inside the upper reading area.
+            let scroll = app.scrollViews["study.readingScroll"]
+            for _ in 0..<4 {
+                let bounds = scroll.frame
+                if bounds.insetBy(dx: -1, dy: -1).contains(feedback.frame) { break }
+                let needsUp = feedback.frame.maxY > bounds.maxY
+                let overflow = needsUp ? feedback.frame.maxY - bounds.maxY : bounds.minY - feedback.frame.minY
+                let distance = min(max(overflow + 12, 24), min(bounds.height / 2, 180))
+                let fromY = needsUp ? bounds.maxY - 24 : bounds.minY + 24
+                let toY = needsUp ? fromY - distance : fromY + distance
+                origin.withOffset(CGVector(dx: bounds.midX, dy: fromY))
+                    .press(forDuration: 0.1, thenDragTo: origin.withOffset(CGVector(dx: bounds.midX, dy: toY)),
+                           withVelocity: .slow, thenHoldForDuration: 0.2)
+                XCTAssertEqual(fixed, app.buttons["study.continue"].frame)
+            }
             visible(feedback)
+            XCTAssertTrue(scroll.frame.insetBy(dx: -1, dy: -1).contains(feedback.frame),
+                          "The complete explanation must return inside the upper reading area")
             visible(app.buttons["study.continue"])
             screenshot("SE3-N4-ReadingFeedback-LargeText-Question\(index)")
             app.buttons["study.continue"].tap()
