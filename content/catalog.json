@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -155,6 +155,24 @@
       "title": "国際交流基金：B1-2 日本语文法解说",
       "url": "https://md.jpf.go.jp/userfiles/file/2018/Lengua%20Japonesa/Gramatica/B1-2-JP.pdf",
       "attribution": "国際交流基金公开文法资料；仅核对程度表达与接续，不复制教材例句或正文。"
+    },
+    {
+      "id": "ninjalkamus",
+      "title": "国立国語研究所：基礎日本語活用辞典",
+      "url": "https://mmsrv.ninjal.ac.jp/kamus/",
+      "attribution": "国立国語研究所；仅核对词义、接续与用法，不复制例句或词条正文。"
+    },
+    {
+      "id": "nagoyarelations",
+      "title": "呉芷娟：連動を表す複合辞について",
+      "url": "https://www.lang.nagoya-u.ac.jp/nichigen/0-kyouiku/seminar/pdf/014-1.pdf",
+      "attribution": "名古屋大学日本語教育学讲座第9回定例研究会，2007年10月26日讲义；参考连动与遵循依据的功能区分，非同行评审论文，不复制语料。"
+    },
+    {
+      "id": "jfpcare",
+      "title": "国際交流基金：日本語でケアナビ",
+      "url": "https://eng.nihongodecarenavi.jp/",
+      "attribution": "国際交流基金；仅核对词形与用法，具体词条随单元注明，不复制例句。"
     }
   ],
   "stages": [

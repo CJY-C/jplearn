@@ -44,6 +44,10 @@
     {"kind": "word", "source": "n3-temporal-and-change-words.tsv", "batch": "041-n3-temporal-and-change-words.json"},
     {"kind": "word", "source": "n3-time-reading-prerequisites.tsv", "batch": "042-n3-time-reading-prerequisites.json"},
     {"kind": "grammar", "source": "n3-time-intention-and-degree.tsv", "batch": "043-n3-time-intention-and-degree.json"},
-    {"kind": "reading", "source": "n3-time-intention-and-degree-readings.tsv", "batch": "044-n3-time-intention-and-degree-readings.json"}
+    {"kind": "reading", "source": "n3-time-intention-and-degree-readings.tsv", "batch": "044-n3-time-intention-and-degree-readings.json"},
+    {"kind": "word", "source": "n3-relations-and-causes-words.tsv", "batch": "045-n3-relations-and-causes-words.json"},
+    {"kind": "word", "source": "n3-relations-reading-prerequisites.tsv", "batch": "046-n3-relations-reading-prerequisites.json"},
+    {"kind": "grammar", "source": "n3-relations-and-causes.tsv", "batch": "047-n3-relations-and-causes.json"},
+    {"kind": "reading", "source": "n3-relations-and-causes-readings.tsv", "batch": "048-n3-relations-and-causes-readings.json"}
   ]
 }

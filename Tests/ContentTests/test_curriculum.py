@@ -28,7 +28,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
@@ -445,6 +445,56 @@ class CurriculumDeliveryTests(unittest.TestCase):
                              ("tokoro-ni-tokoro-e-tokoro-o", ["gn342", "gn343", "gn349", "gn350"])]:
             self.assertEqual(self.syllabus["grammarCoverage"]["N3:" + pattern]["itemIDs"], ids)
             self.assertEqual(len({items[gid]["meaning"] for gid in ids}), len(ids))
+
+    def test_n3_relations_chapter_has_controlled_reading_and_all_four_tomoni_functions(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"] in {f"rn{n}" for n in range(3066, 3091)}}
+        self.assertEqual(len(readings), 25)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"},
+                         {f"rn{n}" for n in range(3086, 3091)})
+        for passage in readings.values():
+            self.assertEqual(len(passage["paragraphs"]), 2)
+            self.assertEqual(len(passage["questions"]), 2)
+            self.assertEqual(len(passage["sentenceIDs"]), 6)
+            self.assertGreaterEqual(sum(len("".join(s["text"] for s in sentences[sid]["segments"]))
+                                        for sid in passage["sentenceIDs"]), 350)
+            self.assertTrue(all(w["itemID"] in items for w in passage["vocabulary"]), passage["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in passage["vocabulary"]))
+        for number in range(351, 377):
+            gid = f"gn{number}"
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            passage = readings[lesson["readingID"]]
+            self.assertEqual(passage["purpose"], "practice")
+            self.assertIn(gid, passage["grammarIDs"])
+        for pattern, ids in [("ni-taishite", ["gn351", "gn352", "gn353"]),
+                             ("ni-yotte-ni-yoru", ["gn354", "gn355", "gn356", "gn357"]),
+                             ("to-tomo-ni", ["gn366", "gn367", "gn375", "gn376"])]:
+            self.assertEqual(self.syllabus["grammarCoverage"]["N3:" + pattern]["itemIDs"], ids)
+            self.assertEqual(len({items[gid]["meaning"] for gid in ids}), len(ids))
+        for sid, target in [("rn3068s2", "vn4j012"), ("rn3078s6", "vn4426"), ("rn3087s6", "vn4426")]:
+            self.assertIn(target, [s["itemID"] for s in sentences[sid]["segments"]], sid)
+
+    def test_relations_vocabulary_preserves_senses_and_does_not_count_a_repeat(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        self.assertNotIn("vn3i143", items)  # 時間帯 already exists as vn3f151.
+        self.assertEqual(items["vn3i084"]["lexemeID"], "vn5246")
+        self.assertEqual(items["vn3i084"]["readingOwnerID"], "vn5246")
+        for sid in ["svn5246a", "svn5246b", "sgn482c", "sgn490a", "rn4114s4"]:
+            self.assertIn("vn5246", [s["itemID"] for s in sentences[sid]["segments"]])
+            self.assertNotIn("vn3i084", [s["itemID"] for s in sentences[sid]["segments"]])
+        for sid in ["rn3078s4", "rn3082s6"]:
+            self.assertIn("vn3i084", [s["itemID"] for s in sentences[sid]["segments"]])
+        for sid, surface in [("svn5424a", "新鮮"), ("svn4605b", "会計"), ("svn3f056b", "電子")]:
+            self.assertIsNone(next(s["itemID"] for s in sentences[sid]["segments"] if s["text"] == surface))
+        lookup = word_lookup(self.pack["items"])
+        with self.assertRaisesRegex(ValueError, "Ambiguous word reference"):
+            markup_sentence("[つ|つ|つける]けます。", lookup)
+        _, occurrences = markup_sentence("[出所|しゅっしょ]。[出所|でどこ]。[後日|ごにち]。[行き先|ゆきさき]。", lookup)
+        self.assertEqual([w["itemID"] for w in occurrences], ["vn3i023", "vn3i023", "vn3i065", "vn3i052"])
+        self.assertNotIn("いちじょう", items["vn3i120"].get("acceptedReadings", []))
+        self.assertNotIn("ほどける", items["vn3i164"].get("acceptedReadings", []))
 
     def test_receive_senses_and_untaught_physical_senses_stay_separate(self):
         items = {i["id"]: i for i in self.pack["items"]}

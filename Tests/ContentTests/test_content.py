@@ -72,11 +72,18 @@ class ContentTests(unittest.TestCase):
         sentence = self.groups["sentences"][exercise["sentenceID"]]
         stem = next(segment for segment in sentence["segments"] if segment["text"] == "読")
         self.assertEqual(self.groups["items"][stem["itemID"]]["text"], "読む")
-        expected = {"新": "新しい", "大": "大きい", "考": "考える"}
-        for sentence in self.groups["sentences"].values():
-            for segment in sentence["segments"]:
-                if segment["text"] in expected:
-                    self.assertEqual(self.groups["items"][segment["itemID"]]["text"], expected[segment["text"]])
+        # A kanji stem can belong to different words, including a noun and a
+        # verb with the same stem reading. Assert actual authored contexts.
+        for sid, surface, reading, expected in [
+            ("s009", "新", "あたら", "新しい"),
+            ("svn3h047a", "新", "あら", "新た"),
+            ("s067", "大", "おお", "大きい"),
+            ("s063", "考", "かんが", "考える"),
+            ("svn3h082b", "考", "かんが", "考え"),
+        ]:
+            segment = next(s for s in self.groups["sentences"][sid]["segments"]
+                           if s["text"] == surface and s.get("reading") == reading)
+            self.assertEqual(self.groups["items"][segment["itemID"]]["text"], expected)
 
     def test_each_grammar_has_a_different_transfer_sentence(self):
         for item in self.groups["items"].values():
