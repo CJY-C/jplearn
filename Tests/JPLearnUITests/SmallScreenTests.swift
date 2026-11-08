@@ -250,8 +250,15 @@ final class SmallScreenTests: XCTestCase {
             // Reveal the complete explanation using its actual position while
             // keeping every gesture inside the upper reading area.
             let scroll = app.scrollViews["study.readingScroll"]
+            // The accessibility frame can extend beneath safeAreaInset. Clip
+            // it to the visible content region so a drag never hits Continue.
+            let contentTop = app.staticTexts["study.readingCoverage"].frame.maxY + 4
+            let viewport = scroll.frame.intersection(CGRect(
+                x: app.frame.minX, y: contentTop, width: app.frame.width,
+                height: fixed.minY - 12 - contentTop))
+            XCTAssertGreaterThan(viewport.height, 0)
             for _ in 0..<4 {
-                let bounds = scroll.frame
+                let bounds = viewport
                 if bounds.insetBy(dx: -1, dy: -1).contains(feedback.frame) { break }
                 let needsUp = feedback.frame.maxY > bounds.maxY
                 let overflow = needsUp ? feedback.frame.maxY - bounds.maxY : bounds.minY - feedback.frame.minY
@@ -264,7 +271,7 @@ final class SmallScreenTests: XCTestCase {
                 XCTAssertEqual(fixed, app.buttons["study.continue"].frame)
             }
             visible(feedback)
-            XCTAssertTrue(scroll.frame.insetBy(dx: -1, dy: -1).contains(feedback.frame),
+            XCTAssertTrue(viewport.insetBy(dx: -1, dy: -1).contains(feedback.frame),
                           "The complete explanation must return inside the upper reading area")
             visible(app.buttons["study.continue"])
             screenshot("SE3-N4-ReadingFeedback-LargeText-Question\(index)")
