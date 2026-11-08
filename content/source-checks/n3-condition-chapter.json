@@ -1,0 +1,728 @@
+{
+  "status": "source facts checked; not independent language review",
+  "baseline": "ea4669d45ac4597148a24113c63eeca0af88f7d8",
+  "manuscripts": {
+    "content/authoring/n4-condition-prerequisites.tsv": "8f11d5db753fca241485fd9fd51fdcae8f717d94e98322092bcc182018be7c0c",
+    "content/authoring/n3-condition-prerequisites.tsv": "56121dc821013888c692d18c56e785442896421527abc14d587db4ba2b11b01a",
+    "content/authoring/n3-condition-and-perspective.tsv": "e21b8135585e5ce66c5c64c9a983f829d1dadd115e748794c6f345f8ee9c8ea0",
+    "content/authoring/n3-condition-readings.tsv": "cfee062f8351c41b47f55b4ebfa1ac8decf0c5051e85343f11b9be3d9d8aeac1"
+  },
+  "dictionary": {
+    "sourceID": "jmdict",
+    "localDatabaseSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "bundled": false
+  },
+  "newWordRoots": 81,
+  "additionalSenses": 0,
+  "homophoneReview": [
+    {
+      "newID": "vn3k056",
+      "existingID": "vn5307",
+      "newDictionaryEntryID": 1593190,
+      "existingDictionaryEntryID": 1288810,
+      "note": "個々 each/individual and ここ here are distinct lexemes; do not merge their learning records."
+    }
+  ],
+  "wordContexts": 162,
+  "grammarFunctions": 37,
+  "grammarContexts": 222,
+  "newReferencePatterns": 22,
+  "readings": 20,
+  "assessmentReadings": 4,
+  "independentlyReviewed": 0,
+  "levelPolicy": "5 reference N4 gaps backfilled at N4; N3 prerequisites are self-authored reading order, including advanced community words. Do not reduce any N2 threshold.",
+  "entries": [
+    {
+      "id": "vn4p001",
+      "text": "もし",
+      "primaryReading": "もし",
+      "primaryEntryID": 1012500,
+      "communitySpellingLevels": [
+        "N4"
+      ]
+    },
+    {
+      "id": "vn4p002",
+      "text": "終わり",
+      "primaryReading": "おわり",
+      "primaryEntryID": 1589590,
+      "communitySpellingLevels": [
+        "N4"
+      ]
+    },
+    {
+      "id": "vn4p003",
+      "text": "そんな",
+      "primaryReading": "そんな",
+      "primaryEntryID": 1007130,
+      "communitySpellingLevels": [
+        "N4"
+      ]
+    },
+    {
+      "id": "vn4p004",
+      "text": "いっぱい",
+      "primaryReading": "いっぱい",
+      "primaryEntryID": 1165670,
+      "communitySpellingLevels": [
+        "N4"
+      ]
+    },
+    {
+      "id": "vn4p005",
+      "text": "これから",
+      "primaryReading": "これから",
+      "primaryEntryID": 1004790,
+      "communitySpellingLevels": [
+        "N4"
+      ]
+    },
+    {
+      "id": "vn3k001",
+      "text": "速度",
+      "primaryReading": "そくど",
+      "primaryEntryID": 1405050,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k002",
+      "text": "広がる",
+      "primaryReading": "ひろがる",
+      "primaryEntryID": 1602360,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k003",
+      "text": "気力",
+      "primaryReading": "きりょく",
+      "primaryEntryID": 1222690,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k004",
+      "text": "抱え込む",
+      "primaryReading": "かかえこむ",
+      "primaryEntryID": 1633980,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k005",
+      "text": "助かる",
+      "primaryReading": "たすかる",
+      "primaryEntryID": 1344380,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k006",
+      "text": "ずれる",
+      "primaryReading": "ずれる",
+      "primaryEntryID": 1006460,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k007",
+      "text": "行き届く",
+      "primaryReading": "いきとどく",
+      "primaryEntryID": 1281750,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k008",
+      "text": "詰まる",
+      "primaryReading": "つまる",
+      "primaryEntryID": 1226480,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k009",
+      "text": "巻",
+      "primaryReading": "かん",
+      "primaryEntryID": 1955950,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k010",
+      "text": "冊子",
+      "primaryReading": "さっし",
+      "primaryEntryID": 1298530,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k011",
+      "text": "載る",
+      "primaryReading": "のる",
+      "primaryEntryID": 2649690,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k012",
+      "text": "表紙",
+      "primaryReading": "ひょうし",
+      "primaryEntryID": 1489600,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k013",
+      "text": "余白",
+      "primaryReading": "よはく",
+      "primaryEntryID": 1544480,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k014",
+      "text": "語り手",
+      "primaryReading": "かたりて",
+      "primaryEntryID": 1270970,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k015",
+      "text": "履歴",
+      "primaryReading": "りれき",
+      "primaryEntryID": 1549810,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k016",
+      "text": "添付",
+      "primaryReading": "てんぷ",
+      "primaryEntryID": 1440880,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k017",
+      "text": "徒歩",
+      "primaryReading": "とほ",
+      "primaryEntryID": 1444510,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k018",
+      "text": "内部",
+      "primaryReading": "ないぶ",
+      "primaryEntryID": 1459030,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k019",
+      "text": "職員",
+      "primaryReading": "しょくいん",
+      "primaryEntryID": 1357490,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k020",
+      "text": "名簿",
+      "primaryReading": "めいぼ",
+      "primaryEntryID": 1531830,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k021",
+      "text": "様々",
+      "primaryReading": "さまざま",
+      "primaryEntryID": 1593830,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k022",
+      "text": "間違う",
+      "primaryReading": "まちがう",
+      "primaryEntryID": 1611610,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k023",
+      "text": "人気",
+      "primaryReading": "にんき",
+      "primaryEntryID": 1367010,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k024",
+      "text": "予告",
+      "primaryReading": "よこく",
+      "primaryEntryID": 1542990,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k025",
+      "text": "以前",
+      "primaryReading": "いぜん",
+      "primaryEntryID": 1155150,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k026",
+      "text": "思い返す",
+      "primaryReading": "おもいかえす",
+      "primaryEntryID": 1309400,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k027",
+      "text": "旅立つ",
+      "primaryReading": "たびだつ",
+      "primaryEntryID": 1553270,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k028",
+      "text": "短冊",
+      "primaryReading": "たんざく",
+      "primaryEntryID": 1418700,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k029",
+      "text": "災害",
+      "primaryReading": "さいがい",
+      "primaryEntryID": 1295100,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k030",
+      "text": "願い",
+      "primaryReading": "ねがい",
+      "primaryEntryID": 1217900,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k031",
+      "text": "いつか",
+      "primaryReading": "いつか",
+      "primaryEntryID": 1188790,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k032",
+      "text": "広場",
+      "primaryReading": "ひろば",
+      "primaryEntryID": 1278590,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k033",
+      "text": "地名",
+      "primaryReading": "ちめい",
+      "primaryEntryID": 1421500,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k034",
+      "text": "由来",
+      "primaryReading": "ゆらい",
+      "primaryEntryID": 1541810,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k035",
+      "text": "画像",
+      "primaryReading": "がぞう",
+      "primaryEntryID": 1197390,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k036",
+      "text": "出典",
+      "primaryReading": "しゅってん",
+      "primaryEntryID": 1339790,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k037",
+      "text": "箇所",
+      "primaryReading": "かしょ",
+      "primaryEntryID": 1590250,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k038",
+      "text": "来館",
+      "primaryReading": "らいかん",
+      "primaryEntryID": 2105990,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k039",
+      "text": "平日",
+      "primaryReading": "へいじつ",
+      "primaryEntryID": 1507720,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k040",
+      "text": "実家",
+      "primaryReading": "じっか",
+      "primaryEntryID": 1320900,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k041",
+      "text": "埋める",
+      "primaryReading": "うめる",
+      "primaryEntryID": 1524500,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k042",
+      "text": "発送",
+      "primaryReading": "はっそう",
+      "primaryEntryID": 1477670,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k043",
+      "text": "関係者",
+      "primaryReading": "かんけいしゃ",
+      "primaryEntryID": 1215850,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k044",
+      "text": "現在",
+      "primaryReading": "げんざい",
+      "primaryEntryID": 1263650,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k045",
+      "text": "新刊",
+      "primaryReading": "しんかん",
+      "primaryEntryID": 1361580,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k046",
+      "text": "書評",
+      "primaryReading": "しょひょう",
+      "primaryEntryID": 1344140,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k047",
+      "text": "保留",
+      "primaryReading": "ほりゅう",
+      "primaryEntryID": 1514030,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k048",
+      "text": "取り違える",
+      "primaryReading": "とりちがえる",
+      "primaryEntryID": 1326560,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k049",
+      "text": "伝聞",
+      "primaryReading": "でんぶん",
+      "primaryEntryID": 1442420,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k050",
+      "text": "分担",
+      "primaryReading": "ぶんたん",
+      "primaryEntryID": 1503950,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k051",
+      "text": "空間",
+      "primaryReading": "くうかん",
+      "primaryEntryID": 1245450,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k052",
+      "text": "側面",
+      "primaryReading": "そくめん",
+      "primaryEntryID": 1404040,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k053",
+      "text": "段落",
+      "primaryReading": "だんらく",
+      "primaryEntryID": 1419980,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k054",
+      "text": "共用",
+      "primaryReading": "きょうよう",
+      "primaryEntryID": 1235290,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k055",
+      "text": "出会う",
+      "primaryReading": "であう",
+      "primaryEntryID": 1598530,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k056",
+      "text": "個々",
+      "primaryReading": "ここ",
+      "primaryEntryID": 1593190,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k057",
+      "text": "日時",
+      "primaryReading": "にちじ",
+      "primaryEntryID": 1464110,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k058",
+      "text": "願う",
+      "primaryReading": "ねがう",
+      "primaryEntryID": 1217950,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k059",
+      "text": "謙遜",
+      "primaryReading": "けんそん",
+      "primaryEntryID": 1260240,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k060",
+      "text": "インタビュー",
+      "primaryReading": "いんたびゅー",
+      "primaryEntryID": 1023100,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k061",
+      "text": "聞き手",
+      "primaryReading": "ききて",
+      "primaryEntryID": 1505810,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k062",
+      "text": "称賛",
+      "primaryReading": "しょうさん",
+      "primaryEntryID": 1594920,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k063",
+      "text": "確定",
+      "primaryReading": "かくてい",
+      "primaryEntryID": 1205880,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k064",
+      "text": "鉢",
+      "primaryReading": "はち",
+      "primaryEntryID": 1477090,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k065",
+      "text": "そろう",
+      "primaryReading": "そろう",
+      "primaryEntryID": 1406110,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k066",
+      "text": "学習",
+      "primaryReading": "がくしゅう",
+      "primaryEntryID": 1206820,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k067",
+      "text": "泥",
+      "primaryReading": "どろ",
+      "primaryEntryID": 1436900,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k068",
+      "text": "配達",
+      "primaryReading": "はいたつ",
+      "primaryEntryID": 1473140,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k069",
+      "text": "店長",
+      "primaryReading": "てんちょう",
+      "primaryEntryID": 1440730,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k070",
+      "text": "編集者",
+      "primaryReading": "へんしゅうしゃ",
+      "primaryEntryID": 1512010,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k071",
+      "text": "署名",
+      "primaryReading": "しょめい",
+      "primaryEntryID": 1343640,
+      "communitySpellingLevels": [
+        "N3"
+      ]
+    },
+    {
+      "id": "vn3k072",
+      "text": "特定",
+      "primaryReading": "とくてい",
+      "primaryEntryID": 1455210,
+      "communitySpellingLevels": [
+        "N2"
+      ]
+    },
+    {
+      "id": "vn3k073",
+      "text": "再度",
+      "primaryReading": "さいど",
+      "primaryEntryID": 1293240,
+      "communitySpellingLevels": []
+    },
+    {
+      "id": "vn3k074",
+      "text": "同意",
+      "primaryReading": "どうい",
+      "primaryEntryID": 1451850,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k075",
+      "text": "刊行",
+      "primaryReading": "かんこう",
+      "primaryEntryID": 1210570,
+      "communitySpellingLevels": [
+        "N1"
+      ]
+    },
+    {
+      "id": "vn3k076",
+      "text": "前夜",
+      "primaryReading": "ぜんや",
+      "primaryEntryID": 1394100,
+      "communitySpellingLevels": []
+    }
+  ],
+  "compatibility": {
+    "baseline": "ea4669d",
+    "oldItemsPreserved": 3343,
+    "oldExercisesPreserved": 4382,
+    "oldLessonsPreserved": 541,
+    "oldIntroModulesPreserved": 6,
+    "oldOrderPreserved": true,
+    "oldSentenceTextRubyTranslationAnswersPreserved": true,
+    "newLexicalLinks": 61,
+    "sentencesWithNewLexicalLinks": 60,
+    "readingsWithLexicalChanges": [],
+    "scopeProtection": "svn5748b retains unknown for adverbial そんなに; the new adnominal そんな is not credited for this use."
+  },
+  "readingReadinessCheck": {
+    "passages": 20,
+    "minJapaneseCharacters": 428,
+    "maxJapaneseCharacters": 508,
+    "annotatedLexicalOccurrences": 2092,
+    "unlearnableAnnotatedOccurrences": 0,
+    "note": "Learnable is not mastered; runtime still requires user-specific independent meaning recall and grammar readiness."
+  },
+  "localValidation": {
+    "contentTests": 60,
+    "passed": true,
+    "iosCI": "pending",
+    "physicalIOS155and166": "pending"
+  }
+}

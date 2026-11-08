@@ -1,0 +1,864 @@
+{
+  "items": [
+    {
+      "id": "vn4p001",
+      "kind": "word",
+      "level": "N4",
+      "text": "もし",
+      "reading": "もし",
+      "romaji": "moshi",
+      "meaning": "如果、假如；提示后面是在设定条件",
+      "explanation": "本单元义项：如果、假如；提示后面是在设定条件。通过两个不同语境辨认；其他义项须结合上下文。\nもし提示假设，后项常与たら、なら、ば等条件形式配合；本词本身不能证明条件已经满足。招呼人的もし、もしもし等其他用法另辨。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "副词",
+      "sense": "如果、假如；提示后面是在设定条件",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p001；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4p001a",
+        "svn4p001b"
+      ],
+      "order": 2000
+    },
+    {
+      "id": "vn4p002",
+      "kind": "word",
+      "level": "N4",
+      "text": "終わり",
+      "reading": "おわり",
+      "romaji": "owari",
+      "meaning": "结尾、终了；事情或时段最后的部分",
+      "explanation": "本单元义项：结尾、终了；事情或时段最后的部分。通过两个不同语境辨认；其他义项须结合上下文。\n本组训练名词：事情、时段的结尾或结束部分；与动词終わる的词形和句中角色分别辨认，不把所有复合动词词尾另造词汇目标。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "结尾、终了；事情或时段最后的部分",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p002；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4p002a",
+        "svn4p002b"
+      ],
+      "order": 2001
+    },
+    {
+      "id": "vn4p003",
+      "kind": "word",
+      "level": "N4",
+      "text": "そんな",
+      "reading": "そんな",
+      "romaji": "sonna",
+      "meaning": "那样的；修饰名词，承接前述或对方所说的性质、情况",
+      "explanation": "本单元义项：那样的；修饰名词，承接前述或对方所说的性质、情况。通过两个不同语境辨认；其他义项须结合上下文。\nそんな通常修饰后续名词，指那样的性质、情况；不是每次都等于その所指的特定对象。独立感叹的そんな，以及副词そんなに的具体作用须结合句法另辨。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "连体词",
+      "sense": "那样的；修饰名词，承接前述或对方所说的性质、情况",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p003；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4p003a",
+        "svn4p003b"
+      ],
+      "order": 2002
+    },
+    {
+      "id": "vn4p004",
+      "kind": "word",
+      "level": "N4",
+      "text": "いっぱい",
+      "reading": "いっぱい",
+      "romaji": "ippai",
+      "meaning": "满满的；空间、容量等已充满的状态",
+      "explanation": "本单元义项：满满的；空间、容量等已充满的状态。通过两个不同语境辨认；其他义项须结合上下文。\n本组只训练充满、满座等状态，不把一杯饮料、计数船只的用法，或一敗的一次失败混为同一义项。完整的いっぱいいっぱい等表达另辨。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "な形容词／副词",
+      "sense": "满满的；空间、容量等已充满的状态",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p004；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4p004a",
+        "svn4p004b"
+      ],
+      "order": 2003,
+      "readingCue": "空间、容量已经充满"
+    },
+    {
+      "id": "vn4p005",
+      "kind": "word",
+      "level": "N4",
+      "text": "これから",
+      "reading": "これから",
+      "romaji": "korekara",
+      "meaning": "从现在起、今后；以当前或所说时点为起点的后续时间",
+      "explanation": "本单元义项：从现在起、今后；以当前或所说时点为起点的后续时间。通过两个不同语境辨认；其他义项须结合上下文。\n本组训练时间上的从现在起、今后；空间上的从这里起须根据上下文另辨，不能每次都只按时间理解。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "副词",
+      "sense": "从现在起、今后；以当前或所说时点为起点的后续时间",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p005；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4p005a",
+        "svn4p005b"
+      ],
+      "order": 2004,
+      "readingCue": "以当前为起点的后续时间"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4p001a",
+      "segments": [
+        {
+          "text": "もし",
+          "reading": "もし",
+          "itemID": "vn4p001"
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6191"
+        },
+        {
+          "text": "わったら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "してください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "如果日程变了，请先联系。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p001b",
+      "segments": [
+        {
+          "text": "もし",
+          "reading": "もし",
+          "itemID": "vn4p001"
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "めるなら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "海辺",
+          "reading": "うみべ",
+          "itemID": "vn3i017"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "きたいです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "假如明天能休息，想去海边走走。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p002a",
+      "segments": [
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終わり",
+          "reading": "おわり",
+          "itemID": "vn4p002"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "讲述的最后留有提问时间。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p002b",
+      "segments": [
+        {
+          "text": "夏",
+          "reading": "なつ",
+          "itemID": "v0257"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終わり",
+          "reading": "おわり",
+          "itemID": "vn4p002"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "旅行",
+          "reading": "りょこう",
+          "itemID": "v0110"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "夏天末尾，和家人一起旅行了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p003a",
+      "segments": [
+        {
+          "text": "そんな",
+          "reading": "そんな",
+          "itemID": "vn4p003"
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "那样的说法，我现在还是第一次听到。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p003b",
+      "segments": [
+        {
+          "text": "そんな",
+          "reading": "そんな",
+          "itemID": "vn4p003"
+        },
+        {
+          "text": "遠",
+          "reading": "とお",
+          "itemID": "v0152"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": "vn5524"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行",
+          "reading": "い",
+          "itemID": "v0030"
+        },
+        {
+          "text": "ったのですか。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "你是一个人去了那么远的地方吗？",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p004a",
+      "segments": [
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "いっぱい",
+          "reading": "いっぱい",
+          "itemID": "vn4p004"
+        },
+        {
+          "text": "になりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "盒子装满了书。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p004b",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "いっぱい",
+          "reading": "いっぱい",
+          "itemID": "vn4p004"
+        },
+        {
+          "text": "だったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店里满座了，因此等了一会儿。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p005a",
+      "segments": [
+        {
+          "text": "これから",
+          "reading": "これから",
+          "itemID": "vn4p005"
+        },
+        {
+          "text": "夕飯",
+          "reading": "ゆうはん",
+          "itemID": "vn5725"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作",
+          "reading": "つく",
+          "itemID": "v0068"
+        },
+        {
+          "text": "ります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "现在起要做晚饭。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4p005b",
+      "segments": [
+        {
+          "text": "これから",
+          "reading": "これから",
+          "itemID": "vn4p005"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一緒",
+          "reading": "いっしょ",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう",
+          "itemID": "v0077"
+        },
+        {
+          "text": "しましょう。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今后也一起学习吧。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4p001a",
+      "targetID": "vn4p001",
+      "sentenceID": "svn4p001b",
+      "skill": "meaning",
+      "prompt": "句中「もし」表示什么？",
+      "choices": [
+        "如果、假如；提示后面是在设定条件",
+        "已经核实事件确实完成",
+        "随后动作必定先于所有条件"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「如果、假如；提示后面是在设定条件」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "もし",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "もし",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4p002a",
+      "targetID": "vn4p002",
+      "sentenceID": "svn4p002b",
+      "skill": "meaning",
+      "prompt": "句中「終わり」表示什么？",
+      "choices": [
+        "结尾、终了；事情或时段最后的部分",
+        "事情刚开始的部分",
+        "尚未发生的所有可能条件"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「结尾、终了；事情或时段最后的部分」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "おわり",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "終わり",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4p003a",
+      "targetID": "vn4p003",
+      "sentenceID": "svn4p003b",
+      "skill": "meaning",
+      "prompt": "句中「そんな」表示什么？",
+      "choices": [
+        "这个已指明对象的精确计数",
+        "无论何时都只能表示现在的位置",
+        "那样的；修饰名词，承接前述或对方所说的性质、情况"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「那样的；修饰名词，承接前述或对方所说的性质、情况」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "そんな",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "そんな",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4p004a",
+      "targetID": "vn4p004",
+      "sentenceID": "svn4p004b",
+      "skill": "meaning",
+      "prompt": "句中「いっぱい」表示什么？",
+      "choices": [
+        "数量总是精确地只有一件",
+        "满满的；空间、容量等已充满的状态",
+        "容器里一点东西也没有"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「满满的；空间、容量等已充满的状态」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "いっぱい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "いっぱい",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4p005a",
+      "targetID": "vn4p005",
+      "sentenceID": "svn4p005b",
+      "skill": "meaning",
+      "prompt": "句中「これから」表示什么？",
+      "choices": [
+        "只表示现在站立的这块地面",
+        "从现在起、今后；以当前或所说时点为起点的后续时间",
+        "在此时点之前已经结束的过去"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「从现在起、今后；以当前或所说时点为起点的后续时间」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "これから",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "これから",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4p005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4p01",
+      "title": "条件提示与前文承接",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4p001",
+        "vn4p002",
+        "vn4p003",
+        "vn4p004",
+        "vn4p005"
+      ],
+      "sentenceIDs": [
+        "svn4p001a",
+        "svn4p001b",
+        "svn4p002a",
+        "svn4p002b",
+        "svn4p003a",
+        "svn4p003b",
+        "svn4p004a",
+        "svn4p004b",
+        "svn4p005a",
+        "svn4p005b"
+      ],
+      "exerciseIDs": [
+        "evn4p001a",
+        "evn4p002a",
+        "evn4p003a",
+        "evn4p004a",
+        "evn4p005a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

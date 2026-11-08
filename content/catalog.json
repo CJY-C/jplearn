@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -173,6 +173,30 @@
       "title": "国際交流基金：日本語でケアナビ",
       "url": "https://eng.nihongodecarenavi.jp/",
       "attribution": "国際交流基金；仅核对词形与用法，具体词条随单元注明，不复制例句。"
+    },
+    {
+      "id": "okayamawari",
+      "title": "楊文華：現代日本語における「わりに（は）」の用法について",
+      "url": "https://ousar.lib.okayama-u.ac.jp/files/public/7/70024/20260209133420239241/hss_060_129.pdf",
+      "attribution": "岡山大学大学院社会文化科学研究科紀要第60号，2025年12月，第129页起；仅核对预期落差与对比的功能区别，不复制论文语料、小说引文或题目。"
+    },
+    {
+      "id": "jfpmarugotoa2",
+      "title": "国際交流基金：まるごと 初級2 かつどう 教え方のポイント",
+      "url": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/elementary2_a/elementary2_activities_teachers_notes.pdf",
+      "attribution": "The Japan Foundation，2014，第10课；仅核对祝愿语的ます／ませんように形式，不复制教材例句或正文。"
+    },
+    {
+      "id": "daijisenkke",
+      "title": "小学館デジタル大辞泉：たっけ的回想与记忆核对",
+      "url": "https://kotobank.jp/word/%E3%81%9F%E3%81%A4%E3%81%91-3213687",
+      "attribution": "小学館，コトバンク许可公开词条；仅核对回想、确认两类用法，不复制词典例句或历史引文。"
+    },
+    {
+      "id": "ohanan4",
+      "title": "OHANA BLOOM：N4 英语版日语语法教材第二册（公开PDF）",
+      "url": "https://ohanaonline.jp/wp-content/uploads/2024/09/n4_en_ohanabloom-2.pdf",
+      "attribution": "原作者学校网站公开教材；仅核对愿望表达与建议表达，未复制正文、练习或例句。未以PDF修改日期冒充出版日期。"
     }
   ],
   "stages": [

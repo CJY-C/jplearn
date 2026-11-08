@@ -524,6 +524,56 @@ class CurriculumDeliveryTests(unittest.TestCase):
             _, occurrences = markup_sentence(markup, lookup)
             self.assertIsNone(occurrences[0]["itemID"], markup)
 
+    def test_condition_chapter_keeps_functions_readiness_and_fresh_assessments_separate(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"]
+                    if r["id"] in {f"rn{n}" for n in range(3091, 3111)}}
+        self.assertEqual(len(readings), 20)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"},
+                         {f"rn{n}" for n in range(3107, 3111)})
+        for r in readings.values():
+            self.assertEqual(len(r["paragraphs"]), 2)
+            self.assertEqual(len(r["sentenceIDs"]), 6)
+            self.assertEqual(len(r["questions"]), 2)
+            self.assertGreaterEqual(sum(len("".join(x["text"] for x in sentences[sid]["segments"]))
+                                        for sid in r["sentenceIDs"]), 350)
+            self.assertTrue(all(w["itemID"] in items for w in r["vocabulary"]), r["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in r["vocabulary"]))
+        for n in range(1, 38):
+            gid = f"gn3a{n:03d}"
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            r = readings[lesson["readingID"]]
+            self.assertEqual(r["purpose"], "practice")
+            self.assertIn(gid, r["grammarIDs"])
+        for pattern, numbers in [("ni-shite-mo", [9, 10, 29, 30]),
+                                 ("tatte-datte", [12, 31, 34]),
+                                 ("wari-ni-wari-ni-wa", [18, 19, 33]),
+                                 ("nanka-nante", [26, 27, 28, 37, 32]),
+                                 ("kke", [22, 35]), ("masu-you-ni", [23, 36])]:
+            self.assertEqual(self.syllabus["grammarCoverage"]["N3:" + pattern]["itemIDs"],
+                             [f"gn3a{n:03d}" for n in numbers])
+        for sid, wid in [("rn3094sa", "vn4o008"), ("rn3095sc", "vn4o003"),
+                         ("rn3097sc", "vn4j019"), ("rn3102sb", "vn5s002"),
+                         ("rn3104sd", "v0323"), ("rn3106sd", "vn3i084")]:
+            self.assertIn(wid, [s["itemID"] for s in sentences[sid]["segments"]], sid)
+
+    def test_condition_prerequisites_do_not_merge_homophones_or_untaught_readings(self):
+        lookup = word_lookup(self.pack["items"])
+        for markup, wid in [("[行き届く|ゆきとどく]", "vn3k007"), ("[巻|まき]", "vn3k009"),
+                            ("[徒歩|かち]", "vn3k017"), ("[短冊|たんじゃく]", "vn3k028"),
+                            ("[平日|ひらび]", "vn3k039"), ("[配達|はいだつ]", "vn3k068")]:
+            _, occurrences = markup_sentence(markup, lookup)
+            self.assertEqual(occurrences[0]["itemID"], wid, markup)
+        for markup in ["[人気|ひとけ]", "[人気|じんき]", "[様々|さまさま]", "[名簿|みょうぶ]",
+                       "[冊子|そうし]", "[埋める|うずめる]", "[空間|あきま]"]:
+            _, occurrences = markup_sentence(markup, lookup)
+            self.assertIsNone(occurrences[0]["itemID"], markup)
+        _, occurrences = markup_sentence("[個々|ここ]と[ここ|ここ]。[いつか|いつか]。", lookup)
+        self.assertEqual([w["itemID"] for w in occurrences], ["vn3k056", "vn5307", "vn3k031"])
+        sentence = next(s for s in self.pack["sentences"] if s["id"] == "svn5748b")
+        self.assertIsNone(next(s["itemID"] for s in sentence["segments"] if s["text"] == "そんな"))
+
     def test_receive_senses_and_untaught_physical_senses_stay_separate(self):
         items = {i["id"]: i for i in self.pack["items"]}
         sentences = {s["id"]: s for s in self.pack["sentences"]}

@@ -49,6 +49,10 @@
     {"kind": "word", "source": "n3-relations-reading-prerequisites.tsv", "batch": "046-n3-relations-reading-prerequisites.json"},
     {"kind": "grammar", "source": "n3-relations-and-causes.tsv", "batch": "047-n3-relations-and-causes.json"},
     {"kind": "reading", "source": "n3-relations-and-causes-readings.tsv", "batch": "048-n3-relations-and-causes-readings.json"},
-    {"kind": "word", "source": "n3-condition-and-perspective-words.tsv", "batch": "049-n3-condition-and-perspective-words.json"}
+    {"kind": "word", "source": "n3-condition-and-perspective-words.tsv", "batch": "049-n3-condition-and-perspective-words.json"},
+    {"kind": "word", "source": "n4-condition-prerequisites.tsv", "batch": "050-n4-condition-prerequisites.json"},
+    {"kind": "word", "source": "n3-condition-prerequisites.tsv", "batch": "051-n3-condition-prerequisites.json"},
+    {"kind": "grammar", "source": "n3-condition-and-perspective.tsv", "batch": "052-n3-condition-and-perspective.json"},
+    {"kind": "reading", "source": "n3-condition-readings.tsv", "batch": "053-n3-condition-readings.json"}
   ]
 }
