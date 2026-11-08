@@ -48,6 +48,7 @@
     {"kind": "word", "source": "n3-relations-and-causes-words.tsv", "batch": "045-n3-relations-and-causes-words.json"},
     {"kind": "word", "source": "n3-relations-reading-prerequisites.tsv", "batch": "046-n3-relations-reading-prerequisites.json"},
     {"kind": "grammar", "source": "n3-relations-and-causes.tsv", "batch": "047-n3-relations-and-causes.json"},
-    {"kind": "reading", "source": "n3-relations-and-causes-readings.tsv", "batch": "048-n3-relations-and-causes-readings.json"}
+    {"kind": "reading", "source": "n3-relations-and-causes-readings.tsv", "batch": "048-n3-relations-and-causes-readings.json"},
+    {"kind": "word", "source": "n3-condition-and-perspective-words.tsv", "batch": "049-n3-condition-and-perspective-words.json"}
   ]
 }

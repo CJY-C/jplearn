@@ -1,0 +1,1754 @@
+{
+  "status": "source facts checked; not independent language review",
+  "baseline": "ea4669d45ac4597148a24113c63eeca0af88f7d8",
+  "manuscript": "content/authoring/n3-condition-and-perspective-words.tsv",
+  "manuscriptSHA256": "d99c300b6c4ca465346240bcc68058968110ff2bf7887c25837b574e9d19df56",
+  "dictionary": {
+    "sourceID": "jmdict",
+    "localDatabaseSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "bundled": false
+  },
+  "newWordRoots": 200,
+  "additionalSenses": 0,
+  "originalContexts": 400,
+  "independentlyReviewed": 0,
+  "entries": [
+    {
+      "id": "vn3j001",
+      "text": "おそらく",
+      "primaryReading": "おそらく",
+      "primaryEntryIDs": [
+        1236650
+      ]
+    },
+    {
+      "id": "vn3j002",
+      "text": "まさか",
+      "primaryReading": "まさか",
+      "primaryEntryIDs": [
+        1363540
+      ]
+    },
+    {
+      "id": "vn3j003",
+      "text": "まさに",
+      "primaryReading": "まさに",
+      "primaryEntryIDs": [
+        1376640
+      ]
+    },
+    {
+      "id": "vn3j004",
+      "text": "万一",
+      "primaryReading": "まんいち",
+      "primaryEntryIDs": [
+        1525780
+      ]
+    },
+    {
+      "id": "vn3j005",
+      "text": "予期",
+      "primaryReading": "よき",
+      "primaryEntryIDs": [
+        1542920
+      ]
+    },
+    {
+      "id": "vn3j006",
+      "text": "見当",
+      "primaryReading": "けんとう",
+      "primaryEntryIDs": [
+        1259930
+      ]
+    },
+    {
+      "id": "vn3j007",
+      "text": "勘",
+      "primaryReading": "かん",
+      "primaryEntryIDs": [
+        1210590
+      ]
+    },
+    {
+      "id": "vn3j008",
+      "text": "たまたま",
+      "primaryReading": "たまたま",
+      "primaryEntryIDs": [
+        1597180
+      ]
+    },
+    {
+      "id": "vn3j009",
+      "text": "必ずしも",
+      "primaryReading": "かならずしも",
+      "primaryEntryIDs": [
+        1487410
+      ]
+    },
+    {
+      "id": "vn3j010",
+      "text": "かなり",
+      "primaryReading": "かなり",
+      "primaryEntryIDs": [
+        1590560
+      ]
+    },
+    {
+      "id": "vn3j011",
+      "text": "大いに",
+      "primaryReading": "おおいに",
+      "primaryEntryIDs": [
+        1412880
+      ]
+    },
+    {
+      "id": "vn3j012",
+      "text": "やや",
+      "primaryReading": "やや",
+      "primaryEntryIDs": [
+        1570120
+      ]
+    },
+    {
+      "id": "vn3j013",
+      "text": "僅か",
+      "primaryReading": "わずか",
+      "primaryEntryIDs": [
+        1240750
+      ]
+    },
+    {
+      "id": "vn3j014",
+      "text": "ほぼ",
+      "primaryReading": "ほぼ",
+      "primaryEntryIDs": [
+        1551940
+      ]
+    },
+    {
+      "id": "vn3j015",
+      "text": "およそ",
+      "primaryReading": "およそ",
+      "primaryEntryIDs": [
+        1523450
+      ]
+    },
+    {
+      "id": "vn3j016",
+      "text": "ざっと",
+      "primaryReading": "ざっと",
+      "primaryEntryIDs": [
+        1005390
+      ]
+    },
+    {
+      "id": "vn3j017",
+      "text": "しかも",
+      "primaryReading": "しかも",
+      "primaryEntryIDs": [
+        1506050
+      ]
+    },
+    {
+      "id": "vn3j018",
+      "text": "更に",
+      "primaryReading": "さらに",
+      "primaryEntryIDs": [
+        1279310
+      ]
+    },
+    {
+      "id": "vn3j019",
+      "text": "あるいは",
+      "primaryReading": "あるいは",
+      "primaryEntryIDs": [
+        1586850
+      ]
+    },
+    {
+      "id": "vn3j020",
+      "text": "それとも",
+      "primaryReading": "それとも",
+      "primaryEntryIDs": [
+        1007010
+      ]
+    },
+    {
+      "id": "vn3j021",
+      "text": "寧ろ",
+      "primaryReading": "むしろ",
+      "primaryEntryIDs": [
+        1604870
+      ]
+    },
+    {
+      "id": "vn3j022",
+      "text": "すなわち",
+      "primaryReading": "すなわち",
+      "primaryEntryIDs": [
+        1404100
+      ]
+    },
+    {
+      "id": "vn3j023",
+      "text": "なぜなら",
+      "primaryReading": "なぜなら",
+      "primaryEntryIDs": [
+        1009410
+      ]
+    },
+    {
+      "id": "vn3j024",
+      "text": "ところで",
+      "primaryReading": "ところで",
+      "primaryEntryIDs": [
+        1343110
+      ]
+    },
+    {
+      "id": "vn3j025",
+      "text": "わざと",
+      "primaryReading": "わざと",
+      "primaryEntryIDs": [
+        1410760
+      ]
+    },
+    {
+      "id": "vn3j026",
+      "text": "どうしても",
+      "primaryReading": "どうしても",
+      "primaryEntryIDs": [
+        1466950
+      ]
+    },
+    {
+      "id": "vn3j027",
+      "text": "とにかく",
+      "primaryReading": "とにかく",
+      "primaryEntryIDs": [
+        1443990
+      ]
+    },
+    {
+      "id": "vn3j028",
+      "text": "全く",
+      "primaryReading": "まったく",
+      "primaryEntryIDs": [
+        1394800
+      ]
+    },
+    {
+      "id": "vn3j029",
+      "text": "別に",
+      "primaryReading": "べつに",
+      "primaryEntryIDs": [
+        1509480
+      ]
+    },
+    {
+      "id": "vn3j030",
+      "text": "たとえ",
+      "primaryReading": "たとえ",
+      "primaryEntryIDs": [
+        1597125
+      ]
+    },
+    {
+      "id": "vn3j031",
+      "text": "単に",
+      "primaryReading": "たんに",
+      "primaryEntryIDs": [
+        1417030
+      ]
+    },
+    {
+      "id": "vn3j032",
+      "text": "単なる",
+      "primaryReading": "たんなる",
+      "primaryEntryIDs": [
+        1417020
+      ]
+    },
+    {
+      "id": "vn3j033",
+      "text": "いらいら",
+      "primaryReading": "いらいら",
+      "primaryEntryIDs": [
+        1587700
+      ]
+    },
+    {
+      "id": "vn3j034",
+      "text": "がっかり",
+      "primaryReading": "がっかり",
+      "primaryEntryIDs": [
+        1003170
+      ]
+    },
+    {
+      "id": "vn3j035",
+      "text": "失望",
+      "primaryReading": "しつぼう",
+      "primaryEntryIDs": [
+        1320170
+      ]
+    },
+    {
+      "id": "vn3j036",
+      "text": "びっくり",
+      "primaryReading": "びっくり",
+      "primaryEntryIDs": [
+        1226360
+      ]
+    },
+    {
+      "id": "vn3j037",
+      "text": "微笑む",
+      "primaryReading": "ほほえむ",
+      "primaryEntryIDs": [
+        1486030
+      ]
+    },
+    {
+      "id": "vn3j038",
+      "text": "にっこり",
+      "primaryReading": "にっこり",
+      "primaryEntryIDs": [
+        1632320
+      ]
+    },
+    {
+      "id": "vn3j039",
+      "text": "恐れる",
+      "primaryReading": "おそれる",
+      "primaryEntryIDs": [
+        1589200
+      ]
+    },
+    {
+      "id": "vn3j040",
+      "text": "哀れ",
+      "primaryReading": "あわれ",
+      "primaryEntryIDs": [
+        1150110
+      ]
+    },
+    {
+      "id": "vn3j041",
+      "text": "愛",
+      "primaryReading": "あい",
+      "primaryEntryIDs": [
+        1150410
+      ]
+    },
+    {
+      "id": "vn3j042",
+      "text": "好む",
+      "primaryReading": "このむ",
+      "primaryEntryIDs": [
+        1277520
+      ]
+    },
+    {
+      "id": "vn3j043",
+      "text": "恩",
+      "primaryReading": "おん",
+      "primaryEntryIDs": [
+        1183090
+      ]
+    },
+    {
+      "id": "vn3j044",
+      "text": "誇り",
+      "primaryReading": "ほこり",
+      "primaryEntryIDs": [
+        1267740
+      ]
+    },
+    {
+      "id": "vn3j045",
+      "text": "自慢",
+      "primaryReading": "じまん",
+      "primaryEntryIDs": [
+        1318680
+      ]
+    },
+    {
+      "id": "vn3j046",
+      "text": "無視",
+      "primaryReading": "むし",
+      "primaryEntryIDs": [
+        1530020
+      ]
+    },
+    {
+      "id": "vn3j047",
+      "text": "いたずら",
+      "primaryReading": "いたずら",
+      "primaryEntryIDs": [
+        1151580
+      ]
+    },
+    {
+      "id": "vn3j048",
+      "text": "悪口",
+      "primaryReading": "わるぐち",
+      "primaryEntryIDs": [
+        1575730
+      ]
+    },
+    {
+      "id": "vn3j049",
+      "text": "世間",
+      "primaryReading": "せけん",
+      "primaryEntryIDs": [
+        1373970
+      ]
+    },
+    {
+      "id": "vn3j050",
+      "text": "世の中",
+      "primaryReading": "よのなか",
+      "primaryEntryIDs": [
+        1373850
+      ]
+    },
+    {
+      "id": "vn3j051",
+      "text": "我々",
+      "primaryReading": "われわれ",
+      "primaryEntryIDs": [
+        1607050
+      ]
+    },
+    {
+      "id": "vn3j052",
+      "text": "人生",
+      "primaryReading": "じんせい",
+      "primaryEntryIDs": [
+        1368370
+      ]
+    },
+    {
+      "id": "vn3j053",
+      "text": "過去",
+      "primaryReading": "かこ",
+      "primaryEntryIDs": [
+        1196030
+      ]
+    },
+    {
+      "id": "vn3j054",
+      "text": "未来",
+      "primaryReading": "みらい",
+      "primaryEntryIDs": [
+        1528060
+      ]
+    },
+    {
+      "id": "vn3j055",
+      "text": "命",
+      "primaryReading": "いのち",
+      "primaryEntryIDs": [
+        1531940
+      ]
+    },
+    {
+      "id": "vn3j056",
+      "text": "永遠",
+      "primaryReading": "えいえん",
+      "primaryEntryIDs": [
+        1174070
+      ]
+    },
+    {
+      "id": "vn3j057",
+      "text": "引用",
+      "primaryReading": "いんよう",
+      "primaryEntryIDs": [
+        1169660
+      ]
+    },
+    {
+      "id": "vn3j058",
+      "text": "論じる",
+      "primaryReading": "ろんじる",
+      "primaryEntryIDs": [
+        1561620
+      ]
+    },
+    {
+      "id": "vn3j059",
+      "text": "論争",
+      "primaryReading": "ろんそう",
+      "primaryEntryIDs": [
+        1561760
+      ]
+    },
+    {
+      "id": "vn3j060",
+      "text": "論文",
+      "primaryReading": "ろんぶん",
+      "primaryEntryIDs": [
+        1561840
+      ]
+    },
+    {
+      "id": "vn3j061",
+      "text": "批判",
+      "primaryReading": "ひはん",
+      "primaryEntryIDs": [
+        1483420
+      ]
+    },
+    {
+      "id": "vn3j062",
+      "text": "批評",
+      "primaryReading": "ひひょう",
+      "primaryEntryIDs": [
+        1483440
+      ]
+    },
+    {
+      "id": "vn3j063",
+      "text": "話題",
+      "primaryReading": "わだい",
+      "primaryEntryIDs": [
+        1562400
+      ]
+    },
+    {
+      "id": "vn3j064",
+      "text": "連想",
+      "primaryReading": "れんそう",
+      "primaryEntryIDs": [
+        1559600
+      ]
+    },
+    {
+      "id": "vn3j065",
+      "text": "おしゃべり",
+      "primaryReading": "おしゃべり",
+      "primaryEntryIDs": [
+        1002450
+      ]
+    },
+    {
+      "id": "vn3j066",
+      "text": "しゃべる",
+      "primaryReading": "しゃべる",
+      "primaryEntryIDs": [
+        1427510
+      ]
+    },
+    {
+      "id": "vn3j067",
+      "text": "叫ぶ",
+      "primaryReading": "さけぶ",
+      "primaryEntryIDs": [
+        1235910
+      ]
+    },
+    {
+      "id": "vn3j068",
+      "text": "演説",
+      "primaryReading": "えんぜつ",
+      "primaryEntryIDs": [
+        1176960
+      ]
+    },
+    {
+      "id": "vn3j069",
+      "text": "スピーチ",
+      "primaryReading": "すぴーち",
+      "primaryEntryIDs": [
+        1072260
+      ]
+    },
+    {
+      "id": "vn3j070",
+      "text": "語学",
+      "primaryReading": "ごがく",
+      "primaryEntryIDs": [
+        1271010
+      ]
+    },
+    {
+      "id": "vn3j071",
+      "text": "国語",
+      "primaryReading": "こくご",
+      "primaryEntryIDs": [
+        1286370
+      ]
+    },
+    {
+      "id": "vn3j072",
+      "text": "諺",
+      "primaryReading": "ことわざ",
+      "primaryEntryIDs": [
+        1264600
+      ]
+    },
+    {
+      "id": "vn3j073",
+      "text": "特徴",
+      "primaryReading": "とくちょう",
+      "primaryEntryIDs": [
+        1455170
+      ]
+    },
+    {
+      "id": "vn3j074",
+      "text": "独特",
+      "primaryReading": "どくとく",
+      "primaryEntryIDs": [
+        1456010
+      ]
+    },
+    {
+      "id": "vn3j075",
+      "text": "微妙",
+      "primaryReading": "びみょう",
+      "primaryEntryIDs": [
+        1486170
+      ]
+    },
+    {
+      "id": "vn3j076",
+      "text": "妙",
+      "primaryReading": "みょう",
+      "primaryEntryIDs": [
+        1528490
+      ]
+    },
+    {
+      "id": "vn3j077",
+      "text": "差",
+      "primaryReading": "さ",
+      "primaryEntryIDs": [
+        1291070
+      ]
+    },
+    {
+      "id": "vn3j078",
+      "text": "公平",
+      "primaryReading": "こうへい",
+      "primaryEntryIDs": [
+        1274640
+      ]
+    },
+    {
+      "id": "vn3j079",
+      "text": "有利",
+      "primaryReading": "ゆうり",
+      "primaryEntryIDs": [
+        1605720
+      ]
+    },
+    {
+      "id": "vn3j080",
+      "text": "不利",
+      "primaryReading": "ふり",
+      "primaryEntryIDs": [
+        1495220
+      ]
+    },
+    {
+      "id": "vn3j081",
+      "text": "才能",
+      "primaryReading": "さいのう",
+      "primaryEntryIDs": [
+        1294630
+      ]
+    },
+    {
+      "id": "vn3j082",
+      "text": "優れる",
+      "primaryReading": "すぐれる",
+      "primaryEntryIDs": [
+        1539080
+      ]
+    },
+    {
+      "id": "vn3j083",
+      "text": "幸運",
+      "primaryReading": "こううん",
+      "primaryEntryIDs": [
+        1592930
+      ]
+    },
+    {
+      "id": "vn3j084",
+      "text": "幸せ",
+      "primaryReading": "しあわせ",
+      "primaryEntryIDs": [
+        1594060
+      ]
+    },
+    {
+      "id": "vn3j085",
+      "text": "豊か",
+      "primaryReading": "ゆたか",
+      "primaryEntryIDs": [
+        1518130
+      ]
+    },
+    {
+      "id": "vn3j086",
+      "text": "貧しい",
+      "primaryReading": "まずしい",
+      "primaryEntryIDs": [
+        1490740
+      ]
+    },
+    {
+      "id": "vn3j087",
+      "text": "本物",
+      "primaryReading": "ほんもの",
+      "primaryEntryIDs": [
+        1523180
+      ]
+    },
+    {
+      "id": "vn3j088",
+      "text": "魅力",
+      "primaryReading": "みりょく",
+      "primaryEntryIDs": [
+        1528150
+      ]
+    },
+    {
+      "id": "vn3j089",
+      "text": "勢い",
+      "primaryReading": "いきおい",
+      "primaryEntryIDs": [
+        1375040
+      ]
+    },
+    {
+      "id": "vn3j090",
+      "text": "刺激",
+      "primaryReading": "しげき",
+      "primaryEntryIDs": [
+        1594190
+      ]
+    },
+    {
+      "id": "vn3j091",
+      "text": "急激",
+      "primaryReading": "きゅうげき",
+      "primaryEntryIDs": [
+        1228680
+      ]
+    },
+    {
+      "id": "vn3j092",
+      "text": "急速",
+      "primaryReading": "きゅうそく",
+      "primaryEntryIDs": [
+        1228890
+      ]
+    },
+    {
+      "id": "vn3j093",
+      "text": "強力",
+      "primaryReading": "きょうりょく",
+      "primaryEntryIDs": [
+        1236600
+      ]
+    },
+    {
+      "id": "vn3j094",
+      "text": "巨大",
+      "primaryReading": "きょだい",
+      "primaryEntryIDs": [
+        1232180
+      ]
+    },
+    {
+      "id": "vn3j095",
+      "text": "衝突",
+      "primaryReading": "しょうとつ",
+      "primaryEntryIDs": [
+        1351560
+      ]
+    },
+    {
+      "id": "vn3j096",
+      "text": "逆",
+      "primaryReading": "ぎゃく",
+      "primaryEntryIDs": [
+        1226960
+      ]
+    },
+    {
+      "id": "vn3j097",
+      "text": "混乱",
+      "primaryReading": "こんらん",
+      "primaryEntryIDs": [
+        1290560
+      ]
+    },
+    {
+      "id": "vn3j098",
+      "text": "混雑",
+      "primaryReading": "こんざつ",
+      "primaryEntryIDs": [
+        1290390
+      ]
+    },
+    {
+      "id": "vn3j099",
+      "text": "渋滞",
+      "primaryReading": "じゅうたい",
+      "primaryEntryIDs": [
+        1335570
+      ]
+    },
+    {
+      "id": "vn3j100",
+      "text": "火災",
+      "primaryReading": "かさい",
+      "primaryEntryIDs": [
+        1193880
+      ]
+    },
+    {
+      "id": "vn3j101",
+      "text": "爆発",
+      "primaryReading": "ばくはつ",
+      "primaryEntryIDs": [
+        1475910
+      ]
+    },
+    {
+      "id": "vn3j102",
+      "text": "強盗",
+      "primaryReading": "ごうとう",
+      "primaryEntryIDs": [
+        1236500
+      ]
+    },
+    {
+      "id": "vn3j103",
+      "text": "刑事",
+      "primaryReading": "けいじ",
+      "primaryEntryIDs": [
+        1249660
+      ]
+    },
+    {
+      "id": "vn3j104",
+      "text": "罪",
+      "primaryReading": "つみ",
+      "primaryEntryIDs": [
+        1296680
+      ]
+    },
+    {
+      "id": "vn3j105",
+      "text": "会員",
+      "primaryReading": "かいいん",
+      "primaryEntryIDs": [
+        1198230
+      ]
+    },
+    {
+      "id": "vn3j106",
+      "text": "会合",
+      "primaryReading": "かいごう",
+      "primaryEntryIDs": [
+        1198530
+      ]
+    },
+    {
+      "id": "vn3j107",
+      "text": "助手",
+      "primaryReading": "じょしゅ",
+      "primaryEntryIDs": [
+        1344650
+      ]
+    },
+    {
+      "id": "vn3j108",
+      "text": "教授",
+      "primaryReading": "きょうじゅ",
+      "primaryEntryIDs": [
+        1237160
+      ]
+    },
+    {
+      "id": "vn3j109",
+      "text": "監督",
+      "primaryReading": "かんとく",
+      "primaryEntryIDs": [
+        1213720
+      ]
+    },
+    {
+      "id": "vn3j110",
+      "text": "主義",
+      "primaryReading": "しゅぎ",
+      "primaryEntryIDs": [
+        1325260
+      ]
+    },
+    {
+      "id": "vn3j111",
+      "text": "重視",
+      "primaryReading": "じゅうし",
+      "primaryEntryIDs": [
+        1336260
+      ]
+    },
+    {
+      "id": "vn3j112",
+      "text": "考慮",
+      "primaryReading": "こうりょ",
+      "primaryEntryIDs": [
+        1281170
+      ]
+    },
+    {
+      "id": "vn3j113",
+      "text": "活用",
+      "primaryReading": "かつよう",
+      "primaryEntryIDs": [
+        1208460
+      ]
+    },
+    {
+      "id": "vn3j114",
+      "text": "徹底",
+      "primaryReading": "てってい",
+      "primaryEntryIDs": [
+        1437670
+      ]
+    },
+    {
+      "id": "vn3j115",
+      "text": "貢献",
+      "primaryReading": "こうけん",
+      "primaryEntryIDs": [
+        1282410
+      ]
+    },
+    {
+      "id": "vn3j116",
+      "text": "稼ぐ",
+      "primaryReading": "かせぐ",
+      "primaryEntryIDs": [
+        1194450
+      ]
+    },
+    {
+      "id": "vn3j117",
+      "text": "労働",
+      "primaryReading": "ろうどう",
+      "primaryEntryIDs": [
+        1606450
+      ]
+    },
+    {
+      "id": "vn3j118",
+      "text": "失業",
+      "primaryReading": "しつぎょう",
+      "primaryEntryIDs": [
+        1319860
+      ]
+    },
+    {
+      "id": "vn3j119",
+      "text": "引退",
+      "primaryReading": "いんたい",
+      "primaryEntryIDs": [
+        1169610
+      ]
+    },
+    {
+      "id": "vn3j120",
+      "text": "雇う",
+      "primaryReading": "やとう",
+      "primaryEntryIDs": [
+        1605570
+      ]
+    },
+    {
+      "id": "vn3j121",
+      "text": "金銭",
+      "primaryReading": "きんせん",
+      "primaryEntryIDs": [
+        1243020
+      ]
+    },
+    {
+      "id": "vn3j122",
+      "text": "硬貨",
+      "primaryReading": "こうか",
+      "primaryEntryIDs": [
+        1280530
+      ]
+    },
+    {
+      "id": "vn3j123",
+      "text": "高価",
+      "primaryReading": "こうか",
+      "primaryEntryIDs": [
+        1283300
+      ]
+    },
+    {
+      "id": "vn3j124",
+      "text": "贅沢",
+      "primaryReading": "ぜいたく",
+      "primaryEntryIDs": [
+        1573150
+      ]
+    },
+    {
+      "id": "vn3j125",
+      "text": "借金",
+      "primaryReading": "しゃっきん",
+      "primaryEntryIDs": [
+        1323940
+      ]
+    },
+    {
+      "id": "vn3j126",
+      "text": "破産",
+      "primaryReading": "はさん",
+      "primaryEntryIDs": [
+        1471330
+      ]
+    },
+    {
+      "id": "vn3j127",
+      "text": "商売",
+      "primaryReading": "しょうばい",
+      "primaryEntryIDs": [
+        1347200
+      ]
+    },
+    {
+      "id": "vn3j128",
+      "text": "販売",
+      "primaryReading": "はんばい",
+      "primaryEntryIDs": [
+        1481800
+      ]
+    },
+    {
+      "id": "vn3j129",
+      "text": "宇宙",
+      "primaryReading": "うちゅう",
+      "primaryEntryIDs": [
+        1171300
+      ]
+    },
+    {
+      "id": "vn3j130",
+      "text": "衛星",
+      "primaryReading": "えいせい",
+      "primaryEntryIDs": [
+        1174760
+      ]
+    },
+    {
+      "id": "vn3j131",
+      "text": "大陸",
+      "primaryReading": "たいりく",
+      "primaryEntryIDs": [
+        1415150
+      ]
+    },
+    {
+      "id": "vn3j132",
+      "text": "陸",
+      "primaryReading": "りく",
+      "primaryEntryIDs": [
+        1550980
+      ]
+    },
+    {
+      "id": "vn3j133",
+      "text": "沖",
+      "primaryReading": "おき",
+      "primaryEntryIDs": [
+        1182500
+      ]
+    },
+    {
+      "id": "vn3j134",
+      "text": "岩",
+      "primaryReading": "いわ",
+      "primaryEntryIDs": [
+        1217270
+      ]
+    },
+    {
+      "id": "vn3j135",
+      "text": "泉",
+      "primaryReading": "いずみ",
+      "primaryEntryIDs": [
+        1390780
+      ]
+    },
+    {
+      "id": "vn3j136",
+      "text": "湾",
+      "primaryReading": "わん",
+      "primaryEntryIDs": [
+        1562800
+      ]
+    },
+    {
+      "id": "vn3j137",
+      "text": "気候",
+      "primaryReading": "きこう",
+      "primaryEntryIDs": [
+        1222170
+      ]
+    },
+    {
+      "id": "vn3j138",
+      "text": "温暖",
+      "primaryReading": "おんだん",
+      "primaryEntryIDs": [
+        1183480
+      ]
+    },
+    {
+      "id": "vn3j139",
+      "text": "熱帯",
+      "primaryReading": "ねったい",
+      "primaryEntryIDs": [
+        1467930
+      ]
+    },
+    {
+      "id": "vn3j140",
+      "text": "霜",
+      "primaryReading": "しも",
+      "primaryEntryIDs": [
+        1402930
+      ]
+    },
+    {
+      "id": "vn3j141",
+      "text": "芝生",
+      "primaryReading": "しばふ",
+      "primaryEntryIDs": [
+        1321650
+      ]
+    },
+    {
+      "id": "vn3j142",
+      "text": "稲",
+      "primaryReading": "いね",
+      "primaryEntryIDs": [
+        1167820
+      ]
+    },
+    {
+      "id": "vn3j143",
+      "text": "作物",
+      "primaryReading": "さくもつ",
+      "primaryEntryIDs": [
+        1297950
+      ]
+    },
+    {
+      "id": "vn3j144",
+      "text": "収穫",
+      "primaryReading": "しゅうかく",
+      "primaryEntryIDs": [
+        1330510
+      ]
+    },
+    {
+      "id": "vn3j145",
+      "text": "皮",
+      "primaryReading": "かわ",
+      "primaryEntryIDs": [
+        1483800
+      ]
+    },
+    {
+      "id": "vn3j146",
+      "text": "革",
+      "primaryReading": "かわ",
+      "primaryEntryIDs": [
+        1483805
+      ]
+    },
+    {
+      "id": "vn3j147",
+      "text": "生地",
+      "primaryReading": "きじ",
+      "primaryEntryIDs": [
+        1379330
+      ]
+    },
+    {
+      "id": "vn3j148",
+      "text": "綿",
+      "primaryReading": "めん",
+      "primaryEntryIDs": [
+        1533330
+      ]
+    },
+    {
+      "id": "vn3j149",
+      "text": "鉄",
+      "primaryReading": "てつ",
+      "primaryEntryIDs": [
+        1437780
+      ]
+    },
+    {
+      "id": "vn3j150",
+      "text": "石油",
+      "primaryReading": "せきゆ",
+      "primaryEntryIDs": [
+        1382830
+      ]
+    },
+    {
+      "id": "vn3j151",
+      "text": "粉",
+      "primaryReading": "こな",
+      "primaryEntryIDs": [
+        1504770
+      ]
+    },
+    {
+      "id": "vn3j152",
+      "text": "埃",
+      "primaryReading": "ほこり",
+      "primaryEntryIDs": [
+        1565750
+      ]
+    },
+    {
+      "id": "vn3j153",
+      "text": "精神",
+      "primaryReading": "せいしん",
+      "primaryEntryIDs": [
+        1379950
+      ]
+    },
+    {
+      "id": "vn3j154",
+      "text": "神経",
+      "primaryReading": "しんけい",
+      "primaryEntryIDs": [
+        1364520
+      ]
+    },
+    {
+      "id": "vn3j155",
+      "text": "心理",
+      "primaryReading": "しんり",
+      "primaryEntryIDs": [
+        1361000
+      ]
+    },
+    {
+      "id": "vn3j156",
+      "text": "筋肉",
+      "primaryReading": "きんにく",
+      "primaryEntryIDs": [
+        1241810
+      ]
+    },
+    {
+      "id": "vn3j157",
+      "text": "呼吸",
+      "primaryReading": "こきゅう",
+      "primaryEntryIDs": [
+        1266470
+      ]
+    },
+    {
+      "id": "vn3j158",
+      "text": "胃",
+      "primaryReading": "い",
+      "primaryEntryIDs": [
+        1158500
+      ]
+    },
+    {
+      "id": "vn3j159",
+      "text": "舌",
+      "primaryReading": "した",
+      "primaryEntryIDs": [
+        1387010
+      ]
+    },
+    {
+      "id": "vn3j160",
+      "text": "肌",
+      "primaryReading": "はだ",
+      "primaryEntryIDs": [
+        1476450
+      ]
+    },
+    {
+      "id": "vn3j161",
+      "text": "裸",
+      "primaryReading": "はだか",
+      "primaryEntryIDs": [
+        1547600
+      ]
+    },
+    {
+      "id": "vn3j162",
+      "text": "腹",
+      "primaryReading": "はら",
+      "primaryEntryIDs": [
+        1501110
+      ]
+    },
+    {
+      "id": "vn3j163",
+      "text": "骨",
+      "primaryReading": "ほね",
+      "primaryEntryIDs": [
+        1288550
+      ]
+    },
+    {
+      "id": "vn3j164",
+      "text": "尻",
+      "primaryReading": "しり",
+      "primaryEntryIDs": [
+        1358760
+      ]
+    },
+    {
+      "id": "vn3j165",
+      "text": "袖",
+      "primaryReading": "そで",
+      "primaryEntryIDs": [
+        1406000
+      ]
+    },
+    {
+      "id": "vn3j166",
+      "text": "帯",
+      "primaryReading": "おび",
+      "primaryEntryIDs": [
+        1410410
+      ]
+    },
+    {
+      "id": "vn3j167",
+      "text": "針",
+      "primaryReading": "はり",
+      "primaryEntryIDs": [
+        1366210
+      ]
+    },
+    {
+      "id": "vn3j168",
+      "text": "脇",
+      "primaryReading": "わき",
+      "primaryEntryIDs": [
+        1562530
+      ]
+    },
+    {
+      "id": "vn3j169",
+      "text": "奪う",
+      "primaryReading": "うばう",
+      "primaryEntryIDs": [
+        1416340
+      ]
+    },
+    {
+      "id": "vn3j170",
+      "text": "殺す",
+      "primaryReading": "ころす",
+      "primaryEntryIDs": [
+        1299030
+      ]
+    },
+    {
+      "id": "vn3j171",
+      "text": "撃つ",
+      "primaryReading": "うつ",
+      "primaryEntryIDs": [
+        1253570
+      ]
+    },
+    {
+      "id": "vn3j172",
+      "text": "破る",
+      "primaryReading": "やぶる",
+      "primaryEntryIDs": [
+        1471200
+      ]
+    },
+    {
+      "id": "vn3j173",
+      "text": "放す",
+      "primaryReading": "はなす",
+      "primaryEntryIDs": [
+        1516460
+      ]
+    },
+    {
+      "id": "vn3j174",
+      "text": "持ち上げる",
+      "primaryReading": "もちあげる",
+      "primaryEntryIDs": [
+        1315610
+      ]
+    },
+    {
+      "id": "vn3j175",
+      "text": "注ぐ",
+      "primaryReading": "そそぐ",
+      "primaryEntryIDs": [
+        1581730
+      ]
+    },
+    {
+      "id": "vn3j176",
+      "text": "飛ばす",
+      "primaryReading": "とばす",
+      "primaryEntryIDs": [
+        1485230
+      ]
+    },
+    {
+      "id": "vn3j177",
+      "text": "周囲",
+      "primaryReading": "しゅうい",
+      "primaryEntryIDs": [
+        1331030
+      ]
+    },
+    {
+      "id": "vn3j178",
+      "text": "国境",
+      "primaryReading": "こっきょう",
+      "primaryEntryIDs": [
+        1286320
+      ]
+    },
+    {
+      "id": "vn3j179",
+      "text": "首都",
+      "primaryReading": "しゅと",
+      "primaryEntryIDs": [
+        1329340
+      ]
+    },
+    {
+      "id": "vn3j180",
+      "text": "地区",
+      "primaryReading": "ちく",
+      "primaryEntryIDs": [
+        1421020
+      ]
+    },
+    {
+      "id": "vn3j181",
+      "text": "境",
+      "primaryReading": "さかい",
+      "primaryEntryIDs": [
+        1235950
+      ]
+    },
+    {
+      "id": "vn3j182",
+      "text": "地平線",
+      "primaryReading": "ちへいせん",
+      "primaryEntryIDs": [
+        1421440
+      ]
+    },
+    {
+      "id": "vn3j183",
+      "text": "頂上",
+      "primaryReading": "ちょうじょう",
+      "primaryEntryIDs": [
+        1430220
+      ]
+    },
+    {
+      "id": "vn3j184",
+      "text": "書斎",
+      "primaryReading": "しょさい",
+      "primaryEntryIDs": [
+        1344030
+      ]
+    },
+    {
+      "id": "vn3j185",
+      "text": "参考",
+      "primaryReading": "さんこう",
+      "primaryEntryIDs": [
+        1302280
+      ]
+    },
+    {
+      "id": "vn3j186",
+      "text": "学問",
+      "primaryReading": "がくもん",
+      "primaryEntryIDs": [
+        1207130
+      ]
+    },
+    {
+      "id": "vn3j187",
+      "text": "分野",
+      "primaryReading": "ぶんや",
+      "primaryEntryIDs": [
+        1504330
+      ]
+    },
+    {
+      "id": "vn3j188",
+      "text": "需要",
+      "primaryReading": "じゅよう",
+      "primaryEntryIDs": [
+        1330450
+      ]
+    },
+    {
+      "id": "vn3j189",
+      "text": "利益",
+      "primaryReading": "りえき",
+      "primaryEntryIDs": [
+        1549470
+      ]
+    },
+    {
+      "id": "vn3j190",
+      "text": "保証",
+      "primaryReading": "ほしょう",
+      "primaryEntryIDs": [
+        1603500
+      ]
+    },
+    {
+      "id": "vn3j191",
+      "text": "傾向",
+      "primaryReading": "けいこう",
+      "primaryEntryIDs": [
+        1249470
+      ]
+    },
+    {
+      "id": "vn3j192",
+      "text": "手間",
+      "primaryReading": "てま",
+      "primaryEntryIDs": [
+        1327410
+      ]
+    },
+    {
+      "id": "vn3j193",
+      "text": "任せる",
+      "primaryReading": "まかせる",
+      "primaryEntryIDs": [
+        1467150
+      ]
+    },
+    {
+      "id": "vn3j194",
+      "text": "用いる",
+      "primaryReading": "もちいる",
+      "primaryEntryIDs": [
+        1546210
+      ]
+    },
+    {
+      "id": "vn3j195",
+      "text": "招く",
+      "primaryReading": "まねく",
+      "primaryEntryIDs": [
+        1349590
+      ]
+    },
+    {
+      "id": "vn3j196",
+      "text": "通じる",
+      "primaryReading": "つうじる",
+      "primaryEntryIDs": [
+        1432880
+      ]
+    },
+    {
+      "id": "vn3j197",
+      "text": "取り上げる",
+      "primaryReading": "とりあげる",
+      "primaryEntryIDs": [
+        1326800
+      ]
+    },
+    {
+      "id": "vn3j198",
+      "text": "適する",
+      "primaryReading": "てきする",
+      "primaryEntryIDs": [
+        1437340
+      ]
+    },
+    {
+      "id": "vn3j199",
+      "text": "限る",
+      "primaryReading": "かぎる",
+      "primaryEntryIDs": [
+        1264640
+      ]
+    },
+    {
+      "id": "vn3j200",
+      "text": "除く",
+      "primaryReading": "のぞく",
+      "primaryEntryIDs": [
+        1345640
+      ]
+    }
+  ],
+  "alternativeReadingEvidence": "Explicit A records contain per-sense IDs and written-form restrictions.",
+  "additionalPrimarySources": [
+    {
+      "title": "小学館デジタル大辞泉：悪口",
+      "url": "https://kotobank.jp/word/悪口-425461"
+    },
+    {
+      "title": "小学館デジタル大辞泉：陸",
+      "url": "https://kotobank.jp/word/陸-451175"
+    },
+    {
+      "title": "小学館デジタル大辞泉：粉",
+      "url": "https://kotobank.jp/word/粉-493385"
+    },
+    {
+      "title": "小学館デジタル大辞泉：命",
+      "url": "https://kotobank.jp/word/命-435448"
+    },
+    {
+      "title": "小学館デジタル大辞泉：骨",
+      "url": "https://kotobank.jp/word/骨-22337"
+    },
+    {
+      "title": "小学館デジタル大辞泉：穴／尻",
+      "url": "https://kotobank.jp/word/穴-426051"
+    }
+  ],
+  "annotationScopeProtections": [
+    {
+      "sentenceID": "svn6132b",
+      "surface": "骨",
+      "disposition": "?",
+      "reason": "Umbrella ribs are not animal bones."
+    },
+    {
+      "sentenceID": "svn4i171b",
+      "surface": "針",
+      "disposition": "?",
+      "reason": "Clock hands are not sewing needles."
+    },
+    {
+      "sentenceID": "svn3b043b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3b117b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3c055b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3d020b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3d073a",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3d075b",
+      "surface": "注",
+      "disposition": "?",
+      "reason": "Devoting affection is not pouring liquid."
+    },
+    {
+      "sentenceID": "svn3d098b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3d124b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3g024b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3g030b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3h004b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3h067a",
+      "surface": "通",
+      "disposition": "?",
+      "reason": "A personal standard applying to others is not conveying a message."
+    },
+    {
+      "sentenceID": "svn3h067a",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3h082b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    },
+    {
+      "sentenceID": "svn3h110a",
+      "surface": "限",
+      "disposition": "?",
+      "reason": "Noun 限り in 限りある is not the verb 限る."
+    },
+    {
+      "sentenceID": "svn3h175b",
+      "surface": "限",
+      "disposition": "-",
+      "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
+    }
+  ]
+}

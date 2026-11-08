@@ -496,6 +496,34 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertNotIn("いちじょう", items["vn3i120"].get("acceptedReadings", []))
         self.assertNotIn("ほどける", items["vn3i164"].get("acceptedReadings", []))
 
+    def test_condition_words_do_not_claim_untaught_senses_in_existing_contexts(self):
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        for sid, surface in [("svn6132b", "骨"), ("svn4i171b", "針"),
+                             ("svn3d075b", "注"), ("svn3h067a", "通"),
+                             ("svn3h110a", "限"), ("svn3b043b", "限"),
+                             ("svn3j089a", "流"), ("svn3j152b", "払")]:
+            segment = next(s for s in sentences[sid]["segments"] if s["text"] == surface)
+            self.assertIsNone(segment["itemID"], (sid, surface))
+        for sid, target in [("svn4648a", "vn3j175"), ("svn4833a", "vn3j167"),
+                            ("svn3j163b", "vn3j163"), ("svn3j165b", "vn5224"),
+                            ("svn3j185a", "vn4963"), ("svn3j189a", "vn5s001")]:
+            self.assertIn(target, [s["itemID"] for s in sentences[sid]["segments"]], sid)
+
+    def test_condition_word_readings_require_the_taught_sense_and_written_form(self):
+        lookup = word_lookup(self.pack["items"])
+        for markup, target in [("[悪口|わるくち]", "vn3j048"), ("[悪口|あっこう]", "vn3j048"),
+                               ("[命|めい]", "vn3j055"), ("[陸|おか]", "vn3j132"),
+                               ("[革|つくりかわ]", "vn3j146"), ("[鉄|くろがね]", "vn3j149"),
+                               ("[粉|こ]", "vn3j151"), ("[肌|はだえ]", "vn3j160"),
+                               ("[尻|けつ]", "vn3j164"), ("[注ぐ|つぐ]", "vn3j175"),
+                               ("[国境|くにざかい]", "vn3j178")]:
+            _, occurrences = markup_sentence(markup, lookup)
+            self.assertEqual(occurrences[0]["itemID"], target, markup)
+        for markup in ["[綿|わた]", "[作物|さくぶつ]", "[利益|りやく]", "[境|きょう]",
+                       "[国境|こっかい]", "[革|つくりがわ]", "[陸|ろく]", "[埃|あい]"]:
+            _, occurrences = markup_sentence(markup, lookup)
+            self.assertIsNone(occurrences[0]["itemID"], markup)
+
     def test_receive_senses_and_untaught_physical_senses_stay_separate(self):
         items = {i["id"]: i for i in self.pack["items"]}
         sentences = {s["id"]: s for s in self.pack["sentences"]}
