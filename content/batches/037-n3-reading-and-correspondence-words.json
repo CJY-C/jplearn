@@ -98,7 +98,7 @@
         "svn3e003b"
       ],
       "order": 2002,
-      "readingCue": "时期，独立读ころ"
+      "readingCue": "某个时期、时候；独立名词"
     },
     {
       "id": "vn3e004",
@@ -595,7 +595,7 @@
         "svn3e019b"
       ],
       "order": 2017,
-      "readingCue": "获得知识、许可等，读える"
+      "readingCue": "获得知识、许可等"
     },
     {
       "id": "vn3e020",
@@ -2166,7 +2166,7 @@
         {
           "text": "時期",
           "reading": "じき",
-          "itemID": null
+          "itemID": "vn3g059"
         },
         {
           "text": "に",
@@ -5266,7 +5266,7 @@
         {
           "text": "込",
           "reading": "こ",
-          "itemID": null
+          "itemID": "vn3g049"
         },
         {
           "text": "めて",

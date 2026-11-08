@@ -10,7 +10,8 @@ X: standalone sentence id, ruby text, translation, explanation (example repairs)
 Every [surface|reading|optional lemma] is an explicit lexical occurrence. A
 lemma of "-" marks furigana for grammar text (for example comparison 方), which
 is assessed through prerequisites rather than the content-word denominator. A
-lemma of "?" forces an unknown proper name rather than a homonymous word. An
+lemma of "?" forces an unknown proper name or untaught sense rather than a
+homonymous word. An
 unbundled lemma is kept with a null itemID and counts as unknown in readiness.
 Particles and conjugation endings remain outside brackets. No NLP is needed.
 """

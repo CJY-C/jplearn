@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -137,6 +137,24 @@
       "title": "ルチラ パリハワダナ：二重否定诸形式的使用区别",
       "url": "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/187059/1/Ronko3_043.pdf",
       "attribution": "京都大学国際交流センター 論攷3，2013，第43页起；核对有限肯定、表达意图与语境作用，不复制论文例句。"
+    },
+    {
+      "id": "ninjalcomplex",
+      "title": "国立国語研究所：助动词性复合表达资料",
+      "url": "https://repository.ninjal.ac.jp/record/2322/files/gdghgz_200103.pdf",
+      "attribution": "国立国語研究所公开资料，第二部B5；仅核对一方だ的变化意义与接续，不复制语料用例。"
+    },
+    {
+      "id": "kyushuhodo",
+      "title": "東寺祐亮：ホドの構造と解釈",
+      "url": "https://www2.lit.kyushu-u.ac.jp/~linguist/kupl/doc/KUPL33_toji.pdf",
+      "attribution": "東寺祐亮、九州大学；仅核对比较关联构式的程度尺度，不复制论文语料或例句。"
+    },
+    {
+      "id": "jfpmarugotob12",
+      "title": "国際交流基金：B1-2 日本语文法解说",
+      "url": "https://md.jpf.go.jp/userfiles/file/2018/Lengua%20Japonesa/Gramatica/B1-2-JP.pdf",
+      "attribution": "国際交流基金公开文法资料；仅核对程度表达与接续，不复制教材例句或正文。"
     }
   ],
   "stages": [

@@ -1,0 +1,1789 @@
+{
+  "items": [
+    {
+      "id": "vn4o001",
+      "kind": "word",
+      "level": "N4",
+      "text": "開く",
+      "reading": "ひらく",
+      "romaji": "hiraku",
+      "meaning": "打开、展开；把书、伞等从合拢状态展开",
+      "explanation": "本单元义项：打开、展开；把书、伞等从合拢状态展开。通过两个不同语境辨认；其他义项须结合上下文。\n本组学ひらく的展开义；与原有自动词あく保持各自读音与词义记录。会を開く和文件操作另有语境、词义练习，不把展开义一概算作这些用法已会。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "打开、展开；把书、伞等从合拢状态展开",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o001；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o001a",
+        "svn4o001b"
+      ],
+      "order": 2000,
+      "readingCue": "把书、伞等展开"
+    },
+    {
+      "id": "vn4o002",
+      "kind": "word",
+      "level": "N4",
+      "text": "開く",
+      "reading": "ひらく",
+      "romaji": "hiraku",
+      "meaning": "举办；组织会议、聚会或展览等活动",
+      "explanation": "本单元义项：举办；组织会议、聚会或展览等活动。通过两个不同语境辨认；其他义项须结合上下文。\n本组训练活动举办义；予定、開かれる、開こうとする等形式仍要区分计划、受身及尝试。与展开书伞的词义独立回忆，共用同一ひらく读音练习。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "举办；组织会议、聚会或展览等活动",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn4o001"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o002；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o002a",
+        "svn4o002b"
+      ],
+      "order": 2001,
+      "readingCue": "举办会议、聚会或展览等活动",
+      "lexemeID": "vn4o001",
+      "readingOwnerID": "vn4o001"
+    },
+    {
+      "id": "vn4o003",
+      "kind": "word",
+      "level": "N4",
+      "text": "開く",
+      "reading": "ひらく",
+      "romaji": "hiraku",
+      "meaning": "打开电子文件；让软件呈现已保存的内容",
+      "explanation": "本单元义项：打开电子文件；让软件呈现已保存的内容。通过两个不同语境辨认；其他义项须结合上下文。\n本组训练文件操作；文件已打开不等于已经读懂全部内容。词义独立于展开实物与举办活动，读音与同一ひらく词的其他义项共用。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "打开电子文件；让软件呈现已保存的内容",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn4o001"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o003；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o003a",
+        "svn4o003b"
+      ],
+      "order": 2002,
+      "readingCue": "打开电脑等设备中的电子文件",
+      "lexemeID": "vn4o001",
+      "readingOwnerID": "vn4o001"
+    },
+    {
+      "id": "vn4o004",
+      "kind": "word",
+      "level": "N4",
+      "text": "ファイル",
+      "reading": "ふぁいる",
+      "romaji": "fairu",
+      "meaning": "电子文件；电脑等设备中保存的一份数据或文档",
+      "explanation": "本单元义项：电子文件；电脑等设备中保存的一份数据或文档。通过两个不同语境辨认；其他义项须结合上下文。\n本组训练电子数据、文档；纸质资料夹、锉刀等同音词或其他义项不由此记录自动算会。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "电子文件；电脑等设备中保存的一份数据或文档",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o004；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o004a",
+        "svn4o004b"
+      ],
+      "order": 2003,
+      "readingCue": "电脑等设备中的电子文件"
+    },
+    {
+      "id": "vn4o005",
+      "kind": "word",
+      "level": "N4",
+      "text": "止める",
+      "reading": "やめる",
+      "romaji": "yameru",
+      "meaning": "不再做；停止正在进行或原先打算进行的行为",
+      "explanation": "本单元义项：不再做；停止正在进行或原先打算进行的行为。通过两个不同语境辨认；其他义项须结合上下文。\nやめる与使物体停止的とめる是不同读音、用法，分别学习。本组也不把辞职的辞めるやめる或保留的とどめる自动算会。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "不再做；停止正在进行或原先打算进行的行为",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o005；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o005a",
+        "svn4o005b"
+      ],
+      "order": 2004,
+      "readingCue": "停止读书、练习等行为"
+    },
+    {
+      "id": "vn4o006",
+      "kind": "word",
+      "level": "N4",
+      "text": "表",
+      "reading": "ひょう",
+      "romaji": "hyou",
+      "meaning": "表格；把数据或事项按行列整理的形式",
+      "explanation": "本单元义项：表格；把数据或事项按行列整理的形式。通过两个不同语境辨认；其他义项须结合上下文。\n与正面、表面的表おもて分别学习；表に出る等读おもて的用法，不由表格义的记录继承掌握。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "表格；把数据或事项按行列整理的形式",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o006；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o006a",
+        "svn4o006b"
+      ],
+      "order": 2005,
+      "readingCue": "按行列整理的数据或事项"
+    },
+    {
+      "id": "vn4o007",
+      "kind": "word",
+      "level": "N4",
+      "text": "受ける",
+      "reading": "うける",
+      "romaji": "ukeru",
+      "meaning": "接受、得到；接到说明、指示、优惠等外界给予",
+      "explanation": "本单元义项：接受、得到；接到说明、指示、优惠等外界给予。通过两个不同语境辨认；其他义项须结合上下文。\nJMdict 1329590的接收、得到义；与参加考试课程的用法分别回忆，读音仍共用原词。受到影响、冲击或受欢迎等表达须另结合对应义项，不能从这组一概推断。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "接受、得到；接到说明、指示、优惠等外界给予",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn6159"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o007；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o007a",
+        "svn4o007b",
+        "svn4o007c"
+      ],
+      "order": 2006,
+      "readingCue": "接受说明、指示、优惠等外界给予",
+      "lexemeID": "vn6159",
+      "readingOwnerID": "vn6159"
+    },
+    {
+      "id": "vn4o008",
+      "kind": "word",
+      "level": "N4",
+      "text": "十分",
+      "reading": "じゅうぶん",
+      "romaji": "juubun",
+      "meaning": "充分、足够；达到了所需数量或程度",
+      "explanation": "本单元义项：充分、足够；达到了所需数量或程度。通过两个不同语境辨认；其他义项须结合上下文。\n本组的充分义不与时间量「十分（じゅっぷん／じっぷん）」混合；时间量需按数词与计数表达读。",
+      "sourceIDs": [
+        "projectopen"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／な形容词／副词",
+      "sense": "充分、足够；达到了所需数量或程度",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o008；未独立语言审校",
+          "status": "original"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4o008a",
+        "svn4o008b"
+      ],
+      "order": 2007,
+      "readingCue": "达到需要的数量或程度"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4o001a",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o001"
+        },
+        {
+          "text": "いて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ページ",
+          "reading": "ぺーじ",
+          "itemID": "vn5004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "翻开书，确认了前面的页面。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o001b",
+      "segments": [
+        {
+          "text": "傘",
+          "reading": "かさ",
+          "itemID": "v0085"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o001"
+        },
+        {
+          "text": "いたまま、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置",
+          "reading": "お",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "かないでください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "请不要把展开的伞放在入口。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o002a",
+      "segments": [
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "たちが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紹介",
+          "reading": "しょうかい",
+          "itemID": "vn6170"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "かい",
+          "itemID": "vn4i177"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o002"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "镇上的人举办了介绍旧照片的聚会。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o002b",
+      "segments": [
+        {
+          "text": "来月",
+          "reading": "らいげつ",
+          "itemID": "vn5038"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会館",
+          "reading": "かいかん",
+          "itemID": "vn3c060"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "展覧会",
+          "reading": "てんらんかい",
+          "itemID": "vn4405"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o002"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "计划下个月在会馆举办小型展览。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o003a",
+      "segments": [
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "られてきた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o003"
+        },
+        {
+          "text": "いて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "打开对方发来的文件，确认了内容。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o003b",
+      "segments": [
+        {
+          "text": "保存",
+          "reading": "ほぞん",
+          "itemID": null
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "原稿",
+          "reading": "げんこう",
+          "itemID": "vn4448"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o003"
+        },
+        {
+          "text": "くと、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "修正",
+          "reading": "しゅうせい",
+          "itemID": "vn3g025"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "打开保存的原稿文件，还保留着昨天的修改。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o004a",
+      "segments": [
+        {
+          "text": "原稿",
+          "reading": "げんこう",
+          "itemID": "vn4448"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把原稿文件发给了朋友。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o004b",
+      "segments": [
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "でも、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "保存",
+          "reading": "ほぞん",
+          "itemID": null
+        },
+        {
+          "text": "すると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "区別",
+          "reading": "くべつ",
+          "itemID": "vn3a081"
+        },
+        {
+          "text": "しやすくなります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "即使是同一文件，改名保存也会更容易区分。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o005a",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おそ",
+          "itemID": "v0290"
+        },
+        {
+          "text": "くなったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "むのを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "や",
+          "itemID": "vn4o005"
+        },
+        {
+          "text": "めて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为夜深了，停止读书去休息。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o005b",
+      "segments": [
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう",
+          "itemID": "vn4951"
+        },
+        {
+          "text": "での",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "練習",
+          "reading": "れんしゅう",
+          "itemID": "vn5239"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "や",
+          "itemID": "vn4o005"
+        },
+        {
+          "text": "め、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう",
+          "itemID": "vn4951"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "試",
+          "reading": "ため",
+          "itemID": "vn4909"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不再用同一种方法练习，尝试了别的方法。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o006a",
+      "segments": [
+        {
+          "text": "人数",
+          "reading": "にんずう",
+          "itemID": "vn4512"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変化",
+          "reading": "へんか",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "表",
+          "reading": "ひょう",
+          "itemID": "vn4o006"
+        },
+        {
+          "text": "にまとめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把人数变化整理成了表格。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o006b",
+      "segments": [
+        {
+          "text": "表",
+          "reading": "ひょう",
+          "itemID": "vn4o006"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数字",
+          "reading": "すうじ",
+          "itemID": null
+        },
+        {
+          "text": "と、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "元",
+          "reading": "もと",
+          "itemID": "vn3g034"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "比",
+          "reading": "くら",
+          "itemID": "vn6163"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把表中的数字与原始记录进行了比较。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o007a",
+      "segments": [
+        {
+          "text": "係員",
+          "reading": "かかりいん",
+          "itemID": "vn3a015"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受",
+          "reading": "う",
+          "itemID": "vn4o007"
+        },
+        {
+          "text": "け、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手順",
+          "reading": "てじゅん",
+          "itemID": "vn3b115"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "接受工作人员的说明，确认了步骤。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o007b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "切符",
+          "reading": "きっぷ",
+          "itemID": "v0109"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "割引",
+          "reading": "わりびき",
+          "itemID": "vn4537"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受",
+          "reading": "う",
+          "itemID": "vn4o007"
+        },
+        {
+          "text": "けられます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "持这张票可以享受折扣。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o007c",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "注意",
+          "reading": "ちゅうい",
+          "itemID": "vn4314"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受",
+          "reading": "う",
+          "itemID": "vn4o007"
+        },
+        {
+          "text": "け、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発言",
+          "reading": "はつげん",
+          "itemID": "vn3a093"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "接受老师提醒后，调整了发言顺序。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o008a",
+      "segments": [
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十分",
+          "reading": "じゅうぶん",
+          "itemID": "vn4o008"
+        },
+        {
+          "text": "あるので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "がなくても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大丈夫",
+          "reading": "だいじょうぶ",
+          "itemID": "vn5346"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "时间充分，不用着急也没关系。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4o008b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "だけでは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十分",
+          "reading": "じゅうぶん",
+          "itemID": "vn4o008"
+        },
+        {
+          "text": "とは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "えません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不能说仅凭这个说明就足够。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4o001a",
+      "targetID": "vn4o001",
+      "sentenceID": "svn4o001b",
+      "skill": "meaning",
+      "prompt": "句中「開く」表示什么？",
+      "choices": [
+        "门窗自己变成开着，读あく",
+        "举办一次会议或活动",
+        "打开、展开；把书、伞等从合拢状态展开"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「打开、展开；把书、伞等从合拢状态展开」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひらく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "開く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o002a",
+      "targetID": "vn4o002",
+      "sentenceID": "svn4o002b",
+      "skill": "meaning",
+      "prompt": "句中「開く」表示什么？",
+      "choices": [
+        "举办；组织会议、聚会或展览等活动",
+        "把合上的伞撑开",
+        "让电脑显示电子文件的内容"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「举办；组织会议、聚会或展览等活动」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひらく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "開く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o003a",
+      "targetID": "vn4o003",
+      "sentenceID": "svn4o003b",
+      "skill": "meaning",
+      "prompt": "句中「開く」表示什么？",
+      "choices": [
+        "举办一次面对面会议",
+        "把电子文件永久删掉",
+        "打开电子文件；让软件呈现已保存的内容"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「打开电子文件；让软件呈现已保存的内容」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひらく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "開く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o004a",
+      "targetID": "vn4o004",
+      "sentenceID": "svn4o004b",
+      "skill": "meaning",
+      "prompt": "句中「ファイル」表示什么？",
+      "choices": [
+        "一段从未记录下来的临时想法",
+        "电子文件；电脑等设备中保存的一份数据或文档",
+        "只表示纸质资料夹这个实物"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「电子文件；电脑等设备中保存的一份数据或文档」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ふぁいる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "ファイル",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o005a",
+      "targetID": "vn4o005",
+      "sentenceID": "svn4o005b",
+      "skill": "meaning",
+      "prompt": "句中「止める」表示什么？",
+      "choices": [
+        "不再做；停止正在进行或原先打算进行的行为",
+        "让移动中的车或机器停住，读とめる",
+        "把某物永久留作纪念，读とどめる"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「不再做；停止正在进行或原先打算进行的行为」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "やめる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "止める",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o006a",
+      "targetID": "vn4o006",
+      "sentenceID": "svn4o006b",
+      "skill": "meaning",
+      "prompt": "句中「表」表示什么？",
+      "choices": [
+        "物体的正面或外表，读おもて",
+        "文章中表达想法这一动作",
+        "表格；把数据或事项按行列整理的形式"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「表格；把数据或事项按行列整理的形式」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ひょう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "表",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o007a",
+      "targetID": "vn4o007",
+      "sentenceID": "svn4o007b",
+      "skill": "meaning",
+      "prompt": "句中「受ける」表示什么？",
+      "choices": [
+        "只表示某个表演很受欢迎",
+        "接受、得到；接到说明、指示、优惠等外界给予",
+        "仅表示参加考试或课程这一经历"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「接受、得到；接到说明、指示、优惠等外界给予」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "受ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4o008a",
+      "targetID": "vn4o008",
+      "sentenceID": "svn4o008b",
+      "skill": "meaning",
+      "prompt": "句中「十分」表示什么？",
+      "choices": [
+        "充分、足够；达到了所需数量或程度",
+        "总是完全不足且不能使用",
+        "不论语境都固定指十分钟"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「充分、足够；达到了所需数量或程度」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "じゅうぶん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "十分",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4o008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4o01",
+      "title": "開く：展开书或伞，读ひらく",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o001"
+      ],
+      "sentenceIDs": [
+        "svn4o001a",
+        "svn4o001b"
+      ],
+      "exerciseIDs": [
+        "evn4o001a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o02",
+      "title": "開く：举办会议、活动",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o002"
+      ],
+      "sentenceIDs": [
+        "svn4o002a",
+        "svn4o002b"
+      ],
+      "exerciseIDs": [
+        "evn4o002a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o03",
+      "title": "開く：打开电子文件",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o003"
+      ],
+      "sentenceIDs": [
+        "svn4o003a",
+        "svn4o003b"
+      ],
+      "exerciseIDs": [
+        "evn4o003a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o04",
+      "title": "电子文件与内容",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o004"
+      ],
+      "sentenceIDs": [
+        "svn4o004a",
+        "svn4o004b"
+      ],
+      "exerciseIDs": [
+        "evn4o004a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o05",
+      "title": "止める：停止一种行为，读やめる",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o005"
+      ],
+      "sentenceIDs": [
+        "svn4o005a",
+        "svn4o005b"
+      ],
+      "exerciseIDs": [
+        "evn4o005a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o06",
+      "title": "表：整理数据的表格，读ひょう",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o006"
+      ],
+      "sentenceIDs": [
+        "svn4o006a",
+        "svn4o006b"
+      ],
+      "exerciseIDs": [
+        "evn4o006a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o07",
+      "title": "受ける：接受说明、指示或优惠",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o007"
+      ],
+      "sentenceIDs": [
+        "svn4o007a",
+        "svn4o007b",
+        "svn4o007c"
+      ],
+      "exerciseIDs": [
+        "evn4o007a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4o08",
+      "title": "足够与十分钟的区分",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4o008"
+      ],
+      "sentenceIDs": [
+        "svn4o008a",
+        "svn4o008b"
+      ],
+      "exerciseIDs": [
+        "evn4o008a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

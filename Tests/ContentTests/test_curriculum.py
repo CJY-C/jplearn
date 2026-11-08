@@ -1,6 +1,7 @@
 import copy
 import json
 from pathlib import Path
+import re
 import sys
 import tempfile
 import unittest
@@ -27,7 +28,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
@@ -194,6 +195,27 @@ class CurriculumDeliveryTests(unittest.TestCase):
             [words[t]["id"] for t in ["何", "四", "読む"]])
         train = next(s for s in self.pack["sentences"] if s["id"] == "sgn531e")
         self.assertIsNone(next(s for s in train["segments"] if s["text"] == "空")["itemID"])
+
+    def test_partial_ruby_checks_pronunciation_without_losing_regular_inflections(self):
+        words = word_lookup(self.pack["items"])
+        _, wrong = markup_sentence("[開|ひら|@v0106]く。[止|や|@v0320]める。[空い|あい|空]ている。", words)
+        self.assertTrue(all(w["itemID"] is None for w in wrong))
+        fixtures = word_lookup([dict(id=t, kind="word", text=t, reading=r) for t, r in
+            [("帰る", "かえる"), ("来る", "くる"), ("する", "する"), ("いい", "いい"),
+             ("お嬢さん", "おじょうさん"), ("すれ違う", "すれちがう")]])
+        _, correct = markup_sentence("[帰った|かえった|帰る]。[来|き|来る]た。[し|し|する]た。"
+            "[良|よ|いい]かった。お[嬢|じょう|お嬢さん]さんとすれ[違|ちが|すれ違う]った。", fixtures)
+        self.assertEqual([w["itemID"] for w in correct], ["帰る", "来る", "する", "いい", "お嬢さん", "すれ違う"])
+        _, polite = markup_sentence("[お仕事|おしごと|仕事]。[ご予約|ごよやく|予約]。"
+            "[お礼|おれい|礼]。[お開|おひら|@v0106]き。", words)
+        self.assertEqual([w["itemID"] for w in polite], [words[t]["id"] for t in ["仕事", "予約", "礼"]] + [None])
+
+    def test_reading_cues_do_not_print_the_accepted_kana_answer(self):
+        for word in self.pack["items"]:
+            if word["kind"] != "word" or not re.search("[一-龯]", word["text"]): continue
+            cue = word.get("readingCue", "")
+            for answer in [word["reading"]] + word.get("acceptedReadings", []):
+                self.assertNotIn(answer, cue, word["id"])
 
     def test_a_new_words_own_examples_can_use_its_alternative_reading(self):
         source = "\n".join([
@@ -395,6 +417,69 @@ class CurriculumDeliveryTests(unittest.TestCase):
         for sid in ["svn3b097a", "rn3042s5"]:
             self.assertIn("vn3d122", [segment["itemID"] for segment in sentences[sid]["segments"]])
         self.assertIn("vn3e034", [segment["itemID"] for segment in sentences["sgn327f"]["segments"]])
+
+    def test_n3_time_chapter_keeps_functions_controlled_reading_and_transfer(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        readings = {r["id"]: r for r in self.pack["readings"] if r["id"] in {f"rn{n}" for n in range(3046, 3066)}}
+        self.assertEqual(len(readings), 20)
+        self.assertEqual({r["id"] for r in readings.values() if r["purpose"] == "assessment"},
+                         {f"rn{n}" for n in range(3062, 3066)})
+        for passage in readings.values():
+            self.assertEqual(passage["level"], "N3")
+            self.assertEqual(len(passage["paragraphs"]), 2)
+            self.assertEqual(len(passage["questions"]), 2)
+            self.assertEqual(len(passage["sentenceIDs"]), 6)
+            self.assertGreaterEqual(sum(len("".join(s["text"] for s in sentences[sid]["segments"]))
+                                        for sid in passage["sentenceIDs"]), 350)
+            self.assertTrue(all(w["itemID"] in items for w in passage["vocabulary"]), passage["id"])
+            self.assertTrue(all(items[w["itemID"]]["level"] in ["N5", "N4", "N3"] for w in passage["vocabulary"]))
+        for number in range(335, 351):
+            gid = f"gn{number}"
+            lesson = next(l for l in self.pack["lessons"] if l["id"] == "l" + gid)
+            passage = readings[lesson["readingID"]]
+            self.assertEqual(passage["purpose"], "practice")
+            self.assertIn(gid, passage["grammarIDs"])
+        for pattern, ids in [("you-to-suru", ["gn336", "gn337", "gn338"]),
+                             ("uchi-ni", ["gn340", "gn341"]),
+                             ("tokoro-ni-tokoro-e-tokoro-o", ["gn342", "gn343", "gn349", "gn350"])]:
+            self.assertEqual(self.syllabus["grammarCoverage"]["N3:" + pattern]["itemIDs"], ids)
+            self.assertEqual(len({items[gid]["meaning"] for gid in ids}), len(ids))
+
+    def test_receive_senses_and_untaught_physical_senses_stay_separate(self):
+        items = {i["id"]: i for i in self.pack["items"]}
+        sentences = {s["id"]: s for s in self.pack["sentences"]}
+        for target, owner in [("vn4o007", "vn6159"), ("vn3g011", "vn6159"), ("vn3g010", "vn6157")]:
+            self.assertEqual(items[target]["lexemeID"], owner)
+            self.assertEqual(items[target]["readingOwnerID"], owner)
+        for sid, target in [("rn4201s4", "vn4o007"), ("sgn330f", "vn3g010"),
+                            ("rn3048s2", "vn3g010"), ("sgn347e", "vn3g011")]:
+            self.assertIn(target, [s["itemID"] for s in sentences[sid]["segments"]])
+        for sid, surface in [("svn5563a", "削"), ("svn4575a", "流")]:
+            self.assertIsNone(next(s["itemID"] for s in sentences[sid]["segments"] if s["text"] == surface))
+        for sid in ["sgn311c", "sgn332a"]:
+            self.assertIn(dict(text="十分", reading="じゅっぷん", itemID="vn5031"), sentences[sid]["segments"])
+
+    def test_hiraku_contexts_do_not_borrow_aku_or_another_hiraku_meaning(self):
+        items = {item["id"]: item for item in self.pack["items"]}
+        sentences = {sentence["id"]: sentence for sentence in self.pack["sentences"]}
+        self.assertEqual(items["v0106"]["reading"], "あく")
+        self.assertEqual(items["vn4o001"]["reading"], "ひらく")
+        self.assertNotIn("lexemeID", items["vn4o001"])
+        for target in ["vn4o002", "vn4o003"]:
+            self.assertEqual(items[target]["lexemeID"], "vn4o001")
+            self.assertEqual(items[target]["readingOwnerID"], "vn4o001")
+        for sid, target in [("svn4341a", "vn4o002"), ("rn4115s1", "vn4o002"),
+                            ("rn3012s1", "vn4o002"), ("rn3021s6", "vn4o002"),
+                            ("rn3034s1", "vn4o001"), ("rn3035s5", "vn4o003")]:
+            self.assertIn(target, [segment["itemID"] for segment in sentences[sid]["segments"]])
+            self.assertNotIn("v0106", [segment["itemID"] for segment in sentences[sid]["segments"]])
+        for sid in ["sxv01061", "sxv01062", "sxv01591"]:
+            for segment in sentences[sid]["segments"]:
+                if segment["text"] == "開き": self.assertEqual(segment["reading"], "あき")
+                if segment["text"] == "九": self.assertEqual(segment["reading"], "く")
+        with self.assertRaisesRegex(ValueError, "Ambiguous word reference"):
+            markup_sentence("[開|ひら|開く]く。", word_lookup(self.pack["items"]))
 
     def test_telephone_answering_uses_its_own_target_including_omitted_object(self):
         items = {i["id"]: i for i in self.pack["items"]}

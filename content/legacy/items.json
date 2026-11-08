@@ -488,7 +488,9 @@
     "level": "N5",
     "text": "何",
     "reading": "なに",
-    "acceptedReadings": ["なん"],
+    "acceptedReadings": [
+      "なん"
+    ],
     "citations": [
       {
         "sourceID": "jmdict",
@@ -2231,7 +2233,8 @@
     ],
     "partOfSpeech": "动词",
     "sense": "打开",
-    "register": "一般"
+    "register": "一般",
+    "readingCue": "门窗开着、店铺开门；自动词用法"
   },
   {
     "id": "v0107",

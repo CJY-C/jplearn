@@ -39,6 +39,11 @@
     {"kind": "word", "source": "n3-relationships-and-expression.tsv", "batch": "036-n3-relationships-and-expression.json"},
     {"kind": "word", "source": "n3-reading-and-correspondence-words.tsv", "batch": "037-n3-reading-and-correspondence-words.json"},
     {"kind": "grammar", "source": "n3-norms-memory-and-reasons.tsv", "batch": "038-n3-norms-memory-and-reasons.json"},
-    {"kind": "reading", "source": "n3-norms-memory-and-reasons-readings.tsv", "batch": "039-n3-norms-memory-and-reasons-readings.json"}
+    {"kind": "reading", "source": "n3-norms-memory-and-reasons-readings.tsv", "batch": "039-n3-norms-memory-and-reasons-readings.json"},
+    {"kind": "word", "source": "n4-reading-and-sense-boundaries.tsv", "batch": "040-n4-reading-and-sense-boundaries.json"},
+    {"kind": "word", "source": "n3-temporal-and-change-words.tsv", "batch": "041-n3-temporal-and-change-words.json"},
+    {"kind": "word", "source": "n3-time-reading-prerequisites.tsv", "batch": "042-n3-time-reading-prerequisites.json"},
+    {"kind": "grammar", "source": "n3-time-intention-and-degree.tsv", "batch": "043-n3-time-intention-and-degree.json"},
+    {"kind": "reading", "source": "n3-time-intention-and-degree-readings.tsv", "batch": "044-n3-time-intention-and-degree-readings.json"}
   ]
 }

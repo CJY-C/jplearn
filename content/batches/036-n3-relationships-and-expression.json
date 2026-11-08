@@ -1108,7 +1108,7 @@
         "svn3d033b"
       ],
       "order": 2032,
-      "readingCue": "吓唬别人，读おどかす"
+      "readingCue": "吓唬别人、使人受惊"
     },
     {
       "id": "vn3d034",
@@ -1441,7 +1441,7 @@
         "svn3d043b"
       ],
       "order": 2042,
-      "readingCue": "举止、神态，读そぶり"
+      "readingCue": "举止、神态、外在表现"
     },
     {
       "id": "vn3d044",
@@ -4123,7 +4123,7 @@
         "svn3d124b"
       ],
       "order": 2123,
-      "readingCue": "内容、品质的质量，读しつ"
+      "readingCue": "内容、品质的质量"
     },
     {
       "id": "vn3d125",
@@ -10531,7 +10531,7 @@
         {
           "text": "流",
           "reading": "なが",
-          "itemID": null
+          "itemID": "vn3g055"
         },
         {
           "text": "れていました。",
@@ -10816,7 +10816,7 @@
         {
           "text": "流",
           "reading": "なが",
-          "itemID": null
+          "itemID": "vn3g055"
         },
         {
           "text": "れていました。",
@@ -12411,7 +12411,7 @@
         {
           "text": "広",
           "reading": "ひろ",
-          "itemID": null
+          "itemID": "vn3f083"
         },
         {
           "text": "まりました。",
@@ -17081,7 +17081,7 @@
         {
           "text": "完成",
           "reading": "かんせい",
-          "itemID": null
+          "itemID": "vn3g012"
         },
         {
           "text": "していません。",
