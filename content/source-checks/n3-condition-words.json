@@ -1750,5 +1750,28 @@
       "disposition": "-",
       "reason": "Partial-negative construction, not the newly taught lexical limitation sense."
     }
-  ]
+  ],
+  "ci": {
+    "runID": 42492461035,
+    "url": "https://github.com/CJY-C/jplearn/actions/runs/42492461035",
+    "testedCommit": "e4901ded368016a78b910eabba85d4b616d19a0e",
+    "contentTests": 58,
+    "coreTests": 56,
+    "iOSIntegrationTests": 9,
+    "SE3UITests": 17,
+    "archiveSucceeded": true,
+    "coverageReportMatchesLocal": true,
+    "releasePublished": false
+  },
+  "compatibility": {
+    "baseline": "ea4669d45ac4597148a24113c63eeca0af88f7d8",
+    "oldItemsPreserved": 3343,
+    "oldExercisesPreserved": 4382,
+    "oldLessonsPreserved": 541,
+    "oldIntroModulesPreserved": 6,
+    "oldJapaneseChineseAnswersAndOrderPreserved": true,
+    "newLinks": 34,
+    "sentencesReceivingNewLinks": 33,
+    "oldReadingsChanged": 0
+  }
 }
