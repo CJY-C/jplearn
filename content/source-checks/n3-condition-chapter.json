@@ -722,7 +722,40 @@
   "localValidation": {
     "contentTests": 60,
     "passed": true,
-    "iosCI": "pending",
+    "iosCI": {
+      "runID": 42505729281,
+      "commit": "1de9b4cfa28ee089c0c21562d83f73fbcc8ad82e",
+      "status": "success",
+      "contentTests": 60,
+      "coreTests": 56,
+      "integrationTests": 9,
+      "se3UITests": 17,
+      "archive": "success",
+      "coverageMatchesLocal": true
+    },
     "physicalIOS155and166": "pending"
+  },
+  "releaseVerification": {
+    "version": "0.19.0 / 24",
+    "commit": "1de9b4cfa28ee089c0c21562d83f73fbcc8ad82e",
+    "workflow": 42505729281,
+    "bytes": 3129023,
+    "sha256": "8d0fcfedf635c873480a9aaefd13b576920abeb83218de33dced6919400e4183",
+    "contentSha256": "8d4d02628658022c14e741b061c0e6d168d7b95792b60636d272611b61c136d6",
+    "bundleContentMatches": true,
+    "arm64Minimum": "iOS 15.5",
+    "totals": {
+      "words": 3369,
+      "knowledge": 279,
+      "exercises": 4885,
+      "readings": 290,
+      "lessons": 614,
+      "assessments": 60
+    },
+    "screenshotsReviewed": [
+      "SE3-WordSense-Context-LargeText",
+      "SE3-WordSense-Answer-LargeText",
+      "SE3-N4-ReadingFeedback-LargeText-Question2"
+    ]
   }
 }
