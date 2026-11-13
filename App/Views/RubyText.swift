@@ -5,12 +5,15 @@ import LearningCore
 struct RubyText: View {
     let segments: [RubySegment]
     var showReading = true
+    var pointSize: CGFloat = 23
+    var emphasizedItemID: String? = nil
     var onWord: ((String) -> Void)?
     @State private var height: CGFloat = 60
     @Environment(\.sizeCategory) private var sizeCategory
     var body: some View {
         RubyRepresentable(segments: segments, showReading: showReading, height: $height,
-                          sizeCategory: sizeCategory, onWord: onWord)
+                          sizeCategory: sizeCategory, pointSize: pointSize,
+                          emphasizedItemID: emphasizedItemID, onWord: onWord)
             .frame(height: height)
     }
 }
@@ -20,11 +23,14 @@ private struct RubyRepresentable: UIViewRepresentable {
     let showReading: Bool
     @Binding var height: CGFloat
     let sizeCategory: ContentSizeCategory
+    let pointSize: CGFloat
+    let emphasizedItemID: String?
     let onWord: ((String) -> Void)?
 
     func makeUIView(context: Context) -> RubyLabel { RubyLabel() }
     func updateUIView(_ view: RubyLabel, context: Context) {
-        view.configure(segments: segments, showReading: showReading)
+        view.configure(segments: segments, showReading: showReading, pointSize: pointSize,
+                       emphasizedItemID: emphasizedItemID)
         view.onWord = onWord
         let binding = $height
         view.onHeight = { value in if abs(binding.wrappedValue - value) > 1 { binding.wrappedValue = value } }
@@ -50,20 +56,23 @@ private final class RubyLabel: UIView {
     }
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 
-    func configure(segments: [RubySegment], showReading: Bool) {
+    func configure(segments: [RubySegment], showReading: Bool, pointSize: CGFloat, emphasizedItemID: String?) {
         let string = NSMutableAttributedString(string: "")
         links = []
-        let font = UIFontMetrics(forTextStyle: .title3).scaledFont(for: UIFont.systemFont(ofSize: 23))
+        let font = UIFontMetrics(forTextStyle: .title3).scaledFont(for: UIFont.systemFont(ofSize: pointSize))
         let paragraph = NSMutableParagraphStyle()
         paragraph.lineSpacing = 12
         for segment in segments {
+            let emphasized = emphasizedItemID != nil && segment.itemID == emphasizedItemID
+            let color = emphasized ? (UIColor(named: "AccentColor") ?? UIColor.systemTeal) : UIColor.label
             let range = NSRange(location: string.length, length: (segment.text as NSString).length)
             let text = NSMutableAttributedString(string: segment.text, attributes: [
-                .font: font, .foregroundColor: UIColor.label, .paragraphStyle: paragraph
+                .font: font, .foregroundColor: color, .paragraphStyle: paragraph
             ])
             if showReading, let reading = segment.reading, !reading.isEmpty {
                 let ruby = CTRubyAnnotationCreateWithAttributes(.auto, .auto, .before, reading as CFString,
-                    [kCTRubyAnnotationSizeFactorAttributeName as String: 0.5] as CFDictionary)
+                    [kCTRubyAnnotationSizeFactorAttributeName as String: 0.5,
+                     kCTForegroundColorAttributeName as String: color.cgColor] as CFDictionary)
                 text.addAttribute(NSAttributedString.Key(kCTRubyAnnotationAttributeName as String),
                                   value: ruby, range: NSRange(location: 0, length: text.length))
             }
