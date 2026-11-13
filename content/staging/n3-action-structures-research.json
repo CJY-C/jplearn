@@ -1,0 +1,121 @@
+{
+  "status": "research and planned functions only; not authored, registered or delivered",
+  "plannedFunctions": [
+    {
+      "id": "gn3b023",
+      "pattern": "kiru-kirenai",
+      "function": "action completion and inability to finish",
+      "dictionaryEntryID": 1384830,
+      "senseIDs": [
+        45304
+      ]
+    },
+    {
+      "id": "gn3b024",
+      "pattern": "kiru-kirenai",
+      "function": "state or degree to completion",
+      "source": "NINJAL compound-verb explanation, result-state emphasis -kiru"
+    },
+    {
+      "id": "gn3b025",
+      "pattern": "kakeru",
+      "function": "started and not finished; V-kake-no noun",
+      "dictionaryEntryID": 1207610,
+      "senseIDs": [
+        23428
+      ]
+    },
+    {
+      "id": "gn3b026",
+      "pattern": "kakeru",
+      "function": "on the verge of a transition",
+      "dictionaryEntryID": 1207610,
+      "senseIDs": [
+        23428
+      ]
+    },
+    {
+      "id": "gn3b027",
+      "pattern": "naosu",
+      "function": "redo or reconsider, without assuming success",
+      "dictionaryEntryID": 1599390,
+      "senseIDs": [
+        72281
+      ]
+    },
+    {
+      "id": "gn3b028",
+      "pattern": "zurai",
+      "function": "physical or interpersonal difficulty",
+      "dictionaryEntryID": 2096480,
+      "senseIDs": [
+        121541
+      ]
+    },
+    {
+      "id": "gn3b029",
+      "pattern": "hodo-wa-nai",
+      "function": "strongest-degree comparison in an explicitly bounded domain",
+      "sourceStatus": "precise primary explanation still pending; JPF BMA00048 was not accessible in the current request"
+    },
+    {
+      "id": "gn3b030",
+      "pattern": "shika-nai-no-choice",
+      "function": "available course of action under the described constraints",
+      "dictionaryEntryID": 2026790,
+      "senseIDs": [
+        114255
+      ]
+    },
+    {
+      "id": "gn3b031",
+      "pattern": "tokoro-datta",
+      "function": "near miss in prevented-event contexts",
+      "dictionaryEntryID": 1343100,
+      "senseIDs": [
+        40021
+      ],
+      "sourceStatus": "verify counterfactual context and contrast with ordinary phase use before authoring"
+    },
+    {
+      "id": "gn3b032",
+      "pattern": "toori-ni-doori-ni",
+      "function": "follow instructions or a model",
+      "dictionaryEntryIDs": [
+        1432920,
+        1432930
+      ],
+      "senseIDs": [
+        51367,
+        51370
+      ]
+    },
+    {
+      "id": "gn3b033",
+      "pattern": "toori-ni-doori-ni",
+      "function": "observed result matches report or prediction",
+      "dictionaryEntryIDs": [
+        1432920,
+        1432930
+      ],
+      "senseIDs": [
+        51367,
+        51370
+      ]
+    }
+  ],
+  "readPrimarySource": {
+    "url": "https://www2.ninjal.ac.jp/vvlexicon/about.html",
+    "sections": [
+      "syntactic versus lexical compounds",
+      "syntactic inception, completion and retrial",
+      "result-state emphasis -kiru"
+    ],
+    "notes": "Do not treat freely constructed verb combinations as separate new vocabulary roots; write own examples. Database itself omits syntactic compounds, so this explanation is the source, not a claim to have found all examples as lexical entries."
+  },
+  "secondaryResearchLead": {
+    "url": "https://bibdb.ninjal.ac.jp/bunken/ja/article/102018001884",
+    "status": "bibliography record only; full 2018 paper not claimed read"
+  },
+  "independentlyReviewed": 0
+}

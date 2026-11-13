@@ -1,0 +1,191 @@
+{
+  "status": "unregistered authored drafts; source facts checked, not independent language review",
+  "baseline": "9c9d287",
+  "manuscripts": {
+    "content/staging/n3-similarity-extensions.tsv": "630a78ab4501283972a3dd73171f9fbcd045a1e88e934711f3762cff15f2564b",
+    "content/staging/n3-tendency-and-coverage.tsv": "265d7e648a5bf95d003c31791a5b496769db5b66fd572b010be27067ca224cac",
+    "content/staging/n3-state-and-surface.tsv": "a8b8041a7aed4a745458db367bff24bd96c9d79309c6b130e4d5ba2873a76827"
+  },
+  "newGrammarFunctions": 9,
+  "newOriginalContexts": 54,
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "sourceID": "jmdict",
+    "localDatabaseSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "bundled": false
+  },
+  "facts": [
+    {
+      "targetID": "gn3b014",
+      "dictionaryEntryID": 1361140,
+      "senseIDs": [
+        42367
+      ],
+      "factSummary": {
+        "42367": [
+          "after (period of time) again (e.g. meeting again after a year)",
+          "for the first time in (period of time)"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b015",
+      "dictionaryEntryID": 1361140,
+      "senseIDs": [
+        42366
+      ],
+      "factSummary": {
+        "42366": [
+          "style",
+          "manner",
+          "way"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b016",
+      "dictionaryEntryID": 1277040,
+      "senseIDs": [
+        31899,
+        31900
+      ],
+      "factSummary": {
+        "31899": [
+          "direction",
+          "orientation",
+          "aspect",
+          "exposure"
+        ],
+        "31900": [
+          "suited to",
+          "suitable for",
+          "designed for"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b017",
+      "dictionaryEntryID": 1277090,
+      "senseIDs": [
+        31913
+      ],
+      "factSummary": {
+        "31913": [
+          "intended for ...",
+          "oriented towards ...",
+          "aimed at ..."
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b018",
+      "dictionaryEntryID": 2016470,
+      "senseIDs": [
+        113181
+      ],
+      "factSummary": {
+        "113181": [
+          "apt to (do)",
+          "liable to",
+          "prone to",
+          "inclined to",
+          "tend to"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b019",
+      "dictionaryEntryID": 2016470,
+      "senseIDs": [
+        113181
+      ],
+      "factSummary": {
+        "113181": [
+          "apt to (do)",
+          "liable to",
+          "prone to",
+          "inclined to",
+          "tend to"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b020",
+      "dictionaryEntryID": 1790980,
+      "senseIDs": [
+        92494
+      ],
+      "factSummary": {
+        "92494": [
+          "-like",
+          "-looking",
+          "-looked",
+          "tending to ..."
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b021",
+      "dictionaryEntryID": 1007480,
+      "senseIDs": [
+        1062
+      ],
+      "factSummary": {
+        "1062": [
+          "full of (e.g. mistakes)",
+          "riddled with"
+        ]
+      }
+    },
+    {
+      "targetID": "gn3b022",
+      "dictionaryEntryID": 1007480,
+      "senseIDs": [
+        1063
+      ],
+      "factSummary": {
+        "1063": [
+          "covered all over with (blood, mud, etc.)"
+        ]
+      }
+    }
+  ],
+  "primaryReadings": [
+    {
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do",
+      "status": "full public explanatory text read",
+      "targets": [
+        "gn3b016",
+        "gn3b017"
+      ]
+    },
+    {
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do",
+      "status": "full public explanatory text read",
+      "targets": [
+        "gn3b018",
+        "gn3b019"
+      ]
+    },
+    {
+      "url": "https://www.lang.nagoya-u.ac.jp/nichigen/menu7_folder/symposium/pdf/8/01.pdf",
+      "status": "four-page paper text read; own examples, no reproduced corpus sentences",
+      "targets": [
+        "gn3b014",
+        "gn3b015"
+      ]
+    },
+    {
+      "url": "https://meisei.repo.nii.ac.jp/record/1262/files/J-kcNo08a02.pdf",
+      "status": "primary repository search excerpt read, including page 42 degree-adverb discussion; full PDF requests returned HTTP 429, not claimed read",
+      "targets": [
+        "gn3b020"
+      ]
+    }
+  ],
+  "notes": [
+    "Noun がち is taught as constrained state collocations rather than freely attaching to all nouns.",
+    "気味 does not mechanically override explicit stronger degree adverbs.",
+    "Remaining prerequisite words, alternatives and matching controlled readings must be completed before registration."
+  ]
+}
