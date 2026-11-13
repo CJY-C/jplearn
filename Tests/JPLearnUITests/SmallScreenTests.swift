@@ -110,6 +110,7 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["today.statistics"].tap()
         let overview = app.descendants(matching: .any).matching(identifier: "statistics.overview").firstMatch
         XCTAssertTrue(overview.waitForExistence(timeout: 15))
+        XCTAssertTrue(app.staticTexts["单日最高 00:00"].exists)
         screenshot("SE3-Statistics-Overview")
         let level = app.buttons["statistics.level.N5"]
         for _ in 0..<3 where !level.isHittable { app.swipeUp() }
