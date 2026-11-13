@@ -2,6 +2,9 @@ name: Validate and build iOS IPA
 
 on:
   push:
+    paths-ignore:
+      - '**/*.md'
+      - 'content/staging/**'
   pull_request:
   workflow_dispatch:
 
