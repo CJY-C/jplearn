@@ -1,109 +1,5 @@
 {
-  "status": "research and planned functions only; not authored, registered or delivered",
-  "plannedFunctions": [
-    {
-      "id": "gn3b023",
-      "pattern": "kiru-kirenai",
-      "function": "action completion and inability to finish",
-      "dictionaryEntryID": 1384830,
-      "senseIDs": [
-        45304
-      ]
-    },
-    {
-      "id": "gn3b024",
-      "pattern": "kiru-kirenai",
-      "function": "state or degree to completion",
-      "source": "NINJAL compound-verb explanation, result-state emphasis -kiru"
-    },
-    {
-      "id": "gn3b025",
-      "pattern": "kakeru",
-      "function": "started and not finished; V-kake-no noun",
-      "dictionaryEntryID": 1207610,
-      "senseIDs": [
-        23428
-      ]
-    },
-    {
-      "id": "gn3b026",
-      "pattern": "kakeru",
-      "function": "on the verge of a transition",
-      "dictionaryEntryID": 1207610,
-      "senseIDs": [
-        23428
-      ]
-    },
-    {
-      "id": "gn3b027",
-      "pattern": "naosu",
-      "function": "redo or reconsider, without assuming success",
-      "dictionaryEntryID": 1599390,
-      "senseIDs": [
-        72281
-      ]
-    },
-    {
-      "id": "gn3b028",
-      "pattern": "zurai",
-      "function": "physical or interpersonal difficulty",
-      "dictionaryEntryID": 2096480,
-      "senseIDs": [
-        121541
-      ]
-    },
-    {
-      "id": "gn3b029",
-      "pattern": "hodo-wa-nai",
-      "function": "strongest-degree comparison in an explicitly bounded domain",
-      "sourceStatus": "precise primary explanation still pending; JPF BMA00048 was not accessible in the current request"
-    },
-    {
-      "id": "gn3b030",
-      "pattern": "shika-nai-no-choice",
-      "function": "available course of action under the described constraints",
-      "dictionaryEntryID": 2026790,
-      "senseIDs": [
-        114255
-      ]
-    },
-    {
-      "id": "gn3b031",
-      "pattern": "tokoro-datta",
-      "function": "near miss in prevented-event contexts",
-      "dictionaryEntryID": 1343100,
-      "senseIDs": [
-        40021
-      ],
-      "sourceStatus": "verify counterfactual context and contrast with ordinary phase use before authoring"
-    },
-    {
-      "id": "gn3b032",
-      "pattern": "toori-ni-doori-ni",
-      "function": "follow instructions or a model",
-      "dictionaryEntryIDs": [
-        1432920,
-        1432930
-      ],
-      "senseIDs": [
-        51367,
-        51370
-      ]
-    },
-    {
-      "id": "gn3b033",
-      "pattern": "toori-ni-doori-ni",
-      "function": "observed result matches report or prediction",
-      "dictionaryEntryIDs": [
-        1432920,
-        1432930
-      ],
-      "senseIDs": [
-        51367,
-        51370
-      ]
-    }
-  ],
+  "status": "source facts checked for eleven authored functions; unregistered and not independent language review",
   "readPrimarySource": {
     "url": "https://www2.ninjal.ac.jp/vvlexicon/about.html",
     "sections": [
@@ -117,5 +13,278 @@
     "url": "https://bibdb.ninjal.ac.jp/bunken/ja/article/102018001884",
     "status": "bibliography record only; full 2018 paper not claimed read"
   },
-  "independentlyReviewed": 0
+  "independentlyReviewed": 0,
+  "functions": [
+    {
+      "id": "gn3b023",
+      "pattern": "kiru-kirenai",
+      "function": "action completion and inability to finish",
+      "dictionaryEntryID": 1384830,
+      "senseIDs": [
+        45304
+      ],
+      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b024",
+      "pattern": "kiru-kirenai",
+      "function": "state or degree to completion",
+      "source": "NINJAL compound-verb explanation, result-state emphasis -kiru",
+      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b025",
+      "pattern": "kakeru",
+      "function": "started and not finished; V-kake-no noun",
+      "dictionaryEntryID": 1207610,
+      "senseIDs": [
+        23428
+      ],
+      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b026",
+      "pattern": "kakeru",
+      "function": "on the verge of a transition",
+      "dictionaryEntryID": 1207610,
+      "senseIDs": [
+        23428
+      ],
+      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b027",
+      "pattern": "naosu",
+      "function": "redo or reconsider, without assuming success",
+      "dictionaryEntryID": 1599390,
+      "senseIDs": [
+        72281
+      ],
+      "manuscript": "content/staging/n3-retrial-and-difficulty.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b028",
+      "pattern": "zurai",
+      "function": "physical or interpersonal difficulty",
+      "dictionaryEntryID": 2096480,
+      "senseIDs": [
+        121541
+      ],
+      "manuscript": "content/staging/n3-retrial-and-difficulty.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b029",
+      "pattern": "hodo-wa-nai",
+      "function": "strongest-degree comparison in an explicitly bounded domain",
+      "sourceStatus": "primary paper p.58 item82 visually checked; supplementary Waseda search table also read, full Waseda PDF unavailable",
+      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed",
+      "dictionaryEntryID": 1436510,
+      "senseIDs": [
+        51835,
+        51841
+      ]
+    },
+    {
+      "id": "gn3b030",
+      "pattern": "shika-nai-no-choice",
+      "function": "available course of action under the described constraints",
+      "dictionaryEntryID": 2026790,
+      "senseIDs": [
+        114255
+      ],
+      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b031",
+      "pattern": "tokoro-datta",
+      "function": "near miss in prevented-event contexts",
+      "dictionaryEntryID": 1343100,
+      "senseIDs": [
+        40021
+      ],
+      "sourceStatus": "primary paper p.58 items94,97,98 visually checked; ordinary phase and prevented-event contexts distinguished",
+      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b032",
+      "pattern": "toori-ni-doori-ni",
+      "function": "follow instructions or a model",
+      "dictionaryEntryIDs": [
+        1432920,
+        1432930
+      ],
+      "senseIDs": [
+        51367,
+        51370
+      ],
+      "manuscript": "content/staging/n3-models-and-correspondence.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    },
+    {
+      "id": "gn3b033",
+      "pattern": "toori-ni-doori-ni",
+      "function": "observed result matches report or prediction",
+      "dictionaryEntryIDs": [
+        1432920,
+        1432930
+      ],
+      "senseIDs": [
+        51367,
+        51370
+      ],
+      "manuscript": "content/staging/n3-models-and-correspondence.tsv",
+      "status": "authored with six original contexts; not registered or independently reviewed"
+    }
+  ],
+  "manuscripts": {
+    "content/staging/n3-completion-and-inception.tsv": "25d9630a1b700c2aa5113effeca9ff855660baece9dc0df68ccd47d3b40c589c",
+    "content/staging/n3-retrial-and-difficulty.tsv": "6fe2079dac03c260cc50ab32231d12963b92e42fe8496ed28be8259ea1a76433",
+    "content/staging/n3-boundaries-and-near-misses.tsv": "1b6257fc53b2631e56b24761202d4631aef181e26717ae3df867163f061b2679",
+    "content/staging/n3-models-and-correspondence.tsv": "2d8f93ee8c5ee190021ef5e7e95756ae007d2629347645c307f9e91856553816"
+  },
+  "newGrammarFunctions": 11,
+  "newOriginalContexts": 66,
+  "dictionary": {
+    "sourceID": "jmdict",
+    "localDatabaseSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "bundled": false
+  },
+  "primarySourcesUsed": [
+    {
+      "url": "https://nakanihon.ac.jp/wp-content/themes/nac/doc/college/ronso/nac_ronso_044-04.pdf",
+      "title": "高瀬利恵子：日本語上級文型の意味分類",
+      "year": 2014,
+      "status": "downloaded complete PDF; visually inspected printed pages45,55,56,58, not claimed to have read all sixteen pages",
+      "printedPage56Items": [
+        30,
+        31
+      ],
+      "printedPage58Items": [
+        82,
+        94,
+        97,
+        98
+      ],
+      "localPDFSHA256": "7deefe9988ff9fdcddb5cce5beec8d6702a72c5b5ff21889b298eb8b4b4d2323",
+      "targets": [
+        "gn3b025",
+        "gn3b026",
+        "gn3b029",
+        "gn3b030",
+        "gn3b031"
+      ]
+    },
+    {
+      "url": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf",
+      "status": "Topic7 printed p.120, Vたとおり/Nどおり and other verb forms read in primary PDF text; source examples not reused",
+      "targets": [
+        "gn3b032",
+        "gn3b033"
+      ]
+    },
+    {
+      "url": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html",
+      "status": "entry sense2 and contrasts with street and counter senses read",
+      "targets": [
+        "gn3b032",
+        "gn3b033"
+      ]
+    }
+  ],
+  "scopeReview": [
+    "Removed unintroduced N2 にかけて, 以上 in conditional use, 限り and ものの from draft contexts rather than silently requiring later-stage grammar.",
+    "Stop an action uses vn4o005 / やめる; turn off the stove uses v0320 / とめる.",
+    "Receive a wallet uses vn6157, not the interpret-as sense vn3g010.",
+    "Open a book page uses vn4o001, not hold-an-event or open-an-electronic-file meanings.",
+    "耳を傾ける and 口に出す are lexical idioms and remain explicit unresolved prerequisite targets, not hidden grammar markers."
+  ],
+  "provisionalChapterCoverage": {
+    "functions": 33,
+    "contexts": 198,
+    "referencePatterns": 22,
+    "unresolvedAnnotatedPrerequisiteForms": 65,
+    "countedAsDelivered": false
+  },
+  "reusedVariants": {
+    "status": "spelling or kana variants of already taught matching senses; no new words or readings counted",
+    "occurrences": [
+      {
+        "manuscript": "content/staging/n3-similarity-and-tendencies.tsv",
+        "surface": "手掛かり",
+        "reading": "てがかり",
+        "previousReference": "手掛かり",
+        "existingID": "vn4j125"
+      },
+      {
+        "manuscript": "content/staging/n3-state-and-surface.tsv",
+        "surface": "ほこり",
+        "reading": "ほこり",
+        "previousReference": "ほこり",
+        "existingID": "vn3j152"
+      },
+      {
+        "manuscript": "content/staging/n3-completion-and-inception.tsv",
+        "surface": "いす",
+        "reading": "いす",
+        "previousReference": "いす",
+        "existingID": "v0053"
+      },
+      {
+        "manuscript": "content/staging/n3-completion-and-inception.tsv",
+        "surface": "暖",
+        "reading": "あたた",
+        "previousReference": "暖まる",
+        "existingID": "vn4812"
+      },
+      {
+        "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+        "surface": "他",
+        "reading": "ほか",
+        "previousReference": "他",
+        "existingID": "vn5128"
+      }
+    ],
+    "dictionarySenseChecks": [
+      {
+        "existingID": "vn4j125",
+        "entryID": 1598300,
+        "senseID": 72104,
+        "note": "clue, not physical handhold"
+      },
+      {
+        "existingID": "vn3j152",
+        "entryID": 1565750,
+        "senseID": 67644,
+        "note": "dust, not pride homophone or numerical unit"
+      },
+      {
+        "existingID": "v0053",
+        "entryID": 1157070,
+        "senseID": 17191,
+        "note": "physical chair, not office or position"
+      },
+      {
+        "existingID": "vn4812",
+        "entryID": 1586430,
+        "senseID": 70383,
+        "note": "room gets warm; same taught warmth sense"
+      },
+      {
+        "existingID": "vn5128",
+        "entryID": 1203260,
+        "senseID": 22856,
+        "note": "other reader; not physical outside"
+      }
+    ]
+  },
+  "distractorReview": "19 pairs revised to plausible event-stage, information-source or scope confusions; this is author revision, not independent language review."
 }
