@@ -141,10 +141,11 @@ struct StatisticsView: View {
 
 private struct StudyTimeBars: View {
     let days: [DailyStudy]
-    private var peak: Double { max(60, days.map(\.seconds).max() ?? 0) }
+    private var maximumSeconds: Double { days.map(\.seconds).max() ?? 0 }
+    private var peak: Double { max(60, maximumSeconds) }
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("最高 \(Int(ceil(peak / 60))) 分钟 / 天").font(.caption).foregroundColor(.secondary)
+            Text("单日最高 \(StudyTime.clock(maximumSeconds))").font(.caption).foregroundColor(.secondary)
             HStack(alignment: .bottom, spacing: days.count > 7 ? 3 : 10) {
                 ForEach(days) { day in
                     VStack(spacing: 0) {
