@@ -29,7 +29,7 @@
 ## 通过 GitHub 构建
 
 1. 将项目放入自己的 GitHub 仓库，保留 `.github/workflows/build.yml`。
-2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；push 和 pull request 也会触发检查。
+2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；代码与已接入课程的 push、pull request 也会触发检查。仅 Markdown 文档和 `content/staging/` 章稿的 push 不自动构建，手动运行仍可用。
 3. 工作流通过后，在 [Releases](https://github.com/CJY-C/jplearn/releases) 下载 `JPLearn.ipa`；Actions artifact 也会保留。
 4. 在已经安装 TrollStore 的兼容设备上打开 IPA 并安装。应用固定 Bundle ID 为 `dev.jplearn.reader`，后续同 ID 更新可保留应用数据。
 

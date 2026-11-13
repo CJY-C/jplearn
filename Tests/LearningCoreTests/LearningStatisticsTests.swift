@@ -89,7 +89,11 @@ final class LearningStatisticsTests: XCTestCase {
         XCTAssertEqual(stats.totalSeconds, 0)
         XCTAssertEqual(stats.activeDays, 0)
         XCTAssertTrue(stats.forecasts.allSatisfy { $0.points.isEmpty })
-        let n2 = try XCTUnwrap(stats.levels.first { $0.id == "N2" })
+        // Use an empty fixture, so adding real N2 content later does not
+        // turn the test into a requirement to keep that level unavailable.
+        let emptyPack = try JSONDecoder().decode(ContentPack.self, from: Data(#"{"schemaVersion":2,"id":"empty","version":"test","title":"Empty","notice":"","references":[],"stages":[],"items":[],"sentences":[],"exercises":[],"lessons":[],"readings":[]}"#.utf8))
+        let empty = try LearningStatistics.make(pack: emptyPack, events: [], now: now)
+        let n2 = try XCTUnwrap(empty.levels.first { $0.id == "N2" })
         XCTAssertEqual(n2.meaning.total, 0)
         XCTAssertEqual(n2.meaning.fraction, 0)
     }
