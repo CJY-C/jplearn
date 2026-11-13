@@ -20,6 +20,10 @@ public struct ReviewScheduler {
     ))
     public init() {}
 
+    func retrievability(card: Card, at date: Date) -> Double {
+        scheduler.getRetrievability(card: card, now: date).number
+    }
+
     public func validateHistory(_ events: [LearningEvent]) throws {
         _ = try replay(events)
     }

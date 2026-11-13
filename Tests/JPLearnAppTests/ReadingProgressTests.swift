@@ -51,6 +51,27 @@ final class ReadingProgressTests: XCTestCase {
         XCTAssertNotNil(model.checkpoint?.current)
     }
 
+    @MainActor func testReadingAidRemainsAssistedAfterClosingAndReopening() throws {
+        let folder = try directory()
+        let first = try AppModel(storageDirectory: folder)
+        let reading = try XCTUnwrap(first.pack.readings.first { $0.id == "r033" })
+        try first.startAssessment(reading)
+        let entry = try XCTUnwrap(first.checkpoint?.current?.id)
+        try first.markAssisted(entryID: entry)
+        let restored = try AppModel(storageDirectory: folder)
+        try restored.resumeSession()
+        for question in reading.allQuestions {
+            try restored.recordReadingSelection(entryID: entry, questionID: question.id,
+                                                 selection: question.answerIndex, assisted: false)
+            try restored.advanceReadingQuestion(entryID: entry, questionID: question.id)
+        }
+        let attempts = restored.events.filter { $0.kind == .questionAttempt }
+        XCTAssertEqual(attempts.count, reading.allQuestions.count)
+        XCTAssertTrue(attempts.allSatisfy { $0.assisted && $0.correct == false })
+        XCTAssertEqual(restored.events.first { $0.kind == .readingAttempt }?.value, "incorrect")
+        XCTAssertFalse(restored.events.contains { $0.kind == .review })
+    }
+
     @MainActor func testPlacementHasNoFSRSHistory() throws {
         let model = try AppModel(storageDirectory: directory())
         try model.recordPlacement(moduleID: "intro1", passed: true)

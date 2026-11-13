@@ -34,6 +34,13 @@ struct TodayView: View {
                 .background(Color(UIColor.systemGroupedBackground))
         }
         .navigationTitle("今天").navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                NavigationLink(destination: StatisticsView()) {
+                    Image(systemName: "chart.bar.xaxis")
+                }.accessibilityLabel("学习统计").accessibilityIdentifier("today.statistics")
+            }
+        }
         .fullScreenCover(isPresented: $session) { NavigationView { SessionView() }.navigationViewStyle(.stack) }
     }
 

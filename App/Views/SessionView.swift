@@ -173,17 +173,27 @@ private struct RecallCard: View {
               let id = item.exampleSentenceIDs?.first else { return nil }
         return model.pack.sentence(id)
     }
+    private var readingContext: AnnotatedSentence? {
+        guard skill == .reading, revealed, let id = item.exampleSentenceIDs?.first else { return nil }
+        return model.pack.sentence(id)
+    }
 
     var body: some View {
-        StudyCardLayout(scrolling: hasLongExplanation || senseContext != nil) { compact in
+        StudyCardLayout(scrolling: hasLongExplanation || senseContext != nil || readingContext != nil) { compact in
             VStack(alignment: .leading, spacing: compact ? 10 : 16) {
                 HStack {
                     Text(skill.title).font(.caption.weight(.medium)).foregroundColor(.secondary)
                     Spacer()
                     Text(item.level).font(.caption).foregroundColor(.secondary)
                 }
-                Text(item.text).font(.system(size: compact ? wordSize * 0.81 : wordSize, weight: .medium))
-                    .minimumScaleFactor(0.75).lineLimit(2)
+                if skill == .meaning || revealed {
+                    RubyText(segments: WordReadingGuide.segments(text: item.text, reading: item.reading, itemID: item.id),
+                             pointSize: compact ? 34 : 42)
+                        .accessibilityIdentifier("study.wordReadingGuide")
+                } else {
+                    Text(item.text).font(.system(size: compact ? wordSize * 0.81 : wordSize, weight: .medium))
+                        .minimumScaleFactor(0.75).lineLimit(2)
+                }
                 if skill == .reading && !revealed, let cue = item.readingCue {
                     Text(cue).font(.subheadline).foregroundColor(.secondary)
                 }
@@ -212,6 +222,12 @@ private struct RecallCard: View {
                     if let correct = typedCorrect {
                         Label(correct ? "读音正确" : "再看一次，下次继续", systemImage: correct ? "checkmark.circle" : "arrow.counterclockwise")
                             .font(.caption).foregroundColor(.accentColor)
+                    }
+                    if let context = readingContext {
+                        Text("放回句子里认读").font(.caption.weight(.medium)).foregroundColor(.secondary)
+                        RubyText(segments: context.segments, emphasizedItemID: item.id)
+                            .accessibilityIdentifier("study.readingContext")
+                        Text(context.translation).font(.callout).foregroundColor(.secondary)
                     }
                 } else {
                     Text(skill == .reading ? "这个词怎么读？" : (senseContext == nil ? "这个词是什么意思？" : "句中这个词是什么意思？")).font(.headline)
@@ -347,7 +363,7 @@ private struct ReadingCard: View {
     @State private var showReading = false
     @State private var selected: KnowledgeItem?
     @State private var choice: Int?
-    private var usedHelp: Bool { assisted || previouslyAssisted }
+    private var usedHelp: Bool { assisted || previouslyAssisted || showReading }
     private var index: Int { model.checkpoint?.questionIndex ?? 0 }
     private var question: ReadingQuestion { reading.allQuestions[min(index, reading.allQuestions.count - 1)] }
 
@@ -356,12 +372,15 @@ private struct ReadingCard: View {
             HStack {
                 Text(reading.title).font(.headline)
                 Spacer()
-                Button(showReading ? "收起注音" : "注音") {
-                    showReading.toggle()
-                    if showReading && choice == nil { onAssistance(); assisted = true }
-                }.buttonStyle(StudyQuietButtonStyle())
                 LookupMenu(sentenceIDs: reading.sentenceIDs) { lookup($0) }
             }.padding(.horizontal, 18).padding(.bottom, 8)
+            Toggle("假名注音", isOn: $showReading)
+                .font(.subheadline).tint(.accentColor)
+                .frame(minHeight: 44).padding(.horizontal, 18).padding(.bottom, 4)
+                .accessibilityIdentifier("study.readingFurigana")
+                .onChange(of: showReading) { enabled in
+                    if enabled { onAssistance(); assisted = true }
+                }
             let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
             Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
                 .font(.caption).foregroundColor(.secondary)

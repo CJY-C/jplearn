@@ -72,9 +72,65 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["today.start"].tap()
         visible(app.buttons["study.reveal"])
         XCTAssertFalse(app.scrollViews["study.textScroll"].exists)
+        XCTAssertFalse(app.staticTexts["study.wordReadingGuide"].exists, "Reading recall must not reveal furigana early")
         app.buttons["study.reveal"].tap()
+        XCTAssertTrue(app.staticTexts["study.wordReadingGuide"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["study.readingContext"].exists)
         for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
         screenshot("SE3-Recall")
+    }
+
+    @MainActor func testReadingFuriganaSwitchStartsOffAndDoesNotMoveAnswerButtons() {
+        launch(readingID: "r025")
+        app.buttons["today.start"].tap()
+        let toggle = app.switches["study.readingFurigana"]
+        visible(toggle)
+        XCTAssertEqual(toggle.value as? String, "0")
+        visibleChoices()
+        let fixed = app.buttons["study.choice.0"].frame
+        toggle.tap()
+        XCTAssertEqual(toggle.value as? String, "1")
+        XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
+        screenshot("SE3-Reading-Furigana-On")
+        toggle.tap()
+        XCTAssertEqual(toggle.value as? String, "0")
+        visibleChoices()
+        app.buttons["study.choice.0"].tap()
+        app.buttons["study.continue"].tap()
+        XCTAssertTrue(app.staticTexts["理解 2 / 2"].waitForExistence(timeout: 5))
+        XCTAssertEqual(toggle.value as? String, "0")
+        visibleChoices()
+        screenshot("SE3-Reading-Furigana-Off")
+    }
+
+    @MainActor func testStatisticsShowsEmptyHistoryAndSeparateProgressOnSE3() {
+        launch()
+        visible(app.buttons["today.statistics"])
+        visible(app.buttons["today.start"])
+        app.buttons["today.statistics"].tap()
+        let overview = app.descendants(matching: .any).matching(identifier: "statistics.overview").firstMatch
+        XCTAssertTrue(overview.waitForExistence(timeout: 15))
+        screenshot("SE3-Statistics-Overview")
+        let level = app.buttons["statistics.level.N5"]
+        for _ in 0..<3 where !level.isHittable { app.swipeUp() }
+        visible(level)
+        level.tap()
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "练过 0 项")).firstMatch.exists)
+        for _ in 0..<4 where !app.segmentedControls["statistics.skill"].isHittable { app.swipeUp() }
+        XCTAssertTrue(app.staticTexts["statistics.emptyForecast"].waitForExistence(timeout: 5))
+        screenshot("SE3-Statistics-Empty-Forecast")
+    }
+
+    @MainActor func testStatisticsForecastUsesExistingHistoryOnSE3() {
+        launch(knownVocabulary: true, largeText: true)
+        app.buttons["today.statistics"].tap()
+        XCTAssertTrue(app.descendants(matching: .any).matching(identifier: "statistics.overview").firstMatch.waitForExistence(timeout: 20))
+        let chart = app.descendants(matching: .any).matching(identifier: "statistics.retentionChart").firstMatch
+        for _ in 0..<5 where !chart.isHittable { app.swipeUp() }
+        XCTAssertTrue(chart.waitForExistence(timeout: 5))
+        visible(chart)
+        XCTAssertTrue((chart.value as? String)?.contains("30 天") == true)
+        screenshot("SE3-Statistics-Retention")
     }
 
     @MainActor func testAnotherWordMeaningShowsContextAboveFixedRatings() {
