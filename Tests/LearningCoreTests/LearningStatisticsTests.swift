@@ -93,4 +93,20 @@ final class LearningStatisticsTests: XCTestCase {
         XCTAssertEqual(n2.meaning.total, 0)
         XCTAssertEqual(n2.meaning.fraction, 0)
     }
+
+    func testRereadingCountsOnePassageAndDoesNotInventWordReviews() throws {
+        let pack = try ContentPack.bundled()
+        let reading = try XCTUnwrap(pack.readings.first)
+        let first = LearningEvent(deviceID: UUID(), timestamp: now.addingTimeInterval(-86_400),
+            kind: .readingAttempt, targetID: reading.id, value: "correct")
+        let latest = LearningEvent(deviceID: UUID(), timestamp: now.addingTimeInterval(-1),
+            kind: .readingAttempt, targetID: reading.id, assisted: true, value: "incorrect")
+        let stats = try LearningStatistics.make(pack: pack, events: [first, first, latest], now: now)
+        let level = try XCTUnwrap(stats.levels.first { $0.id == reading.level })
+        XCTAssertEqual(level.passages.practiced, 1)
+        XCTAssertEqual(level.passages.remembered, 0)
+        XCTAssertEqual(stats.reviewCount, 0)
+        XCTAssertEqual(level.meaning.practiced, 0)
+        XCTAssertTrue(stats.forecasts.allSatisfy { $0.points.isEmpty })
+    }
 }

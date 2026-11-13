@@ -177,14 +177,14 @@ private struct RetentionChart: View {
                     let width = proxy.size.width, height = proxy.size.height
                     Path { path in
                         for fraction in [0.0, 0.5, 1.0] {
-                            let y = height * fraction
+                            let y = height * CGFloat(fraction)
                             path.move(to: CGPoint(x: 0, y: y)); path.addLine(to: CGPoint(x: width, y: y))
                         }
                     }.stroke(Color.secondary.opacity(0.2), lineWidth: 1)
                     Path { path in
                         for (index, point) in points.enumerated() {
-                            let position = CGPoint(x: width * Double(point.day) / 30,
-                                                   y: height * (1 - point.probability))
+                            let position = CGPoint(x: width * CGFloat(point.day) / 30,
+                                                   y: height * CGFloat(1 - point.probability))
                             if index == 0 { path.move(to: position) } else { path.addLine(to: position) }
                         }
                     }.stroke(Color.accentColor, style: StrokeStyle(lineWidth: 2.5, lineCap: .round, lineJoin: .round))

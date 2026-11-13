@@ -57,6 +57,8 @@ open JPLearn.xcodeproj
 
 修改编写源后运行 `python3 scripts/compile_course.py`，再运行 `python3 scripts/build_content.py`。统一编译器从 [编写源注册表](content/manuscripts.json) 建立完整词条索引，拒绝遗漏的源文件或未注册批次；不使用旧生成文件中的残留词条来补链接。新增 N4–N2 源用 `H` 明确声明级别；旧 N5 源保持兼容。
 
+0.19.1 字音与统计改动正在验证，尚未发布 IPA。本地 60 项内容检查通过，Swift 5.10.1 下 13 项针对性核心测试通过（10 项新增统计／注音、3 项既有多义词）；Linux 验证副本使用未改动的对应生产源，排除无关的 Apple CryptoKit 备份模块。改动的 SwiftUI 文件通过语法解析，但这不等同于 iOS 编译或界面验收。[构建 43460938753](https://github.com/CJY-C/jplearn/actions/runs/43460938753) 在启动前被账号付款／额度问题阻止，iOS 集成、SE3 界面、设备归档与 Release 仍待完成。
+
 2026-11-09（北京时间）的 [0.19.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42505729281)通过 142 项检查：60 内容、56 核心、9 iOS 集成与 17 SE3 界面；52 份注册编写源及 CI 覆盖报告与本地一致。新增 281 词、37 句型功能、20 阅读，含 4 篇未见检测，仍未完成全部 N3–N2。下载包与发布提交 `1de9b4cfa28ee089c0c21562d83f73fbcc8ad82e` 的课程资源逐字节一致；0.19.0 / build 24、arm64 和二进制最低目标 iOS 15.5 已核验，文件 3,129,023 字节，SHA-256 为 `8d0fcfedf635c873480a9aaefd13b576920abeb83218de33dced6919400e4183`。SE3 大字号词义语境卡与长阅读第二题反馈截图复核通过；旧版系统真机及双机 iCloud 验收仍待完成。以下为此前版本记录。
 
 2026-11-08（北京时间）的 [0.18.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42471378463) 已通过 56 项内容检查、56 项核心测试、9 项 iOS 集成测试和 17 项 SE3 界面测试，完成归档并自动发布 [IPA](https://github.com/CJY-C/jplearn/releases/tag/v0.18.0)。47 份注册编写源通过一致性校验；本批 25 篇阅读均超过 350 个日语字符、标注实词均可学习，5 篇仅供未见检测。全包为 3,088 个词汇根、另 13 个义项、270 篇阅读，完整 N5–N2 门槛仍未满足。

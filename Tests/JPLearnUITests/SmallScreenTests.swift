@@ -122,7 +122,7 @@ final class SmallScreenTests: XCTestCase {
     }
 
     @MainActor func testStatisticsForecastUsesExistingHistoryOnSE3() {
-        launch(knownVocabulary: true)
+        launch(knownVocabulary: true, largeText: true)
         app.buttons["today.statistics"].tap()
         XCTAssertTrue(app.descendants(matching: .any).matching(identifier: "statistics.overview").firstMatch.waitForExistence(timeout: 20))
         let chart = app.descendants(matching: .any).matching(identifier: "statistics.retentionChart").firstMatch
