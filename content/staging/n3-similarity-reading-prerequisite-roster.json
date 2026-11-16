@@ -1,0 +1,4913 @@
+{
+  "status": "candidate dictionary facts only; no prerequisite roots selected or authored",
+  "baselineVersion": "0.19.0",
+  "newThemeWordsConsidered": 120,
+  "unresolvedReadingForms": 108,
+  "combinedGrammarAndReadingForms": 161,
+  "deliberatelyUnlinkedProperNames": {
+    "ミオ": [
+      "rn3130sa",
+      "rn3130sb",
+      "rn3130sc",
+      "rn3130sf"
+    ]
+  },
+  "dictionarySHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "note": "Candidate readings, senses, community levels and possible existing targets are not automatically accepted. No source examples or Chinese translations reused. Higher community grades do not reduce the required additional N2 quota. Compounds or idioms absent from direct lookup require separate phrase/source review. Proper names remain unlinked and are not vocabulary roots.",
+  "entries": [
+    {
+      "form": "おかげで",
+      "occurrences": [
+        {
+          "context": "rn3116sd",
+          "surface": "おかげで",
+          "ruby": "おかげで"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1270210,
+          "spelling": [
+            "お陰で",
+            "お蔭で",
+            "御蔭で",
+            "御陰で"
+          ],
+          "readings": [
+            "おかげで"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 31093,
+              "gloss": [
+                "thanks to ...",
+                "owing to ...",
+                "because of ..."
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "けれども",
+      "occurrences": [
+        {
+          "context": "rn3130se",
+          "surface": "けれども",
+          "ruby": "けれども"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1004200,
+          "spelling": [],
+          "readings": [
+            "けど",
+            "けれど",
+            "けれども",
+            "けども",
+            "けんど"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 596,
+              "gloss": [
+                "but",
+                "however",
+                "although"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "しおり",
+      "occurrences": [
+        {
+          "context": "rn3119sc",
+          "surface": "しおり",
+          "ruby": "しおり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1568040,
+          "spelling": [
+            "栞",
+            "枝折り",
+            "枝折"
+          ],
+          "readings": [
+            "しおり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 67907,
+              "gloss": [
+                "bookmark"
+              ]
+            },
+            {
+              "senseID": 67908,
+              "gloss": [
+                "guidebook"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 2834703,
+          "spelling": [
+            "撓",
+            "萎",
+            "撓り"
+          ],
+          "readings": [
+            "しおり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 204901,
+              "gloss": [
+                "interpenetration of spirit between the poet and nature in a haiku"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "その場",
+      "occurrences": [
+        {
+          "context": "rn3116sc",
+          "surface": "その場",
+          "ruby": "そのば"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2205240,
+          "spelling": [
+            "その場",
+            "其の場"
+          ],
+          "readings": [
+            "そのば"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 132960,
+              "gloss": [
+                "there",
+                "that situation",
+                "that occasion"
+              ]
+            },
+            {
+              "senseID": 132961,
+              "gloss": [
+                "the spot (i.e. \"on the spot\")",
+                "immediately",
+                "then and there"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "たすき",
+      "occurrences": [
+        {
+          "context": "rn3128sd",
+          "surface": "たすき",
+          "ruby": "たすき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2013620,
+          "spelling": [
+            "襷",
+            "繦",
+            "手繦"
+          ],
+          "readings": [
+            "たすき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 112882,
+              "gloss": [
+                "cord used to tuck up the sleeves of a kimono"
+              ]
+            },
+            {
+              "senseID": 112883,
+              "gloss": [
+                "sash (worn across chest, e.g. by election candidate or relay runners)"
+              ]
+            },
+            {
+              "senseID": 112884,
+              "gloss": [
+                "wrapper band on books, CDs, etc."
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "ただ",
+      "occurrences": [
+        {
+          "context": "rn3128sb",
+          "surface": "ただ",
+          "ruby": "ただ"
+        },
+        {
+          "context": "rn3117se",
+          "surface": "ただ",
+          "ruby": "ただ"
+        },
+        {
+          "context": "rn3119sb",
+          "surface": "ただ",
+          "ruby": "ただ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1538900,
+          "spelling": [
+            "只",
+            "唯",
+            "徒",
+            "但",
+            "常"
+          ],
+          "readings": [
+            "ただ",
+            "タダ"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 64427,
+              "gloss": [
+                "ordinary",
+                "common",
+                "usual"
+              ]
+            },
+            {
+              "senseID": 64428,
+              "gloss": [
+                "free of charge"
+              ]
+            },
+            {
+              "senseID": 64429,
+              "gloss": [
+                "unaffected",
+                "as is",
+                "safe"
+              ]
+            },
+            {
+              "senseID": 64430,
+              "gloss": [
+                "only",
+                "merely",
+                "just",
+                "simply"
+              ]
+            },
+            {
+              "senseID": 64431,
+              "gloss": [
+                "but",
+                "however",
+                "nevertheless"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 2406710,
+          "spelling": [
+            "直"
+          ],
+          "readings": [
+            "ただ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 152900,
+              "gloss": [
+                "straight",
+                "direct"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "できれば",
+      "occurrences": [
+        {
+          "context": "rn3122se",
+          "surface": "できれば",
+          "ruby": "できれば"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2825960,
+          "spelling": [
+            "出来れば"
+          ],
+          "readings": [
+            "できれば"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 195890,
+              "gloss": [
+                "if possible"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "まとめる",
+      "occurrences": [
+        {
+          "context": "rn3125sa",
+          "surface": "まとめ",
+          "ruby": "まとめ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1440930,
+          "spelling": [
+            "纏める"
+          ],
+          "readings": [
+            "まとめる"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 52390,
+              "gloss": [
+                "to collect",
+                "to put (it all) together",
+                "to integrate",
+                "to consolidate",
+                "to unify"
+              ]
+            },
+            {
+              "senseID": 52391,
+              "gloss": [
+                "to summarize",
+                "to aggregate"
+              ]
+            },
+            {
+              "senseID": 52392,
+              "gloss": [
+                "to bring to a conclusion",
+                "to finalize",
+                "to settle",
+                "to put in order"
+              ]
+            },
+            {
+              "senseID": 52393,
+              "gloss": [
+                "to establish",
+                "to decide"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "まるで",
+      "occurrences": [
+        {
+          "context": "rn3130sb",
+          "surface": "まるで",
+          "ruby": "まるで"
+        },
+        {
+          "context": "rn3113sc",
+          "surface": "まるで",
+          "ruby": "まるで"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1216280,
+          "spelling": [
+            "丸で"
+          ],
+          "readings": [
+            "まるで"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 24512,
+              "gloss": [
+                "quite",
+                "entirely",
+                "completely",
+                "at all"
+              ]
+            },
+            {
+              "senseID": 24513,
+              "gloss": [
+                "as if",
+                "as though",
+                "just like"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "ボード",
+      "occurrences": [
+        {
+          "context": "rn3116sf",
+          "surface": "ボード",
+          "ruby": "ぼーど"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1123470,
+          "spelling": [],
+          "readings": [
+            "ボード"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 13547,
+              "gloss": [
+                "board"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "メニュー",
+      "occurrences": [
+        {
+          "context": "rn3127sf",
+          "surface": "メニュー",
+          "ruby": "めにゅー"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1133790,
+          "spelling": [],
+          "readings": [
+            "メニュー",
+            "ムニュ"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 14633,
+              "gloss": [
+                "menu"
+              ]
+            },
+            {
+              "senseID": 14634,
+              "gloss": [
+                "schedule",
+                "program",
+                "programme"
+              ]
+            },
+            {
+              "senseID": 14635,
+              "gloss": [
+                "(computer) menu"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "上流",
+      "occurrences": [
+        {
+          "context": "rn3130sd",
+          "surface": "上流",
+          "ruby": "じょうりゅう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1354510,
+          "spelling": [
+            "上流"
+          ],
+          "readings": [
+            "じょうりゅう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 41496,
+              "gloss": [
+                "upper stream",
+                "upper course",
+                "upper reaches"
+              ]
+            },
+            {
+              "senseID": 41497,
+              "gloss": [
+                "upstream"
+              ]
+            },
+            {
+              "senseID": 41498,
+              "gloss": [
+                "upper classes"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "両側",
+      "occurrences": [
+        {
+          "context": "rn3130sb",
+          "surface": "両側",
+          "ruby": "りょうがわ"
+        },
+        {
+          "context": "rn3113se",
+          "surface": "両側",
+          "ruby": "りょうがわ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1585140,
+          "spelling": [
+            "両側"
+          ],
+          "readings": [
+            "りょうがわ",
+            "りょうそく"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 70205,
+              "gloss": [
+                "both sides"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "両手",
+      "occurrences": [
+        {
+          "context": "rn3115sb",
+          "surface": "両手",
+          "ruby": "りょうて"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1553660,
+          "spelling": [
+            "両手"
+          ],
+          "readings": [
+            "りょうて"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 66236,
+              "gloss": [
+                "both hands",
+                "both arms"
+              ]
+            },
+            {
+              "senseID": 66237,
+              "gloss": [
+                "ten"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "丸",
+      "occurrences": [
+        {
+          "context": "rn3126sa",
+          "surface": "丸",
+          "ruby": "まる"
+        },
+        {
+          "context": "rn3126sc",
+          "surface": "丸",
+          "ruby": "まる"
+        },
+        {
+          "context": "rn3126se",
+          "surface": "丸",
+          "ruby": "まる"
+        },
+        {
+          "context": "rn3126sf",
+          "surface": "丸",
+          "ruby": "まる"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1216250,
+          "spelling": [
+            "丸",
+            "円"
+          ],
+          "readings": [
+            "まる",
+            "マル"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 24504,
+              "gloss": [
+                "circle"
+              ]
+            },
+            {
+              "senseID": 24505,
+              "gloss": [
+                "entirety",
+                "whole",
+                "full",
+                "complete"
+              ]
+            },
+            {
+              "senseID": 24506,
+              "gloss": [
+                "money",
+                "dough",
+                "moola"
+              ]
+            },
+            {
+              "senseID": 24507,
+              "gloss": [
+                "enclosure inside a castle's walls"
+              ]
+            },
+            {
+              "senseID": 24508,
+              "gloss": [
+                "soft-shelled turtle"
+              ]
+            },
+            {
+              "senseID": 24509,
+              "gloss": [
+                "suffix for ship names",
+                "suffix for names of people (esp. infants)",
+                "suffix for names of swords, armour, musical instruments, etc.",
+                "suffix for names of dogs, horses, etc."
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "付ける",
+      "occurrences": [
+        {
+          "context": "rn3118sb",
+          "surface": "つ",
+          "ruby": "つ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1495770,
+          "spelling": [
+            "付ける",
+            "着ける",
+            "附ける"
+          ],
+          "readings": [
+            "つける"
+          ],
+          "referenceLevels": [
+            "N2",
+            "N3"
+          ],
+          "existingCandidates": [
+            {
+              "id": "vn5246",
+              "text": "つける",
+              "reading": "つける",
+              "meaning": "打开（灯、电器等）"
+            },
+            {
+              "id": "vn3i084",
+              "text": "つける",
+              "reading": "つける",
+              "meaning": "添上、加上；给事物添加名称、号码或标记"
+            }
+          ],
+          "senses": [
+            {
+              "senseID": 59114,
+              "gloss": [
+                "to attach",
+                "to join",
+                "to add",
+                "to append",
+                "to affix",
+                "to stick",
+                "to glue",
+                "to fasten",
+                "to sew on",
+                "to apply (ointment)"
+              ]
+            },
+            {
+              "senseID": 59115,
+              "gloss": [
+                "to furnish (a house with)"
+              ]
+            },
+            {
+              "senseID": 59116,
+              "gloss": [
+                "to wear",
+                "to put on"
+              ]
+            },
+            {
+              "senseID": 59117,
+              "gloss": [
+                "to keep a diary",
+                "to make an entry"
+              ]
+            },
+            {
+              "senseID": 59118,
+              "gloss": [
+                "to appraise",
+                "to set (a price)"
+              ]
+            },
+            {
+              "senseID": 59119,
+              "gloss": [
+                "to allot",
+                "to budget",
+                "to assign"
+              ]
+            },
+            {
+              "senseID": 59120,
+              "gloss": [
+                "to bring alongside"
+              ]
+            },
+            {
+              "senseID": 59121,
+              "gloss": [
+                "to place (under guard or doctor)"
+              ]
+            },
+            {
+              "senseID": 59122,
+              "gloss": [
+                "to follow",
+                "to shadow"
+              ]
+            },
+            {
+              "senseID": 59123,
+              "gloss": [
+                "to load",
+                "to give (courage to)"
+              ]
+            },
+            {
+              "senseID": 59124,
+              "gloss": [
+                "to keep (an eye on)"
+              ]
+            },
+            {
+              "senseID": 59125,
+              "gloss": [
+                "to establish (relations or understanding)"
+              ]
+            },
+            {
+              "senseID": 59126,
+              "gloss": [
+                "to turn on (light)"
+              ]
+            },
+            {
+              "senseID": 59127,
+              "gloss": [
+                "to produce flowers",
+                "to produce fruit"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "会釈",
+      "occurrences": [
+        {
+          "context": "rn3113sd",
+          "surface": "会釈",
+          "ruby": "えしゃく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1198600,
+          "spelling": [
+            "会釈"
+          ],
+          "readings": [
+            "えしゃく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 22257,
+              "gloss": [
+                "slight bow (as a greeting or sign of gratitude)",
+                "nod",
+                "salutation"
+              ]
+            },
+            {
+              "senseID": 22258,
+              "gloss": [
+                "consideration",
+                "thoughtfulness"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "体験",
+      "occurrences": [
+        {
+          "context": "rn3126sa",
+          "surface": "体験",
+          "ruby": "たいけん"
+        },
+        {
+          "context": "rn3126sd",
+          "surface": "体験",
+          "ruby": "たいけん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1409420,
+          "spelling": [
+            "体験"
+          ],
+          "readings": [
+            "たいけん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 48380,
+              "gloss": [
+                "(practical) experience",
+                "personal experience",
+                "hands-on experience",
+                "first-hand experience"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "個別",
+      "occurrences": [
+        {
+          "context": "rn3129sd",
+          "surface": "個別",
+          "ruby": "こべつ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1265000,
+          "spelling": [
+            "個別",
+            "箇別"
+          ],
+          "readings": [
+            "こべつ"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30459,
+              "gloss": [
+                "individual",
+                "separate",
+                "personal",
+                "case-by-case"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "値",
+      "occurrences": [
+        {
+          "context": "rn3120se",
+          "surface": "値",
+          "ruby": "あたい"
+        },
+        {
+          "context": "rn3120se",
+          "surface": "値",
+          "ruby": "あたい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1581630,
+          "spelling": [
+            "値",
+            "価",
+            "價"
+          ],
+          "readings": [
+            "あたい"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 69662,
+              "gloss": [
+                "price",
+                "cost"
+              ]
+            },
+            {
+              "senseID": 69663,
+              "gloss": [
+                "value",
+                "worth",
+                "merit"
+              ]
+            },
+            {
+              "senseID": 69664,
+              "gloss": [
+                "value"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "先日",
+      "occurrences": [
+        {
+          "context": "rn3122sa",
+          "surface": "先日",
+          "ruby": "せんじつ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1388300,
+          "spelling": [
+            "先日"
+          ],
+          "readings": [
+            "せんじつ"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 45786,
+              "gloss": [
+                "the other day",
+                "a few days ago"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "全て",
+      "occurrences": [
+        {
+          "context": "rn3126sf",
+          "surface": "全",
+          "ruby": "すべ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1595730,
+          "spelling": [
+            "全て",
+            "総て",
+            "凡て",
+            "惣て",
+            "渾て",
+            "総べて"
+          ],
+          "readings": [
+            "すべて"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 71734,
+              "gloss": [
+                "everything",
+                "all",
+                "the whole"
+              ]
+            },
+            {
+              "senseID": 71735,
+              "gloss": [
+                "entirely",
+                "completely",
+                "wholly",
+                "all"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "公民館",
+      "occurrences": [
+        {
+          "context": "rn3124sb",
+          "surface": "公民館",
+          "ruby": "こうみんかん"
+        },
+        {
+          "context": "rn3124sc",
+          "surface": "公民館",
+          "ruby": "こうみんかん"
+        },
+        {
+          "context": "rn3124sd",
+          "surface": "公民館",
+          "ruby": "こうみんかん"
+        },
+        {
+          "context": "rn3124sf",
+          "surface": "公民館",
+          "ruby": "こうみんかん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1274780,
+          "spelling": [
+            "公民館"
+          ],
+          "readings": [
+            "こうみんかん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 31629,
+              "gloss": [
+                "public hall",
+                "community center",
+                "community centre"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "写し",
+      "occurrences": [
+        {
+          "context": "rn3129sf",
+          "surface": "写",
+          "ruby": "うつ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1321790,
+          "spelling": [
+            "写し"
+          ],
+          "readings": [
+            "うつし"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 37358,
+              "gloss": [
+                "copy",
+                "duplicate",
+                "facsimile",
+                "transcript"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "出来上がり",
+      "occurrences": [
+        {
+          "context": "rn3126se",
+          "surface": "出来上",
+          "ruby": "できあ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1340600,
+          "spelling": [
+            "出来上がり",
+            "でき上がり",
+            "出来上り"
+          ],
+          "readings": [
+            "できあがり"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39715,
+              "gloss": [
+                "completion",
+                "finish"
+              ]
+            },
+            {
+              "senseID": 39716,
+              "gloss": [
+                "workmanship",
+                "result",
+                "outcome"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "出来上がる",
+      "occurrences": [
+        {
+          "context": "rn3111sd",
+          "surface": "出来上",
+          "ruby": "できあ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1340610,
+          "spelling": [
+            "出来上がる",
+            "でき上がる",
+            "出来あがる",
+            "出来上る"
+          ],
+          "readings": [
+            "できあがる"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39717,
+              "gloss": [
+                "to be completed",
+                "to be finished",
+                "to be ready (e.g. to serve or eat)"
+              ]
+            },
+            {
+              "senseID": 39718,
+              "gloss": [
+                "to be very drunk"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "出演者",
+      "occurrences": [
+        {
+          "context": "rn3124sb",
+          "surface": "出演者",
+          "ruby": "しゅつえんしゃ"
+        },
+        {
+          "context": "rn3124sd",
+          "surface": "出演者",
+          "ruby": "しゅつえんしゃ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1338300,
+          "spelling": [
+            "出演者"
+          ],
+          "readings": [
+            "しゅつえんしゃ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39434,
+              "gloss": [
+                "performer",
+                "entertainer",
+                "actor"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "列車",
+      "occurrences": [
+        {
+          "context": "rn3113sa",
+          "surface": "列車",
+          "ruby": "れっしゃ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1558370,
+          "spelling": [
+            "列車"
+          ],
+          "readings": [
+            "れっしゃ"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 66792,
+              "gloss": [
+                "train",
+                "railway train"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "危うい",
+      "occurrences": [
+        {
+          "context": "rn3130sc",
+          "surface": "危",
+          "ruby": "あや"
+        },
+        {
+          "context": "rn3125sb",
+          "surface": "危",
+          "ruby": "あや"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1218360,
+          "spelling": [
+            "危うい"
+          ],
+          "readings": [
+            "あやうい"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 24754,
+              "gloss": [
+                "dangerous",
+                "in danger",
+                "facing imminent danger"
+              ]
+            },
+            {
+              "senseID": 24755,
+              "gloss": [
+                "precarious (situation)",
+                "perilous (state, balance, etc.)",
+                "in doubt",
+                "in jeopardy",
+                "uncertain",
+                "insecure",
+                "concerning",
+                "worrying"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "受領",
+      "occurrences": [
+        {
+          "context": "rn3129sf",
+          "surface": "受領",
+          "ruby": "じゅりょう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1330080,
+          "spelling": [
+            "受領"
+          ],
+          "readings": [
+            "じゅりょう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 38431,
+              "gloss": [
+                "receipt (of a letter, money, etc.)",
+                "acceptance",
+                "receiving"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "台本",
+      "occurrences": [
+        {
+          "context": "rn3114sc",
+          "surface": "台本",
+          "ruby": "だいほん"
+        },
+        {
+          "context": "rn3114se",
+          "surface": "台本",
+          "ruby": "だいほん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1412760,
+          "spelling": [
+            "台本"
+          ],
+          "readings": [
+            "だいほん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 48798,
+              "gloss": [
+                "script",
+                "libretto",
+                "scenario"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "右側",
+      "occurrences": [
+        {
+          "context": "rn3118se",
+          "surface": "右側",
+          "ruby": "みぎがわ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1576400,
+          "spelling": [
+            "右側"
+          ],
+          "readings": [
+            "みぎがわ",
+            "うそく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 68893,
+              "gloss": [
+                "right side",
+                "right-hand side"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "吊るす",
+      "occurrences": [
+        {
+          "context": "rn3111sd",
+          "surface": "つる",
+          "ruby": "つる"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1433980,
+          "spelling": [
+            "吊るす",
+            "吊す"
+          ],
+          "readings": [
+            "つるす"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 51535,
+              "gloss": [
+                "to hang",
+                "to hang up"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "味付け",
+      "occurrences": [
+        {
+          "context": "rn3127sc",
+          "surface": "味付け",
+          "ruby": "あじつけ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1526980,
+          "spelling": [
+            "味付け",
+            "味着け",
+            "味つけ"
+          ],
+          "readings": [
+            "あじつけ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 62921,
+              "gloss": [
+                "seasoning",
+                "flavour",
+                "flavor"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "呼び鈴",
+      "occurrences": [
+        {
+          "context": "rn3130sf",
+          "surface": "呼び鈴",
+          "ruby": "よびりん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1266430,
+          "spelling": [
+            "呼び鈴",
+            "呼鈴",
+            "呼びりん"
+          ],
+          "readings": [
+            "よびりん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30613,
+              "gloss": [
+                "bell (used for summoning or signalling)",
+                "buzzer"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "外出先",
+      "occurrences": [
+        {
+          "context": "rn3116sd",
+          "surface": "外出先",
+          "ruby": "がいしゅつさき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2183600,
+          "spelling": [
+            "外出先"
+          ],
+          "readings": [
+            "がいしゅつさき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 130666,
+              "gloss": [
+                "where one has gone to",
+                "place one has gone to",
+                "(outing) destination"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "夜行",
+      "occurrences": [
+        {
+          "context": "rn3119sa",
+          "surface": "夜行",
+          "ruby": "やこう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1584820,
+          "spelling": [
+            "夜行"
+          ],
+          "readings": [
+            "やこう",
+            "やぎょう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 70153,
+              "gloss": [
+                "walking around at night",
+                "night travel"
+              ]
+            },
+            {
+              "senseID": 70154,
+              "gloss": [
+                "night train"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "小川",
+      "occurrences": [
+        {
+          "context": "rn3130sa",
+          "surface": "小川",
+          "ruby": "おがわ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1348460,
+          "spelling": [
+            "小川"
+          ],
+          "readings": [
+            "おがわ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 40672,
+              "gloss": [
+                "stream",
+                "brook",
+                "creek"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "展示室",
+      "occurrences": [
+        {
+          "context": "rn3112sa",
+          "surface": "展示室",
+          "ruby": "てんじしつ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2767470,
+          "spelling": [
+            "展示室"
+          ],
+          "readings": [
+            "てんじしつ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 189825,
+              "gloss": [
+                "exhibition room (e.g. museum)"
+              ]
+            },
+            {
+              "senseID": 189826,
+              "gloss": [
+                "showroom (for goods)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "岬",
+      "occurrences": [
+        {
+          "context": "rn3120sa",
+          "surface": "岬",
+          "ruby": "みさき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1611700,
+          "spelling": [
+            "岬",
+            "崎"
+          ],
+          "readings": [
+            "みさき"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 74033,
+              "gloss": [
+                "cape (on coast)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "川岸",
+      "occurrences": [
+        {
+          "context": "rn3113sc",
+          "surface": "川岸",
+          "ruby": "かわぎし"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1390060,
+          "spelling": [
+            "川岸",
+            "河岸"
+          ],
+          "readings": [
+            "かわぎし",
+            "かがん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 45984,
+              "gloss": [
+                "riverbank",
+                "riverside"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "工房",
+      "occurrences": [
+        {
+          "context": "rn3126sa",
+          "surface": "工房",
+          "ruby": "こうぼう"
+        },
+        {
+          "context": "rn3126sd",
+          "surface": "工房",
+          "ruby": "こうぼう"
+        },
+        {
+          "context": "rn3126sf",
+          "surface": "工房",
+          "ruby": "こうぼう"
+        },
+        {
+          "context": "rn3111sa",
+          "surface": "工房",
+          "ruby": "こうぼう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1278260,
+          "spelling": [
+            "工房"
+          ],
+          "readings": [
+            "こうぼう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 32045,
+              "gloss": [
+                "workshop",
+                "studio",
+                "atelier"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "左側",
+      "occurrences": [
+        {
+          "context": "rn3118se",
+          "surface": "左側",
+          "ruby": "ひだりがわ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1579180,
+          "spelling": [
+            "左側"
+          ],
+          "readings": [
+            "ひだりがわ",
+            "さそく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 69289,
+              "gloss": [
+                "left side",
+                "left-hand side"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "市",
+      "occurrences": [
+        {
+          "context": "rn3117sa",
+          "surface": "市",
+          "ruby": "いち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1308080,
+          "spelling": [
+            "市"
+          ],
+          "readings": [
+            "いち"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 35707,
+              "gloss": [
+                "market",
+                "fair"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "帰省",
+      "occurrences": [
+        {
+          "context": "rn3127sf",
+          "surface": "帰省",
+          "ruby": "きせい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1221390,
+          "spelling": [
+            "帰省"
+          ],
+          "readings": [
+            "きせい"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 25139,
+              "gloss": [
+                "homecoming",
+                "returning home"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "帳簿",
+      "occurrences": [
+        {
+          "context": "rn3112sb",
+          "surface": "帳簿",
+          "ruby": "ちょうぼ"
+        },
+        {
+          "context": "rn3112sc",
+          "surface": "帳簿",
+          "ruby": "ちょうぼ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1427560,
+          "spelling": [
+            "帳簿"
+          ],
+          "readings": [
+            "ちょうぼ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 50654,
+              "gloss": [
+                "account book",
+                "register",
+                "ledger"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "幻想",
+      "occurrences": [
+        {
+          "context": "rn3129sb",
+          "surface": "幻想",
+          "ruby": "げんそう"
+        },
+        {
+          "context": "rn3112sc",
+          "surface": "幻想",
+          "ruby": "げんそう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1262950,
+          "spelling": [
+            "幻想"
+          ],
+          "readings": [
+            "げんそう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30214,
+              "gloss": [
+                "fantasy",
+                "illusion",
+                "vision",
+                "dream"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "応募",
+      "occurrences": [
+        {
+          "context": "rn3129sa",
+          "surface": "応募",
+          "ruby": "おうぼ"
+        },
+        {
+          "context": "rn3129se",
+          "surface": "応募",
+          "ruby": "おうぼ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1180030,
+          "spelling": [
+            "応募"
+          ],
+          "readings": [
+            "おうぼ"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 20065,
+              "gloss": [
+                "application",
+                "subscription",
+                "entry (competition, raffle, etc.)",
+                "enlistment"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "手すり",
+      "occurrences": [
+        {
+          "context": "rn3113sb",
+          "surface": "手すり",
+          "ruby": "てすり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1598320,
+          "spelling": [
+            "手すり",
+            "手摺り",
+            "手摺"
+          ],
+          "readings": [
+            "てすり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 72109,
+              "gloss": [
+                "handrail",
+                "railing",
+                "banister"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "手をつなぐ",
+      "occurrences": [
+        {
+          "context": "rn3115sb",
+          "surface": "手をつない",
+          "ruby": "てをつない"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1896060,
+          "spelling": [
+            "手を繋ぐ",
+            "手をつなぐ"
+          ],
+          "readings": [
+            "てをつなぐ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 101950,
+              "gloss": [
+                "to join hands (with)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "投稿",
+      "occurrences": [
+        {
+          "context": "rn3129sd",
+          "surface": "投稿",
+          "ruby": "とうこう"
+        },
+        {
+          "context": "rn3129se",
+          "surface": "投稿",
+          "ruby": "とうこう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1447180,
+          "spelling": [
+            "投稿"
+          ],
+          "readings": [
+            "とうこう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 53165,
+              "gloss": [
+                "contribution (to a newspaper, magazine, etc.)",
+                "submission",
+                "post (on a blog, social media, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "折り返し",
+      "occurrences": [
+        {
+          "context": "rn3116sb",
+          "surface": "折り返し",
+          "ruby": "おりかえし"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1385890,
+          "spelling": [
+            "折り返し",
+            "折返し"
+          ],
+          "readings": [
+            "おりかえし"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 45460,
+              "gloss": [
+                "by return",
+                "(call or write back) without delay"
+              ]
+            },
+            {
+              "senseID": 45461,
+              "gloss": [
+                "lapel",
+                "cuff",
+                "turn-up",
+                "flap"
+              ]
+            },
+            {
+              "senseID": 45462,
+              "gloss": [
+                "going back",
+                "returning",
+                "turn (marathon, swimming, etc.)"
+              ]
+            },
+            {
+              "senseID": 45463,
+              "gloss": [
+                "chorus",
+                "refrain"
+              ]
+            },
+            {
+              "senseID": 45464,
+              "gloss": [
+                "shuttle service"
+              ]
+            },
+            {
+              "senseID": 45465,
+              "gloss": [
+                "aliasing (in imaging)"
+              ]
+            },
+            {
+              "senseID": 45466,
+              "gloss": [
+                "back-to-back",
+                "BTB"
+              ]
+            },
+            {
+              "senseID": 45467,
+              "gloss": [
+                "wrapping (text on computer screen)",
+                "wrap"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "持ち寄る",
+      "occurrences": [
+        {
+          "context": "rn3119sf",
+          "surface": "持ち寄",
+          "ruby": "もちよ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1315550,
+          "spelling": [
+            "持ち寄る"
+          ],
+          "readings": [
+            "もちよる"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 36579,
+              "gloss": [
+                "to gather (bringing something)",
+                "to gather (to exchange something)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "持ち帰る",
+      "occurrences": [
+        {
+          "context": "rn3118sf",
+          "surface": "持ち帰",
+          "ruby": "もちかえ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1658430,
+          "spelling": [
+            "持ち帰る",
+            "持帰る"
+          ],
+          "readings": [
+            "もちかえる"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 78989,
+              "gloss": [
+                "to bring back",
+                "to carry home",
+                "to take out (e.g. food)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "持ち手",
+      "occurrences": [
+        {
+          "context": "rn3117sb",
+          "surface": "持ち手",
+          "ruby": "もちて"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2760100,
+          "spelling": [
+            "持ち手",
+            "持手"
+          ],
+          "readings": [
+            "もちて"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 189067,
+              "gloss": [
+                "handle",
+                "grip"
+              ]
+            },
+            {
+              "senseID": 189068,
+              "gloss": [
+                "holder",
+                "person who holds"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "持参",
+      "occurrences": [
+        {
+          "context": "rn3129se",
+          "surface": "持参",
+          "ruby": "じさん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1315790,
+          "spelling": [
+            "持参"
+          ],
+          "readings": [
+            "じさん"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 36617,
+              "gloss": [
+                "bringing",
+                "taking",
+                "carrying"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "掛ける",
+      "occurrences": [
+        {
+          "context": "rn3126sd",
+          "surface": "掛",
+          "ruby": "か"
+        },
+        {
+          "context": "rn3120sa",
+          "surface": "掛",
+          "ruby": "か"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1207610,
+          "spelling": [
+            "掛ける",
+            "懸ける"
+          ],
+          "readings": [
+            "かける"
+          ],
+          "referenceLevels": [
+            "N5"
+          ],
+          "existingCandidates": [
+            {
+              "id": "vn5422",
+              "text": "かける",
+              "reading": "かける",
+              "meaning": "拨打（电话）"
+            }
+          ],
+          "senses": [
+            {
+              "senseID": 23405,
+              "gloss": [
+                "to hang up (e.g. a coat, a picture on the wall)",
+                "to let hang",
+                "to suspend (from)",
+                "to hoist (e.g. sail)",
+                "to raise (e.g. flag)"
+              ]
+            },
+            {
+              "senseID": 23406,
+              "gloss": [
+                "to put on (e.g. a blanket)",
+                "to put on top of",
+                "to cover",
+                "to lay",
+                "to spread"
+              ]
+            },
+            {
+              "senseID": 23407,
+              "gloss": [
+                "to put on (glasses, etc.)",
+                "to wear (a necklace, etc.)"
+              ]
+            },
+            {
+              "senseID": 23408,
+              "gloss": [
+                "to make (a call)"
+              ]
+            },
+            {
+              "senseID": 23409,
+              "gloss": [
+                "to spend (time, money)",
+                "to expend",
+                "to use"
+              ]
+            },
+            {
+              "senseID": 23410,
+              "gloss": [
+                "to pour (liquid) onto",
+                "to sprinkle (powder or spices) onto",
+                "to splash",
+                "to throw (e.g. water) onto"
+              ]
+            },
+            {
+              "senseID": 23411,
+              "gloss": [
+                "to turn on (engine, radio, etc.)",
+                "to set (dial, alarm clock, etc.)",
+                "to put on (DVD, song, etc.)",
+                "to use (device, implement, etc.)"
+              ]
+            },
+            {
+              "senseID": 23412,
+              "gloss": [
+                "to cause (somebody inconvenience, trouble, etc.)",
+                "to burden (someone)",
+                "to impose"
+              ]
+            },
+            {
+              "senseID": 23413,
+              "gloss": [
+                "to multiply (arithmetic operation)"
+              ]
+            },
+            {
+              "senseID": 23414,
+              "gloss": [
+                "to secure (e.g. lock)"
+              ]
+            },
+            {
+              "senseID": 23415,
+              "gloss": [
+                "to take a seat",
+                "to sit",
+                "to rest (something on something else)",
+                "to support (something on something else)"
+              ]
+            },
+            {
+              "senseID": 23416,
+              "gloss": [
+                "to bind"
+              ]
+            },
+            {
+              "senseID": 23417,
+              "gloss": [
+                "to wager",
+                "to bet",
+                "to risk",
+                "to stake",
+                "to gamble"
+              ]
+            },
+            {
+              "senseID": 23418,
+              "gloss": [
+                "to put an effect (spell, anaesthetic, etc.) on"
+              ]
+            },
+            {
+              "senseID": 23419,
+              "gloss": [
+                "to hold (a play, festival, etc.)"
+              ]
+            },
+            {
+              "senseID": 23420,
+              "gloss": [
+                "to hold an emotion for (pity, hope, etc.)"
+              ]
+            },
+            {
+              "senseID": 23421,
+              "gloss": [
+                "to argue (in court)",
+                "to deliberate (in a meeting)",
+                "to present (e.g. idea to a conference, etc.)"
+              ]
+            },
+            {
+              "senseID": 23422,
+              "gloss": [
+                "to increase further"
+              ]
+            },
+            {
+              "senseID": 23423,
+              "gloss": [
+                "to catch (in a trap, etc.)"
+              ]
+            },
+            {
+              "senseID": 23424,
+              "gloss": [
+                "to set atop"
+              ]
+            },
+            {
+              "senseID": 23425,
+              "gloss": [
+                "to erect (a makeshift building)"
+              ]
+            },
+            {
+              "senseID": 23426,
+              "gloss": [
+                "to apply (insurance)"
+              ]
+            },
+            {
+              "senseID": 23427,
+              "gloss": [
+                "to pun (on a word)",
+                "to use (a word) as a pivot word",
+                "to play on words"
+              ]
+            },
+            {
+              "senseID": 23428,
+              "gloss": [
+                "to be partway doing ...",
+                "to begin (but not complete) ...",
+                "to be about to ..."
+              ]
+            },
+            {
+              "senseID": 23429,
+              "gloss": [
+                "to address (someone)",
+                "to direct (something, to someone)",
+                "to do (something, to someone)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "掲載",
+      "occurrences": [
+        {
+          "context": "rn3129sf",
+          "surface": "掲載",
+          "ruby": "けいさい"
+        },
+        {
+          "context": "rn3129sf",
+          "surface": "掲載",
+          "ruby": "けいさい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1250610,
+          "spelling": [
+            "掲載"
+          ],
+          "readings": [
+            "けいさい"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 28675,
+              "gloss": [
+                "publication (e.g. of an article in a newspaper)",
+                "carrying (e.g. a story)",
+                "running (e.g. a serial)",
+                "insertion (e.g. of an advertisement)",
+                "printing",
+                "posting (e.g. on the web)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "数値",
+      "occurrences": [
+        {
+          "context": "rn3120sb",
+          "surface": "数値",
+          "ruby": "すうち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1373160,
+          "spelling": [
+            "数値"
+          ],
+          "readings": [
+            "すうち"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 43798,
+              "gloss": [
+                "numerical value",
+                "numerics"
+              ]
+            },
+            {
+              "senseID": 43799,
+              "gloss": [
+                "reading (on a meter, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "新作",
+      "occurrences": [
+        {
+          "context": "rn3112sf",
+          "surface": "新作",
+          "ruby": "しんさく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1361850,
+          "spelling": [
+            "新作"
+          ],
+          "readings": [
+            "しんさく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 42466,
+              "gloss": [
+                "new work",
+                "new production"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "方向",
+      "occurrences": [
+        {
+          "context": "rn3113se",
+          "surface": "方向",
+          "ruby": "ほうこう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1516990,
+          "spelling": [
+            "方向"
+          ],
+          "readings": [
+            "ほうこう"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61729,
+              "gloss": [
+                "direction",
+                "orientation",
+                "bearing",
+                "way"
+              ]
+            },
+            {
+              "senseID": 61730,
+              "gloss": [
+                "course (e.g. of action)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "旅先",
+      "occurrences": [
+        {
+          "context": "rn3129sa",
+          "surface": "旅先",
+          "ruby": "たびさき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1553220,
+          "spelling": [
+            "旅先"
+          ],
+          "readings": [
+            "たびさき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 66185,
+              "gloss": [
+                "destination",
+                "goal (of travel)",
+                "place one stays during a journey"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "最終日",
+      "occurrences": [
+        {
+          "context": "rn3129se",
+          "surface": "最終日",
+          "ruby": "さいしゅうび"
+        },
+        {
+          "context": "rn3129se",
+          "surface": "最終日",
+          "ruby": "さいしゅうび"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1655880,
+          "spelling": [
+            "最終日"
+          ],
+          "readings": [
+            "さいしゅうび"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 78715,
+              "gloss": [
+                "last day",
+                "final day"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "朗読会",
+      "occurrences": [
+        {
+          "context": "rn3124sa",
+          "surface": "朗読会",
+          "ruby": "ろうどくかい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2645570,
+          "spelling": [
+            "朗読会"
+          ],
+          "readings": [
+            "ろうどくかい"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 177286,
+              "gloss": [
+                "recital",
+                "recitation",
+                "public reading"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "朝食",
+      "occurrences": [
+        {
+          "context": "rn3127se",
+          "surface": "朝食",
+          "ruby": "ちょうしょく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1428390,
+          "spelling": [
+            "朝食",
+            "朝餉"
+          ],
+          "readings": [
+            "ちょうしょく",
+            "あさげ",
+            "あさけ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 50770,
+              "gloss": [
+                "breakfast"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "木々",
+      "occurrences": [
+        {
+          "context": "rn3130sf",
+          "surface": "木々",
+          "ruby": "きぎ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1591090,
+          "spelling": [
+            "木々",
+            "木木",
+            "樹々",
+            "樹樹"
+          ],
+          "readings": [
+            "きぎ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 71070,
+              "gloss": [
+                "(many) trees",
+                "every tree",
+                "all kinds of trees"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "本部",
+      "occurrences": [
+        {
+          "context": "rn3120sb",
+          "surface": "本部",
+          "ruby": "ほんぶ"
+        },
+        {
+          "context": "rn3120se",
+          "surface": "本部",
+          "ruby": "ほんぶ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1523170,
+          "spelling": [
+            "本部"
+          ],
+          "readings": [
+            "ほんぶ"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 62459,
+              "gloss": [
+                "headquarters",
+                "head office",
+                "main office"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "札",
+      "occurrences": [
+        {
+          "context": "rn3111sf",
+          "surface": "札",
+          "ruby": "ふだ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1298970,
+          "spelling": [
+            "札",
+            "簡"
+          ],
+          "readings": [
+            "ふだ",
+            "ふみた",
+            "ふんだ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 34562,
+              "gloss": [
+                "ticket",
+                "token",
+                "check",
+                "receipt"
+              ]
+            },
+            {
+              "senseID": 34563,
+              "gloss": [
+                "label",
+                "tag"
+              ]
+            },
+            {
+              "senseID": 34564,
+              "gloss": [
+                "sign",
+                "card",
+                "plate"
+              ]
+            },
+            {
+              "senseID": 34565,
+              "gloss": [
+                "playing card"
+              ]
+            },
+            {
+              "senseID": 34566,
+              "gloss": [
+                "charm",
+                "talisman"
+              ]
+            },
+            {
+              "senseID": 34567,
+              "gloss": [
+                "slip of paper posted on shrine pillars by pilgrims"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "染める",
+      "occurrences": [
+        {
+          "context": "rn3126sa",
+          "surface": "染",
+          "ruby": "そ"
+        },
+        {
+          "context": "rn3126sc",
+          "surface": "染",
+          "ruby": "そ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1391160,
+          "spelling": [
+            "染める"
+          ],
+          "readings": [
+            "そめる"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 46120,
+              "gloss": [
+                "to dye",
+                "to colour",
+                "to color"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "案内図",
+      "occurrences": [
+        {
+          "context": "rn3115sa",
+          "surface": "案内図",
+          "ruby": "あんないず"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1757350,
+          "spelling": [
+            "案内図"
+          ],
+          "readings": [
+            "あんないず"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 89016,
+              "gloss": [
+                "guide map"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "植物学",
+      "occurrences": [
+        {
+          "context": "rn3129sa",
+          "surface": "植物学",
+          "ruby": "しょくぶつがく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1788520,
+          "spelling": [
+            "植物学"
+          ],
+          "readings": [
+            "しょくぶつがく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 92239,
+              "gloss": [
+                "botany"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "正す",
+      "occurrences": [
+        {
+          "context": "rn3114sc",
+          "surface": "正",
+          "ruby": "ただ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1320660,
+          "spelling": [
+            "質す",
+            "正す"
+          ],
+          "readings": [
+            "ただす"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 37221,
+              "gloss": [
+                "to enquire of someone about something (inquire)",
+                "to question"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 1376630,
+          "spelling": [
+            "正す"
+          ],
+          "readings": [
+            "ただす"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 44253,
+              "gloss": [
+                "to correct",
+                "to rectify",
+                "to reform",
+                "to amend",
+                "to redress"
+              ]
+            },
+            {
+              "senseID": 44254,
+              "gloss": [
+                "to straighten (one's posture, collar, etc.)",
+                "to adjust"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 1610220,
+          "spelling": [
+            "糺す",
+            "糾す",
+            "正す"
+          ],
+          "readings": [
+            "ただす"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 73835,
+              "gloss": [
+                "to ascertain",
+                "to confirm",
+                "to verify",
+                "to make sure of"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "水辺",
+      "occurrences": [
+        {
+          "context": "rn3130sc",
+          "surface": "水辺",
+          "ruby": "みずべ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1649910,
+          "spelling": [
+            "水辺",
+            "水べ"
+          ],
+          "readings": [
+            "みずべ",
+            "すいへん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 78087,
+              "gloss": [
+                "waterside",
+                "waterfront"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "水面",
+      "occurrences": [
+        {
+          "context": "rn3113sc",
+          "surface": "水面",
+          "ruby": "すいめん"
+        },
+        {
+          "context": "rn3113se",
+          "surface": "水面",
+          "ruby": "すいめん"
+        },
+        {
+          "context": "rn3115sc",
+          "surface": "水面",
+          "ruby": "すいめん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1372120,
+          "spelling": [
+            "水面"
+          ],
+          "readings": [
+            "すいめん",
+            "みなも"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 43679,
+              "gloss": [
+                "water's surface"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "汁",
+      "occurrences": [
+        {
+          "context": "rn3123sd",
+          "surface": "汁",
+          "ruby": "しる"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1335520,
+          "spelling": [
+            "汁",
+            "液"
+          ],
+          "readings": [
+            "しる",
+            "つゆ"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39070,
+              "gloss": [
+                "juice",
+                "sap"
+              ]
+            },
+            {
+              "senseID": 39071,
+              "gloss": [
+                "soup",
+                "broth"
+              ]
+            },
+            {
+              "senseID": 39072,
+              "gloss": [
+                "(dipping) sauce"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "潰す",
+      "occurrences": [
+        {
+          "context": "rn3125sb",
+          "surface": "つぶ",
+          "ruby": "つぶ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1433820,
+          "spelling": [
+            "潰す"
+          ],
+          "readings": [
+            "つぶす"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 51497,
+              "gloss": [
+                "to smash",
+                "to crush",
+                "to flatten"
+              ]
+            },
+            {
+              "senseID": 51498,
+              "gloss": [
+                "to shut down",
+                "to put out of business",
+                "to force (a company) to close up shop"
+              ]
+            },
+            {
+              "senseID": 51499,
+              "gloss": [
+                "to wreck",
+                "to break",
+                "to block",
+                "to thwart"
+              ]
+            },
+            {
+              "senseID": 51500,
+              "gloss": [
+                "to butcher",
+                "to slaughter",
+                "to kill (livestock, for food)"
+              ]
+            },
+            {
+              "senseID": 51501,
+              "gloss": [
+                "to kill (time)",
+                "to while away (the time)",
+                "to use up (one's time)"
+              ]
+            },
+            {
+              "senseID": 51502,
+              "gloss": [
+                "to waste (e.g. talents)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "無線",
+      "occurrences": [
+        {
+          "context": "rn3120sa",
+          "surface": "無線",
+          "ruby": "むせん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1530380,
+          "spelling": [
+            "無線"
+          ],
+          "readings": [
+            "むせん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 63340,
+              "gloss": [
+                "radio (communication)"
+              ]
+            },
+            {
+              "senseID": 63341,
+              "gloss": [
+                "wireless",
+                "not using wires"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "片手",
+      "occurrences": [
+        {
+          "context": "rn3115se",
+          "surface": "片手",
+          "ruby": "かたて"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1511690,
+          "spelling": [
+            "片手"
+          ],
+          "readings": [
+            "かたて"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61060,
+              "gloss": [
+                "one hand"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "版",
+      "occurrences": [
+        {
+          "context": "rn3115sf",
+          "surface": "版",
+          "ruby": "はん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1481480,
+          "spelling": [
+            "版"
+          ],
+          "readings": [
+            "はん",
+            "ばん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 57401,
+              "gloss": [
+                "edition",
+                "version",
+                "printing",
+                "impression",
+                "implementation (e.g. software)"
+              ]
+            },
+            {
+              "senseID": 57402,
+              "gloss": [
+                "plate",
+                "block",
+                "cast"
+              ]
+            },
+            {
+              "senseID": 57403,
+              "gloss": [
+                "editions of a publication"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "現地",
+      "occurrences": [
+        {
+          "context": "rn3115sf",
+          "surface": "現地",
+          "ruby": "げんち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1263860,
+          "spelling": [
+            "現地"
+          ],
+          "readings": [
+            "げんち"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30315,
+              "gloss": [
+                "actual place",
+                "local",
+                "on-site"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "用途",
+      "occurrences": [
+        {
+          "context": "rn3127se",
+          "surface": "用途",
+          "ruby": "ようと"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1546380,
+          "spelling": [
+            "用途"
+          ],
+          "readings": [
+            "ようと"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 65275,
+              "gloss": [
+                "use",
+                "service",
+                "purpose"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "盛る",
+      "occurrences": [
+        {
+          "context": "rn3127sb",
+          "surface": "盛",
+          "ruby": "も"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1379740,
+          "spelling": [
+            "盛る"
+          ],
+          "readings": [
+            "もる"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 44655,
+              "gloss": [
+                "to serve (in a bowl, on a plate, etc.)",
+                "to dish out",
+                "to dish up",
+                "to fill (a bowl) with"
+              ]
+            },
+            {
+              "senseID": 44656,
+              "gloss": [
+                "to pile up",
+                "to heap up",
+                "to fill up",
+                "to stack up"
+              ]
+            },
+            {
+              "senseID": 44657,
+              "gloss": [
+                "to administer (medicine, poison)",
+                "to dose out",
+                "to prescribe"
+              ]
+            },
+            {
+              "senseID": 44658,
+              "gloss": [
+                "to put into (e.g. information in a report, meaning in a statement)"
+              ]
+            },
+            {
+              "senseID": 44659,
+              "gloss": [
+                "to mark out (e.g. scale)",
+                "to graduate (e.g. thermometer)"
+              ]
+            },
+            {
+              "senseID": 44660,
+              "gloss": [
+                "to exaggerate",
+                "to apply heavy makeup"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "目的地",
+      "occurrences": [
+        {
+          "context": "rn3113sf",
+          "surface": "目的地",
+          "ruby": "もくてきち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1535580,
+          "spelling": [
+            "目的地"
+          ],
+          "readings": [
+            "もくてきち"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 63999,
+              "gloss": [
+                "place of destination"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "組み合わせ",
+      "occurrences": [
+        {
+          "context": "rn3121sc",
+          "surface": "組み合",
+          "ruby": "くみあ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1592290,
+          "spelling": [
+            "組み合わせ",
+            "組合せ",
+            "組合わせ",
+            "組み合せ"
+          ],
+          "readings": [
+            "くみあわせ"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 71257,
+              "gloss": [
+                "combination",
+                "assortment",
+                "set"
+              ]
+            },
+            {
+              "senseID": 71258,
+              "gloss": [
+                "matching (in a contest)",
+                "pairing"
+              ]
+            },
+            {
+              "senseID": 71259,
+              "gloss": [
+                "combination"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "編集部",
+      "occurrences": [
+        {
+          "context": "rn3129sd",
+          "surface": "編集部",
+          "ruby": "へんしゅうぶ"
+        },
+        {
+          "context": "rn3129sf",
+          "surface": "編集部",
+          "ruby": "へんしゅうぶ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1512020,
+          "spelling": [
+            "編集部"
+          ],
+          "readings": [
+            "へんしゅうぶ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61108,
+              "gloss": [
+                "editorial department"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "縫う",
+      "occurrences": [
+        {
+          "context": "rn3117sa",
+          "surface": "縫",
+          "ruby": "ぬ"
+        },
+        {
+          "context": "rn3117sb",
+          "surface": "縫",
+          "ruby": "ぬ"
+        },
+        {
+          "context": "rn3117sc",
+          "surface": "縫",
+          "ruby": "ぬ"
+        },
+        {
+          "context": "rn3117sd",
+          "surface": "縫",
+          "ruby": "ぬ"
+        },
+        {
+          "context": "rn3117se",
+          "surface": "縫",
+          "ruby": "ぬ"
+        },
+        {
+          "context": "rn3117sf",
+          "surface": "縫",
+          "ruby": "ぬ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1517700,
+          "spelling": [
+            "縫う"
+          ],
+          "readings": [
+            "ぬう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61811,
+              "gloss": [
+                "to sew",
+                "to stitch"
+              ]
+            },
+            {
+              "senseID": 61812,
+              "gloss": [
+                "to weave one's way (e.g. through a crowd)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "置き場",
+      "occurrences": [
+        {
+          "context": "rn3118sb",
+          "surface": "置き場",
+          "ruby": "おきば"
+        },
+        {
+          "context": "rn3118sd",
+          "surface": "置き場",
+          "ruby": "おきば"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1421840,
+          "spelling": [
+            "置き場",
+            "置場"
+          ],
+          "readings": [
+            "おきば"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 49964,
+              "gloss": [
+                "place for something",
+                "storehouse"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "羊",
+      "occurrences": [
+        {
+          "context": "rn3130sc",
+          "surface": "羊",
+          "ruby": "ひつじ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1546490,
+          "spelling": [
+            "羊"
+          ],
+          "readings": [
+            "ひつじ",
+            "ヒツジ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 65287,
+              "gloss": [
+                "sheep (Ovis aries)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "苔",
+      "occurrences": [
+        {
+          "context": "rn3130sb",
+          "surface": "苔",
+          "ruby": "こけ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1411030,
+          "spelling": [
+            "苔",
+            "蘚",
+            "蘿"
+          ],
+          "readings": [
+            "こけ",
+            "コケ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 48578,
+              "gloss": [
+                "moss"
+              ]
+            },
+            {
+              "senseID": 48579,
+              "gloss": [
+                "short plants resembling moss (incl. other bryophytes, lichens, very small spermatophytes, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "蔦",
+      "occurrences": [
+        {
+          "context": "rn3130sd",
+          "surface": "蔦",
+          "ruby": "つた"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1433760,
+          "spelling": [
+            "蔦"
+          ],
+          "readings": [
+            "つた",
+            "ツタ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 51485,
+              "gloss": [
+                "ivy (esp. Boston ivy, Parthenocissus tricuspidata)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "視覚",
+      "occurrences": [
+        {
+          "context": "rn3112sd",
+          "surface": "視覚",
+          "ruby": "しかく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1312010,
+          "spelling": [
+            "視覚"
+          ],
+          "readings": [
+            "しかく"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 36184,
+              "gloss": [
+                "sense of sight",
+                "vision"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "親子",
+      "occurrences": [
+        {
+          "context": "rn3127sf",
+          "surface": "親子",
+          "ruby": "おやこ"
+        },
+        {
+          "context": "rn3115sa",
+          "surface": "親子",
+          "ruby": "おやこ"
+        },
+        {
+          "context": "rn3115sb",
+          "surface": "親子",
+          "ruby": "おやこ"
+        },
+        {
+          "context": "rn3115sd",
+          "surface": "親子",
+          "ruby": "おやこ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1365170,
+          "spelling": [
+            "親子"
+          ],
+          "readings": [
+            "おやこ",
+            "しんし"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 42855,
+              "gloss": [
+                "parent and child"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "観測",
+      "occurrences": [
+        {
+          "context": "rn3120sa",
+          "surface": "観測",
+          "ruby": "かんそく"
+        },
+        {
+          "context": "rn3120sf",
+          "surface": "観測",
+          "ruby": "かんそく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1214980,
+          "spelling": [
+            "観測"
+          ],
+          "readings": [
+            "かんそく"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 24335,
+              "gloss": [
+                "observation",
+                "survey",
+                "measurement"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "調理",
+      "occurrences": [
+        {
+          "context": "rn3127sd",
+          "surface": "調理",
+          "ruby": "ちょうり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1429310,
+          "spelling": [
+            "調理"
+          ],
+          "readings": [
+            "ちょうり"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 50879,
+              "gloss": [
+                "cooking",
+                "food preparation"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "身近",
+      "occurrences": [
+        {
+          "context": "rn3129sa",
+          "surface": "身近",
+          "ruby": "みぢか"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1365650,
+          "spelling": [
+            "身近"
+          ],
+          "readings": [
+            "みぢか"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 42913,
+              "gloss": [
+                "near oneself",
+                "close to one",
+                "familiar"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "透明",
+      "occurrences": [
+        {
+          "context": "rn3124se",
+          "surface": "透明",
+          "ruby": "とうめい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1450590,
+          "spelling": [
+            "透明"
+          ],
+          "readings": [
+            "とうめい"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 53607,
+              "gloss": [
+                "transparent",
+                "clear"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "録る",
+      "occurrences": [
+        {
+          "context": "rn3122sa",
+          "surface": "録",
+          "ruby": "と"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1298790,
+          "spelling": [
+            "撮る",
+            "録る"
+          ],
+          "readings": [
+            "とる"
+          ],
+          "referenceLevels": [
+            "N5"
+          ],
+          "existingCandidates": [
+            {
+              "id": "vn5036",
+              "text": "撮る",
+              "reading": "とる",
+              "meaning": "拍摄（照片等）"
+            }
+          ],
+          "senses": [
+            {
+              "senseID": 34540,
+              "gloss": [
+                "to take (a photo)"
+              ]
+            },
+            {
+              "senseID": 34541,
+              "gloss": [
+                "to record (video, audio, etc.)",
+                "to make (a film)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "録音機",
+      "occurrences": [
+        {
+          "context": "rn3122sa",
+          "surface": "録音機",
+          "ruby": "ろくおんき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1820280,
+          "spelling": [
+            "録音機"
+          ],
+          "readings": [
+            "ろくおんき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 95413,
+              "gloss": [
+                "sound recorder",
+                "tape recorder"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "長靴",
+      "occurrences": [
+        {
+          "context": "rn3128sc",
+          "surface": "長靴",
+          "ruby": "ながぐつ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1797820,
+          "spelling": [
+            "長靴",
+            "長ぐつ"
+          ],
+          "readings": [
+            "ながぐつ",
+            "ちょうか"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 93173,
+              "gloss": [
+                "leather boots",
+                "rubber boots",
+                "wellingtons",
+                "wellies",
+                "long boots",
+                "high boots"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "雨宿り",
+      "occurrences": [
+        {
+          "context": "rn3124sa",
+          "surface": "雨宿り",
+          "ruby": "あまやどり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1172040,
+          "spelling": [
+            "雨宿り",
+            "雨やどり"
+          ],
+          "readings": [
+            "あまやどり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 19119,
+              "gloss": [
+                "taking shelter from rain"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "電話を切る",
+      "occurrences": [
+        {
+          "context": "rn3125sd",
+          "surface": "電話を切",
+          "ruby": "でんわをき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1443850,
+          "spelling": [
+            "電話を切る",
+            "電話をきる"
+          ],
+          "readings": [
+            "でんわをきる"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 52730,
+              "gloss": [
+                "to hang up",
+                "to end a telephone conversation"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "音声",
+      "occurrences": [
+        {
+          "context": "rn3122se",
+          "surface": "音声",
+          "ruby": "おんせい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1183880,
+          "spelling": [
+            "音声"
+          ],
+          "readings": [
+            "おんせい",
+            "おんじょう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 20501,
+              "gloss": [
+                "voice",
+                "speech",
+                "sound of a voice"
+              ]
+            },
+            {
+              "senseID": 20502,
+              "gloss": [
+                "sound (e.g. of a TV)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "項目",
+      "occurrences": [
+        {
+          "context": "rn3118sf",
+          "surface": "項目",
+          "ruby": "こうもく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1283000,
+          "spelling": [
+            "項目"
+          ],
+          "readings": [
+            "こうもく"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 32623,
+              "gloss": [
+                "item",
+                "heading",
+                "category",
+                "clause"
+              ]
+            },
+            {
+              "senseID": 32624,
+              "gloss": [
+                "headword (in a dictionary, encyclopedia, etc.)",
+                "entry"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "順位",
+      "occurrences": [
+        {
+          "context": "rn3128sd",
+          "surface": "順位",
+          "ruby": "じゅんい"
+        },
+        {
+          "context": "rn3128sf",
+          "surface": "順位",
+          "ruby": "じゅんい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1342260,
+          "spelling": [
+            "順位"
+          ],
+          "readings": [
+            "じゅんい"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39907,
+              "gloss": [
+                "order",
+                "rank",
+                "position (e.g. in a race)",
+                "precedence"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "飛び立つ",
+      "occurrences": [
+        {
+          "context": "rn3115sc",
+          "surface": "飛び立",
+          "ruby": "とびた"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1485430,
+          "spelling": [
+            "飛び立つ",
+            "飛びたつ",
+            "飛立つ"
+          ],
+          "readings": [
+            "とびたつ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 57896,
+              "gloss": [
+                "to jump up",
+                "to start up",
+                "to leap to one's feet",
+                "to fly away",
+                "to take off"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "飾り",
+      "occurrences": [
+        {
+          "context": "rn3111sa",
+          "surface": "飾",
+          "ruby": "かざ"
+        },
+        {
+          "context": "rn3111sd",
+          "surface": "飾",
+          "ruby": "かざ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1357160,
+          "spelling": [
+            "飾り"
+          ],
+          "readings": [
+            "かざり"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 41839,
+              "gloss": [
+                "decoration",
+                "ornament",
+                "trimmings"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "香り",
+      "occurrences": [
+        {
+          "context": "rn3127sc",
+          "surface": "香り",
+          "ruby": "かおり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1589820,
+          "spelling": [
+            "香り",
+            "薫り",
+            "馨り",
+            "香",
+            "薫"
+          ],
+          "readings": [
+            "かおり"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 70883,
+              "gloss": [
+                "aroma",
+                "fragrance",
+                "scent",
+                "smell"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    },
+    {
+      "form": "駅伝",
+      "occurrences": [
+        {
+          "context": "rn3128sa",
+          "surface": "駅伝",
+          "ruby": "えきでん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1175200,
+          "spelling": [
+            "駅伝"
+          ],
+          "readings": [
+            "えきでん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 19491,
+              "gloss": [
+                "long-distance relay race"
+              ]
+            },
+            {
+              "senseID": 19492,
+              "gloss": [
+                "stagecoach",
+                "post horse"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+    }
+  ]
+}
