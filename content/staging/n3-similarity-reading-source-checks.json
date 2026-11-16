@@ -151,7 +151,7 @@
     "content/staging/n3-similarity-assessment-readings.tsv": "b6f2dffb4b8940a4eb4f171cf2f736954d1e0b6d091cabd914b2434e4bdef80c",
     "content/staging/n3-similarity-choice-readings.tsv": "f975ec9765fc5038022800a98cf85dfbfd264df2231ae0819ea2c32591469f48",
     "content/staging/n3-similarity-evidence-readings.tsv": "9ae45ea0aa89577bb993eef9d6c6622ae7380bf1e21579407c3d1751bbbd88d2",
-    "content/staging/n3-similarity-market-readings.tsv": "dfe0f836f7bc89422256990542025818db034fa9cbfd37039422a97b24cc3ea4",
+    "content/staging/n3-similarity-market-readings.tsv": "6b0dc1015a2955c0bc53a0c6bb8649a9f32c95ea3c4b3f27f34eb76d145dc081",
     "content/staging/n3-similarity-readings.tsv": "99d93e175a8894a2f18861dbc68ba695a6c94385d87fc7eb57c59eff4a53a32b",
     "content/staging/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
     "content/staging/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
@@ -160,11 +160,11 @@
   },
   "structureReport": "content/staging/n3-similarity-reading-review.json",
   "remainingWork": [
-    "Resolve 93 remaining reading annotated forms, deduplicate true aliases, and separately teach new senses where required. Grammar-example forms are now linked or explicitly sourced grammatical suffixes.",
-    "For the remaining selected reading lexical targets author at least two independent original contexts without reusing assessment text; 65 grammar-prerequisite roots already have 130 original contexts.",
-    "Review theme-word reading variants and context senses, register chapter, compile and run all curriculum gates.",
-    "Obtain independent Japanese language review; run macOS/iOS CI and SE3 UI validation after Actions allowance resumes.",
-    "Finish the complete additional N2 curriculum and six original-reading bridges."
+    "Review120 theme-word alternate readings and contextual meanings, using current primary evidence where snapshot facts differ.",
+    "Review prior unlinked sentences, including all 市 homographs, before chapter registration; do not automatically take the first spelling match.",
+    "Declare and validate the4 proper-name occurrences in rn3130 without removing them from reading-readiness denominator, register chapter and run all curriculum gates.",
+    "Obtain independent Japanese language review; run macOS/iOS and SE3 checks and package release when Actions allowance resumes.",
+    "Finish the complete additional N2 curriculum, six reading bridges and sourced pronunciation expansion."
   ],
   "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
   "registeredAdditionalSenses": [
@@ -208,5 +208,16 @@
       "status": "registered at N4 with two original contexts and separate reading practice; not released",
       "review": "content/source-checks/n4-written-senses.json"
     }
-  ]
+  ],
+  "readingWordReview": "content/staging/n3-similarity-reading-word-review.json",
+  "annotationChanges": [
+    {
+      "context": "rn3117sa",
+      "before": "[市|いち]",
+      "after": "[市|いち|@vn3n041]",
+      "scope": "Same text and ruby, explicit market sense; administrative市し remains separate"
+    }
+  ],
+  "unresolvedReadingForms": 0,
+  "unresolvedGrammarForms": 0
 }

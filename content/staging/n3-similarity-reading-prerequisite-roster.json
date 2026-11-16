@@ -1,9 +1,9 @@
 {
-  "status": "Candidate facts retained; 12 draft words selected separately and 3 additional N4 senses registered; N3 chapter unregistered and not delivered",
+  "status": "Initial108 candidate facts retained;12 linked through grammar-prerequisite drafts,3 registered N4 senses,93 reading roots authored; N3 chapter remains unregistered",
   "baselineVersion": "0.19.0",
   "newThemeWordsConsidered": 120,
-  "unresolvedReadingForms": 93,
-  "combinedGrammarAndReadingForms": 93,
+  "unresolvedReadingForms": 0,
+  "combinedGrammarAndReadingForms": 0,
   "deliberatelyUnlinkedProperNames": {
     "ミオ": [
       "rn3130sa",
@@ -51,7 +51,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n001",
+        "entryID": 1270210,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1270210,
+        "snapshotSenseIDs": [
+          31093
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "けれども",
@@ -87,7 +99,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n002",
+        "entryID": 2853889,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1004200,
+        "snapshotSenseIDs": [
+          596
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "しおり",
@@ -199,7 +223,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n003",
+        "entryID": 2205240,
+        "currentSenseOrdinals": [
+          2
+        ],
+        "snapshotEntryID": 2205240,
+        "snapshotSenseIDs": [
+          132961
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "たすき",
@@ -245,7 +281,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n004",
+        "entryID": 2013620,
+        "currentSenseOrdinals": [
+          2
+        ],
+        "snapshotEntryID": 2013620,
+        "snapshotSenseIDs": [
+          112883
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "ただ",
@@ -347,7 +395,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n005",
+        "entryID": 1538900,
+        "currentSenseOrdinals": [
+          5
+        ],
+        "snapshotEntryID": 1538900,
+        "snapshotSenseIDs": [
+          64431
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "できれば",
@@ -381,7 +441,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n006",
+        "entryID": 2825960,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 2825960,
+        "snapshotSenseIDs": [
+          195890
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "まとめる",
@@ -442,7 +514,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n007",
+        "entryID": 1440930,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1440930,
+        "snapshotSenseIDs": [
+          52390
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "まるで",
@@ -492,7 +576,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n008",
+        "entryID": 1216280,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1216280,
+        "snapshotSenseIDs": [
+          24513
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "ボード",
@@ -522,7 +618,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n009",
+        "entryID": 1123470,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1123470,
+        "snapshotSenseIDs": [
+          13547
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "メニュー",
@@ -569,7 +677,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n010",
+        "entryID": 1133790,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1133790,
+        "snapshotSenseIDs": [
+          14633
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "上流",
@@ -615,7 +735,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n011",
+        "entryID": 1354510,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1354510,
+        "snapshotSenseIDs": [
+          41496
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "両側",
@@ -655,7 +787,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n012",
+        "entryID": 1585140,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1585140,
+        "snapshotSenseIDs": [
+          70205
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "両手",
@@ -694,7 +838,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n013",
+        "entryID": 1553660,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1553660,
+        "snapshotSenseIDs": [
+          66236
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "丸",
@@ -783,7 +939,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n014",
+        "entryID": 1216250,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1216250,
+        "snapshotSenseIDs": [
+          24504
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "付ける",
@@ -978,7 +1146,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n015",
+        "entryID": 1198600,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1198600,
+        "snapshotSenseIDs": [
+          22257
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "体験",
@@ -1020,7 +1200,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n016",
+        "entryID": 1409420,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1409420,
+        "snapshotSenseIDs": [
+          48380
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "個別",
@@ -1058,7 +1250,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n017",
+        "entryID": 1265000,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1265000,
+        "snapshotSenseIDs": [
+          30459
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "値",
@@ -1114,7 +1318,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n018",
+        "entryID": 1581630,
+        "currentSenseOrdinals": [
+          3
+        ],
+        "snapshotEntryID": 1581630,
+        "snapshotSenseIDs": [
+          69664
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "先日",
@@ -1149,7 +1365,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n019",
+        "entryID": 1388300,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1388300,
+        "snapshotSenseIDs": [
+          45786
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "全て",
@@ -1199,7 +1427,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n020",
+        "entryID": 1595730,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1595730,
+        "snapshotSenseIDs": [
+          71734
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "公民館",
@@ -1248,7 +1488,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n021",
+        "entryID": 1274780,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1274780,
+        "snapshotSenseIDs": [
+          31629
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "写し",
@@ -1285,7 +1537,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n022",
+        "entryID": 1321790,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1321790,
+        "snapshotSenseIDs": [
+          37358
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "出来上がり",
@@ -1330,7 +1594,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n023",
+        "entryID": 1340600,
+        "currentSenseOrdinals": [
+          2
+        ],
+        "snapshotEntryID": 1340600,
+        "snapshotSenseIDs": [
+          39716
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "出来上がる",
@@ -1375,7 +1651,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n024",
+        "entryID": 1340610,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1340610,
+        "snapshotSenseIDs": [
+          39717
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "出演者",
@@ -1414,7 +1702,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n025",
+        "entryID": 1338300,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1338300,
+        "snapshotSenseIDs": [
+          39434
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "列車",
@@ -1449,7 +1749,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n026",
+        "entryID": 1558370,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1558370,
+        "snapshotSenseIDs": [
+          66792
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "危うい",
@@ -1546,7 +1858,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n027",
+        "entryID": 1330080,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1330080,
+        "snapshotSenseIDs": [
+          38431
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "台本",
@@ -1587,7 +1911,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n028",
+        "entryID": 1412760,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1412760,
+        "snapshotSenseIDs": [
+          48798
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "右側",
@@ -1621,7 +1957,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n029",
+        "entryID": 1576400,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1576400,
+        "snapshotSenseIDs": [
+          68893
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "吊るす",
@@ -1657,7 +2005,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n030",
+        "entryID": 1433980,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1433980,
+        "snapshotSenseIDs": [
+          51535
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "味付け",
@@ -1693,7 +2053,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n031",
+        "entryID": 1526980,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1526980,
+        "snapshotSenseIDs": [
+          62921
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "呼び鈴",
@@ -1728,7 +2100,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n032",
+        "entryID": 1266430,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1266430,
+        "snapshotSenseIDs": [
+          30613
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "外出先",
@@ -1762,7 +2146,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n033",
+        "entryID": 2183600,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 2183600,
+        "snapshotSenseIDs": [
+          130666
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "夜行",
@@ -1804,7 +2200,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n034",
+        "entryID": 1584820,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1584820,
+        "snapshotSenseIDs": [
+          70153
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "小川",
@@ -1838,7 +2246,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n035",
+        "entryID": 1348460,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1348460,
+        "snapshotSenseIDs": [
+          40672
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "展示室",
@@ -1876,7 +2296,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n036",
+        "entryID": 2767470,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 2767470,
+        "snapshotSenseIDs": [
+          189825
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "岬",
@@ -1911,7 +2343,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n037",
+        "entryID": 1611700,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1611700,
+        "snapshotSenseIDs": [
+          74033
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "川岸",
@@ -1946,7 +2390,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n038",
+        "entryID": 1390060,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1390060,
+        "snapshotSenseIDs": [
+          45984
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "工房",
@@ -1995,7 +2451,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n039",
+        "entryID": 1278260,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1278260,
+        "snapshotSenseIDs": [
+          32045
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "左側",
@@ -2029,7 +2497,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n040",
+        "entryID": 1579180,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1579180,
+        "snapshotSenseIDs": [
+          69289
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "市",
@@ -2064,7 +2544,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n041",
+        "entryID": 1308080,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1308080,
+        "snapshotSenseIDs": [
+          35707
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "帰省",
@@ -2097,7 +2589,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n042",
+        "entryID": 1221390,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1221390,
+        "snapshotSenseIDs": [
+          25139
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "帳簿",
@@ -2136,7 +2640,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n043",
+        "entryID": 1427560,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1427560,
+        "snapshotSenseIDs": [
+          50654
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "幻想",
@@ -2226,7 +2742,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n044",
+        "entryID": 1180030,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1180030,
+        "snapshotSenseIDs": [
+          20065
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "手すり",
@@ -2262,7 +2790,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n045",
+        "entryID": 1598320,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1598320,
+        "snapshotSenseIDs": [
+          72109
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "手をつなぐ",
@@ -2295,7 +2835,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n046",
+        "entryID": 1896060,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1896060,
+        "snapshotSenseIDs": [
+          101950
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "投稿",
@@ -2426,7 +2978,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n047",
+        "entryID": 1385890,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1385890,
+        "snapshotSenseIDs": [
+          45460
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "持ち寄る",
@@ -2459,7 +3023,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n048",
+        "entryID": 1315550,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1315550,
+        "snapshotSenseIDs": [
+          36579
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "持ち帰る",
@@ -2543,7 +3119,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n049",
+        "entryID": 2760100,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 2760100,
+        "snapshotSenseIDs": [
+          189067
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "持参",
@@ -2579,7 +3167,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n050",
+        "entryID": 1315790,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1315790,
+        "snapshotSenseIDs": [
+          36617
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "掛ける",
@@ -2857,7 +3457,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n051",
+        "entryID": 1250610,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1250610,
+        "snapshotSenseIDs": [
+          28675
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "数値",
@@ -2896,7 +3508,21 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n052",
+        "entryID": 1373160,
+        "currentSenseOrdinals": [
+          1,
+          2
+        ],
+        "snapshotEntryID": 1373160,
+        "snapshotSenseIDs": [
+          43798,
+          43799
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "新作",
@@ -3022,7 +3648,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n053",
+        "entryID": 1553220,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1553220,
+        "snapshotSenseIDs": [
+          66185
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "最終日",
@@ -3060,7 +3698,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n054",
+        "entryID": 1655880,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1655880,
+        "snapshotSenseIDs": [
+          78715
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "朗読会",
@@ -3094,7 +3744,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n055",
+        "entryID": 2645570,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 2645570,
+        "snapshotSenseIDs": [
+          177286
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "朝食",
@@ -3129,7 +3791,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n056",
+        "entryID": 1428390,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1428390,
+        "snapshotSenseIDs": [
+          50770
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "木々",
@@ -3166,7 +3840,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n057",
+        "entryID": 1591090,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1591090,
+        "snapshotSenseIDs": [
+          71070
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "本部",
@@ -3207,7 +3893,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n058",
+        "entryID": 1523170,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1523170,
+        "snapshotSenseIDs": [
+          62459
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "札",
@@ -3279,7 +3977,21 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n059",
+        "entryID": 1298970,
+        "currentSenseOrdinals": [
+          2,
+          3
+        ],
+        "snapshotEntryID": 1298970,
+        "snapshotSenseIDs": [
+          34563,
+          34564
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "染める",
@@ -3320,7 +4032,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n060",
+        "entryID": 1391160,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1391160,
+        "snapshotSenseIDs": [
+          46120
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "案内図",
@@ -3392,7 +4116,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n061",
+        "entryID": 1788520,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1788520,
+        "snapshotSenseIDs": [
+          92239
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "正す",
@@ -3480,7 +4216,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n062",
+        "entryID": 1376630,
+        "currentSenseOrdinals": [
+          2
+        ],
+        "snapshotEntryID": 1376630,
+        "snapshotSenseIDs": [
+          44254
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "水辺",
@@ -3515,7 +4263,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n063",
+        "entryID": 1649910,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1649910,
+        "snapshotSenseIDs": [
+          78087
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "水面",
@@ -3558,7 +4318,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n064",
+        "entryID": 1372120,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1372120,
+        "snapshotSenseIDs": [
+          43679
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "汁",
@@ -3608,7 +4380,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n065",
+        "entryID": 1335520,
+        "currentSenseOrdinals": [
+          2
+        ],
+        "snapshotEntryID": 1335520,
+        "snapshotSenseIDs": [
+          39071
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "潰す",
@@ -3683,7 +4467,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n066",
+        "entryID": 1433820,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1433820,
+        "snapshotSenseIDs": [
+          51497
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "無線",
@@ -3724,7 +4520,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n067",
+        "entryID": 1530380,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1530380,
+        "snapshotSenseIDs": [
+          63340
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "片手",
@@ -3756,7 +4564,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n068",
+        "entryID": 1511690,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1511690,
+        "snapshotSenseIDs": [
+          61060
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "版",
@@ -3897,7 +4717,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n069",
+        "entryID": 1546380,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1546380,
+        "snapshotSenseIDs": [
+          65275
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "盛る",
@@ -3971,7 +4803,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n070",
+        "entryID": 1379740,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1379740,
+        "snapshotSenseIDs": [
+          44655
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "目的地",
@@ -4003,7 +4847,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n071",
+        "entryID": 1535580,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1535580,
+        "snapshotSenseIDs": [
+          63999
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "組み合わせ",
@@ -4055,7 +4911,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n072",
+        "entryID": 1592290,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1592290,
+        "snapshotSenseIDs": [
+          71257
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "編集部",
@@ -4092,7 +4960,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n073",
+        "entryID": 1512020,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1512020,
+        "snapshotSenseIDs": [
+          61108
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "縫う",
@@ -4158,7 +5038,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n074",
+        "entryID": 1517700,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1517700,
+        "snapshotSenseIDs": [
+          61811
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "置き場",
@@ -4197,7 +5089,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n075",
+        "entryID": 1421840,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1421840,
+        "snapshotSenseIDs": [
+          49964
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "羊",
@@ -4230,7 +5134,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n076",
+        "entryID": 1546490,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1546490,
+        "snapshotSenseIDs": [
+          65287
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "苔",
@@ -4271,7 +5187,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n077",
+        "entryID": 1411030,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1411030,
+        "snapshotSenseIDs": [
+          48578
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "蔦",
@@ -4304,7 +5232,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n078",
+        "entryID": 1433760,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1433760,
+        "snapshotSenseIDs": [
+          51485
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "視覚",
@@ -4395,7 +5335,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n079",
+        "entryID": 1365170,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1365170,
+        "snapshotSenseIDs": [
+          42855
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "観測",
@@ -4436,7 +5388,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n080",
+        "entryID": 1214980,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1214980,
+        "snapshotSenseIDs": [
+          24335
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "調理",
@@ -4471,7 +5435,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n081",
+        "entryID": 1429310,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1429310,
+        "snapshotSenseIDs": [
+          50879
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "身近",
@@ -4550,7 +5526,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n082",
+        "entryID": 1450590,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1450590,
+        "snapshotSenseIDs": [
+          53607
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "録る",
@@ -4641,7 +5629,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n083",
+        "entryID": 1820280,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1820280,
+        "snapshotSenseIDs": [
+          95413
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "長靴",
@@ -4680,7 +5680,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n084",
+        "entryID": 1797820,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1797820,
+        "snapshotSenseIDs": [
+          93173
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "雨宿り",
@@ -4713,7 +5725,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n085",
+        "entryID": 1172040,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1172040,
+        "snapshotSenseIDs": [
+          19119
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "電話を切る",
@@ -4747,7 +5771,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n086",
+        "entryID": 1443850,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1443850,
+        "snapshotSenseIDs": [
+          52730
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "音声",
@@ -4788,7 +5824,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n087",
+        "entryID": 1183880,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1183880,
+        "snapshotSenseIDs": [
+          20501
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "項目",
@@ -4832,7 +5880,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n088",
+        "entryID": 1283000,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1283000,
+        "snapshotSenseIDs": [
+          32623
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "順位",
@@ -4872,7 +5932,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n089",
+        "entryID": 1342260,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1342260,
+        "snapshotSenseIDs": [
+          39907
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "飛び立つ",
@@ -4910,7 +5982,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n090",
+        "entryID": 1485430,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1485430,
+        "snapshotSenseIDs": [
+          57896
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "飾り",
@@ -4951,7 +6035,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n091",
+        "entryID": 1357160,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1357160,
+        "snapshotSenseIDs": [
+          41839
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "香り",
@@ -4992,7 +6088,19 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n092",
+        "entryID": 1589820,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1589820,
+        "snapshotSenseIDs": [
+          70883
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     },
     {
       "form": "駅伝",
@@ -5031,10 +6139,23 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected for the authored contextual sense only; current primary source and snapshot differences reviewed",
+      "selection": {
+        "itemID": "vn3n093",
+        "entryID": 1175200,
+        "currentSenseOrdinals": [
+          1
+        ],
+        "snapshotEntryID": 1175200,
+        "snapshotSenseIDs": [
+          19491
+        ],
+        "status": "93-word manuscript authored with two original contexts each; unregistered"
+      }
     }
   ],
   "initialCandidateForms": 108,
   "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
-  "registeredSenseReview": "content/source-checks/n4-written-senses.json"
+  "registeredSenseReview": "content/source-checks/n4-written-senses.json",
+  "readingWordReview": "content/staging/n3-similarity-reading-word-review.json"
 }

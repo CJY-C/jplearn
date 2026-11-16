@@ -19,7 +19,7 @@ from build_content import make_pack
 from compile_grammar import KANJI, RUBY, compile_manuscript as grammar
 from compile_readings import compile_manuscript as readings
 from compile_words import compile_manuscript as words
-from word_links import resolve_word, word_lookup
+from word_links import kana, resolve_word, word_lookup
 
 GRAMMAR_FILES = [
     "n3-similarity-and-tendencies.tsv", "n3-similarity-extensions.tsv",
@@ -50,23 +50,40 @@ def review():
     pack = make_pack()
     prior_heldout_ids = {sid for r in pack["readings"] if r.get("purpose") == "assessment"
                          for sid in r["sentenceIDs"]}
-    word_paths = [STAGING / name for name in ["n3-similarity-theme-words.tsv", "n3-similarity-prerequisite-words.tsv"]]
-    # First establish all new words, then recompile both manuscripts against the
+    word_paths = [STAGING / name for name in ["n3-similarity-theme-words.tsv",
+                  "n3-similarity-prerequisite-words.tsv", "n3-similarity-reading-prerequisite-words.tsv"]]
+    # First establish all new words, then recompile the manuscripts against the
     # complete word index so new examples do not depend on the file order.
     for path in word_paths:
         merge(pack, words(path, pack))
     word_batches = [words(path, pack) for path in word_paths]
-    selected_review = json.loads((STAGING / "n3-similarity-prerequisite-word-review.json").read_text())
-    assert selected_review["manuscriptSHA256"] == hashlib.sha256(word_paths[1].read_bytes()).hexdigest(), (
-        "Prerequisite source/sense review is stale")
-    selected_entries = {entry["itemID"]: entry for entry in selected_review["entries"]}
-    assert len(selected_entries) == selected_review["roots"] == len(word_batches[1]["items"])
-    for item in word_batches[1]["items"]:
-        fact = selected_entries[item["id"]]
-        assert (item["text"], item["reading"], item["meaning"]) == (
-            fact["text"], fact["primaryReading"], fact["authoredMeaning"]), item["id"]
-        assert item.get("acceptedReadings", []) == fact["acceptedAlternativeReadings"], item["id"]
-        assert item["exampleSentenceIDs"] == fact["exampleSentenceIDs"], item["id"]
+    for index, review_name in [(1, "n3-similarity-prerequisite-word-review.json"),
+                               (2, "n3-similarity-reading-word-review.json")]:
+        selected_review = json.loads((STAGING / review_name).read_text())
+        assert selected_review["manuscriptSHA256"] == hashlib.sha256(word_paths[index].read_bytes()).hexdigest(), (
+            "Prerequisite source/sense review is stale", review_name)
+        selected_entries = {entry["itemID"]: entry for entry in selected_review["entries"]}
+        assert len(selected_entries) == selected_review["roots"] == len(word_batches[index]["items"])
+        for item in word_batches[index]["items"]:
+            fact = selected_entries[item["id"]]
+            assert (item["text"], item["reading"], item["meaning"]) == (
+                fact["text"], fact["primaryReading"], fact["authoredMeaning"]), item["id"]
+            assert item.get("acceptedReadings", []) == fact["acceptedAlternativeReadings"], item["id"]
+            assert item["exampleSentenceIDs"] == fact["exampleSentenceIDs"], item["id"]
+            if index == 2:
+                assert item["jmdictEntryID"] == fact["entryID"], item["id"]
+                accepted_readings = [item["reading"]] + item.get("acceptedReadings", [])
+                sources = fact["acceptedReadingSources"]
+                assert [s["acceptedReading"] for s in sources] == accepted_readings, item["id"]
+                for source in sources:
+                    assert source["senseOrdinals"] and source["readingFacts"], item["id"]
+                    assert all(not r["spellingRestrictions"] or item["text"] in r["spellingRestrictions"]
+                               for r in source["readingFacts"]), item["id"]
+                    assert all(kana(r["reading"]) == kana(source["acceptedReading"]) and
+                               not r["nokanji"] and not any(
+                                   flag in info for info in r["information"]
+                                   for flag in ["obsolete", "out-dated", "search-only"])
+                               for r in source["readingFacts"]), item["id"]
     pack = make_pack()
     for batch in word_batches:
         merge(pack, batch)
@@ -176,6 +193,7 @@ def review():
         runtimeResourceSHA256=resource_hash,
         words=sum(len(b["items"]) for b in word_batches), wordContexts=sum(len(b["sentences"]) for b in word_batches),
         themeWords=len(word_batches[0]["items"]), prerequisiteWords=len(word_batches[1]["items"]),
+        readingPrerequisiteWords=len(word_batches[2]["items"]),
         grammarFunctions=len(new_grammar), grammarContexts=sum(len(b["sentences"]) for b in grammar_batches),
         referencePatterns=len(coverage), ordinaryGrammarFunctionsCovered=len(new_grammar & practiced),
         readings=len(new_readings), practiceReadings=counts["practice"], assessmentReadings=counts["assessment"],

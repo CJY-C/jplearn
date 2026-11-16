@@ -3187,6 +3187,7 @@
     }
   ],
   "initialCandidateForms": 65,
-  "combinedGrammarAndReadingForms": 96,
-  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json"
+  "combinedGrammarAndReadingForms": 0,
+  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
+  "currentStructureReport": "content/staging/n3-similarity-reading-review.json"
 }

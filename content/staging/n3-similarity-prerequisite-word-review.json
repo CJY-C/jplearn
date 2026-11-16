@@ -64,11 +64,6 @@
     ],
     "textRubyTranslationsQuestionsIDsAnswersUnchanged": true
   },
-  "currentGaps": {
-    "grammar": 0,
-    "reading": 96,
-    "combined": 96
-  },
   "entries": [
     {
       "itemID": "vn3m001",
@@ -2945,5 +2940,11 @@
       ],
       "status": "authored, dictionary facts checked, unregistered, not independently language reviewed"
     }
-  ]
+  ],
+  "gapsAfterOriginal65WordReview": {
+    "grammar": 0,
+    "reading": 96,
+    "combined": 96
+  },
+  "currentStructureReport": "content/staging/n3-similarity-reading-review.json"
 }
