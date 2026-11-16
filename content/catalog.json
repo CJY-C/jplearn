@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.19.0",
+  "version": "0.19.1",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -197,6 +197,33 @@
       "title": "OHANA BLOOM：N4 英语版日语语法教材第二册（公开PDF）",
       "url": "https://ohanaonline.jp/wp-content/uploads/2024/09/n4_en_ohanabloom-2.pdf",
       "attribution": "原作者学校网站公开教材；仅核对愿望表达与建议表达，未复制正文、练习或例句。未以PDF修改日期冒充出版日期。"
+    },
+    {
+      "id": "jpfaccent2025",
+      "title": "国際交流基金：2025 重音教学与下降点",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/202503.html",
+      "attribution": "磯村一弘（2025）；核对下降点与句子语调的关系，中文与题目另行原创，未复制图片或音频。"
+    },
+    {
+      "id": "tufsaccent",
+      "title": "东京外国語大学：日语重音基础",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-08-01.php",
+      "attribution": "东京外国語大学言語モジュール；仅核对本批八个词的共通语参考型和助词接续差异，未复制教材音频或插图。"
+    },
+    {
+      "id": "tufsmora",
+      "title": "东京外国語大学：拍与特殊拍",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-10-01.php"
+    },
+    {
+      "id": "tufsintonation",
+      "title": "东京外国語大学：句子语调基础",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-09-01.php"
+    },
+    {
+      "id": "ninjalaccent",
+      "title": "国立国語研究所：重音、下降点与地域差异",
+      "url": "https://kotoba.ninjal.ac.jp/mado/09/09-04/"
     }
   ],
   "stages": [

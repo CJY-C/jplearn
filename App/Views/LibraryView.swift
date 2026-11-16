@@ -63,6 +63,11 @@ struct ItemDetailView: View {
                     Text("也读作：" + alternatives.joined(separator: "、")).font(.callout).foregroundColor(.secondary)
                 }
                 Text(item.meaning).font(.headline)
+                if let accents = item.pitchAccents, !accents.isEmpty {
+                    PitchAccentView(accents: accents, detailed: true)
+                } else if item.kind == "word" {
+                    Text("重音：待核对").font(.caption).foregroundColor(.secondary)
+                }
                 if let partOfSpeech = item.partOfSpeech {
                     Text(partOfSpeech + ((item.register ?? "一般") == "一般" ? "" : " · " + (item.register ?? "")))
                         .font(.caption).foregroundColor(.secondary)
@@ -106,6 +111,9 @@ struct ItemDetailView: View {
                     DisclosureGroup("教材原文对照") { Text(excerpt).font(.footnote).textSelection(.enabled) }
                 }
                 CitationRows(citations: item.citations ?? [])
+                ForEach(Array((item.pitchAccents ?? []).enumerated()), id: \.offset) { _, accent in
+                    CitationRows(citations: accent.citations)
+                }
                 ForEach(model.pack.references.filter { item.sourceIDs.contains($0.id) }) { reference in
                     NavigationLink(reference.title, destination: SourceDetailView(reference: reference))
                 }

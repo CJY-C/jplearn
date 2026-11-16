@@ -31,6 +31,7 @@ public struct KnowledgeItem: Codable, Identifiable {
     public let reading: String
     public var acceptedReadings: [String]?
     public var readingCue: String?
+    public var pitchAccents: [WordPitchAccent]?
     /// Extra meanings share the spelling/pronunciation of an existing word,
     /// while keeping their own meaning review history.
     public var lexemeID: String?
@@ -144,6 +145,7 @@ public struct IntroModule: Codable, Identifiable {
     public let examples: [String]
     public let questions: [ReadingQuestion]
     public let citations: [ContentCitation]
+    public var allowsSyntheticSpeech: Bool?
 }
 
 /// Author-checked content-word occurrences, including words outside the bundled dictionary.
@@ -286,6 +288,12 @@ public struct ContentPack: Codable {
         guard items.allSatisfy({ ($0.exampleSentenceIDs.map { Set($0).isSubset(of: sentenceIDs) } ?? true) }) else {
             throw LearningError.invalid("词条例句引用缺失。")
         }
+        guard items.allSatisfy({ item in
+            (item.pitchAccents ?? []).allSatisfy { accent in
+                item.kind == "word" && accent.isValid &&
+                ([item.reading] + (item.acceptedReadings ?? [])).contains(accent.reading)
+            }
+        }) else { throw LearningError.invalid("词语重音的拍数、读音或来源无效。") }
         let questions = readings.flatMap(\.allQuestions) + (introModules ?? []).flatMap(\.questions)
         guard unique(questions.map(\.id)), questions.allSatisfy({
             !$0.prompt.isEmpty && (2...4).contains($0.choices.count) && Set($0.choices).count == $0.choices.count &&
@@ -315,7 +323,10 @@ public struct ContentPack: Codable {
         try checkGraph(Dictionary(uniqueKeysWithValues: items.map { ($0.id, $0.prerequisiteIDs ?? []) }))
         try checkGraph(Dictionary(uniqueKeysWithValues: lessons.map { ($0.id, $0.prerequisiteIDs ?? []) }))
         var citations: [ContentCitation] = []
-        for item in items { citations.append(contentsOf: item.citations ?? []) }
+        for item in items {
+            citations.append(contentsOf: item.citations ?? [])
+            for accent in item.pitchAccents ?? [] { citations.append(contentsOf: accent.citations) }
+        }
         for sentence in sentences { citations.append(contentsOf: sentence.citations ?? []) }
         for reading in readings { citations.append(contentsOf: reading.citations ?? []) }
         for exercise in exercises { citations.append(contentsOf: exercise.citations ?? []) }

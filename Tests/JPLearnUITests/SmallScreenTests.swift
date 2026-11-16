@@ -103,6 +103,18 @@ final class SmallScreenTests: XCTestCase {
         screenshot("SE3-Reading-Furigana-Off")
     }
 
+    @MainActor func testAccentReferenceAppearsOnlyAfterRecallAndKeepsRatingsVisible() {
+        launch(wordID: "v0083")
+        app.buttons["today.start"].tap()
+        let reference = app.descendants(matching: .any).matching(identifier: "word.pitchAccent").firstMatch
+        XCTAssertFalse(reference.exists)
+        visible(app.buttons["study.reveal"])
+        app.buttons["study.reveal"].tap()
+        XCTAssertTrue(reference.waitForExistence(timeout: 5))
+        for rating in 1...4 { visible(app.buttons["study.grade.\(rating)"]) }
+        screenshot("SE3-Pitch-Reference-After-Recall")
+    }
+
     @MainActor func testStatisticsShowsEmptyHistoryAndSeparateProgressOnSE3() {
         launch()
         visible(app.buttons["today.statistics"])

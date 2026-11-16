@@ -20,6 +20,8 @@ COMPILERS = {"grammar": grammar, "reading": reading, "word": word}
 def entries():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     assert manifest["version"] == 1
+    if source := manifest.get("pronunciationSource"):
+        assert Path(source).name == source and (ROOT / "content" / source).is_file(), "Missing pronunciation source"
     records = manifest["entries"]
     for field in ("source", "batch"):
         values = [r[field] for r in records]
@@ -39,7 +41,9 @@ def compile_all():
     records = entries()
     # Compile from authored/static records; stale managed JSON must not provide
     # phantom targets or prevent regeneration. All replacements validate later.
-    index = make_pack(overrides={ROOT / "content/batches" / r["batch"]: {} for r in records})
+    # Pronunciation annotations belong to the finished pack; their targets may
+    # be supplied by word manuscripts that are deliberately absent from this seed.
+    index = make_pack(overrides={ROOT / "content/batches" / r["batch"]: {} for r in records}, include_pronunciation=False)
     # Explicit sense references may point to a later manuscript. Seed every
     # declared word before compiling examples, so file order cannot pick a sense.
     for record in records:

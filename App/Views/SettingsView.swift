@@ -16,6 +16,7 @@ extension UTType {
 struct SettingsView: View {
     @EnvironmentObject private var model: AppModel
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.scenePhase) private var scenePhase
     @AppStorage("dailyMinutes") private var minutes = 20
     @AppStorage("dailyNewWords") private var dailyNewWords = 10
     @AppStorage("showRomaji") private var showRomaji = false
@@ -26,6 +27,7 @@ struct SettingsView: View {
     @State private var exportFile = false
     @State private var backup = BackupDocument()
     @State private var notice: String?
+    @State private var voiceChoices: [SpeechVoiceOption] = []
     var body: some View {
         Form {
             Section(header: Text("学习节奏")) {
@@ -44,15 +46,23 @@ struct SettingsView: View {
             }
             Section(header: Text("系统日语朗读")) {
                 Picker("声音", selection: $voiceID) {
-                    Text("系统默认日语声音").tag("")
-                    ForEach(model.speech.japaneseVoices, id: \.identifier) { voice in
-                        Text(voice.name).tag(voice.identifier)
+                    Text("自动 · 优先高品质").tag("")
+                    if !voiceID.isEmpty && !voiceChoices.contains(where: { $0.id == voiceID }) {
+                        Text("原声音暂不可用").tag(voiceID)
                     }
+                    ForEach(voiceChoices) { voice in
+                        Text(voiceLabel(voice)).tag(voice.id)
+                    }
+                }
+                if let voice = SpeechVoiceSelection.preferred(voiceChoices, selectedID: voiceID) {
+                    Text("当前：" + voiceLabel(voice)).font(.caption).foregroundColor(.secondary)
                 }
                 Button("试播日语") {
                     model.perform { try model.speech.speak("少しずつ、日本語の本を読んでいます。", voiceID: voiceID) }
                 }
-                Text("可在系统“辅助功能 → 朗读内容 → 声音”中准备日语语音。准备后请开启飞行模式试播，确认离线可用。")
+                Text("可在系统“辅助功能 → 朗读内容 → 声音”中下载增强日语声音。下载后返回应用，再开启飞行模式试播。")
+                    .font(.caption).foregroundColor(.secondary)
+                Text("合成朗读用于读音辅助，词语重音与句子语调尚未逐条听审。")
                     .font(.caption).foregroundColor(.secondary)
             }
             Section(header: Text("iCloud Drive 同步")) {
@@ -86,6 +96,10 @@ struct SettingsView: View {
             }
         }
         .navigationTitle("设置").navigationBarTitleDisplayMode(.inline)
+        .onAppear { voiceChoices = model.speech.voiceOptions }
+        .onChange(of: scenePhase) { phase in
+            if phase == .active { voiceChoices = model.speech.voiceOptions }
+        }
         .toolbar { ToolbarItem(placement: .navigationBarTrailing) { Button("完成") { dismiss() } } }
         .sheet(isPresented: $selectFolder) {
             FolderPicker { url in
@@ -106,6 +120,15 @@ struct SettingsView: View {
         .alert("已完成", isPresented: Binding(get: { notice != nil }, set: { if !$0 { notice = nil } })) {
             Button("好", role: .cancel) { notice = nil }
         } message: { Text(notice ?? "") }
+    }
+    private func voiceLabel(_ voice: SpeechVoiceOption) -> String {
+        let quality: String
+        switch voice.quality {
+        case .standard: quality = "基础"
+        case .enhanced: quality = "增强"
+        case .premium: quality = "高品质"
+        }
+        return voice.name + " · " + quality
     }
 }
 

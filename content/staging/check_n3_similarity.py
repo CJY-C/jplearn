@@ -139,6 +139,7 @@ def review():
     resource_hash = hashlib.sha256(resource.read_bytes()).hexdigest()
     return dict(
         status="unregistered draft; structure and isolation checked; language review pending",
+        currentRuntimeVersion=pack["version"],
         independentlyReviewed=0,
         runtimeResourceMatches0190=resource_hash == "8d4d02628658022c14e741b061c0e6d168d7b95792b60636d272611b61c136d6",
         runtimeResourceSHA256=resource_hash,

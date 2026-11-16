@@ -77,6 +77,15 @@ class CurriculumDeliveryTests(unittest.TestCase):
         self.assertEqual(sum(r["lessons"] for r in requirements), 260)
         self.assertEqual(len(self.syllabus["readingBridges"]), 6)
 
+    def test_invalid_pitch_readings_morae_drops_and_sources_are_rejected(self):
+        for changes in [dict(dropAfter=9), dict(morae="あめ"),
+                        dict(reading="あま", morae=["あ", "ま"]),
+                        dict(citations=[dict(sourceID="missing", locator="invented", status="sourceChecked")])]:
+            broken = copy.deepcopy(self.pack)
+            word = next(w for w in broken["items"] if w["id"] == "v0083")
+            word["pitchAccents"][0].update(changes)
+            with self.assertRaises(AssertionError): validate(broken)
+
     def test_n5_reference_patterns_have_actual_teaching_and_contexts(self):
         result = audit(self.pack, self.syllabus, self.reference)
         n5 = result["stages"][0]

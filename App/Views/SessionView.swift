@@ -217,10 +217,11 @@ private struct RecallCard: View {
                 }
                 if revealed {
                     Divider().padding(.vertical, 2)
+                    if let accents = item.pitchAccents, !accents.isEmpty { PitchAccentView(accents: accents) }
                     Text(item.meaning).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
                     Text(item.explanation).font(.callout).foregroundColor(.secondary).fixedSize(horizontal: false, vertical: true)
                     if let correct = typedCorrect {
-                        Label(correct ? "读音正确" : "再看一次，下次继续", systemImage: correct ? "checkmark.circle" : "arrow.counterclockwise")
+                        Label(correct ? "假名读音正确" : "再看一次，下次继续", systemImage: correct ? "checkmark.circle" : "arrow.counterclockwise")
                             .font(.caption).foregroundColor(.accentColor)
                     }
                     if let context = readingContext {

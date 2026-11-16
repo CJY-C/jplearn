@@ -11,7 +11,7 @@ OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
 COLLECTIONS = ("items", "sentences", "exercises", "lessons", "readings", "introModules")
 
 
-def make_pack(overrides=None):
+def make_pack(overrides=None, *, include_pronunciation=True):
     overrides = overrides or {}
     pack = json.loads((ROOT / "content/catalog.json").read_text())
     for key in COLLECTIONS:
@@ -22,6 +22,18 @@ def make_pack(overrides=None):
         batch = overrides[path] if path in overrides else json.loads(path.read_text())
         for key in COLLECTIONS:
             pack[key].extend(copy.deepcopy(batch.get(key, [])))
+    pronunciation_source = json.loads((ROOT / "content/manuscripts.json").read_text()).get("pronunciationSource")
+    if include_pronunciation and pronunciation_source:
+        assert Path(pronunciation_source).name == pronunciation_source, "Use a sibling pronunciation source"
+        pronunciation_path = ROOT / "content" / pronunciation_source
+        pronunciation = json.loads(pronunciation_path.read_text())
+        assert pronunciation["version"] == 1
+        pack["introModules"].extend(copy.deepcopy(pronunciation["introModules"]))
+        words = {item["id"]: item for item in pack["items"]}
+        for identifier, accents in pronunciation["wordAccents"].items():
+            assert identifier in words and words[identifier]["kind"] == "word", identifier
+            assert "pitchAccents" not in words[identifier], (identifier, "duplicate pitch annotation")
+            words[identifier]["pitchAccents"] = copy.deepcopy(accents)
     # Keep each batch's authored order within a level, while preventing a legacy
     # N3 lesson from being recommended ahead of newly added N5 foundations.
     stage_order = {s["id"].upper(): index for index, s in enumerate(pack["stages"])}
@@ -39,6 +51,14 @@ def validate(pack):
     references = {r["id"]: r for r in pack["references"]}
     validate_lexemes(pack["items"])
     for word in pack["items"]:
+        for accent in word.get("pitchAccents", []):
+            assert word["kind"] == "word" and accent["reading"] in [word["reading"]] + word.get("acceptedReadings", []), word["id"]
+            assert isinstance(accent["morae"], list) and accent["morae"] and all(isinstance(m, str) and m for m in accent["morae"]), word["id"]
+            assert "".join(accent["morae"]) == accent["reading"], word["id"]
+            assert type(accent["dropAfter"]) is int and 0 <= accent["dropAfter"] <= len(accent["morae"]), word["id"]
+            assert accent["dialect"] and accent["citations"], word["id"]
+            for citation in accent["citations"]:
+                assert citation["sourceID"] in references and citation["locator"] and citation["status"] in {"reference", "sourceChecked"}, citation
         if owner := word.get("lexemeID"):
             assert owner in word.get("prerequisiteIDs", []), (word["id"], "sense needs its base word")
             levels = ["N5", "N4", "N3", "N2"]

@@ -1,0 +1,424 @@
+{
+  "version": 1,
+  "introModules": [
+    {
+      "id": "intro7",
+      "title": "重音：拍与下降点",
+      "explanation": "日语重音先看有没有下降点、在哪一拍后下降。きゃ合成一拍，っ、ん和长音各占一拍。[n] 表示第 n 拍后下降，[0] 表示没有词汇性下降，不是每拍都读低。下列标记用于认读，不播放未听审的合成示范。",
+      "examples": [
+        "きょう：きょ・う，共两拍",
+        "雨：あ↓め [1]；飴：あめ [0]"
+      ],
+      "questions": [
+        {
+          "id": "intro7q1",
+          "prompt": "きょう怎样分拍？",
+          "choices": [
+            "き・ょ・う，三拍",
+            "きょう，合成一拍",
+            "きょ・う，两拍"
+          ],
+          "answerIndex": 2,
+          "explanation": "小写ょ与前面的き组成一拍，后面的う表示长音部分，另占一拍。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro7q2",
+          "prompt": "がっこう包含多少拍？",
+          "choices": [
+            "三拍：が・っこ・う",
+            "两拍：がっ・こう",
+            "四拍：が・っ・こ・う"
+          ],
+          "answerIndex": 2,
+          "explanation": "促音っ和长音部分う都占一拍；拍数不按汉字字数计算。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro7q3",
+          "prompt": "雨的あ↓め [1]表示什么？",
+          "choices": [
+            "整句只能使用一个固定音高",
+            "第一拍あ之后有下降点",
+            "第一拍必须发得最响"
+          ],
+          "answerIndex": 1,
+          "explanation": "箭头定位词汇性下降，不标音量，也不规定整句绝对音高。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro7q4",
+          "prompt": "飴的あめ [0]怎样理解？",
+          "choices": [
+            "这个参考型没有词汇性下降点",
+            "所有拍都必须读得很低",
+            "读到第零拍时先降再升"
+          ],
+          "answerIndex": 0,
+          "explanation": "[0]不是低音标记；短语整体音高仍与语调有关。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro7q5",
+          "prompt": "哪项最接近重音标记的作用？",
+          "choices": [
+            "用罗马音替代所有日语语调",
+            "标出词汇性下降位置，配合拍来认读",
+            "规定每个假名都要增加同样音量"
+          ],
+          "answerIndex": 1,
+          "explanation": "高低重音关注音高关系，拍是定位单位；音量和罗马音都不能代替它。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "tufsmora",
+          "locator": "1.10.1 拍与特殊拍；另核 1.11.1 的拗音说明",
+          "status": "sourceChecked"
+        },
+        {
+          "sourceID": "jpfaccent2025",
+          "locator": "§2.1–2.3，下降点与句首上升；中文和诊断题原创",
+          "status": "sourceChecked"
+        }
+      ],
+      "allowsSyntheticSpeech": false
+    },
+    {
+      "id": "intro8",
+      "title": "重音：接上助词再比较",
+      "explanation": "本组采用东京式参考型：[0]平板；[1]头高；下降点在词内为中高，在末拍后为尾高。平板与尾高单说时可能相似，接上が可看出区别。先认下降点，别把这些类型当成整句固定高低曲线。",
+      "examples": [
+        "鼻：はなが [0]；花：はな↓が [2]",
+        "箸：は↓し [1]；あなた：あな↓た [2]"
+      ],
+      "questions": [
+        {
+          "id": "intro8q1",
+          "prompt": "花的はな↓が里，下降发生在哪里？",
+          "choices": [
+            "な之后、助词が之前",
+            "は之后、な之前",
+            "助词が之后才发生"
+          ],
+          "answerIndex": 0,
+          "explanation": "花的参考型是第二拍后下降，接上が能看见这个边界。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro8q2",
+          "prompt": "鼻与花单说都像末尾升高，怎样继续比较？",
+          "choices": [
+            "把两个词都改用中文声调来读",
+            "接上同样的助词，检查词尾后是否有下降",
+            "只比较汉字各自有多少笔画"
+          ],
+          "answerIndex": 1,
+          "explanation": "这里比较的是词尾与后续助词的音高关系，不是汉字笔画。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro8q3",
+          "prompt": "あな↓た [2]共三拍，属于哪类？",
+          "choices": [
+            "平板型：没有任何下降点",
+            "中高型：下降点在词内",
+            "尾高型：第二拍就是词的末拍"
+          ],
+          "answerIndex": 1,
+          "explanation": "あなた有あ・な・た三拍，第二拍后仍有第三拍，因此是词内下降。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro8q4",
+          "prompt": "は↓し [1]作为箸的参考型，属于哪类？",
+          "choices": [
+            "头高型，第一拍后下降",
+            "尾高型，最后一拍后下降",
+            "平板型，助词也必须保持同高"
+          ],
+          "answerIndex": 0,
+          "explanation": "箸共两拍，下降在第一拍后；它不是末拍后下降。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro8q5",
+          "prompt": "[0]与两拍词的[2]，最关键的区别是什么？",
+          "choices": [
+            "两者只是字体不同，发音关系完全相同",
+            "前者没有词汇性下降，后者在末拍后下降",
+            "前者一律比后者说得更响"
+          ],
+          "answerIndex": 1,
+          "explanation": "单独词尾没有后续音时可能难分，助词能帮助观察尾高型的下降。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "tufsaccent",
+          "locator": "1.8.1：鼻／花接が、箸的第一拍核、あなた的第二拍核；题目原创",
+          "status": "sourceChecked"
+        }
+      ],
+      "allowsSyntheticSpeech": false
+    },
+    {
+      "id": "intro9",
+      "title": "重音：词与整句语调",
+      "explanation": "词的下降点与整句语调一起起作用，不能把每个词的独立高低图逐字拼成句子。疑问、焦点和情绪会影响整体语调。这里只练标记与概念，不作听辨或口音评分；东京式也不是所有方言的唯一标准。",
+      "examples": [
+        "雨 [1]：留意あ之后的下降位置",
+        "花 [2]＋が：留意词尾与助词的连接"
+      ],
+      "questions": [
+        {
+          "id": "intro9q1",
+          "prompt": "把每个词单说时的高低曲线逐个贴到句子里，是否可靠？",
+          "choices": [
+            "可靠，句子一定是各词曲线原样重复",
+            "只要把音量加大就一定可靠",
+            "不可靠，还要考虑短语与整句语调"
+          ],
+          "answerIndex": 2,
+          "explanation": "词汇性下降点与整体语调有关联，但单独词的固定高低图不等于自然句子的完整音高。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro9q2",
+          "prompt": "句尾升高表达疑问，能否据此把前面的所有词都改标[0]？",
+          "choices": [
+            "不能，句尾语调与词的下降点是不同层次",
+            "能，问句会让每个词永久变成平板型",
+            "能，只要句子包含か就不再有词重音"
+          ],
+          "answerIndex": 0,
+          "explanation": "问句语调不是取消全部词汇重音的操作，也不能由一个助词猜出每个词的型。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro9q3",
+          "prompt": "输入了正确假名后，应用能据此判断你的实际重音已读对吗？",
+          "choices": [
+            "不能，文字读音检查没有评定实际发声",
+            "能，假名完全决定每个词的重音型",
+            "能，输入越快就说明语调越自然"
+          ],
+          "answerIndex": 0,
+          "explanation": "同样的假名可有不同参考型；键盘输入也没有提供实际音频。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro9q4",
+          "prompt": "TTS与已有来源核对的下降标记不一致，应该怎么处理？",
+          "choices": [
+            "立即把全部标记改成TTS的结果",
+            "把该词的所有学习记录判为错误并删除",
+            "保留疑问，回查对应词义与参考型，不能直接以TTS为标准"
+          ],
+          "answerIndex": 2,
+          "explanation": "TTS是辅助，不是标准答案来源；当前练习不依赖未核对的听觉示范。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        },
+        {
+          "id": "intro9q5",
+          "prompt": "在作品里听到与东京式参考型不同的地方口音，应怎样理解？",
+          "choices": [
+            "先核对方言和语境，不直接判为说错",
+            "所有地区都必须使用同一套东京式音高",
+            "把任何差异都归结为汉字读错"
+          ],
+          "answerIndex": 0,
+          "explanation": "本组标明东京式范围；地域差异与读音错误不是同一件事。",
+          "evidenceSentenceIDs": [],
+          "ability": "pitchNotation"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfaccent2025",
+          "locator": "§1.2、§2.3、§3–4：固定高低图与自然句子、焦点及教学方向",
+          "status": "sourceChecked"
+        },
+        {
+          "sourceID": "tufsintonation",
+          "locator": "1.9.1：词重音与句子语调区分",
+          "status": "sourceChecked"
+        },
+        {
+          "sourceID": "ninjalaccent",
+          "locator": "日本語のアクセントとは：地域差异及本文采用的共通语范围",
+          "status": "sourceChecked"
+        }
+      ],
+      "allowsSyntheticSpeech": false
+    }
+  ],
+  "wordAccents": {
+    "v0083": [
+      {
+        "reading": "あめ",
+        "morae": [
+          "あ",
+          "め"
+        ],
+        "dropAfter": 1,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "jpfaccent2025",
+            "locator": "雨的あ之后下降；JPF 2025 §2.1及国語研同音词对照",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5157": [
+      {
+        "reading": "あめ",
+        "morae": [
+          "あ",
+          "め"
+        ],
+        "dropAfter": 0,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "jpfaccent2025",
+            "locator": "飴没有词汇性下降；JPF 2025 §2.1及国語研同音词对照",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5153": [
+      {
+        "reading": "はし",
+        "morae": [
+          "は",
+          "し"
+        ],
+        "dropAfter": 1,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "箸：第1拍アクセント核",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5106": [
+      {
+        "reading": "はな",
+        "morae": [
+          "は",
+          "な"
+        ],
+        "dropAfter": 0,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "鼻が：平板型，词尾后没有词汇性下降",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "v0221": [
+      {
+        "reading": "はな",
+        "morae": [
+          "は",
+          "な"
+        ],
+        "dropAfter": 2,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "花が：第二拍之后下降，尾高型",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5113": [
+      {
+        "reading": "あなた",
+        "morae": [
+          "あ",
+          "な",
+          "た"
+        ],
+        "dropAfter": 2,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "あなた：核在な，第2拍，中高型",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5940": [
+      {
+        "reading": "みずうみ",
+        "morae": [
+          "み",
+          "ず",
+          "う",
+          "み"
+        ],
+        "dropAfter": 3,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "湖：核在う，第3拍，中高型",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ],
+    "vn5202": [
+      {
+        "reading": "なつやすみ",
+        "morae": [
+          "な",
+          "つ",
+          "や",
+          "す",
+          "み"
+        ],
+        "dropAfter": 3,
+        "dialect": "东京式",
+        "citations": [
+          {
+            "sourceID": "tufsaccent",
+            "locator": "夏休み：核在や，第3拍，中高型",
+            "status": "sourceChecked"
+          }
+        ]
+      }
+    ]
+  }
+}

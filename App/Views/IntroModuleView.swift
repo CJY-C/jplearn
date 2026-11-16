@@ -3,6 +3,7 @@ import LearningCore
 
 struct IntroModuleView: View {
     @EnvironmentObject private var model: AppModel
+    @AppStorage("voiceID") private var voiceID = ""
     @State private var sessionID = UUID()
     @State private var index = 0
     @State private var selection: Int?
@@ -34,8 +35,10 @@ struct IntroModuleView: View {
                         HStack {
                             Text(example).font(.title3)
                             Spacer()
-                            Button { model.perform { try model.speech.speak(example) } } label: { Image(systemName: "speaker.wave.2") }
-                                .buttonStyle(StudyIconButtonStyle()).accessibilityLabel("朗读 \(example)")
+                            if module.allowsSyntheticSpeech != false {
+                                Button { model.perform { try model.speech.speak(example, voiceID: voiceID) } } label: { Image(systemName: "speaker.wave.2") }
+                                    .buttonStyle(StudyIconButtonStyle()).accessibilityLabel("朗读 \(example)")
+                            }
                         }
                     }
                     Text("已经熟悉的话，可以直接做下方诊断。")
