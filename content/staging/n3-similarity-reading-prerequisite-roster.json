@@ -1,9 +1,9 @@
 {
-  "status": "candidate facts retained; selected authored words recorded separately; unregistered and not delivered",
+  "status": "Candidate facts retained; 12 draft words selected separately and 3 additional N4 senses registered; N3 chapter unregistered and not delivered",
   "baselineVersion": "0.19.0",
   "newThemeWordsConsidered": 120,
-  "unresolvedReadingForms": 96,
-  "combinedGrammarAndReadingForms": 96,
+  "unresolvedReadingForms": 93,
+  "combinedGrammarAndReadingForms": 93,
   "deliberatelyUnlinkedProperNames": {
     "ミオ": [
       "rn3130sa",
@@ -928,7 +928,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected authored N4 additional sense only; no automatic acceptance of other dictionary forms, readings or senses",
+      "selection": {
+        "itemID": "vn4q001",
+        "lexemeID": "vn5246",
+        "entryID": 1495770,
+        "senseIDs": [
+          59114
+        ],
+        "status": "registered at N4 with two original contexts and separate reading practice; not released"
+      }
     },
     {
       "form": "会釈",
@@ -2795,7 +2804,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected authored N4 additional sense only; no automatic acceptance of other dictionary forms, readings or senses",
+      "selection": {
+        "itemID": "vn4q002",
+        "lexemeID": "vn5422",
+        "entryID": 1207610,
+        "senseIDs": [
+          23405
+        ],
+        "status": "registered at N4 with two original contexts and separate reading practice; not released"
+      }
     },
     {
       "form": "掲載",
@@ -4581,7 +4599,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; review taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "Selected authored N4 additional sense only; no automatic acceptance of other dictionary forms, readings or senses",
+      "selection": {
+        "itemID": "vn4q003",
+        "lexemeID": "vn5036",
+        "entryID": 1298790,
+        "senseIDs": [
+          34541
+        ],
+        "status": "registered at N4 with two original contexts and separate reading practice; not released"
+      }
     },
     {
       "form": "録音機",
@@ -5008,5 +5035,6 @@
     }
   ],
   "initialCandidateForms": 108,
-  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json"
+  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
+  "registeredSenseReview": "content/source-checks/n4-written-senses.json"
 }

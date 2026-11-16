@@ -2,7 +2,7 @@
   "status": "local primary dictionary facts checked for selected links; independent Japanese review pending",
   "dictionaryPath": "build/sources/jamdict-cn/jamdict_cn_deduplicated.db",
   "dictionarySHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
-  "reviewedFacts": "Kanji/Kana spellings and listed sense glosses for the selected readings; not a blanket acceptance of all dictionary readings or senses. Existing runtime word records were not changed.",
+  "reviewedFacts": "Kanji/Kana spellings and selected sense facts, not blanket acceptance of all readings or meanings. Three N4 written-sense targets are now registered; existing roots only gained dictionary source metadata.",
   "selectedSameSenseLinks": [
     {
       "itemID": "vn5781",
@@ -160,13 +160,14 @@
   },
   "structureReport": "content/staging/n3-similarity-reading-review.json",
   "remainingWork": [
-    "Resolve 96 remaining reading annotated forms, deduplicate true aliases, and separately teach new senses where required. Grammar-example forms are now linked or explicitly sourced grammatical suffixes.",
+    "Resolve 93 remaining reading annotated forms, deduplicate true aliases, and separately teach new senses where required. Grammar-example forms are now linked or explicitly sourced grammatical suffixes.",
     "For the remaining selected reading lexical targets author at least two independent original contexts without reusing assessment text; 65 grammar-prerequisite roots already have 130 original contexts.",
     "Review theme-word reading variants and context senses, register chapter, compile and run all curriculum gates.",
     "Obtain independent Japanese language review; run macOS/iOS CI and SE3 UI validation after Actions allowance resumes.",
     "Finish the complete additional N2 curriculum and six original-reading bridges."
   ],
-  "unselectedSenseCandidates": [
+  "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
+  "registeredAdditionalSenses": [
     {
       "form": "付ける",
       "entryID": 1495770,
@@ -175,7 +176,11 @@
         "vn5246",
         "vn3i084"
       ],
-      "reason": "Physically attach a name label to the shelf; neither switching on a device nor adding a name/number automatically proves this physical-attachment sense was taught. Leave unresolved."
+      "previousReviewReason": "Physically attach a name label to the shelf; neither switching on a device nor adding a name/number automatically proves this physical-attachment sense was taught. Leave unresolved.",
+      "itemID": "vn4q001",
+      "lexemeID": "vn5246",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
     },
     {
       "form": "掛ける",
@@ -184,7 +189,11 @@
       "existingCandidates": [
         "vn5422"
       ],
-      "reason": "Hang a coat or cloth; the existing target means making a telephone call. Keep the new sense separate and review lexeme ownership rather than counting a duplicate root."
+      "previousReviewReason": "Hang a coat or cloth; the existing target means making a telephone call. Keep the new sense separate and review lexeme ownership rather than counting a duplicate root.",
+      "itemID": "vn4q002",
+      "lexemeID": "vn5422",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
     },
     {
       "form": "録る",
@@ -193,8 +202,11 @@
       "existingCandidates": [
         "vn5036"
       ],
-      "reason": "Record voice, whereas existing 撮る teaches taking photos. Review spelling restrictions and a sense-level model before adding or reusing a target."
+      "previousReviewReason": "Record voice, whereas existing 撮る teaches taking photos. Review spelling restrictions and a sense-level model before adding or reusing a target.",
+      "itemID": "vn4q003",
+      "lexemeID": "vn5036",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
     }
-  ],
-  "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json"
+  ]
 }

@@ -54,6 +54,7 @@
     {"kind": "word", "source": "n4-condition-prerequisites.tsv", "batch": "050-n4-condition-prerequisites.json"},
     {"kind": "word", "source": "n3-condition-prerequisites.tsv", "batch": "051-n3-condition-prerequisites.json"},
     {"kind": "grammar", "source": "n3-condition-and-perspective.tsv", "batch": "052-n3-condition-and-perspective.json"},
-    {"kind": "reading", "source": "n3-condition-readings.tsv", "batch": "053-n3-condition-readings.json"}
+    {"kind": "reading", "source": "n3-condition-readings.tsv", "batch": "053-n3-condition-readings.json"},
+    {"kind": "word", "source": "n4-similarity-reading-senses.tsv", "batch": "054-n4-written-senses.json"}
   ]
 }

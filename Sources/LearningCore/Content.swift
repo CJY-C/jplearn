@@ -31,9 +31,10 @@ public struct KnowledgeItem: Codable, Identifiable {
     public let reading: String
     public var acceptedReadings: [String]?
     public var readingCue: String?
+    public var jmdictEntryID: Int?
     public var pitchAccents: [WordPitchAccent]?
-    /// Extra meanings share the spelling/pronunciation of an existing word,
-    /// while keeping their own meaning review history.
+    /// Extra meanings keep their own review history. A different written form
+    /// requires an explicitly checked dictionary identity and its own reading review.
     public var lexemeID: String?
     public var readingOwnerID: String?
     public let romaji: String
@@ -244,7 +245,8 @@ public struct ContentPack: Codable {
             let readings = Set(([item.reading] + (item.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
             let ownerReadings = Set(([owner.reading] + (owner.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
             return item.kind == "word" && owner.isLexeme && id != item.id &&
-                item.text == owner.text && readings.isSubset(of: ownerReadings) && item.meaning != owner.meaning &&
+                (item.text == owner.text || (item.jmdictEntryID != nil && item.jmdictEntryID == owner.jmdictEntryID)) &&
+                readings.isSubset(of: ownerReadings) && item.meaning != owner.meaning &&
                 (item.prerequisiteIDs ?? []).contains(id)
         }) else { throw LearningError.invalid("词义与原词的关联无效。") }
         guard items.allSatisfy({ item in
@@ -252,8 +254,23 @@ public struct ContentPack: Codable {
             guard let owner = knownItems[id], item.lexemeID == id else { return false }
             let readings = Set(([item.reading] + (item.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
             let ownerReadings = Set(([owner.reading] + (owner.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
-            return readings == ownerReadings
-        }) else { throw LearningError.invalid("不同读音条件的词义不能共用读音练习。") }
+            return item.text == owner.text && readings == ownerReadings
+        }) else { throw LearningError.invalid("不同字形或读音条件不能共用认读练习。") }
+        guard items.allSatisfy({ item in
+            guard let entry = item.jmdictEntryID else { return true }
+            return item.kind == "word" && entry > 0 && item.sourceIDs.contains("jmdict") &&
+                (item.citations ?? []).contains { $0.sourceID == "jmdict" && $0.locator.hasPrefix("JMdict entry \(entry)；") }
+        }) else { throw LearningError.invalid("词条的词典编号或出处无效。") }
+        let dictionaryGroups = Dictionary(grouping: items.filter { $0.jmdictEntryID != nil }, by: { $0.jmdictEntryID! })
+        guard dictionaryGroups.values.allSatisfy({ words in
+            words.enumerated().allSatisfy { index, word in
+                let readings = Set(([word.reading] + (word.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+                return words.dropFirst(index + 1).allSatisfy { other in
+                    let others = Set(([other.reading] + (other.acceptedReadings ?? [])).map(AnswerChecker.normalizeKana))
+                    return readings.isDisjoint(with: others) || (word.lexemeID ?? word.id) == (other.lexemeID ?? other.id)
+                }
+            }
+        }) else { throw LearningError.invalid("同一词条的同读音用法不能重复计为新词。") }
         let wordForms = Dictionary(grouping: items.filter { $0.kind == "word" }, by: \.text)
         guard wordForms.values.allSatisfy({ words in
             words.enumerated().allSatisfy { index, word in

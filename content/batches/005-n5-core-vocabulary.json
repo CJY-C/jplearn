@@ -4845,7 +4845,8 @@
       "meaning": "打开（灯、电器等）",
       "explanation": "本单元义项：打开（灯、电器等）。通过两个不同语境辨认；其他义项须结合上下文。\n本条练开灯、开电视的つける，与消す相对；不是所有中文“开”都用它，开门用開ける。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -4860,6 +4861,11 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5246；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1495770；义项 59126：打开灯。物理粘贴、附着义独立教学。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
@@ -4867,7 +4873,8 @@
         "svn5246b"
       ],
       "order": 2145,
-      "readingCue": "开关电器：如「電気をつける」"
+      "readingCue": "开关电器：如「電気をつける」",
+      "jmdictEntryID": 1495770
     },
     {
       "id": "vn5247",

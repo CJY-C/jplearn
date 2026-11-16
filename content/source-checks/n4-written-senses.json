@@ -1,0 +1,116 @@
+{
+  "status": "Registered and locally validated; not released, not independently language-reviewed",
+  "checkedDate": "2026-11-16",
+  "baseline": "3255a914934e00f1e785e1139f8f8681fb389da7",
+  "baselineResourceSHA256": "2b5cf111156e6ad5181b6413fd7490b13f377a80d6af60e4d652be81912a499c",
+  "resourceSHA256": "e2f16afe76e55363cd777d00c4f3820d068fad35601f0cb53daf8af6b2ef530b",
+  "manuscripts": {
+    "content/authoring/n4-similarity-reading-senses.tsv": "84ebacbab523a016f0ddf4e5ababc759b2a106cdf37e0b4c0870f88270412208",
+    "content/authoring/n5-reading-words.tsv": "ea6851ba9628eaaa7cee380a6745d50b69ca8a93adf66d965d4d359c81ec3894",
+    "content/authoring/n5-core-words.tsv": "09ff8491e8e3efe5d13fd3c796ce6433341983f22f3746afc93fb5c35ae1ec1a",
+    "content/authoring/n5-everyday-words.tsv": "3e9f803f0f31bdbcdede3dd2e7c040add0c435664485f33f2e6c0b03507857b4",
+    "content/authoring/n4-society-and-daily-life.tsv": "1f95b3c8c333382d7170ccd11ad5614b2297c8ea5f3187fc497173e9831b1cdf"
+  },
+  "dictionary": {
+    "sourceID": "jmdict",
+    "localDatabasePath": "build/sources/jamdict-cn/jamdict_cn_deduplicated.db",
+    "localDatabaseSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "bundled": false
+  },
+  "additionalWordRoots": 0,
+  "additionalSenses": 3,
+  "originalContexts": 6,
+  "independentlyReviewed": 0,
+  "entries": [
+    {
+      "itemID": "vn4q001",
+      "lexemeID": "vn5246",
+      "entryID": 1495770,
+      "ownerSenseID": 59126,
+      "newSenseID": 59114,
+      "taughtSpelling": "付ける",
+      "primaryReading": "つける",
+      "acceptedAlternativeReadings": [],
+      "spellingRestrictions": [],
+      "readingRestrictions": [],
+      "exampleSentenceIDs": [
+        "svn4q001a",
+        "svn4q001b"
+      ],
+      "draftReadingContexts": [
+        "rn3118sb"
+      ],
+      "sourceScope": "Selected sense facts only; no blanket aliasing of dictionary forms or meanings."
+    },
+    {
+      "itemID": "vn4q002",
+      "lexemeID": "vn5422",
+      "entryID": 1207610,
+      "ownerSenseID": 23408,
+      "newSenseID": 23405,
+      "taughtSpelling": "掛ける",
+      "primaryReading": "かける",
+      "acceptedAlternativeReadings": [],
+      "spellingRestrictions": [],
+      "readingRestrictions": [],
+      "exampleSentenceIDs": [
+        "svn4q002a",
+        "svn4q002b"
+      ],
+      "draftReadingContexts": [
+        "rn3120sa",
+        "rn3126sd"
+      ],
+      "sourceScope": "Selected sense facts only; no blanket aliasing of dictionary forms or meanings."
+    },
+    {
+      "itemID": "vn4q003",
+      "lexemeID": "vn5036",
+      "entryID": 1298790,
+      "ownerSenseID": 34540,
+      "newSenseID": 34541,
+      "taughtSpelling": "録る",
+      "primaryReading": "とる",
+      "acceptedAlternativeReadings": [],
+      "spellingRestrictions": [],
+      "readingRestrictions": [],
+      "exampleSentenceIDs": [
+        "svn4q003a",
+        "svn4q003b"
+      ],
+      "draftReadingContexts": [
+        "rn3122sa"
+      ],
+      "sourceScope": "Selected sense facts only; no blanket aliasing of dictionary forms or meanings.",
+      "orthographyNote": "Dictionary says esp. 撮る for photos and esp. 録る for audio/video, not exclusive spelling restrictions."
+    }
+  ],
+  "identityPolicy": "Cross-spelling senses require the same explicit dictionary entry and compatible readings. Different glyphs always keep separate reading practice. Word meanings stay separately reviewed and unknown in reading readiness until learned.",
+  "compatibility": {
+    "added": {
+      "items": 3,
+      "sentences": 6,
+      "exercises": 3,
+      "lessons": 1,
+      "readings": 0,
+      "introModules": 0
+    },
+    "oldItemsWithOnlySourceMetadataAdded": [
+      "vn5036",
+      "vn5246",
+      "vn5422"
+    ],
+    "oldSentencesWithOnlyNewSenseLinks": [
+      "svn4i011a",
+      "svn4i020b"
+    ],
+    "oldTextRubyTranslationsAnswersAndRelativeOrderPreserved": true,
+    "learningEventSchemaUnchanged": 3
+  },
+  "authorship": "Chinese explanations, six example sentences, translations and questions are original, CC BY-SA 4.0; dictionary facts checked against selected senses. No dictionary example or audio copied.",
+  "remainingScope": [
+    "Review and author the 93 remaining reading prerequisites of the staged N3 chapter.",
+    "Finish N3 registration and all curriculum gates, the additional N2 curriculum and six reading bridges.",
+    "Run macOS/iOS compilation, SE3 UI validation and device acceptance when Actions is available."
+  ]
+}

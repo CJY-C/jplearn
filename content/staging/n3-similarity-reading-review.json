@@ -3,7 +3,7 @@
   "currentRuntimeVersion": "0.19.1",
   "independentlyReviewed": 0,
   "runtimeResourceMatches0190": false,
-  "runtimeResourceSHA256": "2b5cf111156e6ad5181b6413fd7490b13f377a80d6af60e4d652be81912a499c",
+  "runtimeResourceSHA256": "e2f16afe76e55363cd777d00c4f3820d068fad35601f0cb53daf8af6b2ef530b",
   "words": 185,
   "wordContexts": 370,
   "themeWords": 120,
@@ -17,7 +17,7 @@
   "assessmentReadings": 4,
   "heldoutFraction": 0.2,
   "questions": 40,
-  "comparisonSentenceRows": 10348,
+  "comparisonSentenceRows": 10354,
   "heldoutRowsChecked": 24,
   "registeredHeldoutRowsChecked": 306,
   "heldoutVerbatimFragmentLength": 20,
@@ -129,7 +129,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 117,
-      "unlinkedOccurrences": 6
+      "unlinkedOccurrences": 5
     },
     {
       "id": "rn3119",
@@ -149,7 +149,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 121,
-      "unlinkedOccurrences": 10
+      "unlinkedOccurrences": 9
     },
     {
       "id": "rn3121",
@@ -169,7 +169,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 105,
-      "unlinkedOccurrences": 5
+      "unlinkedOccurrences": 4
     },
     {
       "id": "rn3123",
@@ -209,7 +209,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 130,
-      "unlinkedOccurrences": 14
+      "unlinkedOccurrences": 13
     },
     {
       "id": "rn3127",
@@ -252,9 +252,9 @@
       "unlinkedOccurrences": 15
     }
   ],
-  "unresolvedReadingForms": 96,
+  "unresolvedReadingForms": 93,
   "unresolvedGrammarForms": 0,
-  "combinedUnresolvedForms": 96,
+  "combinedUnresolvedForms": 93,
   "grammarGaps": {},
   "gaps": {
     "おかげで": [
@@ -305,9 +305,6 @@
       "rn3126sc",
       "rn3126se",
       "rn3126sf"
-    ],
-    "付ける": [
-      "rn3118sb"
     ],
     "会釈": [
       "rn3113sd"
@@ -429,10 +426,6 @@
     "持参": [
       "rn3129se"
     ],
-    "掛ける": [
-      "rn3126sd",
-      "rn3120sa"
-    ],
     "掲載": [
       "rn3129sf",
       "rn3129sf"
@@ -545,9 +538,6 @@
     ],
     "透明": [
       "rn3124se"
-    ],
-    "録る": [
-      "rn3122sa"
     ],
     "録音機": [
       "rn3122sa"

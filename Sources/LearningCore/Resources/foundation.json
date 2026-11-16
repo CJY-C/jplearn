@@ -13370,7 +13370,8 @@
       "meaning": "拍摄（照片等）",
       "explanation": "本单元义项：拍摄（照片等）。通过两个不同语境辨认；其他义项须结合上下文。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -13385,13 +13386,19 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5036；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1298790；义项 34540：拍摄照片。与同词条内的录音、录像义分开教学。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
         "svn5036a",
         "svn5036b"
       ],
-      "order": 2035
+      "order": 2035,
+      "jmdictEntryID": 1298790
     },
     {
       "id": "vn5037",
@@ -19224,7 +19231,8 @@
       "meaning": "打开（灯、电器等）",
       "explanation": "本单元义项：打开（灯、电器等）。通过两个不同语境辨认；其他义项须结合上下文。\n本条练开灯、开电视的つける，与消す相对；不是所有中文“开”都用它，开门用開ける。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -19239,6 +19247,11 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5246；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1495770；义项 59126：打开灯。物理粘贴、附着义独立教学。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
@@ -19246,7 +19259,8 @@
         "svn5246b"
       ],
       "order": 2145,
-      "readingCue": "开关电器：如「電気をつける」"
+      "readingCue": "开关电器：如「電気をつける」",
+      "jmdictEntryID": 1495770
     },
     {
       "id": "vn5247",
@@ -23393,7 +23407,8 @@
       "meaning": "拨打（电话）",
       "explanation": "本单元义项：拨打（电话）。通过两个不同语境辨认；其他义项须结合上下文。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -23408,6 +23423,11 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5422；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1207610；义项 23408：拨打电话。悬挂物品的用法另行学习。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
@@ -23415,7 +23435,8 @@
         "svn5422b"
       ],
       "order": 2121,
-      "readingCue": "拨打电话：如「電話をかける」"
+      "readingCue": "拨打电话：如「電話をかける」",
+      "jmdictEntryID": 1207610
     },
     {
       "id": "vn5423",
@@ -124703,6 +124724,138 @@
         "n3-completion"
       ],
       "order": 1036
+    },
+    {
+      "id": "vn4q001",
+      "kind": "word",
+      "level": "N4",
+      "text": "付ける",
+      "reading": "つける",
+      "romaji": "tsukeru",
+      "meaning": "粘贴、固定、附上；使物品附着在另一物上",
+      "explanation": "本单元义项：粘贴、固定、附上；使物品附着在另一物上。通过两个不同语境辨认；其他义项须结合上下文。\n本组是物品附着。开灯的つける、添加名称或编号的つける各自保留原用法；这个付字需要另行建立与つける的联系。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "粘贴、固定、附上；使物品附着在另一物上",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5246"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1495770；义项 59114：使物品附着、固定。与开灯及添加名字、编号的用法分开。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4q001a",
+        "svn4q001b"
+      ],
+      "order": 2000,
+      "readingCue": "把物品附着、固定到另一物上",
+      "jmdictEntryID": 1495770,
+      "lexemeID": "vn5246"
+    },
+    {
+      "id": "vn4q002",
+      "kind": "word",
+      "level": "N4",
+      "text": "掛ける",
+      "reading": "かける",
+      "romaji": "kakeru",
+      "meaning": "悬挂、挂起；把衣物、画等吊挂在某处",
+      "explanation": "本单元义项：悬挂、挂起；把衣物、画等吊挂在某处。通过两个不同语境辨认；其他义项须结合上下文。\n这里按悬挂义理解掛ける；同样读かける的电话、花费、浇上液体等用法须依语境分开。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "悬挂、挂起；把衣物、画等吊挂在某处",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5422"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1207610；义项 23405：悬挂衣物、画等。与拨打电话及其他かける的用法分开。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4q002a",
+        "svn4q002b"
+      ],
+      "order": 2001,
+      "readingCue": "把物品悬挂起来",
+      "jmdictEntryID": 1207610,
+      "lexemeID": "vn5422"
+    },
+    {
+      "id": "vn4q003",
+      "kind": "word",
+      "level": "N4",
+      "text": "録る",
+      "reading": "とる",
+      "romaji": "toru",
+      "meaning": "录制、录下；把声音或影像记录保存下来",
+      "explanation": "本单元义项：录制、录下；把声音或影像记录保存下来。通过两个不同语境辨认；其他义项须结合上下文。\n録る与拍照的撮る读音相同，字形与本组用法分开学习。词典的“尤其写作”是常见用字提示，不把它误教成绝对排他规则。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "录制、录下；把声音或影像记录保存下来",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5036"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1298790；义项 34541：录音、录像等，词典注明本义尤其写録る；拍照义 34540 尤其写撮る。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4q003a",
+        "svn4q003b"
+      ],
+      "order": 2002,
+      "readingCue": "录下声音或连续影像",
+      "jmdictEntryID": 1298790,
+      "lexemeID": "vn5036"
     }
   ],
   "sentences": [
@@ -390481,7 +390634,7 @@
         {
           "text": "付",
           "reading": "つ",
-          "itemID": null
+          "itemID": "vn4q001"
         },
         {
           "text": "けました。",
@@ -391736,7 +391889,7 @@
         {
           "text": "掛",
           "reading": "か",
-          "itemID": null
+          "itemID": "vn4q002"
         },
         {
           "text": "けてある",
@@ -779424,6 +779577,491 @@
           "status": "original"
         }
       ]
+    },
+    {
+      "id": "svn4q001a",
+      "segments": [
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "白",
+          "reading": "しろ",
+          "itemID": "v0245"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "付",
+          "reading": "つ",
+          "itemID": "vn4q001"
+        },
+        {
+          "text": "けて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中身",
+          "reading": "なかみ",
+          "itemID": "vn3a025"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把白纸贴在箱子上，写明里面装的东西。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4q001b",
+      "segments": [
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "脚",
+          "reading": "あし",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "付",
+          "reading": "つ",
+          "itemID": "vn4q001"
+        },
+        {
+          "text": "けると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "また",
+          "reading": "また",
+          "itemID": "vn5334"
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "えるようになりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "给旧桌子装上新桌腿后，它又可以使用了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4q002a",
+      "segments": [
+        {
+          "text": "姉",
+          "reading": "あね",
+          "itemID": "v0197"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "もら",
+          "reading": "もら",
+          "itemID": "v0088"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "絵",
+          "reading": "え",
+          "itemID": "vn5052"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "壁",
+          "reading": "かべ",
+          "itemID": "vn5902"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "掛",
+          "reading": "か",
+          "itemID": "vn4q002"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把姐姐送的画挂在墙上。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4q002b",
+      "segments": [
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "木",
+          "reading": "き",
+          "itemID": "vn5176"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "籠",
+          "reading": "かご",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "掛",
+          "reading": "か",
+          "itemID": "vn4q002"
+        },
+        {
+          "text": "け、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "鳥",
+          "reading": "とり",
+          "itemID": "v0299"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "く",
+          "itemID": "v0031"
+        },
+        {
+          "text": "るのを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把小篮子挂在院子里的树上，等鸟飞来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4q003a",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "当",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "たる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音",
+          "reading": "おと",
+          "itemID": "vn5794"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "録",
+          "reading": "と",
+          "itemID": "vn4q003"
+        },
+        {
+          "text": "り、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いてみました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我录下雨点打在窗上的声音，后来听了一遍。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4q003b",
+      "segments": [
+        {
+          "text": "祭り",
+          "reading": "まつり",
+          "itemID": "vn4j113"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "様子",
+          "reading": "ようす",
+          "itemID": "vn4i164"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ビデオ",
+          "reading": "びでお",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "録",
+          "reading": "と",
+          "itemID": "vn4q003"
+        },
+        {
+          "text": "り、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "ってから",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我录下节庆现场的影像，回去后与家人一起看了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
     }
   ],
   "exercises": [
@@ -913716,6 +914354,81 @@
           "status": "reference"
         }
       ]
+    },
+    {
+      "id": "evn4q001a",
+      "targetID": "vn4q001",
+      "sentenceID": "svn4q001b",
+      "skill": "meaning",
+      "prompt": "句中「付ける」表示什么？",
+      "choices": [
+        "粘贴、固定、附上；使物品附着在另一物上",
+        "打开灯或电器使其运行",
+        "给事物命名或添加编号"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「粘贴、固定、附上；使物品附着在另一物上」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "つける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "付ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4q002a",
+      "targetID": "vn4q002",
+      "sentenceID": "svn4q002b",
+      "skill": "meaning",
+      "prompt": "句中「掛ける」表示什么？",
+      "choices": [
+        "悬挂、挂起；把衣物、画等吊挂在某处",
+        "拨打电话联系某人",
+        "把液体浇在食物等上面"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「悬挂、挂起；把衣物、画等吊挂在某处」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "掛ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4q003a",
+      "targetID": "vn4q003",
+      "sentenceID": "svn4q003b",
+      "skill": "meaning",
+      "prompt": "句中「録る」表示什么？",
+      "choices": [
+        "只把内容抄写到纸面上",
+        "录制、录下；把声音或影像记录保存下来",
+        "拍摄一张静止照片"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「录制、录下；把声音或影像记录保存下来」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "とる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "録る",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
     }
   ],
   "lessons": [
@@ -929017,6 +929730,35 @@
         "evn4p003a",
         "evn4p004a",
         "evn4p005a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4q01",
+      "title": "粘贴、悬挂与录制",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4q001",
+        "vn4q002",
+        "vn4q003"
+      ],
+      "sentenceIDs": [
+        "svn4q001a",
+        "svn4q001b",
+        "svn4q002a",
+        "svn4q002b",
+        "svn4q003a",
+        "svn4q003b"
+      ],
+      "exerciseIDs": [
+        "evn4q001a",
+        "evn4q002a",
+        "evn4q003a"
       ],
       "readingID": null,
       "prerequisiteIDs": [],

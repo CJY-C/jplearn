@@ -51,6 +51,10 @@ def validate(pack):
     references = {r["id"]: r for r in pack["references"]}
     validate_lexemes(pack["items"])
     for word in pack["items"]:
+        if word.get("jmdictEntryID") is not None:
+            assert word["kind"] == "word" and "jmdict" in word["sourceIDs"], word["id"]
+            assert any(c["sourceID"] == "jmdict" and c["locator"].startswith(f'JMdict entry {word["jmdictEntryID"]}；')
+                       for c in word.get("citations", [])), (word["id"], "dictionary identity needs its source")
         for accent in word.get("pitchAccents", []):
             assert word["kind"] == "word" and accent["reading"] in [word["reading"]] + word.get("acceptedReadings", []), word["id"]
             assert isinstance(accent["morae"], list) and accent["morae"] and all(isinstance(m, str) and m for m in accent["morae"]), word["id"]

@@ -59,6 +59,7 @@ def compile_all():
         for row in fields:
             if row[0] == "A": declared[row[1]]["acceptedReadings"] = row[2].split(",")
             if row[0] == "G": declared[row[1]]["lexemeID"] = row[2]
+            if row[0] == "J": declared[row[1]]["jmdictEntryID"] = int(row[2])
         assert not {w["id"] for w in index["items"]} & declared.keys(), "Duplicate authored word ID"
         index["items"].extend(declared.values())
     outputs = {}

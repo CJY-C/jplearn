@@ -10,6 +10,8 @@ def lexical_words(items):
 def validate_lexemes(items):
     words = {w["id"]: w for w in items if w["kind"] == "word"}
     for word in words.values():
+        if word.get("jmdictEntryID") is not None:
+            assert type(word["jmdictEntryID"]) is int and word["jmdictEntryID"] > 0, (word["id"], "invalid dictionary entry identity")
         for field in ("lexemeID", "readingOwnerID"):
             if word.get(field) is not None:
                 assert isinstance(word[field], str) and word[field], (word["id"], "empty word association")
@@ -18,11 +20,13 @@ def validate_lexemes(items):
             assert owner and not owner.get("lexemeID") and owner_id != word["id"], (word["id"], "invalid lexeme owner")
             owner_readings = {kana(x) for x in [owner["reading"]] + owner.get("acceptedReadings", [])}
             own_readings = {kana(x) for x in [word["reading"]] + word.get("acceptedReadings", [])}
-            assert word["text"] == owner["text"] and own_readings <= owner_readings, (word["id"], "sense must share its word form")
+            same_entry = word.get("jmdictEntryID") is not None and word["jmdictEntryID"] == owner.get("jmdictEntryID")
+            assert (word["text"] == owner["text"] or same_entry) and own_readings <= owner_readings, (word["id"], "sense must share its word form or explicit dictionary identity")
             assert word["meaning"] != owner["meaning"], (word["id"], "duplicate sense")
         if reading_owner := word.get("readingOwnerID"):
             owner = words.get(reading_owner)
             assert owner and word.get("lexemeID") == reading_owner, (word["id"], "invalid shared reading")
+            assert word["text"] == owner["text"], (word["id"], "different spellings cannot share a reading review")
             first = {kana(x) for x in [word["reading"]] + word.get("acceptedReadings", [])}
             second = {kana(x) for x in [owner["reading"]] + owner.get("acceptedReadings", [])}
             assert first == second, (word["id"], "different reading constraints cannot share a review")
@@ -35,6 +39,15 @@ def validate_lexemes(items):
                 assert (word.get("lexemeID") or word["id"]) == (previous.get("lexemeID") or previous["id"]), (word["text"], "duplicate spelling; reuse the existing target or declare a sense group")
                 assert word["meaning"] != previous["meaning"], (word["id"], "duplicate sense")
         by_text[word["text"]].append(word)
+    by_entry = {}
+    for word in words.values():
+        if not (entry := word.get("jmdictEntryID")): continue
+        readings = {kana(x) for x in [word["reading"]] + word.get("acceptedReadings", [])}
+        for other in by_entry.setdefault(entry, []):
+            other_readings = {kana(x) for x in [other["reading"]] + other.get("acceptedReadings", [])}
+            if readings & other_readings:
+                assert (word.get("lexemeID") or word["id"]) == (other.get("lexemeID") or other["id"]), (word["id"], "same dictionary entry/pronunciation must share a root")
+        by_entry[entry].append(word)
 
 
 def word_lookup(items):

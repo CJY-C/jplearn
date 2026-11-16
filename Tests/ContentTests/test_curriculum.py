@@ -28,18 +28,27 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
         result = audit(self.pack, self.syllabus, self.reference)
         self.assertEqual(sum(s["actual"]["words"] for s in result["stages"]), expected)
         self.assertEqual(result["stages"][1]["required"]["words"], 1000)
+        words = {w["id"]: w for w in targets}
         for sense in senses:
-            self.assertEqual(sense["readingOwnerID"], sense["lexemeID"])
+            owner = words[sense["lexemeID"]]
+            if sense["text"] == owner["text"]:
+                self.assertEqual(sense["readingOwnerID"], owner["id"])
+            else:
+                self.assertNotIn("readingOwnerID", sense)
+                self.assertEqual(sense["jmdictEntryID"], owner["jmdictEntryID"])
+        self.assertEqual({w["id"] for w in senses if w["text"] != words[w["lexemeID"]]["text"]},
+                         {"vn4q001", "vn4q002", "vn4q003"})
         for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963"),
                          ("rn4414s6", "vn5s001"), ("svn5335b", "vn5s002"), ("svn5224a", "vn5224"),
-                         ("svn4i174b", "vn3a133"), ("svn4j065b", "vn3a101")]:
+                         ("svn4i174b", "vn3a133"), ("svn4j065b", "vn3a101"),
+                         ("svn4i011a", "vn4q001"), ("svn4i020b", "vn4q002")]:
             sentence = next(s for s in self.pack["sentences"] if s["id"] == sid)
             self.assertTrue(any(s["itemID"] == wid for s in sentence["segments"]), sid)
 
@@ -85,6 +94,34 @@ class CurriculumDeliveryTests(unittest.TestCase):
             word = next(w for w in broken["items"] if w["id"] == "v0083")
             word["pitchAccents"][0].update(changes)
             with self.assertRaises(AssertionError): validate(broken)
+
+    def test_different_written_senses_need_explicit_dictionary_identity(self):
+        owner = dict(id="photo", kind="word", text="撮る", reading="とる", meaning="拍照", jmdictEntryID=1298790)
+        sense = dict(id="audio", kind="word", text="録る", reading="とる", meaning="录音", lexemeID="photo", jmdictEntryID=1298790)
+        validate_lexemes([owner, sense])
+        lookup = word_lookup([owner, sense])
+        self.assertEqual(lookup["撮る"]["id"], "photo")
+        self.assertEqual(lookup["録る"]["id"], "audio")
+        for broken in [dict(sense, jmdictEntryID=None), dict(sense, jmdictEntryID=1),
+                       dict(sense, jmdictEntryID=0), dict(sense, reading="さつ"),
+                       dict(sense, readingOwnerID="photo"), dict(sense, lexemeID=None)]:
+            with self.assertRaises(AssertionError): validate_lexemes([owner, broken])
+
+    def test_compiled_written_sense_preserves_new_kanji_reading_skill(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "sense.tsv"
+            path.write_text("H\tN3\nL\ttest-lesson\t录音\n"
+                "W\ttest-record\t録る\tとる\ttoru\t录制声音\t他动词\ttest-lesson\t拍照\t抄写\n"
+                "G\ttest-record\tvn5036\nJ\ttest-record\t1298790\t义项34541：录音\n"
+                "E\ttest-record\ta\t[音|おと]を[録|と|@test-record]りました。\t录了声音。\n"
+                "E\ttest-record\tb\t[声|こえ]を[録|と|@test-record]って[聞|き|聞く]きました。\t录下声音后听了一遍。\n")
+            batch = compile_words(path, self.pack)
+        item = batch["items"][0]
+        self.assertEqual((item["text"], item["reading"], item["lexemeID"], item["jmdictEntryID"]),
+                         ("録る", "とる", "vn5036", 1298790))
+        self.assertNotIn("readingOwnerID", item)
+        self.assertEqual(len(item["exampleSentenceIDs"]), 2)
+        self.assertIn("jmdict", item["sourceIDs"])
 
     def test_n5_reference_patterns_have_actual_teaching_and_contexts(self):
         result = audit(self.pack, self.syllabus, self.reference)
