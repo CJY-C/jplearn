@@ -155,13 +155,13 @@
     "content/staging/n3-similarity-readings.tsv": "99d93e175a8894a2f18861dbc68ba695a6c94385d87fc7eb57c59eff4a53a32b",
     "content/staging/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
     "content/staging/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
-    "content/staging/n3-similarity-story-readings.tsv": "29e5e43dcb8356d603de0282c77acf67c8daba816d381f2aa8c0e0b898eee07d",
+    "content/staging/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
     "content/staging/n3-similarity-work-readings.tsv": "4607a390fe9647cdecbe214d98ca1c6e7eec62b5e3e3008c49adaaa4a6131db6"
   },
   "structureReport": "content/staging/n3-similarity-reading-review.json",
   "remainingWork": [
-    "Resolve 161 combined grammar/reading annotated forms, deduplicate true aliases, and separately teach new senses where required.",
-    "Author at least two independent original contexts for every selected new lexical target without reusing assessment sentences.",
+    "Resolve 96 remaining reading annotated forms, deduplicate true aliases, and separately teach new senses where required. Grammar-example forms are now linked or explicitly sourced grammatical suffixes.",
+    "For the remaining selected reading lexical targets author at least two independent original contexts without reusing assessment text; 65 grammar-prerequisite roots already have 130 original contexts.",
     "Review theme-word reading variants and context senses, register chapter, compile and run all curriculum gates.",
     "Obtain independent Japanese language review; run macOS/iOS CI and SE3 UI validation after Actions allowance resumes.",
     "Finish the complete additional N2 curriculum and six original-reading bridges."
@@ -195,5 +195,6 @@
       ],
       "reason": "Record voice, whereas existing 撮る teaches taking photos. Review spelling restrictions and a sense-level model before adding or reusing a target."
     }
-  ]
+  ],
+  "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json"
 }

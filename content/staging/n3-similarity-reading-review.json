@@ -4,8 +4,10 @@
   "independentlyReviewed": 0,
   "runtimeResourceMatches0190": false,
   "runtimeResourceSHA256": "2b5cf111156e6ad5181b6413fd7490b13f377a80d6af60e4d652be81912a499c",
-  "words": 120,
-  "wordContexts": 240,
+  "words": 185,
+  "wordContexts": 370,
+  "themeWords": 120,
+  "prerequisiteWords": 65,
   "grammarFunctions": 33,
   "grammarContexts": 198,
   "referencePatterns": 22,
@@ -15,7 +17,7 @@
   "assessmentReadings": 4,
   "heldoutFraction": 0.2,
   "questions": 40,
-  "comparisonSentenceRows": 10218,
+  "comparisonSentenceRows": 10348,
   "heldoutRowsChecked": 24,
   "registeredHeldoutRowsChecked": 306,
   "heldoutVerbatimFragmentLength": 20,
@@ -29,11 +31,12 @@
   ],
   "manuscripts": {
     "content/staging/n3-similarity-theme-words.tsv": "bb2636fff4c7b8e8ec4ec1c3e1ea946b560468e3b50f8f2218b47e5e455e602e",
+    "content/staging/n3-similarity-prerequisite-words.tsv": "dc7e953b155e3db989bfde0ade475d5ceeafc47e561e351216ae69b2a5bcad5d",
     "content/staging/n3-similarity-and-tendencies.tsv": "aeca807a20d6121f52e1a189a61ccb15604975a701edb62b95922b362b2d4a12",
     "content/staging/n3-similarity-extensions.tsv": "630a78ab4501283972a3dd73171f9fbcd045a1e88e934711f3762cff15f2564b",
-    "content/staging/n3-tendency-and-coverage.tsv": "265d7e648a5bf95d003c31791a5b496769db5b66fd572b010be27067ca224cac",
+    "content/staging/n3-tendency-and-coverage.tsv": "7aa8a0982016f0a7caa72bec037f27bf861eee63f2538c099983096023bf3b8f",
     "content/staging/n3-state-and-surface.tsv": "2b086aabe9f778ab4596d5c74cae340d7886f2bab4e17a2ef52cfcfb0e2b5f7f",
-    "content/staging/n3-completion-and-inception.tsv": "25d9630a1b700c2aa5113effeca9ff855660baece9dc0df68ccd47d3b40c589c",
+    "content/staging/n3-completion-and-inception.tsv": "62713baf66481049bdb8ea50428aa981dc77f6536a642080cb8fb36e747028be",
     "content/staging/n3-retrial-and-difficulty.tsv": "6fe2079dac03c260cc50ab32231d12963b92e42fe8496ed28be8259ea1a76433",
     "content/staging/n3-boundaries-and-near-misses.tsv": "1b6257fc53b2631e56b24761202d4631aef181e26717ae3df867163f061b2679",
     "content/staging/n3-models-and-correspondence.tsv": "2d8f93ee8c5ee190021ef5e7e95756ae007d2629347645c307f9e91856553816",
@@ -44,7 +47,7 @@
     "content/staging/n3-similarity-readings.tsv": "99d93e175a8894a2f18861dbc68ba695a6c94385d87fc7eb57c59eff4a53a32b",
     "content/staging/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
     "content/staging/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
-    "content/staging/n3-similarity-story-readings.tsv": "29e5e43dcb8356d603de0282c77acf67c8daba816d381f2aa8c0e0b898eee07d",
+    "content/staging/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
     "content/staging/n3-similarity-work-readings.tsv": "4607a390fe9647cdecbe214d98ca1c6e7eec62b5e3e3008c49adaaa4a6131db6"
   },
   "passageChecks": [
@@ -66,7 +69,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 124,
-      "unlinkedOccurrences": 6
+      "unlinkedOccurrences": 3
     },
     {
       "id": "rn3113",
@@ -76,7 +79,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 131,
-      "unlinkedOccurrences": 10
+      "unlinkedOccurrences": 9
     },
     {
       "id": "rn3114",
@@ -96,7 +99,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 121,
-      "unlinkedOccurrences": 11
+      "unlinkedOccurrences": 8
     },
     {
       "id": "rn3116",
@@ -126,7 +129,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 117,
-      "unlinkedOccurrences": 7
+      "unlinkedOccurrences": 6
     },
     {
       "id": "rn3119",
@@ -136,7 +139,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 116,
-      "unlinkedOccurrences": 4
+      "unlinkedOccurrences": 3
     },
     {
       "id": "rn3120",
@@ -196,7 +199,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 127,
-      "unlinkedOccurrences": 4
+      "unlinkedOccurrences": 3
     },
     {
       "id": "rn3126",
@@ -236,7 +239,7 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 115,
-      "unlinkedOccurrences": 18
+      "unlinkedOccurrences": 14
     },
     {
       "id": "rn3130",
@@ -246,19 +249,19 @@
       "sentenceRows": 6,
       "questions": 2,
       "annotatedOccurrences": 130,
-      "unlinkedOccurrences": 16
+      "unlinkedOccurrences": 15
     }
   ],
-  "unresolvedReadingForms": 108,
+  "unresolvedReadingForms": 96,
+  "unresolvedGrammarForms": 0,
+  "combinedUnresolvedForms": 96,
+  "grammarGaps": {},
   "gaps": {
     "おかげで": [
       "rn3116sd"
     ],
     "けれども": [
       "rn3130se"
-    ],
-    "しおり": [
-      "rn3119sc"
     ],
     "その場": [
       "rn3116sc"
@@ -348,10 +351,6 @@
     "列車": [
       "rn3113sa"
     ],
-    "危うい": [
-      "rn3130sc",
-      "rn3125sb"
-    ],
     "受領": [
       "rn3129sf"
     ],
@@ -408,10 +407,6 @@
       "rn3112sb",
       "rn3112sc"
     ],
-    "幻想": [
-      "rn3129sb",
-      "rn3112sc"
-    ],
     "応募": [
       "rn3129sa",
       "rn3129se"
@@ -422,18 +417,11 @@
     "手をつなぐ": [
       "rn3115sb"
     ],
-    "投稿": [
-      "rn3129sd",
-      "rn3129se"
-    ],
     "折り返し": [
       "rn3116sb"
     ],
     "持ち寄る": [
       "rn3119sf"
-    ],
-    "持ち帰る": [
-      "rn3118sf"
     ],
     "持ち手": [
       "rn3117sb"
@@ -451,12 +439,6 @@
     ],
     "数値": [
       "rn3120sb"
-    ],
-    "新作": [
-      "rn3112sf"
-    ],
-    "方向": [
-      "rn3113se"
     ],
     "旅先": [
       "rn3129sa"
@@ -485,9 +467,6 @@
       "rn3126sa",
       "rn3126sc"
     ],
-    "案内図": [
-      "rn3115sa"
-    ],
     "植物学": [
       "rn3129sa"
     ],
@@ -513,12 +492,6 @@
     ],
     "片手": [
       "rn3115se"
-    ],
-    "版": [
-      "rn3115sf"
-    ],
-    "現地": [
-      "rn3115sf"
     ],
     "用途": [
       "rn3127se"
@@ -557,9 +530,6 @@
     "蔦": [
       "rn3130sd"
     ],
-    "視覚": [
-      "rn3112sd"
-    ],
     "親子": [
       "rn3127sf",
       "rn3115sa",
@@ -572,9 +542,6 @@
     ],
     "調理": [
       "rn3127sd"
-    ],
-    "身近": [
-      "rn3129sa"
     ],
     "透明": [
       "rn3124se"

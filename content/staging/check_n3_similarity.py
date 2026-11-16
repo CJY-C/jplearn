@@ -50,9 +50,26 @@ def review():
     pack = make_pack()
     prior_heldout_ids = {sid for r in pack["readings"] if r.get("purpose") == "assessment"
                          for sid in r["sentenceIDs"]}
-    word_path = STAGING / "n3-similarity-theme-words.tsv"
-    word_batch = words(word_path, pack)
-    merge(pack, word_batch)
+    word_paths = [STAGING / name for name in ["n3-similarity-theme-words.tsv", "n3-similarity-prerequisite-words.tsv"]]
+    # First establish all new words, then recompile both manuscripts against the
+    # complete word index so new examples do not depend on the file order.
+    for path in word_paths:
+        merge(pack, words(path, pack))
+    word_batches = [words(path, pack) for path in word_paths]
+    selected_review = json.loads((STAGING / "n3-similarity-prerequisite-word-review.json").read_text())
+    assert selected_review["manuscriptSHA256"] == hashlib.sha256(word_paths[1].read_bytes()).hexdigest(), (
+        "Prerequisite source/sense review is stale")
+    selected_entries = {entry["itemID"]: entry for entry in selected_review["entries"]}
+    assert len(selected_entries) == selected_review["roots"] == len(word_batches[1]["items"])
+    for item in word_batches[1]["items"]:
+        fact = selected_entries[item["id"]]
+        assert (item["text"], item["reading"], item["meaning"]) == (
+            fact["text"], fact["primaryReading"], fact["authoredMeaning"]), item["id"]
+        assert item.get("acceptedReadings", []) == fact["acceptedAlternativeReadings"], item["id"]
+        assert item["exampleSentenceIDs"] == fact["exampleSentenceIDs"], item["id"]
+    pack = make_pack()
+    for batch in word_batches:
+        merge(pack, batch)
     grammar_batches, coverage = [], defaultdict(list)
     for name in GRAMMAR_FILES:
         batch, mapping = grammar(STAGING / name, pack)
@@ -99,6 +116,16 @@ def review():
         assert not {value[i:i + 20] for i in range(len(value) - 19)}.intersection(fragments), (
             sid, "20-character held-out fragment reused")
     lookup, gaps, names = word_lookup(pack["items"]), defaultdict(list), defaultdict(list)
+    grammar_gaps = defaultdict(list)
+    for name in GRAMMAR_FILES:
+        for line in (STAGING / name).read_text().splitlines():
+            row = line.split("\t")
+            if row[0] != "C":
+                continue
+            for match in RUBY.finditer(row[3]):
+                surface, ruby, lemma = match.groups()
+                if lemma not in {"-", "?"} and not resolve_word(lookup, surface, ruby, lemma):
+                    grammar_gaps[lemma or surface].append(row[1] + row[2])
     for path in paths:
         for line in path.read_text().splitlines():
             row = line.split("\t")
@@ -111,6 +138,10 @@ def review():
                 elif lemma != "-" and not resolve_word(lookup, surface, ruby, lemma):
                     gaps[lemma or surface].append(row[1] + "s" + row[2])
     assert not any(form.startswith("@") for form in gaps), "Explicit ID has wrong reading"
+    assert not any(form.startswith("@") for form in grammar_gaps), "Explicit grammar-example word ID has wrong reading"
+    for batch in word_batches + grammar_batches + [reading_batch]:
+        for sentence in batch["sentences"]:
+            assert not any(KANJI.search(s["text"]) and not s["reading"] for s in sentence["segments"]), sentence["id"]
     seen, summaries, practiced = set(), [], set()
     for r in sorted(new_readings, key=lambda value: value["id"]):
         sentence_rows = [all_sentences[sid] for sid in r["sentenceIDs"]]
@@ -134,7 +165,7 @@ def review():
     assert new_grammar <= practiced, ("grammar without ordinary reading", sorted(new_grammar - practiced))
     counts = Counter(r["purpose"] for r in new_readings)
     assert counts["assessment"] / len(new_readings) >= 0.20, "Below 20% held-out share"
-    inputs = [word_path] + [STAGING / name for name in GRAMMAR_FILES] + paths
+    inputs = word_paths + [STAGING / name for name in GRAMMAR_FILES] + paths
     resource = ROOT / "Sources/LearningCore/Resources/foundation.json"
     resource_hash = hashlib.sha256(resource.read_bytes()).hexdigest()
     return dict(
@@ -143,7 +174,8 @@ def review():
         independentlyReviewed=0,
         runtimeResourceMatches0190=resource_hash == "8d4d02628658022c14e741b061c0e6d168d7b95792b60636d272611b61c136d6",
         runtimeResourceSHA256=resource_hash,
-        words=len(word_batch["items"]), wordContexts=len(word_batch["sentences"]),
+        words=sum(len(b["items"]) for b in word_batches), wordContexts=sum(len(b["sentences"]) for b in word_batches),
+        themeWords=len(word_batches[0]["items"]), prerequisiteWords=len(word_batches[1]["items"]),
         grammarFunctions=len(new_grammar), grammarContexts=sum(len(b["sentences"]) for b in grammar_batches),
         referencePatterns=len(coverage), ordinaryGrammarFunctionsCovered=len(new_grammar & practiced),
         readings=len(new_readings), practiceReadings=counts["practice"], assessmentReadings=counts["assessment"],
@@ -159,6 +191,8 @@ def review():
                "Manuscripts, Chinese, questions and distractors are original; no independent Japanese review claimed."],
         manuscripts={str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest() for path in inputs},
         passageChecks=summaries, unresolvedReadingForms=len(gaps),
+        unresolvedGrammarForms=len(grammar_gaps), combinedUnresolvedForms=len(set(gaps) | set(grammar_gaps)),
+        grammarGaps=dict(sorted(grammar_gaps.items())),
         gaps=dict(sorted(gaps.items())), deliberatelyUnlinkedProperNames=dict(sorted(names.items())))
 
 
@@ -170,6 +204,7 @@ def main():
     outputs = {
         STAGING / "n3-similarity-reading-review.json": encode(result),
         STAGING / "n3-similarity-reading-gaps.json": encode(result["gaps"]),
+        STAGING / "n3-similarity-prerequisite-gaps.json": encode(result["grammarGaps"]),
     }
     for path, expected in outputs.items():
         if args.update_report:
@@ -178,7 +213,8 @@ def main():
             assert path.read_text() == expected, f"Stale report: {path.name}; review then --update-report"
     print(encode({key: result[key] for key in ["words", "wordContexts", "grammarFunctions", "grammarContexts",
           "referencePatterns", "ordinaryGrammarFunctionsCovered", "readings", "practiceReadings",
-          "assessmentReadings", "questions", "heldoutLeakMatches", "unresolvedReadingForms"]}), end="")
+          "assessmentReadings", "questions", "heldoutLeakMatches", "unresolvedReadingForms",
+          "unresolvedGrammarForms", "combinedUnresolvedForms"]}), end="")
 
 
 if __name__ == "__main__":

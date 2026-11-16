@@ -146,7 +146,7 @@
     }
   ],
   "manuscripts": {
-    "content/staging/n3-completion-and-inception.tsv": "25d9630a1b700c2aa5113effeca9ff855660baece9dc0df68ccd47d3b40c589c",
+    "content/staging/n3-completion-and-inception.tsv": "62713baf66481049bdb8ea50428aa981dc77f6536a642080cb8fb36e747028be",
     "content/staging/n3-retrial-and-difficulty.tsv": "6fe2079dac03c260cc50ab32231d12963b92e42fe8496ed28be8259ea1a76433",
     "content/staging/n3-boundaries-and-near-misses.tsv": "1b6257fc53b2631e56b24761202d4631aef181e26717ae3df867163f061b2679",
     "content/staging/n3-models-and-correspondence.tsv": "2d8f93ee8c5ee190021ef5e7e95756ae007d2629347645c307f9e91856553816"
@@ -205,14 +205,15 @@
     "Stop an action uses vn4o005 / やめる; turn off the stove uses v0320 / とめる.",
     "Receive a wallet uses vn6157, not the interpret-as sense vn3g010.",
     "Open a book page uses vn4o001, not hold-an-event or open-an-electronic-file meanings.",
-    "耳を傾ける and 口に出す are lexical idioms and remain explicit unresolved prerequisite targets, not hidden grammar markers."
+    "耳を傾ける and 口に出す are lexical idioms; authored as vn3m054 and vn3m055 with two original contexts each, not hidden grammar markers."
   ],
   "provisionalChapterCoverage": {
     "functions": 33,
     "contexts": 198,
     "referencePatterns": 22,
-    "unresolvedAnnotatedPrerequisiteForms": 65,
-    "countedAsDelivered": false
+    "unresolvedAnnotatedPrerequisiteForms": 0,
+    "countedAsDelivered": false,
+    "unresolvedReadingForms": 96
   },
   "reusedVariants": {
     "status": "spelling or kana variants of already taught matching senses; no new words or readings counted",
@@ -286,5 +287,6 @@
       }
     ]
   },
-  "distractorReview": "19 pairs revised to plausible event-stage, information-source or scope confusions; this is author revision, not independent language review."
+  "distractorReview": "19 pairs revised to plausible event-stage, information-source or scope confusions; this is author revision, not independent language review.",
+  "annotationUpdate": "Bookmark links and the conditional suffix reading of 版 were checked separately in n3-similarity-prerequisite-word-review.json; text, ruby, Chinese and answers preserved."
 }

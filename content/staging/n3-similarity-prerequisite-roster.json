@@ -1,8 +1,8 @@
 {
-  "status": "candidate facts only; no new words authored or counted",
+  "status": "candidate facts retained; selected authored words recorded separately; unregistered and not delivered",
   "baseline": "9c9d287",
   "newThemeWordsConsidered": 120,
-  "unresolvedForms": 65,
+  "unresolvedForms": 0,
   "note": "Reference levels are community classifications, not official lists. Candidate readings and existing targets are not automatically accepted as aliases. No source examples reused.",
   "entries": [
     {
@@ -36,7 +36,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m001",
+        "entryID": 1361850,
+        "senseIDs": [
+          42466
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "年代",
@@ -78,7 +86,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m002",
+        "entryID": 1468950,
+        "senseIDs": [
+          55835
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "持ち物",
@@ -114,7 +130,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m003",
+        "entryID": 1605240,
+        "senseIDs": [
+          73188
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "見出し",
@@ -163,7 +187,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m004",
+        "entryID": 1259710,
+        "senseIDs": [
+          29816
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "形式",
@@ -221,7 +253,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m005",
+        "entryID": 1250310,
+        "senseIDs": [
+          28637
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "分かれる",
@@ -273,7 +313,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m006",
+        "entryID": 1606600,
+        "senseIDs": [
+          73390
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "幻想",
@@ -308,7 +356,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m007",
+        "entryID": 1262950,
+        "senseIDs": [
+          30214
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "人通り",
@@ -342,7 +398,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m008",
+        "entryID": 1368820,
+        "senseIDs": [
+          43268
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "構造",
@@ -381,7 +445,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m009",
+        "entryID": 1279790,
+        "senseIDs": [
+          32241
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "公共",
@@ -416,7 +488,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m010",
+        "entryID": 1273510,
+        "senseIDs": [
+          31500
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "視覚",
@@ -451,7 +531,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m011",
+        "entryID": 1312010,
+        "senseIDs": [
+          36184
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "再現",
@@ -496,7 +584,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m012",
+        "entryID": 1292640,
+        "senseIDs": [
+          33799
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "身近",
@@ -532,7 +628,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m013",
+        "entryID": 1365650,
+        "senseIDs": [
+          42913
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "現地",
@@ -573,7 +677,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m014",
+        "entryID": 1263860,
+        "senseIDs": [
+          30315
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "響く",
@@ -630,7 +742,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m015",
+        "entryID": 1238610,
+        "senseIDs": [
+          27182,
+          27183
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "別人",
@@ -666,7 +787,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m016",
+        "entryID": 1583920,
+        "senseIDs": [
+          70017
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "場",
@@ -761,7 +890,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m017",
+        "entryID": 1355790,
+        "senseIDs": [
+          41664
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "落ち込む",
@@ -813,7 +950,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m018",
+        "entryID": 1548570,
+        "senseIDs": [
+          65551
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "解く",
@@ -902,7 +1047,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m019",
+        "entryID": 1198890,
+        "senseIDs": [
+          22290
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "書店",
@@ -942,7 +1095,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m020",
+        "entryID": 1344120,
+        "senseIDs": [
+          40156
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "半年",
@@ -976,7 +1137,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m021",
+        "entryID": 1583190,
+        "senseIDs": [
+          69913
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "初日",
@@ -1010,7 +1179,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m022",
+        "entryID": 1342980,
+        "senseIDs": [
+          39999
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "活躍",
@@ -1054,7 +1231,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m023",
+        "entryID": 1208450,
+        "senseIDs": [
+          23554,
+          23555
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "初級",
@@ -1089,7 +1275,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m024",
+        "entryID": 1342710,
+        "senseIDs": [
+          39968
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "学習者",
@@ -1128,7 +1322,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m025",
+        "entryID": 1206830,
+        "senseIDs": [
+          23292
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "収納",
@@ -1173,7 +1375,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m026",
+        "entryID": 1330830,
+        "senseIDs": [
+          38521
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "方向",
@@ -1221,7 +1431,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m027",
+        "entryID": 1516990,
+        "senseIDs": [
+          61729
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "出版社",
@@ -1256,7 +1474,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m028",
+        "entryID": 1594870,
+        "senseIDs": [
+          71617
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "中学生",
@@ -1289,7 +1515,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m029",
+        "entryID": 1423660,
+        "senseIDs": [
+          50198
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "国内",
@@ -1324,7 +1558,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m030",
+        "entryID": 1286930,
+        "senseIDs": [
+          33083
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "版",
@@ -1377,7 +1619,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m065",
+        "entryID": 1481480,
+        "senseIDs": [
+          57401
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "初心者",
@@ -1409,7 +1659,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m031",
+        "entryID": 1342860,
+        "senseIDs": [
+          39985
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "講座",
@@ -1447,7 +1705,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m032",
+        "entryID": 1282270,
+        "senseIDs": [
+          32539
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "放送局",
@@ -1480,7 +1746,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m033",
+        "entryID": 1516760,
+        "senseIDs": [
+          61688
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "教材",
@@ -1514,7 +1788,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m034",
+        "entryID": 1237110,
+        "senseIDs": [
+          27000
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "投稿",
@@ -1548,7 +1830,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m035",
+        "entryID": 1447180,
+        "senseIDs": [
+          53165
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "後回し",
@@ -1583,7 +1873,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m036",
+        "entryID": 1269500,
+        "senseIDs": [
+          31007
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "青空",
@@ -1615,7 +1913,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m037",
+        "entryID": 1381470,
+        "senseIDs": [
+          44860
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "日数",
@@ -1648,7 +1954,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m038",
+        "entryID": 1582700,
+        "senseIDs": [
+          69847
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "入力",
@@ -1681,7 +1995,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m039",
+        "entryID": 1466850,
+        "senseIDs": [
+          55569
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "書庫",
@@ -1721,7 +2043,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m040",
+        "entryID": 1344020,
+        "senseIDs": [
+          40143
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "案内図",
@@ -1753,7 +2083,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m041",
+        "entryID": 1757350,
+        "senseIDs": [
+          89016
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "手書き",
@@ -1801,7 +2139,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m042",
+        "entryID": 1327830,
+        "senseIDs": [
+          38132,
+          38133
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "専門",
@@ -1838,7 +2185,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m043",
+        "entryID": 1389880,
+        "senseIDs": [
+          45964
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "用語",
@@ -1881,7 +2236,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m044",
+        "entryID": 1546270,
+        "senseIDs": [
+          65262
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "回答",
@@ -1916,7 +2279,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m045",
+        "entryID": 1199680,
+        "senseIDs": [
+          22409
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "山道",
@@ -1951,7 +2322,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m046",
+        "entryID": 1303090,
+        "senseIDs": [
+          35059
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "汚れ",
@@ -1987,7 +2366,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m047",
+        "entryID": 1612200,
+        "senseIDs": [
+          74103
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "ペンキ",
@@ -2019,7 +2406,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m048",
+        "entryID": 1121390,
+        "senseIDs": [
+          13325
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "持ち帰る",
@@ -2054,7 +2449,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m049",
+        "entryID": 1658430,
+        "senseIDs": [
+          78989
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "予備",
@@ -2097,7 +2500,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m050",
+        "entryID": 1543320,
+        "senseIDs": [
+          64919
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "完走",
@@ -2132,7 +2543,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m051",
+        "entryID": 1211540,
+        "senseIDs": [
+          23922
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "しおり",
@@ -2193,7 +2612,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m052",
+        "entryID": 1568040,
+        "senseIDs": [
+          67907
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "模型",
@@ -2229,7 +2656,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m053",
+        "entryID": 1533650,
+        "senseIDs": [
+          63764
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "耳を傾ける",
@@ -2265,7 +2700,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m054",
+        "entryID": 2069560,
+        "senseIDs": [
+          118719
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "口に出す",
@@ -2299,7 +2742,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m055",
+        "entryID": 2128560,
+        "senseIDs": [
+          124826
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "はさみ",
@@ -2364,7 +2815,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m056",
+        "entryID": 1573820,
+        "senseIDs": [
+          68567
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "案内人",
@@ -2396,7 +2855,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m057",
+        "entryID": 2105800,
+        "senseIDs": [
+          122474
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "辛抱強い",
@@ -2429,7 +2896,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m058",
+        "entryID": 1633500,
+        "senseIDs": [
+          76346
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "印刷機",
@@ -2461,7 +2936,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m059",
+        "entryID": 1168200,
+        "senseIDs": [
+          18616
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "開館",
@@ -2499,7 +2982,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m060",
+        "entryID": 1202580,
+        "senseIDs": [
+          22771
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "危うい",
@@ -2553,7 +3044,16 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m061",
+        "entryID": 1218360,
+        "senseIDs": [
+          24754,
+          24755
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "置き忘れる",
@@ -2588,7 +3088,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m062",
+        "entryID": 1849920,
+        "senseIDs": [
+          98447
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "店内",
@@ -2621,7 +3129,15 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m063",
+        "entryID": 1440780,
+        "senseIDs": [
+          52368
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     },
     {
       "form": "記載",
@@ -2659,7 +3175,18 @@
           ]
         }
       ],
-      "reviewStatus": "not selected; check taught sense, form restrictions and reading before reuse or new-word authoring"
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m064",
+        "entryID": 1223230,
+        "senseIDs": [
+          25351
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
     }
-  ]
+  ],
+  "initialCandidateForms": 65,
+  "combinedGrammarAndReadingForms": 96,
+  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json"
 }
