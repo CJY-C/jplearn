@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the unregistered N3 chapter without changing the runtime pack.
+"""Check the N3 similarity chapter without changing the runtime pack.
 
 Run from any directory. --update-report refreshes the tracked draft review and
 reading gap list. Success certifies structure and isolation, not Japanese quality
@@ -14,6 +14,9 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 STAGING = ROOT / "content/staging"
+SOURCE_DIR = ROOT / "content/authoring"
+WORD_FILES = ["n4-similarity-sense-prerequisites.tsv", "n3-similarity-theme-words.tsv",
+              "n3-similarity-prerequisite-words.tsv", "n3-similarity-reading-prerequisite-words.tsv"]
 sys.path.insert(0, str(ROOT / "scripts"))
 from build_content import make_pack, validate
 from compile_grammar import KANJI, RUBY, compile_manuscript as grammar
@@ -68,12 +71,22 @@ def word_index(pack, paths):
     return result
 
 
+def base_pack():
+    # Exclude this chapter while checking its source compilation and heldout
+    # isolation. Earlier sentence annotations may refer forward to these words.
+    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    names = set(WORD_FILES + GRAMMAR_FILES)
+    names.update(p.name for p in SOURCE_DIR.glob("n3-similarity*readings.tsv"))
+    replacements = {ROOT / "content/batches" / r["batch"]: {}
+                    for r in manifest["entries"] if r["source"] in names}
+    return make_pack(overrides=replacements)
+
+
 def review():
-    pack = make_pack()
+    pack = base_pack()
     prior_heldout_ids = {sid for r in pack["readings"] if r.get("purpose") == "assessment"
                          for sid in r["sentenceIDs"]}
-    word_paths = [STAGING / name for name in ["n4-similarity-sense-prerequisites.tsv", "n3-similarity-theme-words.tsv",
-                  "n3-similarity-prerequisite-words.tsv", "n3-similarity-reading-prerequisite-words.tsv"]]
+    word_paths = [SOURCE_DIR / name for name in WORD_FILES]
     # First establish all new words, then recompile the manuscripts against the
     # complete word index so new examples do not depend on the file order.
     index_pack = word_index(pack, word_paths)
@@ -121,12 +134,12 @@ def review():
                                    flag in info for info in r["information"]
                                    for flag in ["obsolete", "out-dated", "search-only"])
                                for r in source["readingFacts"]), item["id"]
-    pack = make_pack()
+    pack = base_pack()
     for batch in word_batches:
         merge(pack, batch)
     grammar_batches, coverage = [], defaultdict(list)
     for name in GRAMMAR_FILES:
-        batch, mapping = grammar(STAGING / name, pack)
+        batch, mapping = grammar(SOURCE_DIR / name, pack)
         merge(pack, batch)
         grammar_batches.append(batch)
         for key, values in mapping.items():
@@ -135,7 +148,7 @@ def review():
     items = {item["id"]: item for item in pack["items"]}
     for gid in new_grammar:
         assert set(items[gid].get("prerequisiteIDs", [])) <= items.keys(), gid
-    paths = sorted(STAGING.glob("n3-similarity*readings.tsv"))
+    paths = sorted(SOURCE_DIR.glob("n3-similarity*readings.tsv"))
     assert paths, "No reading manuscripts"
     reading_batch = {"sentences": [], "readings": []}
     for path in paths:
@@ -173,7 +186,7 @@ def review():
     lookup, gaps, names = word_lookup(pack["items"]), defaultdict(list), defaultdict(list)
     grammar_gaps = defaultdict(list)
     for name in GRAMMAR_FILES:
-        for line in (STAGING / name).read_text().splitlines():
+        for line in (SOURCE_DIR / name).read_text().splitlines():
             row = line.split("\t")
             if row[0] != "C":
                 continue
@@ -222,11 +235,11 @@ def review():
     assert new_grammar <= practiced, ("grammar without ordinary reading", sorted(new_grammar - practiced))
     counts = Counter(r["purpose"] for r in new_readings)
     assert counts["assessment"] / len(new_readings) >= 0.20, "Below 20% held-out share"
-    inputs = word_paths + [STAGING / name for name in GRAMMAR_FILES] + paths
+    inputs = word_paths + [SOURCE_DIR / name for name in GRAMMAR_FILES] + paths
     resource = ROOT / "Sources/LearningCore/Resources/foundation.json"
     resource_hash = hashlib.sha256(resource.read_bytes()).hexdigest()
     return dict(
-        status="unregistered draft; structure and isolation checked; language review pending",
+        status="registered source; structure and isolation checked; independent language review and native release pending",
         currentRuntimeVersion=pack["version"],
         independentlyReviewed=0,
         runtimeResourceMatches0190=resource_hash == "8d4d02628658022c14e741b061c0e6d168d7b95792b60636d272611b61c136d6",

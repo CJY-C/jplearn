@@ -1,0 +1,556 @@
+{
+  "items": [
+    {
+      "id": "vn4r001",
+      "kind": "word",
+      "level": "N4",
+      "text": "まとめる",
+      "reading": "まとめる",
+      "romaji": "matomeru",
+      "meaning": "整理、归纳；把信息、想法等按要点组织起来",
+      "explanation": "本单元义项：整理、归纳；把信息、想法等按要点组织起来。通过两个不同语境辨认；其他义项须结合上下文。\n本组是组织信息、提炼要点，不是把物品归拢，也不等于所有相关问题已经解决。物品归拢与まとめて集中行动另练。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词",
+      "sense": "整理、归纳；把信息、想法等按要点组织起来",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1440930；2026-11-16 官方 JMdict 第2义；整理、归纳信息，另核对小学館デジタル大辞泉纏める第2义。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4r001a",
+        "svn4r001b"
+      ],
+      "order": 2000,
+      "readingCue": "信息、想法等的整理归纳",
+      "jmdictEntryID": 1440930
+    },
+    {
+      "id": "vn4r002",
+      "kind": "word",
+      "level": "N4",
+      "text": "まとめる",
+      "reading": "まとめる",
+      "romaji": "matomeru",
+      "meaning": "集中、一起处理；以まとめて表示把多项放在同一次行动中",
+      "explanation": "本单元义项：集中、一起处理；以まとめて表示把多项放在同一次行动中。通过两个不同语境辨认；其他义项须结合上下文。\n这里辨认まとめて的一并、集中处理用法；它由まとめる的て形构成，不另增加词汇根，也不自动代表已经归纳了内容要点。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "他动词的语境用法",
+      "sense": "集中、一起处理；以まとめて表示把多项放在同一次行动中",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn4r001"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1440930；2026-11-16 官方 JMdict 第1义的集中、整合；まとめて作为一并处理的表达另核对 entry2750270第1义及小学館和西辞典まとめて。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4r002a",
+        "svn4r002b"
+      ],
+      "order": 2001,
+      "readingCue": "まとめて，表示行动集中进行时",
+      "jmdictEntryID": 1440930,
+      "lexemeID": "vn4r001",
+      "readingOwnerID": "vn4r001"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4r001a",
+      "segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "た",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まとめ",
+          "reading": "まとめ",
+          "itemID": "vn4r001"
+        },
+        {
+          "text": "て、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "欠席",
+          "reading": "けっせき",
+          "itemID": "vn3c028"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把会上提出的意见简要整理后，发给了缺席的人。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4r001b",
+      "segments": [
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まとめ",
+          "reading": "まとめ",
+          "itemID": "vn4r001"
+        },
+        {
+          "text": "ると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疑問",
+          "reading": "ぎもん",
+          "itemID": "vn3b001"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "点",
+          "reading": "てん",
+          "itemID": "vn3a101"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "用自己的话概括读过的书后，我发现了仍有疑问的地方。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4r002a",
+      "segments": [
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まとめ",
+          "reading": "まとめ",
+          "itemID": "vn4r002"
+        },
+        {
+          "text": "て",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "答",
+          "reading": "こた",
+          "itemID": "vn5051"
+        },
+        {
+          "text": "えますので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まず",
+          "reading": "まず",
+          "itemID": "vn4705"
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いてください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "问题会在后面统一回答，请先听说明。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4r002b",
+      "segments": [
+        {
+          "text": "別々",
+          "reading": "べつべつ",
+          "itemID": "vn5030"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選",
+          "reading": "えら",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "品物",
+          "reading": "しなもの",
+          "itemID": "vn4j128"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一",
+          "reading": "ひと",
+          "itemID": null
+        },
+        {
+          "text": "つの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まとめ",
+          "reading": "まとめ",
+          "itemID": "vn4r002"
+        },
+        {
+          "text": "て",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送",
+          "reading": "おく",
+          "itemID": "v0316"
+        },
+        {
+          "text": "ってもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我请人把在不同店里选的物品合装一箱寄来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4r001a",
+      "targetID": "vn4r001",
+      "sentenceID": "svn4r001b",
+      "skill": "meaning",
+      "prompt": "句中「まとめる」表示什么？",
+      "choices": [
+        "把实物全部塞进同一个容器",
+        "没有组织地重复全部细节",
+        "整理、归纳；把信息、想法等按要点组织起来"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「整理、归纳；把信息、想法等按要点组织起来」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "まとめる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "まとめる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4r002a",
+      "targetID": "vn4r002",
+      "sentenceID": "svn4r002b",
+      "skill": "meaning",
+      "prompt": "句中「まとめる」表示什么？",
+      "choices": [
+        "把每一项分开到不同时间处理",
+        "集中、一起处理；以まとめて表示把多项放在同一次行动中",
+        "把信息提炼为文字摘要"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「集中、一起处理；以まとめて表示把多项放在同一次行动中」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "まとめる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "まとめる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4r01",
+      "title": "整理信息与集中处理",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4r001",
+        "vn4r002"
+      ],
+      "sentenceIDs": [
+        "svn4r001a",
+        "svn4r001b",
+        "svn4r002a",
+        "svn4r002b"
+      ],
+      "exerciseIDs": [
+        "evn4r001a",
+        "evn4r002a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

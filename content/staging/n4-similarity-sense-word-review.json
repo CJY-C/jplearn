@@ -1,5 +1,5 @@
 {
-  "status": "Selected word meanings and original contexts reviewed; unregistered, not independently language-reviewed",
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
   "baselineCommit": "0e277d9acb77a36db56619567c194d6014decd00",
   "dictionary": {
     "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
@@ -118,8 +118,8 @@
   "additionalSenses": 1,
   "contexts": 4,
   "lessons": 1,
-  "wordManuscript": "content/staging/n4-similarity-sense-prerequisites.tsv",
-  "manuscriptSHA256": "6fbc57dd319187c90f8d97a1a827d974ef70caceacb50b0fd65e1c91c37b3f93",
+  "wordManuscript": "content/authoring/n4-similarity-sense-prerequisites.tsv",
+  "manuscriptSHA256": "371333e35715c41707caa7a17d0b038491f17424c230273c1c40ba47f4e34df6",
   "checkedDate": "2026-11-17",
   "supplementarySemanticFacts": [
     {
@@ -130,5 +130,6 @@
       ],
       "scope": "Batch-action use ofまとめるのて形; no extra root for an inflected form."
     }
-  ]
+  ],
+  "registeredVersion": "0.20.0"
 }

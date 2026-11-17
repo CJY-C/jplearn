@@ -1,9 +1,9 @@
 {
-  "status": "Selected word meanings and original contexts reviewed; unregistered, not independently language-reviewed",
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
   "checkedDate": "2026-11-17",
   "baselineCommit": "0e277d9acb77a36db56619567c194d6014decd00",
-  "wordManuscript": "content/staging/n3-similarity-theme-words.tsv",
-  "manuscriptSHA256": "bd3c45e0d43916a116f78e0735c91502798789a01a0ddc27263f9cfcb8fe798a",
+  "wordManuscript": "content/authoring/n3-similarity-theme-words.tsv",
+  "manuscriptSHA256": "3c9ce4b9a3d435a46fb3b892cebaceeaae9e67329a56d18a2d4107dfbe2dd606",
   "roots": 120,
   "targets": 124,
   "additionalSenses": 4,
@@ -7205,5 +7205,6 @@
       "lexemeID": "vn3l025",
       "readingOwnerID": "vn3l025"
     }
-  ]
+  ],
+  "registeredVersion": "0.20.0"
 }

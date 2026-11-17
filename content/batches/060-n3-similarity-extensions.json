@@ -1,0 +1,2881 @@
+{
+  "items": [
+    {
+      "id": "gn3b014",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "时间加ぶり：隔一段时间再次发生",
+      "reading": "ぶりに、ぶりの、ぶりだ",
+      "romaji": "buri ni buri no buri da",
+      "meaning": "分清两次同类事件之间的间隔与动作持续时间",
+      "explanation": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn525",
+        "gn412"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b014a",
+        "sgn3b014b",
+        "sgn3b014c",
+        "sgn3b014d",
+        "sgn3b014e",
+        "sgn3b014f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b015",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动作加ぶり／っぷり：从表现看样子",
+      "reading": "ぶり、っぷり",
+      "romaji": "buri ppuri",
+      "meaning": "把可观察的动作表现与操作方法、时间间隔分开",
+      "explanation": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b014",
+        "gn419",
+        "gn455"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b015a",
+        "sgn3b015b",
+        "sgn3b015c",
+        "sgn3b015d",
+        "sgn3b015e",
+        "sgn3b015f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn3b016",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "名词加向き：适合谁或什么用途",
+      "reading": "向き、向きの、向きではない",
+      "romaji": "muki muki no muki de wa nai",
+      "meaning": "区分对适合程度的评价与制作时的目标对象",
+      "explanation": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "g002",
+        "gn416"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b016a",
+        "sgn3b016b",
+        "sgn3b016c",
+        "sgn3b016d",
+        "sgn3b016e",
+        "sgn3b016f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b014a",
+      "segments": [
+        {
+          "text": "高校",
+          "reading": "こうこう",
+          "itemID": "vn4i031"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "卒業",
+          "reading": "そつぎょう",
+          "itemID": "vn4027"
+        },
+        {
+          "text": "してから",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暮",
+          "reading": "く",
+          "itemID": "vn6212"
+        },
+        {
+          "text": "らしていた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": null
+        },
+        {
+          "text": "が、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "三年",
+          "reading": "さんねん",
+          "itemID": null
+        },
+        {
+          "text": "ぶりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "高中毕业后住在不同城市的两个人，时隔三年见面了。",
+      "explanation": "ぶり对应同类事件再次发生前的间隔，不是本次会面长度；前文也没有说他们原本不认识。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b014b",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "るのは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二週間",
+          "reading": "にしゅうかん",
+          "itemID": null
+        },
+        {
+          "text": "ぶりです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "土",
+          "reading": "つち",
+          "itemID": "vn5932"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "すっかり",
+          "reading": "すっかり",
+          "itemID": "vn4225"
+        },
+        {
+          "text": "乾",
+          "reading": "かわ",
+          "itemID": "vn6140"
+        },
+        {
+          "text": "いていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "时隔两周又下雨了。院子里的土此前已经干透。",
+      "explanation": "这里说间隔后的再发生；不能把ぶり换成表示持续的間，也不能把已发生改成未来预报。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b014c",
+      "segments": [
+        {
+          "text": "改装",
+          "reading": "かいそう",
+          "itemID": "vn3i128"
+        },
+        {
+          "text": "のために",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "閉",
+          "reading": "し",
+          "itemID": "v0305"
+        },
+        {
+          "text": "めていた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書店",
+          "reading": "しょてん",
+          "itemID": "vn3m020"
+        },
+        {
+          "text": "が、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "半年",
+          "reading": "はんとし",
+          "itemID": "vn3m021"
+        },
+        {
+          "text": "ぶりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0304"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開店",
+          "reading": "かいてん",
+          "itemID": "vn3i166"
+        },
+        {
+          "text": "初日",
+          "reading": "しょにち",
+          "itemID": "vn3m022"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読者",
+          "reading": "どくしゃ",
+          "itemID": "vn3a063"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集",
+          "reading": "あつ",
+          "itemID": "vn6146"
+        },
+        {
+          "text": "まりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因改装而关闭的书店，隔了半年重新开门。开业首日来了不少读者。",
+      "explanation": "再次开门的是既有书店；间隔与营业首日分开，不把重新营业读成首次创办。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b014d",
+      "segments": [
+        {
+          "text": "久",
+          "reading": "ひさ",
+          "itemID": null
+        },
+        {
+          "text": "しぶりの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "演奏",
+          "reading": "えんそう",
+          "itemID": "vn4i165"
+        },
+        {
+          "text": "なので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "指",
+          "reading": "ゆび",
+          "itemID": "vn5968"
+        },
+        {
+          "text": "がうまく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "動",
+          "reading": "うご",
+          "itemID": "vn5763"
+        },
+        {
+          "text": "きませんでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "しずつ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感覚",
+          "reading": "かんかく",
+          "itemID": "vn3i078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思い出",
+          "reading": "おもいだ",
+          "itemID": "vn4110"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为是久违的演奏，起初手指不太灵活，但逐渐找回了感觉。",
+      "explanation": "久しぶり不要求具体数字，也以有过相应活动为背景；不把起初不灵活读成从未学过。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b014e",
+      "segments": [
+        {
+          "text": "祖母",
+          "reading": "そぼ",
+          "itemID": "v0201"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "訪",
+          "reading": "たず",
+          "itemID": "vn6173"
+        },
+        {
+          "text": "ねるのは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一年",
+          "reading": "いちねん",
+          "itemID": null
+        },
+        {
+          "text": "ぶりですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ",
+          "itemID": "v0155"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "毎週",
+          "reading": "まいしゅう",
+          "itemID": "vn5193"
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "时隔一年再到祖母家拜访，不过每周都在打电话。",
+      "explanation": "ぶり所限定的是訪ねる；后句明确每周通话，不能扩大成完全断联，更不涉及其他访客。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b014f",
+      "segments": [
+        {
+          "text": "十年",
+          "reading": "じゅうねん",
+          "itemID": null
+        },
+        {
+          "text": "ぶりの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "再会",
+          "reading": "さいかい",
+          "itemID": "vn3d012"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": null
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別々",
+          "reading": "べつべつ",
+          "itemID": "vn5030"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": "vn4135"
+        },
+        {
+          "text": "かっています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "时隔十年的重逢定在明天。两人现在正从不同地方赶往会场。",
+      "explanation": "ぶり表示间隔关系，事件时态由上下文决定；予定与明日不应被忽略。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015a",
+      "segments": [
+        {
+          "text": "受付",
+          "reading": "うけつけ",
+          "itemID": "vn5994"
+        },
+        {
+          "text": "での",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "落ち着",
+          "reading": "おちつ",
+          "itemID": "vn4901"
+        },
+        {
+          "text": "いた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しぶりを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "て、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "だとは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "いませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "看了他在接待处镇定的谈吐，我没想到这是他第一次做这项工作。",
+      "explanation": "ぶり把说话的表现名词化；这里不是时间计量，也没有把印象变成工作步骤。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015b",
+      "segments": [
+        {
+          "text": "店長",
+          "reading": "てんちょう",
+          "itemID": "vn3k069"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新人",
+          "reading": "しんじん",
+          "itemID": "vn3g001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "ぶりを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "て、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "客",
+          "reading": "きゃく",
+          "itemID": "vn5740"
+        },
+        {
+          "text": "への",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "丁寧",
+          "reading": "ていねい",
+          "itemID": "vn6180"
+        },
+        {
+          "text": "になったと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店长观察新人的工作表现，觉得他向顾客解释时变得更细致有礼了。",
+      "explanation": "仕事ぶり以工作中的表现为观察对象；后面的评价属于店长，不扩大为所有顾客的共同判断。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015c",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "慌",
+          "reading": "あわ",
+          "itemID": "vn4902"
+        },
+        {
+          "text": "てぶりから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "何",
+          "reading": "なに",
+          "itemID": null
+        },
+        {
+          "text": "かを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘",
+          "reading": "わす",
+          "itemID": "v0103"
+        },
+        {
+          "text": "れたのかもしれないと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "理由",
+          "reading": "りゆう",
+          "itemID": "v0126"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "从弟弟慌张的样子，我猜他也许忘了什么。原因还没有问。",
+      "explanation": "慌てぶり是观察到的表现，かもしれない保留不确定；表现本身不提供唯一原因。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015d",
+      "segments": [
+        {
+          "text": "先月",
+          "reading": "せんげつ",
+          "itemID": "vn5192"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "録音",
+          "reading": "ろくおん",
+          "itemID": "vn4957"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "比",
+          "reading": "くら",
+          "itemID": "vn6163"
+        },
+        {
+          "text": "べると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上達",
+          "reading": "じょうたつ",
+          "itemID": "vn3l046"
+        },
+        {
+          "text": "ぶりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "驚",
+          "reading": "おどろ",
+          "itemID": "vn4109"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "と",
+          "itemID": "v0319"
+        },
+        {
+          "text": "まらずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "弾",
+          "reading": "ひ",
+          "itemID": "vn5033"
+        },
+        {
+          "text": "けます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "与上个月的录音一比，我惊讶于妹妹进步的样子。她现在能不停顿地弹到最后了。",
+      "explanation": "这里是上达表现，不是一个月的持续时长；连续弹完是表现证据，不说明所有曲目都已掌握。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015e",
+      "segments": [
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気持ち",
+          "reading": "きもち",
+          "itemID": "v0141"
+        },
+        {
+          "text": "のよい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べっぷりに、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "料理",
+          "reading": "りょうり",
+          "itemID": "v0234"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作",
+          "reading": "つく",
+          "itemID": "v0068"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "祖父",
+          "reading": "そふ",
+          "itemID": "v0200"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "笑顔",
+          "reading": "えがお",
+          "itemID": "vn3h197"
+        },
+        {
+          "text": "になりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "看着朋友吃得痛快的样子，做饭的祖父也露出了笑容。",
+      "explanation": "っぷり强调可见的动作表现；不自动给出配方、重量或用餐间隔。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b015f",
+      "segments": [
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選手",
+          "reading": "せんしゅ",
+          "itemID": "vn3a033"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "活躍",
+          "reading": "かつやく",
+          "itemID": "vn3m023"
+        },
+        {
+          "text": "ぶりを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伝",
+          "reading": "つた",
+          "itemID": "vn6166"
+        },
+        {
+          "text": "えていましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本人",
+          "reading": "ほんにん",
+          "itemID": "vn3a043"
+        },
+        {
+          "text": "への",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "載",
+          "reading": "の",
+          "itemID": "vn3k011"
+        },
+        {
+          "text": "っていませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "报纸报道了选手活跃的表现，但没有刊登向本人提问的内容。",
+      "explanation": "ぶり把表现作为对象，不把外部报道自动变成本人陈述；消息来源仍要依文本判断。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ",
+          "itemID": "vn5566"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会話",
+          "reading": "かいわ",
+          "itemID": "vn5554"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "多",
+          "reading": "おお",
+          "itemID": "v0175"
+        },
+        {
+          "text": "く、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初級",
+          "reading": "しょきゅう",
+          "itemID": "vn3m024"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学習者",
+          "reading": "がくしゅうしゃ",
+          "itemID": "vn3m025"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作者",
+          "reading": "さくしゃ",
+          "itemID": "vn3a062"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意図",
+          "reading": "いと",
+          "itemID": "vn3a094"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "老师说，这篇短小说对话多，适合初级学习者。作者的意图并不清楚。",
+      "explanation": "适合程度的评价不等同于创作目标或使用限制；评价者仍是老师。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016b",
+      "segments": [
+        {
+          "text": "狭",
+          "reading": "せま",
+          "itemID": "v0252"
+        },
+        {
+          "text": "いですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暮",
+          "reading": "く",
+          "itemID": "vn6212"
+        },
+        {
+          "text": "らす",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "itemID": "v0315"
+        },
+        {
+          "text": "むには",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "収納",
+          "reading": "しゅうのう",
+          "itemID": "vn3m026"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "足",
+          "reading": "た",
+          "itemID": "vn6152"
+        },
+        {
+          "text": "りません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "房间虽小，却适合独居。若全家居住，收纳空间就不足。",
+      "explanation": "向き结合一人暮らし说明适用条件，不能额外推出法律限制或建筑朝向。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016c",
+      "segments": [
+        {
+          "text": "丈夫",
+          "reading": "じょうぶ",
+          "itemID": "vn5345"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水",
+          "reading": "みず",
+          "itemID": "v0153"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "強",
+          "reading": "つよ",
+          "itemID": "v0253"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "靴",
+          "reading": "くつ",
+          "itemID": "v0209"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "散歩",
+          "reading": "さんぽ",
+          "itemID": "vn5414"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "晴",
+          "reading": "は",
+          "itemID": "vn5379"
+        },
+        {
+          "text": "れた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这双鞋耐用又耐水，适合雨天散步。晴天我也穿。",
+      "explanation": "向き评价适合性，不自动排他；实际使用范围由后句补充。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016d",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "細",
+          "reading": "こま",
+          "itemID": "vn4203"
+        },
+        {
+          "text": "かい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "なので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "いで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結果",
+          "reading": "けっか",
+          "itemID": "v0127"
+        },
+        {
+          "text": "だけを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "だ",
+          "itemID": "vn5027"
+        },
+        {
+          "text": "したい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这项工作需要细致核查，所以不适合只想尽快出结果的我。",
+      "explanation": "否定的是这里的适合关系，不把个人评价扩大成所有人的能力或完整经历。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016e",
+      "segments": [
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きいので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一緒",
+          "reading": "いっしょ",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "眺",
+          "reading": "なが",
+          "itemID": "vn3b073"
+        },
+        {
+          "text": "めながら",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "す",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集",
+          "reading": "あつ",
+          "itemID": "vn3e007"
+        },
+        {
+          "text": "まり",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "照片很大，所以我觉得这本书适合大家边看边聊的聚会。",
+      "explanation": "前项可以是使用场景，不一定是某类人；适用场景不能反推作者身份。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b016f",
+      "segments": [
+        {
+          "text": "南",
+          "reading": "みなみ",
+          "itemID": "vn5182"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "きの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "がある",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選",
+          "reading": "えら",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "これ",
+          "reading": "これ",
+          "itemID": "vn5301"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方向",
+          "reading": "ほうこう",
+          "itemID": "vn3m027"
+        },
+        {
+          "text": "についての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我选了有朝南窗户的房间。这是在说明窗户的方向。",
+      "explanation": "同形表达需结合前项与语境；方向义与适合义分开，不凭字形推出适用对象。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b014a",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014a",
+      "prompt": "三年表示什么时间？",
+      "choices": [
+        "两人今年才第一次认识对方",
+        "前一次见面到这次见面的间隔",
+        "这一次见面持续了整整三年"
+      ],
+      "answerIndex": 1,
+      "explanation": "ぶり对应同类事件再次发生前的间隔，不是本次会面长度；前文也没有说他们原本不认识。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "高校を卒業してから別の町で暮らしていた二人が、三年ぶりに会いました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b014b",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014b",
+      "prompt": "二週間ぶり能怎样改述？",
+      "choices": [
+        "距上次下雨已有两周，这次又下雨了",
+        "这场雨已经连续下了两周",
+        "从两周后开始才可能下第一场雨"
+      ],
+      "answerIndex": 0,
+      "explanation": "这里说间隔后的再发生；不能把ぶり换成表示持续的間，也不能把已发生改成未来预报。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "雨が降るのは二週間ぶりです。庭の土はすっかり乾いていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b014c",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014c",
+      "prompt": "半年ぶり直接对应什么？",
+      "choices": [
+        "所有读者都在书店连续待了半年",
+        "这家书店在半年后才首次创办",
+        "书店隔了半年重新营业"
+      ],
+      "answerIndex": 2,
+      "explanation": "再次开门的是既有书店；间隔与营业首日分开，不把重新营业读成首次创办。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "改装のために閉めていた書店が、半年ぶりに店を開けました。開店初日には読者が集まりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b014d",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014d",
+      "prompt": "久しぶりの演奏说明什么？",
+      "choices": [
+        "久しぶり已经给出了准确的天数",
+        "与之前演奏隔了较长时间，具体多久未说",
+        "这次演奏一定是人生第一次"
+      ],
+      "answerIndex": 1,
+      "explanation": "久しぶり不要求具体数字，也以有过相应活动为背景；不把起初不灵活读成从未学过。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "久しぶりの演奏なので、最初は指がうまく動きませんでしたが、少しずつ感覚を思い出しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b014e",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014e",
+      "prompt": "一年间没有发生的是哪件事？",
+      "choices": [
+        "任何人到祖母家做客这件事",
+        "到祖母家拜访这件事",
+        "与祖母有任何形式的联系"
+      ],
+      "answerIndex": 1,
+      "explanation": "ぶり所限定的是訪ねる；后句明确每周通话，不能扩大成完全断联，更不涉及其他访客。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "祖母の家を訪ねるのは一年ぶりですが、電話では毎週話していました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b014f",
+      "targetID": "gn3b014",
+      "sentenceID": "sgn3b014f",
+      "prompt": "重逢是否已完成？",
+      "choices": [
+        "已完成，因为有ぶり就必为过去",
+        "已取消，因为两人当前不在同处",
+        "尚未，后文把重逢安排在明天"
+      ],
+      "answerIndex": 2,
+      "explanation": "ぶり表示间隔关系，事件时态由上下文决定；予定与明日不应被忽略。",
+      "hint": "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "十年ぶりの再会は明日の予定です。二人は今、別々の場所から会場へ向かっています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b014；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42367：经过期间后再次；与 42366 的方式义分开。规则、例句及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015a",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015a",
+      "prompt": "話しぶり所指的是什么？",
+      "choices": [
+        "接待工作的完整操作手册",
+        "说话时表现出来的样子",
+        "距上次说话经过的时间"
+      ],
+      "answerIndex": 1,
+      "explanation": "ぶり把说话的表现名词化；这里不是时间计量，也没有把印象变成工作步骤。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "受付での落ち着いた話しぶりを見て、初めての仕事だとは思いませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015b",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015b",
+      "prompt": "店长直接评价了什么？",
+      "choices": [
+        "顾客对商品价格的统一意见",
+        "新人实际工作的表现",
+        "新人全部人生经历的长度"
+      ],
+      "answerIndex": 1,
+      "explanation": "仕事ぶり以工作中的表现为观察对象；后面的评价属于店长，不扩大为所有顾客的共同判断。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "店長は新人の仕事ぶりを見て、客への説明が丁寧になったと感じました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015c",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015c",
+      "prompt": "忘了东西是确定事实吗？",
+      "choices": [
+        "是，弟弟已明确说出忘了什么",
+        "不是，是从表现作出的可能性推测",
+        "是，ぶり会自动证明事情的原因"
+      ],
+      "answerIndex": 1,
+      "explanation": "慌てぶり是观察到的表现，かもしれない保留不确定；表现本身不提供唯一原因。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "弟の慌てぶりから、私は何かを忘れたのかもしれないと思いました。理由はまだ聞いていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015d",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015d",
+      "prompt": "上達ぶり与后句怎样联系？",
+      "choices": [
+        "ぶり表示这段录音持续了一个月",
+        "后句给出进步表现的具体例子",
+        "后句说明妹妹从未演奏过"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里是上达表现，不是一个月的持续时长；连续弹完是表现证据，不说明所有曲目都已掌握。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "先月の録音と比べると、妹の上達ぶりに驚きました。今は最後まで止まらずに弾けます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015e",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015e",
+      "prompt": "食べっぷり强调什么？",
+      "choices": [
+        "朋友两次用餐之间相隔的天数",
+        "吃东西时显现出来的痛快样子",
+        "每份料理都使用完全相同的材料"
+      ],
+      "answerIndex": 1,
+      "explanation": "っぷり强调可见的动作表现；不自动给出配方、重量或用餐间隔。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友人の気持ちのよい食べっぷりに、料理を作った祖父も笑顔になりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b015f",
+      "targetID": "gn3b015",
+      "sentenceID": "sgn3b015f",
+      "prompt": "报道表现等于本人直接解释心情了吗？",
+      "choices": [
+        "不等于，文中没有那样的直接发言",
+        "等于，活躍ぶり就是采访全文",
+        "等于，ぶり总表示说话人的原话"
+      ],
+      "answerIndex": 0,
+      "explanation": "ぶり把表现作为对象，不把外部报道自动变成本人陈述；消息来源仍要依文本判断。",
+      "hint": "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "新聞は選手の活躍ぶりを伝えていましたが、本人への質問は載っていませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: buri",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b015；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1361140，sense 42366：style／manner／way。另核读名古屋大学杉村泰《日本語の接尾辞「－ぶり（っぷり）」について》p.1–2 的名词、连用形接续与用词限制；未复制该文例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016a",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016a",
+      "prompt": "向き在这里直接说明什么？",
+      "choices": [
+        "老师认为这篇作品适合初级学习者",
+        "作者已声明专为初级学习者创作",
+        "初级学习者以外的人禁止阅读"
+      ],
+      "answerIndex": 0,
+      "explanation": "适合程度的评价不等同于创作目标或使用限制；评价者仍是老师。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この短い小説は会話が多く、初級の学習者向きだと先生は言いました。作者の意図は分かりません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016b",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016b",
+      "prompt": "这句话评价了哪个条件？",
+      "choices": [
+        "房屋是否朝向某个国家",
+        "与居住人数相联系的适合程度",
+        "房间是否绝对禁止两个人进入"
+      ],
+      "answerIndex": 1,
+      "explanation": "向き结合一人暮らし说明适用条件，不能额外推出法律限制或建筑朝向。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "狭いですが、一人で暮らす人向きの部屋です。家族で住むには収納が足りません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016c",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016c",
+      "prompt": "适合雨天是否排除了晴天使用？",
+      "choices": [
+        "有，鞋子在晴天一定损坏",
+        "没有，后句明确晴天也使用",
+        "有，向き规定了唯一合法用途"
+      ],
+      "answerIndex": 1,
+      "explanation": "向き评价适合性，不自动排他；实际使用范围由后句补充。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "丈夫で水に強いこの靴は、雨の日の散歩向きです。晴れた日にも使っています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016d",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016d",
+      "prompt": "向きではない否定什么？",
+      "choices": [
+        "说话者从来没有参加过任何工作",
+        "工作特点与说话者做事倾向的适合性",
+        "这项工作在世界上没有任何人能完成"
+      ],
+      "answerIndex": 1,
+      "explanation": "否定的是这里的适合关系，不把个人评价扩大成所有人的能力或完整经历。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この仕事は細かい確認が必要なので、急いで結果だけを出したい私向きではありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016e",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016e",
+      "prompt": "这里向きの本指什么？",
+      "choices": [
+        "一定由聚会参加者共同写成的书",
+        "只介绍指南针方向的书",
+        "适合所说聚会活动的书"
+      ],
+      "answerIndex": 2,
+      "explanation": "前项可以是使用场景，不一定是某类人；适用场景不能反推作者身份。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "写真が大きいので、一緒に眺めながら話す集まり向きの本だと感じました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b016f",
+      "targetID": "gn3b016",
+      "sentenceID": "sgn3b016f",
+      "prompt": "这里能把南向き读成适合南方人吗？",
+      "choices": [
+        "不能，前后文明确说的是朝向",
+        "能，所有向き都只表示适用人群",
+        "能，向き总能证明住户的籍贯"
+      ],
+      "answerIndex": 0,
+      "explanation": "同形表达需结合前项与语境；方向义与适合义分开，不凭字形推出适用对象。",
+      "hint": "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "南向きの窓がある部屋を選びました。これは窓の方向についての説明です。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b016；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：先生へ，向き与向け对照；本地 JMdict 1277040 senses 31899／31900 核对方向及适合义。原创语境不复制教材例句。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b014",
+      "title": "时间加ぶり：隔一段时间再次发生",
+      "subtitle": "分清两次同类事件之间的间隔与动作持续时间",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b014"
+      ],
+      "sentenceIDs": [
+        "sgn3b014a",
+        "sgn3b014b",
+        "sgn3b014c",
+        "sgn3b014d",
+        "sgn3b014e",
+        "sgn3b014f"
+      ],
+      "exerciseIDs": [
+        "egn3b014a",
+        "egn3b014b",
+        "egn3b014c",
+        "egn3b014d",
+        "egn3b014e",
+        "egn3b014f"
+      ],
+      "readingID": "rn3114",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "期间加ぶり表示经过该段间隔后，同类事件或状态再次出现。ぶりに修饰发生的动作，ぶりの修饰名词，句末可用ぶりだ。它不表示动作持续了整段时间，也不表示第一次体验；久しぶり可不说具体数字。不能只凭形式推出期间内所有相关活动都停止，仍要看再次发生的究竟是哪件事。"
+      ]
+    },
+    {
+      "id": "lgn3b015",
+      "title": "动作加ぶり／っぷり：从表现看样子",
+      "subtitle": "把可观察的动作表现与操作方法、时间间隔分开",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b015"
+      ],
+      "sentenceIDs": [
+        "sgn3b015a",
+        "sgn3b015b",
+        "sgn3b015c",
+        "sgn3b015d",
+        "sgn3b015e",
+        "sgn3b015f"
+      ],
+      "exerciseIDs": [
+        "egn3b015a",
+        "egn3b015b",
+        "egn3b015c",
+        "egn3b015d",
+        "egn3b015e",
+        "egn3b015f"
+      ],
+      "readingID": "rn3114",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "部分名词、动词ます形词干加ぶり，把动作或状态的表现作为名词谈论，如話しぶり、仕事ぶり。っぷり是强调表现的形式，常见于食べっぷり等固定搭配；接续有词汇习惯，不任意给所有动词拼接。它不是“隔多久”的ぶり，也不单独说明具体操作步骤；从表现推测心情时，结论的确定程度仍由推测表达决定。"
+      ]
+    },
+    {
+      "id": "lgn3b016",
+      "title": "名词加向き：适合谁或什么用途",
+      "subtitle": "区分对适合程度的评价与制作时的目标对象",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b016"
+      ],
+      "sentenceIDs": [
+        "sgn3b016a",
+        "sgn3b016b",
+        "sgn3b016c",
+        "sgn3b016d",
+        "sgn3b016e",
+        "sgn3b016f"
+      ],
+      "exerciseIDs": [
+        "egn3b016a",
+        "egn3b016b",
+        "egn3b016c",
+        "egn3b016d",
+        "egn3b016e",
+        "egn3b016f"
+      ],
+      "readingID": "rn3115",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加向き可评价某物或活动适合该类人、条件或用途，修饰名词常用向きの。它不单独证明制作时专门以该对象为目标，向け另练；也不表示对象必须使用或其他人被禁止使用。南向き等表示方向的用法须看前项，不把所有向き都理解成适用人群。"
+      ]
+    }
+  ]
+}

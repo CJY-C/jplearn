@@ -1,10 +1,10 @@
 {
-  "status": "unregistered authored drafts; source facts checked, not independent language review",
+  "status": "Registered source; source facts checked, not independent language review; no new IPA.",
   "baseline": "9c9d287",
   "manuscripts": {
-    "content/staging/n3-similarity-extensions.tsv": "5c9ceaafe9639ff01780d5651b32c2154b267865dc8e9feb4baf7f23415ae7fa",
-    "content/staging/n3-tendency-and-coverage.tsv": "7aa8a0982016f0a7caa72bec037f27bf861eee63f2538c099983096023bf3b8f",
-    "content/staging/n3-state-and-surface.tsv": "2b086aabe9f778ab4596d5c74cae340d7886f2bab4e17a2ef52cfcfb0e2b5f7f"
+    "content/authoring/n3-similarity-extensions.tsv": "788abc0f55fb0076d312b9677f892d5218d939915ae13eaec737067fb9433aff",
+    "content/authoring/n3-tendency-and-coverage.tsv": "3d7c365ba05cbb59735365b21818c08517727950cdf2e4b70950f69f77e6bbda",
+    "content/authoring/n3-state-and-surface.tsv": "4cbc8d9ed05ef715e56690565371966cf016adb4a6fc380deae72ec809921e62"
   },
   "newGrammarFunctions": 9,
   "newOriginalContexts": 54,

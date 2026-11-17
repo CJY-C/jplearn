@@ -1,0 +1,2989 @@
+{
+  "items": [
+    {
+      "id": "gn3b020",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "名词或动词加気味：有某种样子或倾向",
+      "reading": "気味だ、気味の、気味に",
+      "romaji": "gimi da gimi no gimi ni",
+      "meaning": "从当前状态读出倾向，不虚构固定程度、诊断或永久性格",
+      "explanation": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b018",
+        "gn3b019"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b020a",
+        "sgn3b020b",
+        "sgn3b020c",
+        "sgn3b020d",
+        "sgn3b020e",
+        "sgn3b020f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b021",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "名词加だらけ：到处都是某类东西",
+      "reading": "だらけだ、だらけの、だらけで",
+      "romaji": "darake da darake no darake de",
+      "meaning": "理解大量、遍布的评价，保留精确数量与评价立场",
+      "explanation": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "g002",
+        "gn3b019"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b021a",
+        "sgn3b021b",
+        "sgn3b021c",
+        "sgn3b021d",
+        "sgn3b021e",
+        "sgn3b021f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn3b022",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "名词加だらけ：表面沾满或布满",
+      "reading": "だらけの、だらけになる",
+      "romaji": "darake no darake ni naru",
+      "meaning": "把附着或布满的状态与材质、原因和全部内容分开",
+      "explanation": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b021"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b022a",
+        "sgn3b022b",
+        "sgn3b022c",
+        "sgn3b022d",
+        "sgn3b022e",
+        "sgn3b022f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b020a",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "いたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疲",
+          "reading": "つか",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "れ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "普段",
+          "reading": "ふだん",
+          "itemID": "vn3e041"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "元気",
+          "reading": "げんき",
+          "itemID": "v0288"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "通",
+          "reading": "かよ",
+          "itemID": "vn6110"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "昨天走了很久，今天有点疲倦。平时我都精神不错地去上学。",
+      "explanation": "这里结合今日与少し描述状态，不推出一生的性格、能力，也没有数值测量。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b020b",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "風邪",
+          "reading": "かぜ",
+          "itemID": "vn5062"
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "っていましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "病院",
+          "reading": "びょういん",
+          "itemID": "v0187"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "検査",
+          "reading": "けんさ",
+          "itemID": "vn4610"
+        },
+        {
+          "text": "をしたかどうかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "他说自己有点感冒的样子，但是否在医院检查过，我还没问。",
+      "explanation": "風邪気味保留像有感冒的状态，不自动补出检查与诊断；医疗事实必须另有文本依据。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b020c",
+      "segments": [
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発表",
+          "reading": "はっぴょう",
+          "itemID": "vn4015"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "緊張",
+          "reading": "きんちょう",
+          "itemID": "vn3a003"
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "めましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きくなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "第一次发表时，妹妹开始有些紧张地讲了起来，后来声音逐渐大了。",
+      "explanation": "気味に修饰讲话的状态；開始与途中后的变化要分别保留，不据一次表现判断永久性格。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b020d",
+      "segments": [
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "ですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "締め切り",
+          "reading": "しめきり",
+          "itemID": "vn4518"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "来週",
+          "reading": "らいしゅう",
+          "itemID": "v0262"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "進",
+          "reading": "すす",
+          "itemID": "vn6116"
+        },
+        {
+          "text": "め",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "工作进度比计划有些落后，但截止时间还在下周。负责人正在商量推进方式。",
+      "explanation": "遅れ気味是相对计划的状态；后句给出未来截止时间，不把落后进度等同已逾期。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b020e",
+      "segments": [
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0304"
+        },
+        {
+          "text": "けたままにしていたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上",
+          "reading": "うえ",
+          "itemID": "v0054"
+        },
+        {
+          "text": "のパンが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "乾",
+          "reading": "かわ",
+          "itemID": "vn6140"
+        },
+        {
+          "text": "き",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "でした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "のパンは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "柔",
+          "reading": "やわ",
+          "itemID": "vn5783"
+        },
+        {
+          "text": "らかいままでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "窗户一直开着，桌上的面包有点变干，袋子里的面包仍然柔软。",
+      "explanation": "状态描述也可用于物；不能从所指的一部分推广到所有面包，后句明确给出不同情况。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b020f",
+      "segments": [
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "移動",
+          "reading": "いどう",
+          "itemID": "vn3g060"
+        },
+        {
+          "text": "でかなり",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疲",
+          "reading": "つか",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "れ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "兄",
+          "reading": "あに",
+          "itemID": "v0196"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疲",
+          "reading": "つか",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "れの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "程度",
+          "reading": "ていど",
+          "itemID": "vn3h001"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数字",
+          "reading": "すうじ",
+          "itemID": "vn3i028"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "示",
+          "reading": "しめ",
+          "itemID": "vn3a073"
+        },
+        {
+          "text": "していません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "哥哥说长途移动后颇感疲劳，但没有用数字表示疲劳程度。",
+      "explanation": "程度副词与気味共同组成描述；気味常缓和断言，但不取消明说的程度，也不产生固定数值。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021a",
+      "segments": [
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "いで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入力",
+          "reading": "にゅうりょく",
+          "itemID": "vn3m039"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一覧",
+          "reading": "いちらん",
+          "itemID": "vn3c056"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間違い",
+          "reading": "まちがい",
+          "itemID": "vn4701"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": "vn5754"
+        },
+        {
+          "text": "す",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "元",
+          "reading": "もと",
+          "itemID": "vn3g034"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "比",
+          "reading": "くら",
+          "itemID": "vn6163"
+        },
+        {
+          "text": "べるように",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "匆忙录入的列表错误很多。老师说修改前要先与原资料比较。",
+      "explanation": "だらけ强调错误多，不自动等于逐字全错；后句是修改前的要求，不是修改已完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021b",
+      "segments": [
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "らない",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "たばかりで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "からないことだらけです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "までの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近所",
+          "reading": "きんじょ",
+          "itemID": "vn4004"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "刚到陌生城市，不懂的事到处都是。不过去车站的路已经请邻居教过了。",
+      "explanation": "强调未知很多不排除已知个别事项；后句明确的信息不能被だらけ抹去。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021c",
+      "segments": [
+        {
+          "text": "書庫",
+          "reading": "しょこ",
+          "itemID": "vn3m040"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案内図",
+          "reading": "あんないず",
+          "itemID": "vn3m041"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手書き",
+          "reading": "てがき",
+          "itemID": "vn3m042"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "印",
+          "reading": "しるし",
+          "itemID": "vn3a126"
+        },
+        {
+          "text": "だらけでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "全部",
+          "reading": "ぜんぶ",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "字",
+          "reading": "じ",
+          "itemID": "vn5550"
+        },
+        {
+          "text": "かどうかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "书库导览图上满是手写标记，但是否全出自同一个人，我并不知道。",
+      "explanation": "数量和遍布状况不提供作者身份；手写事实也不能被擅自改成印刷。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021d",
+      "segments": [
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "専門",
+          "reading": "せんもん",
+          "itemID": "vn3m043"
+        },
+        {
+          "text": "用語",
+          "reading": "ようご",
+          "itemID": "vn3m044"
+        },
+        {
+          "text": "だらけで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "難",
+          "reading": "むずか",
+          "itemID": "v0046"
+        },
+        {
+          "text": "しく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じられました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "経験",
+          "reading": "けいけん",
+          "itemID": "vn6175"
+        },
+        {
+          "text": "のある",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同僚",
+          "reading": "どうりょう",
+          "itemID": "vn3d003"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "理解",
+          "reading": "りかい",
+          "itemID": "vn3a009"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "最初的说明满是专业术语，我觉得很难，有经验的同事却理解了内容。",
+      "explanation": "だらけ结合个人评价，不把一人的困难扩大为所有人的结果；专业词汇多也不等于无意义。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021e",
+      "segments": [
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "回答",
+          "reading": "かいとう",
+          "itemID": "vn3m045"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "矛盾",
+          "reading": "むじゅん",
+          "itemID": "vn3b039"
+        },
+        {
+          "text": "だらけだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読者",
+          "reading": "どくしゃ",
+          "itemID": "vn3a063"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "章",
+          "reading": "しょう",
+          "itemID": "vn3c049"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "される",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "点",
+          "reading": "てん",
+          "itemID": "vn3a101"
+        },
+        {
+          "text": "もありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "读者起初觉得回答中充满矛盾，但有些方面在后面的章节得到了解释。",
+      "explanation": "だらけ可承载当时的评价；后续说明会补充理解，不把观察时点和最终判断混在一起。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b021f",
+      "segments": [
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "だらけの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "メモ",
+          "reading": "めも",
+          "itemID": "vn3a121"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "て、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "研究者",
+          "reading": "けんきゅうしゃ",
+          "itemID": "vn3i136"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "答え",
+          "reading": "こたえ",
+          "itemID": "v0096"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "一",
+          "reading": "ひと",
+          "itemID": null
+        },
+        {
+          "text": "つも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "ていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "研究者看着写满疑问的笔记，决定了调查顺序，但还没有得到任何答案。",
+      "explanation": "名词决定だらけ所指对象；“问题多”不能自动改成“答案多”，决定顺序也不等于调查完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022a",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "山道",
+          "reading": "やまみち",
+          "itemID": "vn3m046"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "いたら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "靴",
+          "reading": "くつ",
+          "itemID": "v0209"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "泥",
+          "reading": "どろ",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "だらけになりました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "はい",
+          "itemID": "v0302"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "洗",
+          "reading": "あら",
+          "itemID": "v0310"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "雨后走了山路，鞋子沾满了泥。我在进屋前把它洗了。",
+      "explanation": "だらけ描述附着状态，不是材质改变；后句另行报告清洗动作，需依时序理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022b",
+      "segments": [
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0304"
+        },
+        {
+          "text": "けていなかった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ほこり",
+          "reading": "ほこり",
+          "itemID": "vn3j152"
+        },
+        {
+          "text": "だらけでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "汚れ",
+          "reading": "よごれ",
+          "itemID": "vn3m047"
+        },
+        {
+          "text": "がありませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "很久没打开的箱子表面满是灰尘，但里面的照片并没有污渍。",
+      "explanation": "覆盖范围与容器内部的情况分开；箱子的灰尘不取消后句关于照片的明确否定。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022c",
+      "segments": [
+        {
+          "text": "海辺",
+          "reading": "うみべ",
+          "itemID": "vn3i017"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遊",
+          "reading": "あそ",
+          "itemID": "v0313"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "服",
+          "reading": "ふく",
+          "itemID": "v0210"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "砂",
+          "reading": "すな",
+          "itemID": "vn5933"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "砂",
+          "reading": "すな",
+          "itemID": "vn5933"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "落",
+          "reading": "お",
+          "itemID": "vn5758"
+        },
+        {
+          "text": "とす",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "玄関",
+          "reading": "げんかん",
+          "itemID": "vn5136"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "用意",
+          "reading": "ようい",
+          "itemID": "vn4016"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在海边玩过的孩子衣服上满是沙子。我们在玄关外准备了清理沙子的地方。",
+      "explanation": "覆盖状态与后面的准备动作分开；准备地点不是清理完毕，更不等于换了衣服。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022d",
+      "segments": [
+        {
+          "text": "機械",
+          "reading": "きかい",
+          "itemID": "vn4022"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "修理",
+          "reading": "しゅうり",
+          "itemID": "vn4620"
+        },
+        {
+          "text": "して",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手",
+          "reading": "て",
+          "itemID": "vn5034"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "油",
+          "reading": "あぶら",
+          "itemID": "vn5584"
+        },
+        {
+          "text": "だらけになりましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手袋",
+          "reading": "てぶくろ",
+          "itemID": "vn4i016"
+        },
+        {
+          "text": "をしていた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同僚",
+          "reading": "どうりょう",
+          "itemID": "vn3d003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手",
+          "reading": "て",
+          "itemID": "vn5034"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "汚",
+          "reading": "よご",
+          "itemID": "vn6138"
+        },
+        {
+          "text": "れていませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "修机器后我的手上满是油，但戴着手套的同事的手没有弄脏。",
+      "explanation": "修饰对象是说话者的手；后句明确说同事未弄脏，不把覆盖状态无条件推广。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022e",
+      "segments": [
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "後",
+          "reading": "ご",
+          "itemID": null
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "床",
+          "reading": "ゆか",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ペンキ",
+          "reading": "ぺんき",
+          "itemID": "vn3m048"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "itemID": null
+        },
+        {
+          "text": "がこぼしたかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "っていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "作业后的地板上到处是油漆。记录中没有留下是谁洒的。",
+      "explanation": "覆盖状态不等于行为者证据；文中明确没有记录，不能利用词尾虚构身份。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b022f",
+      "segments": [
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "血",
+          "reading": "ち",
+          "itemID": "vn4597"
+        },
+        {
+          "text": "だらけの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "布",
+          "reading": "ぬの",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写",
+          "reading": "うつ",
+          "itemID": "vn4i152"
+        },
+        {
+          "text": "っていますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "itemID": null
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "血",
+          "reading": "ち",
+          "itemID": "vn4597"
+        },
+        {
+          "text": "なのかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本文",
+          "reading": "ほんぶん",
+          "itemID": "vn3a103"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いてありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "故事中的照片拍到了一块沾满血迹的布，但正文也没有写是谁的血。",
+      "explanation": "状态描写可以很强烈，却不自动提供来源；理解悬疑文字时要保留尚未揭示的信息。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b020a",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020a",
+      "prompt": "疲れ気味可以怎样理解？",
+      "choices": [
+        "词尾给出了疲倦的精确百分比",
+        "今天呈现有点疲倦的状态",
+        "已经证明说话者一生都缺乏体力"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里结合今日与少し描述状态，不推出一生的性格、能力，也没有数值测量。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "昨日は長く歩いたので、今日は少し疲れ気味です。普段は元気に通っています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b020b",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020b",
+      "prompt": "能把这句话当成已经检查确诊的证明吗？",
+      "choices": [
+        "能，気味本身就是医院检查证明",
+        "能，所有有点疲劳的人都必定患同一种病",
+        "不能，文本只转述本人对状态的描述"
+      ],
+      "answerIndex": 2,
+      "explanation": "風邪気味保留像有感冒的状态，不自动补出检查与诊断；医疗事实必须另有文本依据。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "彼は風邪気味だと言っていましたが、病院で検査をしたかどうかは聞いていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b020c",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020c",
+      "prompt": "緊張気味に主要说明什么？",
+      "choices": [
+        "开始讲话时呈现出的紧张样子",
+        "妹妹从出生以来都不敢说话",
+        "整个发表过程中声音绝对没有变化"
+      ],
+      "answerIndex": 0,
+      "explanation": "気味に修饰讲话的状态；開始与途中后的变化要分别保留，不据一次表现判断永久性格。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "初めての発表で、妹は緊張気味に話し始めましたが、途中から声が大きくなりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b020d",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020d",
+      "prompt": "能直接得出已经错过截止时间吗？",
+      "choices": [
+        "能，所有表示状态的词都说明期限已过",
+        "不能，进度倾向和截止是否已过分开",
+        "能，気味只能表示工作已经完全失败"
+      ],
+      "answerIndex": 1,
+      "explanation": "遅れ気味是相对计划的状态；后句给出未来截止时间，不把落后进度等同已逾期。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "予定より作業が遅れ気味ですが、締め切りはまだ来週です。担当者は進め方を相談しています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b020e",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020e",
+      "prompt": "乾き気味描述的范围是哪一项？",
+      "choices": [
+        "桌上那部分面包的状态",
+        "屋里全部面包都一定完全变干",
+        "说话者每个月都会买的面包数量"
+      ],
+      "answerIndex": 0,
+      "explanation": "状态描述也可用于物；不能从所指的一部分推广到所有面包，后句明确给出不同情况。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "窓を開けたままにしていたので、机の上のパンが乾き気味でした。袋の中のパンは柔らかいままでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b020f",
+      "targetID": "gn3b020",
+      "sentenceID": "sgn3b020f",
+      "prompt": "这里应怎样处理かなり？",
+      "choices": [
+        "把かなり直接换成已经量出的百分之九十",
+        "保留它对程度的加强，不把気味固定成微不足道",
+        "忽略它，因为気味后只能有绝对相同的极低程度"
+      ],
+      "answerIndex": 1,
+      "explanation": "程度副词与気味共同组成描述；気味常缓和断言，但不取消明说的程度，也不产生固定数值。",
+      "hint": "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "長い移動でかなり疲れ気味だと兄は話していました。疲れの程度を数字では示していません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gimi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b020；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1790980，sense 92494，接尾ぎみ；与 1222640 的独立名词きみ分开。另参明星大学公开仓储论文 J-kcNo08a02.pdf（趙海城）检索片段中的程度副词及动词接续分析，未复制原例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021a",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021a",
+      "prompt": "間違いだらけ已经给出哪项信息？",
+      "choices": [
+        "说话者认为列表中错误很多",
+        "列表中每一个字都已证明错误",
+        "全部错误已被修改完成"
+      ],
+      "answerIndex": 0,
+      "explanation": "だらけ强调错误多，不自动等于逐字全错；后句是修改前的要求，不是修改已完成。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "急いで入力した一覧は間違いだらけでした。先生は直す前に元の資料と比べるように言いました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021b",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021b",
+      "prompt": "后句与分からないことだらけ是什么关系？",
+      "choices": [
+        "证明去车站的路现在也绝不可能知道",
+        "给出很多不了解的事之中已经解决的一项",
+        "证明说话者从未有任何不明白的事"
+      ],
+      "answerIndex": 1,
+      "explanation": "强调未知很多不排除已知个别事项；后句明确的信息不能被だらけ抹去。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "知らない町に来たばかりで、分からないことだらけです。駅までの道は近所の人に教えてもらいました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021c",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021c",
+      "prompt": "だらけ能确定标记的作者吗？",
+      "choices": [
+        "不能，它强调标记多而非作者身份",
+        "能，所有标记必定由同一人留下",
+        "能，标记一定是印刷厂自动印出的"
+      ],
+      "answerIndex": 0,
+      "explanation": "数量和遍布状况不提供作者身份；手写事实也不能被擅自改成印刷。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "書庫の案内図は手書きの印だらけでしたが、全部が同じ人の字かどうかは分かりません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021d",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021d",
+      "prompt": "能从我的感受推出所有人都不懂吗？",
+      "choices": [
+        "不能，后句明确有理解的人",
+        "能，だらけ会使每个人的能力完全相同",
+        "能，专业术语只要多就没有任何实际含义"
+      ],
+      "answerIndex": 0,
+      "explanation": "だらけ结合个人评价，不把一人的困难扩大为所有人的结果；专业词汇多也不等于无意义。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "最初の説明は専門用語だらけで、私には難しく感じられました。経験のある同僚は内容を理解していました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021e",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021e",
+      "prompt": "后文怎样影响最初的评价？",
+      "choices": [
+        "补充信息后，有些看似矛盾之处得到解释",
+        "证明最初所有句子都已被作者删去",
+        "证明读者在最初就知道后面所有解释"
+      ],
+      "answerIndex": 0,
+      "explanation": "だらけ可承载当时的评价；后续说明会补充理解，不把观察时点和最终判断混在一起。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "最初の回答は矛盾だらけだと読者は感じましたが、後の章で説明される点もありました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b021f",
+      "targetID": "gn3b021",
+      "sentenceID": "sgn3b021f",
+      "prompt": "这里数量多的是什么？",
+      "choices": [
+        "已经证实的正确答案",
+        "研究者已经完成的所有实验结果",
+        "待解的疑问，不是已获得的答案"
+      ],
+      "answerIndex": 2,
+      "explanation": "名词决定だらけ所指对象；“问题多”不能自动改成“答案多”，决定顺序也不等于调查完成。",
+      "hint": "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "質問だらけのメモを見て、研究者は調べる順番を決めました。答えはまだ一つも出ていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b021；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1062：full of／riddled with；原创语境区分大量评价、精确数量、身份与结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022a",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022a",
+      "prompt": "泥だらけ描述什么变化？",
+      "choices": [
+        "进屋之前鞋子还从未接触过泥",
+        "鞋子表面沾上很多泥",
+        "鞋子的材质变成了只由泥构成"
+      ],
+      "answerIndex": 1,
+      "explanation": "だらけ描述附着状态，不是材质改变；后句另行报告清洗动作，需依时序理解。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "雨の後で山道を歩いたら、靴が泥だらけになりました。家に入る前に洗いました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022b",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022b",
+      "prompt": "箱子满是灰尘能推出照片也很脏吗？",
+      "choices": [
+        "能，だらけ只能描述照片而不能描述箱子",
+        "不能，后句明确否定照片有污渍",
+        "能，外部状态会自动适用于内部全部物品"
+      ],
+      "answerIndex": 1,
+      "explanation": "覆盖范围与容器内部的情况分开；箱子的灰尘不取消后句关于照片的明确否定。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "長く開けていなかった箱はほこりだらけでしたが、中の写真には汚れがありませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022c",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022c",
+      "prompt": "用意しました已经证明清理完成了吗？",
+      "choices": [
+        "没有，只说明清理场所已准备好",
+        "有，だらけ自动表示沙子已经全部脱落",
+        "有，服装已经被换成全新的一套"
+      ],
+      "answerIndex": 0,
+      "explanation": "覆盖状态与后面的准备动作分开；准备地点不是清理完毕，更不等于换了衣服。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "海辺で遊んだ子供の服は砂だらけでした。砂を落とす場所を玄関の外に用意しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022d",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022d",
+      "prompt": "两个人的手能读成同样状态吗？",
+      "choices": [
+        "能，戴手套本身就表示手已经沾满油",
+        "不能，文本给出了各自不同的情况",
+        "能，前句的だらけ会扩展到所有在场者"
+      ],
+      "answerIndex": 1,
+      "explanation": "修饰对象是说话者的手；后句明确说同事未弄脏，不把覆盖状态无条件推广。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "機械を修理して手が油だらけになりましたが、手袋をしていた同僚の手は汚れていませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022e",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022e",
+      "prompt": "地板的状态是否确定了责任人？",
+      "choices": [
+        "没有，附着状态与责任人信息不同",
+        "有，だらけ能指出最后进门的人",
+        "有，油漆一定由记录者本人洒下"
+      ],
+      "answerIndex": 0,
+      "explanation": "覆盖状态不等于行为者证据；文中明确没有记录，不能利用词尾虚构身份。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "作業後の床はペンキだらけでした。誰がこぼしたかは記録に残っていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b022f",
+      "targetID": "gn3b022",
+      "sentenceID": "sgn3b022f",
+      "prompt": "读者能仅凭だらけ确定血的来源吗？",
+      "choices": [
+        "不能，词尾报告布的状态而非血的所属者",
+        "能，照片里血多就能确定人物身份",
+        "能，血だらけ一词自带所有人的姓名"
+      ],
+      "answerIndex": 0,
+      "explanation": "状态描写可以很强烈，却不自动提供来源；理解悬疑文字时要保留尚未揭示的信息。",
+      "hint": "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "物語の写真には血だらけの布が写っていますが、誰の血なのかは本文にも書いてありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: darake",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b022；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1007480，sense 1063：covered all over with；与 sense 1062 的大量、遍布评价分开，场景及题目原创。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b020",
+      "title": "名词或动词加気味：有某种样子或倾向",
+      "subtitle": "从当前状态读出倾向，不虚构固定程度、诊断或永久性格",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b020"
+      ],
+      "sentenceIDs": [
+        "sgn3b020a",
+        "sgn3b020b",
+        "sgn3b020c",
+        "sgn3b020d",
+        "sgn3b020e",
+        "sgn3b020f"
+      ],
+      "exerciseIDs": [
+        "egn3b020a",
+        "egn3b020b",
+        "egn3b020c",
+        "egn3b020d",
+        "egn3b020e",
+        "egn3b020f"
+      ],
+      "readingID": "rn3117",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "部分名词或动词ます形词干加気味，读ぎみ，表示呈某种样子、状态或倾向，常用来较缓和地描述疲れ気味、風邪気味等。常与少し、やや等连用，也可以被かなり等修饰，因此不机械等同固定低程度；程度仍看上下文。它不自动证明疾病诊断或永久性格。单独名词気味的きみ与这里的接尾读音分开；がち的反复倾向另练。"
+      ]
+    },
+    {
+      "id": "lgn3b021",
+      "title": "名词加だらけ：到处都是某类东西",
+      "subtitle": "理解大量、遍布的评价，保留精确数量与评价立场",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b021"
+      ],
+      "sentenceIDs": [
+        "sgn3b021a",
+        "sgn3b021b",
+        "sgn3b021c",
+        "sgn3b021d",
+        "sgn3b021e",
+        "sgn3b021f"
+      ],
+      "exerciseIDs": [
+        "egn3b021a",
+        "egn3b021b",
+        "egn3b021c",
+        "egn3b021d",
+        "egn3b021e",
+        "egn3b021f"
+      ],
+      "readingID": "rn3118",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加だらけ表示某种东西很多、遍布所说范围，常伴随不满或问题意识，如間違いだらけ。修饰名词用だらけの，连接后句可用だらけで；它通常不是精确的全部或百分之百断言，也不单独确定原因、责任人和补救结果。附着在表面的泥、血等覆盖义另练，不把语气强烈等同于有精确统计。"
+      ]
+    },
+    {
+      "id": "lgn3b022",
+      "title": "名词加だらけ：表面沾满或布满",
+      "subtitle": "把附着或布满的状态与材质、原因和全部内容分开",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b022"
+      ],
+      "sentenceIDs": [
+        "sgn3b022a",
+        "sgn3b022b",
+        "sgn3b022c",
+        "sgn3b022d",
+        "sgn3b022e",
+        "sgn3b022f"
+      ],
+      "exerciseIDs": [
+        "egn3b022a",
+        "egn3b022b",
+        "egn3b022c",
+        "egn3b022d",
+        "egn3b022e",
+        "egn3b022f"
+      ],
+      "readingID": "rn3118",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "泥、ほこり、砂、油、血等名词加だらけ，可表示物体、身体或场所上沾有很多、到处都是该物。通常描述令人介意的状态，不表示被描述对象本身由该物构成，也不单独说明来源、责任人、是否损坏或是否已清理。先读清覆盖了什么、覆盖在哪儿，再结合动作和否定判断结果；用词仍须遵循自然搭配。"
+      ]
+    }
+  ]
+}

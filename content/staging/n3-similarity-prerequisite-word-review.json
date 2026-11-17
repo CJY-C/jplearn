@@ -1,8 +1,8 @@
 {
-  "status": "Selected word meanings and original contexts reviewed; unregistered, not independently language-reviewed",
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
   "baselineVersion": "0.19.1",
-  "wordManuscript": "content/staging/n3-similarity-prerequisite-words.tsv",
-  "manuscriptSHA256": "4068f8a83549eec4a8f382906244254b8fea20781ead2a63761d66c059d53530",
+  "wordManuscript": "content/authoring/n3-similarity-prerequisite-words.tsv",
+  "manuscriptSHA256": "afed3e5486114cb297d1e7cd6c9c25423058570413da29bb0d02095f530bc056",
   "roots": 65,
   "contexts": 134,
   "lessons": 8,
@@ -104,7 +104,7 @@
         "svn3m001a",
         "svn3m001b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -150,7 +150,7 @@
         "svn3m002a",
         "svn3m002b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -195,7 +195,7 @@
         "svn3m003a",
         "svn3m003b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -241,7 +241,7 @@
         "svn3m004a",
         "svn3m004b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -287,7 +287,7 @@
         "svn3m005a",
         "svn3m005b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -334,7 +334,7 @@
         "svn3m006a",
         "svn3m006b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -378,7 +378,7 @@
         "svn3m007a",
         "svn3m007b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -421,7 +421,7 @@
         "svn3m008a",
         "svn3m008b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -469,7 +469,7 @@
         "svn3m009a",
         "svn3m009b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -514,7 +514,7 @@
         "svn3m010a",
         "svn3m010b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -559,7 +559,7 @@
         "svn3m011a",
         "svn3m011b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -606,7 +606,7 @@
         "svn3m012a",
         "svn3m012b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -652,7 +652,7 @@
         "svn3m013a",
         "svn3m013b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -698,7 +698,7 @@
         "svn3m014a",
         "svn3m014b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -758,7 +758,7 @@
         "svn3m015a",
         "svn3m015b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -809,7 +809,7 @@
         "svn3m016a",
         "svn3m016b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -853,7 +853,7 @@
         "svn3m017a",
         "svn3m017b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null,
       "currentPrimaryEntryID": 1355790,
@@ -906,7 +906,7 @@
         "svn3m018a",
         "svn3m018b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -952,7 +952,7 @@
         "svn3m019a",
         "svn3m019b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -996,7 +996,7 @@
         "svn3m020a",
         "svn3m020b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1046,7 +1046,7 @@
         "svn3m021a",
         "svn3m021b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1096,7 +1096,7 @@
         "svn3m022a",
         "svn3m022b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1155,7 +1155,7 @@
         "svn3m023a",
         "svn3m023b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1200,7 +1200,7 @@
         "svn3m024a",
         "svn3m024b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1243,7 +1243,7 @@
         "svn3m025a",
         "svn3m025b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1286,7 +1286,7 @@
         "svn3m026a",
         "svn3m026b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1332,7 +1332,7 @@
         "svn3m027a",
         "svn3m027b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null,
       "currentPrimaryEntryID": 1516990,
@@ -1380,7 +1380,7 @@
         "svn3m028a",
         "svn3m028b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1422,7 +1422,7 @@
         "svn3m029a",
         "svn3m029b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1479,7 +1479,7 @@
         "svn3m030a",
         "svn3m030b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1520,7 +1520,7 @@
         "svn3m031a",
         "svn3m031b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1561,7 +1561,7 @@
         "svn3m032a",
         "svn3m032b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1603,7 +1603,7 @@
         "svn3m033a",
         "svn3m033b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1646,7 +1646,7 @@
         "svn3m034a",
         "svn3m034b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1690,7 +1690,7 @@
         "svn3m035a",
         "svn3m035b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1734,7 +1734,7 @@
         "svn3m036a",
         "svn3m036b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1775,7 +1775,7 @@
         "svn3m037a",
         "svn3m037b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1823,7 +1823,7 @@
         "svn3m038a",
         "svn3m038b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1866,7 +1866,7 @@
         "svn3m039a",
         "svn3m039b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1909,7 +1909,7 @@
         "svn3m040a",
         "svn3m040b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -1950,7 +1950,7 @@
         "svn3m041a",
         "svn3m041b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2008,7 +2008,7 @@
         "svn3m042a",
         "svn3m042b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2055,7 +2055,7 @@
         "svn3m043a",
         "svn3m043b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2099,7 +2099,7 @@
         "svn3m044a",
         "svn3m044b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2144,7 +2144,7 @@
         "svn3m045a",
         "svn3m045b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2199,7 +2199,7 @@
         "svn3m046a",
         "svn3m046b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2244,7 +2244,7 @@
         "svn3m047a",
         "svn3m047b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2285,7 +2285,7 @@
         "svn3m048a",
         "svn3m048b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2330,7 +2330,7 @@
         "svn3m049a",
         "svn3m049b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2376,7 +2376,7 @@
         "svn3m050a",
         "svn3m050b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2421,7 +2421,7 @@
         "svn3m051a",
         "svn3m051b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2464,7 +2464,7 @@
         "svn3m052a",
         "svn3m052b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2510,7 +2510,7 @@
         "svn3m053a",
         "svn3m053b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2556,7 +2556,7 @@
         "svn3m054a",
         "svn3m054b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2600,7 +2600,7 @@
         "svn3m055a",
         "svn3m055b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2651,7 +2651,7 @@
         "svn3m056a",
         "svn3m056b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2692,7 +2692,7 @@
         "svn3m057a",
         "svn3m057b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2734,7 +2734,7 @@
         "svn3m058a",
         "svn3m058b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2775,7 +2775,7 @@
         "svn3m059a",
         "svn3m059b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2817,7 +2817,7 @@
         "svn3m060a",
         "svn3m060b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2883,7 +2883,7 @@
         "svn3m061a",
         "svn3m061b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2928,7 +2928,7 @@
         "svn3m062a",
         "svn3m062b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -2971,7 +2971,7 @@
         "svn3m063a",
         "svn3m063b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -3019,7 +3019,7 @@
         "svn3m064a",
         "svn3m064b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -3074,7 +3074,7 @@
         "svn3m065a",
         "svn3m065b"
       ],
-      "status": "authored, dictionary facts checked, unregistered, not independently language reviewed",
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
       "lexemeID": null,
       "readingOwnerID": null
     },
@@ -3187,5 +3187,6 @@
   "currentStructureReport": "content/staging/n3-similarity-reading-review.json",
   "targets": 67,
   "additionalSenses": 2,
-  "checkedDate": "2026-11-17"
+  "checkedDate": "2026-11-17",
+  "registeredVersion": "0.20.0"
 }

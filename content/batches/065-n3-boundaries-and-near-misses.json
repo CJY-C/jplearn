@@ -1,0 +1,3025 @@
+{
+  "items": [
+    {
+      "id": "gn3b029",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "ほど〜はない：在所说范围里无可相比",
+      "reading": "ほど〜はない、ほど〜はいない",
+      "romaji": "hodo wa nai hodo wa inai",
+      "meaning": "分清强烈最高程度评价、普通不及比较与评价范围",
+      "explanation": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn469",
+        "gn310"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b029a",
+        "sgn3b029b",
+        "sgn3b029c",
+        "sgn3b029d",
+        "sgn3b029e",
+        "sgn3b029f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b030",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加しかない：在所述条件下只剩这一办法",
+      "reading": "しかない、しかなかった、しかありません",
+      "romaji": "shika nai shika nakatta shika arimasen",
+      "meaning": "分清可用办法受限、个人愿望、义务规范与动作结果",
+      "explanation": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn462",
+        "gn305"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b030a",
+        "sgn3b030b",
+        "sgn3b030c",
+        "sgn3b030d",
+        "sgn3b030e",
+        "sgn3b030f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn3b031",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "危うく〜ところだった：差点发生但避免了",
+      "reading": "ところだった、ところでした",
+      "romaji": "tokoro datta tokoro deshita",
+      "meaning": "区分险些实现的事件与实际发生的阻止、发现或回避",
+      "explanation": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn465",
+        "gn3b026"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b031a",
+        "sgn3b031b",
+        "sgn3b031c",
+        "sgn3b031d",
+        "sgn3b031e",
+        "sgn3b031f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b029a",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "経験",
+          "reading": "けいけん",
+          "itemID": "vn6175"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "では、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "あの",
+          "reading": "あの",
+          "itemID": "vn5306"
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "静",
+          "reading": "しず",
+          "itemID": "v0047"
+        },
+        {
+          "text": "かな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "はありませんでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音",
+          "reading": "おと",
+          "itemID": "vn5794"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遠",
+          "reading": "とお",
+          "itemID": "v0152"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じられました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在我的经历中，没有哪个夜晚像那晚那么安静，城市的声音仿佛都很遥远。",
+      "explanation": "私が経験した中では限定比较域；强烈评价不等于完成了全球测量，也不是说那晚不存在。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b029b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "地域",
+          "reading": "ちいき",
+          "itemID": "vn4570"
+        },
+        {
+          "text": "では、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "あの",
+          "reading": "あの",
+          "itemID": "vn5306"
+        },
+        {
+          "text": "資料館",
+          "reading": "しりょうかん",
+          "itemID": "vn3i031"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "多",
+          "reading": "おお",
+          "itemID": "v0175"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "そろ",
+          "reading": "そろ",
+          "itemID": "vn3k065"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "はないと、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案内人",
+          "reading": "あんないにん",
+          "itemID": "vn3m057"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "导览员说，在这个地区，没有哪里像那座资料馆那样汇集了这么多古老工具。",
+      "explanation": "评价者和地域范围都在句中，不能把转述变成普遍认证，也不把否定比较读成工具不存在。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b029c",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "心",
+          "reading": "こころ",
+          "itemID": "vn5792"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "るものはありません。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "他",
+          "reading": "ほか",
+          "itemID": "vn5128"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読者",
+          "reading": "どくしゃ",
+          "itemID": "vn3a063"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感想",
+          "reading": "かんそう",
+          "itemID": "vn4424"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在我至今读过的东西中，没有什么像这封信这样令人难忘。我没问过其他读者的感想。",
+      "explanation": "程度强调仍受读过的范围与个人立场限制；后句还明确缺少其他读者的意见。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b029d",
+      "segments": [
+        {
+          "text": "生徒",
+          "reading": "せいと",
+          "itemID": "vn5122"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "くとき、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "では、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "あの",
+          "reading": "あの",
+          "itemID": "vn5306"
+        },
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "辛抱強",
+          "reading": "しんぼうづよ",
+          "itemID": "vn3m058"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "はいません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在听学生讲话时，在我认识的老师中，没有谁像那位老师这样耐心。",
+      "explanation": "前项限定评价方面，知っている先生の中では限定认识范围；不能把耐心评价扩展到所有能力或考试排名。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b029e",
+      "segments": [
+        {
+          "text": "返事",
+          "reading": "へんじ",
+          "itemID": "vn4018"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "つ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感",
+          "reading": "かん",
+          "itemID": "vn3a125"
+        },
+        {
+          "text": "じる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "はありませんでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時計",
+          "reading": "とけい",
+          "itemID": "v0205"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "五分",
+          "reading": "ごふん",
+          "itemID": null
+        },
+        {
+          "text": "しか",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "経",
+          "reading": "た",
+          "itemID": "vn3f057"
+        },
+        {
+          "text": "っていませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我觉得等回复的时间漫长得无可比拟，但钟表上只过了五分钟。",
+      "explanation": "感じる明确是体验程度；后句给出实际时长，不能用强烈感受替换钟表信息。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b029f",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発言",
+          "reading": "はつげん",
+          "itemID": "vn3a093"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "ほど",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "丁寧",
+          "reading": "ていねい",
+          "itemID": "vn6180"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "根拠",
+          "reading": "こんきょ",
+          "itemID": "vn3a051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "示",
+          "reading": "しめ",
+          "itemID": "vn3a073"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "はいませんでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这次会议的发言者中，没有人像他那样细致地说明依据，其他会议我没有调查。",
+      "explanation": "这里否定达到同样程度的其他人，并不否定基准对象本身；这次会议的范围也不能任意扩大。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030a",
+      "segments": [
+        {
+          "text": "最終",
+          "reading": "さいしゅう",
+          "itemID": "vn3f022"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "てしまい、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "タクシー",
+          "reading": "たくしー",
+          "itemID": "vn5369"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "こ",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ないので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今夜",
+          "reading": "こんや",
+          "itemID": "vn5976"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "いて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "るしかありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "末班电车已经开走，出租车也不来，今晚只好走回去了。",
+      "explanation": "交通条件限制了当下的选择，构式本身不表达终身喜好或对所有人的规范。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030b",
+      "segments": [
+        {
+          "text": "印刷機",
+          "reading": "いんさつき",
+          "itemID": "vn3m059"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "えず、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "締め切り",
+          "reading": "しめきり",
+          "itemID": "vn4518"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近",
+          "reading": "ちか",
+          "itemID": "v0151"
+        },
+        {
+          "text": "いので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手書き",
+          "reading": "てがき",
+          "itemID": "vn3m042"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "提出",
+          "reading": "ていしゅつ",
+          "itemID": "vn4528"
+        },
+        {
+          "text": "するしかないと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "判断",
+          "reading": "はんだん",
+          "itemID": "vn4443"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "打印机用不了，截止时间又近，我判断今天只能手写提交。",
+      "explanation": "判断可用办法不等于提交完成，更不等于稿件审查已通过；结果还需另有说明。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030c",
+      "segments": [
+        {
+          "text": "強",
+          "reading": "つよ",
+          "itemID": "v0253"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "屋外",
+          "reading": "おくがい",
+          "itemID": "vn3a109"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "撮影",
+          "reading": "さつえい",
+          "itemID": "vn3c021"
+        },
+        {
+          "text": "ができず、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日程",
+          "reading": "にってい",
+          "itemID": "vn3i024"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えるしかありませんでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "中",
+          "reading": "ちゅう",
+          "itemID": null
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "大雨使室外拍摄无法进行，只能改期，新日期还在商量。",
+      "explanation": "受限选择与后续安排要分开；“只能改期”不会自动提供日期，也不等于永久取消。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030d",
+      "segments": [
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手元",
+          "reading": "てもと",
+          "itemID": "vn3g057"
+        },
+        {
+          "text": "にないので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "答え",
+          "reading": "こたえ",
+          "itemID": "v0096"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めず、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "するしかありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "手头没有资料，眼下先不确定答案，只能向负责人确认。",
+      "explanation": "动词加しかない说明所述情况下剩下的办法；前文还暂缓确定答案，不能把建议改成相反行为。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030e",
+      "segments": [
+        {
+          "text": "鍵",
+          "reading": "かぎ",
+          "itemID": "v0208"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持",
+          "reading": "も",
+          "itemID": "v0066"
+        },
+        {
+          "text": "つ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "がつかず、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開館",
+          "reading": "かいかん",
+          "itemID": "vn3m060"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "つしかなかったのですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近所",
+          "reading": "きんじょ",
+          "itemID": "vn4004"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休憩",
+          "reading": "きゅうけい",
+          "itemID": "vn3c044"
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "貸",
+          "reading": "か",
+          "itemID": "v0093"
+        },
+        {
+          "text": "してくれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "联系不上持钥匙的人，本来只能在外面等到开馆，不过邻近的店后来借了地方让我们休息。",
+      "explanation": "过去条件下的判断不排除后来出现新条件；不能把“只剩”读成跨越所有时间的绝对保证。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b030f",
+      "segments": [
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "するしかないと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "っていますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "相手",
+          "reading": "あいて",
+          "itemID": "vn3a046"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "っていません。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "準備",
+          "reading": "じゅんび",
+          "itemID": "vn5992"
+        },
+        {
+          "text": "をしています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我认为只能由自己解释，但还没见到对方，正在准备说明。",
+      "explanation": "选择办法、准备、会面和对方回应是不同层次；不能由构式补出没有写的完成与接受。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031a",
+      "segments": [
+        {
+          "text": "危",
+          "reading": "あや",
+          "itemID": "vn3m061"
+        },
+        {
+          "text": "うく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大切",
+          "reading": "たいせつ",
+          "itemID": "v0130"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "原稿",
+          "reading": "げんこう",
+          "itemID": "vn4448"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "消",
+          "reading": "け",
+          "itemID": "vn5244"
+        },
+        {
+          "text": "すところでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "画面",
+          "reading": "がめん",
+          "itemID": "vn5919"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "名",
+          "reading": "めい",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気がつ",
+          "reading": "きがつ",
+          "itemID": "vn4426"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "操作",
+          "reading": "そうさ",
+          "itemID": "vn3h103"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "や",
+          "itemID": "vn4o005"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我差点删掉重要稿件，在确认画面注意到文件名后停下了操作。",
+      "explanation": "ところでした描述差点发生的删除，后句说明实际停下；不要把过去叙述读成结果已实现。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031b",
+      "segments": [
+        {
+          "text": "もう少",
+          "reading": "もうすこ",
+          "itemID": null
+        },
+        {
+          "text": "しで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "反対",
+          "reading": "はんたい",
+          "itemID": "vn4209"
+        },
+        {
+          "text": "方向",
+          "reading": "ほうこう",
+          "itemID": "vn3m027"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電車",
+          "reading": "でんしゃ",
+          "itemID": "v0108"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "乗",
+          "reading": "の",
+          "itemID": "v0306"
+        },
+        {
+          "text": "るところでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "扉",
+          "reading": "とびら",
+          "itemID": "vn3c001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "行き先",
+          "reading": "いきさき",
+          "itemID": "vn3i052"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "できました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我差点上了反方向的电车，但在车门前确认了目的地。",
+      "explanation": "构式描述未实现的差错；实际写出的是及时确认，并未说明已经抵达目的地或列车停运。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031c",
+      "segments": [
+        {
+          "text": "鍋",
+          "reading": "なべ",
+          "itemID": "vn4629"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "火",
+          "reading": "ひ",
+          "itemID": "vn5795"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "と",
+          "itemID": "v0320"
+        },
+        {
+          "text": "めずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "るところでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "玄関",
+          "reading": "げんかん",
+          "itemID": "vn5136"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音",
+          "reading": "おと",
+          "itemID": "vn5794"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気がつ",
+          "reading": "きがつ",
+          "itemID": "vn4426"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "台所",
+          "reading": "だいどころ",
+          "itemID": "v0291"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "戻",
+          "reading": "もど",
+          "itemID": "vn5767"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "火",
+          "reading": "ひ",
+          "itemID": "vn5795"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "と",
+          "itemID": "v0320"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我差点没关灶火就出门了，在玄关听见声音后回到厨房关掉了火。",
+      "explanation": "后文提供实际回避经过；不要把险些发生的事扩大为已离家数日或发生火灾。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031d",
+      "segments": [
+        {
+          "text": "店員",
+          "reading": "てんいん",
+          "itemID": "vn5739"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "呼",
+          "reading": "よ",
+          "itemID": "v0321"
+        },
+        {
+          "text": "んでくれなかったら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "財布",
+          "reading": "さいふ",
+          "itemID": "v0207"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置き忘",
+          "reading": "おきわす",
+          "itemID": "vn3m062"
+        },
+        {
+          "text": "れるところでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受け取",
+          "reading": "うけと",
+          "itemID": "vn6157"
+        },
+        {
+          "text": "ってから",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "要不是店员叫住，我就会把钱包忘在那里了。我取回钱包后才离开店。",
+      "explanation": "条件句呈现未实现的另一条经过；后句明确取回，不能把假设当作事实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031e",
+      "segments": [
+        {
+          "text": "締め切り",
+          "reading": "しめきり",
+          "itemID": "vn4518"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一日",
+          "reading": "いちにち",
+          "itemID": null
+        },
+        {
+          "text": "間違",
+          "reading": "まちが",
+          "itemID": "vn6161"
+        },
+        {
+          "text": "えて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "危",
+          "reading": "あや",
+          "itemID": "vn3m061"
+        },
+        {
+          "text": "うく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "提出",
+          "reading": "ていしゅつ",
+          "itemID": "vn4528"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れるところでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "て、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "当日",
+          "reading": "とうじつ",
+          "itemID": "vn4404"
+        },
+        {
+          "text": "中",
+          "reading": "じゅう",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "だ",
+          "itemID": "vn5027"
+        },
+        {
+          "text": "せました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把截止日期记错了一天，差点迟交；看到朋友的联络后，当天之内交上了。",
+      "explanation": "险些迟交不等于此前完全没有错误；前句的记错与后句实际按时交上分别读取。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b031f",
+      "segments": [
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてくれなければ、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結末",
+          "reading": "けつまつ",
+          "itemID": "vn4447"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "かれたページを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "ひら",
+          "itemID": "vn4o001"
+        },
+        {
+          "text": "くところでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "その",
+          "reading": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "ページは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "要不是朋友提醒，我就要打开写着结局的那一页了。我现在还没看过那一页。",
+      "explanation": "反事实条件与后句否定共同说明未看该页；不能把险些发生改成已实现，更不扩大为读完整本。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b029a",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029a",
+      "prompt": "比较范围是什么？",
+      "choices": [
+        "全人类已经统计过的所有夜晚",
+        "尚未发生的全世界未来夜晚",
+        "说话者自己经历过的夜晚"
+      ],
+      "answerIndex": 2,
+      "explanation": "私が経験した中では限定比较域；强烈评价不等于完成了全球测量，也不是说那晚不存在。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "私が経験した中では、あの夜ほど静かな夜はありませんでした。町の音が遠く感じられました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b029b",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029b",
+      "prompt": "这项评价由谁提出、限于哪里？",
+      "choices": [
+        "说话者自己的观察，范围为所有国家的资料馆",
+        "全部参观者共同认证，范围是本馆每件工具的年代",
+        "导览员提出，范围是这个地区"
+      ],
+      "answerIndex": 2,
+      "explanation": "评价者和地域范围都在句中，不能把转述变成普遍认证，也不把否定比较读成工具不存在。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この地域では、あの資料館ほど古い道具が多くそろう場所はないと、案内人は話していました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b029c",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029c",
+      "prompt": "可以推出所有读者都给信最高评价吗？",
+      "choices": [
+        "不能，这里只给出说话者阅读经验中的感受",
+        "可以，ほどはない会自动统一全部读者的意见",
+        "可以，所有读者都已经在前句直接发言"
+      ],
+      "answerIndex": 0,
+      "explanation": "程度强调仍受读过的范围与个人立场限制；后句还明确缺少其他读者的意见。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "今まで読んだ中で、この手紙ほど心に残るものはありません。他の読者の感想は聞いていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b029d",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029d",
+      "prompt": "对哪方面作了高度评价？",
+      "choices": [
+        "倾听学生这件事上的耐心",
+        "所有学科考试的统一得分",
+        "从未与学生交谈的次数"
+      ],
+      "answerIndex": 0,
+      "explanation": "前项限定评价方面，知っている先生の中では限定认识范围；不能把耐心评价扩展到所有能力或考试排名。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "生徒の話を聞くとき、私が知っている先生の中では、あの先生ほど辛抱強い人はいません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b029e",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029e",
+      "prompt": "长的是什么意义上的程度？",
+      "choices": [
+        "主观感受到的漫长，不是实际经过了最长时长",
+        "已经测得这段时间比任何一年都长",
+        "钟表已经证明五分钟等于五小时"
+      ],
+      "answerIndex": 0,
+      "explanation": "感じる明确是体验程度；后句给出实际时长，不能用强烈感受替换钟表信息。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "返事を待つ時間ほど長く感じる時間はありませんでしたが、時計では五分しか経っていませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b029f",
+      "targetID": "gn3b029",
+      "sentenceID": "sgn3b029f",
+      "prompt": "这里的否定是在否定什么？",
+      "choices": [
+        "他在其他每一次会议中也都比别人说明得细致",
+        "所限定人群中存在达到他那样程度的其他人",
+        "这次会议中没有任何人说明过依据"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里否定达到同样程度的其他人，并不否定基准对象本身；这次会议的范围也不能任意扩大。",
+      "hint": "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この会議で発言した人の中に、彼ほど丁寧に根拠を示した人はいませんでした。別の会議は調べていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: hodo-wa-nai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b029；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1436510 senses 51835／51841 核对程度、比较基准；最高程度构式另核读高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格82项。原创例句保留评价域和评价者。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030a",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030a",
+      "prompt": "歩いて帰るしかない为什么成立？",
+      "choices": [
+        "在句中所说的交通条件下，只剩步行回去这一办法",
+        "仍有出租车可坐，但说话者主动选择步行",
+        "虽然还赶得上电车，仍需先走到车站再乘车"
+      ],
+      "answerIndex": 0,
+      "explanation": "交通条件限制了当下的选择，构式本身不表达终身喜好或对所有人的规范。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "最終の電車が出てしまい、タクシーも来ないので、今夜は歩いて帰るしかありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030b",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030b",
+      "prompt": "已经明确发生的是哪件事？",
+      "choices": [
+        "手写稿已经成功送到老师手里",
+        "在这些条件下作出了手写提交的判断",
+        "老师已确认手写稿内容全部正确"
+      ],
+      "answerIndex": 1,
+      "explanation": "判断可用办法不等于提交完成，更不等于稿件审查已通过；结果还需另有说明。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "印刷機が使えず、締め切りも近いので、今日は手書きで提出するしかないと判断しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030c",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030c",
+      "prompt": "しかありませんでした与新日期的关系是什么？",
+      "choices": [
+        "所有未来拍摄都已经永久取消",
+        "改期被视为当时唯一办法，新日期尚未确定",
+        "新的拍摄日期已在前句给出"
+      ],
+      "answerIndex": 1,
+      "explanation": "受限选择与后续安排要分开；“只能改期”不会自动提供日期，也不等于永久取消。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "強い雨で屋外の撮影ができず、日程を変えるしかありませんでした。新しい日は相談中です。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030d",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030d",
+      "prompt": "说话者主张采取什么办法？",
+      "choices": [
+        "在缺少资料的条件下向负责人核实",
+        "把不了解的细节当作已证实事实直接写出",
+        "声称任何人永远都无法接触资料"
+      ],
+      "answerIndex": 0,
+      "explanation": "动词加しかない说明所述情况下剩下的办法；前文还暂缓确定答案，不能把建议改成相反行为。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "資料が手元にないので、今は答えを決めず、担当者に確認するしかありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030e",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030e",
+      "prompt": "后面的新情况怎样影响原判断？",
+      "choices": [
+        "证明しかなかった必须表示永远没有新办法",
+        "出现了新的去处，原先的选择限制有所改变",
+        "证明说话者最初就拥有所有钥匙"
+      ],
+      "answerIndex": 1,
+      "explanation": "过去条件下的判断不排除后来出现新条件；不能把“只剩”读成跨越所有时间的绝对保证。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "鍵を持つ人と連絡がつかず、開館まで外で待つしかなかったのですが、近所の店が休憩場所を貸してくれました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b030f",
+      "targetID": "gn3b030",
+      "sentenceID": "sgn3b030f",
+      "prompt": "しかない在本句有没有证明解释已经完成？",
+      "choices": [
+        "有，已经解释完，目前正在等对方的回应",
+        "有，已经见过对方，准备补充书面说明",
+        "没有，它报告办法判断，解释尚在准备"
+      ],
+      "answerIndex": 2,
+      "explanation": "选择办法、准备、会面和对方回应是不同层次；不能由构式补出没有写的完成与接受。",
+      "hint": "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "自分で説明するしかないと思っていますが、まだ相手に会っていません。説明の準備をしています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: shika-nai-no-choice",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b030；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2026790，sense 114255：have no choice；与 114256／114257 的数量、范围限定功能分开，不把名词限定的每个しか都读成无奈选择。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031a",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031a",
+      "prompt": "稿件是否真的被删掉了？",
+      "choices": [
+        "没有，险些发生的删除被停下操作所避免",
+        "已经删掉，但发现文件名后又恢复了稿件",
+        "确认了文件名，但仍继续执行了删除"
+      ],
+      "answerIndex": 0,
+      "explanation": "ところでした描述差点发生的删除，后句说明实际停下；不要把过去叙述读成结果已实现。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "危うく大切な原稿を消すところでした。確認画面でファイル名に気がつき、操作を止めました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031b",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031b",
+      "prompt": "接近发生的差错是什么？",
+      "choices": [
+        "上了开往反方向的电车",
+        "已经到达正确目的地",
+        "所有列车在车站同时停运"
+      ],
+      "answerIndex": 0,
+      "explanation": "构式描述未实现的差错；实际写出的是及时确认，并未说明已经抵达目的地或列车停运。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "もう少しで反対方向の電車に乗るところでしたが、扉の前で行き先を確認できました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031c",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031c",
+      "prompt": "前后文合起来，实际发生了什么？",
+      "choices": [
+        "发现后返回厨房关火，避免了未关火就离开",
+        "出门后才发现没关火，随后请他人帮助关掉",
+        "只在玄关听见声音，还没有返回厨房确认"
+      ],
+      "answerIndex": 0,
+      "explanation": "后文提供实际回避经过；不要把险些发生的事扩大为已离家数日或发生火灾。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "鍋の火を止めずに出るところでした。玄関で音に気がつき、台所へ戻って火を止めました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031d",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031d",
+      "prompt": "哪一个是真正发生的过程？",
+      "choices": [
+        "店员从未说话，我也始终不知道钱包在哪",
+        "钱包已经被明确交给了另一个顾客",
+        "店员叫住我，我取回钱包后离店"
+      ],
+      "answerIndex": 2,
+      "explanation": "条件句呈现未实现的另一条经过；后句明确取回，不能把假设当作事实。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "店員が呼んでくれなかったら、財布を置き忘れるところでした。受け取ってから店を出ました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031e",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031e",
+      "prompt": "已经发生和没有发生的两件事怎样区分？",
+      "choices": [
+        "日期记错且已迟交，朋友提醒时已经过了截止",
+        "并没有记错日期，只是提出迟交的假设",
+        "记错日期已经发生，迟交被及时提交避免"
+      ],
+      "answerIndex": 2,
+      "explanation": "险些迟交不等于此前完全没有错误；前句的记错与后句实际按时交上分别读取。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "締め切りを一日間違えて、危うく提出が遅れるところでした。友人の連絡を見て、当日中に出せました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b031f",
+      "targetID": "gn3b031",
+      "sentenceID": "sgn3b031f",
+      "prompt": "可以据此认定说话者已看完结局吗？",
+      "choices": [
+        "不能，所说打开被避免，后句还明确没看过",
+        "可以，过去形式强制表示整本书读完",
+        "可以，朋友提醒就等于作者已公开全部结局"
+      ],
+      "answerIndex": 0,
+      "explanation": "反事实条件与后句否定共同说明未看该页；不能把险些发生改成已实现，更不扩大为读完整本。",
+      "hint": "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友人が教えてくれなければ、結末の書かれたページを開くところでした。まだそのページは見ていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: tokoro-datta",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b031；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1343100，sense 40021 的临近义仅作词义对照。反事实构式另参中日本自动车短期大学高瀬利恵子《日本語上級文型の意味分類》2014，p.58表格94／97／98项，以及广岛大学公开仓储《反実仮想を表す日本語表現について》2.3 的检索片段；核对记录注明实际取得范围，不声称单独词条即可证明反事实规则。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b029",
+      "title": "ほど〜はない：在所说范围里无可相比",
+      "subtitle": "分清强烈最高程度评价、普通不及比较与评价范围",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b029"
+      ],
+      "sentenceIDs": [
+        "sgn3b029a",
+        "sgn3b029b",
+        "sgn3b029c",
+        "sgn3b029d",
+        "sgn3b029e",
+        "sgn3b029f"
+      ],
+      "exerciseIDs": [
+        "egn3b029a",
+        "egn3b029b",
+        "egn3b029c",
+        "egn3b029d",
+        "egn3b029e",
+        "egn3b029f"
+      ],
+      "readingID": "rn3123",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "Nほど〜な／いNはない、Nほど〜する人はいない等，表示在所说范围内找不到达到该对象程度的其他人或事物，常强调最高或极高程度。与“AはBほど〜ない”表示A不及B的比较分开。先读限定范围和评价者：个人经验、这次会议、所读作品不等于全世界的客观排名；也不能把强调程度读成被评价对象不存在。"
+      ]
+    },
+    {
+      "id": "lgn3b030",
+      "title": "动词加しかない：在所述条件下只剩这一办法",
+      "subtitle": "分清可用办法受限、个人愿望、义务规范与动作结果",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b030"
+      ],
+      "sentenceIDs": [
+        "sgn3b030a",
+        "sgn3b030b",
+        "sgn3b030c",
+        "sgn3b030d",
+        "sgn3b030e",
+        "sgn3b030f"
+      ],
+      "exerciseIDs": [
+        "egn3b030a",
+        "egn3b030b",
+        "egn3b030c",
+        "egn3b030d",
+        "egn3b030e",
+        "egn3b030f"
+      ],
+      "readingID": "rn3124",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词辞书形加しかない，表示在眼前所述条件下，除了这样做没有别的办法或选择。可带无奈或决意，但不单独说明这是喜欢的做法、普遍道德义务或已完成的结果。与名词加しか〜ない限定数量范围分开；条件改变或发现新办法时，选择余地也可能改变，不能把说话者当时的判断扩展成永远的绝对真理。"
+      ]
+    },
+    {
+      "id": "lgn3b031",
+      "title": "危うく〜ところだった：差点发生但避免了",
+      "subtitle": "区分险些实现的事件与实际发生的阻止、发现或回避",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b031"
+      ],
+      "sentenceIDs": [
+        "sgn3b031a",
+        "sgn3b031b",
+        "sgn3b031c",
+        "sgn3b031d",
+        "sgn3b031e",
+        "sgn3b031f"
+      ],
+      "exerciseIDs": [
+        "egn3b031a",
+        "egn3b031b",
+        "egn3b031c",
+        "egn3b031d",
+        "egn3b031e",
+        "egn3b031f"
+      ],
+      "readingID": "rn3125",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "あやうく、もう少しで等与动词辞书形加ところだった相配，可表示某事件接近发生，最终没有发生，常用于险情、差错等被避免的情境。过去形式并不表示险情结果已实现。先辨清险些发生的事，再读实际阻止或回避；普通“出かけるところだった”也可能只说当时正要出门，不能把所有ところだった都机械归为险情。"
+      ]
+    }
+  ]
+}

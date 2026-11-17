@@ -148,15 +148,15 @@
   },
   "sourceAndAuthorship": "The narratives, Chinese translations, evidence questions and distractors are original, CC BY-SA 4.0. They are not translations of dictionary examples. Grammar facts are documented in the chapter's existing source records.",
   "manuscriptHashes": {
-    "content/staging/n3-similarity-assessment-readings.tsv": "b6f2dffb4b8940a4eb4f171cf2f736954d1e0b6d091cabd914b2434e4bdef80c",
-    "content/staging/n3-similarity-choice-readings.tsv": "f975ec9765fc5038022800a98cf85dfbfd264df2231ae0819ea2c32591469f48",
-    "content/staging/n3-similarity-evidence-readings.tsv": "a189c1bc812a51803e959d685fa73fee0afcddfc47aeab77c7abc373ff8099ce",
-    "content/staging/n3-similarity-market-readings.tsv": "6b0dc1015a2955c0bc53a0c6bb8649a9f32c95ea3c4b3f27f34eb76d145dc081",
-    "content/staging/n3-similarity-readings.tsv": "8ad85f061c9ecc8abbe9736f7da169766350fa9c413d50419636bcbd30e81b31",
-    "content/staging/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
-    "content/staging/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
-    "content/staging/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
-    "content/staging/n3-similarity-work-readings.tsv": "4607a390fe9647cdecbe214d98ca1c6e7eec62b5e3e3008c49adaaa4a6131db6"
+    "content/authoring/n3-similarity-assessment-readings.tsv": "b6f2dffb4b8940a4eb4f171cf2f736954d1e0b6d091cabd914b2434e4bdef80c",
+    "content/authoring/n3-similarity-choice-readings.tsv": "f975ec9765fc5038022800a98cf85dfbfd264df2231ae0819ea2c32591469f48",
+    "content/authoring/n3-similarity-evidence-readings.tsv": "a189c1bc812a51803e959d685fa73fee0afcddfc47aeab77c7abc373ff8099ce",
+    "content/authoring/n3-similarity-market-readings.tsv": "6b0dc1015a2955c0bc53a0c6bb8649a9f32c95ea3c4b3f27f34eb76d145dc081",
+    "content/authoring/n3-similarity-readings.tsv": "8ad85f061c9ecc8abbe9736f7da169766350fa9c413d50419636bcbd30e81b31",
+    "content/authoring/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
+    "content/authoring/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
+    "content/authoring/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
+    "content/authoring/n3-similarity-work-readings.tsv": "4607a390fe9647cdecbe214d98ca1c6e7eec62b5e3e3008c49adaaa4a6131db6"
   },
   "structureReport": "content/staging/n3-similarity-reading-review.json",
   "remainingWork": [
@@ -227,6 +227,6 @@
     "spelling": "ミオ",
     "reading": "みお",
     "occurrences": 4,
-    "status": "Explicit P declaration; remains unknown in readiness; Python compile/model checks passed; native check pending."
+    "status": "Explicit declaration and Python/native core regression checks passed;4 occurrences remain unknown."
   }
 }

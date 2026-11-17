@@ -1,0 +1,1986 @@
+{
+  "items": [
+    {
+      "id": "gn3b027",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加直す：重新做、改做一次",
+      "reading": "直す、直した、直している",
+      "romaji": "naosu naoshita naoshite iru",
+      "meaning": "把重新实施与修好、做完、做对分开",
+      "explanation": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict",
+        "ninjalcomp"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn419",
+        "gn3b023"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b027a",
+        "sgn3b027b",
+        "sgn3b027c",
+        "sgn3b027d",
+        "sgn3b027e",
+        "sgn3b027f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b028",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加づらい：做起来有困难或顾虑",
+      "reading": "づらい、づらく、づらかった",
+      "romaji": "zurai zuraku zurakatta",
+      "meaning": "辨认动作的困难来源与感受，不把困难一律当作禁止或绝不可能",
+      "explanation": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn466",
+        "gn419"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b028a",
+        "sgn3b028b",
+        "sgn3b028c",
+        "sgn3b028d",
+        "sgn3b028e",
+        "sgn3b028f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b027a",
+      "segments": [
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えるため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "段落",
+          "reading": "だんらく",
+          "itemID": "vn3k053"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書き",
+          "reading": "かき",
+          "itemID": "v0026"
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数字",
+          "reading": "すうじ",
+          "itemID": "vn3i028"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誤",
+          "reading": "あやま",
+          "itemID": "vn3i139"
+        },
+        {
+          "text": "りがあったわけではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为了调整说明顺序，我重写了第一段，并不是数字有错。",
+      "explanation": "直す可为调整而重做，不强制以前有错误；后句明确否定的原因应保留。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b027b",
+      "segments": [
+        {
+          "text": "人物",
+          "reading": "じんぶつ",
+          "itemID": "vn3a061"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "関係",
+          "reading": "かんけい",
+          "itemID": "v0164"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめるために",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読み",
+          "reading": "よみ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "しましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "差出人",
+          "reading": "さしだしにん",
+          "itemID": "vn4637"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "vn6165"
+        },
+        {
+          "text": "つかりませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为核实人物关系，我重读了信，但仍没找到寄信人的名字。",
+      "explanation": "再实施阅读不等于达到查找目的；操作与结果要分别理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b027c",
+      "segments": [
+        {
+          "text": "費用",
+          "reading": "ひよう",
+          "itemID": "vn3c004"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "v0041"
+        },
+        {
+          "text": "すぎる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "計画",
+          "reading": "けいかく",
+          "itemID": "vn4302"
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "われ、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予算",
+          "reading": "よさん",
+          "itemID": "vn3c006"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考え",
+          "reading": "かんがえ",
+          "itemID": "v0165"
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "すことにしました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "金額",
+          "reading": "きんがく",
+          "itemID": "vn4536"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "被指出计划花费过高后，我决定重新考虑预算，但还没确定新的金额。",
+      "explanation": "ことにした说明作出决定，不等于金额已确定，也不保证以后审查的结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b027d",
+      "segments": [
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "えると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "候補",
+          "reading": "こうほ",
+          "itemID": "vn3h095"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選び",
+          "reading": "えらび",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予約",
+          "reading": "よやく",
+          "itemID": "vn5993"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "これから",
+          "reading": "これから",
+          "itemID": "vn4p005"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "知道另一个日期也能用后，我们正在重选会场候选，预约还在后面。",
+      "explanation": "直している表重做进行中；后句明确尚待预约，不能凭构式补出取消与预约两个完成结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b027e",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手順",
+          "reading": "てじゅん",
+          "itemID": "vn3b115"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一",
+          "reading": "ひと",
+          "itemID": null
+        },
+        {
+          "text": "つ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘",
+          "reading": "わす",
+          "itemID": "v0103"
+        },
+        {
+          "text": "れたことに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気がつ",
+          "reading": "きがつ",
+          "itemID": "vn4426"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5358"
+        },
+        {
+          "text": "めからやり",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今回",
+          "reading": "こんかい",
+          "itemID": "vn5017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結果",
+          "reading": "けっか",
+          "itemID": "v0127"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "弟弟发现忘了一个步骤，于是从头重做。这次的结果之后再确认。",
+      "explanation": "重新做与结果验证分开；直す不会取消前一次尝试，也不等于已确认正确。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b027f",
+      "segments": [
+        {
+          "text": "発表",
+          "reading": "はっぴょう",
+          "itemID": "vn4015"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "年代",
+          "reading": "ねんだい",
+          "itemID": "vn3m002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順",
+          "reading": "じゅん",
+          "itemID": "vn4704"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "並べ",
+          "reading": "ならべ",
+          "itemID": "vn5228"
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": null
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "そのものは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "取り替",
+          "reading": "とりか",
+          "itemID": "vn4120"
+        },
+        {
+          "text": "えていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "发表前我把照片重新按年代排序，并没有更换照片本身。",
+      "explanation": "並べ直す重新安排对象的次序，不自动改变照片内容、拍摄年代或作者。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028a",
+      "segments": [
+        {
+          "text": "足",
+          "reading": "あし",
+          "itemID": "vn5101"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "痛",
+          "reading": "いた",
+          "itemID": "vn5210"
+        },
+        {
+          "text": "くて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩き",
+          "reading": "あるき",
+          "itemID": "v0172"
+        },
+        {
+          "text": "づらかったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "いつも",
+          "reading": "いつも",
+          "itemID": "vn5326"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "がかかりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "脚痛，走路不太方便，所以到车站花的时间比平时长。",
+      "explanation": "困难与不可能分开；这里同时给出身体原因和实际花费时间，不把困难当成禁令。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028b",
+      "segments": [
+        {
+          "text": "細",
+          "reading": "こま",
+          "itemID": "vn4203"
+        },
+        {
+          "text": "かい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "字",
+          "reading": "じ",
+          "itemID": "vn5550"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読み",
+          "reading": "よみ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "づらいので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "画面",
+          "reading": "がめん",
+          "itemID": "vn5919"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "表示",
+          "reading": "ひょうじ",
+          "itemID": "vn4521"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きくしました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "文章",
+          "reading": "ぶんしょう",
+          "itemID": "vn5411"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "细小的字读起来费劲，我把屏幕显示放大了，没有改变文章内容。",
+      "explanation": "づらい在这里是观看、辨认的不便；后句明确只改显示，不能推出改写或删文。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028c",
+      "segments": [
+        {
+          "text": "忙",
+          "reading": "いそが",
+          "itemID": "v0285"
+        },
+        {
+          "text": "しそうな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "上司",
+          "reading": "じょうし",
+          "itemID": "vn3d004"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "しづらく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同僚",
+          "reading": "どうりょう",
+          "itemID": "vn3d003"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "上司看起来很忙，让人不太好提问，我便先咨询了同事。",
+      "explanation": "这里的づらい突出人际条件下的不便；没有给出禁令，也不是对全部语言能力的判断。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028d",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発音",
+          "reading": "はつおん",
+          "itemID": "vn5553"
+        },
+        {
+          "text": "しづらいですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一音",
+          "reading": "いちおん",
+          "itemID": null
+        },
+        {
+          "text": "ずつ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ゆっくり",
+          "reading": "ゆっくり",
+          "itemID": "v0178"
+        },
+        {
+          "text": "練習",
+          "reading": "れんしゅう",
+          "itemID": "vn5239"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这个名字对我来说不太好发音，不过我正在一个音一个音地慢慢练。",
+      "explanation": "困难有其体验者和条件；づらい也不取消后句所述的实际练习。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028e",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "厚",
+          "reading": "あつ",
+          "itemID": "vn5205"
+        },
+        {
+          "text": "くて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "切り",
+          "reading": "きり",
+          "itemID": "vn5028"
+        },
+        {
+          "text": "づらいので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "はさみ",
+          "reading": "はさみ",
+          "itemID": "vn3m056"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "itemID": null
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": "vn5028"
+        },
+        {
+          "text": "っても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じとは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "っていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "纸太厚，不好剪，我借了另一把剪刀，并没有说任何人来剪都一样。",
+      "explanation": "这里是实际操作的不便，不能套用只限心理的僵硬规则；体验者与材料、工具条件应一起读。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b028f",
+      "segments": [
+        {
+          "text": "頼",
+          "reading": "たの",
+          "itemID": "vn5060"
+        },
+        {
+          "text": "みづらかった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相手",
+          "reading": "あいて",
+          "itemID": "vn3a046"
+        },
+        {
+          "text": "にも、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "事情",
+          "reading": "じじょう",
+          "itemID": "vn4i167"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "すると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しやすくなりました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "依頼",
+          "reading": "いらい",
+          "itemID": "vn3f139"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結果",
+          "reading": "けっか",
+          "itemID": "v0127"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ",
+          "itemID": "vn4018"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "原先不好开口请求的对象，在解释情况后也变得容易交谈了。请求的结果还在等答复。",
+      "explanation": "难易可以随条件变化，但交谈顺利不等于获得同意；后句明确仍在等答复。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b027a",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027a",
+      "prompt": "書き直した的原因是什么？",
+      "choices": [
+        "为了改变说明顺序，不是修正数字错误",
+        "已经发现所有数字都算错",
+        "身体有病，需要借写字来治好"
+      ],
+      "answerIndex": 0,
+      "explanation": "直す可为调整而重做，不强制以前有错误；后句明确否定的原因应保留。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "説明の順番を変えるため、最初の段落を書き直しました。数字の誤りがあったわけではありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b027b",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027b",
+      "prompt": "読み直した保证找到了答案吗？",
+      "choices": [
+        "保证，先找到了名字，才决定重读这封信",
+        "不保证，后句明确说没有找到名字",
+        "保证，文中说已找到名字，只是关系仍未确定"
+      ],
+      "answerIndex": 1,
+      "explanation": "再实施阅读不等于达到查找目的；操作与结果要分别理解。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "人物の関係を確かめるために手紙を読み直しましたが、差出人の名前は見つかりませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b027c",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027c",
+      "prompt": "现在已经发生了哪件事？",
+      "choices": [
+        "已保证新的计划肯定能通过审查",
+        "决定重新考虑预算，尚未确定新金额",
+        "已把预算确定为原金额的一半"
+      ],
+      "answerIndex": 1,
+      "explanation": "ことにした说明作出决定，不等于金额已确定，也不保证以后审查的结果。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "費用が高すぎる計画だと言われ、予算を考え直すことにしました。新しい金額はまだ決めていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b027d",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027d",
+      "prompt": "選び直しています与预约是什么关系？",
+      "choices": [
+        "正重新选择，预约尚未进行",
+        "重新预约已经完成，目前正比较其他会场",
+        "已确认最初的候选不可用，只能恢复原日期"
+      ],
+      "answerIndex": 0,
+      "explanation": "直している表重做进行中；后句明确尚待预约，不能凭构式补出取消与预约两个完成结果。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "別の日も使えると分かったので、会場の候補を選び直しています。予約はこれからです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b027e",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027e",
+      "prompt": "やり直した直接报告什么？",
+      "choices": [
+        "弟弟从未进行过第一次尝试",
+        "从头重新实施了动作，结果另待确认",
+        "全部结果已经确认无误"
+      ],
+      "answerIndex": 1,
+      "explanation": "重新做与结果验证分开；直す不会取消前一次尝试，也不等于已确认正确。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "弟は手順を一つ忘れたことに気がつき、初めからやり直しました。今回の結果は後で確かめます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b027f",
+      "targetID": "gn3b027",
+      "sentenceID": "sgn3b027f",
+      "prompt": "重新发生变化的是哪一项？",
+      "choices": [
+        "每张照片的拍摄年代",
+        "所有照片的原始拍摄者身份",
+        "照片的排列顺序"
+      ],
+      "answerIndex": 2,
+      "explanation": "並べ直す重新安排对象的次序，不自动改变照片内容、拍摄年代或作者。",
+      "hint": "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "発表の前に写真を年代の順に並べ直しました。写真そのものは取り替えていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: naosu",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b027；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1599390，sense 72281：辅助动词 do over again；与单独修正／修理及治愈义分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词再试行类，V-naosu；不把自由构词的每个组合重复计为新词汇根。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028a",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028a",
+      "prompt": "歩きづらかった等于完全没走吗？",
+      "choices": [
+        "不等于，后句说明走到了车站，只是更费时间",
+        "等于，任何づらい都说明一次也没做成",
+        "等于，车站已经禁止所有人步行进入"
+      ],
+      "answerIndex": 0,
+      "explanation": "困难与不可能分开；这里同时给出身体原因和实际花费时间，不把困难当成禁令。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "足が痛くて歩きづらかったので、駅までいつもより時間がかかりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028b",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028b",
+      "prompt": "为困难作了哪种调整？",
+      "choices": [
+        "把所有难句改写成另一篇文章",
+        "删除了所有汉字以改变文意",
+        "改变显示大小，保留原文内容"
+      ],
+      "answerIndex": 2,
+      "explanation": "づらい在这里是观看、辨认的不便；后句明确只改显示，不能推出改写或删文。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "細かい字が読みづらいので、画面の表示を大きくしました。文章の内容は変えていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028c",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028c",
+      "prompt": "質問しづらい的主要顾虑是什么？",
+      "choices": [
+        "面对看起来忙碌的上司，开口提问有顾虑",
+        "公司已明文禁止任何员工提出问题",
+        "说话者不会构成任何日语疑问句"
+      ],
+      "answerIndex": 0,
+      "explanation": "这里的づらい突出人际条件下的不便；没有给出禁令，也不是对全部语言能力的判断。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "忙しそうな上司には質問しづらく、先に同僚に相談しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028d",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028d",
+      "prompt": "私には保留了什么限制？",
+      "choices": [
+        "这个名字已经被规定禁止使用",
+        "这是说话者自己的困难，不代表所有人都一样",
+        "任何人都绝对无法发出这些声音"
+      ],
+      "answerIndex": 1,
+      "explanation": "困难有其体验者和条件；づらい也不取消后句所述的实际练习。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この名前は私には発音しづらいですが、一音ずつゆっくり練習しています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028e",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028e",
+      "prompt": "切りづらい是否只能是心理上的不好意思？",
+      "choices": [
+        "是，说话者因公司规定而禁止接触剪刀",
+        "不是，这里明确涉及纸厚与工具等条件",
+        "是，づらい绝不能用于材料或身体困难"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里是实际操作的不便，不能套用只限心理的僵硬规则；体验者与材料、工具条件应一起读。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この紙は厚くて切りづらいので、別のはさみを借りました。誰が切っても同じとは言っていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b028f",
+      "targetID": "gn3b028",
+      "sentenceID": "sgn3b028f",
+      "prompt": "难开口的状态改变能证明请求已被接受吗？",
+      "choices": [
+        "不能，交谈难易的变化与答复结果不同",
+        "能，づらかった的过去形必定表示请求获准",
+        "能，只要说明事情就等于对方已完成全部帮助"
+      ],
+      "answerIndex": 0,
+      "explanation": "难易可以随条件变化，但交谈顺利不等于获得同意；后句明确仍在等答复。",
+      "hint": "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "頼みづらかった相手にも、事情を説明すると話しやすくなりました。依頼の結果はまだ返事を待っています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: zurai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b028；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2096480，sense 121541：接尾い形容词，difficult to／hard to；例句同时提供身体、显示、人际和材料条件，均为原创。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b027",
+      "title": "动词加直す：重新做、改做一次",
+      "subtitle": "把重新实施与修好、做完、做对分开",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b027"
+      ],
+      "sentenceIDs": [
+        "sgn3b027a",
+        "sgn3b027b",
+        "sgn3b027c",
+        "sgn3b027d",
+        "sgn3b027e",
+        "sgn3b027f"
+      ],
+      "exerciseIDs": [
+        "egn3b027a",
+        "egn3b027b",
+        "egn3b027c",
+        "egn3b027d",
+        "egn3b027e",
+        "egn3b027f"
+      ],
+      "readingID": "rn3121",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干加直す，表示重新做、再次做，常为修改、确认或调整，但不必以原先做错为前提，也不保证重做后一定成功。読み直す是再读，書き直す是重写，考え直す是重新考虑；不要把每一种直す都理解成修理物品或治好疾病。读清时态，计划重做、正在重做与已经重做是不同状态。"
+      ]
+    },
+    {
+      "id": "lgn3b028",
+      "title": "动词加づらい：做起来有困难或顾虑",
+      "subtitle": "辨认动作的困难来源与感受，不把困难一律当作禁止或绝不可能",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b028"
+      ],
+      "sentenceIDs": [
+        "sgn3b028a",
+        "sgn3b028b",
+        "sgn3b028c",
+        "sgn3b028d",
+        "sgn3b028e",
+        "sgn3b028f"
+      ],
+      "exerciseIDs": [
+        "egn3b028a",
+        "egn3b028b",
+        "egn3b028c",
+        "egn3b028d",
+        "egn3b028e",
+        "egn3b028f"
+      ],
+      "readingID": "rn3122",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干加づらい，按い形容词活用，表示做某动作感到困难、不便或有心理顾虑。可涉及身体、材料、环境或人际因素，不机械限定为心理困难。与にくい有重叠，但づらい常突出演说者或行动者觉得做起来难受、不便；它不是禁止，也不单独表示能力永远为零。主语、条件和否定形式仍须读清。"
+      ]
+    }
+  ]
+}

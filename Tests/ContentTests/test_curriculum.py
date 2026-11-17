@@ -28,7 +28,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003", "vn3l121", "vn3l122", "vn3l123", "vn3l124", "vn3m066", "vn3m067", "vn3n007", "vn4r002"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))

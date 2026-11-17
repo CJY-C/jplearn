@@ -1,5 +1,5 @@
 {
-  "status": "source facts checked for eleven authored functions; unregistered and not independent language review",
+  "status": "Registered source; source facts checked, not independent language review; no new IPA.",
   "readPrimarySource": {
     "url": "https://www2.ninjal.ac.jp/vvlexicon/about.html",
     "sections": [
@@ -23,7 +23,7 @@
       "senseIDs": [
         45304
       ],
-      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "manuscript": "content/authoring/n3-completion-and-inception.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -31,7 +31,7 @@
       "pattern": "kiru-kirenai",
       "function": "state or degree to completion",
       "source": "NINJAL compound-verb explanation, result-state emphasis -kiru",
-      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "manuscript": "content/authoring/n3-completion-and-inception.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -42,7 +42,7 @@
       "senseIDs": [
         23428
       ],
-      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "manuscript": "content/authoring/n3-completion-and-inception.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -53,7 +53,7 @@
       "senseIDs": [
         23428
       ],
-      "manuscript": "content/staging/n3-completion-and-inception.tsv",
+      "manuscript": "content/authoring/n3-completion-and-inception.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -64,7 +64,7 @@
       "senseIDs": [
         72281
       ],
-      "manuscript": "content/staging/n3-retrial-and-difficulty.tsv",
+      "manuscript": "content/authoring/n3-retrial-and-difficulty.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -75,7 +75,7 @@
       "senseIDs": [
         121541
       ],
-      "manuscript": "content/staging/n3-retrial-and-difficulty.tsv",
+      "manuscript": "content/authoring/n3-retrial-and-difficulty.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -83,7 +83,7 @@
       "pattern": "hodo-wa-nai",
       "function": "strongest-degree comparison in an explicitly bounded domain",
       "sourceStatus": "primary paper p.58 item82 visually checked; supplementary Waseda search table also read, full Waseda PDF unavailable",
-      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "manuscript": "content/authoring/n3-boundaries-and-near-misses.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed",
       "dictionaryEntryID": 1436510,
       "senseIDs": [
@@ -99,7 +99,7 @@
       "senseIDs": [
         114255
       ],
-      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "manuscript": "content/authoring/n3-boundaries-and-near-misses.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -111,7 +111,7 @@
         40021
       ],
       "sourceStatus": "primary paper p.58 items94,97,98 visually checked; ordinary phase and prevented-event contexts distinguished",
-      "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+      "manuscript": "content/authoring/n3-boundaries-and-near-misses.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -126,7 +126,7 @@
         51367,
         51370
       ],
-      "manuscript": "content/staging/n3-models-and-correspondence.tsv",
+      "manuscript": "content/authoring/n3-models-and-correspondence.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     },
     {
@@ -141,15 +141,15 @@
         51367,
         51370
       ],
-      "manuscript": "content/staging/n3-models-and-correspondence.tsv",
+      "manuscript": "content/authoring/n3-models-and-correspondence.tsv",
       "status": "authored with six original contexts; not registered or independently reviewed"
     }
   ],
   "manuscripts": {
-    "content/staging/n3-completion-and-inception.tsv": "138ee99b1579ee07beefb08573776c236ec500f88062913886dcd953a2b056ee",
-    "content/staging/n3-retrial-and-difficulty.tsv": "6fe2079dac03c260cc50ab32231d12963b92e42fe8496ed28be8259ea1a76433",
-    "content/staging/n3-boundaries-and-near-misses.tsv": "853767b09c3be6d315c96c4c21f7fc5a19caf5ad5e49f72a73ba94ec0b966425",
-    "content/staging/n3-models-and-correspondence.tsv": "2d8f93ee8c5ee190021ef5e7e95756ae007d2629347645c307f9e91856553816"
+    "content/authoring/n3-completion-and-inception.tsv": "ae46349677e3f967696c4be8684c6e7ac0ebac1a16904907bfa70cd8e5f235b6",
+    "content/authoring/n3-retrial-and-difficulty.tsv": "261e7ed14ee792d84a0df9d6cdfadc0e8cd51d852736f3e1671268c94a7c1852",
+    "content/authoring/n3-boundaries-and-near-misses.tsv": "a3294e391bd79f76df33ef1262e26d649ef16e6062f18f521c411e9a1c3f8059",
+    "content/authoring/n3-models-and-correspondence.tsv": "1b323f260d6455fd6bdac0585911184352c2724c02d83b213c2e99b4b3b3d434"
   },
   "newGrammarFunctions": 11,
   "newOriginalContexts": 66,
@@ -219,35 +219,35 @@
     "status": "spelling or kana variants of already taught matching senses; no new words or readings counted",
     "occurrences": [
       {
-        "manuscript": "content/staging/n3-similarity-and-tendencies.tsv",
+        "manuscript": "content/authoring/n3-similarity-and-tendencies.tsv",
         "surface": "手掛かり",
         "reading": "てがかり",
         "previousReference": "手掛かり",
         "existingID": "vn4j125"
       },
       {
-        "manuscript": "content/staging/n3-state-and-surface.tsv",
+        "manuscript": "content/authoring/n3-state-and-surface.tsv",
         "surface": "ほこり",
         "reading": "ほこり",
         "previousReference": "ほこり",
         "existingID": "vn3j152"
       },
       {
-        "manuscript": "content/staging/n3-completion-and-inception.tsv",
+        "manuscript": "content/authoring/n3-completion-and-inception.tsv",
         "surface": "いす",
         "reading": "いす",
         "previousReference": "いす",
         "existingID": "v0053"
       },
       {
-        "manuscript": "content/staging/n3-completion-and-inception.tsv",
+        "manuscript": "content/authoring/n3-completion-and-inception.tsv",
         "surface": "暖",
         "reading": "あたた",
         "previousReference": "暖まる",
         "existingID": "vn4812"
       },
       {
-        "manuscript": "content/staging/n3-boundaries-and-near-misses.tsv",
+        "manuscript": "content/authoring/n3-boundaries-and-near-misses.tsv",
         "surface": "他",
         "reading": "ほか",
         "previousReference": "他",
