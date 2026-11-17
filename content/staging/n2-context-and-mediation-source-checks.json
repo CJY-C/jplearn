@@ -1,10 +1,10 @@
 {
-  "status": "Five unregistered N2 functions authored and structurally checked; contextual word-sense/independent language review and readings pending",
+  "status": "Six grammar functions,89 word targets and5 readings authored; source/structure/isolation checked, reading vocabulary and sentence-prerequisite review pending; unregistered.",
   "checkedDate": "2026-11-17",
   "baselineCommit": "74228be4070b64b185034b22666c5339d7401034",
   "baselineVersion": "0.20.0",
   "manuscript": "content/staging/n2-context-and-mediation.tsv",
-  "manuscriptSHA256": "a94f57804543caa0462366cf89b8ca546a91eebc02a3172c507d2560ea326661",
+  "manuscriptSHA256": "21ce1eac795b175a6e7bb20aaa3b50487d744a966d24225ee3a410551aafa73a",
   "primarySources": [
     {
       "code": "BMA00052",
@@ -34,29 +34,43 @@
         "解说B:期间整体范围",
         "先生へ:书面语体、形式重叠及不可缺媒介时的通して提示"
       ]
+    },
+    {
+      "code": "BMA00015",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00015/ja/render.do",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "部分否定的解说A",
+        "先生へ与とは限らない等一并教学的提示"
+      ],
+      "scope": "Partial-negation facts only; examples/rules/questions are original, not copied."
     }
   ],
-  "newDraftGrammarFunctions": 5,
-  "originalContexts": 30,
-  "draftLessons": 5,
+  "newDraftGrammarFunctions": 6,
+  "originalContexts": 36,
+  "draftLessons": 6,
   "coveredReferencePatterns": [
     "N2:ni-oite-ni-okeru",
-    "N2:o-tsuujite-o-tooshite"
+    "N2:o-tsuujite-o-tooshite",
+    "N2:to-wa-kagiranai"
   ],
   "functionBoundaries": {
     "gn2a001": "正式说明中的事件发生场所，保留名词修饰与郑重形式。",
     "gn2a002": "时代背景，与当前事实及小说虚构范围分开；不推广为所有钟点名词都能接。",
     "gn2a003": "领域或比较方面，不把局部评价扩大为总体优劣。",
     "gn2a004": "经由的人、媒介或经验；意见持有者、中间人和接收者不混为一人。",
-    "gn2a005": "贯穿期间的状态或反复活动；不自动推成每时每刻不停或跨越文中期间。"
+    "gn2a005": "贯穿期间的状态或反复活动；不自动推成每时每刻不停或跨越文中期间。",
+    "gn2a006": "否定必然或全称判断，不等于全都相反，也不预设具体概率；不与词语限る的限定义合并掌握。"
   },
   "knownSenseReuse": {
     "sentence": "gn2a001a",
     "targetID": "vn4o002",
     "reason": "说明会を開く uses the already taught event-organizing sense, not physical opening or opening a software file."
   },
-  "unresolvedForms": 28,
-  "unresolvedPolicy": "Candidate forms only. Numeric combinations, counters, productive suffixes, honorific prefixes and spelling variants must be reviewed before adding roots;28 is not a new-word count. All automatically linked context words still need sense review.",
+  "unresolvedForms": 0,
+  "unresolvedPolicy": "Grammar word forms now resolve to a complete draft index; that is learnability, not user mastery. The20 reading forms are still candidates, not20 new roots, and may include productive derivations or spelling variants.",
   "sourceScope": "Source grammar facts only. Japanese examples, Chinese rules/translation/questions/choices/explanations are original CC BY-SA4.0. No JPF source example, extended explanation, image or audio is bundled. Official pages refer to the old2級; the present N2 grouping uses the pinned community reference, not an official published modern word list.",
   "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
   "independentlyReviewed": 0,
@@ -65,9 +79,174 @@
   "runtimeResourceSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
   "validationCommand": "python3 content/staging/check_n2_context.py",
   "remaining": [
-    "Review all linked contextual word senses and resolve the28 forms without inflating roots.",
-    "Complete chapter vocabulary with2 original contexts per new word/sense.",
-    "Add ordinary reading for every function and heldout evidence questions; keep at least20% assessments.",
-    "Register/generate only after the chapter is ready; keep all original full N2 and six-bridge requirements."
-  ]
+    "Resolve the20 reading forms without inflating number/derivation/variant roots; verify every linked context meaning.",
+    "Teach the three identified sentence prerequisites with6 original contexts per actual function and ordinary reading use.",
+    "Review old authored-sentence link candidates before introducing these targets into the complete compiler index.",
+    "Register/generate only after chapter readiness, then run full content/native/release gates.",
+    "Complete all additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments,123patterns and six reading bridges."
+  ],
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36"
+  },
+  "supplementarySource": {
+    "url": "https://kotobank.jp/word/%E8%A7%A6%E3%82%8C%E3%82%8B-622378",
+    "publisher": "小学館 licensed on Kotobank",
+    "accessed": "2026-11-17",
+    "scope": "Physical contact, encountering/experiencing an abstract thing, mention and conflict with rules are not automatically one taught meaning. No dictionary examples copied."
+  },
+  "wordDraft": {
+    "roots": 83,
+    "n2Roots": 78,
+    "n4FoundationRoots": 5,
+    "additionalSenses": 6,
+    "targets": 89,
+    "originalContexts": 178,
+    "lessons": 12,
+    "reviews": [
+      "content/staging/n2-information-and-documents-review.json",
+      "content/staging/n2-context-prerequisite-words-review.json",
+      "content/staging/n4-context-foundation-words-review.json"
+    ]
+  },
+  "independentLanguageReview": 0,
+  "readingDraft": {
+    "readings": 5,
+    "practice": 4,
+    "assessment": 1,
+    "questions": 10,
+    "sentenceRows": 30,
+    "characters": {
+      "minimum": 489,
+      "maximum": 515
+    },
+    "status": "Unregistered;20 unresolved forms remain and every contextual word link still needs final review.",
+    "unresolvedForms": 20,
+    "manuscriptSHA256": "d5d2cb24cefc3b873177c9859c793909dab32fa481c7a4f86c39b23926e29238"
+  },
+  "ordinaryFunctionUsage": {
+    "gn2a001": [
+      "rn2001sa",
+      "rn2001sd"
+    ],
+    "gn2a002": [
+      "rn2002sa",
+      "rn2002se",
+      "rn2004sd"
+    ],
+    "gn2a003": [
+      "rn2001sc",
+      "rn2004se"
+    ],
+    "gn2a004": [
+      "rn2003sb",
+      "rn2003sd"
+    ],
+    "gn2a005": [
+      "rn2003sc"
+    ],
+    "gn2a006": [
+      "rn2002sc",
+      "rn2003sf",
+      "rn2004sc"
+    ]
+  },
+  "semanticCorrections": [
+    {
+      "context": "gn2a002b",
+      "decision": "暮らして is the inflected verb暮らす, not the noun暮らし; original Japanese/Chinese preserved."
+    },
+    {
+      "context": "gn2a001f",
+      "decision": "お知らせします reuses知らせる through the honorificおVします construction, not the noun知らせ."
+    },
+    {
+      "context": "gn2a001b",
+      "decision": "申し込み explicitly reuses the taught申込 target after checking entry1605140; no new root."
+    },
+    {
+      "contexts": [
+        "gn2a002a",
+        "gn2a002d"
+      ],
+      "decision": "Narrative描く uses source-restrictedえがく; new independent contextual sense, not the painting sense withかく."
+    },
+    {
+      "context": "gn2a002c",
+      "decision": "Experiencing a work uses the new触れる sense, not physical contact."
+    },
+    {
+      "context": "gn2a003b",
+      "decision": "Evaluation high uses a separate高い sense from physical height/price."
+    },
+    {
+      "context": "gn2a005f",
+      "decision": "Exchanging information is taught separately from replacing physical parts or swapping books."
+    },
+    {
+      "contexts": [
+        "gn2a006c",
+        "gn2a006e"
+      ],
+      "decision": "Reaching a conclusion and a pronoun referring to a person have their own contextual targets; neither borrows quantity-reaching or physical-pointing mastery."
+    }
+  ],
+  "sensePolicy": "The six targets are independent teaching scopes of existing roots. Some use different senses of the dictionary, while broader dictionary senses such as交換/達する are narrowed operationally; no claim that all six are separate dictionary lexemes or new word roots.",
+  "morphologyPolicy": [
+    {
+      "forms": [
+        "一年",
+        "一年間",
+        "三週間",
+        "四年間",
+        "二階"
+      ],
+      "decision": "Compose known numerals/counters and quantity grammar; do not create a new root for each number."
+    },
+    {
+      "forms": [
+        "卒業後",
+        "毎章"
+      ],
+      "decision": "Known卒業/章 with time/frequency suffixes; no combinatorial roots."
+    },
+    {
+      "forms": [
+        "好意的",
+        "数日"
+      ],
+      "decision": "Explicitly teach the respective的 suffix and数+period prefix inG006, with checked source facts; no new root."
+    },
+    {
+      "forms": [
+        "手続",
+        "締切",
+        "標題",
+        "具体"
+      ],
+      "decision": "手続 reuses手続き;締切 reuses締め切り;表題/標題 is one source entry;具体 does not duplicate the already taught具体的. Candidates excluded, not new words."
+    }
+  ],
+  "readingGrammarGaps": [
+    {
+      "readingID": "rn2001",
+      "sentenceID": "rn2001sc",
+      "construction": "Vたところ: actual result after trying/acting",
+      "reason": "ExistingN3ところを functions orところだ stages do not teach this construction."
+    },
+    {
+      "readingID": "rn2004",
+      "sentenceID": "rn2004sc",
+      "construction": "に向けた: intended addressee/target of an utterance",
+      "reason": "Marked as the lexical candidate向ける, not hidden using a grammar dash; function teaching still required."
+    },
+    {
+      "readingID": "rn2005",
+      "sentenceID": "rn2005sf",
+      "construction": "Vるうえで: in carrying out an activity/with respect to it",
+      "reason": "Must distinguish from sequencingVた上で and additionうえに before registration."
+    }
+  ],
+  "wordExampleContextualLinksFinalReview": "Pending: check all words surrounding the89 taught targets, including inflected/compound forms. Own target meanings and selected dictionary readings checked; no independent Japanese language review claimed."
 }

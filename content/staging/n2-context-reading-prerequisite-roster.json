@@ -1,0 +1,597 @@
+{
+  "status": "Reading-prerequisite candidates, not delivered words; primary spellings/readings located, meanings/teaching still pending",
+  "checkedDate": "2026-11-17",
+  "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
+  "readingManuscript": "content/staging/n2-context-readings.tsv",
+  "readingManuscriptSHA256": "d5d2cb24cefc3b873177c9859c793909dab32fa481c7a4f86c39b23926e29238",
+  "candidateForms": 20,
+  "selectedNewRoots": 0,
+  "primaryDictionary": {
+    "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36"
+  },
+  "alreadyResolvedWithoutNewRoots": [
+    {
+      "form": "さらに",
+      "targetID": "vn3j018",
+      "scope": "Specific hiragana representation of更に, same reading/meaning, sourceentry1279310."
+    },
+    {
+      "form": "観察会",
+      "targets": [
+        "観察",
+        "vn4i177"
+      ],
+      "scope": "Transparent観察+会(activity gathering); no combinatorial noun root."
+    },
+    {
+      "form": "百年",
+      "targets": [
+        "百",
+        "g030"
+      ],
+      "scope": "Known numeral and duration年ねん, not another word for every number of years."
+    }
+  ],
+  "entries": [
+    {
+      "form": "その後",
+      "contexts": [
+        "rn2002sc"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1006860,
+          "spellings": [
+            "その後",
+            "其の後",
+            "其後"
+          ],
+          "readings": [
+            {
+              "reading": "そのあと",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "そのご",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "そののち",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Consider the taughtその and後 construction and the specifically listedそのあと/そのご/そののち readings; no blanket後 reading alias."
+    },
+    {
+      "form": "催し",
+      "contexts": [
+        "rn2001sd",
+        "rn2001sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1292140,
+          "spellings": [
+            "催し"
+          ],
+          "readings": [
+            {
+              "reading": "もよおし",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "写真展",
+      "contexts": [
+        "rn2001sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2647790,
+          "spellings": [
+            "写真展"
+          ],
+          "readings": [
+            {
+              "reading": "しゃしんてん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "初稿",
+      "contexts": [
+        "rn2001sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2844398,
+          "spellings": [
+            "初稿"
+          ],
+          "readings": [
+            {
+              "reading": "しょこう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "四月七日",
+      "contexts": [
+        "rn2002sb"
+      ],
+      "dictionaryCandidates": [],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Productive date expression, not a new root; verify previously taught calendar readings and represent the date construction explicitly."
+    },
+    {
+      "form": "四月三日",
+      "contexts": [
+        "rn2002sb"
+      ],
+      "dictionaryCandidates": [],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Productive date expression, not a new root; verify previously taught calendar readings and represent the date construction explicitly."
+    },
+    {
+      "form": "小冊子",
+      "contexts": [
+        "rn2005sa",
+        "rn2005se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1660440,
+          "spellings": [
+            "小冊子"
+          ],
+          "readings": [
+            {
+              "reading": "しょうさっし",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "挙げる",
+      "contexts": [
+        "rn2005sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2864818,
+          "spellings": [
+            "挙げる"
+          ],
+          "readings": [
+            {
+              "reading": "あげる",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Current official entry2864818 is separate from上げる; inspect the selected enumeration sense rather than copying the older broad spelling cluster."
+    },
+    {
+      "form": "昨年",
+      "contexts": [
+        "rn2001sa",
+        "rn2005se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1298230,
+          "spellings": [
+            "昨年"
+          ],
+          "readings": [
+            {
+              "reading": "さくねん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "最寄り",
+      "contexts": [
+        "rn2001sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1293750,
+          "spellings": [
+            "最寄り",
+            "最寄"
+          ],
+          "readings": [
+            {
+              "reading": "もより",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "混同",
+      "contexts": [
+        "rn2001sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1290480,
+          "spellings": [
+            "混同"
+          ],
+          "readings": [
+            {
+              "reading": "こんどう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "照らし合わせる",
+      "contexts": [
+        "rn2002sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1847590,
+          "spellings": [
+            "照らし合わせる",
+            "照らしあわせる",
+            "照らし合せる",
+            "照し合せる",
+            "照し合わせる",
+            "てらし合わせる",
+            "照しあわせる"
+          ],
+          "readings": [
+            {
+              "reading": "てらしあわせる",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "生む",
+      "contexts": [
+        "rn2003se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1588410,
+          "spellings": [
+            "生む",
+            "産む"
+          ],
+          "readings": [
+            {
+              "reading": "うむ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Current source also lists産む under the same entry; inspect all existing roots and contextual restrictions before assigning a new root or additional sense."
+    },
+    {
+      "form": "登録者",
+      "contexts": [
+        "rn2001sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1943640,
+          "spellings": [
+            "登録者"
+          ],
+          "readings": [
+            {
+              "reading": "とうろくしゃ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Check regular登録+者 formation before counting any additional root; a listed dictionary entry alone does not justify duplicating transparent derivation."
+    },
+    {
+      "form": "短編",
+      "contexts": [
+        "rn2004sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1597300,
+          "spellings": [
+            "短編",
+            "短篇"
+          ],
+          "readings": [
+            {
+              "reading": "たんぺん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "職人",
+      "contexts": [
+        "rn2003sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1357550,
+          "spellings": [
+            "職人"
+          ],
+          "readings": [
+            {
+              "reading": "しょくにん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "自身",
+      "contexts": [
+        "rn2005sd"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1318000,
+          "spellings": [
+            "自身"
+          ],
+          "readings": [
+            {
+              "reading": "じしん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "視線",
+      "contexts": [
+        "rn2004sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1312060,
+          "spellings": [
+            "視線"
+          ],
+          "readings": [
+            {
+              "reading": "しせん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "記す",
+      "contexts": [
+        "rn2002sa",
+        "rn2004sd"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1223140,
+          "spellings": [
+            "記す",
+            "誌す",
+            "識す"
+          ],
+          "readings": [
+            {
+              "reading": "しるす",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "きす",
+              "nokanji": false,
+              "spellingRestrictions": [
+                "記す"
+              ],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    },
+    {
+      "form": "読み違い",
+      "contexts": [
+        "rn2002sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2841883,
+          "spellings": [
+            "読み違い",
+            "読違い"
+          ],
+          "readings": [
+            {
+              "reading": "よみちがい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "pending contextual decision; not counted as a selected new root",
+      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+    }
+  ],
+  "independentlyReviewed": 0,
+  "runtimeUnchanged": true
+}

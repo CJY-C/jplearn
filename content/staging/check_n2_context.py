@@ -14,21 +14,67 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_content import make_pack
+from build_content import make_pack, validate
 from compile_grammar import RUBY, compile_manuscript
-from word_links import resolve_word, word_lookup
+from compile_words import compile_manuscript as compile_words
+from compile_readings import compile_manuscript as compile_readings
+from check_n3_similarity import word_index
+from word_links import kana, lexical_words, resolve_word, word_lookup
+
+WORD_FILES = ["n4-context-foundation-words.tsv", "n2-information-and-documents.tsv", "n2-context-prerequisite-words.tsv"]
+
+
+def merge(pack, batch):
+    for key, rows in batch.items():
+        ids = [r["id"] for r in rows]
+        assert len(set(ids)) == len(ids) and not set(ids) & {r["id"] for r in pack[key]}, key
+        pack[key].extend(rows)
 
 
 def check():
     path = ROOT / "content/staging/n2-context-and-mediation.tsv"
     pack = make_pack()
+    original_sentences = list(pack["sentences"])
+    word_paths = [path.parent / name for name in WORD_FILES]
+    index = word_index(pack, word_paths)
+    for _ in range(2):
+        for word_path in word_paths:
+            word_batch = compile_words(word_path, index)
+            ids = {w["id"] for w in word_batch["items"]}
+            index["items"] = [w for w in index["items"] if w["id"] not in ids] + word_batch["items"]
+    word_batches = []
+    for word_path in word_paths:
+        word_batch = compile_words(word_path, index)
+        record = json.loads(word_path.with_name(word_path.stem + "-review.json").read_text())
+        assert record["manuscriptSHA256"] == hashlib.sha256(word_path.read_bytes()).hexdigest(), word_path.name
+        assert len(word_batch["items"]) == record["targets"] and len(lexical_words(word_batch["items"])) == record["roots"]
+        facts = {r["itemID"]: r for r in record["entries"]}
+        assert len(facts) == len(word_batch["items"])
+        for word in word_batch["items"]:
+            fact = facts[word["id"]]
+            assert (word["text"], word["reading"], word["meaning"], word["jmdictEntryID"]) == (
+                fact["text"], fact["primaryReading"], fact["authoredMeaning"], fact["entryID"]), word["id"]
+            assert word.get("lexemeID") == fact["lexemeID"] and word.get("readingOwnerID") == fact["readingOwnerID"], word["id"]
+            assert word.get("acceptedReadings", []) == fact["acceptedAlternativeReadings"], word["id"]
+            assert word["exampleSentenceIDs"] == fact["exampleSentenceIDs"], word["id"]
+            assert [s["acceptedReading"] for s in fact["acceptedReadingSources"]] == [word["reading"]] + word.get("acceptedReadings", []), word["id"]
+            for source in fact["acceptedReadingSources"]:
+                assert source["entryID"] == fact["entryID"] and source["senseOrdinals"] == fact["senseOrdinals"]
+                assert source["readingFacts"] and all(kana(r["reading"]) == kana(source["acceptedReading"]) and
+                    not r["nokanji"] and (not r["spellingRestrictions"] or word["text"] in r["spellingRestrictions"]) and
+                    not any(flag in info for info in r["information"] for flag in ["obsolete", "out-dated", "search-only"])
+                    for r in source["readingFacts"]), word["id"]
+                for sense in fact["selectedSenseFacts"]:
+                    assert not sense["spellingRestrictions"] or word["text"] in sense["spellingRestrictions"], word["id"]
+                    assert not sense["readingRestrictions"] or any(r["reading"] in sense["readingRestrictions"] for r in source["readingFacts"]), word["id"]
+        merge(pack, word_batch)
+        word_batches.append(word_batch)
     batch, coverage = compile_manuscript(path, pack)
     new = {i["id"]: i for i in batch["items"]}
     items = {i["id"]: i for i in pack["items"]}
     assert not new.keys() & items.keys(), "Registered target collision"
-    for key, rows in batch.items():
-        ids = [r["id"] for r in rows]
-        assert len(set(ids)) == len(ids) and not set(ids) & {r["id"] for r in pack[key]}, key
+    merge(pack, batch)
+    validate(pack)
     for item in new.values():
         assert item["level"] == "N2"
         assert set(item["prerequisiteIDs"]) <= items.keys() | new.keys(), item["id"]
@@ -47,16 +93,21 @@ def check():
 
     for gid in new:
         visit(gid)
-    sentences = {s["id"]: s for s in batch["sentences"]}
+    sentences = {s["id"]: s for b in word_batches + [batch] for s in b["sentences"]}
 
     def text(sentence):
         return "".join(s["text"] for s in sentence["segments"])
 
-    values = [text(s) for s in batch["sentences"]]
+    values = [text(s) for s in sentences.values()]
     assert len(set(values)) == len(values), "Repeated draft context"
     for gid in new:
         exercises = [e for e in batch["exercises"] if e["targetID"] == gid]
         assert len({text(sentences[e["sentenceID"]]) for e in exercises}) >= 6, gid
+    for word_batch in word_batches:
+        for word in word_batch["items"]:
+            contexts = [sentences[sid] for sid in word["exampleSentenceIDs"]]
+            assert len({text(s) for s in contexts}) >= 2, word["id"]
+            assert all(any(s["itemID"] == word["id"] for s in c["segments"]) for c in contexts), word["id"]
     reference = json.loads((ROOT / "content/reference/openjlpt-grammar.json").read_text())
     expected = {r["id"] for r in reference["patterns"] if r["level"] == "N2"}
     assert coverage.keys() <= expected, "Unrecognized N2 pattern"
@@ -75,15 +126,83 @@ def check():
         for surface, reading, lemma in RUBY.findall(row[3]):
             if lemma not in {"-", "?"} and not resolve_word(lookup, surface, reading, lemma):
                 gaps[lemma or surface].append(row[1] + row[2])
+    # Explicit references may never silently degrade to an unknown word, even
+    # when a narrow sense has different accepted readings from its parent.
+    for source_path, tag, column in [(path, "C", 3)] + [(p, "E", 3) for p in word_paths]:
+        for line in source_path.read_text().splitlines():
+            row = line.split("\t")
+            if row[0] != tag:
+                continue
+            for surface, reading, lemma in RUBY.findall(row[column]):
+                if lemma and lemma.startswith("@"):
+                    assert resolve_word(lookup, surface, reading, lemma), (row[1:3], lemma, "invalid explicit reading")
     resource = ROOT / "Sources/LearningCore/Resources/foundation.json"
+    reading_path = path.with_name("n2-context-readings.tsv")
+    reading_batch = compile_readings(reading_path, pack)
+    reading_sentences = {s["id"]: s for s in reading_batch["sentences"]}
+    passages = {r["id"]: r for r in reading_batch["readings"]}
+    reading_gaps, passage_checks = defaultdict(list), []
+    practice = [r for r in passages.values() if r["purpose"] == "practice"]
+    assessments = [r for r in passages.values() if r["purpose"] == "assessment"]
+    assert len(assessments) / len(passages) >= 0.20, "Less than20% heldout readings"
+    assert new.keys() <= {gid for r in practice for gid in r["grammarIDs"]}, "Function without ordinary reading"
+    for lesson in batch["lessons"]:
+        reading = passages[lesson["readingID"]]
+        assert reading["purpose"] == "practice" and set(lesson["itemIDs"]) <= set(reading["grammarIDs"])
+    for reading in passages.values():
+        assert reading["level"] == "N2" and len(reading["paragraphs"]) == 2 and len(reading["questions"]) == 2
+        assert len(reading["sentenceIDs"]) == 6 and set(reading["grammarIDs"]) <= new.keys() | items.keys()
+        length = sum(len(text(reading_sentences[sid])) for sid in reading["sentenceIDs"])
+        assert length >= 350, (reading["id"], length)
+        passage_checks.append(dict(id=reading["id"], purpose=reading["purpose"], characters=length,
+            annotatedOccurrences=len(reading["vocabulary"]), unlinkedOccurrences=sum(w["itemID"] is None for w in reading["vocabulary"])))
+    for line in reading_path.read_text().splitlines():
+        row = line.split("\t")
+        if row[0] != "S":
+            continue
+        for surface, reading, lemma in RUBY.findall(row[4]):
+            word = resolve_word(lookup, surface, reading, lemma)
+            if lemma and lemma.startswith("@"):
+                assert word, (row[1:3], lemma, "invalid reading reference")
+            if lemma not in {"-", "?"} and word is None:
+                reading_gaps[lemma or surface].append(row[1] + "s" + row[2])
+    held_ids = {sid for r in assessments for sid in r["sentenceIDs"]}
+    training = list(sentences.values()) + [s for s in reading_batch["sentences"] if s["id"] not in held_ids]
+    # Old assessments stay isolated from every new practice/example as well.
+    for s in training:
+        value = text(s)
+        assert value not in heldout_text and not fragments.intersection(value[i:i + 20] for i in range(len(value) - 19)), s["id"]
+    prior_and_practice = [text(s) for s in original_sentences + training]
+    practice_fragments = {t[i:i + 20] for t in prior_and_practice for i in range(len(t) - 19)}
+    for sid in held_ids:
+        value = text(reading_sentences[sid])
+        assert value not in prior_and_practice and not practice_fragments.intersection(value[i:i + 20] for i in range(len(value) - 19)), sid
+    all_new = list(sentences.values()) + list(reading_sentences.values())
+    assert len({s["id"] for s in all_new}) == len(all_new), "Duplicate draft sentence ID"
+    assert len({text(s) for s in all_new}) == len(all_new), "Duplicate draft sentence text"
+    old_texts = {text(s) for s in original_sentences}
+    assert not old_texts.intersection(text(s) for s in all_new), "Registered text reused under a new ID"
+    for key, rows in reading_batch.items():
+        assert not {r["id"] for r in rows} & {r["id"] for r in pack[key]}, (key, "Registered reading collision")
     return dict(status="Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
         manuscript=str(path.relative_to(ROOT)), manuscriptSHA256=hashlib.sha256(path.read_bytes()).hexdigest(),
         baselineRuntimeVersion=pack["version"], baselineRuntimeSHA256=hashlib.sha256(resource.read_bytes()).hexdigest(),
-        draftGrammarFunctions=len(new), draftOriginalContexts=len(sentences), draftExercises=len(batch["exercises"]),
+        draftGrammarFunctions=len(new), draftOriginalContexts=len(batch["sentences"]), draftExercises=len(batch["exercises"]),
         draftLessons=len(batch["lessons"]), draftReferencePatterns=coverage, registeredNewN2Targets=0,
+        wordRoots=sum(len(lexical_words(b["items"])) for b in word_batches), wordTargets=sum(len(b["items"]) for b in word_batches),
+        n2WordRoots=sum(w["level"] == "N2" for b in word_batches for w in lexical_words(b["items"])),
+        n4FoundationRoots=sum(w["level"] == "N4" for b in word_batches for w in lexical_words(b["items"])),
+        wordContexts=sum(len(b["sentences"]) for b in word_batches), wordLessons=sum(len(b["lessons"]) for b in word_batches),
+        wordManuscripts={str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in word_paths},
+        readingManuscript=str(reading_path.relative_to(ROOT)), readingManuscriptSHA256=hashlib.sha256(reading_path.read_bytes()).hexdigest(),
+        readings=len(passages), practiceReadings=len(practice), assessmentReadings=len(assessments), readingQuestions=sum(len(r["questions"]) for r in passages.values()),
+        allDraftFunctionsUsedInOrdinaryReadings=True, passageChecks=passage_checks,
+        unresolvedReadingForms=len(reading_gaps), readingGaps=dict(sorted(reading_gaps.items())),
+        readingRegistrationReady=False,
         heldoutFragmentCharacters=20, heldoutLeaks=0, unresolvedForms=len(gaps), gaps=dict(sorted(gaps.items())),
         independentLanguageReviews=0, remaining=["Review all contextual word links and teach any missing meanings/readings.",
-            "Write and isolate ordinary/assessment readings, connect actual grammar use, and complete chapter vocabulary.",
+            "Resolve reading word forms and review every contextual sense; numeric constructions/derivations must not inflate roots.",
+            "Teach remaining sentence prerequisites: Vたところ (result of trying), directed-audience に向けた and Vるうえで (relevant activity domain); do not hide them as learned grammar.",
             "Register only after source checks, regenerate and run curriculum/native validation.",
             "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."])
 

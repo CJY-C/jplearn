@@ -1,13 +1,13 @@
 {
   "status": "Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
   "manuscript": "content/staging/n2-context-and-mediation.tsv",
-  "manuscriptSHA256": "a94f57804543caa0462366cf89b8ca546a91eebc02a3172c507d2560ea326661",
+  "manuscriptSHA256": "21ce1eac795b175a6e7bb20aaa3b50487d744a966d24225ee3a410551aafa73a",
   "baselineRuntimeVersion": "0.20.0",
   "baselineRuntimeSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
-  "draftGrammarFunctions": 5,
-  "draftOriginalContexts": 30,
-  "draftExercises": 30,
-  "draftLessons": 5,
+  "draftGrammarFunctions": 6,
+  "draftOriginalContexts": 36,
+  "draftExercises": 36,
+  "draftLessons": 6,
   "draftReferencePatterns": {
     "ni-oite-ni-okeru": [
       "gn2a001",
@@ -17,103 +17,144 @@
     "o-tsuujite-o-tooshite": [
       "gn2a004",
       "gn2a005"
+    ],
+    "to-wa-kagiranai": [
+      "gn2a006"
     ]
   },
   "registeredNewN2Targets": 0,
-  "heldoutFragmentCharacters": 20,
-  "heldoutLeaks": 0,
-  "unresolvedForms": 28,
-  "gaps": {
-    "お知らせ": [
-      "gn2a001f"
+  "wordRoots": 83,
+  "wordTargets": 89,
+  "n2WordRoots": 78,
+  "n4FoundationRoots": 5,
+  "wordContexts": 178,
+  "wordLessons": 12,
+  "wordManuscripts": {
+    "content/staging/n4-context-foundation-words.tsv": "83189c5c34589fd6bcf7e7e7877ed15840a1d387ddd1219d42cd3717779e1fda",
+    "content/staging/n2-information-and-documents.tsv": "115216f3455ccc35494d1707cb8dbfa819c53d8a9b3804530ec613ec0f7d3a2f",
+    "content/staging/n2-context-prerequisite-words.tsv": "f74849f1b48461fc52f3d401b68877eb9e7ac262358f09ef61c868db0e13f961"
+  },
+  "readingManuscript": "content/staging/n2-context-readings.tsv",
+  "readingManuscriptSHA256": "d5d2cb24cefc3b873177c9859c793909dab32fa481c7a4f86c39b23926e29238",
+  "readings": 5,
+  "practiceReadings": 4,
+  "assessmentReadings": 1,
+  "readingQuestions": 10,
+  "allDraftFunctionsUsedInOrdinaryReadings": true,
+  "passageChecks": [
+    {
+      "id": "rn2001",
+      "purpose": "practice",
+      "characters": 489,
+      "annotatedOccurrences": 106,
+      "unlinkedOccurrences": 8
+    },
+    {
+      "id": "rn2002",
+      "purpose": "practice",
+      "characters": 495,
+      "annotatedOccurrences": 111,
+      "unlinkedOccurrences": 6
+    },
+    {
+      "id": "rn2003",
+      "purpose": "practice",
+      "characters": 502,
+      "annotatedOccurrences": 107,
+      "unlinkedOccurrences": 2
+    },
+    {
+      "id": "rn2004",
+      "purpose": "practice",
+      "characters": 504,
+      "annotatedOccurrences": 109,
+      "unlinkedOccurrences": 3
+    },
+    {
+      "id": "rn2005",
+      "purpose": "assessment",
+      "characters": 515,
+      "annotatedOccurrences": 115,
+      "unlinkedOccurrences": 5
+    }
+  ],
+  "unresolvedReadingForms": 20,
+  "readingGaps": {
+    "その後": [
+      "rn2002sc"
     ],
-    "やり取り": [
-      "gn2a004f"
+    "催し": [
+      "rn2001sd",
+      "rn2001sf"
     ],
-    "一年": [
-      "gn2a005a",
-      "gn2a005d"
+    "写真展": [
+      "rn2001sa"
     ],
-    "一年間": [
-      "gn2a005c"
+    "初稿": [
+      "rn2001sb"
     ],
-    "一日中": [
-      "gn2a005b"
+    "四月七日": [
+      "rn2002sb"
     ],
-    "三週間": [
-      "gn2a005b"
+    "四月三日": [
+      "rn2002sb"
     ],
-    "世紀": [
-      "gn2a002d"
+    "小冊子": [
+      "rn2005sa",
+      "rn2005se"
     ],
-    "主催者": [
-      "gn2a004e"
+    "挙げる": [
+      "rn2005sf"
     ],
-    "二階": [
-      "gn2a001a"
+    "昨年": [
+      "rn2001sa",
+      "rn2005se"
     ],
-    "交流": [
-      "gn2a004f"
+    "最寄り": [
+      "rn2001sb"
     ],
-    "作中": [
-      "gn2a005c"
+    "混同": [
+      "rn2001sa"
     ],
-    "依頼主": [
-      "gn2a004a"
+    "照らし合わせる": [
+      "rn2002sa"
     ],
-    "傷める": [
-      "gn2a003f"
+    "生む": [
+      "rn2003se"
     ],
-    "共有": [
-      "gn2a005f"
+    "登録者": [
+      "rn2001sf"
     ],
-    "卒業後": [
-      "gn2a005e"
+    "短編": [
+      "rn2004sa"
     ],
-    "同行": [
-      "gn2a001e"
+    "職人": [
+      "rn2003sa"
     ],
-    "四年間": [
-      "gn2a005e"
+    "自身": [
+      "rn2005sd"
     ],
-    "売り上げ": [
-      "gn2a003b"
+    "視線": [
+      "rn2004sb"
     ],
-    "寄贈": [
-      "gn2a001f"
+    "記す": [
+      "rn2002sa",
+      "rn2004sd"
     ],
-    "毎章": [
-      "gn2a005c"
-    ],
-    "気づく": [
-      "gn2a004d"
-    ],
-    "申し込み": [
-      "gn2a001b"
-    ],
-    "知り合う": [
-      "gn2a004c"
-    ],
-    "知人": [
-      "gn2a004a"
-    ],
-    "翻訳者": [
-      "gn2a002f"
-    ],
-    "自宅": [
-      "gn2a001b"
-    ],
-    "解説": [
-      "gn2a002c"
-    ],
-    "開催": [
-      "gn2a003e"
+    "読み違い": [
+      "rn2002sf"
     ]
   },
+  "readingRegistrationReady": false,
+  "heldoutFragmentCharacters": 20,
+  "heldoutLeaks": 0,
+  "unresolvedForms": 0,
+  "gaps": {},
   "independentLanguageReviews": 0,
   "remaining": [
     "Review all contextual word links and teach any missing meanings/readings.",
-    "Write and isolate ordinary/assessment readings, connect actual grammar use, and complete chapter vocabulary.",
+    "Resolve reading word forms and review every contextual sense; numeric constructions/derivations must not inflate roots.",
+    "Teach remaining sentence prerequisites: Vたところ (result of trying), directed-audience に向けた and Vるうえで (relevant activity domain); do not hide them as learned grammar.",
     "Register only after source checks, regenerate and run curriculum/native validation.",
     "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."
   ]
