@@ -1,9 +1,9 @@
 {
-  "status": "93 reading-prerequisite roots and 186 original contexts authored; unregistered, not delivered or independently reviewed",
+  "status": "Selected word meanings and original contexts reviewed; unregistered, not independently language-reviewed",
   "baselineCommit": "f7d2bfd0e2a923d20554221369a76f0fb5d96c87",
   "wordManuscript": "content/staging/n3-similarity-reading-prerequisite-words.tsv",
-  "manuscriptSHA256": "48aa6fb909d7dde94fe110f9506363a252f36b94570b661cac11b2e7f4f4cc90",
-  "roots": 93,
+  "manuscriptSHA256": "5596f3bed2f1b87b68f0afb448878448c145e4f8a92a0895102103a6ae08ceae",
+  "roots": 92,
   "contexts": 186,
   "lessons": 12,
   "acceptedAlternativeGroups": 10,
@@ -146,7 +146,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n002",
@@ -242,7 +244,9 @@
       "communityLevels": [
         "N4"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n003",
@@ -319,7 +323,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n004",
@@ -392,7 +398,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n005",
@@ -484,7 +492,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n006",
@@ -557,7 +567,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n007",
@@ -631,7 +643,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": "vn4r001",
+      "readingOwnerID": "vn4r001"
     },
     {
       "itemID": "vn3n008",
@@ -706,7 +720,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n009",
@@ -773,7 +789,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n010",
@@ -847,7 +865,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n011",
@@ -918,7 +938,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n012",
@@ -1024,7 +1046,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n013",
@@ -1095,7 +1119,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n014",
@@ -1181,7 +1207,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n015",
@@ -1254,7 +1282,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n016",
@@ -1329,7 +1359,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n017",
@@ -1404,7 +1436,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n018",
@@ -1483,7 +1517,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n019",
@@ -1557,7 +1593,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n020",
@@ -1643,7 +1681,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n021",
@@ -1714,7 +1754,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n022",
@@ -1787,7 +1829,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n023",
@@ -1864,7 +1908,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n024",
@@ -1944,7 +1990,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n025",
@@ -2015,7 +2063,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n026",
@@ -2088,7 +2138,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n027",
@@ -2161,7 +2213,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n028",
@@ -2234,7 +2288,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n029",
@@ -2352,7 +2408,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n030",
@@ -2428,7 +2486,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n031",
@@ -2506,7 +2566,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n032",
@@ -2581,7 +2643,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n033",
@@ -2652,7 +2716,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n034",
@@ -2738,7 +2804,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n035",
@@ -2809,7 +2877,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n036",
@@ -2880,7 +2950,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n037",
@@ -2955,7 +3027,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n038",
@@ -3043,7 +3117,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n039",
@@ -3114,7 +3190,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n040",
@@ -3226,7 +3304,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n041",
@@ -3299,7 +3379,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n042",
@@ -3372,7 +3454,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n043",
@@ -3443,7 +3527,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n044",
@@ -3519,7 +3605,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n045",
@@ -3594,7 +3682,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n046",
@@ -3670,7 +3760,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n047",
@@ -3745,7 +3837,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n048",
@@ -3823,7 +3917,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n049",
@@ -3896,7 +3992,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n050",
@@ -3971,7 +4069,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n051",
@@ -4046,7 +4146,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n052",
@@ -4129,7 +4231,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n053",
@@ -4200,7 +4304,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n054",
@@ -4271,7 +4377,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n055",
@@ -4342,7 +4450,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n056",
@@ -4450,7 +4560,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n057",
@@ -4527,7 +4639,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n058",
@@ -4600,7 +4714,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n059",
@@ -4715,7 +4831,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n060",
@@ -4789,7 +4907,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n061",
@@ -4860,7 +4980,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n062",
@@ -4932,7 +5054,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n063",
@@ -5040,7 +5164,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n064",
@@ -5143,7 +5269,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n065",
@@ -5258,7 +5386,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n066",
@@ -5332,7 +5462,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n067",
@@ -5405,7 +5537,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n068",
@@ -5477,7 +5611,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n069",
@@ -5550,7 +5686,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n070",
@@ -5624,7 +5762,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n071",
@@ -5695,7 +5835,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n072",
@@ -5774,7 +5916,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n073",
@@ -5845,7 +5989,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n074",
@@ -5919,7 +6065,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n075",
@@ -5992,7 +6140,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n076",
@@ -6074,7 +6224,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n077",
@@ -6160,7 +6312,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n078",
@@ -6242,7 +6396,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n079",
@@ -6345,7 +6501,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n080",
@@ -6420,7 +6578,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n081",
@@ -6495,7 +6655,9 @@
       "communityLevels": [
         "N1"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n082",
@@ -6570,7 +6732,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n083",
@@ -6641,7 +6805,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n084",
@@ -6753,7 +6919,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n085",
@@ -6828,7 +6996,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n086",
@@ -6902,7 +7072,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n087",
@@ -6999,7 +7171,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n088",
@@ -7072,7 +7246,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n089",
@@ -7143,7 +7319,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n090",
@@ -7219,7 +7397,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n091",
@@ -7293,7 +7473,9 @@
       "communityLevels": [
         "N2"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n092",
@@ -7374,7 +7556,9 @@
       "communityLevels": [
         "N3"
       ],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     },
     {
       "itemID": "vn3n093",
@@ -7445,7 +7629,9 @@
         }
       ],
       "communityLevels": [],
-      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied."
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
     }
   ],
   "preservation": {
@@ -7457,5 +7643,9 @@
     ],
     "change": "One explicit target link for市いち; all existing sentence text, ruby, Chinese, questions, answers, IDs and relative order preserved",
     "structureReport": "content/staging/n3-similarity-reading-review.json"
-  }
+  },
+  "targets": 93,
+  "additionalSenses": 1,
+  "checkedDate": "2026-11-17",
+  "rootAssociationChange": "vn3n007 physical gathering now points to the newly taught N4 summary root vn4r001; same dictionary entry and spelling/reading, independent meaning review, no additional word root."
 }

@@ -117,6 +117,7 @@ public struct ReadingPassage: Codable, Identifiable {
     public var purpose: String?
     public var paragraphs: [ReadingParagraph]?
     public var citations: [ContentCitation]?
+    public var properNames: [String]? = nil
 
     public var allQuestions: [ReadingQuestion] {
         questions ?? [ReadingQuestion(id: id + "q1", prompt: question, choices: choices,
@@ -154,6 +155,7 @@ public struct IntroModule: Codable, Identifiable {
 public struct ReadingWord: Codable, Hashable {
     public let text: String
     public let itemID: String?
+    public var properName: Bool? = nil
 }
 
 public struct CurriculumStage: Codable, Identifiable {
@@ -298,6 +300,17 @@ public struct ContentPack: Codable {
             } ?? true) &&
             ($0.grammarIDs?.allSatisfy { knownItems[$0]?.kind == "grammar" } ?? true)
         }) else { throw LearningError.invalid("短文引用或答案无效。") }
+        guard readings.allSatisfy({ reading in
+            let names = reading.properNames ?? []
+            guard unique(names) && names.allSatisfy({ !$0.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }) else { return false }
+            let words = reading.vocabulary ?? []
+            let declared = Set(names)
+            guard Set(words.filter { $0.properName == true }.map(\.text)) == declared else { return false }
+            return words.allSatisfy { word in
+                if word.properName == true { return word.itemID == nil && declared.contains(word.text) }
+                return word.itemID != nil || !["N3", "N2"].contains(reading.level)
+            }
+        }) else { throw LearningError.invalid("专名声明无效，或阅读仍含未教学的内容词。") }
         guard lessons.allSatisfy({ !($0.itemIDs.isEmpty || $0.sentenceIDs.isEmpty || $0.exerciseIDs.isEmpty) &&
             Set($0.itemIDs).isSubset(of: itemIDs) && Set($0.sentenceIDs).isSubset(of: sentenceIDs) &&
             Set($0.exerciseIDs).isSubset(of: exerciseIDs) && ($0.readingID == nil || readingIDs.contains($0.readingID!))

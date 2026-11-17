@@ -150,9 +150,9 @@
   "manuscriptHashes": {
     "content/staging/n3-similarity-assessment-readings.tsv": "b6f2dffb4b8940a4eb4f171cf2f736954d1e0b6d091cabd914b2434e4bdef80c",
     "content/staging/n3-similarity-choice-readings.tsv": "f975ec9765fc5038022800a98cf85dfbfd264df2231ae0819ea2c32591469f48",
-    "content/staging/n3-similarity-evidence-readings.tsv": "9ae45ea0aa89577bb993eef9d6c6622ae7380bf1e21579407c3d1751bbbd88d2",
+    "content/staging/n3-similarity-evidence-readings.tsv": "a189c1bc812a51803e959d685fa73fee0afcddfc47aeab77c7abc373ff8099ce",
     "content/staging/n3-similarity-market-readings.tsv": "6b0dc1015a2955c0bc53a0c6bb8649a9f32c95ea3c4b3f27f34eb76d145dc081",
-    "content/staging/n3-similarity-readings.tsv": "99d93e175a8894a2f18861dbc68ba695a6c94385d87fc7eb57c59eff4a53a32b",
+    "content/staging/n3-similarity-readings.tsv": "8ad85f061c9ecc8abbe9736f7da169766350fa9c413d50419636bcbd30e81b31",
     "content/staging/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
     "content/staging/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
     "content/staging/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
@@ -160,11 +160,10 @@
   },
   "structureReport": "content/staging/n3-similarity-reading-review.json",
   "remainingWork": [
-    "Review120 theme-word alternate readings and contextual meanings, using current primary evidence where snapshot facts differ.",
-    "Review prior unlinked sentences, including all 市 homographs, before chapter registration; do not automatically take the first spelling match.",
-    "Declare and validate the4 proper-name occurrences in rn3130 without removing them from reading-readiness denominator, register chapter and run all curriculum gates.",
-    "Obtain independent Japanese language review; run macOS/iOS and SE3 checks and package release when Actions allowance resumes.",
-    "Finish the complete additional N2 curriculum, six reading bridges and sourced pronunciation expansion."
+    "Declare and validate the4 proper-name occurrences inrn3130, preserving unknown-word denominator.",
+    "Apply the98 reviewed old-sentence annotations and register/generate chapter together; full curriculum gates still required.",
+    "Obtain independent Japanese review and run macOS/iOS, SE3, audio/device/archive/release checks when Actions is available.",
+    "Finish additional N2 content, six original-reading bridges and sourced pronunciation depth."
   ],
   "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
   "registeredAdditionalSenses": [
@@ -219,5 +218,15 @@
     }
   ],
   "unresolvedReadingForms": 0,
-  "unresolvedGrammarForms": 0
+  "unresolvedGrammarForms": 0,
+  "themeWordReview": "content/staging/n3-similarity-theme-word-review.json",
+  "additionalSenseReview": "content/staging/n3-similarity-additional-sense-review.json",
+  "oldAssociationReview": "content/staging/n3-similarity-prior-link-candidates.json",
+  "properNameDeclaration": {
+    "readingID": "rn3130",
+    "spelling": "ミオ",
+    "reading": "みお",
+    "occurrences": 4,
+    "status": "Explicit P declaration; remains unknown in readiness; Python compile/model checks passed; native check pending."
+  }
 }

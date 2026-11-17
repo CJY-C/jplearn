@@ -1,5 +1,5 @@
 {
-  "status": "120 words authored with two original contexts each; primary form/reading facts checked; unregistered, with alternatives and context-sense review still pending",
+  "status": "120 theme roots source/sense reviewed with244 original contexts across124 targets; unregistered, not independently language-reviewed",
   "baseline": "9c9d287",
   "source": "pinned OpenJLPT 0d1d3410bec90bd4098a7c72de820543cb4f707c; no source examples reused",
   "words": [
@@ -1121,5 +1121,8 @@
         ]
       ]
     ]
-  ]
+  ],
+  "selectedWordReview": "content/staging/n3-similarity-theme-word-review.json",
+  "currentThemeTargets": 124,
+  "currentThemeAdditionalSenses": 4
 }

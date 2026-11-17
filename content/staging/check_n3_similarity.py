@@ -15,11 +15,11 @@ import sys
 ROOT = Path(__file__).resolve().parents[2]
 STAGING = ROOT / "content/staging"
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_content import make_pack
+from build_content import make_pack, validate
 from compile_grammar import KANJI, RUBY, compile_manuscript as grammar
 from compile_readings import compile_manuscript as readings
 from compile_words import compile_manuscript as words
-from word_links import kana, resolve_word, word_lookup
+from word_links import kana, lexical_words, resolve_word, word_lookup
 
 GRAMMAR_FILES = [
     "n3-similarity-and-tendencies.tsv", "n3-similarity-extensions.tsv",
@@ -46,36 +46,73 @@ def encode(value):
     return json.dumps(value, ensure_ascii=False, indent=2) + "\n"
 
 
+def word_index(pack, paths):
+    """Seed explicit declarations before resolving cross-manuscript references."""
+    result = dict(pack, items=list(pack["items"]))
+    declared = {}
+    for path in paths:
+        rows = [line.split("\t") for line in path.read_text().splitlines()
+                if line and not line.startswith("#")]
+        for row in rows:
+            if row[0] != "W":
+                continue
+            _, wid, text, reading, _, meaning, *_ = row
+            assert wid not in declared, (wid, "duplicate word declaration")
+            declared[wid] = dict(id=wid, kind="word", text=text, reading=reading, meaning=meaning)
+        for row in rows:
+            if row[0] == "A": declared[row[1]]["acceptedReadings"] = row[2].split(",")
+            if row[0] == "G": declared[row[1]]["lexemeID"] = row[2]
+            if row[0] == "J": declared[row[1]]["jmdictEntryID"] = int(row[2])
+    assert not {item["id"] for item in result["items"]}.intersection(declared), "Registered word ID collision"
+    result["items"].extend(declared.values())
+    return result
+
+
 def review():
     pack = make_pack()
     prior_heldout_ids = {sid for r in pack["readings"] if r.get("purpose") == "assessment"
                          for sid in r["sentenceIDs"]}
-    word_paths = [STAGING / name for name in ["n3-similarity-theme-words.tsv",
+    word_paths = [STAGING / name for name in ["n4-similarity-sense-prerequisites.tsv", "n3-similarity-theme-words.tsv",
                   "n3-similarity-prerequisite-words.tsv", "n3-similarity-reading-prerequisite-words.tsv"]]
     # First establish all new words, then recompile the manuscripts against the
     # complete word index so new examples do not depend on the file order.
+    index_pack = word_index(pack, word_paths)
     for path in word_paths:
-        merge(pack, words(path, pack))
-    word_batches = [words(path, pack) for path in word_paths]
-    for index, review_name in [(1, "n3-similarity-prerequisite-word-review.json"),
-                               (2, "n3-similarity-reading-word-review.json")]:
+        batch = words(path, index_pack)
+        ids = {item["id"] for item in batch["items"]}
+        index_pack["items"] = [item for item in index_pack["items"] if item["id"] not in ids] + batch["items"]
+    word_batches = [words(path, index_pack) for path in word_paths]
+    for index, review_name in [(0, "n4-similarity-sense-word-review.json"),
+                               (1, "n3-similarity-theme-word-review.json"),
+                               (2, "n3-similarity-prerequisite-word-review.json"),
+                               (3, "n3-similarity-reading-word-review.json")]:
         selected_review = json.loads((STAGING / review_name).read_text())
         assert selected_review["manuscriptSHA256"] == hashlib.sha256(word_paths[index].read_bytes()).hexdigest(), (
             "Prerequisite source/sense review is stale", review_name)
         selected_entries = {entry["itemID"]: entry for entry in selected_review["entries"]}
-        assert len(selected_entries) == selected_review["roots"] == len(word_batches[index]["items"])
+        assert len(selected_entries) == selected_review.get("targets", selected_review["roots"]) == len(word_batches[index]["items"])
+        assert len(lexical_words(word_batches[index]["items"])) == selected_review["roots"]
         for item in word_batches[index]["items"]:
             fact = selected_entries[item["id"]]
             assert (item["text"], item["reading"], item["meaning"]) == (
                 fact["text"], fact["primaryReading"], fact["authoredMeaning"]), item["id"]
             assert item.get("acceptedReadings", []) == fact["acceptedAlternativeReadings"], item["id"]
             assert item["exampleSentenceIDs"] == fact["exampleSentenceIDs"], item["id"]
-            if index == 2:
+            if item.get("jmdictEntryID") is not None:
                 assert item["jmdictEntryID"] == fact["entryID"], item["id"]
+            assert item.get("lexemeID") == fact.get("lexemeID"), item["id"]
+            assert item.get("readingOwnerID") == fact.get("readingOwnerID"), item["id"]
+            if "acceptedReadingSources" in fact:
                 accepted_readings = [item["reading"]] + item.get("acceptedReadings", [])
                 sources = fact["acceptedReadingSources"]
                 assert [s["acceptedReading"] for s in sources] == accepted_readings, item["id"]
                 for source in sources:
+                    if source.get("sourceType") == "phoneticNote":
+                        assert item["id"] == "vn3l008" and source["acceptedReading"] == "じつわ"
+                        assert source["orthographicReading"] == item["reading"] == "じつは"
+                        assert source["documentationNote"] == "は is pronounced as わ"
+                        assert any(source["documentationNote"] in s["notes"] for s in fact["selectedSenseFacts"])
+                        continue
                     assert source["senseOrdinals"] and source["readingFacts"], item["id"]
                     assert all(not r["spellingRestrictions"] or item["text"] in r["spellingRestrictions"]
                                for r in source["readingFacts"]), item["id"]
@@ -107,6 +144,7 @@ def review():
     # vocabulary/grammar examples, before merging the draft reading bundle.
     prior_sentences = list(pack["sentences"])
     merge(pack, reading_batch)
+    validate(pack)
     all_sentences = {s["id"]: s for s in pack["sentences"]}
     new_readings = reading_batch["readings"]
     held_ids = {sid for r in new_readings if r["purpose"] == "assessment"
@@ -176,6 +214,8 @@ def review():
         if r["purpose"] == "practice":
             practiced.update(r["grammarIDs"])
         missing = sum(v["itemID"] is None for v in r["vocabulary"])
+        assert all(v.get("properName") is True and v["text"] in r.get("properNames", [])
+                   for v in r["vocabulary"] if v["itemID"] is None), r["id"]
         summaries.append(dict(id=r["id"], purpose=r["purpose"], characters=size,
                               paragraphs=2, sentenceRows=len(texts), questions=len(r["questions"]),
                               annotatedOccurrences=len(r["vocabulary"]), unlinkedOccurrences=missing))
@@ -191,9 +231,13 @@ def review():
         independentlyReviewed=0,
         runtimeResourceMatches0190=resource_hash == "8d4d02628658022c14e741b061c0e6d168d7b95792b60636d272611b61c136d6",
         runtimeResourceSHA256=resource_hash,
-        words=sum(len(b["items"]) for b in word_batches), wordContexts=sum(len(b["sentences"]) for b in word_batches),
-        themeWords=len(word_batches[0]["items"]), prerequisiteWords=len(word_batches[1]["items"]),
-        readingPrerequisiteWords=len(word_batches[2]["items"]),
+        words=sum(len(lexical_words(b["items"])) for b in word_batches),
+        wordTargets=sum(len(b["items"]) for b in word_batches),
+        wordContexts=sum(len(b["sentences"]) for b in word_batches),
+        foundationWords=len(lexical_words(word_batches[0]["items"])), foundationWordTargets=len(word_batches[0]["items"]),
+        themeWords=len(lexical_words(word_batches[1]["items"])), themeWordTargets=len(word_batches[1]["items"]),
+        prerequisiteWords=len(lexical_words(word_batches[2]["items"])), prerequisiteWordTargets=len(word_batches[2]["items"]),
+        readingPrerequisiteWords=len(lexical_words(word_batches[3]["items"])), readingPrerequisiteWordTargets=len(word_batches[3]["items"]),
         grammarFunctions=len(new_grammar), grammarContexts=sum(len(b["sentences"]) for b in grammar_batches),
         referencePatterns=len(coverage), ordinaryGrammarFunctionsCovered=len(new_grammar & practiced),
         readings=len(new_readings), practiceReadings=counts["practice"], assessmentReadings=counts["assessment"],

@@ -128,7 +128,10 @@ class ContentTests(unittest.TestCase):
                     self.assertEqual(self.groups["items"][word["itemID"]]["text"], word["text"])
                 else:
                     self.assertNotIn(word["text"], ["?", "-"])
-                    self.assertTrue(reading["id"].startswith(("rn5", "rn4")), (reading["id"], word))
+                    if word.get("properName") is True:
+                        self.assertIn(word["text"], reading["properNames"])
+                    else:
+                        self.assertTrue(reading["id"].startswith(("rn5", "rn4")), (reading["id"], word))
             for identifier in reading["grammarIDs"]:
                 self.assertEqual(self.groups["items"][identifier]["kind"], "grammar")
             linked = Counter(segment["itemID"] for sid in reading["sentenceIDs"]

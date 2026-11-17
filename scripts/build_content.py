@@ -77,6 +77,20 @@ def validate(pack):
                 assert c["status"] in {"reference", "adapted", "translated", "sourceChecked", "original"}, c
     for reading in pack["readings"]:
         assert reading["sentenceIDs"] and set(reading["sentenceIDs"]) <= groups["sentences"].keys()
+        names = reading.get("properNames", [])
+        if names is None: names = []
+        assert isinstance(names, list) and all(isinstance(n, str) and n.strip() for n in names), reading["id"]
+        assert len(names) == len(set(names)), (reading["id"], "duplicate proper-name declaration")
+        named = set()
+        for word in reading.get("vocabulary", []):
+            if word.get("properName") is not None:
+                assert type(word["properName"]) is bool, (reading["id"], "invalid name flag")
+            if word.get("properName"):
+                assert word["itemID"] is None and word["text"] in names, (reading["id"], "undeclared or linked proper name")
+                named.add(word["text"])
+            elif word["itemID"] is None and reading["level"] in ["N3", "N2"]:
+                raise AssertionError((reading["id"], word["text"], "untaught content word is not a declared proper name"))
+        assert named == set(names), (reading["id"], "unused proper-name declaration")
         for question in reading.get("questions", []):
             assert 2 <= len(question["choices"]) <= 4
             assert len(set(question["choices"])) == len(question["choices"])

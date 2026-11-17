@@ -5,6 +5,8 @@ R: id, title, genre, level, purpose, required grammar ids.
 S: reading id, stable sentence key, paragraph key, ruby text, Chinese translation.
 Q: reading id, key, prompt, answer, two distractors, evidence sentence keys,
    ability, explanation.
+P: reading id, proper-name spelling, its exact annotated reading. Only matching
+   ? occurrences are declared names; they remain unknown lexical occurrences.
 X: standalone sentence id, ruby text, translation, explanation (example repairs).
 
 Every [surface|reading|optional lemma] is an explicit lexical occurrence. A
@@ -26,7 +28,7 @@ from compile_grammar import RUBY, KANJI
 from word_links import resolve_word, word_lookup
 
 
-def markup_sentence(markup, words):
+def markup_sentence(markup, words, proper_names=None):
     segments, occurrences, position = [], [], 0
     for match in RUBY.finditer(markup):
         if match.start() > position:
@@ -35,8 +37,11 @@ def markup_sentence(markup, words):
         word = resolve_word(words, text, reading, lemma)
         segments.append(dict(text=text, reading=reading, itemID=word["id"] if word else None))
         if lemma != "-":
-            occurrences.append(dict(text=word["text"] if word else text if lemma == "?" else lemma or text,
-                itemID=word["id"] if word else None))
+            occurrence = dict(text=word["text"] if word else text if lemma == "?" else lemma or text,
+                itemID=word["id"] if word else None)
+            if lemma == "?" and (text, reading) in (proper_names or set()):
+                occurrence["properName"] = True
+            occurrences.append(occurrence)
         position = match.end()
     if position < len(markup):
         segments.append(dict(text=markup[position:], reading=None, itemID=None))
@@ -48,7 +53,7 @@ def markup_sentence(markup, words):
 
 def compile_manuscript(path, pack):
     words = word_lookup(pack["items"])
-    readings, sentences, questions, standalone = {}, {}, {}, {}
+    readings, sentences, questions, standalone, names = {}, {}, {}, {}, defaultdict(set)
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
         try:
@@ -72,11 +77,16 @@ def compile_manuscript(path, pack):
                 _, sid, text, translation, note = fields
                 assert sid not in standalone
                 standalone[sid] = (text, translation, note)
-            else: raise ValueError("expected R, S, Q or X")
+            elif fields[0] == "P":
+                _, rid, text, reading = fields
+                assert text.strip() and reading.strip() and (text, reading) not in names[rid]
+                names[rid].add((text, reading))
+            else: raise ValueError("expected R, S, Q, X or P")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
     assert all(rid in readings for rid, _ in sentences), "orphan sentence"
     assert all(rid in readings for rid, _ in questions), "orphan question"
+    assert names.keys() <= readings.keys(), "orphan proper-name declaration"
     batch = dict(sentences=[], readings=[])
     for sid, (text, translation, note) in standalone.items():
         segments, _ = markup_sentence(text, words)
@@ -86,11 +96,13 @@ def compile_manuscript(path, pack):
     for rid, reading in readings.items():
         citations = [dict(sourceID="projectopen", locator=f"原创分级短文与题目 {rid}；未独立语言审校", status="original")]
         sids, vocabulary, paragraphs, paragraph_ids = [], [], [], []
-        texts = []
+        texts, used_names = [], set()
         for (target, key), (paragraph, markup, translation) in sentences.items():
             if target != rid: continue
             sid = rid + "s" + key
-            segments, occurrences = markup_sentence(markup, words)
+            segments, occurrences = markup_sentence(markup, words, names[rid])
+            used_names.update((surface, ruby) for surface, ruby, lemma in RUBY.findall(markup)
+                              if lemma == "?" and (surface, ruby) in names[rid])
             assert occurrences, (rid, key, "empty lexical annotation")
             text = "".join(s["text"] for s in segments)
             assert text not in texts, (rid, "duplicate sentence")
@@ -104,6 +116,9 @@ def compile_manuscript(path, pack):
             paragraphs[-1]["vocabulary"].extend(occurrences)
             sids.append(sid); vocabulary.extend(occurrences)
         assert len(sids) >= 3, rid
+        assert used_names == names[rid], (rid, "unused or mismatched proper-name declaration")
+        if used_names:
+            reading["properNames"] = sorted({text for text, _ in used_names})
         qs = []
         for (target, key), question in questions.items():
             if target != rid: continue
