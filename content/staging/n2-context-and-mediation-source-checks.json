@@ -1,0 +1,73 @@
+{
+  "status": "Five unregistered N2 functions authored and structurally checked; contextual word-sense/independent language review and readings pending",
+  "checkedDate": "2026-11-17",
+  "baselineCommit": "74228be4070b64b185034b22666c5339d7401034",
+  "baselineVersion": "0.20.0",
+  "manuscript": "content/staging/n2-context-and-mediation.tsv",
+  "manuscriptSHA256": "a94f57804543caa0462366cf89b8ca546a91eebc02a3172c507d2560ea326661",
+  "primarySources": [
+    {
+      "code": "BMA00052",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00052/ja/render.do",
+      "sha256": "f1f86eb404437c270c30744990f02fb5c0bca19e4099dfd8f90371715debd90b",
+      "localCache": "build/sources/jpf-BMA00052-2026-11-17.html",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "解说A:场所",
+        "解说B:时代与世纪等时间范围",
+        "解说C:领域、评价和比较范围",
+        "先生へ:时间名词限制、正式语体与におきまして"
+      ]
+    },
+    {
+      "code": "BMA00047",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00047/ja/render.do",
+      "sha256": "f6c6df413471edf417a913263344b4241166837296478de6d92b9607ae384821",
+      "localCache": "build/sources/jpf-BMA00047-2026-11-17.html",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "解说A:经由人物、媒介或经验",
+        "解说B:期间整体范围",
+        "先生へ:书面语体、形式重叠及不可缺媒介时的通して提示"
+      ]
+    }
+  ],
+  "newDraftGrammarFunctions": 5,
+  "originalContexts": 30,
+  "draftLessons": 5,
+  "coveredReferencePatterns": [
+    "N2:ni-oite-ni-okeru",
+    "N2:o-tsuujite-o-tooshite"
+  ],
+  "functionBoundaries": {
+    "gn2a001": "正式说明中的事件发生场所，保留名词修饰与郑重形式。",
+    "gn2a002": "时代背景，与当前事实及小说虚构范围分开；不推广为所有钟点名词都能接。",
+    "gn2a003": "领域或比较方面，不把局部评价扩大为总体优劣。",
+    "gn2a004": "经由的人、媒介或经验；意见持有者、中间人和接收者不混为一人。",
+    "gn2a005": "贯穿期间的状态或反复活动；不自动推成每时每刻不停或跨越文中期间。"
+  },
+  "knownSenseReuse": {
+    "sentence": "gn2a001a",
+    "targetID": "vn4o002",
+    "reason": "说明会を開く uses the already taught event-organizing sense, not physical opening or opening a software file."
+  },
+  "unresolvedForms": 28,
+  "unresolvedPolicy": "Candidate forms only. Numeric combinations, counters, productive suffixes, honorific prefixes and spelling variants must be reviewed before adding roots;28 is not a new-word count. All automatically linked context words still need sense review.",
+  "sourceScope": "Source grammar facts only. Japanese examples, Chinese rules/translation/questions/choices/explanations are original CC BY-SA4.0. No JPF source example, extended explanation, image or audio is bundled. Official pages refer to the old2級; the present N2 grouping uses the pinned community reference, not an official published modern word list.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "independentlyReviewed": 0,
+  "registeredNewN2Targets": 0,
+  "runtimeResourceUnchanged": true,
+  "runtimeResourceSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
+  "validationCommand": "python3 content/staging/check_n2_context.py",
+  "remaining": [
+    "Review all linked contextual word senses and resolve the28 forms without inflating roots.",
+    "Complete chapter vocabulary with2 original contexts per new word/sense.",
+    "Add ordinary reading for every function and heldout evidence questions; keep at least20% assessments.",
+    "Register/generate only after the chapter is ready; keep all original full N2 and six-bridge requirements."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "status": "Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
+  "manuscript": "content/staging/n2-context-and-mediation.tsv",
+  "manuscriptSHA256": "a94f57804543caa0462366cf89b8ca546a91eebc02a3172c507d2560ea326661",
+  "baselineRuntimeVersion": "0.20.0",
+  "baselineRuntimeSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
+  "draftGrammarFunctions": 5,
+  "draftOriginalContexts": 30,
+  "draftExercises": 30,
+  "draftLessons": 5,
+  "draftReferencePatterns": {
+    "ni-oite-ni-okeru": [
+      "gn2a001",
+      "gn2a002",
+      "gn2a003"
+    ],
+    "o-tsuujite-o-tooshite": [
+      "gn2a004",
+      "gn2a005"
+    ]
+  },
+  "registeredNewN2Targets": 0,
+  "heldoutFragmentCharacters": 20,
+  "heldoutLeaks": 0,
+  "unresolvedForms": 28,
+  "gaps": {
+    "お知らせ": [
+      "gn2a001f"
+    ],
+    "やり取り": [
+      "gn2a004f"
+    ],
+    "一年": [
+      "gn2a005a",
+      "gn2a005d"
+    ],
+    "一年間": [
+      "gn2a005c"
+    ],
+    "一日中": [
+      "gn2a005b"
+    ],
+    "三週間": [
+      "gn2a005b"
+    ],
+    "世紀": [
+      "gn2a002d"
+    ],
+    "主催者": [
+      "gn2a004e"
+    ],
+    "二階": [
+      "gn2a001a"
+    ],
+    "交流": [
+      "gn2a004f"
+    ],
+    "作中": [
+      "gn2a005c"
+    ],
+    "依頼主": [
+      "gn2a004a"
+    ],
+    "傷める": [
+      "gn2a003f"
+    ],
+    "共有": [
+      "gn2a005f"
+    ],
+    "卒業後": [
+      "gn2a005e"
+    ],
+    "同行": [
+      "gn2a001e"
+    ],
+    "四年間": [
+      "gn2a005e"
+    ],
+    "売り上げ": [
+      "gn2a003b"
+    ],
+    "寄贈": [
+      "gn2a001f"
+    ],
+    "毎章": [
+      "gn2a005c"
+    ],
+    "気づく": [
+      "gn2a004d"
+    ],
+    "申し込み": [
+      "gn2a001b"
+    ],
+    "知り合う": [
+      "gn2a004c"
+    ],
+    "知人": [
+      "gn2a004a"
+    ],
+    "翻訳者": [
+      "gn2a002f"
+    ],
+    "自宅": [
+      "gn2a001b"
+    ],
+    "解説": [
+      "gn2a002c"
+    ],
+    "開催": [
+      "gn2a003e"
+    ]
+  },
+  "independentLanguageReviews": 0,
+  "remaining": [
+    "Review all contextual word links and teach any missing meanings/readings.",
+    "Write and isolate ordinary/assessment readings, connect actual grammar use, and complete chapter vocabulary.",
+    "Register only after source checks, regenerate and run curriculum/native validation.",
+    "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."
+  ]
+}
