@@ -1,13 +1,13 @@
 {
-  "status": "Selected dictionary spelling, readings and meanings checked against pinned official XML; original contexts authored, unregistered, independent language review0",
-  "checkedDate": "2026-11-17",
+  "status": "Registered trial source; selected dictionary facts checked, independent language review0",
+  "checkedDate": "2026-11-19",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
-  "wordManuscript": "content/staging/n4-context-foundation-words.tsv",
-  "manuscriptSHA256": "83189c5c34589fd6bcf7e7e7877ed15840a1d387ddd1219d42cd3717779e1fda",
-  "roots": 5,
-  "targets": 5,
-  "contexts": 10,
-  "lessons": 1,
+  "wordManuscript": "content/authoring/n4-context-foundation-words.tsv",
+  "manuscriptSHA256": "61828dafd01d3e1ce0bdc0bc0c6d39f7ac0de22ddc854c9549f1a7dd52197ff1",
+  "roots": 6,
+  "targets": 8,
+  "contexts": 16,
+  "lessons": 2,
   "independentlyReviewed": 0,
   "dictionary": {
     "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
@@ -17,7 +17,7 @@
     "attribution": "JMdict / EDRDG; selected lexical facts only. No upstream examples, extended definitions, Chinese glosses, illustrations, audio or full dictionary bundled."
   },
   "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
-  "levelPolicy": "Self-authored reading order; earlier foundation backfills do not reduce additional2500 N2 roots. Community levels are not official exhaustive lists.",
+  "levelPolicy": "Self-authored reading order; community labels retained, not an official list. 6N4 and12N3 backfill roots do not offset2500 additionalN2 roots; extra senses do not add roots.",
   "entries": [
     {
       "itemID": "vn4s001",
@@ -263,6 +263,158 @@
       "readingOwnerID": null,
       "communityLevelsByEntry": [],
       "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s006",
+      "text": "高い",
+      "primaryReading": "たかい",
+      "authoredMeaning": "程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平",
+      "entryID": 1283190,
+      "senseOrdinals": [
+        3
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たかい",
+          "entryID": 1283190,
+          "senseOrdinals": [
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "たかい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s006a",
+        "svn4s006b"
+      ],
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041",
+      "communityLevelsByEntry": [
+        "N5"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    },
+    {
+      "itemID": "vn4s008",
+      "text": "交流",
+      "primaryReading": "こうりゅう",
+      "authoredMeaning": "交流；人与人或群体之间的交往与相互沟通",
+      "entryID": 1272580,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうりゅう",
+          "entryID": 1272580,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうりゅう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s008a",
+        "svn4s008b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N2"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    },
+    {
+      "itemID": "vn4s007",
+      "text": "高い",
+      "primaryReading": "たかい",
+      "authoredMeaning": "声音的音高较高；本组用于声或音的高低，不表示响度",
+      "entryID": 1283190,
+      "senseOrdinals": [
+        5
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 5,
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たかい",
+          "entryID": 1283190,
+          "senseOrdinals": [
+            5
+          ],
+          "readingFacts": [
+            {
+              "reading": "たかい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s007a",
+        "svn4s007b"
+      ],
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041",
+      "communityLevelsByEntry": [
+        "N5"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
     }
   ]
 }

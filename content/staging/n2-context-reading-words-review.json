@@ -1,8 +1,8 @@
 {
-  "status": "Selected dictionary spelling, readings and contextual senses checked against pinned official XML; original contexts authored, unregistered, independent language review0",
-  "checkedDate": "2026-11-18",
+  "status": "Registered trial source; selected dictionary facts checked, independent language review0",
+  "checkedDate": "2026-11-19",
   "baselineCommit": "29073056a1f994cbde2fbb2e9eceecb75cd66037",
-  "wordManuscript": "content/staging/n2-context-reading-words.tsv",
+  "wordManuscript": "content/authoring/n2-context-reading-words.tsv",
   "independentlyReviewed": 0,
   "dictionary": {
     "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
@@ -12,11 +12,11 @@
     "attribution": "JMdict / EDRDG; selected lexical facts only. No source examples, English/Chinese glosses, illustrations, audio or full dictionary bundled."
   },
   "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
-  "levelPolicy": "Self-authored reading order. CommunityN1 labels may be introduced earlier for these reading contexts and are explicitly recorded; the N3自身 backfill does not reduce the additional2500 N2-root requirement.",
-  "manuscriptSHA256": "984cd40f20db2a5cbfb7687291d2d3c815799e7289fdf65ac2fd7cdac84134cd",
-  "roots": 34,
-  "targets": 34,
-  "contexts": 68,
+  "levelPolicy": "Self-authored reading order; community labels retained, not an official list. 6N4 and12N3 backfill roots do not offset2500 additionalN2 roots; extra senses do not add roots.",
+  "manuscriptSHA256": "7eb7f4d8d3722d49f5966ea4411bde3ce3a4edb80847902befb6308cc20088d0",
+  "roots": 28,
+  "targets": 28,
+  "contexts": 56,
   "lessons": 5,
   "entries": [
     {
@@ -218,58 +218,6 @@
       "exampleSentenceIDs": [
         "svn2c004a",
         "svn2c004b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
-      "itemID": "vn2c005",
-      "text": "休館",
-      "primaryReading": "きゅうかん",
-      "authoredMeaning": "闭馆休息、暂停开放；图书馆、资料馆等在某段时间不对外开放",
-      "entryID": 1836050,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)",
-            "noun or participle which takes the aux. verb suru",
-            "transitive verb",
-            "intransitive verb",
-            "nouns which may take the genitive case particle 'no'"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "きゅうかん",
-          "entryID": 1836050,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "きゅうかん",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c005a",
-        "svn2c005b"
       ],
       "lexemeID": null,
       "readingOwnerID": null,
@@ -621,56 +569,6 @@
       "lexemeID": null,
       "readingOwnerID": null,
       "communityLevelsByEntry": [],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
-      "itemID": "vn2c013",
-      "text": "催し",
-      "primaryReading": "もよおし",
-      "authoredMeaning": "活动、集会；有组织地举办的展览、聚会等",
-      "entryID": 1292140,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "もよおし",
-          "entryID": 1292140,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "もよおし",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c013a",
-        "svn2c013b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N2"
-      ],
       "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
     },
     {
@@ -1187,57 +1085,6 @@
       "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
     },
     {
-      "itemID": "vn2c023",
-      "text": "挙げる",
-      "primaryReading": "あげる",
-      "authoredMeaning": "举出、列举；提出例子、问题或具体事项以供说明",
-      "entryID": 2864818,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "Ichidan verb",
-            "transitive verb"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "あげる",
-          "entryID": 2864818,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "あげる",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c023a",
-        "svn2c023b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N2"
-      ],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
       "itemID": "vn2c024",
       "text": "審査",
       "primaryReading": "しんさ",
@@ -1332,58 +1179,6 @@
       "exampleSentenceIDs": [
         "svn2c025a",
         "svn2c025b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N2"
-      ],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
-      "itemID": "vn2c026",
-      "text": "省略",
-      "primaryReading": "しょうりゃく",
-      "authoredMeaning": "省略、略去；不写出或不说出原本可以表达的部分",
-      "entryID": 1351120,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)",
-            "noun or participle which takes the aux. verb suru",
-            "transitive verb"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "しょうりゃく",
-          "entryID": 1351120,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "しょうりゃく",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c026a",
-        "svn2c026b"
       ],
       "lexemeID": null,
       "readingOwnerID": null,
@@ -1679,108 +1474,6 @@
       "exampleSentenceIDs": [
         "svn2c032a",
         "svn2c032b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N2"
-      ],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
-      "itemID": "vn2c033",
-      "text": "合意",
-      "primaryReading": "ごうい",
-      "authoredMeaning": "达成一致、同意；相关各方对某项内容形成共同认可",
-      "entryID": 1284550,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)",
-            "noun or participle which takes the aux. verb suru",
-            "intransitive verb"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "ごうい",
-          "entryID": 1284550,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "ごうい",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c033a",
-        "svn2c033b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N1"
-      ],
-      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
-    },
-    {
-      "itemID": "vn2c034",
-      "text": "主語",
-      "primaryReading": "しゅご",
-      "authoredMeaning": "主语；句中所述动作、状态等的主体所对应的成分",
-      "entryID": 1325420,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "しゅご",
-          "entryID": 1325420,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "しゅご",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2c034a",
-        "svn2c034b"
       ],
       "lexemeID": null,
       "readingOwnerID": null,

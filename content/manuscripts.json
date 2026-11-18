@@ -77,6 +77,13 @@
     {"kind": "reading", "source": "n3-similarity-revision-readings.tsv", "batch": "072-n3-similarity-revision-readings.json"},
     {"kind": "reading", "source": "n3-similarity-social-readings.tsv", "batch": "073-n3-similarity-social-readings.json"},
     {"kind": "reading", "source": "n3-similarity-story-readings.tsv", "batch": "074-n3-similarity-story-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-work-readings.tsv", "batch": "075-n3-similarity-work-readings.json"}
+    {"kind": "reading", "source": "n3-similarity-work-readings.tsv", "batch": "075-n3-similarity-work-readings.json"},
+    {"kind": "word", "source": "n4-context-foundation-words.tsv", "batch": "076-n4-context-foundation-words.json"},
+    {"kind": "word", "source": "n3-context-foundation-words.tsv", "batch": "077-n3-context-foundation-words.json"},
+    {"kind": "word", "source": "n2-information-and-documents.tsv", "batch": "078-n2-information-and-documents.json"},
+    {"kind": "word", "source": "n2-context-prerequisite-words.tsv", "batch": "079-n2-context-prerequisite-words.json"},
+    {"kind": "word", "source": "n2-context-reading-words.tsv", "batch": "080-n2-context-reading-words.json"},
+    {"kind": "grammar", "source": "n2-context-and-mediation.tsv", "batch": "081-n2-context-and-mediation.json"},
+    {"kind": "reading", "source": "n2-context-readings.tsv", "batch": "082-n2-context-readings.json"}
   ]
 }

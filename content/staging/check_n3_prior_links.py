@@ -17,28 +17,48 @@ ROOT = Path(__file__).resolve().parents[2]
 def check():
     review = json.loads((ROOT / "content/staging/n3-similarity-prior-link-candidates.json").read_text())
     baseline = review["registration"]["baselineCommit"]
+    checkpoint = None
+    later_path = ROOT / "content/source-checks/n2-context-chapter.json"
+    if later_path.exists():
+        # Preserve the original N3 proof at its immutable checkpoint. Verify
+        # every subsequent old-record change with the N2 ledger first, so a
+        # historical comparison cannot conceal an unreviewed current change.
+        from check_n2_prior_links import check as check_later
+        check_later()
+        checkpoint = json.loads(later_path.read_text())["baselineCommit"]
 
     def prior_bytes(name):
         return subprocess.check_output(["git", "show", baseline + ":" + name], cwd=ROOT)
+
+    def checkpoint_bytes(name):
+        if checkpoint:
+            return subprocess.check_output(["git", "show", checkpoint + ":" + name], cwd=ROOT)
+        return (ROOT / name).read_bytes()
 
     for name, expected in review["registeredInputHashes"].items():
         assert hashlib.sha256(prior_bytes(name)).hexdigest() == expected, (name, "stale reviewed baseline")
     for field in ["registeredWordHashes", "registeredOutputHashes"]:
         for name, expected in review[field].items():
-            assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected, (name, "stale registered input")
+            assert hashlib.sha256(checkpoint_bytes(name)).hexdigest() == expected, (name, "stale registered input")
     expected = {}
     for decision in review["entries"]:
         assert decision["reviewStatus"].startswith("contextual sense reviewed") and decision["reason"]
-        row = (ROOT / decision["file"]).read_text().splitlines()[decision["line"] - 1].split("\t")
+        row = checkpoint_bytes(decision["file"]).decode().splitlines()[decision["line"] - 1].split("\t")
         column = 3 if row[0] in ["E", "C"] else 4 if row[0] == "S" else 2
         assert row[column] == decision["markup"].replace(decision["marker"], decision["replacementMarker"]), decision["context"]
         expected[decision["context"]] = decision
     path = "Sources/LearningCore/Resources/foundation.json"
     before = json.loads(prior_bytes(path))
-    after = json.loads((ROOT / path).read_text())
+    after = json.loads(checkpoint_bytes(path))
     collections = ["items", "sentences", "exercises", "lessons", "readings", "introModules"]
-    for key in before.keys() - set(collections) - {"version"}:
+    for key in before.keys() - set(collections) - {"version", "references"}:
         assert before[key] == after[key], (key, "existing pack metadata changed")
+    old_reference_ids = {r["id"] for r in before["references"]}
+    assert [r for r in after["references"] if r["id"] in old_reference_ids] == before["references"]
+    extra_references = [r for r in after["references"] if r["id"] not in old_reference_ids]
+    if extra_references:
+        rule_review = json.loads((ROOT / "content/source-checks/rule-learning-foundations.json").read_text())
+        assert extra_references == rule_review["catalogReferenceAdditions"], "Unreviewed reference addition"
     changed, preserved = [], []
     for key in collections:
         old_ids = {row["id"] for row in before[key]}
@@ -70,7 +90,9 @@ def check():
     assert len(preserved) == review["counts"]["preserveExisting"] == 4
     assert set(changed + preserved) == expected.keys()
     return dict(status="registered associations and all prior runtime records checked; no files edited",
-        baselineCommit=baseline, reviewedOccurrences=len(expected), newAssociations=len(changed),
+        baselineCommit=baseline, verifiedThroughCommit=checkpoint,
+        subsequentCurrentChangesVerified=checkpoint is not None,
+        reviewedOccurrences=len(expected), newAssociations=len(changed),
         preservedCityAssociations=len(preserved), redirectedWrongSenseCandidates=review["counts"]["redirectedWrongSenseCandidates"],
         oldItemsExercisesLessonsReadingsIntroAnswersAndRelativeOrderPreserved=True,
         oldSentenceTextRubyTranslationsAndOtherFieldsPreserved=True)

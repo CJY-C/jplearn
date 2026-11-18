@@ -23,7 +23,7 @@ final class RuleLearningTests: XCTestCase {
     func testRulesPreserveRealVocabularyAndExceptionPractice() throws {
         let pack = try ContentPack.bundled()
         XCTAssertEqual(pack.learningRules?.count, 5)
-        XCTAssertEqual(pack.wordCount, 3647)
+        XCTAssertEqual(pack.wordCount, 3766)
         XCTAssertEqual(pack.learningRules?.flatMap { $0.practiceSets.flatMap(\.questions) }.count, 60)
         let regular = Set(pack.learningRules!.flatMap(\.regularItemIDs))
         XCTAssertEqual(regular, Set(["v0158", "v0160", "vn5007", "v0161", "vn5013"]))
@@ -256,9 +256,15 @@ final class RuleLearningTests: XCTestCase {
         let pack = try ContentPack.bundled()
         var object = try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(pack)) as? [String: Any])
         object.removeValue(forKey: "learningRules")
+        let dangling = try JSONDecoder().decode(ContentPack.self, from: JSONSerialization.data(withJSONObject: object))
+        XCTAssertThrowsError(try dangling.validate(), "Removing referenced rules does not create a valid legacy pack")
+        var readings = try XCTUnwrap(object["readings"] as? [[String: Any]])
+        for index in readings.indices { readings[index].removeValue(forKey: "rulePrerequisites") }
+        object["readings"] = readings
         let old = try JSONDecoder().decode(ContentPack.self, from: JSONSerialization.data(withJSONObject: object))
         try old.validate()
         XCTAssertNil(old.learningRules)
+        XCTAssertTrue(old.readings.allSatisfy { $0.rulePrerequisites == nil })
         let checkpoint = SessionCheckpoint(tasks: [.recall(ReviewKey(itemID: "v0001", skill: .reading)), .reading("r001")])
         let restored = try ExchangeCoding.decoder().decode(SessionCheckpoint.self, from: ExchangeCoding.encoder().encode(checkpoint))
         try restored.validate()

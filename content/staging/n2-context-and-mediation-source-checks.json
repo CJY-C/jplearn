@@ -1,10 +1,10 @@
 {
-  "status": "Thirteen grammar functions,125 word targets and5 readings authored; structural/dictionary/heldout checks pass, final contextual and old-link review pending; unregistered.",
+  "status": "Registered trial source:13 functions,128 word targets,5 readings; dictionary, contextual association, full old-record and structural checks complete; independent language review0.",
   "checkedDate": "2026-11-19",
-  "baselineCommit": "29073056a1f994cbde2fbb2e9eceecb75cd66037",
+  "baselineCommit": "b39c2574fdb46a23109df421663a0b7f1125c2db",
   "baselineVersion": "0.20.0",
-  "manuscript": "content/staging/n2-context-and-mediation.tsv",
-  "manuscriptSHA256": "58a66e8ffc368316e24de25281f6f1ae16430617407d675c79e8477ce89d13a2",
+  "manuscript": "content/authoring/n2-context-and-mediation.tsv",
+  "manuscriptSHA256": "9d60191ae11bf9a55daca27a52357f848e8fab974328c4dbb1e10cd382e40026",
   "primarySources": [
     {
       "code": "BMA00052",
@@ -84,15 +84,14 @@
   "sourceScope": "Source grammar facts only. Japanese examples, Chinese rules/translation/questions/choices/explanations are original CC BY-SA4.0. No JPF source example, extended explanation, image or audio is bundled. Official pages refer to the old2級; the present N2 grouping uses the pinned community reference, not an official published modern word list.",
   "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
   "independentlyReviewed": 0,
-  "registeredNewN2Targets": 0,
-  "runtimeResourceUnchanged": true,
-  "runtimeResourceSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
+  "registeredNewN2Targets": 117,
+  "runtimeResourceUnchanged": false,
+  "runtimeResourceSHA256": "3ba918a46280d3a51d31c52c62f42f9dd9843901b1bc4b9fc0116633c26cf0b5",
   "validationCommand": "python3 content/staging/check_n2_context.py",
   "remaining": [
-    "Review every changed old-sentence association from the complete index preflight, including ambiguity introduced by new senses.",
-    "Finish contextual association review of the new grammar/word/reading sentences; structural resolution alone does not certify meaning.",
-    "Register/generate after chapter readiness, then run full content/native/release gates.",
-    "Complete all additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments,123patterns and six reading bridges."
+    "Complete remaining2399 N2 roots,127 functions,135 readings,71 lessons,27 assessments and117 reference patterns; six bridges still0/3 each.",
+    "Native iOS integration,SE3,archive,device voice and cross-device checks remain pending; no new IPA implied.",
+    "Independent Japanese language review remains0."
   ],
   "dictionary": {
     "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
@@ -106,13 +105,13 @@
     "scope": "Physical contact, encountering/experiencing an abstract thing, mention and conflict with rules are not automatically one taught meaning. No dictionary examples copied."
   },
   "wordDraft": {
-    "roots": 118,
-    "n2Roots": 112,
-    "n4FoundationRoots": 5,
-    "additionalSenses": 7,
-    "targets": 125,
-    "originalContexts": 250,
-    "lessons": 18,
+    "roots": 119,
+    "n2Roots": 101,
+    "n4FoundationRoots": 6,
+    "additionalSenses": 9,
+    "targets": 128,
+    "originalContexts": 256,
+    "lessons": 22,
     "reviews": [
       "content/staging/n4-context-foundation-words-review.json",
       "content/staging/n3-context-foundation-words-review.json",
@@ -120,7 +119,7 @@
       "content/staging/n2-context-prerequisite-words-review.json",
       "content/staging/n2-context-reading-words-review.json"
     ],
-    "n3FoundationRoots": 1
+    "n3FoundationRoots": 12
   },
   "independentLanguageReview": 0,
   "readingDraft": {
@@ -133,9 +132,10 @@
       "minimum": 495,
       "maximum": 535
     },
-    "status": "Unregistered; all annotated word forms and rule references resolve, final contextual association review pending.",
+    "status": "Registered trial; all annotated words and rule prerequisites resolve; independent language review0.",
     "unresolvedForms": 0,
-    "manuscriptSHA256": "5f1c2869a0c1358dde6f8dfa2785a6d69b61c1ee7c314babc88433685474f9f2"
+    "manuscriptSHA256": "f1e685c2af9927c7977d7786fe33b7150ff15f610569d8e589c064d7682f4ea6",
+    "manuscript": "content/authoring/n2-context-readings.tsv"
   },
   "ordinaryFunctionUsage": {
     "gn2a001": [
@@ -239,9 +239,17 @@
     {
       "context": "gn2a004f",
       "decision": "Untaughtサイト replaced with knownメール as the medium; matching Chinese, prompt and evidence explanation changed. No extra website root introduced."
+    },
+    {
+      "context": "vn4j072b",
+      "decision": "Sound pitch maps to newN4 vn4s007,JMdict1283190 sense5; not loudness or quality."
+    },
+    {
+      "context": "vn3n090b",
+      "decision": "Forming a ring in flight maps to vn3p005,JMdict1583460 sense4. 輪 maps to1555710/わ, not counterりん."
     }
   ],
-  "sensePolicy": "Seven additional targets are independent teaching scopes of existing roots. The added当てる light-exposure sense shares reading with its existing contact/patch sense while keeping meaning practice separate. No extra root is counted; a dictionary sense may be further limited by the authored context.",
+  "sensePolicy": "Nine additional teaching scopes do not add roots. Six earlier-level scopes cover degree, sound pitch, narrative depiction, tracing shapes, contact with ideas and exchanging information. N2 retains reaching conclusions, lexical reference and illumination. Only identical written forms with identical accepted reading sets share reading review; narrative描く stays restricted toえがく.",
   "morphologyPolicy": [
     {
       "forms": [
@@ -277,8 +285,8 @@
       "decision": "手続 reuses手続き;締切 reuses締め切り;表題/標題 is one source entry;具体 does not duplicate the already taught具体的. Candidates excluded, not new words."
     }
   ],
-  "wordExampleContextualLinksFinalReview": "Final contextual association review remains pending; source mapping and own-target dictionary senses checked,125 targets have250 distinct original own examples. Kana-only lexical annotation reviewed separately; no independent language review claimed.",
-  "runtimeScopeNote": "N2章稿未注册，未修改已注册词句。本次运行基线含独立接入的五组规则及60题；仅更新章稿比较用的资源哈希，不改变N2稿件的数量或审校状态。",
+  "wordExampleContextualLinksFinalReview": "Authored contextual choices applied;128 targets have256 distinct own examples, all linked forms resolve, earlier-level contexts use no later-level linked targets. All139 old candidates reviewed,46 actual associations changed in45 sentences; two reading vocabulary projections updated. No independent language review claimed.",
+  "runtimeScopeNote": "RegisteredN2 context chapter added after immutable b39c257 baseline. Old text/ruby/Chinese/answers/pitch annotations and relative order are verified by check_n2_prior_links.py; earlierN3 registration proof is chained through that baseline.",
   "ordinaryFunctionWitnesses": {
     "gn2a001": {
       "sentenceID": "rn2001sa",
@@ -422,8 +430,8 @@
   "controlledContextChanges": {
     "ownWordExampleGapsBefore": 69,
     "annotatedFormsUnresolvedAfter": 0,
-    "addedReadingRoots": 34,
-    "n3BackfillRoots": 1,
+    "addedReadingRoots": 28,
+    "n3BackfillRoots": 12,
     "productiveForms": [
       "二百字",
       "一枚",
@@ -437,176 +445,19 @@
       "四月三日",
       "四月七日"
     ],
-    "notes": "No new roots for each numeric combination or productive construction; generic登録者 paraphrased using known登録した人. Reading dates require verifiedrulemonth plus rulemonths1q3. 姓名/主体/专名不从一般规则借用掌握。"
+    "notes": "No new roots for each numeric combination or productive construction; generic登録者 paraphrased using known登録した人. Reading dates require verifiedrulemonth plus rulemonths1q3. 姓名/主体/专名不从一般规则借用掌握。",
+    "n4BackfillRoots": 6,
+    "earlyContextSupportValidated": true
   },
   "oldIndexPreflight": {
-    "status": "Candidates only; contextual approval and registration pending",
+    "status": "Historical candidate discovery; all139 choices applied and current full-record proof passes.",
     "checkedSentences": 1883,
     "changedSentences": 1,
     "changedLinks": 1,
-    "compilationFailures": [
-      {
-        "source": "n5-structures.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n5-readings.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n5-reading-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n5-core-words.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n5-everyday-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n5-numbers-and-reading-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n5-expanded-context-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n5-scene-words.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n4-activities-and-notices.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n4-completion-structures.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n4-notices-and-scene-words.tsv",
-        "error": "Ambiguous word reference: 達する; use @itemID or ?"
-      },
-      {
-        "source": "n4-actions-and-states.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n4-society-and-daily-life.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n4-society-and-daily-life-readings.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n5-everyday-senses.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n4-reactions-and-decisions.tsv",
-        "error": "Ambiguous word reference: 触れる; use @itemID or ?"
-      },
-      {
-        "source": "n3-observation-and-explanation.tsv",
-        "error": "Ambiguous word reference: 交換; use @itemID or ?"
-      },
-      {
-        "source": "n3-source-role-and-viewpoint-readings.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-judgment-and-belief.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-reading-and-event-words.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-inference-and-negation.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-inference-and-negation-readings.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-relationships-and-expression.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-norms-memory-and-reasons.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-temporal-and-change-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-time-intention-and-degree.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-relations-and-causes-words.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-relations-reading-prerequisites.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-relations-and-causes.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-relations-and-causes-readings.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-condition-and-perspective-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-condition-prerequisites.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-condition-and-perspective.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      },
-      {
-        "source": "n3-condition-readings.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-similarity-theme-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-similarity-prerequisite-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-similarity-reading-prerequisite-words.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-similarity-and-tendencies.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-completion-and-inception.tsv",
-        "error": "Ambiguous word reference: 描く; use @itemID or ?"
-      },
-      {
-        "source": "n3-retrial-and-difficulty.tsv",
-        "error": "Ambiguous word reference: 高い; use @itemID or ?"
-      }
-    ],
-    "rawCandidateOccurrences": 137,
+    "compilationFailures": [],
+    "rawCandidateOccurrences": 139,
     "ambiguousOccurrences": 122
-  }
+  },
+  "earlierLevelPolicy": "6 N4 roots and12 N3 roots are backfills required by existing contexts. They do not offset2500 additionalN2 roots; own examples have no linked later-level targets.",
+  "oldRecordProof": "content/source-checks/n2-context-chapter.json"
 }

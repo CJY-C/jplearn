@@ -77,6 +77,13 @@ def base_pack():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     names = set(WORD_FILES + GRAMMAR_FILES)
     names.update(p.name for p in SOURCE_DIR.glob("n3-similarity*readings.tsv"))
+    # Later N2 targets depend on this chapter. Exclude those downstream
+    # batches while retaining the explicitly earlier N4/N3 backfills needed
+    # by corrected old contexts. The N2 audit checks the complete composition.
+    later = ROOT / "content/source-checks/n2-context-chapter.json"
+    if later.exists():
+        names.update(name for name in json.loads(later.read_text())["manuscripts"]
+                     if name.startswith("n2-"))
     replacements = {ROOT / "content/batches" / r["batch"]: {}
                     for r in manifest["entries"] if r["source"] in names}
     return make_pack(overrides=replacements)

@@ -1,12 +1,12 @@
 {
-  "status": "Selected dictionary spelling, readings and meanings checked against pinned official XML; original contexts authored, unregistered, independent language review0",
+  "status": "Registered trial source; selected dictionary facts checked, independent language review0",
   "checkedDate": "2026-11-19",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
-  "wordManuscript": "content/staging/n2-information-and-documents.tsv",
-  "manuscriptSHA256": "b388d58f55d70b087f59222373aa38ecefa7d86e04559f84a4aec9a4f9138b2d",
-  "roots": 64,
-  "targets": 64,
-  "contexts": 128,
+  "wordManuscript": "content/authoring/n2-information-and-documents.tsv",
+  "manuscriptSHA256": "df49fd80cb634391cee794ae50e66a22e4f15ab12213900e84822b207398cd38",
+  "roots": 62,
+  "targets": 62,
+  "contexts": 124,
   "lessons": 8,
   "independentlyReviewed": 0,
   "dictionary": {
@@ -17,7 +17,7 @@
     "attribution": "JMdict / EDRDG; selected lexical facts only. No upstream examples, extended definitions, Chinese glosses, illustrations, audio or full dictionary bundled."
   },
   "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
-  "levelPolicy": "Self-authored reading order; earlier foundation backfills do not reduce additional2500 N2 roots. Community levels are not official exhaustive lists.",
+  "levelPolicy": "Self-authored reading order; community labels retained, not an official list. 6N4 and12N3 backfill roots do not offset2500 additionalN2 roots; extra senses do not add roots.",
   "entries": [
     {
       "itemID": "vn2a001",
@@ -1587,58 +1587,6 @@
       "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
     },
     {
-      "itemID": "vn2a032",
-      "text": "登録",
-      "primaryReading": "とうろく",
-      "authoredMeaning": "登记、注册；把姓名或资料等记入规定的名册与系统",
-      "entryID": 1444810,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)",
-            "noun or participle which takes the aux. verb suru",
-            "transitive verb"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "とうろく",
-          "entryID": 1444810,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "とうろく",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2a032a",
-        "svn2a032b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N1"
-      ],
-      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
-    },
-    {
       "itemID": "vn2a033",
       "text": "受理",
       "primaryReading": "じゅり",
@@ -1907,58 +1855,6 @@
       "readingOwnerID": null,
       "communityLevelsByEntry": [
         "N2"
-      ],
-      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
-    },
-    {
-      "itemID": "vn2a038",
-      "text": "改良",
-      "primaryReading": "かいりょう",
-      "authoredMeaning": "改良；改变事物的性能或做法，使其变得更好",
-      "entryID": 1201140,
-      "senseOrdinals": [
-        1
-      ],
-      "selectedSenseFacts": [
-        {
-          "ordinal": 1,
-          "partOfSpeech": [
-            "noun (common) (futsuumeishi)",
-            "noun or participle which takes the aux. verb suru",
-            "transitive verb"
-          ],
-          "spellingRestrictions": [],
-          "readingRestrictions": [],
-          "notes": [],
-          "misc": []
-        }
-      ],
-      "acceptedAlternativeReadings": [],
-      "acceptedReadingSources": [
-        {
-          "acceptedReading": "かいりょう",
-          "entryID": 1201140,
-          "senseOrdinals": [
-            1
-          ],
-          "readingFacts": [
-            {
-              "reading": "かいりょう",
-              "nokanji": false,
-              "spellingRestrictions": [],
-              "information": []
-            }
-          ]
-        }
-      ],
-      "exampleSentenceIDs": [
-        "svn2a038a",
-        "svn2a038b"
-      ],
-      "lexemeID": null,
-      "readingOwnerID": null,
-      "communityLevelsByEntry": [
-        "N1"
       ],
       "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
     },

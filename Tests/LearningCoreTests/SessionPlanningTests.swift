@@ -13,11 +13,14 @@ final class SessionPlanningTests: XCTestCase {
     private func prepared(_ pack: ContentPack) -> [LearningEvent] {
         var events = pack.items.flatMap { item in item.skills.map { review(item.id, $0) } }
         for rule in pack.learningRules ?? [] {
-            let set = rule.practiceSets[0], context = UUID().uuidString
-            events += set.questions.map { LearningEvent(deviceID: device, timestamp: now, kind: .questionAttempt,
-                targetID: $0.id, value: String($0.answerIndex), contextID: context, correct: true) }
-            events.append(LearningEvent(deviceID: device, timestamp: now, kind: .placement,
-                targetID: set.id, value: "passed", contextID: context))
+            for (index, set) in rule.practiceSets.enumerated() {
+                let context = UUID().uuidString
+                let time = now.addingTimeInterval(Double(index - rule.practiceSets.count + 1) * 86_400)
+                events += set.questions.map { LearningEvent(deviceID: device, timestamp: time, kind: .questionAttempt,
+                    targetID: $0.id, value: String($0.answerIndex), contextID: context, correct: true) }
+                events.append(LearningEvent(deviceID: device, timestamp: time, kind: .placement,
+                    targetID: set.id, value: "passed", contextID: context))
+            }
         }
         return events
     }
@@ -168,8 +171,9 @@ final class SessionPlanningTests: XCTestCase {
 
     func testReadinessCountsBundledAndOutsideOccurrencesInAllPassages() throws {
         let pack = try ContentPack.bundled()
+        let knowledge = ReadingKnowledge(pack: pack, events: prepared(pack), now: now)
         for reading in pack.readings {
-            let readiness = ReadingReadiness.assess(reading, pack: pack, events: prepared(pack))
+            let readiness = ReadingReadiness.assess(reading, pack: pack, knowledge: knowledge)
             if reading.purpose != "assessment" { XCTAssertTrue(readiness.isEligible, reading.id) }
             let known = (reading.vocabulary ?? []).filter { $0.itemID != nil }.count
             let total = reading.vocabulary?.count ?? 0

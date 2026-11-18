@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check this unregistered N2 draft without changing the bundled curriculum.
+"""Rebuild the N2 context chapter independently of its generated batches.
 
 Checks source compilation, context/ID/prerequisite structure and assessment
 isolation. Unresolved forms are candidates; linked word senses still need human
@@ -23,6 +23,20 @@ from word_links import kana, lexical_words, resolve_word, word_lookup
 
 WORD_FILES = ["n4-context-foundation-words.tsv", "n3-context-foundation-words.tsv",
               "n2-information-and-documents.tsv", "n2-context-prerequisite-words.tsv", "n2-context-reading-words.tsv"]
+CHAPTER_FILES = WORD_FILES + ["n2-context-and-mediation.tsv", "n2-context-readings.tsv"]
+STAGING = ROOT / "content/staging"
+
+
+def source_path(name):
+    registered = ROOT / "content/authoring" / name
+    return registered if registered.exists() else STAGING / name
+
+
+def base_pack():
+    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    replacements = {ROOT / "content/batches" / r["batch"]: {}
+                    for r in manifest["entries"] if r["source"] in CHAPTER_FILES}
+    return make_pack(overrides=replacements)
 
 # A prerequisite label alone is not evidence that the new function occurs in
 # ordinary practice. These are reviewed surface anchors, not a semantic parser.
@@ -51,18 +65,21 @@ def merge(pack, batch):
 
 
 def check():
-    path = ROOT / "content/staging/n2-context-and-mediation.tsv"
-    pack = make_pack()
+    path = source_path("n2-context-and-mediation.tsv")
+    pack = base_pack()
     baseline_roots = lexical_words(pack["items"])
     baseline_entries = {w["jmdictEntryID"] for w in baseline_roots if w.get("jmdictEntryID")}
     baseline_forms = {(w["text"], kana(w["reading"])) for w in baseline_roots}
-    extra_references = json.loads((path.parent / "n2-context-additional-references.json").read_text())["references"]
-    known_source_ids = {r["id"] for r in pack["references"]}
+    extra_references = json.loads((STAGING / "n2-context-additional-references.json").read_text())["references"]
+    known_sources = {r["id"]: r for r in pack["references"]}
     assert len({r["id"] for r in extra_references}) == len(extra_references)
-    assert not {r["id"] for r in extra_references} & known_source_ids, "Draft reference collision"
-    pack["references"].extend(extra_references)
+    for reference in extra_references:
+        if reference["id"] in known_sources:
+            assert known_sources[reference["id"]] == reference, "Registered reference changed"
+        else:
+            pack["references"].append(reference)
     original_sentences = list(pack["sentences"])
-    word_paths = [path.parent / name for name in WORD_FILES]
+    word_paths = [source_path(name) for name in WORD_FILES]
     index = word_index(pack, word_paths)
     for _ in range(2):
         for word_path in word_paths:
@@ -72,7 +89,7 @@ def check():
     word_batches = []
     for word_path in word_paths:
         word_batch = compile_words(word_path, index)
-        record = json.loads(word_path.with_name(word_path.stem + "-review.json").read_text())
+        record = json.loads((STAGING / (word_path.stem + "-review.json")).read_text())
         assert record["manuscriptSHA256"] == hashlib.sha256(word_path.read_bytes()).hexdigest(), word_path.name
         assert len(word_batch["items"]) == record["targets"] and len(lexical_words(word_batch["items"])) == record["roots"]
         facts = {r["itemID"]: r for r in record["entries"]}
@@ -140,6 +157,10 @@ def check():
             contexts = [sentences[sid] for sid in word["exampleSentenceIDs"]]
             assert len({text(s) for s in contexts}) >= 2, word["id"]
             assert all(any(s["itemID"] == word["id"] for s in c["segments"]) for c in contexts), word["id"]
+            levels = {level: index for index, level in enumerate(["N5", "N4", "N3", "N2"])}
+            assert all(levels[items[s["itemID"]]["level"]] <= levels[word["level"]]
+                       for c in contexts for s in c["segments"] if s["itemID"]), (
+                           word["id"], "own context requires a later-level linked target")
     reference = json.loads((ROOT / "content/reference/openjlpt-grammar.json").read_text())
     expected = {r["id"] for r in reference["patterns"] if r["level"] == "N2"}
     assert coverage.keys() <= expected, "Unrecognized N2 pattern"
@@ -169,8 +190,8 @@ def check():
                     word_context_gaps[lemma or surface].append(row[1] + row[2])
     # Explicit references may never silently degrade to an unknown word, even
     # when a narrow sense has different accepted readings from its parent.
-    for source_path, tag, column in [(path, "C", 3)] + [(p, "E", 3) for p in word_paths]:
-        for line in source_path.read_text().splitlines():
+    for context_path, tag, column in [(path, "C", 3)] + [(p, "E", 3) for p in word_paths]:
+        for line in context_path.read_text().splitlines():
             row = line.split("\t")
             if row[0] != tag:
                 continue
@@ -233,16 +254,24 @@ def check():
     if complete_pack_validated:
         merge(pack, reading_batch)
         validate(pack)
-    return dict(status="Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
+    registered = path.parent.name == "authoring"
+    runtime_sha = hashlib.sha256(resource.read_bytes()).hexdigest()
+    baseline_sha = (json.loads((ROOT / "content/source-checks/n2-context-chapter.json").read_text())["baselineRuntimeSHA256"]
+                    if registered else runtime_sha)
+    return dict(status=("Registered trial source; structure, source facts and isolation checked; independent language review0" if registered else
+                       "Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending"),
         manuscript=str(path.relative_to(ROOT)), manuscriptSHA256=hashlib.sha256(path.read_bytes()).hexdigest(),
-        baselineRuntimeVersion=pack["version"], baselineRuntimeSHA256=hashlib.sha256(resource.read_bytes()).hexdigest(),
+        baselineRuntimeVersion=pack["version"], baselineRuntimeSHA256=baseline_sha,
+        runtimeResourceSHA256=runtime_sha, sourceReconstructionExcludesOwnBatches=True,
         draftGrammarFunctions=len(new), draftOriginalContexts=len(batch["sentences"]), draftExercises=len(batch["exercises"]),
-        draftLessons=len(batch["lessons"]), draftReferencePatterns=coverage, registeredNewN2Targets=0,
+        draftLessons=len(batch["lessons"]), draftReferencePatterns=coverage,
+        registeredNewN2Targets=(sum(w["level"] == "N2" for b in word_batches for w in b["items"]) + len(new)) if registered else 0,
         wordRoots=sum(len(lexical_words(b["items"])) for b in word_batches), wordTargets=sum(len(b["items"]) for b in word_batches),
         n2WordRoots=sum(w["level"] == "N2" for b in word_batches for w in lexical_words(b["items"])),
         n4FoundationRoots=sum(w["level"] == "N4" for b in word_batches for w in lexical_words(b["items"])),
         n3FoundationRoots=sum(w["level"] == "N3" for b in word_batches for w in lexical_words(b["items"])),
         wordContexts=sum(len(b["sentences"]) for b in word_batches), wordLessons=sum(len(b["lessons"]) for b in word_batches),
+        earlierOwnContextsHaveNoLaterLevelLinkedTargets=True,
         wordManuscripts={str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in word_paths},
         readingManuscript=str(reading_path.relative_to(ROOT)), readingManuscriptSHA256=hashlib.sha256(reading_path.read_bytes()).hexdigest(),
         readings=len(passages), practiceReadings=len(practice), assessmentReadings=len(assessments), readingQuestions=sum(len(r["questions"]) for r in passages.values()),
@@ -252,13 +281,14 @@ def check():
         readingRulePrerequisites={rid: r["rulePrerequisites"] for rid, r in passages.items() if r.get("rulePrerequisites")},
         unresolvedReadingForms=len(reading_gaps), readingGaps=dict(sorted(reading_gaps.items())),
         unresolvedWordExampleForms=len(word_context_gaps), wordExampleGaps=dict(sorted(word_context_gaps.items())),
-        readingRegistrationReady=False,
+        readingRegistrationReady=registered and complete_pack_validated,
         heldoutFragmentCharacters=20, heldoutLeaks=0, unresolvedForms=len(gaps), gaps=dict(sorted(gaps.items())),
-        independentLanguageReviews=0, remaining=["Review all contextual word links and teach any missing meanings/readings.",
-            "Resolve reading word forms and review every contextual sense; numeric constructions/derivations must not inflate roots.",
-            "Complete contextual meaning and kana-only word coverage review; surface resolution is not proof of a correct sense.",
-            "Register only after source checks, regenerate and run curriculum/native validation.",
-            "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."])
+        independentLanguageReviews=0, remaining=([
+            "Complete the remaining additionalN2 roots/functions/readings and all six bridges; chapter registration is not fullN2 completion.",
+            "Run native iOS integration,SE3,archive and device/voice checks; no new IPA is implied by source registration.",
+            "Independent Japanese language review remains0; source and structural checks do not certify language quality."
+        ] if registered else ["Finish contextual decisions, register and run full validation.",
+            "Preserve2500 additionalN2 roots,140 functions,140 readings,100 lessons,28 assessments and six3-reading bridges."]))
 
 
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
 {
-  "status": "Original20 reading candidate forms resolved into17 authored roots (16N2,1N3), two rule-based dates and one known-word paraphrase; chapter unregistered, contextual final review pending.",
+  "status": "Original20 forms disposed into authored roots, known-word paraphrase and rule-based dates; source now registered, independent language review0.",
   "checkedDate": "2026-11-19",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
-  "readingManuscript": "content/staging/n2-context-readings.tsv",
+  "readingManuscript": "content/authoring/n2-context-readings.tsv",
   "readingManuscriptSHA256": "5f1c2869a0c1358dde6f8dfa2785a6d69b61c1ee7c314babc88433685474f9f2",
   "candidateForms": 20,
   "selectedNewRoots": 17,
@@ -73,8 +73,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c016"
@@ -105,11 +105,11 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
-        "targetID": "vn2c013"
+        "targetID": "vn3p012"
       }
     },
     {
@@ -136,8 +136,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c009"
@@ -167,8 +167,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c011"
@@ -180,8 +180,8 @@
         "rn2002sb"
       ],
       "dictionaryCandidates": [],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "productiveDate",
         "ruleID": "rulemonth",
@@ -201,8 +201,8 @@
         "rn2002sb"
       ],
       "dictionaryCandidates": [],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "productiveDate",
         "ruleID": "rulemonth",
@@ -241,8 +241,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c022"
@@ -282,11 +282,11 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
-        "targetID": "vn2c023"
+        "targetID": "vn3p011"
       }
     },
     {
@@ -314,8 +314,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c004"
@@ -346,8 +346,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c012"
@@ -377,8 +377,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c010"
@@ -414,8 +414,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c015"
@@ -447,8 +447,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c019"
@@ -478,8 +478,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "paraphrase",
         "text": "登録した人",
@@ -514,8 +514,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c020"
@@ -545,8 +545,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c018"
@@ -576,8 +576,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn3p001"
@@ -607,8 +607,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c021"
@@ -652,8 +652,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c014"
@@ -684,8 +684,8 @@
           ]
         }
       ],
-      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
-      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
       "disposition": {
         "kind": "authoredRoot",
         "targetID": "vn2c017"
@@ -694,6 +694,6 @@
   ],
   "independentlyReviewed": 0,
   "runtimeUnchanged": true,
-  "selectedN2Roots": 16,
-  "selectedN3BackfillRoots": 1
+  "selectedN2Roots": 14,
+  "selectedN3BackfillRoots": 3
 }

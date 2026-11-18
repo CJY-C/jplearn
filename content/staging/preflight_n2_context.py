@@ -9,8 +9,10 @@ import argparse
 import json
 from pathlib import Path
 import sys
+import subprocess
+import tempfile
 
-from check_n2_context import ROOT, WORD_FILES
+from check_n2_context import ROOT, WORD_FILES, CHAPTER_FILES, source_path
 sys.path.insert(0, str(ROOT / "scripts"))
 from build_content import make_pack
 from check_n3_similarity import word_index
@@ -21,18 +23,25 @@ from word_links import resolve_word, word_lookup
 
 
 def check():
-    baseline = make_pack()
-    index = word_index(baseline, [ROOT / "content/staging" / name for name in WORD_FILES])
+    checkpoint = "b39c2574fdb46a23109df421663a0b7f1125c2db"
+    def previous(name):
+        return subprocess.check_output(["git", "show", checkpoint + ":" + name], cwd=ROOT)
+    baseline = json.loads(previous("Sources/LearningCore/Resources/foundation.json"))
+    index = word_index(baseline, [source_path(name) for name in WORD_FILES])
     for _ in range(2):
         for name in WORD_FILES:
-            batch = compile_words(ROOT / "content/staging" / name, index)
+            batch = compile_words(source_path(name), index)
             ids = {w["id"] for w in batch["items"]}
             index["items"] = [w for w in index["items"] if w["id"] not in ids] + batch["items"]
     previous = {s["id"]: s for s in baseline["sentences"]}
     candidates, checked, failures, raw_candidates = [], 0, [], []
     old_lookup, proposed_lookup = word_lookup(baseline["items"]), word_lookup(index["items"])
+    temporary = tempfile.TemporaryDirectory(prefix="jplearn-prior-sources-")
     for record in entries():
-        path = ROOT / "content/authoring" / record["source"]
+        if record["source"] in CHAPTER_FILES:
+            continue
+        path = Path(temporary.name) / record["source"]
+        path.write_bytes(previous("content/authoring/" + record["source"]))
         # Review every occurrence, even when the first ambiguity prevents the
         # complete manuscript from compiling. Do not silently choose its old
         # meaning: an earlier mistaken association may need a real correction.
@@ -75,7 +84,9 @@ def check():
             if links:
                 candidates.append(dict(source=record["source"], sentenceID=sentence["id"],
                     text="".join(v["text"] for v in sentence["segments"]), translation=sentence["translation"], links=links))
-    return dict(status="Candidates only; contextual approval and registration pending",
+    temporary.cleanup()
+    return dict(status="Historical pre-registration candidates; current registered changes are verified by check_n2_prior_links.py",
+        baselineCommit=checkpoint,
         checkedSentences=checked, changedSentences=len(candidates),
         changedLinks=sum(len(r["links"]) for r in candidates),
         compilationFailures=failures, rawCandidateOccurrences=len(raw_candidates),

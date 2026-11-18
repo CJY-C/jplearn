@@ -28,7 +28,8 @@ class CurriculumDeliveryTests(unittest.TestCase):
     def test_additional_senses_do_not_inflate_the_word_delivery_contract(self):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
-        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003", "vn3l121", "vn3l122", "vn3l123", "vn3l124", "vn3m066", "vn3m067", "vn3n007", "vn4r002"})
+        self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003", "vn3l121", "vn3l122", "vn3l123", "vn3l124", "vn3m066", "vn3m067", "vn3n007", "vn4r002",
+            "vn4s006", "vn4s007", "vn3p002", "vn3p003", "vn3p004", "vn3p005", "vn2b019", "vn2b020", "vn2b021"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))
@@ -38,11 +39,13 @@ class CurriculumDeliveryTests(unittest.TestCase):
         words = {w["id"]: w for w in targets}
         for sense in senses:
             owner = words[sense["lexemeID"]]
-            if sense["text"] == owner["text"]:
+            same_readings = set([sense["reading"]] + sense.get("acceptedReadings", [])) == set([owner["reading"]] + owner.get("acceptedReadings", []))
+            if sense["text"] == owner["text"] and same_readings:
                 self.assertEqual(sense["readingOwnerID"], owner["id"])
             else:
                 self.assertNotIn("readingOwnerID", sense)
-                self.assertEqual(sense["jmdictEntryID"], owner["jmdictEntryID"])
+                if sense["text"] != owner["text"]:
+                    self.assertEqual(sense["jmdictEntryID"], owner["jmdictEntryID"])
         self.assertEqual({w["id"] for w in senses if w["text"] != words[w["lexemeID"]]["text"]},
                          {"vn4q001", "vn4q002", "vn4q003"})
         for sid, wid in [("sgn442e", "vn4960"), ("svn4641b", "vn4961"), ("svn4302a", "vn4963"),

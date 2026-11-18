@@ -2,7 +2,7 @@
   "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
   "baselineCommit": "f7d2bfd0e2a923d20554221369a76f0fb5d96c87",
   "wordManuscript": "content/authoring/n3-similarity-reading-prerequisite-words.tsv",
-  "manuscriptSHA256": "e317d9d7d3cb66b2045677986f64eaa0e58c7865cd62d279337680d6aee43fff",
+  "manuscriptSHA256": "be5811e04c272acb3cc6400308843c44baef81de0d355d87240ee2906555f0d3",
   "roots": 92,
   "contexts": 186,
   "lessons": 12,
@@ -7648,5 +7648,6 @@
   "additionalSenses": 1,
   "checkedDate": "2026-11-17",
   "rootAssociationChange": "vn3n007 physical gathering now points to the newly taught N4 summary root vn4r001; same dictionary entry and spelling/reading, independent meaning review, no additional word root.",
-  "registeredVersion": "0.20.0"
+  "registeredVersion": "0.20.0",
+  "subsequentAssociationAudit": "content/source-checks/n2-context-chapter.json"
 }

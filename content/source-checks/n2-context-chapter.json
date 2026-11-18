@@ -1,0 +1,1425 @@
+{
+  "status": "registered-trial-source; native build and independent language review pending",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "b39c2574fdb46a23109df421663a0b7f1125c2db",
+  "baselineRuntimeSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
+  "independentLanguageReviews": 0,
+  "manuscripts": [
+    "n4-context-foundation-words.tsv",
+    "n3-context-foundation-words.tsv",
+    "n2-information-and-documents.tsv",
+    "n2-context-prerequisite-words.tsv",
+    "n2-context-reading-words.tsv",
+    "n2-context-and-mediation.tsv",
+    "n2-context-readings.tsv"
+  ],
+  "wordRoots": 119,
+  "n2WordRoots": 101,
+  "n3BackfillRoots": 12,
+  "n4BackfillRoots": 6,
+  "additionalSenses": 9,
+  "wordTargets": 128,
+  "wordContexts": 256,
+  "wordLessons": 22,
+  "grammarFunctions": 13,
+  "grammarContexts": 78,
+  "readings": 5,
+  "assessmentReadings": 1,
+  "originalScope": "2500 additionalN2 roots,140 actual functions,140 readings,100 lessons,28 assessments,123 reference patterns and six3-reading bridges remain required.",
+  "sourceInputSHA256": {
+    "n5-structures.tsv": "da178eaa9136e3557e0b6e161de347d38dcaf548eaed139b3e585db103d1855b",
+    "n5-readings.tsv": "a0fa547f1ea5874182ba40665f4b01dd00ab961e27d62adbe111b70c50a9a8c0",
+    "n5-reading-words.tsv": "ea6851ba9628eaaa7cee380a6745d50b69ca8a93adf66d965d4d359c81ec3894",
+    "n5-core-words.tsv": "505a8f958e7c2fef5a471458a5b306ba495fc4b2a7d09b412e185cc47efabced",
+    "n5-everyday-words.tsv": "3a6f4c7b30304c203fef82f7a40b34fbc4b6a2ad1521abcfaddd5e5c57022349",
+    "n5-numbers-and-reading-words.tsv": "981e9f8d692fabcfab8e6431d920d4c4d582747e0d6ed1f4f2cd5ee9bfa47838",
+    "n5-expanded-context-words.tsv": "a5b0351180d3102b881819a0a53130bbcbad0776adee2d264d88e07a8baa0668",
+    "n5-scene-words.tsv": "88fb388fda85fbdf2036d39935530bfc36d97f7b1e936228f6060dbfe53abe2b",
+    "n4-states-and-cues.tsv": "9ba1a42efe4cc46063ca5a194e27f6d805ae3279e6bb5a00847c08d97b463968",
+    "n4-activities-and-notices.tsv": "bb2bdd0a63f3fb3b7fed5ad01b3a3aa35b6fa03299aacf09f52236fffc363f2c",
+    "n4-completion-structures.tsv": "309c7204e962696e8247504b95cec0427b47fd158e9b589a36793b3aebfb0f6d",
+    "n4-notices-and-scene-words.tsv": "9a498850a817526d49fe76146eea31e965e851e8bc8fbda9b5dd088a503f03d0",
+    "n4-actions-and-states.tsv": "e509ef6bcb4ce5d082fffd09a15fdd9c50dbdd6716faa5fee0632f90fb6559ce",
+    "n4-society-and-daily-life.tsv": "b8ae6ac6780e3d2e49623bbece2dff6da93743c98eaa8db6afa04766b9087fcc",
+    "n4-society-and-daily-life-readings.tsv": "21d77b9c7cd4df659465efedad7e93d6aa8a9f6c1a01f6a184041c4f4539ad84",
+    "n5-everyday-senses.tsv": "6abf350268a717ab231e075f588165019cf00cde6a4564c151539be85945438e",
+    "n4-reactions-and-decisions.tsv": "70655338c039a1e0654865921b6b3571690e63f4531882679e5c4e73363f7a50",
+    "n3-observation-and-explanation.tsv": "a418cc0659545c0666676f3b51b3d0b40b1d6144c67b82cd2654a0435fe22352",
+    "n3-source-role-and-viewpoint-readings.tsv": "0a2aff20eb8834d00e668b8150f9f81988143dff3e600290ef2343a6fc7c2ad4",
+    "n3-judgment-and-belief.tsv": "95b69f13a1a4e044a83350741ff47dd8cf2f3e6c0e75386da740fd5964747d8c",
+    "n3-reading-and-event-words.tsv": "214d32b802f4b1778b53838aa27fe8795dbc4a4d2f4c99c7a1c83a0123cd1739",
+    "n3-inference-and-negation.tsv": "3054c8ce9750f0cca65ffd36ae4dec554b40b773b91a05a491ee7ce8fbf18942",
+    "n3-inference-and-negation-readings.tsv": "7fa446f7ea0b930506d9d0989570baa84c2581a57c8ee4ce8c0e8c36f765d2f3",
+    "n3-relationships-and-expression.tsv": "7b64257ce48a23b2fef9038a4323a13e188307d330fdb22fab1c63672b695cd7",
+    "n3-norms-memory-and-reasons.tsv": "1a0e2009cc6ebba92c420886151ef55c4305632fadfc6cce7c5418da18feade2",
+    "n3-temporal-and-change-words.tsv": "4618ff3b654845aeeed17cdb07de846a66b780bcd7142ec6baa2fcaccb9473ff",
+    "n3-time-intention-and-degree.tsv": "f42a575b95fa37adcfaeb58f5196826615da6e5daf00caf733dbddafdf2f16ce",
+    "n3-relations-and-causes-words.tsv": "6b6a66f97fb47526dbcfa4e4d1f32636d89360ebc93aa012c168840872d6ee3b",
+    "n3-relations-reading-prerequisites.tsv": "25e2338a0c933e65234062658cfae84df8f4d4214e3b7504700cac79eae1bc1e",
+    "n3-relations-and-causes.tsv": "4aa3a7c0f31ca130000f724b0e91e19fb205ac717d892a01d330ab67ab9272c6",
+    "n3-relations-and-causes-readings.tsv": "5ffc0a2c56d874cc57628fc8de943d16f99186eb9c359d716cb17cf266334518",
+    "n3-condition-and-perspective-words.tsv": "23fecce14ac7e0a1db4611ec556318fe5011f7df2bff1b93b978d196e07567d6",
+    "n3-condition-prerequisites.tsv": "d6d73c8ebbc120e145b696b589c96167384706b4c155c8236e6d853593802fc0",
+    "n3-condition-and-perspective.tsv": "e21b8135585e5ce66c5c64c9a983f829d1dadd115e748794c6f345f8ee9c8ea0",
+    "n3-condition-readings.tsv": "cfee062f8351c41b47f55b4ebfa1ac8decf0c5051e85343f11b9be3d9d8aeac1",
+    "n3-similarity-theme-words.tsv": "3c9ce4b9a3d435a46fb3b892cebaceeaae9e67329a56d18a2d4107dfbe2dd606",
+    "n3-similarity-prerequisite-words.tsv": "afed3e5486114cb297d1e7cd6c9c25423058570413da29bb0d02095f530bc056",
+    "n3-similarity-reading-prerequisite-words.tsv": "e317d9d7d3cb66b2045677986f64eaa0e58c7865cd62d279337680d6aee43fff",
+    "n3-similarity-and-tendencies.tsv": "fd2794d19381f077a9ba4b828d0883d8b10a7301ddd3a50be018d56e9162281c",
+    "n3-completion-and-inception.tsv": "ae46349677e3f967696c4be8684c6e7ac0ebac1a16904907bfa70cd8e5f235b6",
+    "n3-retrial-and-difficulty.tsv": "261e7ed14ee792d84a0df9d6cdfadc0e8cd51d852736f3e1671268c94a7c1852"
+  },
+  "sourceOutputSHA256": {
+    "n5-structures.tsv": "0a5377b79d637d06f373d525227bbc0d1816a6cb70c478d48b8d750f299de3d3",
+    "n5-readings.tsv": "33a272193001e03c07c7e19c9ecc37b138e3aceafd5daf0df373b581f0fea237",
+    "n5-reading-words.tsv": "6996798a7fac8a9e6381f940c6a229868ce5000a30b2c5fe5ebeeed361e7a511",
+    "n5-core-words.tsv": "b44e9b378f20bfaac7ee8d78908158b3f9342b1b36f8639972b9e4c74fffeb54",
+    "n5-everyday-words.tsv": "bbfe7818e40ba829f750dffd3fb5e17826bd3d62916769438fa6f5e07ea5b747",
+    "n5-numbers-and-reading-words.tsv": "c35735fb31a391548189e8eb2177d75851aeb505bb586efedf4ce3e367893941",
+    "n5-expanded-context-words.tsv": "fb4d7a18bb6f35f8d680a156b51653d9e809fc52af6ad03f61189e4eece73ee0",
+    "n5-scene-words.tsv": "6fbf0483c3788f25a7c946589cfe54616e532de4a7dcc2174c8452b56735aa5f",
+    "n4-states-and-cues.tsv": "0fda565282a5cf110600df4495698423f65f481240e4d0076c86d6417d1c525a",
+    "n4-activities-and-notices.tsv": "23f31f773844a7a570c21f1f5a3b3911c023128759cc2ffda3ce8d053f366d5f",
+    "n4-completion-structures.tsv": "233baab736abcedca0b43ffd7d19a7a9d7d4bd861c5856a27404c09d5c921b86",
+    "n4-notices-and-scene-words.tsv": "ec9e32a358e0eb196a553f9363be4fec1197242c9772bf0499cb7d45d9a25c4e",
+    "n4-actions-and-states.tsv": "fe19dadfeec135499f79790703ed8a9d832109de905e9eafff71a0c45dc231dd",
+    "n4-society-and-daily-life.tsv": "a4effed648e1fa60b4ae6c52652865dac61870c48669e13905e1615f844d7582",
+    "n4-society-and-daily-life-readings.tsv": "cfb5eabd360a42ab0751c5a012fe07bec343cef8215dfc0d958e99a0130acdcd",
+    "n5-everyday-senses.tsv": "a17c7907dbaf6a67aead4941c23b31a95b94838d5ab0297c7b53b6be5fb2e0d8",
+    "n4-reactions-and-decisions.tsv": "b10250d020d0fc0fad5c868dc2513e4ce36c58db28fee145aa53897749dcf833",
+    "n3-observation-and-explanation.tsv": "fc87c48a1ec6a63c4d9c441fa40665eb93529f9790940cdeb513df4b0d01590a",
+    "n3-source-role-and-viewpoint-readings.tsv": "8f8a96504091b34eeb1b10f7f08c39f2824ba0d80929028d28f6f182368226ea",
+    "n3-judgment-and-belief.tsv": "495eb06c0952d305577aaa5c0e44601fd61d7facab4ff8696766eb00253f315a",
+    "n3-reading-and-event-words.tsv": "013bd3b0fdcbe0ad38c44c0126bdcb26be8e2a6b7d67aeecd3dd44080dd0238b",
+    "n3-inference-and-negation.tsv": "c276fb92e611a646681e935b9ee5172cacc888ca801812c900d9452a12a73ac1",
+    "n3-inference-and-negation-readings.tsv": "d3a285ce3eb567db31d50f0911ec09ebed7a3ec1c64ee2a1154a6978e3fab304",
+    "n3-relationships-and-expression.tsv": "6d498503dbbf3a0828e36d70d4c6d92a7d5c3015c6f0c7c6817ca8cae6f5629d",
+    "n3-norms-memory-and-reasons.tsv": "7b0fb3416d2ba837299095b5c6c61e37ef15dad96e31b9bcecde592c4c905f19",
+    "n3-temporal-and-change-words.tsv": "e1a9744d0962ca9342dd0573f50a7da9107bf8bf44bae3ab6c6a9e5cf5242814",
+    "n3-time-intention-and-degree.tsv": "91673198c134b47b46259475e5bff7140fc8fb59b75facb60e950fcdd5520765",
+    "n3-relations-and-causes-words.tsv": "15360905fdd3bff1e79469c6903099c8b1f9b59f494c2e76acd6f7d25869beaf",
+    "n3-relations-reading-prerequisites.tsv": "891c50649fe4f9b342be0a42313432eefa289f0e8ed3e7da9b1332541f69aaae",
+    "n3-relations-and-causes.tsv": "ca7af2fa1015e3ee3fd09b3450b4882ab7b279cfcd2bee5e171849f6fd9beb30",
+    "n3-relations-and-causes-readings.tsv": "3e345a31213d5f642384a9841ea00b59c2b58715a462248ef62fc7abad1076cb",
+    "n3-condition-and-perspective-words.tsv": "2efb6a8d62f68d748d323b08c8d500d76c32915e2ba204d23df459e418ad4a9c",
+    "n3-condition-prerequisites.tsv": "f8282df3bc6472a3de38a9968e6be8c328de27bf3f4e52b1ecd5b0600fa189e6",
+    "n3-condition-and-perspective.tsv": "20683109660637b58a125fb2199d02e1506617954164b14cbf697d41b4d3d918",
+    "n3-condition-readings.tsv": "f953faca4d20522e98541e809d3325a99206d31db812dc236dab466bc858f617",
+    "n3-similarity-theme-words.tsv": "56c448358d44a5b3ee8d6dfc6d244ff3305d3a8a33bce0ce49291894cbe6fc9f",
+    "n3-similarity-prerequisite-words.tsv": "17d6dfb55daafdd2d8fc5da1bfa10c462af0b08a108347247894f271e48ad04d",
+    "n3-similarity-reading-prerequisite-words.tsv": "be5811e04c272acb3cc6400308843c44baef81de0d355d87240ee2906555f0d3",
+    "n3-similarity-and-tendencies.tsv": "98868dcb16d2496077392e003e00096490a7f0642281a4382b36bf5338e910b7",
+    "n3-completion-and-inception.tsv": "47d4fb0f97784ada4136932595902e8acccb25761be8e9cc84dd5efde97a8dfc",
+    "n3-retrial-and-difficulty.tsv": "605f35ac8eb25c7757efad34f6a5761ce40fc70eee32b47239b9884c04229701"
+  },
+  "reviewedOccurrences": 139,
+  "sentenceChanges": [
+    {
+      "id": "svn4204b",
+      "changes": [
+        {
+          "index": 3,
+          "before": null,
+          "after": "vn4s008"
+        }
+      ]
+    },
+    {
+      "id": "svn4329b",
+      "changes": [
+        {
+          "index": 0,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "svn4341b",
+      "changes": [
+        {
+          "index": 1,
+          "before": null,
+          "after": "vn4s008"
+        }
+      ]
+    },
+    {
+      "id": "svn4584a",
+      "changes": [
+        {
+          "index": 6,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "svn4j072b",
+      "changes": [
+        {
+          "index": 2,
+          "before": "v0041",
+          "after": "vn4s007"
+        }
+      ]
+    },
+    {
+      "id": "svn3a092b",
+      "changes": [
+        {
+          "index": 8,
+          "before": null,
+          "after": "vn3p006"
+        }
+      ]
+    },
+    {
+      "id": "svn3b011a",
+      "changes": [
+        {
+          "index": 6,
+          "before": null,
+          "after": "vn3p007"
+        }
+      ]
+    },
+    {
+      "id": "svn3b025b",
+      "changes": [
+        {
+          "index": 10,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3b111b",
+      "changes": [
+        {
+          "index": 8,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3b113a",
+      "changes": [
+        {
+          "index": 8,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "rn3025s5",
+      "changes": [
+        {
+          "index": 21,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "svn3d011a",
+      "changes": [
+        {
+          "index": 10,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3d062a",
+      "changes": [
+        {
+          "index": 8,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3d063a",
+      "changes": [
+        {
+          "index": 7,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3d076a",
+      "changes": [
+        {
+          "index": 4,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3d077a",
+      "changes": [
+        {
+          "index": 7,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3d117b",
+      "changes": [
+        {
+          "index": 5,
+          "before": null,
+          "after": "vn3p008"
+        }
+      ]
+    },
+    {
+      "id": "svn3f055b",
+      "changes": [
+        {
+          "index": 3,
+          "before": null,
+          "after": "vn3p009"
+        }
+      ]
+    },
+    {
+      "id": "svn3f135a",
+      "changes": [
+        {
+          "index": 4,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3h002b",
+      "changes": [
+        {
+          "index": 6,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "svn3h021a",
+      "changes": [
+        {
+          "index": 2,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "svn3h023b",
+      "changes": [
+        {
+          "index": 10,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3h043a",
+      "changes": [
+        {
+          "index": 4,
+          "before": null,
+          "after": "vn3p008"
+        }
+      ]
+    },
+    {
+      "id": "svn3h076b",
+      "changes": [
+        {
+          "index": 4,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3h143b",
+      "changes": [
+        {
+          "index": 7,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3h151a",
+      "changes": [
+        {
+          "index": 8,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3j022a",
+      "changes": [
+        {
+          "index": 5,
+          "before": null,
+          "after": "vn3p010"
+        }
+      ]
+    },
+    {
+      "id": "svn3j041b",
+      "changes": [
+        {
+          "index": 6,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3j062b",
+      "changes": [
+        {
+          "index": 10,
+          "before": null,
+          "after": "vn3p011"
+        }
+      ]
+    },
+    {
+      "id": "svn3j073b",
+      "changes": [
+        {
+          "index": 10,
+          "before": null,
+          "after": "vn3p011"
+        }
+      ]
+    },
+    {
+      "id": "svn3j090b",
+      "changes": [
+        {
+          "index": 4,
+          "before": "vn4j001",
+          "after": "vn3p003"
+        }
+      ]
+    },
+    {
+      "id": "svn3j105b",
+      "changes": [
+        {
+          "index": 8,
+          "before": null,
+          "after": "vn3p012"
+        }
+      ]
+    },
+    {
+      "id": "svn3k009a",
+      "changes": [
+        {
+          "index": 7,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3k024a",
+      "changes": [
+        {
+          "index": 0,
+          "before": null,
+          "after": "vn3p013"
+        }
+      ]
+    },
+    {
+      "id": "svn3k052b",
+      "changes": [
+        {
+          "index": 6,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "rn3101sa",
+      "changes": [
+        {
+          "index": 36,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3l004b",
+      "changes": [
+        {
+          "index": 10,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3l065a",
+      "changes": [
+        {
+          "index": 9,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3m009b",
+      "changes": [
+        {
+          "index": 13,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    },
+    {
+      "id": "svn3m017a",
+      "changes": [
+        {
+          "index": 4,
+          "before": "vn3i070",
+          "after": "vn3p004"
+        }
+      ]
+    },
+    {
+      "id": "svn3m061b",
+      "changes": [
+        {
+          "index": 6,
+          "before": null,
+          "after": "vn3p014"
+        }
+      ]
+    },
+    {
+      "id": "svn3n046b",
+      "changes": [
+        {
+          "index": 4,
+          "before": null,
+          "after": "vn3p016"
+        }
+      ]
+    },
+    {
+      "id": "svn3n053a",
+      "changes": [
+        {
+          "index": 2,
+          "before": null,
+          "after": "vn4s003"
+        }
+      ]
+    },
+    {
+      "id": "svn3n055a",
+      "changes": [
+        {
+          "index": 5,
+          "before": null,
+          "after": "vn3p001"
+        }
+      ]
+    },
+    {
+      "id": "svn3n090b",
+      "changes": [
+        {
+          "index": 12,
+          "before": null,
+          "after": "vn3p016"
+        },
+        {
+          "index": 14,
+          "before": "vn5035",
+          "after": "vn3p005"
+        }
+      ]
+    }
+  ],
+  "readingChanges": [
+    {
+      "id": "rn3025",
+      "changes": [
+        {
+          "field": "vocabulary",
+          "paragraph": null,
+          "index": 63,
+          "before": "v0041",
+          "after": "vn4s006"
+        },
+        {
+          "field": "paragraph",
+          "paragraph": 1,
+          "index": 25,
+          "before": "v0041",
+          "after": "vn4s006"
+        }
+      ]
+    },
+    {
+      "id": "rn3101",
+      "changes": [
+        {
+          "field": "vocabulary",
+          "paragraph": null,
+          "index": 18,
+          "before": "vn5035",
+          "after": "vn3p002"
+        },
+        {
+          "field": "paragraph",
+          "paragraph": 0,
+          "index": 18,
+          "before": "vn5035",
+          "after": "vn3p002"
+        }
+      ]
+    }
+  ],
+  "newIDs": {
+    "items": [
+      "vn4s001",
+      "vn4s002",
+      "vn4s003",
+      "vn4s004",
+      "vn4s005",
+      "vn4s006",
+      "vn4s008",
+      "vn4s007",
+      "vn3p001",
+      "vn3p002",
+      "vn3p003",
+      "vn3p004",
+      "vn3p006",
+      "vn3p007",
+      "vn3p008",
+      "vn3p009",
+      "vn3p010",
+      "vn3p011",
+      "vn3p012",
+      "vn3p013",
+      "vn3p014",
+      "vn3p015",
+      "vn3p005",
+      "vn3p016",
+      "vn2a001",
+      "vn2a002",
+      "vn2a003",
+      "vn2a004",
+      "vn2a005",
+      "vn2a006",
+      "vn2a007",
+      "vn2a008",
+      "vn2a009",
+      "vn2a010",
+      "vn2a011",
+      "vn2a012",
+      "vn2a013",
+      "vn2a014",
+      "vn2a015",
+      "vn2a016",
+      "vn2a017",
+      "vn2a018",
+      "vn2a019",
+      "vn2a020",
+      "vn2a021",
+      "vn2a022",
+      "vn2a023",
+      "vn2a024",
+      "vn2a025",
+      "vn2a026",
+      "vn2a027",
+      "vn2a028",
+      "vn2a029",
+      "vn2a030",
+      "vn2a031",
+      "vn2a033",
+      "vn2a034",
+      "vn2a035",
+      "vn2a036",
+      "vn2a037",
+      "vn2a039",
+      "vn2a040",
+      "vn2a041",
+      "vn2a042",
+      "vn2a043",
+      "vn2a044",
+      "vn2a045",
+      "vn2a046",
+      "vn2a047",
+      "vn2a048",
+      "vn2a049",
+      "vn2a050",
+      "vn2a051",
+      "vn2a052",
+      "vn2a053",
+      "vn2a054",
+      "vn2a055",
+      "vn2a056",
+      "vn2a057",
+      "vn2a058",
+      "vn2a059",
+      "vn2a060",
+      "vn2a061",
+      "vn2a062",
+      "vn2a063",
+      "vn2a064",
+      "vn2b001",
+      "vn2b002",
+      "vn2b003",
+      "vn2b005",
+      "vn2b006",
+      "vn2b007",
+      "vn2b008",
+      "vn2b009",
+      "vn2b011",
+      "vn2b012",
+      "vn2b013",
+      "vn2b019",
+      "vn2b020",
+      "vn2b021",
+      "vn2c001",
+      "vn2c002",
+      "vn2c003",
+      "vn2c004",
+      "vn2c006",
+      "vn2c007",
+      "vn2c008",
+      "vn2c009",
+      "vn2c010",
+      "vn2c011",
+      "vn2c012",
+      "vn2c014",
+      "vn2c015",
+      "vn2c016",
+      "vn2c017",
+      "vn2c018",
+      "vn2c019",
+      "vn2c020",
+      "vn2c021",
+      "vn2c022",
+      "vn2c024",
+      "vn2c025",
+      "vn2c027",
+      "vn2c028",
+      "vn2c029",
+      "vn2c030",
+      "vn2c031",
+      "vn2c032",
+      "gn2a001",
+      "gn2a002",
+      "gn2a003",
+      "gn2a004",
+      "gn2a005",
+      "gn2a006",
+      "gn2a007",
+      "gn2a008",
+      "gn2a009",
+      "gn2a010",
+      "gn2a011",
+      "gn2a012",
+      "gn2a013"
+    ],
+    "sentences": [
+      "svn4s001a",
+      "svn4s001b",
+      "svn4s002a",
+      "svn4s002b",
+      "svn4s003a",
+      "svn4s003b",
+      "svn4s004a",
+      "svn4s004b",
+      "svn4s005a",
+      "svn4s005b",
+      "svn4s006a",
+      "svn4s006b",
+      "svn4s008a",
+      "svn4s008b",
+      "svn4s007a",
+      "svn4s007b",
+      "svn3p001a",
+      "svn3p001b",
+      "svn3p002a",
+      "svn3p002b",
+      "svn3p003a",
+      "svn3p003b",
+      "svn3p004a",
+      "svn3p004b",
+      "svn3p006a",
+      "svn3p006b",
+      "svn3p007a",
+      "svn3p007b",
+      "svn3p008a",
+      "svn3p008b",
+      "svn3p009a",
+      "svn3p009b",
+      "svn3p010a",
+      "svn3p010b",
+      "svn3p011a",
+      "svn3p011b",
+      "svn3p012a",
+      "svn3p012b",
+      "svn3p013a",
+      "svn3p013b",
+      "svn3p014a",
+      "svn3p014b",
+      "svn3p015a",
+      "svn3p015b",
+      "svn3p005a",
+      "svn3p005b",
+      "svn3p016a",
+      "svn3p016b",
+      "svn2a001a",
+      "svn2a001b",
+      "svn2a002a",
+      "svn2a002b",
+      "svn2a003a",
+      "svn2a003b",
+      "svn2a004a",
+      "svn2a004b",
+      "svn2a005a",
+      "svn2a005b",
+      "svn2a006a",
+      "svn2a006b",
+      "svn2a007a",
+      "svn2a007b",
+      "svn2a008a",
+      "svn2a008b",
+      "svn2a009a",
+      "svn2a009b",
+      "svn2a010a",
+      "svn2a010b",
+      "svn2a011a",
+      "svn2a011b",
+      "svn2a012a",
+      "svn2a012b",
+      "svn2a013a",
+      "svn2a013b",
+      "svn2a014a",
+      "svn2a014b",
+      "svn2a015a",
+      "svn2a015b",
+      "svn2a016a",
+      "svn2a016b",
+      "svn2a017a",
+      "svn2a017b",
+      "svn2a018a",
+      "svn2a018b",
+      "svn2a019a",
+      "svn2a019b",
+      "svn2a020a",
+      "svn2a020b",
+      "svn2a021a",
+      "svn2a021b",
+      "svn2a022a",
+      "svn2a022b",
+      "svn2a023a",
+      "svn2a023b",
+      "svn2a024a",
+      "svn2a024b",
+      "svn2a025a",
+      "svn2a025b",
+      "svn2a026a",
+      "svn2a026b",
+      "svn2a027a",
+      "svn2a027b",
+      "svn2a028a",
+      "svn2a028b",
+      "svn2a029a",
+      "svn2a029b",
+      "svn2a030a",
+      "svn2a030b",
+      "svn2a031a",
+      "svn2a031b",
+      "svn2a033a",
+      "svn2a033b",
+      "svn2a034a",
+      "svn2a034b",
+      "svn2a035a",
+      "svn2a035b",
+      "svn2a036a",
+      "svn2a036b",
+      "svn2a037a",
+      "svn2a037b",
+      "svn2a039a",
+      "svn2a039b",
+      "svn2a040a",
+      "svn2a040b",
+      "svn2a041a",
+      "svn2a041b",
+      "svn2a042a",
+      "svn2a042b",
+      "svn2a043a",
+      "svn2a043b",
+      "svn2a044a",
+      "svn2a044b",
+      "svn2a045a",
+      "svn2a045b",
+      "svn2a046a",
+      "svn2a046b",
+      "svn2a047a",
+      "svn2a047b",
+      "svn2a048a",
+      "svn2a048b",
+      "svn2a049a",
+      "svn2a049b",
+      "svn2a050a",
+      "svn2a050b",
+      "svn2a051a",
+      "svn2a051b",
+      "svn2a052a",
+      "svn2a052b",
+      "svn2a053a",
+      "svn2a053b",
+      "svn2a054a",
+      "svn2a054b",
+      "svn2a055a",
+      "svn2a055b",
+      "svn2a056a",
+      "svn2a056b",
+      "svn2a057a",
+      "svn2a057b",
+      "svn2a058a",
+      "svn2a058b",
+      "svn2a059a",
+      "svn2a059b",
+      "svn2a060a",
+      "svn2a060b",
+      "svn2a061a",
+      "svn2a061b",
+      "svn2a062a",
+      "svn2a062b",
+      "svn2a063a",
+      "svn2a063b",
+      "svn2a064a",
+      "svn2a064b",
+      "svn2b001a",
+      "svn2b001b",
+      "svn2b002a",
+      "svn2b002b",
+      "svn2b003a",
+      "svn2b003b",
+      "svn2b005a",
+      "svn2b005b",
+      "svn2b006a",
+      "svn2b006b",
+      "svn2b007a",
+      "svn2b007b",
+      "svn2b008a",
+      "svn2b008b",
+      "svn2b009a",
+      "svn2b009b",
+      "svn2b011a",
+      "svn2b011b",
+      "svn2b012a",
+      "svn2b012b",
+      "svn2b013a",
+      "svn2b013b",
+      "svn2b019a",
+      "svn2b019b",
+      "svn2b020a",
+      "svn2b020b",
+      "svn2b021a",
+      "svn2b021b",
+      "svn2c001a",
+      "svn2c001b",
+      "svn2c002a",
+      "svn2c002b",
+      "svn2c003a",
+      "svn2c003b",
+      "svn2c004a",
+      "svn2c004b",
+      "svn2c006a",
+      "svn2c006b",
+      "svn2c007a",
+      "svn2c007b",
+      "svn2c008a",
+      "svn2c008b",
+      "svn2c009a",
+      "svn2c009b",
+      "svn2c010a",
+      "svn2c010b",
+      "svn2c011a",
+      "svn2c011b",
+      "svn2c012a",
+      "svn2c012b",
+      "svn2c014a",
+      "svn2c014b",
+      "svn2c015a",
+      "svn2c015b",
+      "svn2c016a",
+      "svn2c016b",
+      "svn2c017a",
+      "svn2c017b",
+      "svn2c018a",
+      "svn2c018b",
+      "svn2c019a",
+      "svn2c019b",
+      "svn2c020a",
+      "svn2c020b",
+      "svn2c021a",
+      "svn2c021b",
+      "svn2c022a",
+      "svn2c022b",
+      "svn2c024a",
+      "svn2c024b",
+      "svn2c025a",
+      "svn2c025b",
+      "svn2c027a",
+      "svn2c027b",
+      "svn2c028a",
+      "svn2c028b",
+      "svn2c029a",
+      "svn2c029b",
+      "svn2c030a",
+      "svn2c030b",
+      "svn2c031a",
+      "svn2c031b",
+      "svn2c032a",
+      "svn2c032b",
+      "sgn2a001a",
+      "sgn2a001b",
+      "sgn2a001c",
+      "sgn2a001d",
+      "sgn2a001e",
+      "sgn2a001f",
+      "sgn2a002a",
+      "sgn2a002b",
+      "sgn2a002c",
+      "sgn2a002d",
+      "sgn2a002e",
+      "sgn2a002f",
+      "sgn2a003a",
+      "sgn2a003b",
+      "sgn2a003c",
+      "sgn2a003d",
+      "sgn2a003e",
+      "sgn2a003f",
+      "sgn2a004a",
+      "sgn2a004b",
+      "sgn2a004c",
+      "sgn2a004d",
+      "sgn2a004e",
+      "sgn2a004f",
+      "sgn2a005a",
+      "sgn2a005b",
+      "sgn2a005c",
+      "sgn2a005d",
+      "sgn2a005e",
+      "sgn2a005f",
+      "sgn2a006a",
+      "sgn2a006b",
+      "sgn2a006c",
+      "sgn2a006d",
+      "sgn2a006e",
+      "sgn2a006f",
+      "sgn2a007a",
+      "sgn2a007b",
+      "sgn2a007c",
+      "sgn2a007d",
+      "sgn2a007e",
+      "sgn2a007f",
+      "sgn2a008a",
+      "sgn2a008b",
+      "sgn2a008c",
+      "sgn2a008d",
+      "sgn2a008e",
+      "sgn2a008f",
+      "sgn2a009a",
+      "sgn2a009b",
+      "sgn2a009c",
+      "sgn2a009d",
+      "sgn2a009e",
+      "sgn2a009f",
+      "sgn2a010a",
+      "sgn2a010b",
+      "sgn2a010c",
+      "sgn2a010d",
+      "sgn2a010e",
+      "sgn2a010f",
+      "sgn2a011a",
+      "sgn2a011b",
+      "sgn2a011c",
+      "sgn2a011d",
+      "sgn2a011e",
+      "sgn2a011f",
+      "sgn2a012a",
+      "sgn2a012b",
+      "sgn2a012c",
+      "sgn2a012d",
+      "sgn2a012e",
+      "sgn2a012f",
+      "sgn2a013a",
+      "sgn2a013b",
+      "sgn2a013c",
+      "sgn2a013d",
+      "sgn2a013e",
+      "sgn2a013f",
+      "rn2001sa",
+      "rn2001sb",
+      "rn2001sc",
+      "rn2001sd",
+      "rn2001se",
+      "rn2001sf",
+      "rn2002sa",
+      "rn2002sb",
+      "rn2002sc",
+      "rn2002sd",
+      "rn2002se",
+      "rn2002sf",
+      "rn2003sa",
+      "rn2003sb",
+      "rn2003sc",
+      "rn2003sd",
+      "rn2003se",
+      "rn2003sf",
+      "rn2004sa",
+      "rn2004sb",
+      "rn2004sc",
+      "rn2004sd",
+      "rn2004se",
+      "rn2004sf",
+      "rn2005sa",
+      "rn2005sb",
+      "rn2005sc",
+      "rn2005sd",
+      "rn2005se",
+      "rn2005sf"
+    ],
+    "exercises": [
+      "evn4s001a",
+      "evn4s002a",
+      "evn4s003a",
+      "evn4s004a",
+      "evn4s005a",
+      "evn4s006a",
+      "evn4s008a",
+      "evn4s007a",
+      "evn3p001a",
+      "evn3p002a",
+      "evn3p003a",
+      "evn3p004a",
+      "evn3p006a",
+      "evn3p007a",
+      "evn3p008a",
+      "evn3p009a",
+      "evn3p010a",
+      "evn3p011a",
+      "evn3p012a",
+      "evn3p013a",
+      "evn3p014a",
+      "evn3p015a",
+      "evn3p005a",
+      "evn3p016a",
+      "evn2a001a",
+      "evn2a002a",
+      "evn2a003a",
+      "evn2a004a",
+      "evn2a005a",
+      "evn2a006a",
+      "evn2a007a",
+      "evn2a008a",
+      "evn2a009a",
+      "evn2a010a",
+      "evn2a011a",
+      "evn2a012a",
+      "evn2a013a",
+      "evn2a014a",
+      "evn2a015a",
+      "evn2a016a",
+      "evn2a017a",
+      "evn2a018a",
+      "evn2a019a",
+      "evn2a020a",
+      "evn2a021a",
+      "evn2a022a",
+      "evn2a023a",
+      "evn2a024a",
+      "evn2a025a",
+      "evn2a026a",
+      "evn2a027a",
+      "evn2a028a",
+      "evn2a029a",
+      "evn2a030a",
+      "evn2a031a",
+      "evn2a033a",
+      "evn2a034a",
+      "evn2a035a",
+      "evn2a036a",
+      "evn2a037a",
+      "evn2a039a",
+      "evn2a040a",
+      "evn2a041a",
+      "evn2a042a",
+      "evn2a043a",
+      "evn2a044a",
+      "evn2a045a",
+      "evn2a046a",
+      "evn2a047a",
+      "evn2a048a",
+      "evn2a049a",
+      "evn2a050a",
+      "evn2a051a",
+      "evn2a052a",
+      "evn2a053a",
+      "evn2a054a",
+      "evn2a055a",
+      "evn2a056a",
+      "evn2a057a",
+      "evn2a058a",
+      "evn2a059a",
+      "evn2a060a",
+      "evn2a061a",
+      "evn2a062a",
+      "evn2a063a",
+      "evn2a064a",
+      "evn2b001a",
+      "evn2b002a",
+      "evn2b003a",
+      "evn2b005a",
+      "evn2b006a",
+      "evn2b007a",
+      "evn2b008a",
+      "evn2b009a",
+      "evn2b011a",
+      "evn2b012a",
+      "evn2b013a",
+      "evn2b019a",
+      "evn2b020a",
+      "evn2b021a",
+      "evn2c001a",
+      "evn2c002a",
+      "evn2c003a",
+      "evn2c004a",
+      "evn2c006a",
+      "evn2c007a",
+      "evn2c008a",
+      "evn2c009a",
+      "evn2c010a",
+      "evn2c011a",
+      "evn2c012a",
+      "evn2c014a",
+      "evn2c015a",
+      "evn2c016a",
+      "evn2c017a",
+      "evn2c018a",
+      "evn2c019a",
+      "evn2c020a",
+      "evn2c021a",
+      "evn2c022a",
+      "evn2c024a",
+      "evn2c025a",
+      "evn2c027a",
+      "evn2c028a",
+      "evn2c029a",
+      "evn2c030a",
+      "evn2c031a",
+      "evn2c032a",
+      "egn2a001a",
+      "egn2a001b",
+      "egn2a001c",
+      "egn2a001d",
+      "egn2a001e",
+      "egn2a001f",
+      "egn2a002a",
+      "egn2a002b",
+      "egn2a002c",
+      "egn2a002d",
+      "egn2a002e",
+      "egn2a002f",
+      "egn2a003a",
+      "egn2a003b",
+      "egn2a003c",
+      "egn2a003d",
+      "egn2a003e",
+      "egn2a003f",
+      "egn2a004a",
+      "egn2a004b",
+      "egn2a004c",
+      "egn2a004d",
+      "egn2a004e",
+      "egn2a004f",
+      "egn2a005a",
+      "egn2a005b",
+      "egn2a005c",
+      "egn2a005d",
+      "egn2a005e",
+      "egn2a005f",
+      "egn2a006a",
+      "egn2a006b",
+      "egn2a006c",
+      "egn2a006d",
+      "egn2a006e",
+      "egn2a006f",
+      "egn2a007a",
+      "egn2a007b",
+      "egn2a007c",
+      "egn2a007d",
+      "egn2a007e",
+      "egn2a007f",
+      "egn2a008a",
+      "egn2a008b",
+      "egn2a008c",
+      "egn2a008d",
+      "egn2a008e",
+      "egn2a008f",
+      "egn2a009a",
+      "egn2a009b",
+      "egn2a009c",
+      "egn2a009d",
+      "egn2a009e",
+      "egn2a009f",
+      "egn2a010a",
+      "egn2a010b",
+      "egn2a010c",
+      "egn2a010d",
+      "egn2a010e",
+      "egn2a010f",
+      "egn2a011a",
+      "egn2a011b",
+      "egn2a011c",
+      "egn2a011d",
+      "egn2a011e",
+      "egn2a011f",
+      "egn2a012a",
+      "egn2a012b",
+      "egn2a012c",
+      "egn2a012d",
+      "egn2a012e",
+      "egn2a012f",
+      "egn2a013a",
+      "egn2a013b",
+      "egn2a013c",
+      "egn2a013d",
+      "egn2a013e",
+      "egn2a013f"
+    ],
+    "lessons": [
+      "lvn4s01",
+      "lvn4s02",
+      "lvn3p01",
+      "lvn3p02",
+      "lvn3p03",
+      "lvn3p04",
+      "lvn2a01",
+      "lvn2a02",
+      "lvn2a03",
+      "lvn2a04",
+      "lvn2a05",
+      "lvn2a06",
+      "lvn2a07",
+      "lvn2a08",
+      "lvn2b01",
+      "lvn2b02",
+      "lvn2b03",
+      "lvn2c01",
+      "lvn2c02",
+      "lvn2c03",
+      "lvn2c04",
+      "lvn2c05",
+      "lgn2a001",
+      "lgn2a002",
+      "lgn2a003",
+      "lgn2a004",
+      "lgn2a005",
+      "lgn2a006",
+      "lgn2a007",
+      "lgn2a008",
+      "lgn2a009",
+      "lgn2a010",
+      "lgn2a011",
+      "lgn2a012",
+      "lgn2a013"
+    ],
+    "readings": [
+      "rn2001",
+      "rn2002",
+      "rn2003",
+      "rn2004",
+      "rn2005"
+    ],
+    "introModules": [],
+    "learningRules": []
+  },
+  "newReferenceIDs": [
+    "ninjaltatokoro",
+    "ninjalobjects2024"
+  ],
+  "priorLinkAudit": "python3 content/staging/check_n2_prior_links.py",
+  "sourceAudit": "python3 content/staging/check_n2_context.py",
+  "runtimeResourceSHA256": "3ba918a46280d3a51d31c52c62f42f9dd9843901b1bc4b9fc0116633c26cf0b5",
+  "registeredCounts": {
+    "wordRoots": 3766,
+    "wordTargets": 3799,
+    "additionalSenses": 33,
+    "grammar": 325,
+    "exercises": 5578,
+    "readings": 315,
+    "assessments": 65,
+    "lessons": 719,
+    "introModules": 9
+  },
+  "localValidation": {
+    "date": "2026-11-19",
+    "contentTests": 86,
+    "manuscripts": 81,
+    "portableSwiftTests": 67,
+    "coreTestClasses": {
+      "LearningStatisticsTests": 6,
+      "WordReadingGuideTests": 4,
+      "WordSenseTests": 3,
+      "SpeechVoiceSelectionTests": 6,
+      "PitchAccentTests": 4,
+      "WrittenSenseTests": 4,
+      "ProperNameTests": 4,
+      "SimilarityChapterTests": 2,
+      "RuleLearningTests": 17,
+      "SessionPlanningTests": 14,
+      "N2ContextChapterTests": 3
+    },
+    "practiceRotation": 250,
+    "sourceAndResourceByteIdentical": true,
+    "platform": "Linux Swift5.10.1; system timezone database and entropy devices provided",
+    "nativeIOSCompiled": false,
+    "appAndSE3TestsExecuted": false,
+    "notes": [
+      "Legacy fixture removes both new rule fields; the deliberately dangling current-pack reference remains rejected.",
+      "Synthetic-clock readiness fixture uses its own clock; final full67-test run passes after both fixture corrections.",
+      "Apple CryptoKit archive and iOS integration are outside the portable harness."
+    ]
+  }
+}

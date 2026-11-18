@@ -3,7 +3,7 @@
   "checkedDate": "2026-11-17",
   "baselineCommit": "0e277d9acb77a36db56619567c194d6014decd00",
   "wordManuscript": "content/authoring/n3-similarity-theme-words.tsv",
-  "manuscriptSHA256": "3c9ce4b9a3d435a46fb3b892cebaceeaae9e67329a56d18a2d4107dfbe2dd606",
+  "manuscriptSHA256": "56c448358d44a5b3ee8d6dfc6d244ff3305d3a8a33bce0ce49291894cbe6fc9f",
   "roots": 120,
   "targets": 124,
   "additionalSenses": 4,
@@ -7206,5 +7206,6 @@
       "readingOwnerID": "vn3l025"
     }
   ],
-  "registeredVersion": "0.20.0"
+  "registeredVersion": "0.20.0",
+  "subsequentAssociationAudit": "content/source-checks/n2-context-chapter.json"
 }
