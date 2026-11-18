@@ -1,12 +1,12 @@
 {
   "status": "Selected dictionary spelling, readings and meanings checked against pinned official XML; original contexts authored, unregistered, independent language review0",
-  "checkedDate": "2026-11-17",
+  "checkedDate": "2026-11-18",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
   "wordManuscript": "content/staging/n2-context-prerequisite-words.tsv",
-  "manuscriptSHA256": "f74849f1b48461fc52f3d401b68877eb9e7ac262358f09ef61c868db0e13f961",
+  "manuscriptSHA256": "2c8cdfabab30c426f0a273364135370a23bdff12bf8b97eff55f992053c4d81f",
   "roots": 14,
-  "targets": 20,
-  "contexts": 40,
+  "targets": 21,
+  "contexts": 42,
   "lessons": 3,
   "independentlyReviewed": 0,
   "dictionary": {
@@ -1031,6 +1031,58 @@
         "N3"
       ],
       "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b021",
+      "text": "当てる",
+      "primaryReading": "あてる",
+      "authoredMeaning": "使光线、照明等照向对象；使对象受到光线等作用",
+      "entryID": 1448860,
+      "senseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "misc": [],
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "あてる",
+          "entryID": 1448860,
+          "senseOrdinals": [
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "あてる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b021a",
+        "svn2b021b"
+      ],
+      "lexemeID": "vn3l026",
+      "readingOwnerID": "vn3l026",
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
     }
-  ]
+  ],
+  "addedSenseReview": "当てる的照射／使暴露于光线义独立于已教的贴靠义；同字同读共用认读，词义分别练习，新增目标不增加词汇根。"
 }

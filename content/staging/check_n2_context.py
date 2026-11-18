@@ -21,7 +21,26 @@ from compile_readings import compile_manuscript as compile_readings
 from check_n3_similarity import word_index
 from word_links import kana, lexical_words, resolve_word, word_lookup
 
-WORD_FILES = ["n4-context-foundation-words.tsv", "n2-information-and-documents.tsv", "n2-context-prerequisite-words.tsv"]
+WORD_FILES = ["n4-context-foundation-words.tsv", "n3-context-foundation-words.tsv",
+              "n2-information-and-documents.tsv", "n2-context-prerequisite-words.tsv", "n2-context-reading-words.tsv"]
+
+# A prerequisite label alone is not evidence that the new function occurs in
+# ordinary practice. These are reviewed surface anchors, not a semantic parser.
+ORDINARY_FUNCTION_WITNESSES = {
+    "gn2a001": ("rn2001sa", "資料館において開催"),
+    "gn2a002": ("rn2002sa", "時代における生活"),
+    "gn2a003": ("rn2001sc", "分かりやすさにおいては"),
+    "gn2a004": ("rn2003sb", "作業を通して確かめる"),
+    "gn2a005": ("rn2003sc", "二か月間を通じて"),
+    "gn2a006": ("rn2002sc", "すべて起きたとは限らない"),
+    "gn2a007": ("rn2001sc", "案内を改訂したところ"),
+    "gn2a008": ("rn2004sc", "誰に向けた発言"),
+    "gn2a009": ("rn2003sf", "次の公演に向けて"),
+    "gn2a010": ("rn2003sf", "応用するうえでは"),
+    "gn2a011": ("rn2004sa", "確認した上で、二つの訳文を比べる"),
+    "gn2a012": ("rn2001sb", "地図の上では"),
+    "gn2a013": ("rn2004sc", "仕事の上では"),
+}
 
 
 def merge(pack, batch):
@@ -34,6 +53,14 @@ def merge(pack, batch):
 def check():
     path = ROOT / "content/staging/n2-context-and-mediation.tsv"
     pack = make_pack()
+    baseline_roots = lexical_words(pack["items"])
+    baseline_entries = {w["jmdictEntryID"] for w in baseline_roots if w.get("jmdictEntryID")}
+    baseline_forms = {(w["text"], kana(w["reading"])) for w in baseline_roots}
+    extra_references = json.loads((path.parent / "n2-context-additional-references.json").read_text())["references"]
+    known_source_ids = {r["id"] for r in pack["references"]}
+    assert len({r["id"] for r in extra_references}) == len(extra_references)
+    assert not {r["id"] for r in extra_references} & known_source_ids, "Draft reference collision"
+    pack["references"].extend(extra_references)
     original_sentences = list(pack["sentences"])
     word_paths = [path.parent / name for name in WORD_FILES]
     index = word_index(pack, word_paths)
@@ -69,6 +96,11 @@ def check():
                     assert not sense["readingRestrictions"] or any(r["reading"] in sense["readingRestrictions"] for r in source["readingFacts"]), word["id"]
         merge(pack, word_batch)
         word_batches.append(word_batch)
+    new_roots = lexical_words([w for b in word_batches for w in b["items"]])
+    new_entries = [w["jmdictEntryID"] for w in new_roots]
+    assert len(set(new_entries)) == len(new_entries), "One dictionary root counted more than once"
+    assert not set(new_entries) & baseline_entries, "An existing root must be an extra sense, not a new root"
+    assert not {(w["text"], kana(w["reading"])) for w in new_roots} & baseline_forms, "Existing spelling/reading root duplicated"
     batch, coverage = compile_manuscript(path, pack)
     new = {i["id"]: i for i in batch["items"]}
     items = {i["id"]: i for i in pack["items"]}
@@ -126,6 +158,15 @@ def check():
         for surface, reading, lemma in RUBY.findall(row[3]):
             if lemma not in {"-", "?"} and not resolve_word(lookup, surface, reading, lemma):
                 gaps[lemma or surface].append(row[1] + row[2])
+    word_context_gaps = defaultdict(list)
+    for word_path in word_paths:
+        for line in word_path.read_text().splitlines():
+            row = line.split("\t")
+            if row[0] != "E":
+                continue
+            for surface, reading, lemma in RUBY.findall(row[3]):
+                if lemma not in {"-", "?"} and not resolve_word(lookup, surface, reading, lemma):
+                    word_context_gaps[lemma or surface].append(row[1] + row[2])
     # Explicit references may never silently degrade to an unknown word, even
     # when a narrow sense has different accepted readings from its parent.
     for source_path, tag, column in [(path, "C", 3)] + [(p, "E", 3) for p in word_paths]:
@@ -146,6 +187,10 @@ def check():
     assessments = [r for r in passages.values() if r["purpose"] == "assessment"]
     assert len(assessments) / len(passages) >= 0.20, "Less than20% heldout readings"
     assert new.keys() <= {gid for r in practice for gid in r["grammarIDs"]}, "Function without ordinary reading"
+    assert ORDINARY_FUNCTION_WITNESSES.keys() == new.keys(), "Missing function-use witness"
+    for gid, (sid, anchor) in ORDINARY_FUNCTION_WITNESSES.items():
+        passage = next(r for r in practice if sid in r["sentenceIDs"])
+        assert gid in passage["grammarIDs"] and anchor in text(reading_sentences[sid]), (gid, "ordinary function use changed")
     for lesson in batch["lessons"]:
         reading = passages[lesson["readingID"]]
         assert reading["purpose"] == "practice" and set(lesson["itemIDs"]) <= set(reading["grammarIDs"])
@@ -184,6 +229,10 @@ def check():
     assert not old_texts.intersection(text(s) for s in all_new), "Registered text reused under a new ID"
     for key, rows in reading_batch.items():
         assert not {r["id"] for r in rows} & {r["id"] for r in pack[key]}, (key, "Registered reading collision")
+    complete_pack_validated = not (gaps or word_context_gaps or reading_gaps)
+    if complete_pack_validated:
+        merge(pack, reading_batch)
+        validate(pack)
     return dict(status="Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
         manuscript=str(path.relative_to(ROOT)), manuscriptSHA256=hashlib.sha256(path.read_bytes()).hexdigest(),
         baselineRuntimeVersion=pack["version"], baselineRuntimeSHA256=hashlib.sha256(resource.read_bytes()).hexdigest(),
@@ -192,17 +241,22 @@ def check():
         wordRoots=sum(len(lexical_words(b["items"])) for b in word_batches), wordTargets=sum(len(b["items"]) for b in word_batches),
         n2WordRoots=sum(w["level"] == "N2" for b in word_batches for w in lexical_words(b["items"])),
         n4FoundationRoots=sum(w["level"] == "N4" for b in word_batches for w in lexical_words(b["items"])),
+        n3FoundationRoots=sum(w["level"] == "N3" for b in word_batches for w in lexical_words(b["items"])),
         wordContexts=sum(len(b["sentences"]) for b in word_batches), wordLessons=sum(len(b["lessons"]) for b in word_batches),
         wordManuscripts={str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in word_paths},
         readingManuscript=str(reading_path.relative_to(ROOT)), readingManuscriptSHA256=hashlib.sha256(reading_path.read_bytes()).hexdigest(),
         readings=len(passages), practiceReadings=len(practice), assessmentReadings=len(assessments), readingQuestions=sum(len(r["questions"]) for r in passages.values()),
-        allDraftFunctionsUsedInOrdinaryReadings=True, passageChecks=passage_checks,
+        allDraftFunctionsUsedInOrdinaryReadings=True,
+        ordinaryFunctionWitnesses={gid: dict(sentenceID=sid, surface=anchor) for gid, (sid, anchor) in ORDINARY_FUNCTION_WITNESSES.items()},
+        completeDraftPackValidated=complete_pack_validated, passageChecks=passage_checks,
+        readingRulePrerequisites={rid: r["rulePrerequisites"] for rid, r in passages.items() if r.get("rulePrerequisites")},
         unresolvedReadingForms=len(reading_gaps), readingGaps=dict(sorted(reading_gaps.items())),
+        unresolvedWordExampleForms=len(word_context_gaps), wordExampleGaps=dict(sorted(word_context_gaps.items())),
         readingRegistrationReady=False,
         heldoutFragmentCharacters=20, heldoutLeaks=0, unresolvedForms=len(gaps), gaps=dict(sorted(gaps.items())),
         independentLanguageReviews=0, remaining=["Review all contextual word links and teach any missing meanings/readings.",
             "Resolve reading word forms and review every contextual sense; numeric constructions/derivations must not inflate roots.",
-            "Teach remaining sentence prerequisites: Vたところ (result of trying), directed-audience に向けた and Vるうえで (relevant activity domain); do not hide them as learned grammar.",
+            "Complete contextual meaning and kana-only word coverage review; surface resolution is not proof of a correct sense.",
             "Register only after source checks, regenerate and run curriculum/native validation.",
             "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."])
 

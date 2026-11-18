@@ -1,0 +1,74 @@
+{
+  "status": "Selected dictionary spelling, readings and contextual senses checked against pinned official XML; original contexts authored, unregistered, independent language review0",
+  "checkedDate": "2026-11-18",
+  "baselineCommit": "29073056a1f994cbde2fbb2e9eceecb75cd66037",
+  "wordManuscript": "content/staging/n3-context-foundation-words.tsv",
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "attribution": "JMdict / EDRDG; selected lexical facts only. No source examples, English/Chinese glosses, illustrations, audio or full dictionary bundled."
+  },
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "levelPolicy": "Self-authored reading order. CommunityN1 labels may be introduced earlier for these reading contexts and are explicitly recorded; the N3自身 backfill does not reduce the additional2500 N2-root requirement.",
+  "manuscriptSHA256": "e078cbcebd82c338bb983115e3635d20d542e2250291e154d9f41ac5c7ab1b98",
+  "roots": 1,
+  "targets": 1,
+  "contexts": 2,
+  "lessons": 1,
+  "entries": [
+    {
+      "itemID": "vn3p001",
+      "text": "自身",
+      "primaryReading": "じしん",
+      "authoredMeaning": "自身、本人；强调所指的人自己",
+      "entryID": 1318000,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じしん",
+          "entryID": 1318000,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "じしん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3p001a",
+        "svn3p001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "status": "Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending",
   "manuscript": "content/staging/n2-context-and-mediation.tsv",
-  "manuscriptSHA256": "21ce1eac795b175a6e7bb20aaa3b50487d744a966d24225ee3a410551aafa73a",
+  "manuscriptSHA256": "58a66e8ffc368316e24de25281f6f1ae16430617407d675c79e8477ce89d13a2",
   "baselineRuntimeVersion": "0.20.0",
   "baselineRuntimeSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
-  "draftGrammarFunctions": 6,
-  "draftOriginalContexts": 36,
-  "draftExercises": 36,
-  "draftLessons": 6,
+  "draftGrammarFunctions": 13,
+  "draftOriginalContexts": 78,
+  "draftExercises": 78,
+  "draftLessons": 13,
   "draftReferencePatterns": {
     "ni-oite-ni-okeru": [
       "gn2a001",
@@ -20,131 +20,149 @@
     ],
     "to-wa-kagiranai": [
       "gn2a006"
+    ],
+    "ta-tokoro": [
+      "gn2a007"
+    ],
+    "ni-mukete": [
+      "gn2a008",
+      "gn2a009"
+    ],
+    "ue-de": [
+      "gn2a010",
+      "gn2a011",
+      "gn2a012",
+      "gn2a013"
     ]
   },
   "registeredNewN2Targets": 0,
-  "wordRoots": 83,
-  "wordTargets": 89,
-  "n2WordRoots": 78,
+  "wordRoots": 118,
+  "wordTargets": 125,
+  "n2WordRoots": 112,
   "n4FoundationRoots": 5,
-  "wordContexts": 178,
-  "wordLessons": 12,
+  "n3FoundationRoots": 1,
+  "wordContexts": 250,
+  "wordLessons": 18,
   "wordManuscripts": {
     "content/staging/n4-context-foundation-words.tsv": "83189c5c34589fd6bcf7e7e7877ed15840a1d387ddd1219d42cd3717779e1fda",
-    "content/staging/n2-information-and-documents.tsv": "115216f3455ccc35494d1707cb8dbfa819c53d8a9b3804530ec613ec0f7d3a2f",
-    "content/staging/n2-context-prerequisite-words.tsv": "f74849f1b48461fc52f3d401b68877eb9e7ac262358f09ef61c868db0e13f961"
+    "content/staging/n3-context-foundation-words.tsv": "e078cbcebd82c338bb983115e3635d20d542e2250291e154d9f41ac5c7ab1b98",
+    "content/staging/n2-information-and-documents.tsv": "b388d58f55d70b087f59222373aa38ecefa7d86e04559f84a4aec9a4f9138b2d",
+    "content/staging/n2-context-prerequisite-words.tsv": "2c8cdfabab30c426f0a273364135370a23bdff12bf8b97eff55f992053c4d81f",
+    "content/staging/n2-context-reading-words.tsv": "984cd40f20db2a5cbfb7687291d2d3c815799e7289fdf65ac2fd7cdac84134cd"
   },
   "readingManuscript": "content/staging/n2-context-readings.tsv",
-  "readingManuscriptSHA256": "d5d2cb24cefc3b873177c9859c793909dab32fa481c7a4f86c39b23926e29238",
+  "readingManuscriptSHA256": "5f1c2869a0c1358dde6f8dfa2785a6d69b61c1ee7c314babc88433685474f9f2",
   "readings": 5,
   "practiceReadings": 4,
   "assessmentReadings": 1,
   "readingQuestions": 10,
   "allDraftFunctionsUsedInOrdinaryReadings": true,
+  "ordinaryFunctionWitnesses": {
+    "gn2a001": {
+      "sentenceID": "rn2001sa",
+      "surface": "資料館において開催"
+    },
+    "gn2a002": {
+      "sentenceID": "rn2002sa",
+      "surface": "時代における生活"
+    },
+    "gn2a003": {
+      "sentenceID": "rn2001sc",
+      "surface": "分かりやすさにおいては"
+    },
+    "gn2a004": {
+      "sentenceID": "rn2003sb",
+      "surface": "作業を通して確かめる"
+    },
+    "gn2a005": {
+      "sentenceID": "rn2003sc",
+      "surface": "二か月間を通じて"
+    },
+    "gn2a006": {
+      "sentenceID": "rn2002sc",
+      "surface": "すべて起きたとは限らない"
+    },
+    "gn2a007": {
+      "sentenceID": "rn2001sc",
+      "surface": "案内を改訂したところ"
+    },
+    "gn2a008": {
+      "sentenceID": "rn2004sc",
+      "surface": "誰に向けた発言"
+    },
+    "gn2a009": {
+      "sentenceID": "rn2003sf",
+      "surface": "次の公演に向けて"
+    },
+    "gn2a010": {
+      "sentenceID": "rn2003sf",
+      "surface": "応用するうえでは"
+    },
+    "gn2a011": {
+      "sentenceID": "rn2004sa",
+      "surface": "確認した上で、二つの訳文を比べる"
+    },
+    "gn2a012": {
+      "sentenceID": "rn2001sb",
+      "surface": "地図の上では"
+    },
+    "gn2a013": {
+      "sentenceID": "rn2004sc",
+      "surface": "仕事の上では"
+    }
+  },
+  "completeDraftPackValidated": true,
   "passageChecks": [
     {
       "id": "rn2001",
       "purpose": "practice",
-      "characters": 489,
-      "annotatedOccurrences": 106,
-      "unlinkedOccurrences": 8
+      "characters": 520,
+      "annotatedOccurrences": 119,
+      "unlinkedOccurrences": 0
     },
     {
       "id": "rn2002",
       "purpose": "practice",
       "characters": 495,
-      "annotatedOccurrences": 111,
-      "unlinkedOccurrences": 6
+      "annotatedOccurrences": 120,
+      "unlinkedOccurrences": 0
     },
     {
       "id": "rn2003",
       "purpose": "practice",
-      "characters": 502,
-      "annotatedOccurrences": 107,
-      "unlinkedOccurrences": 2
+      "characters": 528,
+      "annotatedOccurrences": 121,
+      "unlinkedOccurrences": 0
     },
     {
       "id": "rn2004",
       "purpose": "practice",
-      "characters": 504,
-      "annotatedOccurrences": 109,
-      "unlinkedOccurrences": 3
+      "characters": 535,
+      "annotatedOccurrences": 122,
+      "unlinkedOccurrences": 0
     },
     {
       "id": "rn2005",
       "purpose": "assessment",
       "characters": 515,
-      "annotatedOccurrences": 115,
-      "unlinkedOccurrences": 5
+      "annotatedOccurrences": 123,
+      "unlinkedOccurrences": 0
     }
   ],
-  "unresolvedReadingForms": 20,
-  "readingGaps": {
-    "その後": [
-      "rn2002sc"
-    ],
-    "催し": [
-      "rn2001sd",
-      "rn2001sf"
-    ],
-    "写真展": [
-      "rn2001sa"
-    ],
-    "初稿": [
-      "rn2001sb"
-    ],
-    "四月七日": [
-      "rn2002sb"
-    ],
-    "四月三日": [
-      "rn2002sb"
-    ],
-    "小冊子": [
-      "rn2005sa",
-      "rn2005se"
-    ],
-    "挙げる": [
-      "rn2005sf"
-    ],
-    "昨年": [
-      "rn2001sa",
-      "rn2005se"
-    ],
-    "最寄り": [
-      "rn2001sb"
-    ],
-    "混同": [
-      "rn2001sa"
-    ],
-    "照らし合わせる": [
-      "rn2002sa"
-    ],
-    "生む": [
-      "rn2003se"
-    ],
-    "登録者": [
-      "rn2001sf"
-    ],
-    "短編": [
-      "rn2004sa"
-    ],
-    "職人": [
-      "rn2003sa"
-    ],
-    "自身": [
-      "rn2005sd"
-    ],
-    "視線": [
-      "rn2004sb"
-    ],
-    "記す": [
-      "rn2002sa",
-      "rn2004sd"
-    ],
-    "読み違い": [
-      "rn2002sf"
+  "readingRulePrerequisites": {
+    "rn2002": [
+      {
+        "ruleID": "rulemonth",
+        "questionIDs": [
+          "rulemonths1q3"
+        ]
+      }
     ]
   },
+  "unresolvedReadingForms": 0,
+  "readingGaps": {},
+  "unresolvedWordExampleForms": 0,
+  "wordExampleGaps": {},
   "readingRegistrationReady": false,
   "heldoutFragmentCharacters": 20,
   "heldoutLeaks": 0,
@@ -154,7 +172,7 @@
   "remaining": [
     "Review all contextual word links and teach any missing meanings/readings.",
     "Resolve reading word forms and review every contextual sense; numeric constructions/derivations must not inflate roots.",
-    "Teach remaining sentence prerequisites: Vたところ (result of trying), directed-audience に向けた and Vるうえで (relevant activity domain); do not hide them as learned grammar.",
+    "Complete contextual meaning and kana-only word coverage review; surface resolution is not proof of a correct sense.",
     "Register only after source checks, regenerate and run curriculum/native validation.",
     "Preserve the additional2500 N2 roots,140 grammar points,140 readings,100 lessons,28 assessments and six3-reading bridges."
   ]

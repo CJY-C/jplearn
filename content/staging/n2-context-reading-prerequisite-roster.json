@@ -1,11 +1,11 @@
 {
-  "status": "Reading-prerequisite candidates, not delivered words; primary spellings/readings located, meanings/teaching still pending",
-  "checkedDate": "2026-11-17",
+  "status": "Original20 reading candidate forms resolved into17 authored roots (16N2,1N3), two rule-based dates and one known-word paraphrase; chapter unregistered, contextual final review pending.",
+  "checkedDate": "2026-11-19",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
   "readingManuscript": "content/staging/n2-context-readings.tsv",
-  "readingManuscriptSHA256": "d5d2cb24cefc3b873177c9859c793909dab32fa481c7a4f86c39b23926e29238",
+  "readingManuscriptSHA256": "5f1c2869a0c1358dde6f8dfa2785a6d69b61c1ee7c314babc88433685474f9f2",
   "candidateForms": 20,
-  "selectedNewRoots": 0,
+  "selectedNewRoots": 17,
   "primaryDictionary": {
     "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
     "distributionDate": "2026-11-16",
@@ -73,8 +73,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Consider the taughtその and後 construction and the specifically listedそのあと/そのご/そののち readings; no blanket後 reading alias."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c016"
+      }
     },
     {
       "form": "催し",
@@ -101,8 +105,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c013"
+      }
     },
     {
       "form": "写真展",
@@ -128,8 +136,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c009"
+      }
     },
     {
       "form": "初稿",
@@ -155,8 +167,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c011"
+      }
     },
     {
       "form": "四月七日",
@@ -164,8 +180,20 @@
         "rn2002sb"
       ],
       "dictionaryCandidates": [],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Productive date expression, not a new root; verify previously taught calendar readings and represent the date construction explicitly."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "productiveDate",
+        "ruleID": "rulemonth",
+        "exceptionQuestionIDs": [
+          "rulemonths1q3"
+        ],
+        "targets": [
+          "vn5504",
+          "vn5533"
+        ],
+        "note": "Four-month April readingし is explicitly verified;月がつ from the rule, day from existing taught date. No full-date root."
+      }
     },
     {
       "form": "四月三日",
@@ -173,8 +201,20 @@
         "rn2002sb"
       ],
       "dictionaryCandidates": [],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Productive date expression, not a new root; verify previously taught calendar readings and represent the date construction explicitly."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "productiveDate",
+        "ruleID": "rulemonth",
+        "exceptionQuestionIDs": [
+          "rulemonths1q3"
+        ],
+        "targets": [
+          "vn5504",
+          "vn5529"
+        ],
+        "note": "Four-month April readingし is explicitly verified;月がつ from the rule, day from existing taught date. No full-date root."
+      }
     },
     {
       "form": "小冊子",
@@ -201,8 +241,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c022"
+      }
     },
     {
       "form": "挙げる",
@@ -238,8 +282,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Current official entry2864818 is separate from上げる; inspect the selected enumeration sense rather than copying the older broad spelling cluster."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c023"
+      }
     },
     {
       "form": "昨年",
@@ -266,8 +314,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c004"
+      }
     },
     {
       "form": "最寄り",
@@ -294,8 +346,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c012"
+      }
     },
     {
       "form": "混同",
@@ -321,8 +377,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c010"
+      }
     },
     {
       "form": "照らし合わせる",
@@ -354,8 +414,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c015"
+      }
     },
     {
       "form": "生む",
@@ -383,8 +447,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Current source also lists産む under the same entry; inspect all existing roots and contextual restrictions before assigning a new root or additional sense."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c019"
+      }
     },
     {
       "form": "登録者",
@@ -410,8 +478,16 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Check regular登録+者 formation before counting any additional root; a listed dictionary entry alone does not justify duplicating transparent derivation."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "paraphrase",
+        "text": "登録した人",
+        "targets": [
+          "vn2a032"
+        ],
+        "note": "Use a known relative clause; no untaught者 suffix inferred and no registrant root added."
+      }
     },
     {
       "form": "短編",
@@ -438,8 +514,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c020"
+      }
     },
     {
       "form": "職人",
@@ -465,8 +545,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c018"
+      }
     },
     {
       "form": "自身",
@@ -492,8 +576,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn3p001"
+      }
     },
     {
       "form": "視線",
@@ -519,8 +607,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c021"
+      }
     },
     {
       "form": "記す",
@@ -560,8 +652,12 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c014"
+      }
     },
     {
       "form": "読み違い",
@@ -588,10 +684,16 @@
           ]
         }
       ],
-      "reviewStatus": "pending contextual decision; not counted as a selected new root",
-      "nextAction": "Dictionary candidate only; select contextual meaning/readings, check existing roots, then write original teaching contexts."
+      "reviewStatus": "Authored disposition checked; independent language review0, unregistered",
+      "nextAction": "Final contextual association and old-index review, then chapter registration and validation.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c017"
+      }
     }
   ],
   "independentlyReviewed": 0,
-  "runtimeUnchanged": true
+  "runtimeUnchanged": true,
+  "selectedN2Roots": 16,
+  "selectedN3BackfillRoots": 1
 }

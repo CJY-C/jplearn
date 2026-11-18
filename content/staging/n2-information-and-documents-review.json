@@ -1,9 +1,9 @@
 {
   "status": "Selected dictionary spelling, readings and meanings checked against pinned official XML; original contexts authored, unregistered, independent language review0",
-  "checkedDate": "2026-11-17",
+  "checkedDate": "2026-11-19",
   "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
   "wordManuscript": "content/staging/n2-information-and-documents.tsv",
-  "manuscriptSHA256": "115216f3455ccc35494d1707cb8dbfa819c53d8a9b3804530ec613ec0f7d3a2f",
+  "manuscriptSHA256": "b388d58f55d70b087f59222373aa38ecefa7d86e04559f84a4aec9a4f9138b2d",
   "roots": 64,
   "targets": 64,
   "contexts": 128,
@@ -3306,5 +3306,6 @@
       ],
       "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
     }
-  ]
+  ],
+  "controlledContextReview": "Unnecessary supporting vocabulary paraphrased with taught words; productive 方, 直す, numerals and units decomposed with explanations. Word targets, readings, selected dictionary senses and two own contexts per target preserved. Independent language review remains0."
 }
