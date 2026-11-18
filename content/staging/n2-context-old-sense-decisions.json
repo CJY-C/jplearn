@@ -1,0 +1,1962 @@
+{
+  "status": "Provisional contextual choices after reading all137 occurrences; no old manuscripts changed, scope authoring and final application still pending",
+  "checkedDate": "2026-11-19",
+  "baselineRuntimeCommit": "29073056a1f994cbde2fbb2e9eceecb75cd66037",
+  "draftCommit": "38f94c6",
+  "independentLanguageReviews": 0,
+  "registrationReady": false,
+  "requirements": [
+    {
+      "targetID": "vn2b017",
+      "earliestLevel": "N4",
+      "reason": "N4 technology and humidity contexts precede currentN2 teaching; rewrite own examples at the earlier level."
+    },
+    {
+      "targetIDs": [
+        "vn2b015",
+        "vn2b016",
+        "vn2b018"
+      ],
+      "earliestLevel": "N3",
+      "reason": "Narrative depiction, experience of ideas and exchanging opinions already occur inN3; avoid dependencies on newN2 roots in their own examples."
+    },
+    {
+      "dictionaryEntryID": 1283190,
+      "senseOrdinal": 5,
+      "earliestLevel": "N4",
+      "reason": "Sound pitch is not loudness or abstract quality; author two distinct contexts."
+    },
+    {
+      "dictionaryEntryID": 1583460,
+      "senseOrdinal": 4,
+      "earliestLevel": "N3",
+      "reason": "Tracing a ring in flight is not verbal narrative description; author two distinct contexts."
+    },
+    {
+      "earlierVocabularyPolicy": "Newly linking15 existing occurrences requires checking learnability at their existing levels. 交流 occurs inN4; several other new roots already occur inN3 own examples. Do not count earlier backfills toward2500 additionalN2 roots."
+    },
+    {
+      "compatibility": "Preserve existing Japanese text, ruby, Chinese, answer choices and ordering while applying reviewed associations. If an existing pronunciation is wrong, make a separate evidenced correction rather than forcing a sense match."
+    }
+  ],
+  "decisions": [
+    {
+      "source": "n5-structures.tsv",
+      "key": [
+        "gn511",
+        "d"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "家族の中で兄が一番背が高いです。",
+      "translation": "家里哥哥个子最高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-structures.tsv",
+      "key": [
+        "gn540",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この本は高くなかったです。",
+      "translation": "这本书当时不贵。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-readings.tsv",
+      "key": [
+        "rn5028",
+        "3"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "友達は絵を描きに行きました。",
+      "translation": "朋友去那里是为了画画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-readings.tsv",
+      "key": [
+        "rn5040",
+        "2"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "ホテルは古かったですが、高くなかったです。",
+      "translation": "旅馆很旧，不过不贵。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-reading-words.tsv",
+      "key": [
+        "vn5035",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "海の絵を描きました。",
+      "translation": "画了大海的画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-reading-words.tsv",
+      "key": [
+        "vn5035",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "妹は猫を描いています。",
+      "translation": "妹妹正在画猫。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-core-words.tsv",
+      "key": [
+        "vn5111",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "兄は背が高いです。",
+      "translation": "哥哥个子高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-core-words.tsv",
+      "key": [
+        "vn5118",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "女の子が猫の絵を描いています。",
+      "translation": "一个女孩正在画猫。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-everyday-words.tsv",
+      "key": [
+        "vn5355",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "とても立派な絵を描きましたね。",
+      "translation": "你画了一幅非常出色的画呢。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-everyday-words.tsv",
+      "key": [
+        "vn5386",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "弟は動物の絵を描くのが好きです。",
+      "translation": "弟弟喜欢画动物。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-numbers-and-reading-words.tsv",
+      "key": [
+        "vn5567",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "弟は漫画を描くのが好きです。",
+      "translation": "弟弟喜欢画漫画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-expanded-context-words.tsv",
+      "key": [
+        "vn5717",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "紙に小さな丸を描いてください。",
+      "translation": "请在纸上画一个小圆。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-expanded-context-words.tsv",
+      "key": [
+        "vn5799",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "子供が星の絵を描きました。",
+      "translation": "孩子画了星星的图画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5901",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高い棚の上に箱があります。",
+      "translation": "高架子上有一个箱子。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5904",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この部屋は天井が高いです。",
+      "translation": "这个房间天花板很高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5909",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この枕は少し高いです。",
+      "translation": "这个枕头有点高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5942",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "今日は波が高いです。",
+      "translation": "今天浪很高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5943",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "旅行先の風景を絵に描きました。",
+      "translation": "把旅行地的风景画成了画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-scene-words.tsv",
+      "key": [
+        "vn5968",
+        "b"
+      ],
+      "surface": "指",
+      "reading": "さ",
+      "text": "指で地図の場所を指しました。",
+      "translation": "用手指指出了地图上的位置。",
+      "before": "vn4i171",
+      "provisionalTargetID": "vn4i171",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-states-and-cues.tsv",
+      "key": [
+        "vn4204",
+        "b"
+      ],
+      "surface": "交流",
+      "reading": "こうりゅう",
+      "text": "大学では国際交流が盛んに行われています。",
+      "translation": "大学里国际交流活动开展得很活跃。",
+      "before": null,
+      "provisionalTargetID": "vn2b004",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n4-activities-and-notices.tsv",
+      "key": [
+        "vn4329",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高い技術が必要な仕事です。",
+      "translation": "这是一项需要高水平技术的工作。",
+      "before": "v0041",
+      "provisionalTargetID": "vn2b017",
+      "decision": "Level/degree (JMdict1283190 sense3), not physical height or price. Move/add this scope before itsN4 uses; preserve own reading sharing."
+    },
+    {
+      "source": "n4-activities-and-notices.tsv",
+      "key": [
+        "vn4341",
+        "b"
+      ],
+      "surface": "交流",
+      "reading": "こうりゅう",
+      "text": "国際交流のイベントに参加しました。",
+      "translation": "参加了国际交流活动。",
+      "before": null,
+      "provisionalTargetID": "vn2b004",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n4-completion-structures.tsv",
+      "key": [
+        "gn443",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この鞄は高くても買いたいです。",
+      "translation": "这个包即使贵也想买。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-completion-structures.tsv",
+      "key": [
+        "gn456",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この本は高いだろうと思いましたが、安かったです。",
+      "translation": "本来以为这本书会贵，实际很便宜。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-completion-structures.tsv",
+      "key": [
+        "gn481",
+        "d"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "今は高いので、安いときに買っておけばよかったです。",
+      "translation": "现在贵了，趁便宜时买好就好了。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-completion-structures.tsv",
+      "key": [
+        "gn487",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この山の高さを調べました。",
+      "translation": "调查了这座山的高度。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-notices-and-scene-words.tsv",
+      "key": [
+        "vn4513",
+        "b"
+      ],
+      "surface": "達",
+      "reading": "たっ",
+      "text": "定員に達したので、受付は終わりました。",
+      "translation": "因为名额已满，报名结束了。",
+      "before": "vn3h042",
+      "provisionalTargetID": "vn3h042",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-notices-and-scene-words.tsv",
+      "key": [
+        "vn4584",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "雨の日は湿度が高くなります。",
+      "translation": "雨天湿度会升高。",
+      "before": "v0041",
+      "provisionalTargetID": "vn2b017",
+      "decision": "Level/degree (JMdict1283190 sense3), not physical height or price. Move/add this scope before itsN4 uses; preserve own reading sharing."
+    },
+    {
+      "source": "n4-actions-and-states.tsv",
+      "key": [
+        "vn4842",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "子供は高い木を見上げていました。",
+      "translation": "孩子仰头看着高高的树。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-actions-and-states.tsv",
+      "key": [
+        "vn4890",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "子供はおもちゃに飽きて、絵を描き始めました。",
+      "translation": "孩子玩腻了玩具，开始画画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-actions-and-states.tsv",
+      "key": [
+        "vn4953",
+        "b"
+      ],
+      "surface": "高さ",
+      "reading": "たかさ",
+      "text": "薄い板を棚の下に入れて、高さを変えました。",
+      "translation": "把薄板放到架子下面，改变了高度。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i087",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "駅の前に高いビルが建ちました。",
+      "translation": "车站前盖起了高楼。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i113",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "古い都の地図には、大きい門が描かれていました。",
+      "translation": "旧都城的地图上画着宏伟的城门。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i144",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "冬は部屋を暖めるので、光熱費が高くなりました。",
+      "translation": "冬天需要给房间取暖，因此能源费用增加了。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i171",
+        "a"
+      ],
+      "surface": "指",
+      "reading": "さ",
+      "text": "地図の駅を指して、待ち合わせの場所を伝えました。",
+      "translation": "指着地图上的车站，告诉了对方见面地点。",
+      "before": "vn4i171",
+      "provisionalTargetID": "vn4i171",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i171",
+        "b"
+      ],
+      "surface": "指",
+      "reading": "さ",
+      "text": "時計の針は五時を指していました。",
+      "translation": "钟表的指针指着五点。",
+      "before": "vn4i171",
+      "provisionalTargetID": "vn4i171",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i180",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "先生から絵を描く方法を学びました。",
+      "translation": "向老师学习了画画的方法。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life-readings.tsv",
+      "key": [
+        "rn4407",
+        "1"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "祖父の古い写真には、地元の商店街が写っています。木の家が多く、高いビルは見えません。",
+      "translation": "祖父的旧照片里拍着家乡的商业街。木房子很多，看不到高楼。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life-readings.tsv",
+      "key": [
+        "rn4408",
+        "6"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "今夜は家で音楽を楽しんでください。来週の番組では、絵を描く人の話を聞く予定です。",
+      "translation": "今晚请在家欣赏音乐。下周的节目计划采访一位画画的人。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-society-and-daily-life-readings.tsv",
+      "key": [
+        "rn4412",
+        "3"
+      ],
+      "surface": "指",
+      "reading": "さ",
+      "text": "私は青い着物を指して、「これは絹ですか」と聞きました。それは右にありました。",
+      "translation": "我指着一件蓝色和服问：“这是丝绸的吗？”它摆在右边。",
+      "before": "vn4i171",
+      "provisionalTargetID": "vn4i171",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n5-everyday-senses.tsv",
+      "key": [
+        "vn5s002",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "地図に青い線を引いて、川を描きました。",
+      "translation": "在地图上画了蓝线，描出了河流。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-reactions-and-decisions.tsv",
+      "key": [
+        "vn4j001",
+        "a"
+      ],
+      "surface": "触",
+      "reading": "ふ",
+      "text": "暗い廊下で、手が冷たい壁に触れました。",
+      "translation": "在昏暗的走廊里，手碰到了冰冷的墙。",
+      "before": "vn4j001",
+      "provisionalTargetID": "vn4j001",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-reactions-and-decisions.tsv",
+      "key": [
+        "vn4j001",
+        "b"
+      ],
+      "surface": "触",
+      "reading": "ふ",
+      "text": "窓から入った風が、頬に触れました。",
+      "translation": "窗外吹来的风拂过了脸颊。",
+      "before": "vn4j001",
+      "provisionalTargetID": "vn4j001",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n4-reactions-and-decisions.tsv",
+      "key": [
+        "vn4j072",
+        "b"
+      ],
+      "surface": "高さ",
+      "reading": "たかさ",
+      "text": "音の高さを少し高めて、違いを比べました。",
+      "translation": "把音高稍微提高，比较了差异。",
+      "before": "v0041",
+      "provisionalTargetID": null,
+      "decision": "Pitch of sound: JMdict1283190 sense5, not loudness sense4 or quality sense3. Author separateN4 contextual scope and two own examples; this does not infer lexical pitch accent."
+    },
+    {
+      "source": "n3-observation-and-explanation.tsv",
+      "key": [
+        "vn3a024",
+        "b"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "壊れた部分を交換したので、全部を買い替える必要はありませんでした。",
+      "translation": "换了损坏的部分，因此不需要把整个东西都换掉。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn3i070",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-observation-and-explanation.tsv",
+      "key": [
+        "vn3a092",
+        "b"
+      ],
+      "surface": "省略",
+      "reading": "しょうりゃく",
+      "text": "記事の題名と本文を区別し、省略された条件も確認しました。",
+      "translation": "区分了报道的标题与正文，也确认了被省略的条件。",
+      "before": null,
+      "provisionalTargetID": "vn2c026",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-source-role-and-viewpoint-readings.tsv",
+      "key": [
+        "rn3007",
+        "2"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "安い物は机の上を広く照らせますが、光の強さは変えられません。もう一つは少し高いですが、光を調節できます。",
+      "translation": "便宜的那款能照亮较大的桌面区域，但不能改变光的强弱。另一款价格略高，却可以调节灯光。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-source-role-and-viewpoint-readings.tsv",
+      "key": [
+        "rn3007",
+        "5"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高い商品は、明るいだけでなく、必要な時には光を弱めることもできます。私はその点を評価して、こちらを選びました。",
+      "translation": "价格高的那款不只够亮，需要时也能把灯光调弱。我看重这一点，选择了它。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-source-role-and-viewpoint-readings.tsv",
+      "key": [
+        "rn3007",
+        "6"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "値段が高いから全部の人に合うのではなく、私の使い方に合っていたのだと思います。購入の理由を短くメモしておきました。",
+      "translation": "我认为，选择它不是因为价格高就适合所有人，而是因为适合我的用法。我简短记下了购买理由。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b011",
+        "a"
+      ],
+      "surface": "売り上げ",
+      "reading": "うりあげ",
+      "text": "前の記録から、来月の売り上げを予測しました。",
+      "translation": "根据之前的记录，预测了下个月的销售额。",
+      "before": null,
+      "provisionalTargetID": "vn2b010",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b025",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "作者は、人物の信仰と日常の生活を描いています。",
+      "translation": "作者描写了人物的信仰与日常生活。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b044",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "提案を拒否した理由は、費用が高いことでした。",
+      "translation": "拒绝提案的理由是费用高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b111",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "人前では本音を言わない人物として描かれています。",
+      "translation": "被描写成在人前不吐露真心的人物。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b113",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "小説には、家族の日常が細かく描かれています。",
+      "translation": "小说细致描写了家人的日常。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-reading-and-event-words.tsv",
+      "key": [
+        "vn3c007",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "見積もりより費用が高くなりました。",
+      "translation": "费用比估价高了。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-reading-and-event-words.tsv",
+      "key": [
+        "vn3c040",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高い壁が光を遮っています。",
+      "translation": "高墙挡住了光。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-inference-and-negation.tsv",
+      "key": [
+        "gn310",
+        "f"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "値段が高い物が、いつも自分に合うわけではありません。使う目的も考えます。",
+      "translation": "价格高的东西并不是任何时候都适合自己，也要考虑使用目的。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-inference-and-negation-readings.tsv",
+      "key": [
+        "rn3025",
+        "5"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "何日か後、最初は気がつかなかった会話の伏線が分かり、続きが楽しみになりました。評価の高さだけではなく、自分で読んだ経験が増えたのです。",
+      "translation": "几天后，理解了最初没注意到的对话伏笔，开始期待后续。不只依靠高评价，自己阅读的经验也增加了。",
+      "before": "v0041",
+      "provisionalTargetID": "vn2b017",
+      "decision": "Level/degree (JMdict1283190 sense3), not physical height or price. Move/add this scope before itsN4 uses; preserve own reading sharing."
+    },
+    {
+      "source": "n3-inference-and-negation-readings.tsv",
+      "key": [
+        "rn3026",
+        "1"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "週末に子供たちと公園で絵を描く行事を準備しています。天気予報では雨の可能性があるので、昨日は担当の人が集まって相談しました。",
+      "translation": "正在准备周末与孩子们在公园画画的活动。天气预报说可能下雨，所以昨天负责人们聚在一起商量。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-inference-and-negation-readings.tsv",
+      "key": [
+        "rn3026",
+        "2"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "雨が降ったとしても、近くの会館で続けられるように予約しました。建物の中では公園を見ながら描けないので、写真も用意することにしました。",
+      "translation": "为即使下雨也能继续，预约了附近会馆。室内无法一边看公园一边画，因此决定也准备照片。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d011",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "物語では、両親が離婚した後の生活が描かれています。",
+      "translation": "故事描写了父母离婚后的生活。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d062",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "主人公の苦悩が、長い独白で描かれています。",
+      "translation": "长篇独白描写了主人公的苦恼。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d063",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この小説は、家族の悲劇を描いています。",
+      "translation": "这部小说描写了一个家庭的悲剧。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d076",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "初めての恋を描いた小説です。",
+      "translation": "是描写初恋的小说。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d077",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この映画は、恋愛だけでなく友情も描いています。",
+      "translation": "这部电影不仅描写恋爱，也描写友情。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relationships-and-expression.tsv",
+      "key": [
+        "vn3d117",
+        "b"
+      ],
+      "surface": "合意",
+      "reading": "ごうい",
+      "text": "交渉は続いていますが、まだ合意していません。",
+      "translation": "交涉仍在继续，但还没达成协议。",
+      "before": null,
+      "provisionalTargetID": "vn2c033",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-norms-memory-and-reasons.tsv",
+      "key": [
+        "gn328",
+        "d"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "「高いから買わなかったんじゃないの」「自分に合わなかったんだもの」",
+      "translation": "“不是因为贵才没买吗？”“是因为不适合自己嘛。”",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-temporal-and-change-words.tsv",
+      "key": [
+        "vn3f055",
+        "b"
+      ],
+      "surface": "改良",
+      "reading": "かいりょう",
+      "text": "この道具は改良され、大きく進化しました。",
+      "translation": "这种工具经过改良，有了显著的发展变化。",
+      "before": null,
+      "provisionalTargetID": "vn2a038",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-temporal-and-change-words.tsv",
+      "key": [
+        "vn3f135",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "二人の青春を描いた小説を読みました。",
+      "translation": "读了一部描写两人青春岁月的小说。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-temporal-and-change-words.tsv",
+      "key": [
+        "vn3f150",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "箱を高く積むと危ないので、数を減らしました。",
+      "translation": "因为箱子堆得高会有危险，减少了堆放数量。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-time-intention-and-degree.tsv",
+      "key": [
+        "gn345",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この町は交通が便利な一方で、家賃が高いです。",
+      "translation": "这个镇交通便利，另一方面房租高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h002",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "今回の点は平均より高かったです。",
+      "translation": "这次的分数高于平均值。",
+      "before": "v0041",
+      "provisionalTargetID": "vn2b017",
+      "decision": "Level/degree (JMdict1283190 sense3), not physical height or price. Move/add this scope before itsN4 uses; preserve own reading sharing."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h021",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "地位が高い人の意見でも、根拠を確かめます。",
+      "translation": "即使是地位高的人的意见，也要核实依据。",
+      "before": "v0041",
+      "provisionalTargetID": "vn2b017",
+      "decision": "Level/degree (JMdict1283190 sense3), not physical height or price. Move/add this scope before itsN4 uses; preserve own reading sharing."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h023",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "小説では、政府の決定に反対する人々が描かれています。",
+      "translation": "小说描写了反对政府决定的人们。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h042",
+        "a"
+      ],
+      "surface": "達",
+      "reading": "たっ",
+      "text": "参加者は百人に達しました。",
+      "translation": "参加者达到了百人。",
+      "before": "vn3h042",
+      "provisionalTargetID": "vn3h042",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h042",
+        "b"
+      ],
+      "surface": "達",
+      "reading": "たっ",
+      "text": "必要な水準に達するまで、練習を続けます。",
+      "translation": "在达到所需水平之前会继续练习。",
+      "before": "vn3h042",
+      "provisionalTargetID": "vn3h042",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h043",
+        "a"
+      ],
+      "surface": "合意",
+      "reading": "ごうい",
+      "text": "何度も話し合い、ようやく合意に至りました。",
+      "translation": "经过多次商量，终于达成了一致。",
+      "before": null,
+      "provisionalTargetID": "vn2c033",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h076",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "差別のある社会を描いた小説です。",
+      "translation": "这是描写存在歧视的社会的小说。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h124",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "絵の中の炎は、青く描かれていました。",
+      "translation": "画中的火焰被画成了蓝色。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h141",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "子供が兎の絵を描いてくれました。",
+      "translation": "孩子给我画了兔子。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h143",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この小説は、人類の未来を描いています。",
+      "translation": "这部小说描写了人类的未来。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h151",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "救助の場面が、映画の最後に描かれています。",
+      "translation": "救助场景出现在电影结尾。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "key": [
+        "vn3i032",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "学校の壁画には海が描かれています。",
+      "translation": "学校壁画上画着海。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "key": [
+        "vn3i070",
+        "a"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "壊れた部品を交換しました。",
+      "translation": "更换了坏零件。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn3i070",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "key": [
+        "vn3i070",
+        "b"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "友人と本を交換して読みました。",
+      "translation": "与朋友交换了书来读。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn3i070",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "key": [
+        "vn3i087",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "二人の画家が同じ海を描いています。",
+      "translation": "两位画家在画同一片海。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "key": [
+        "vn3i113",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高い木が家を囲んでいます。",
+      "translation": "高树环绕着房子。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes.tsv",
+      "key": [
+        "gn356",
+        "e"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "壁の絵は生徒によって描かれ、先生が最後に確認しました。",
+      "translation": "墙上的画由学生画成，老师最后检查。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes.tsv",
+      "key": [
+        "gn359",
+        "d"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "兄に比べて背は低いですが、私も平均より高いです。",
+      "translation": "我比哥哥矮，但也比平均水平高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3070",
+        "3"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "毎日、写真と数字によって変化を記録しました。友人は高く伸びた芽だけを成功だと呼びましたが、私は葉の色や茎の太さも調べたいと思いました。",
+      "translation": "每天用照片和数值记录变化。朋友把长得高的芽称为成功，我却还想观察叶色和茎粗。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3070",
+        "4"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "一週間の記録を比較することによって、棚の奥の芽のほうが高く伸びていると分かりました。一方で、葉の色は窓の近くのほうが濃いです。何を測るかによって印象が変わりました。",
+      "translation": "比较一周记录发现，架子深处的芽长得较高；另一方面，窗边叶色更深。测量的指标不同，印象也随之改变。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3071",
+        "1"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "町の資料館で、古い壁画の写真を見ました。説明には、この絵は近所の生徒たちによって描かれたとあります。下に先生の名前もあったので、友人は先生が作者なのだと思いました。",
+      "translation": "在镇上的资料馆看见一幅旧壁画的照片。说明说画由附近学生们创作，下面也有老师姓名，朋友便以为老师是作者。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3076",
+        "1"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "家の椅子が壊れたので、新しい物を買うかわりに、直して使うことにしました。近所の家具を作る人に見てもらうと、下の部分を交換すれば、まだ使えるそうです。",
+      "translation": "家里椅子坏了，我决定修好继续用，代替买新的。请附近做家具的人看后，听说换掉椅子下方部分就还能使用。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn3i070",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3076",
+        "6"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "帰ってから、買わずに直したことと、修理と庭の仕事を交換したことを日記に書きました。同じかわりにでも、前の行動をしないのか、両方をするのかは、話の流れによって違っていました。",
+      "translation": "回家后记下了不买而修，以及用庭院劳动交换修理这两件事。同样是かわりに，前项不做还是双方都做，要看上下文。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn3i070",
+      "decision": "Barter of repair work for garden work fits root exchange/barter scope; do not mislabel it as information exchange."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3077",
+        "5"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "帰ってから記録を並べると、場所が高くなるにしたがって気温が下がったことが分かりました。花の数は同じようには変わりません。日当たりなど、別の条件も関係していそうです。",
+      "translation": "回来排列记录后，发现地势越高气温越低，但花的数量并未按同一规律变化。日照等别的条件似乎也有关。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3079",
+        "1"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "町の小さな展示会で、海の絵を描く人に話を聞きました。彼女は画家であるとともに、学校で美術を教える教師でもあります。今回は生徒たちとともに作品を発表しました。",
+      "translation": "镇上小型展览中，我访问了一位画海的人。她既是画家，也是学校美术教师。这次与学生们一起发表作品。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-relations-and-causes-readings.tsv",
+      "key": [
+        "rn3079",
+        "2"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "会場には先生の大きな絵と、生徒の小さな絵が並んでいました。一緒に展示していても、全部を先生が描いたわけではありません。作品の横には、それぞれの作者の名前がありました。",
+      "translation": "会场并排展示老师的大画与学生的小画。一起展览不等于全由老师画成，每件作品旁都写着各自作者的名字。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j022",
+        "a"
+      ],
+      "surface": "登録",
+      "reading": "とうろく",
+      "text": "対象は会員、すなわち登録した人です。",
+      "translation": "对象是会员，即登记过的人。",
+      "before": null,
+      "provisionalTargetID": "vn2a032",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j041",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "作品には、故郷への愛が描かれています。",
+      "translation": "作品描绘了对故乡的爱。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j054",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "未来の町を想像して、絵を描きました。",
+      "translation": "想象未来的城镇并画了下来。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j062",
+        "b"
+      ],
+      "surface": "挙",
+      "reading": "あ",
+      "text": "作品を批評する文章には、良い点も挙げられています。",
+      "translation": "评析作品的文章也列出了优点。",
+      "before": null,
+      "provisionalTargetID": "vn2c023",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j073",
+        "b"
+      ],
+      "surface": "挙",
+      "reading": "あ",
+      "text": "文章の特徴を説明するために、二つの例を挙げました。",
+      "translation": "为了说明文章的特点，举了两个例子。",
+      "before": null,
+      "provisionalTargetID": "vn2c023",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j090",
+        "b"
+      ],
+      "surface": "触",
+      "reading": "ふ",
+      "text": "異なる考えに触れ、良い刺激を受けました。",
+      "translation": "接触不同的想法，受到了有益启发。",
+      "before": "vn4j001",
+      "provisionalTargetID": "vn2b016",
+      "decision": "Contact with ideas/experience, sense3, not skin contact. Make this scope available inN3."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j105",
+        "b"
+      ],
+      "surface": "催し",
+      "reading": "もよおし",
+      "text": "会員に限らず、誰でも参加できる催しです。",
+      "translation": "这是一场任何人都能参加、不限会员的活动。",
+      "before": null,
+      "provisionalTargetID": "vn2c013",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j133",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "波が高いので、今日は沖へ出ません。",
+      "translation": "因为浪高，今天不出海。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j160",
+        "b"
+      ],
+      "surface": "触",
+      "reading": "ふ",
+      "text": "柔らかい布が肌に触れました。",
+      "translation": "柔软的布触到了皮肤。",
+      "before": "vn4j001",
+      "provisionalTargetID": "vn4j001",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-prerequisites.tsv",
+      "key": [
+        "vn3k009",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この巻では、主人公の過去が描かれています。",
+      "translation": "这一卷描写了主人公的过去。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-condition-prerequisites.tsv",
+      "key": [
+        "vn3k024",
+        "a"
+      ],
+      "surface": "休館",
+      "reading": "きゅうかん",
+      "text": "休館の予定は、入口で予告されていました。",
+      "translation": "入口处提前告知了休馆安排。",
+      "before": null,
+      "provisionalTargetID": "vn2c005",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-condition-prerequisites.tsv",
+      "key": [
+        "vn3k052",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "人物の意外な側面が描かれていました。",
+      "translation": "描写了人物出人意料的一面。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-condition-prerequisites.tsv",
+      "key": [
+        "vn3k065",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "棚の本の高さがそろっています。",
+      "translation": "架子上书的高度很齐整。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective.tsv",
+      "key": [
+        "gn3a003",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この部屋は窓も大きければ、天井も高いです。",
+      "translation": "这个房间窗户大，天花板也高。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective.tsv",
+      "key": [
+        "gn3a003",
+        "c"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "兄は絵も描けば、短い物語も書きます。",
+      "translation": "哥哥既画画，也写短故事。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective.tsv",
+      "key": [
+        "gn3a012",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "高くたって、本当に必要な道具なら買うつもりです。",
+      "translation": "即使贵，如果是真正需要的工具，也打算买。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-and-perspective.tsv",
+      "key": [
+        "gn3a020",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "この道具は高いくせに、もう壊れてしまいました。",
+      "translation": "这个工具那么贵，却这么快就坏了。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3101",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "読んでいた小説には、二人の兄弟が家の仕事を分担する場面がありました。兄の机は細かい道具でいっぱいのわりに、部屋の真ん中には広い空間が残っていると描かれていました。",
+      "translation": "正在读的小说里，两兄弟分担家务。描写说，哥哥的桌子虽堆满小工具，房间中央却留着宽敞空间。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3104",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "絵が苦手だと話していた友人まで、町の店を描いたノートを持ってきました。「私の絵なんかでよければ」と言いましたが、細かい看板まで丁寧に描かれていて、来場者の関心を集めていました。",
+      "translation": "连曾说不擅长画画的朋友也带来了画着镇上店铺的笔记本。他说“如果我这样的画也行的话”，但连细小招牌都画得仔细，引起了参观者的兴趣。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3104",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "絵が苦手だと話していた友人まで、町の店を描いたノートを持ってきました。「私の絵なんかでよければ」と言いましたが、細かい看板まで丁寧に描かれていて、来場者の関心を集めていました。",
+      "translation": "连曾说不擅长画画的朋友也带来了画着镇上店铺的笔记本。他说“如果我这样的画也行的话”，但连细小招牌都画得仔细，引起了参观者的兴趣。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3106",
+        "a"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "学校で植物の成長を観察していた私たちは、同じ日に植えた二つの鉢を比べました。一方は背が高いわりに葉が少なく、もう一方は低いままでした。",
+      "translation": "在学校观察植物生长时，我们比较了同一天种下的两盆。一盆虽然高，叶子却少，另一盆仍很矮。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3106",
+        "b"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "友人は、高いほうが元気なのではないかと言いました。私は何を調べればよいか先生に尋ね、葉の色や茎の太さも記録すれば比べやすいと教えてもらいました。",
+      "translation": "朋友说，较高的那盆或许更健康。我问老师该查什么，老师说也记录叶色和茎的粗细，会更方便比较。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-condition-readings.tsv",
+      "key": [
+        "rn3106",
+        "d"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "次の週には、低かったほうの葉が増えていました。最初に見た高さだけで成長を判断していたら、この変化を見落としたかもしれません。写真も日付を付けて残しました。",
+      "translation": "下一周，原本较矮的那盆长出了更多叶子。如果只依据最初高度判断生长，可能会漏看这一变化。我们也给照片标注日期保存。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l004",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "これはいわゆる後日談で、本編の後の出来事を描いています。",
+      "translation": "这是所谓的后日谈，描写本篇之后的事情。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l026",
+        "a"
+      ],
+      "surface": "当",
+      "reading": "あ",
+      "text": "額に手を当てて、考えていました。",
+      "translation": "手贴着额头思考。",
+      "before": "vn3l026",
+      "provisionalTargetID": "vn3l026",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l026",
+        "b"
+      ],
+      "surface": "当",
+      "reading": "あ",
+      "text": "壁に紙を当て、位置を決めました。",
+      "translation": "把纸贴靠在墙上，确定了位置。",
+      "before": "vn3l026",
+      "provisionalTargetID": "vn3l026",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l065",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この物語では、宗教と政治の関係が描かれています。",
+      "translation": "这个故事描写了宗教与政治的关系。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "key": [
+        "vn3m009",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この物語の構造は、三つの家族の話を交互に描くものです。",
+      "translation": "这个故事的结构是交替描写三个家庭的故事。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn2b015",
+      "decision": "Narrative depiction, not painting; this teaching scope must be available inN3. Check exactえがく reading restriction."
+    },
+    {
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "key": [
+        "vn3m017",
+        "a"
+      ],
+      "surface": "交換",
+      "reading": "こうかん",
+      "text": "ここは意見を交換する場なので、違う考えも聞いてみましょう。",
+      "translation": "这里是交流意见的场合，也听听不同的看法吧。",
+      "before": "vn3i070",
+      "provisionalTargetID": "vn2b018",
+      "decision": "Exchange of opinions, not replacement of objects. Make this scope available inN3."
+    },
+    {
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "key": [
+        "vn3m049",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "教室で描いた絵を家に持ち帰り、壁に飾りました。",
+      "translation": "我把在教室画的画带回家，挂在了墙上。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "key": [
+        "vn3m061",
+        "b"
+      ],
+      "surface": "開催",
+      "reading": "かいさい",
+      "text": "雨が続き、明日の開催が危うくなりました。",
+      "translation": "雨一直下，明天活动能否举行变得不稳妥了。",
+      "before": null,
+      "provisionalTargetID": "vn2b014",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "key": [
+        "vn3n014",
+        "a"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "紙に大きな丸を描いて、中を青く塗りました。",
+      "translation": "我在纸上画了一个大圆，把里面涂成蓝色。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "key": [
+        "vn3n053",
+        "a"
+      ],
+      "surface": "知り合",
+      "reading": "しりあ",
+      "text": "旅先で知り合った人から、今も手紙が届きます。",
+      "translation": "旅行中认识的人，如今还会寄信给我。",
+      "before": null,
+      "provisionalTargetID": "vn4s003",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "key": [
+        "vn3n055",
+        "a"
+      ],
+      "surface": "自身",
+      "reading": "じしん",
+      "text": "詩の朗読会で、作者自身の声を聞くことができました。",
+      "translation": "在诗歌朗读会上，我听到了作者本人朗读。",
+      "before": null,
+      "provisionalTargetID": "vn3p001",
+      "decision": "New exact contextual word association; check earlier-level teaching before applying."
+    },
+    {
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "key": [
+        "vn3n090",
+        "b"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "池の鳥が一斉に飛び立ち、空に白い輪を描きました。",
+      "translation": "池中的鸟一起飞起，在空中划出一道白色弧圈。",
+      "before": "vn5035",
+      "provisionalTargetID": null,
+      "decision": "Birds trace a ring: JMdict1583460 sense4 (form a shape/path), not paint sense1 or verbal depiction sense2. Author a separateN3 contextual scope with two own examples."
+    },
+    {
+      "source": "n3-similarity-and-tendencies.tsv",
+      "key": [
+        "gn3b005",
+        "c"
+      ],
+      "surface": "描",
+      "reading": "えが",
+      "text": "この絵は幻想的ですが、描かれた橋の形は実際の写真を参考にしています。",
+      "translation": "这幅画富有幻想色彩，但所画桥梁的形状参考了实际照片。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-similarity-and-tendencies.tsv",
+      "key": [
+        "gn3b013",
+        "d"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "彼女は子供のころ絵を描いてばかりいたそうです。今は写真も文章も作っています。",
+      "translation": "听说她小时候常常画画，如今也拍照片、写文章。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-completion-and-inception.tsv",
+      "key": [
+        "gn3b025",
+        "d"
+      ],
+      "surface": "描き",
+      "reading": "かき",
+      "text": "描きかけの絵には色がまだ少なく、作者は次の週末に続きを描くと話していました。",
+      "translation": "尚未画完的画颜色还不多，作者说下个周末继续画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-completion-and-inception.tsv",
+      "key": [
+        "gn3b025",
+        "d"
+      ],
+      "surface": "描",
+      "reading": "か",
+      "text": "描きかけの絵には色がまだ少なく、作者は次の週末に続きを描くと話していました。",
+      "translation": "尚未画完的画颜色还不多，作者说下个周末继续画。",
+      "before": "vn5035",
+      "provisionalTargetID": "vn5035",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    },
+    {
+      "source": "n3-retrial-and-difficulty.tsv",
+      "key": [
+        "gn3b027",
+        "c"
+      ],
+      "surface": "高",
+      "reading": "たか",
+      "text": "費用が高すぎる計画だと言われ、予算を考え直すことにしました。新しい金額はまだ決めていません。",
+      "translation": "被指出计划花费过高后，我决定重新考虑预算，但还没确定新的金额。",
+      "before": "v0041",
+      "provisionalTargetID": "v0041",
+      "decision": "Existing physical/price/object meaning fits this concrete context; use an explicit association after final review."
+    }
+  ]
+}
