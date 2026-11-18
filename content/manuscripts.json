@@ -1,6 +1,7 @@
 {
   "version": 1,
   "pronunciationSource": "pronunciation.json",
+  "ruleSource": "learning-rules.json",
   "staticBatches": ["001-foundation.json"],
   "entries": [
     {"kind": "grammar", "source": "n5-structures.tsv", "batch": "002-n5-structures.json"},

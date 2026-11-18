@@ -129,6 +129,10 @@ struct SessionView: View {
                 ReadingCard(reading: reading, entryID: entry.id, previouslyAssisted: assisted,
                             onAssistance: { assist(entry) })
             } else { missing }
+        case .rule(let id):
+            if let rule = model.pack.rule(forSet: id), let set = rule.practiceSets.first(where: { $0.id == id }) {
+                RulePracticeCard(rule: rule, practiceSet: set, entryID: entry.id)
+            } else { missing }
         }
     }
     private func leave() {
@@ -383,7 +387,10 @@ private struct ReadingCard: View {
                     if enabled { onAssistance(); assisted = true }
                 }
             let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
-            Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+            Text("实词覆盖 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+            if readiness.inferredOccurrences > 0 {
+                Text("含 \(readiness.inferredOccurrences) 处经规则验证可推导的表达").font(.caption).foregroundColor(.secondary)
+            }
                 .font(.caption).foregroundColor(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
                 .accessibilityIdentifier("study.readingCoverage")

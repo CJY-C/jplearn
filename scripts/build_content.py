@@ -8,10 +8,10 @@ from word_links import lexical_words, validate_lexemes
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "Sources/LearningCore/Resources/foundation.json"
-COLLECTIONS = ("items", "sentences", "exercises", "lessons", "readings", "introModules")
+COLLECTIONS = ("items", "sentences", "exercises", "lessons", "readings", "introModules", "learningRules")
 
 
-def make_pack(overrides=None, *, include_pronunciation=True):
+def make_pack(overrides=None, *, include_pronunciation=True, include_rules=True):
     overrides = overrides or {}
     pack = json.loads((ROOT / "content/catalog.json").read_text())
     for key in COLLECTIONS:
@@ -23,6 +23,12 @@ def make_pack(overrides=None, *, include_pronunciation=True):
         for key in COLLECTIONS:
             pack[key].extend(copy.deepcopy(batch.get(key, [])))
     pronunciation_source = json.loads((ROOT / "content/manuscripts.json").read_text()).get("pronunciationSource")
+    rule_source = json.loads((ROOT / "content/manuscripts.json").read_text()).get("ruleSource")
+    if include_rules and rule_source:
+        assert Path(rule_source).name == rule_source, "Use a sibling rule source"
+        rules = json.loads((ROOT / "content" / rule_source).read_text())
+        assert rules["version"] == 1
+        pack["learningRules"].extend(copy.deepcopy(rules["learningRules"]))
     if include_pronunciation and pronunciation_source:
         assert Path(pronunciation_source).name == pronunciation_source, "Use a sibling pronunciation source"
         pronunciation_path = ROOT / "content" / pronunciation_source
@@ -50,6 +56,25 @@ def validate(pack):
         if len(groups[key]) != len(records): raise ValueError(f"Duplicate IDs in {key}")
     references = {r["id"]: r for r in pack["references"]}
     validate_lexemes(pack["items"])
+    regular = []
+    for rule in pack.get("learningRules", []):
+        assert rule["title"] and rule["explanation"] and rule["examples"] and rule["exceptions"] and rule["citations"], rule["id"]
+        assert len(rule["practiceSets"]) >= 3 and all(len(s["questions"]) == 4 for s in rule["practiceSets"]), rule["id"]
+        assert set(rule["prerequisiteRuleIDs"]) <= groups["learningRules"].keys(), rule["id"]
+        for identifier in rule["prerequisiteIDs"] + rule["regularItemIDs"]:
+            assert groups["items"][identifier]["kind"] == "word", identifier
+        regular += rule["regularItemIDs"]
+        for citation in rule["citations"]:
+            assert citation["sourceID"] in references and citation["locator"] and citation["status"] == "sourceChecked", citation
+    assert len(regular) == len(set(regular)), "A regular word must have one rule owner"
+    sets = [s for r in pack.get("learningRules", []) for s in r["practiceSets"]]
+    assert len({s["id"] for s in sets}) == len(sets), "Duplicate rule set"
+    questions = [q for s in sets for q in s["questions"]]
+    all_questions = questions + [q for r in pack["readings"] for q in r.get("questions", [])] + [q for m in pack["introModules"] for q in m["questions"]]
+    assert len({q["id"] for q in all_questions}) == len(all_questions), "Duplicate question ID"
+    for q in questions:
+        assert q["prompt"] and q["explanation"] and 2 <= len(q["choices"]) <= 4 and len(set(q["choices"])) == len(q["choices"]), q["id"]
+        assert q["answerIndex"] in range(len(q["choices"])) and set(q["evidenceSentenceIDs"]) <= groups["sentences"].keys(), q["id"]
     for word in pack["items"]:
         if word.get("jmdictEntryID") is not None:
             assert word["kind"] == "word" and "jmdict" in word["sourceIDs"], word["id"]
@@ -99,13 +124,14 @@ def validate(pack):
         if "paragraphs" in reading:
             assert [sid for p in reading["paragraphs"] for sid in p["sentenceIDs"]] == reading["sentenceIDs"]
             assert [w for p in reading["paragraphs"] for w in p["vocabulary"]] == reading["vocabulary"]
-    for key in ("items", "lessons"):
+    for key in ("items", "lessons", "learningRules"):
         visited, active = set(), set()
         def visit(identifier):
             if identifier in active: raise ValueError(f"Prerequisite cycle: {identifier}")
             if identifier in visited: return
             active.add(identifier)
-            for required in groups[key][identifier].get("prerequisiteIDs", []): visit(required)
+            field = "prerequisiteRuleIDs" if key == "learningRules" else "prerequisiteIDs"
+            for required in groups[key][identifier].get(field, []): visit(required)
             active.remove(identifier); visited.add(identifier)
         for identifier in groups[key]: visit(identifier)
 

@@ -1,0 +1,1047 @@
+{
+  "version": 1,
+  "learningRules": [
+    {
+      "id": "rulenum",
+      "title": "数字：从基础读音组合到99",
+      "explanation": "先认读一到十：いち・に・さん・よん・ご・ろく・なな・はち・きゅう・じゅう；零常读ゼロ。11到19用「じゅう＋个位」，20到99用「十位数＋じゅう＋个位」，整十不读末尾的零。这里练整数数值，不把每个组合另做新词。",
+      "examples": [
+        "十二 → じゅう＋に → じゅうに",
+        "三十五 → さん＋じゅう＋ご → さんじゅうご"
+      ],
+      "exceptions": [
+        "四、七、九另有し・しち・く，接月份、日期和量词时需按该单位的规则选读，不能任意替换。",
+        "电话号码可能逐位读；百、千的音变与万的分组另学，本单元只覆盖0–99的整数数值。"
+      ],
+      "prerequisiteIDs": [],
+      "prerequisiteRuleIDs": [],
+      "regularItemIDs": [],
+      "practiceSets": [
+        {
+          "id": "rulenums1",
+          "questions": [
+            {
+              "prompt": "十六作为整数数值怎么读？",
+              "choices": [
+                "ろくじゅう",
+                "じゅうろく",
+                "いちろく"
+              ],
+              "answerIndex": 1,
+              "explanation": "十六是十加六；逐位读いち・ろく是号码读法。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums1q1"
+            },
+            {
+              "prompt": "四十二的十位和个位如何组合？",
+              "choices": [
+                "よんじゅうに",
+                "にじゅうよん",
+                "よんにじゅう"
+              ],
+              "answerIndex": 0,
+              "explanation": "四个十加二，顺序是十位、じゅう、个位。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums1q2"
+            },
+            {
+              "prompt": "さんじゅうはち表示哪个整数？",
+              "choices": [
+                "83",
+                "308",
+                "38"
+              ],
+              "answerIndex": 2,
+              "explanation": "さんじゅう是三十，はち是八。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums1q3"
+            },
+            {
+              "prompt": "二十作为数值需要读末尾的零吗？",
+              "choices": [
+                "只逐位读に・ゼロ",
+                "不需要，读にじゅう",
+                "需要，读にじゅうゼロ"
+              ],
+              "answerIndex": 1,
+              "explanation": "整十到じゅう为止；号码逐位读属于另一场景。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums1q4"
+            }
+          ]
+        },
+        {
+          "id": "rulenums2",
+          "questions": [
+            {
+              "prompt": "二十六作为整数数值怎么读？",
+              "choices": [
+                "にじゅうろく",
+                "ろくじゅうに",
+                "にろく"
+              ],
+              "answerIndex": 0,
+              "explanation": "先说二十，再加六。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums2q1"
+            },
+            {
+              "prompt": "五十三作为整数数值怎么读？",
+              "choices": [
+                "さんじゅうご",
+                "ごさんじゅう",
+                "ごじゅうさん"
+              ],
+              "answerIndex": 2,
+              "explanation": "五十三是五个十加三。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums2q2"
+            },
+            {
+              "prompt": "はちじゅうに表示哪个整数？",
+              "choices": [
+                "802",
+                "82",
+                "28"
+              ],
+              "answerIndex": 1,
+              "explanation": "はちじゅう是八十，に是二。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums2q3"
+            },
+            {
+              "prompt": "读四十的数值时，哪种组合适合本规则？",
+              "choices": [
+                "よん＋じゅう",
+                "よ＋じ",
+                "し＋がつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "四十是よんじゅう；后两种分别涉及钟点或月份。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums2q4"
+            }
+          ]
+        },
+        {
+          "id": "rulenums3",
+          "questions": [
+            {
+              "prompt": "六十五作为整数数值怎么读？",
+              "choices": [
+                "ごじゅうろく",
+                "ろくご",
+                "ろくじゅうご"
+              ],
+              "answerIndex": 2,
+              "explanation": "先组合六十，再加五。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums3q1"
+            },
+            {
+              "prompt": "九十一作为整数数值怎么读？",
+              "choices": [
+                "くいち",
+                "きゅうじゅういち",
+                "じゅうきゅういち"
+              ],
+              "answerIndex": 1,
+              "explanation": "九十一是九个十加一。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums3q2"
+            },
+            {
+              "prompt": "ななじゅうよん表示哪个整数？",
+              "choices": [
+                "74",
+                "47",
+                "704"
+              ],
+              "answerIndex": 0,
+              "explanation": "ななじゅう是七十，よん是四。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums3q3"
+            },
+            {
+              "prompt": "数字规则可以原样套用到所有助数词吗？",
+              "choices": [
+                "可以，永远不变音",
+                "只有汉字写法决定所有读音",
+                "不能，各单位还可能有选读和音变"
+              ],
+              "answerIndex": 2,
+              "explanation": "数值组合是基础；日期和各助数词仍须学它们的条件与例外。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulenums3q4"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfnumberrules",
+          "locator": "第6課、印刷p.4–5；第7課p.10",
+          "status": "sourceChecked"
+        }
+      ]
+    },
+    {
+      "id": "rulemonth",
+      "title": "月份：数字＋がつ",
+      "explanation": "表示公历几月时，用1到12的数字接「がつ」。先掌握一条规则，再特别记住四月しがつ、七月しちがつ、九月くがつ。年、月、日按这个顺序表达。",
+      "examples": [
+        "二月 → に＋がつ",
+        "十月 → じゅう＋がつ"
+      ],
+      "exceptions": [
+        "四月しがつ；七月しちがつ；九月くがつ。",
+        "「一月」可因语境表示一月いちがつ或一个月ひとつき；月份名不等于持续几个月，时长常用～か月。",
+        "本规则给出假名读法；重音需要另核对，不由数字读音直接推出。"
+      ],
+      "prerequisiteIDs": [
+        "vn5501",
+        "vn5502",
+        "vn5503",
+        "vn5504",
+        "vn5505",
+        "vn5506",
+        "vn5507",
+        "vn5508",
+        "vn5509",
+        "vn5510"
+      ],
+      "prerequisiteRuleIDs": [
+        "rulenum"
+      ],
+      "regularItemIDs": [],
+      "practiceSets": [
+        {
+          "id": "rulemonths1",
+          "questions": [
+            {
+              "prompt": "五月作为月份名怎么读？",
+              "choices": [
+                "いつがつ",
+                "ごがつ",
+                "ごげつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "表示五月，用ご接がつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths1q1"
+            },
+            {
+              "prompt": "十一月作为月份名怎么读？",
+              "choices": [
+                "じゅういちがつ",
+                "いちじゅうがつ",
+                "じゅういちげつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "十一先按整数规则组合，再接月份がつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths1q2"
+            },
+            {
+              "prompt": "四月作为月份名怎么读？",
+              "choices": [
+                "よんがつ",
+                "よがつ",
+                "しがつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "月份里的四选し，不套用整数的よん或钟点的よ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths1q3"
+            },
+            {
+              "prompt": "日历上的「三月」表示什么？",
+              "choices": [
+                "每月三号",
+                "一年中的第三个月",
+                "持续三个月"
+              ],
+              "answerIndex": 1,
+              "explanation": "月份名和时长、日期是三种不同用途。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths1q4"
+            }
+          ]
+        },
+        {
+          "id": "rulemonths2",
+          "questions": [
+            {
+              "prompt": "六月作为月份名怎么读？",
+              "choices": [
+                "ろくがつ",
+                "むいがつ",
+                "ろっがつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "六月用ろく接がつ，没有促音。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths2q1"
+            },
+            {
+              "prompt": "十二月作为月份名怎么读？",
+              "choices": [
+                "にじゅうがつ",
+                "じゅうにげつ",
+                "じゅうにがつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "十二是じゅうに，月份接がつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths2q2"
+            },
+            {
+              "prompt": "九月作为月份名怎么读？",
+              "choices": [
+                "ここのがつ",
+                "くがつ",
+                "きゅうがつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "九月特别记くがつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths2q3"
+            },
+            {
+              "prompt": "「一月に会う」明确在说一月份时，一月怎么读？",
+              "choices": [
+                "いちがつ",
+                "ひとつき",
+                "いちげつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "这里指定一年中的月份；ひとつき表示持续一个月。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths2q4"
+            }
+          ]
+        },
+        {
+          "id": "rulemonths3",
+          "questions": [
+            {
+              "prompt": "八月作为月份名怎么读？",
+              "choices": [
+                "はっがつ",
+                "ようがつ",
+                "はちがつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "八月用はち接がつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths3q1"
+            },
+            {
+              "prompt": "三月作为月份名怎么读？",
+              "choices": [
+                "さんげつ",
+                "さんがつ",
+                "みっがつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "三月用さん接がつ，不能套三日みっか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths3q2"
+            },
+            {
+              "prompt": "七月的教材基本读法是？",
+              "choices": [
+                "しちがつ",
+                "なのがつ",
+                "しがつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "七月的基本读法是しちがつ，与七日なのか区分。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths3q3"
+            },
+            {
+              "prompt": "从四月读作しがつ，能推出四時也读しじ吗？",
+              "choices": [
+                "能，两个单位都选し",
+                "能，所有数字四都读し",
+                "不能，四時读よじ"
+              ],
+              "answerIndex": 2,
+              "explanation": "选读由后接单位决定，月份与钟点不能混用。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulemonths3q4"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfnumberrules",
+          "locator": "第7課、印刷p.10–11（日付表は画像も照合）",
+          "status": "sourceChecked"
+        }
+      ]
+    },
+    {
+      "id": "ruledate",
+      "title": "日期：常规组合与特殊读法",
+      "explanation": "每月几号要先分两组：1到10日保留特殊读法；11日以后多数用「数字＋にち」。十四日じゅうよっか、二十日はつか、二十四日にじゅうよっか要单独记。教材基本读法中17／27日用しち、19／29日用く；不要只拿整数常用读音硬拼。",
+      "examples": [
+        "十三日 → じゅうさん＋にち",
+        "一日：日期ついたち；一天的时长いちにち"
+      ],
+      "exceptions": [
+        "1–5日：ついたち・ふつか・みっか・よっか・いつか。",
+        "6–10日：むいか・なのか・ようか・ここのか・とおか。",
+        "14日じゅうよっか；20日はつか；24日にじゅうよっか。17／27日基本读じゅうしちにち／にじゅうしちにち，19／29日读じゅうくにち／にじゅうくにち。",
+        "日期与持续天数要看语境；一日作为日期与时长读法不同。这里只归纳每月日期，不把它套给人名或其他含日的词。"
+      ],
+      "prerequisiteIDs": [
+        "vn5501",
+        "vn5502",
+        "vn5503",
+        "vn5504",
+        "vn5505",
+        "vn5506",
+        "vn5507",
+        "vn5508",
+        "vn5509",
+        "vn5510"
+      ],
+      "prerequisiteRuleIDs": [
+        "rulenum"
+      ],
+      "regularItemIDs": [],
+      "practiceSets": [
+        {
+          "id": "ruledates1",
+          "questions": [
+            {
+              "prompt": "每月十二号「十二日」怎么读？",
+              "choices": [
+                "にじゅうにち",
+                "じゅうににち",
+                "じゅうふつか"
+              ],
+              "answerIndex": 1,
+              "explanation": "十二日用十二じゅうに接にち，不延伸二日ふつか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates1q1"
+            },
+            {
+              "prompt": "每月二十三号怎么读？",
+              "choices": [
+                "にじゅうさんにち",
+                "にじゅうみっか",
+                "さんじゅうににち"
+              ],
+              "answerIndex": 0,
+              "explanation": "二十三日是常规的数字＋にち。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates1q2"
+            },
+            {
+              "prompt": "每月二十四号怎么读？",
+              "choices": [
+                "にじゅうよんにち",
+                "にじゅうしにち",
+                "にじゅうよっか"
+              ],
+              "answerIndex": 2,
+              "explanation": "二十四日延续よっか的特殊读法。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates1q3"
+            },
+            {
+              "prompt": "「一日に会う」明确指在每月一号见面时，一日怎么读？",
+              "choices": [
+                "いっにち",
+                "ついたち",
+                "いちにち"
+              ],
+              "answerIndex": 1,
+              "explanation": "每月一号是ついたち；时长一天是いちにち。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates1q4"
+            }
+          ]
+        },
+        {
+          "id": "ruledates2",
+          "questions": [
+            {
+              "prompt": "每月二十五号怎么读？",
+              "choices": [
+                "にじゅうごにち",
+                "にじゅういつか",
+                "ごじゅうににち"
+              ],
+              "answerIndex": 0,
+              "explanation": "二十五日用数字二十五接にち，不延伸五日いつか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates2q1"
+            },
+            {
+              "prompt": "每月十七号的教材基本读法是？",
+              "choices": [
+                "じゅうなのか",
+                "しちじゅうにち",
+                "じゅうしちにち"
+              ],
+              "answerIndex": 2,
+              "explanation": "十七日的基本读法用しち接にち；不能拿七日なのか直接拼。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates2q2"
+            },
+            {
+              "prompt": "每月十四号怎么读？",
+              "choices": [
+                "じゅうしにち",
+                "じゅうよっか",
+                "じゅうよんにち"
+              ],
+              "answerIndex": 1,
+              "explanation": "十四日特别记じゅうよっか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates2q3"
+            },
+            {
+              "prompt": "「一日休む」明确说休息一天时，一日怎么读？",
+              "choices": [
+                "いちにち",
+                "ついたち",
+                "いちひ"
+              ],
+              "answerIndex": 0,
+              "explanation": "时长一天是いちにち，不是每月一号的ついたち。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates2q4"
+            }
+          ]
+        },
+        {
+          "id": "ruledates3",
+          "questions": [
+            {
+              "prompt": "每月三十一号怎么读？",
+              "choices": [
+                "さんじゅうついたち",
+                "じゅうさんいちにち",
+                "さんじゅういちにち"
+              ],
+              "answerIndex": 2,
+              "explanation": "三十一日用三十一接にち，不能延伸一号ついたち。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates3q1"
+            },
+            {
+              "prompt": "每月十九号的教材基本读法是？",
+              "choices": [
+                "くじゅうにち",
+                "じゅうくにち",
+                "じゅうここのか"
+              ],
+              "answerIndex": 1,
+              "explanation": "十九日基本读じゅうくにち；九日ここのか不直接用于十九日。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates3q2"
+            },
+            {
+              "prompt": "每月二十号怎么读？",
+              "choices": [
+                "はつか",
+                "にじゅうにち",
+                "ふつかじゅう"
+              ],
+              "answerIndex": 0,
+              "explanation": "二十日是独立保留的特殊读法はつか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates3q3"
+            },
+            {
+              "prompt": "每月八号「八日」怎么读？",
+              "choices": [
+                "はちにち",
+                "はっにち",
+                "ようか"
+              ],
+              "answerIndex": 2,
+              "explanation": "一到十日的特殊读法仍需单独掌握；八日是ようか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruledates3q4"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfnumberrules",
+          "locator": "第7課、印刷p.10–11（日付表は画像も照合）",
+          "status": "sourceChecked"
+        }
+      ]
+    },
+    {
+      "id": "ruleclock",
+      "title": "钟点：数字＋じ，区分时长",
+      "explanation": "几点钟一般用数字接「じ」，整点与时长分开看：「三時」是三点，「三時間」是三小时。先会组合，再把四、七、九的钟点读法单独提示。",
+      "examples": [
+        "二時 → に＋じ",
+        "五時／五時間：五点／五小时"
+      ],
+      "exceptions": [
+        "四時よじ；七時基本读しちじ；九時くじ。广播和电话中也可能用ななじ避免把七点听成一点。",
+        "分有ふん／ぷん及促音变化，不能直接用本规则推导；本组只归纳1–12点的整点。"
+      ],
+      "prerequisiteIDs": [
+        "vn5501",
+        "vn5502",
+        "vn5503",
+        "vn5504",
+        "vn5505",
+        "vn5506",
+        "vn5507",
+        "vn5508",
+        "vn5509",
+        "vn5510"
+      ],
+      "prerequisiteRuleIDs": [
+        "rulenum"
+      ],
+      "regularItemIDs": [
+        "v0158",
+        "v0160",
+        "vn5007"
+      ],
+      "practiceSets": [
+        {
+          "id": "ruleclocks1",
+          "questions": [
+            {
+              "prompt": "六時（六点）怎么读？",
+              "choices": [
+                "むいじ",
+                "ろくじ",
+                "ろっじ"
+              ],
+              "answerIndex": 1,
+              "explanation": "整点六時用ろく接じ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks1q1"
+            },
+            {
+              "prompt": "十一時（十一点）怎么读？",
+              "choices": [
+                "じゅういちじ",
+                "いちじゅうじ",
+                "じゅういちにち"
+              ],
+              "answerIndex": 0,
+              "explanation": "十一接钟点じ，不能换成日期单位にち。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks1q2"
+            },
+            {
+              "prompt": "四時（四点）怎么读？",
+              "choices": [
+                "よんじ",
+                "しじ",
+                "よじ"
+              ],
+              "answerIndex": 2,
+              "explanation": "四時特别记よじ；四月的し不能套来。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks1q3"
+            },
+            {
+              "prompt": "「三時に始まる」中的三時表示什么？",
+              "choices": [
+                "三月三号",
+                "三点这一时刻",
+                "持续三小时"
+              ],
+              "answerIndex": 1,
+              "explanation": "三時指定钟点；三時間才表示三小时的时长。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks1q4"
+            }
+          ]
+        },
+        {
+          "id": "ruleclocks2",
+          "questions": [
+            {
+              "prompt": "十時（十点）怎么读？",
+              "choices": [
+                "じゅうじ",
+                "とおじ",
+                "じゅっじ"
+              ],
+              "answerIndex": 0,
+              "explanation": "十時用じゅう接じ，不套十日とおか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks2q1"
+            },
+            {
+              "prompt": "十二時（十二点）怎么读？",
+              "choices": [
+                "にじゅうじ",
+                "じゅうふたじ",
+                "じゅうにじ"
+              ],
+              "answerIndex": 2,
+              "explanation": "十二是じゅうに，再接じ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks2q2"
+            },
+            {
+              "prompt": "九時（九点）怎么读？",
+              "choices": [
+                "ここのじ",
+                "くじ",
+                "きゅうじ"
+              ],
+              "answerIndex": 1,
+              "explanation": "钟点九选く，读くじ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks2q3"
+            },
+            {
+              "prompt": "「五時間読む」中的五時間表示什么？",
+              "choices": [
+                "阅读持续五小时",
+                "在五点开始阅读",
+                "在五月读书"
+              ],
+              "answerIndex": 0,
+              "explanation": "時間在这里表示持续时长，不是整点。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks2q4"
+            }
+          ]
+        },
+        {
+          "id": "ruleclocks3",
+          "questions": [
+            {
+              "prompt": "一時（一点）怎么读？",
+              "choices": [
+                "ひとじ",
+                "いっじ",
+                "いちじ"
+              ],
+              "answerIndex": 2,
+              "explanation": "钟点一時用いち接じ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks3q1"
+            },
+            {
+              "prompt": "八時（八点）怎么读？",
+              "choices": [
+                "ようじ",
+                "はちじ",
+                "はっじ"
+              ],
+              "answerIndex": 1,
+              "explanation": "八時没有冊或其他助数词的促音变化。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks3q2"
+            },
+            {
+              "prompt": "七時的教材基本读法是？",
+              "choices": [
+                "しちじ",
+                "しじ",
+                "ななつじ"
+              ],
+              "answerIndex": 0,
+              "explanation": "基本读しちじ；有些传话场景也用ななじ，避免和いちじ混淆。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks3q3"
+            },
+            {
+              "prompt": "从四月读しがつ，能推出四点读しじ吗？",
+              "choices": [
+                "能，数字四只有し",
+                "能，月和时是同一单位",
+                "不能，四点读よじ"
+              ],
+              "answerIndex": 2,
+              "explanation": "数字的选读受后接单位约束；钟点需按钟点规则。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "ruleclocks3q4"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfclockrules",
+          "locator": "第9課、印刷p.32–35",
+          "status": "sourceChecked"
+        }
+      ]
+    },
+    {
+      "id": "rulebooks",
+      "title": "冊：同类物品一起计数",
+      "explanation": "「冊（さつ）」用于书、杂志、笔记本等成册物。多数数字直接接さつ，如三冊さんさつ。掌握对象与组合方式，比把每个数量当新词反复背更有用。",
+      "examples": [
+        "五冊 → ご＋さつ",
+        "九冊 → きゅう＋さつ"
+      ],
+      "exceptions": [
+        "一冊いっさつ；八冊的教材基本读法はっさつ；十冊じゅっさつ／じっさつ。",
+        "「本」作书籍名词读ほん，但计数书籍用冊；助数词本常数细长物。不同助数词的音变需要分别学。"
+      ],
+      "prerequisiteIDs": [
+        "vn5501",
+        "vn5502",
+        "vn5503",
+        "vn5504",
+        "vn5505",
+        "vn5506",
+        "vn5507",
+        "vn5508",
+        "vn5509",
+        "vn5510"
+      ],
+      "prerequisiteRuleIDs": [
+        "rulenum"
+      ],
+      "regularItemIDs": [
+        "v0161",
+        "vn5013"
+      ],
+      "practiceSets": [
+        {
+          "id": "rulebookss1",
+          "questions": [
+            {
+              "prompt": "二冊作为书籍数量怎么读？",
+              "choices": [
+                "にざつ",
+                "にさつ",
+                "ふたさつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "二冊直接用に接さつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss1q1"
+            },
+            {
+              "prompt": "六冊作为书籍数量怎么读？",
+              "choices": [
+                "ろくさつ",
+                "ろっさつ",
+                "むいさつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "六冊用ろく接さつ，不套六本ろっぽん的音变。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss1q2"
+            },
+            {
+              "prompt": "一冊怎么读？",
+              "choices": [
+                "いちさつ",
+                "ひとさつ",
+                "いっさつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "一接冊出现促音，读いっさつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss1q3"
+            },
+            {
+              "prompt": "「雑誌を四冊」中的冊在数什么？",
+              "choices": [
+                "四个钟点",
+                "四本杂志",
+                "四支铅笔"
+              ],
+              "answerIndex": 1,
+              "explanation": "冊用于成册的书、杂志、笔记本等。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss1q4"
+            }
+          ]
+        },
+        {
+          "id": "rulebookss2",
+          "questions": [
+            {
+              "prompt": "三冊作为书籍数量怎么读？",
+              "choices": [
+                "さんさつ",
+                "さんざつ",
+                "みっさつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "三冊不浊化为ざつ，也不套三つみっつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss2q1"
+            },
+            {
+              "prompt": "七冊作为书籍数量的基本读法是？",
+              "choices": [
+                "なのさつ",
+                "ななざつ",
+                "ななさつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "冊的组合用ななさつ，不套七日なのか。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss2q2"
+            },
+            {
+              "prompt": "八冊的教材基本读法是？",
+              "choices": [
+                "ようさつ",
+                "はっさつ",
+                "はっぱつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "教材基本形式はっさつ有促音，仍保留さつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss2q3"
+            },
+            {
+              "prompt": "书籍名词「本」和数书的助数词相同吗？",
+              "choices": [
+                "用途不同，数书通常用冊",
+                "相同，书籍只能用本作助数词",
+                "冊只能数铅笔"
+              ],
+              "answerIndex": 0,
+              "explanation": "本作名词表示书；助数词本多用于细长物，书籍通常按冊计数。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss2q4"
+            }
+          ]
+        },
+        {
+          "id": "rulebookss3",
+          "questions": [
+            {
+              "prompt": "四冊作为书籍数量怎么读？",
+              "choices": [
+                "しざつ",
+                "よっさつ",
+                "よんさつ"
+              ],
+              "answerIndex": 2,
+              "explanation": "四冊用よん接さつ，不能套四日よっか或四時よじ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss3q1"
+            },
+            {
+              "prompt": "二十一冊怎么读？",
+              "choices": [
+                "にじゅうひとさつ",
+                "にじゅういっさつ",
+                "にじゅういちさつ"
+              ],
+              "answerIndex": 1,
+              "explanation": "末尾一接冊产生促音；先组合二十，再接いっさつ。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss3q2"
+            },
+            {
+              "prompt": "十冊可以怎样读？",
+              "choices": [
+                "じゅっさつ／じっさつ",
+                "じゅうさつ／とおさつ",
+                "じゅっざつ／じっざつ"
+              ],
+              "answerIndex": 0,
+              "explanation": "十接量词时的じゅっ／じっ两种形式均保留。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss3q3"
+            },
+            {
+              "prompt": "知道六冊ろくさつ，就能把六本也读ろくほん吗？",
+              "choices": [
+                "能，所有单位都不变音",
+                "能，冊和本完全同用法",
+                "不能，六本基本读ろっぽん"
+              ],
+              "answerIndex": 2,
+              "explanation": "冊和本的音变条件不同；不要跨单位直接套读音。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer",
+              "id": "rulebookss3q4"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "jpfnumberrules",
+          "locator": "第6課、印刷p.4–5；第7課p.10",
+          "status": "sourceChecked"
+        }
+      ]
+    }
+  ]
+}

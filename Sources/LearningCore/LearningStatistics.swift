@@ -71,6 +71,7 @@ public struct LearningStatistics {
         }
         let passageIDs = Set(pack.readings.map(\.id))
         let attempts = history.filter { $0.kind == .readingAttempt && passageIDs.contains($0.targetID) }
+        let questions = history.filter { $0.kind == .questionAttempt }
         let lastAttempts = attempts.reduce(into: [String: LearningEvent]()) { $0[$1.targetID] = $1 }
         let levels = ["N5", "N4", "N3", "N2"].map { level -> LevelProgress in
             let items = pack.items.filter { $0.level == level }
@@ -86,7 +87,7 @@ public struct LearningStatistics {
                 }.count)
         }
         let times = history.filter { $0.kind == .studyTime }
-        var active = Set((reviews + attempts).map { calendar.startOfDay(for: $0.timestamp) })
+        var active = Set((reviews + attempts + questions).map { calendar.startOfDay(for: $0.timestamp) })
         for event in times {
             let start = event.timestamp.addingTimeInterval(-(event.durationSeconds ?? 0))
             var day = calendar.startOfDay(for: start)
@@ -101,12 +102,13 @@ public struct LearningStatistics {
             guard let day = calendar.date(byAdding: .day, value: offset, to: today),
                   let interval = calendar.dateInterval(of: .day, for: day) else { return nil }
             return DailyStudy(date: day, seconds: StudyTime.seconds(events: times, within: interval),
-                              reviews: reviews.filter { calendar.isDate($0.timestamp, inSameDayAs: day) }.count)
+                              reviews: (reviews + questions).filter { calendar.isDate($0.timestamp, inSameDayAs: day) }.count)
         }
         let scheduler = ReviewScheduler()
         let cards = try scheduler.replay(reviews)
+        let consolidated = RuleKnowledge(pack: pack, events: history, now: now).consolidatedKeys
         let forecasts = Skill.allCases.map { skill -> RetentionForecast in
-            let selected = cards.keys.filter { $0.skill == skill }.sorted { $0.id < $1.id }
+            let selected = cards.keys.filter { $0.skill == skill && !consolidated.contains($0) }.sorted { $0.id < $1.id }
             let points = selected.isEmpty ? [] : [0, 1, 3, 7, 14, 30].map { day -> RetentionPoint in
                 let date = now.addingTimeInterval(Double(day) * 86_400)
                 let mean = selected.reduce(0.0) { sum, key in
@@ -120,7 +122,7 @@ public struct LearningStatistics {
         return Self(totalSeconds: StudyTime.seconds(events: times), activeDays: active.count,
                     reviewCount: reviews.count,
                     independentRecallCount: reviews.filter { !$0.assisted && ($0.rating ?? 0) >= 2 }.count,
-                    dueCount: scheduler.due(cards: cards, pack: pack, now: now).count,
+                    dueCount: scheduler.due(cards: cards, pack: pack, now: now, consolidated: consolidated).count,
                     days: days, levels: levels, forecasts: forecasts)
     }
 }

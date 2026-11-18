@@ -76,7 +76,7 @@
   "independentlyReviewed": 0,
   "registeredNewN2Targets": 0,
   "runtimeResourceUnchanged": true,
-  "runtimeResourceSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
+  "runtimeResourceSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
   "validationCommand": "python3 content/staging/check_n2_context.py",
   "remaining": [
     "Resolve the20 reading forms without inflating number/derivation/variant roots; verify every linked context meaning.",
@@ -248,5 +248,40 @@
       "reason": "Must distinguish from sequencingVた上で and additionうえに before registration."
     }
   ],
-  "wordExampleContextualLinksFinalReview": "Pending: check all words surrounding the89 taught targets, including inflected/compound forms. Own target meanings and selected dictionary readings checked; no independent Japanese language review claimed."
+  "wordExampleContextualLinksFinalReview": "Pending: check all words surrounding the89 taught targets, including inflected/compound forms. Own target meanings and selected dictionary readings checked; no independent Japanese language review claimed.",
+  "runtimeScopeNote": "N2章稿未注册，未修改已注册词句。本次运行基线含独立接入的五组规则及60题；仅更新章稿比较用的资源哈希，不改变N2稿件的数量或审校状态。",
+  "pendingFunctionSourceReview": [
+    {
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00061/ja/render.do",
+      "sectionsRead": [
+        "A：图表／资料信息依据",
+        "B：评价方面限制",
+        "C：从事活动时应注意的事项",
+        "D：先行行为及其结果作为后续行动依据，同主体、有意志行动"
+      ],
+      "note": "四种上で功能尚待原创语境与阅读接入，不增加当前6个功能的数量。"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-events/2009_2021/event/specialists/project-meeting/files/20111217-043re/20111218_tateishi.pdf",
+      "author": "建石始",
+      "date": "2011-12-18",
+      "sourceType": "国立国語研究所研究会配布资料，非最新论文",
+      "sectionsRead": [
+        "2.3：たところ的功能区分",
+        "4.3：Vたところ、顺接结果的语料分析"
+      ],
+      "scope": "核对行动／询问／调查后得知结果，与刚做完的たところだ及たところが分开；不复制例句，不把旧语料统计称为当前频率。"
+    },
+    {
+      "url": "https://clrd.ninjal.ac.jp/lrw/lrw2024/i3_B2-paper.pdf",
+      "author": "丁文静",
+      "date": "2024",
+      "sourceType": "言語資源ワークショップ2024论文",
+      "sectionsRead": [
+        "摘要、调查方法及第5节：行动所向对象的に向けて",
+        "第6节：日中表达非逐词一对一的结论"
+      ],
+      "scope": "核对行为目标及中文对／向的不同映射。文中转引工藤2007不等于本项目已读原著；目标受众与未来准备仍需各自原创语境。"
+    }
+  ]
 }

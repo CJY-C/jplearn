@@ -14,6 +14,7 @@ struct StatisticsView: View {
                 overview(stats)
                 timeSection(stats)
                 progressSection(stats)
+                ruleSection
                 retentionSection(stats)
             } else if let failure = failure {
                 Text(failure).foregroundColor(.secondary)
@@ -36,6 +37,22 @@ struct StatisticsView: View {
         }
     }
 
+    private var ruleSection: some View {
+        let knowledge = RuleKnowledge(pack: model.pack, events: model.events)
+        return Section {
+            ForEach(model.pack.learningRules ?? []) { rule in
+                HStack {
+                    Text(rule.title).font(.subheadline)
+                    Spacer()
+                    Text(knowledge.progress[rule.id]?.title ?? "待学习与验证")
+                        .font(.caption).foregroundColor(.secondary)
+                }
+            }
+        } header: { Text("规则迁移") } footer: {
+            Text("不同题组隔天通过才记为已验证。规则可推导的表达单独显示，不增加上方独立掌握词数；特殊读法继续单独复习。")
+        }
+    }
+
     private func overview(_ stats: LearningStatistics) -> some View {
         Section {
             HStack {
@@ -52,7 +69,7 @@ struct StatisticsView: View {
                     .monospacedDigit().foregroundColor(.secondary)
             }
         } footer: {
-            Text("累计时间只计实际学习。回想率含首次练习，以独立想起（含“费力”）的次数计算；提示后作答不计入想起。")
+            Text("累计时间只计实际学习。回想率只计词句复习，含首次练习，以独立想起（含“费力”）的次数计算；提示后作答不计入想起。规则和阅读选择题另计练习次数。")
         }
     }
 
@@ -134,7 +151,7 @@ struct StatisticsView: View {
                     .accessibilityIdentifier("statistics.emptyForecast")
             }
         } header: { Text("遗忘趋势") } footer: {
-            Text("FSRS 模型估计 · 假设从现在起不再复习。纵轴为预计回想概率，横轴为经过天数。曲线不是实际测得的成绩，复习后会随记录更新。")
+            Text("FSRS 模型估计 · 假设从现在起不再复习。纵轴为预计回想概率，横轴为经过天数。曲线不是实际测得的成绩，复习后会随记录更新。已合并为规则练习的词项不在这条词项曲线中，规则迁移另行统计。")
         }
     }
 }

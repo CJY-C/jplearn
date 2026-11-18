@@ -11,7 +11,15 @@ final class SessionPlanningTests: XCTestCase {
                       targetID: id, skill: skill, rating: grade, assisted: assisted)
     }
     private func prepared(_ pack: ContentPack) -> [LearningEvent] {
-        pack.items.flatMap { item in item.skills.map { review(item.id, $0) } }
+        var events = pack.items.flatMap { item in item.skills.map { review(item.id, $0) } }
+        for rule in pack.learningRules ?? [] {
+            let set = rule.practiceSets[0], context = UUID().uuidString
+            events += set.questions.map { LearningEvent(deviceID: device, timestamp: now, kind: .questionAttempt,
+                targetID: $0.id, value: String($0.answerIndex), contextID: context, correct: true) }
+            events.append(LearningEvent(deviceID: device, timestamp: now, kind: .placement,
+                targetID: set.id, value: "passed", contextID: context))
+        }
+        return events
     }
     private func attempt(_ id: String, time: Date? = nil) -> LearningEvent {
         LearningEvent(deviceID: device, timestamp: time ?? now, kind: .readingAttempt,

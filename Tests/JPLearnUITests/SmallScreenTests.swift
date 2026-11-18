@@ -6,7 +6,7 @@ final class SmallScreenTests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
-    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil, exerciseID: String? = nil, largeText: Bool = false) {
+    @MainActor private func launch(knownVocabulary: Bool = false, exhausted: Bool = false, longReading: Bool = false, readingID: String? = nil, wordID: String? = nil, exerciseID: String? = nil, ruleSetID: String? = nil, largeText: Bool = false) {
         XCUIDevice.shared.orientation = .portrait
         app = XCUIApplication()
         if largeText { app.launchArguments += ["-UIPreferredContentSizeCategoryName", UIContentSizeCategory.extraExtraExtraLarge.rawValue] }
@@ -17,6 +17,7 @@ final class SmallScreenTests: XCTestCase {
         if let readingID = readingID { app.launchEnvironment["JPLEARN_UI_TEST_READING_ID"] = readingID }
         if let wordID = wordID { app.launchEnvironment["JPLEARN_UI_TEST_WORD_ID"] = wordID }
         if let exerciseID = exerciseID { app.launchEnvironment["JPLEARN_UI_TEST_EXERCISE_ID"] = exerciseID }
+        if let ruleSetID = ruleSetID { app.launchEnvironment["JPLEARN_UI_TEST_RULE_SET_ID"] = ruleSetID }
         app.launch()
         XCTAssertTrue(app.buttons["today.start"].waitForExistence(timeout: 10))
     }
@@ -64,7 +65,7 @@ final class SmallScreenTests: XCTestCase {
     }
 
     @MainActor func testRecallAndRatingControlsFitOnSE3() {
-        launch()
+        launch(wordID: "v0001")
         XCTAssertEqual(app.frame.width, 375, accuracy: 1)
         XCTAssertEqual(app.frame.height, 667, accuracy: 1)
         visible(app.buttons["today.start"])
@@ -167,7 +168,7 @@ final class SmallScreenTests: XCTestCase {
     }
 
     @MainActor func testKeyboardLeavesTheAnswerActionVisible() {
-        launch()
+        launch(wordID: "v0001")
         app.buttons["today.start"].tap()
         let field = app.textFields["study.kanaInput"]
         XCTAssertTrue(field.waitForExistence(timeout: 5))
@@ -368,6 +369,7 @@ final class SmallScreenTests: XCTestCase {
                 return
             }
             if app.buttons["study.reveal"].exists { app.buttons["study.reveal"].tap() }
+            else if app.buttons["rule.practice"].exists { app.buttons["rule.practice"].tap() }
             else if app.buttons["study.grade.3"].exists { app.buttons["study.grade.3"].tap() }
             else if app.buttons["study.continue"].exists { app.buttons["study.continue"].tap() }
             else if app.buttons["study.choice.0"].exists {
@@ -477,5 +479,37 @@ final class SmallScreenTests: XCTestCase {
         app.buttons["study.resume"].tap()
         let changed = XCTNSPredicateExpectation(predicate: NSPredicate(format: "label != %@", paused), object: timer)
         XCTAssertEqual(XCTWaiter.wait(for: [changed], timeout: 5), .completed)
+    }
+
+    @MainActor func testRuleQuestionsKeepAnswersFixedAndFinishWithoutPagingOnSE3() {
+        launch(ruleSetID: "rulemonths1")
+        app.buttons["today.start"].tap()
+        visible(app.buttons["rule.practice"])
+        app.buttons["rule.practice"].tap()
+        for _ in 0..<4 {
+            visibleChoices()
+            let fixed = app.buttons["study.choice.0"].frame
+            app.scrollViews["study.textScroll"].swipeUp()
+            XCTAssertEqual(fixed, app.buttons["study.choice.0"].frame)
+            app.buttons["study.choice.0"].tap()
+            visible(app.buttons["study.continue"])
+            app.buttons["study.continue"].tap()
+        }
+        visible(app.buttons["study.finish"])
+        screenshot("SE3-Rule-Complete")
+    }
+
+    @MainActor func testLongDateRuleScrollsAbovePracticeButtonAtLargeTextSize() {
+        launch(ruleSetID: "ruledates1", largeText: true)
+        app.buttons["today.start"].tap()
+        let action = app.buttons["rule.practice"]
+        visible(action)
+        let fixed = action.frame
+        app.scrollViews["study.textScroll"].swipeUp()
+        XCTAssertEqual(fixed, action.frame)
+        visible(action)
+        action.tap()
+        visibleChoices()
+        screenshot("SE3-Date-Rule-LargeText")
     }
 }

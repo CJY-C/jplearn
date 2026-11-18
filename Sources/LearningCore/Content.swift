@@ -188,11 +188,12 @@ public struct ContentPack: Codable {
     public let lessons: [Lesson]
     public let readings: [ReadingPassage]
     public var introModules: [IntroModule]?
+    public var learningRules: [LearningRule]?
     private var itemIndex: [String: Int] = [:]
     private var sentenceIndex: [String: Int] = [:]
     private var exerciseIndex: [String: Int] = [:]
     enum CodingKeys: String, CodingKey {
-        case schemaVersion, id, version, title, notice, references, stages, items, sentences, exercises, lessons, readings, introModules
+        case schemaVersion, id, version, title, notice, references, stages, items, sentences, exercises, lessons, readings, introModules, learningRules
     }
 
     public static func bundled() throws -> ContentPack {
@@ -324,7 +325,23 @@ public struct ContentPack: Codable {
                 ([item.reading] + (item.acceptedReadings ?? [])).contains(accent.reading)
             }
         }) else { throw LearningError.invalid("词语重音的拍数、读音或来源无效。") }
-        let questions = readings.flatMap(\.allQuestions) + (introModules ?? []).flatMap(\.questions)
+        let rules = learningRules ?? []
+        let ruleIDs = Set(rules.map(\.id))
+        guard unique(rules.map(\.id)), unique(rules.flatMap { $0.practiceSets.map(\.id) }),
+              Set(rules.flatMap { $0.practiceSets.map(\.id) }).isDisjoint(with: ruleIDs),
+              rules.allSatisfy({ rule in
+                  !rule.title.isEmpty && !rule.explanation.isEmpty && !rule.examples.isEmpty && !rule.exceptions.isEmpty &&
+                  !rule.citations.isEmpty && rule.practiceSets.count >= 3 &&
+                  rule.practiceSets.allSatisfy { $0.questions.count == 4 } &&
+                  unique(rule.regularItemIDs) && Set(rule.prerequisiteIDs).isSubset(of: itemIDs) &&
+                  rule.prerequisiteIDs.allSatisfy { knownItems[$0]?.kind == "word" } &&
+                  rule.regularItemIDs.allSatisfy { knownItems[$0]?.kind == "word" && knownItems[$0]?.lexemeID == nil } &&
+                  Set(rule.prerequisiteRuleIDs).isSubset(of: ruleIDs)
+              }), unique(rules.flatMap(\.regularItemIDs)) else {
+            throw LearningError.invalid("规则的前置知识、常规词项或迁移题组无效。")
+        }
+        let questions = readings.flatMap(\.allQuestions) + (introModules ?? []).flatMap(\.questions) +
+            rules.flatMap { $0.practiceSets.flatMap(\.questions) }
         guard unique(questions.map(\.id)), questions.allSatisfy({
             !$0.prompt.isEmpty && (2...4).contains($0.choices.count) && Set($0.choices).count == $0.choices.count &&
             $0.choices.indices.contains($0.answerIndex) && !$0.explanation.isEmpty &&
@@ -352,6 +369,7 @@ public struct ContentPack: Codable {
         }
         try checkGraph(Dictionary(uniqueKeysWithValues: items.map { ($0.id, $0.prerequisiteIDs ?? []) }))
         try checkGraph(Dictionary(uniqueKeysWithValues: lessons.map { ($0.id, $0.prerequisiteIDs ?? []) }))
+        try checkGraph(Dictionary(uniqueKeysWithValues: rules.map { ($0.id, $0.prerequisiteRuleIDs) }))
         var citations: [ContentCitation] = []
         for item in items {
             citations.append(contentsOf: item.citations ?? [])
@@ -361,6 +379,7 @@ public struct ContentPack: Codable {
         for reading in readings { citations.append(contentsOf: reading.citations ?? []) }
         for exercise in exercises { citations.append(contentsOf: exercise.citations ?? []) }
         for module in introModules ?? [] { citations.append(contentsOf: module.citations) }
+        for rule in rules { citations.append(contentsOf: rule.citations) }
         guard citations.allSatisfy({ sourceIDs.contains($0.sourceID) && !$0.locator.isEmpty &&
             ["reference", "adapted", "translated", "sourceChecked", "original"].contains($0.status) }) else {
             throw LearningError.invalid("内容来源或核验状态无效。")
