@@ -338,6 +338,7 @@ import LearningCore
         else {
             try completeRule(entry: entry, set: set)
             current.index += 1; current.questionIndex = nil
+            current.removeUnavailableReadings(pack: pack, events: events)
         }
         try saveCheckpoint(current)
         if current.current == nil { try studyClock.setVisible(false) }

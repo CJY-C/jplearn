@@ -54,4 +54,41 @@ final class RuleProgressTests: XCTestCase {
         XCTAssertTrue(restored.events.filter { $0.kind == .questionAttempt }.allSatisfy(\.assisted))
         XCTAssertTrue(RuleProgress.make(rule, pack: restored.pack, events: restored.events).consolidatedKeys.isEmpty)
     }
+
+    @MainActor func testFailedRuleRechecksQueuedCalendarReadingBeforeAdvancing() throws {
+        let folder = try directory(), first = try AppModel(storageDirectory: folder), now = Date()
+        let rule = try XCTUnwrap(first.pack.learningRules?.first { $0.id == "rulemonth" })
+        var history = first.pack.items.flatMap { item in item.skills.map {
+            LearningEvent(deviceID: first.deviceID, timestamp: now.addingTimeInterval(-10), kind: .review,
+                targetID: item.id, skill: $0, rating: 3)
+        } }
+        for (index, set) in rule.practiceSets.enumerated() {
+            let context = UUID().uuidString
+            let time = now.addingTimeInterval(Double(index - 2) * 86_400 - 60)
+            history += set.questions.map { LearningEvent(deviceID: first.deviceID, timestamp: time,
+                kind: .questionAttempt, targetID: $0.id, value: String($0.answerIndex), contextID: context, correct: true) }
+            history.append(LearningEvent(deviceID: first.deviceID, timestamp: time, kind: .placement,
+                targetID: set.id, value: "passed", contextID: context))
+        }
+        try first.append(history)
+        let set = rule.practiceSets[0]
+        let checkpoint = SessionCheckpoint(tasks: [.rule(set.id), .reading("rn2002"),
+            .recall(ReviewKey(itemID: "v0001", skill: .meaning))])
+        try ExchangeCoding.encoder().encode(checkpoint).write(to: folder.appendingPathComponent("session.json"))
+        let restored = try AppModel(storageDirectory: folder)
+        try restored.resumeSession()
+        XCTAssertEqual(restored.checkpoint?.entries.count, 3)
+        let entryID = try XCTUnwrap(restored.checkpoint?.current?.id)
+        for question in set.questions {
+            try restored.recordRuleSelection(entryID: entryID, questionID: question.id,
+                selection: (question.answerIndex + 1) % question.choices.count)
+            try restored.advanceRuleQuestion(entryID: entryID, questionID: question.id)
+        }
+        guard case .recall(let key)? = restored.checkpoint?.current?.task else {
+            return XCTFail("The unavailable reading should be removed while the following study remains")
+        }
+        XCTAssertEqual(key.itemID, "v0001")
+        XCTAssertFalse(restored.events.contains { $0.kind == .readingAttempt })
+        XCTAssertFalse(RuleProgress.make(rule, pack: restored.pack, events: restored.events).verified)
+    }
 }
