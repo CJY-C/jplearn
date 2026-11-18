@@ -22,9 +22,9 @@ final class RuleLearningTests: XCTestCase {
 
     func testRulesPreserveRealVocabularyAndExceptionPractice() throws {
         let pack = try ContentPack.bundled()
-        XCTAssertEqual(pack.learningRules?.count, 5)
+        XCTAssertEqual(pack.learningRules?.count, 7)
         XCTAssertEqual(pack.wordCount, 3766)
-        XCTAssertEqual(pack.learningRules?.flatMap { $0.practiceSets.flatMap(\.questions) }.count, 60)
+        XCTAssertEqual(pack.learningRules?.flatMap { $0.practiceSets.flatMap(\.questions) }.count, 84)
         let regular = Set(pack.learningRules!.flatMap(\.regularItemIDs))
         XCTAssertEqual(regular, Set(["v0158", "v0160", "vn5007", "v0161", "vn5013"]))
         for id in ["vn5527", "vn5530", "vn5537", "vn5006", "vn6503", "v0159", "vn5726", "vn5172"] {
@@ -41,6 +41,52 @@ final class RuleLearningTests: XCTestCase {
         let early = first + attempt(rule.practiceSets[1], at: now.addingTimeInterval(-1))
         XCTAssertFalse(RuleProgress.make(rule, pack: pack, events: early, now: now).verified)
         XCTAssertTrue(RuleProgress.make(rule, pack: pack, events: verified(rule), now: now).verified)
+    }
+
+    func testProductiveFormsRequireTheirOwnVocabularyInsteadOfNumberKnowledge() throws {
+        let pack = try ContentPack.bundled(), verb = rule("ruleverbforms", pack)
+        let numbers = verified(rule("rulenum", pack))
+        XCTAssertFalse(RuleKnowledge(pack: pack, events: numbers, now: now).ready(verb))
+        let onlyMeanings = verb.prerequisiteIDs.map { LearningEvent(deviceID: device, timestamp: now,
+            kind: .review, targetID: $0, skill: .meaning, rating: 3) }
+        XCTAssertFalse(RuleKnowledge(pack: pack, events: numbers + onlyMeanings, now: now).ready(verb))
+        let readings = verb.prerequisiteIDs.map { LearningEvent(deviceID: device, timestamp: now,
+            kind: .review, targetID: $0, skill: .reading, rating: 3) }
+        XCTAssertTrue(RuleKnowledge(pack: pack, events: onlyMeanings + readings, now: now).ready(verb))
+        XCTAssertFalse(RuleKnowledge(pack: pack, events: onlyMeanings + readings, now: now)
+            .ready(rule("ruleadjectiveforms", pack)))
+    }
+
+    func testFormTransferCannotConsolidateLemmaMeaningReadingOrOtherGrammar() throws {
+        let pack = try ContentPack.bundled()
+        for id in ["ruleverbforms", "ruleadjectiveforms"] {
+            let formRule = rule(id, pack)
+            let history = verified(formRule)
+            let knowledge = RuleKnowledge(pack: pack, events: history, now: now)
+            XCTAssertTrue(knowledge.progress[id]!.verified)
+            XCTAssertTrue(knowledge.consolidatedKeys.isEmpty)
+            for lemma in formRule.prerequisiteIDs {
+                let direct = ReadingKnowledge(pack: pack, events: history, now: now)
+                XCTAssertFalse(direct.recalled(lemma, .reading))
+                XCTAssertFalse(direct.recalled(lemma, .meaning))
+            }
+            let stats = try LearningStatistics.make(pack: pack, events: history, now: now)
+            XCTAssertEqual(stats.reviewCount, 0)
+            XCTAssertEqual(stats.levels.reduce(0) { $0 + $1.meaning.remembered + $1.reading.remembered }, 0)
+        }
+    }
+
+    func testLemmaReviewsRemainDueAfterFormTransfer() throws {
+        let pack = try ContentPack.bundled(), verb = rule("ruleverbforms", pack)
+        let old = verb.prerequisiteIDs.flatMap { id in [Skill.reading, .meaning].map {
+            LearningEvent(deviceID: device, timestamp: now.addingTimeInterval(-30 * 86_400),
+                kind: .review, targetID: id, skill: $0, rating: 1)
+        } }
+        let due = try ReviewScheduler().dueKeys(events: old + verified(verb), pack: pack, now: now)
+        for id in verb.prerequisiteIDs {
+            XCTAssertTrue(due.contains(ReviewKey(itemID: id, skill: .meaning)))
+            XCTAssertTrue(due.contains(ReviewKey(itemID: id, skill: .reading)))
+        }
     }
 
     func testFlagsIncompleteAnswersAndAssistanceCannotInventTransfer() throws {

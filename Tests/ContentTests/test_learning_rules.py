@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build_content import make_pack, validate
 from compile_readings import compile_manuscript
+from check_rule_transfer import check as check_transfer
 
 
 class LearningRuleTests(unittest.TestCase):
@@ -18,12 +19,32 @@ class LearningRuleTests(unittest.TestCase):
         cls.rules = {r['id']: r for r in cls.pack['learningRules']}
 
     def test_independent_rules_and_rotating_contexts_have_no_fake_words(self):
-        self.assertEqual(len(self.rules), 5)
+        self.assertEqual(len(self.rules), 7)
         questions = [q for r in self.rules.values() for s in r['practiceSets'] for q in s['questions']]
-        self.assertEqual(len(questions), 60)
-        self.assertEqual(len({q['id'] for q in questions}), 60)
+        self.assertEqual(len(questions), 84)
+        self.assertEqual(len({q['id'] for q in questions}), 84)
         self.assertTrue(all(s['questions'] for r in self.rules.values() for s in r['practiceSets']))
-        self.assertEqual(len({q['prompt'] for q in questions}), 60)
+        self.assertEqual(len({q['prompt'] for q in questions}), 84)
+
+    def test_productive_forms_reuse_lemmas_and_keep_meanings_independent(self):
+        for identifier in ['ruleverbforms', 'ruleadjectiveforms']:
+            rule = self.rules[identifier]
+            self.assertEqual(rule['regularItemIDs'], [])
+            self.assertTrue(rule['prerequisiteIDs'])
+            self.assertEqual(rule['prerequisiteRuleIDs'], [])
+        proof = check_transfer(self.pack)
+        self.assertEqual((proof['newRules'], proof['newQuestions']), (2, 24))
+        self.assertEqual((proof['newLexicalRoots'], proof['newGrammarFunctions']), (0, 0))
+        self.assertTrue(proof['oldCollectionsPreserved'])
+
+    def test_rule_extension_cannot_silently_rewrite_prior_course_or_rules(self):
+        for collection, field in [('items', 'meaning'), ('learningRules', 'explanation')]:
+            pack = copy.deepcopy(self.pack)
+            pack[collection][0][field] = 'unreviewed change'
+            with self.assertRaises(AssertionError): check_transfer(pack)
+        pack = copy.deepcopy(self.pack)
+        next(r for r in pack['learningRules'] if r['id'] == 'ruleverbforms')['regularItemIDs'] = ['v0025']
+        with self.assertRaises(AssertionError): check_transfer(pack)
 
     def test_exceptions_durations_and_lexicalized_words_cannot_be_consolidated(self):
         covered = {i for r in self.rules.values() for i in r['regularItemIDs']}

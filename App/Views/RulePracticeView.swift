@@ -7,7 +7,7 @@ struct RuleExplanation: View {
         VStack(alignment: .leading, spacing: 14) {
             Text(rule.explanation).font(.callout)
             ForEach(rule.examples, id: \.self) { Text($0).font(.headline) }
-            Text("边界与特殊读法").font(.subheadline.weight(.semibold))
+            Text("边界与例外").font(.subheadline.weight(.semibold))
             ForEach(rule.exceptions, id: \.self) { Text($0).font(.callout).foregroundColor(.secondary) }
         }
     }
@@ -23,10 +23,21 @@ struct RuleDetailView: View {
             VStack(alignment: .leading, spacing: 16) {
                 RuleExplanation(rule: rule)
                 Text(knowledge.progress[rule.id]?.title ?? "待学习与验证").font(.subheadline.weight(.medium))
-                Text("不同题组隔天通过后，常规组合改为整组复习。查看提示或答错后，需要再次验证；不会批量添加词汇掌握记录。")
+                Text(rule.regularItemIDs.isEmpty
+                    ? "换例子并隔天复测，检验能否迁移规则。原词的词义、读音和用法仍单独练习；会变形不会批量增加掌握词数。"
+                    : "不同题组隔天通过后，常规组合改为整组复习。查看提示或答错后，需要再次验证；不会批量添加词汇掌握记录。")
                     .font(.caption).foregroundColor(.secondary)
                 if !knowledge.ready(rule) {
-                    Text("先完成数字规则的练习，或掌握一到十的读音与含义。").font(.callout).foregroundColor(.secondary)
+                    VStack(alignment: .leading, spacing: 6) {
+                        if !rule.prerequisiteIDs.isEmpty {
+                            Text("先掌握这些词的读音与含义：" + rule.prerequisiteIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
+                        }
+                        if !rule.prerequisiteRuleIDs.isEmpty {
+                            Text((rule.prerequisiteIDs.isEmpty ? "先完成：" : "或先完成：") + rule.prerequisiteRuleIDs.compactMap { id in
+                                model.pack.learningRules?.first { $0.id == id }?.title
+                            }.joined(separator: "、"))
+                        }
+                    }.font(.callout).foregroundColor(.secondary)
                 }
             }
         } actions: {

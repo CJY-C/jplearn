@@ -5,8 +5,10 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
 
 
 def check():
@@ -21,6 +23,13 @@ def check():
     assert hashlib.sha256(data).hexdigest() == ledger["baselineRuntimeSHA256"], "Baseline changed"
     before = json.loads(data)
     after = json.loads((ROOT / resource).read_text())
+    # Prove current changes first, then reproduce this chapter's original proof
+    # at the reviewed checkpoint. Neither audit permits arbitrary later records.
+    subsequent = None
+    if (ROOT / "content/source-checks/rule-learning-transfer.json").exists():
+        from check_rule_transfer import check as check_rule_transfer
+        subsequent = check_rule_transfer(after)
+        after = json.loads(previous_at(subsequent["baselineCommit"], resource))
     for name, sha in ledger["sourceInputSHA256"].items():
         path = "content/authoring/" + name
         assert hashlib.sha256(previous(path)).hexdigest() == sha, (name, "input hash")
@@ -65,7 +74,13 @@ def check():
         baselineCommit=baseline, reviewedOccurrences=ledger["reviewedOccurrences"],
         changedSentences=len(found_sentences), changedReadings=len(found_readings),
         changedSentenceAssociations=sum(len(v) for v in sentence_changes.values()),
-        newIDs={k: len(v) for k, v in ledger["newIDs"].items()})
+        newIDs={k: len(v) for k, v in ledger["newIDs"].items()},
+        subsequentRuleChangesVerified=subsequent is not None,
+        verifiedThroughCommit=subsequent["baselineCommit"] if subsequent else None)
+
+
+def previous_at(commit, name):
+    return subprocess.check_output(["git", "show", commit + ":" + name], cwd=ROOT)
 
 
 if __name__ == "__main__":

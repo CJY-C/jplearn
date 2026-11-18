@@ -1042,6 +1042,424 @@
           "status": "sourceChecked"
         }
       ]
+    },
+    {
+      "id": "ruleverbforms",
+      "title": "动词：て形与た形共用转换",
+      "explanation": "先确认动词类别，再按词尾转换，不把每个变形另背成一个词。五段动词的て形：う／つ／る→って，む／ぶ／ぬ→んで，く→いて，ぐ→いで，す→して；一段动词去る接て；する→して，来る（くる）→来て（きて）。把末尾て换成た、で换成だ，就是对应的た形；读到变形时，也要能还原词典形。",
+      "examples": [
+        "五段：待つ → 待って → 待った；読む → 読んで → 読んだ",
+        "五段：書く → 書いて → 書いた；泳ぐ → 泳いで → 泳いだ；話す → 話して → 話した",
+        "一段：食べる → 食べて → 食べた",
+        "不规则：する → して → した；来る（くる）→ 来て（きて）→ 来た（きた）"
+      ],
+      "exceptions": [
+        "行く是五段动词，但这里是行って／行った，不按く→いて／いた转换。",
+        "不能仅凭る结尾判断一段：帰る（かえる）是五段，帰って／帰った；借りる（かりる）是一段，借りて／借りた。类别与词一起核对。",
+        "这条规则只说明如何构成和辨认词形。て形可以进入多种结构，た形也会用于修饰和其他句型，整句含义仍需结合已学结构判断。",
+        "会变形不等于掌握这个动词的词义、搭配或重音；本单元不会合并动词原词的词义与读音复习。"
+      ],
+      "prerequisiteIDs": [
+        "v0025",
+        "v0026",
+        "v0033"
+      ],
+      "prerequisiteRuleIDs": [],
+      "regularItemIDs": [],
+      "practiceSets": [
+        {
+          "id": "ruleverbformss1",
+          "questions": [
+            {
+              "id": "ruleverbformss1q1",
+              "prompt": "「待つ（まつ，等待）」是五段动词。哪组て形／た形正确？",
+              "choices": [
+                "まつて／まつた",
+                "まって／まった",
+                "まいて／まいた"
+              ],
+              "answerIndex": 1,
+              "explanation": "五段词尾つ与う、る同组，变为って／った。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss1q2",
+              "prompt": "「遊ぶ（あそぶ，玩）」是五段动词。套用む／ぶ／ぬ组的规则，て形是？",
+              "choices": [
+                "あそんで",
+                "あそって",
+                "あそいて"
+              ],
+              "answerIndex": 0,
+              "explanation": "ぶ变为んで；同组的読む也变为読んで，但两词词义仍分别学习。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss1q3",
+              "prompt": "「書く（かく，写）」的て形是かいて。对应的た形是？",
+              "choices": [
+                "かって",
+                "かいだ",
+                "かいた"
+              ],
+              "answerIndex": 2,
+              "explanation": "末尾て换为た，保留前面的かい；不能把く组改成う／つ／る组。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss1q4",
+              "prompt": "「来る（くる，来）」属于不规则动词。来て／来た分别怎么读？",
+              "choices": [
+                "くて／くた",
+                "きて／きた",
+                "こて／こた"
+              ],
+              "answerIndex": 1,
+              "explanation": "来る的て形是きて，た形是きた；汉字相同不代表来始终读く。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        },
+        {
+          "id": "ruleverbformss2",
+          "questions": [
+            {
+              "id": "ruleverbformss2q1",
+              "prompt": "「泳ぐ（およぐ，游泳）」是五段动词。哪组て形／た形正确？",
+              "choices": [
+                "およいで／およいだ",
+                "およいて／およいた",
+                "およって／およった"
+              ],
+              "answerIndex": 0,
+              "explanation": "五段ぐ结尾变为いで／いだ；与く结尾的いて／いた区别在浊音。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss2q2",
+              "prompt": "「話す（はなす，说话）」是五段动词。哪组て形／た形正确？",
+              "choices": [
+                "はなすて／はなすた",
+                "はなって／はなった",
+                "はなして／はなした"
+              ],
+              "answerIndex": 2,
+              "explanation": "五段す结尾变为して／した。表面出现して，并不能说明原词一定是不规则动词する。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss2q3",
+              "prompt": "借りる（かりる，借入）是一段，帰る（かえる，回去）是五段。哪一组正确？",
+              "choices": [
+                "借って／帰て",
+                "借りて／帰って",
+                "借りって／帰いて"
+              ],
+              "answerIndex": 1,
+              "explanation": "一段借りる去る接て；五段帰る按る→って转换。不能把所有る结尾动词归为一类。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss2q4",
+              "prompt": "「行く（いく，去）」的た形是？",
+              "choices": [
+                "いった",
+                "いいた",
+                "いんだ"
+              ],
+              "answerIndex": 0,
+              "explanation": "行く在て形／た形上是例外，读いって／いった，不套く→いて／いた。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        },
+        {
+          "id": "ruleverbformss3",
+          "questions": [
+            {
+              "id": "ruleverbformss3q1",
+              "prompt": "「買う（かう，买）」是五段动词。哪组て形／た形正确？",
+              "choices": [
+                "かうて／かうた",
+                "かんで／かんだ",
+                "かって／かった"
+              ],
+              "answerIndex": 2,
+              "explanation": "五段う、つ、る都归入って／った这一组；本题练买这个动词的变形。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss3q2",
+              "prompt": "「食べる（たべる，吃）」是一段动词。食べて的た形是？",
+              "choices": [
+                "たべった",
+                "たべた",
+                "たべだ"
+              ],
+              "answerIndex": 1,
+              "explanation": "一段食べる去る后接て／た，得到食べて／食べた，不用五段る的って／った。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss3q3",
+              "prompt": "读到「読んだ本」时，読んだ对应哪个词典形？",
+              "choices": [
+                "読む（よむ，读）",
+                "呼ぶ（よぶ，呼唤）",
+                "飲む（のむ，喝）"
+              ],
+              "answerIndex": 0,
+              "explanation": "根据汉字「読」及「本」的搭配，还原为読む。只看假名よんだ时，也可能是呼ぶ的变形，不能仅靠んだ这个词尾唯一确定原词；词形、汉字和语境要一起判断。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleverbformss3q4",
+              "prompt": "「する（做）」的て形是して。它的た形，以及「来た」的词典形是？",
+              "choices": [
+                "すた；来る（くる）",
+                "した；来る（くる）",
+                "した；来る（きる）"
+              ],
+              "answerIndex": 1,
+              "explanation": "する→して→した；来た（きた）要还原为来る（くる）。不规则词也练正向变化和反向辨认。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "tufsverbclass",
+          "locator": "動詞の３種類 §1–5：三类、词尾条件与る结尾例外",
+          "status": "sourceChecked"
+        },
+        {
+          "sourceID": "tufsverbte",
+          "locator": "Vて（て形）§3–4：五段／一段／不规则的对应",
+          "status": "sourceChecked"
+        },
+        {
+          "sourceID": "tufsverbplain",
+          "locator": "普通形の体系 §6、8、10：た／て的对应及行く例外",
+          "status": "sourceChecked"
+        }
+      ]
+    },
+    {
+      "id": "ruleadjectiveforms",
+      "title": "形容词：い／な类的变化与还原",
+      "explanation": "先查明词类，再套用变化。い形容词把末尾い换为くない（否定）、かった（过去）、くなかった（过去否定）、くて（连接），修饰名词保留い。な形容词用ではない、だった、ではなかった、で；修饰名词接な。变形共用规则，词本身的意思仍分别学。",
+      "examples": [
+        "寒い → 寒くない／寒かった／寒くなかった／寒くて",
+        "静かだ → 静かではない／静かだった／静かではなかった／静かで",
+        "名词前：新しい本；静かな部屋",
+        "いい → よくない／よかった／よくなかった／よくて"
+      ],
+      "exceptions": [
+        "いい变形用よ：よくない、よかった；不是いくない、いかった。",
+        "きれい虽然读音以い结尾，仍是な形容词：きれいな、きれいだった。不能只看末尾字符判断词类。",
+        "过去否定保留くなかった或ではなかった；不要只识别かった就误判为肯定。",
+        "本单元只处理列出的普通形式。词义、礼貌程度、连接后的语义和重音仍需结合词项与句型学习；不会自动标记全部形容词掌握。"
+      ],
+      "prerequisiteIDs": [
+        "v0037",
+        "v0047",
+        "v0174"
+      ],
+      "prerequisiteRuleIDs": [],
+      "regularItemIDs": [],
+      "practiceSets": [
+        {
+          "id": "ruleadjectiveformss1",
+          "questions": [
+            {
+              "id": "ruleadjectiveformss1q1",
+              "prompt": "新しい（あたらしい，新）是い形容词。普通形式的否定是？",
+              "choices": [
+                "新しいではない",
+                "新しくない",
+                "新しない"
+              ],
+              "answerIndex": 1,
+              "explanation": "去掉末尾い后接くない，成为新しくない；不是把い形容词原样接ではない。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss1q2",
+              "prompt": "寒い（さむい，冷）是い形容词。普通形式的过去肯定是？",
+              "choices": [
+                "寒かった",
+                "寒いだった",
+                "寒くなかった"
+              ],
+              "answerIndex": 0,
+              "explanation": "寒い去末尾い接かった。寒くなかった是过去否定，肯否关系不同。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss1q3",
+              "prompt": "静か（しずか，安静）是な形容词。修饰「部屋」时选哪种接续？",
+              "choices": [
+                "静かい部屋",
+                "静かの部屋",
+                "静かな部屋"
+              ],
+              "answerIndex": 2,
+              "explanation": "な形容词在名词前用な；静かだ的だ不能直接保留在名词前。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss1q4",
+              "prompt": "いい（好）的过去否定是哪种？",
+              "choices": [
+                "いくなかった",
+                "よくなかった",
+                "いいではなかった"
+              ],
+              "answerIndex": 1,
+              "explanation": "いい的变化使用よ：よくない→よくなかった。规则之外的词干变化需单独核对。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        },
+        {
+          "id": "ruleadjectiveformss2",
+          "questions": [
+            {
+              "id": "ruleadjectiveformss2q1",
+              "prompt": "高い（たかい，高／贵）是い形容词。普通形式的过去否定是？",
+              "choices": [
+                "高くなかった",
+                "高かった",
+                "高いではなかった"
+              ],
+              "answerIndex": 0,
+              "explanation": "高くなかった含否定；高かった是过去肯定。具体是高度还是价格，要靠语境判断。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss2q2",
+              "prompt": "静か（安静）是な形容词。普通形式的过去肯定是？",
+              "choices": [
+                "静かかった",
+                "静かいだった",
+                "静かだった"
+              ],
+              "answerIndex": 2,
+              "explanation": "な形容词谓语的普通形式过去用だった，不能套い形容词的かった。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss2q3",
+              "prompt": "「きれい（漂亮／干净）」虽然以い结尾，词类是な形容词。表示过去的状态用？",
+              "choices": [
+                "きれかった",
+                "きれいだった",
+                "きれくなかった"
+              ],
+              "answerIndex": 1,
+              "explanation": "きれい是な形容词，保留整个词干接だった；按末尾い误分词类会生成错误变形。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss2q4",
+              "prompt": "安い（やすい，便宜）是い形容词。连接下一部分时，其て形是？",
+              "choices": [
+                "安くて",
+                "安いで",
+                "安くなかった"
+              ],
+              "answerIndex": 0,
+              "explanation": "い形容词去末尾い接くて。本题只核对词形，连接的是并列还是原因仍要看整句。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        },
+        {
+          "id": "ruleadjectiveformss3",
+          "questions": [
+            {
+              "id": "ruleadjectiveformss3q1",
+              "prompt": "「新しくなかった」对应哪个原词和肯否关系？",
+              "choices": [
+                "新しい；过去肯定",
+                "新しる；过去否定",
+                "新しい；过去否定"
+              ],
+              "answerIndex": 2,
+              "explanation": "先认出くなかった这一整体，再还原末尾い：新しい；不能见到かった就判定为肯定。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss3q2",
+              "prompt": "静か（安静）是な形容词。「静かではなかった」表达什么？",
+              "choices": [
+                "过去很安静",
+                "过去并不安静",
+                "将来一定安静"
+              ],
+              "answerIndex": 1,
+              "explanation": "ではなかった是否定过去。它和静かだった只差否定部分，意义却相反。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss3q3",
+              "prompt": "给「寒い夜」加上“那个晚上并不冷”的过去否定判断，选哪句？",
+              "choices": [
+                "あの夜は寒くなかった。",
+                "あの夜は寒かった。",
+                "あの夜は寒いだった。"
+              ],
+              "answerIndex": 0,
+              "explanation": "寒くなかった把寒い变为过去否定；词的活用规则要能用于句中，而不仅是背变化表。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            },
+            {
+              "id": "ruleadjectiveformss3q4",
+              "prompt": "いい（好）和静か（安静）的て形分别是？",
+              "choices": [
+                "いくて／静かくて",
+                "よくて／静かで",
+                "よいで／静かなて"
+              ],
+              "answerIndex": 1,
+              "explanation": "いい使用よくて；な形容词静か使用静かで。相近的中文语义不决定接续方式。",
+              "evidenceSentenceIDs": [],
+              "ability": "ruleTransfer"
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "tufsadjectiveforms",
+          "locator": "形容詞の普通形 §1–2：い／な类变化、いい与きれい",
+          "status": "sourceChecked"
+        }
+      ]
     }
   ]
 }

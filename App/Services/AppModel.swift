@@ -307,7 +307,7 @@ import LearningCore
         guard checkpoint == nil else { throw LearningError.invalid("请先继续或结束上一次练习。") }
         let knowledge = RuleKnowledge(pack: pack, events: events)
         guard knowledge.ready(rule), let state = knowledge.progress[rule.id] else {
-            throw LearningError.invalid("请先完成数字规则的练习，或先掌握基础数字的读音与含义。")
+            throw LearningError.invalid("请先完成本规则列出的前置学习，再开始练习。")
         }
         try saveCheckpoint(SessionCheckpoint(tasks: [.rule(state.nextSetID)]))
     }

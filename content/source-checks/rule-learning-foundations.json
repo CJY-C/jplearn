@@ -158,6 +158,8 @@
     "independentLanguageReview": 0,
     "nativeIOSCompiled": false,
     "appAndSE3TestsExecuted": false,
-    "oldAssociationProof": "content/source-checks/n2-context-chapter.json"
-  }
+    "oldAssociationProof": "content/source-checks/n2-context-chapter.json",
+    "scope": "Historical snapshot at first N2 registration; later morphology-rule validation is recorded in rule-learning-transfer.json."
+  },
+  "subsequentRuleExtension": "content/source-checks/rule-learning-transfer.json"
 }
