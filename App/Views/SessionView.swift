@@ -399,6 +399,12 @@ private struct ReadingCard: View {
             ScrollViewReader { proxy in
                 ScrollView {
                     VStack(alignment: .leading, spacing: 12) {
+                        if !readiness.missingRuleIDs.isEmpty {
+                            Text("需复测规则或特殊读法：" + readiness.missingRuleIDs.compactMap { id in
+                                model.pack.learningRules?.first { $0.id == id }?.title
+                            }.joined(separator: "、"))
+                                .font(.caption).foregroundColor(.secondary)
+                        }
                         ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { sentence in
                             RubyText(segments: sentence.segments, showReading: showReading) { lookup($0) }
                                 .background(choice != nil && reading.questions != nil && question.evidenceSentenceIDs.contains(sentence.id)

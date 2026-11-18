@@ -101,6 +101,12 @@ public struct Lesson: Codable, Identifiable {
     public var diagnosticIDs: [String]?
 }
 
+public struct ReadingRulePrerequisite: Codable {
+    public let ruleID: String
+    /// Specific exceptions required by this passage, in addition to general transfer verification.
+    public let questionIDs: [String]?
+}
+
 public struct ReadingPassage: Codable, Identifiable {
     public let id: String
     public let title: String
@@ -118,6 +124,7 @@ public struct ReadingPassage: Codable, Identifiable {
     public var paragraphs: [ReadingParagraph]?
     public var citations: [ContentCitation]?
     public var properNames: [String]? = nil
+    public var rulePrerequisites: [ReadingRulePrerequisite]? = nil
 
     public var allQuestions: [ReadingQuestion] {
         questions ?? [ReadingQuestion(id: id + "q1", prompt: question, choices: choices,
@@ -347,6 +354,17 @@ public struct ContentPack: Codable {
             $0.choices.indices.contains($0.answerIndex) && !$0.explanation.isEmpty &&
             Set($0.evidenceSentenceIDs).isSubset(of: sentenceIDs)
         }) else { throw LearningError.invalid("题组、答案或证据引用无效。") }
+        let ruleQuestions = Dictionary(uniqueKeysWithValues: rules.map { rule in
+            (rule.id, Set(rule.practiceSets.flatMap { $0.questions.map(\.id) }))
+        })
+        guard readings.allSatisfy({ reading in
+            let prerequisites = reading.rulePrerequisites ?? []
+            return unique(prerequisites.map(\.ruleID)) && prerequisites.allSatisfy { prerequisite in
+                guard let allowed = ruleQuestions[prerequisite.ruleID] else { return false }
+                let required = prerequisite.questionIDs ?? []
+                return unique(required) && Set(required).isSubset(of: allowed)
+            }
+        }) else { throw LearningError.invalid("阅读的前置规则或特殊读法题目无效。") }
         guard readings.allSatisfy({ reading in
             [nil, "practice", "assessment", "extensive"].contains(reading.purpose) && (1...4).contains(reading.allQuestions.count) &&
             reading.allQuestions.allSatisfy { !$0.evidenceSentenceIDs.isEmpty && Set($0.evidenceSentenceIDs).isSubset(of: Set(reading.sentenceIDs)) } &&

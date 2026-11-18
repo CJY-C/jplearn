@@ -188,6 +188,70 @@ final class RuleLearningTests: XCTestCase {
         XCTAssertFalse(RuleProgress.make(rule, pack: pack, events: merged, now: now.addingTimeInterval(-1)).verified)
     }
 
+    private func calendarPassage(_ pack: ContentPack) -> ReadingPassage {
+        let original = pack.readings[0]
+        return ReadingPassage(id: "calendartest", title: "日期", genre: "通知", level: "N5",
+            sentenceIDs: original.sentenceIDs, question: original.question, choices: original.choices,
+            answerIndex: original.answerIndex, explanation: original.explanation,
+            vocabulary: [ReadingWord(text: "四", itemID: "vn5504")], grammarIDs: [],
+            rulePrerequisites: [ReadingRulePrerequisite(ruleID: "rulemonth", questionIDs: ["rulemonths1q3"])])
+    }
+
+    func testReadingNeedsBothRuleTransferAndItsSpecificException() throws {
+        let pack = try ContentPack.bundled(), rule = rule("rulemonth", pack)
+        let passage = calendarPassage(pack)
+        let word = LearningEvent(deviceID: device, timestamp: now, kind: .review,
+            targetID: "vn5504", skill: .meaning, rating: 3)
+        var history = [word]
+        func readiness() -> ReadingReadiness {
+            ReadingReadiness.assess(passage, pack: pack, knowledge: ReadingKnowledge(pack: pack, events: history, now: now))
+        }
+        XCTAssertEqual(readiness().percentage, 100)
+        XCTAssertEqual(readiness().missingRuleIDs, [rule.id])
+        XCTAssertFalse(readiness().isEligible)
+        history += attempt(rule.practiceSets[1], at: now.addingTimeInterval(-86_400))
+        history += attempt(rule.practiceSets[2], at: now)
+        XCTAssertTrue(RuleProgress.make(rule, pack: pack, events: history, now: now).verified)
+        XCTAssertFalse(readiness().isEligible, "General month transfer does not prove April's irregular reading")
+        history += attempt(rule.practiceSets[0], at: now)
+        XCTAssertTrue(readiness().isEligible)
+        XCTAssertTrue(readiness().missingRuleIDs.isEmpty)
+        XCTAssertTrue(SessionPlanner.readingAvailable(passage, pack: pack, events: history, now: now))
+    }
+
+    func testExceptionNeedsAnUnassistedCompleteRoundAndResetsOnFailure() throws {
+        let pack = try ContentPack.bundled(), rule = rule("rulemonth", pack)
+        let general = attempt(rule.practiceSets[1], at: now.addingTimeInterval(-86_400)) + attempt(rule.practiceSets[2], at: now)
+        let question = "rulemonths1q3"
+        for invalid in [attempt(rule.practiceSets[0], at: now, assisted: true),
+                        Array(attempt(rule.practiceSets[0], at: now).dropFirst()),
+                        attempt(rule.practiceSets[0], at: now).filter { $0.kind == .placement }] {
+            XCTAssertFalse(RuleProgress.make(rule, pack: pack, events: general + invalid, now: now).confirmedQuestionIDs.contains(question))
+        }
+        let good = general + attempt(rule.practiceSets[0], at: now)
+        XCTAssertTrue(RuleProgress.make(rule, pack: pack, events: good, now: now).confirmedQuestionIDs.contains(question))
+        let failedAt = now.addingTimeInterval(1)
+        let failed = good + attempt(rule.practiceSets[1], at: failedAt, correct: false)
+        let state = RuleProgress.make(rule, pack: pack, events: failed, now: failedAt)
+        XCTAssertFalse(state.verified)
+        XCTAssertTrue(state.confirmedQuestionIDs.isEmpty)
+    }
+
+    func testReadingCannotReferenceAnotherRulesExceptionOrUnknownRule() throws {
+        let pack = try ContentPack.bundled()
+        var passage = calendarPassage(pack)
+        for prerequisite in [ReadingRulePrerequisite(ruleID: "rulemonth", questionIDs: ["rulebooks1q1"]),
+                             ReadingRulePrerequisite(ruleID: "missingrule", questionIDs: [])] {
+            passage.rulePrerequisites = [prerequisite]
+            var object = try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(pack)) as? [String: Any])
+            var readings = try XCTUnwrap(object["readings"] as? [[String: Any]])
+            readings.append(try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(passage)) as? [String: Any]))
+            object["readings"] = readings
+            let invalid = try JSONDecoder().decode(ContentPack.self, from: JSONSerialization.data(withJSONObject: object))
+            XCTAssertThrowsError(try invalid.validate())
+        }
+    }
+
     func testLegacyPackAndCheckpointsRemainReadable() throws {
         let pack = try ContentPack.bundled()
         var object = try XCTUnwrap(JSONSerialization.jsonObject(with: JSONEncoder().encode(pack)) as? [String: Any])

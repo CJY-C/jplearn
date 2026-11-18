@@ -46,6 +46,8 @@ public struct RuleProgress {
     public let nextDue: Date?
     public let nextSetID: String
     public let consolidatedKeys: Set<ReviewKey>
+    /// Correct, unassisted questions in completed successful sets since the last failed round.
+    public let confirmedQuestionIDs: Set<String>
 
     public var title: String {
         verified ? "已验证迁移" : (successfulSets > 0 ? "等待隔天复测" : "待学习与验证")
@@ -115,7 +117,8 @@ public struct RuleProgress {
         }!.id
         return Self(successfulSets: successes.count, verified: spaced, lastAttempt: last,
                     nextDue: last.map { $0.addingTimeInterval(interval) }, nextSetID: next,
-                    consolidatedKeys: keys)
+                    consolidatedKeys: keys,
+                    confirmedQuestionIDs: Set(successes.flatMap { sets[$0.targetID]?.questions.map(\.id) ?? [] }))
     }
 }
 

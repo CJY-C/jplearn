@@ -113,8 +113,7 @@ import LearningCore
         #endif
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
-        readingKnowledge = ReadingKnowledge(events: loadedEvents,
-            inferredKeys: RuleKnowledge(pack: pack, events: loadedEvents).consolidatedKeys)
+        readingKnowledge = ReadingKnowledge(pack: pack, events: loadedEvents)
         cachedDueCount = (try? ReviewScheduler().dueKeys(events: loadedEvents, pack: pack).count) ?? 0
         studyClock.onInterval = { [weak self] id, interval in
             guard let self = self else { throw LearningError.invalid("暂时无法保存学习时间。") }
@@ -136,8 +135,7 @@ import LearningCore
         if incoming.contains(where: { [.review, .readingAttempt, .placement, .lessonCompleted].contains($0.kind) }) {
             cachedPlanKey = nil
             if incoming.contains(where: { [.review, .placement].contains($0.kind) }) {
-                readingKnowledge = ReadingKnowledge(events: events,
-                    inferredKeys: RuleKnowledge(pack: pack, events: events).consolidatedKeys)
+                readingKnowledge = ReadingKnowledge(pack: pack, events: events)
                 cachedDueCount = try ReviewScheduler().dueKeys(events: events, pack: pack).count
             }
         }

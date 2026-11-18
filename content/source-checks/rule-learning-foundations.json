@@ -110,11 +110,11 @@
     }
   ],
   "localValidation": {
-    "date": "2026-11-18",
-    "contentTests": 79,
+    "date": "2026-11-19",
+    "contentTests": 82,
     "manuscripts": 74,
-    "targetedSwiftTests": 36,
-    "ruleSwiftTests": 14,
+    "targetedSwiftTests": 39,
+    "ruleSwiftTests": 17,
     "exhaustivePracticePassages": 246,
     "oldCollectionsUnchanged": [
       "items",
@@ -130,8 +130,9 @@
     "nativeIOSCompiled": false,
     "appAndSE3TestsExecuted": false,
     "notes": [
-      "Full 246-passage rotation passed before the final rule-evidence refinements; the changed rule, scheduling, statistics and sense cases were then rechecked in the36-test final run.",
+      "Full246-passage rotation passed before the rule-evidence refinements. Latest39-test run covers17 rule cases,13 scheduling cases,6 statistics cases and3 word-sense cases; reading rule and exception gates are included. This does not constitute an iOS build.",
       "Existing archive event model is unchanged; Apple CryptoKit and iOS integration require macOS."
     ]
-  }
+  },
+  "readingExceptionPolicy": "Reading rule prerequisites require verified transfer and correct unassisted complete-set evidence for explicitly declared exception questions. Missing/incomplete/assisted records cannot confirm exceptions; a completed failed round clears that rule evidence. No synthetic word or FSRS reviews."
 }

@@ -102,6 +102,13 @@ def validate(pack):
                 assert c["status"] in {"reference", "adapted", "translated", "sourceChecked", "original"}, c
     for reading in pack["readings"]:
         assert reading["sentenceIDs"] and set(reading["sentenceIDs"]) <= groups["sentences"].keys()
+        required_rules = reading.get("rulePrerequisites") or []
+        assert len({p["ruleID"] for p in required_rules}) == len(required_rules), (reading["id"], "duplicate rule prerequisite")
+        for prerequisite in required_rules:
+            rule = groups["learningRules"][prerequisite["ruleID"]]
+            required = prerequisite.get("questionIDs") or []
+            assert len(required) == len(set(required)), (reading["id"], "duplicate exception question")
+            assert set(required) <= {q["id"] for s in rule["practiceSets"] for q in s["questions"]}, (reading["id"], "invalid rule exception")
         names = reading.get("properNames", [])
         if names is None: names = []
         assert isinstance(names, list) and all(isinstance(n, str) and n.strip() for n in names), reading["id"]

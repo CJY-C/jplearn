@@ -1,12 +1,14 @@
 import copy
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build_content import make_pack, validate
+from compile_readings import compile_manuscript
 
 
 class LearningRuleTests(unittest.TestCase):
@@ -45,3 +47,37 @@ class LearningRuleTests(unittest.TestCase):
         pack = copy.deepcopy(self.pack)
         pack['learningRules'][0]['regularItemIDs'] = ['v0161']
         with self.assertRaises(AssertionError): validate(pack)
+
+    def test_reading_rule_references_check_exceptions_and_duplicate_rules(self):
+        prerequisite = dict(ruleID='rulemonth', questionIDs=['rulemonths1q3'])
+        pack = copy.deepcopy(self.pack)
+        pack['readings'][0]['rulePrerequisites'] = [prerequisite]
+        validate(pack)
+        for invalid in [[dict(ruleID='rulemonth', questionIDs=['rulebooks1q1'])],
+                        [prerequisite, prerequisite],
+                        [dict(ruleID='rulemonth', questionIDs=['rulemonths1q3'] * 2)]]:
+            pack['readings'][0]['rulePrerequisites'] = invalid
+            with self.assertRaises(AssertionError): validate(pack)
+
+    def test_reading_compiler_requires_declared_rule_and_its_own_questions(self):
+        # No source sentence is needed to reject an invalid D declaration.
+        for declaration in ['D\trtest\tmissing\t', 'D\trtest\trulemonth\trulebooks1q1',
+                            'D\trtest\trulemonth\trulemonths1q3,rulemonths1q3']:
+            with tempfile.TemporaryDirectory() as directory:
+                path = Path(directory) / 'invalid.tsv'
+                path.write_text(declaration + '\n')
+                with self.assertRaises(ValueError): compile_manuscript(path, self.pack)
+
+    def test_reading_compiler_emits_rule_prerequisites_only_when_declared(self):
+        source = '\n'.join(['R\trtest\t日期\t通知\tN5\tpractice\tg001',
+            'S\trtest\ta\t1\t[本|ほん]です。\t是书。',
+            'S\trtest\tb\t1\t[本|ほん]でした。\t曾是书。',
+            'S\trtest\tc\t1\t[本|ほん]ではありません。\t不是书。',
+            'Q\trtest\t1\t是什么？\t书\t笔\t纸\ta\tinformation\t第一句说明是书。'])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'reading.tsv'
+            path.write_text(source)
+            self.assertNotIn('rulePrerequisites', compile_manuscript(path, self.pack)['readings'][0])
+            path.write_text(source + '\nD\trtest\trulemonth\trulemonths1q3\n')
+            self.assertEqual(compile_manuscript(path, self.pack)['readings'][0]['rulePrerequisites'],
+                [dict(ruleID='rulemonth', questionIDs=['rulemonths1q3'])])

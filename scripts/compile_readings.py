@@ -7,6 +7,8 @@ Q: reading id, key, prompt, answer, two distractors, evidence sentence keys,
    ability, explanation.
 P: reading id, proper-name spelling, its exact annotated reading. Only matching
    ? occurrences are declared names; they remain unknown lexical occurrences.
+D: reading id, required learning-rule id, comma-separated exception question ids
+   (last field may be empty). Rule transfer and these exceptions must be verified.
 X: standalone sentence id, ruby text, translation, explanation (example repairs).
 
 Every [surface|reading|optional lemma] is an explicit lexical occurrence. A
@@ -54,6 +56,7 @@ def markup_sentence(markup, words, proper_names=None):
 def compile_manuscript(path, pack):
     words = word_lookup(pack["items"])
     readings, sentences, questions, standalone, names = {}, {}, {}, {}, defaultdict(set)
+    rule_prerequisites = defaultdict(list)
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
         try:
@@ -81,12 +84,22 @@ def compile_manuscript(path, pack):
                 _, rid, text, reading = fields
                 assert text.strip() and reading.strip() and (text, reading) not in names[rid]
                 names[rid].add((text, reading))
-            else: raise ValueError("expected R, S, Q, X or P")
+            elif fields[0] == "D":
+                _, rid, rule_id, exceptions = fields
+                required = exceptions.split(",") if exceptions else []
+                assert rule_id not in {p["ruleID"] for p in rule_prerequisites[rid]}
+                assert len(required) == len(set(required)) and all(required)
+                rule = next((r for r in pack.get("learningRules", []) if r["id"] == rule_id), None)
+                assert rule is not None, "unknown rule prerequisite"
+                assert set(required) <= {q["id"] for s in rule["practiceSets"] for q in s["questions"]}, "question belongs to another rule"
+                rule_prerequisites[rid].append(dict(ruleID=rule_id, questionIDs=required))
+            else: raise ValueError("expected R, S, Q, X, P or D")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
     assert all(rid in readings for rid, _ in sentences), "orphan sentence"
     assert all(rid in readings for rid, _ in questions), "orphan question"
     assert names.keys() <= readings.keys(), "orphan proper-name declaration"
+    assert rule_prerequisites.keys() <= readings.keys(), "orphan rule prerequisite"
     batch = dict(sentences=[], readings=[])
     for sid, (text, translation, note) in standalone.items():
         segments, _ = markup_sentence(text, words)
@@ -94,6 +107,8 @@ def compile_manuscript(path, pack):
             explanation=note, speechText=None, citations=[dict(sourceID="projectopen",
                 locator=f"原创独立例句 {sid}；未独立语言审校", status="original")]))
     for rid, reading in readings.items():
+        if rid in rule_prerequisites:
+            reading["rulePrerequisites"] = rule_prerequisites[rid]
         citations = [dict(sourceID="projectopen", locator=f"原创分级短文与题目 {rid}；未独立语言审校", status="original")]
         sids, vocabulary, paragraphs, paragraph_ids = [], [], [], []
         texts, used_names = [], set()

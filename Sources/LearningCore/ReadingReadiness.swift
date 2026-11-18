@@ -3,13 +3,23 @@ import Foundation
 public struct ReadingKnowledge {
     private var latest: [ReviewKey: LearningEvent] = [:]
     private let inferredKeys: Set<ReviewKey>
-    public init(events: [LearningEvent], inferredKeys: Set<ReviewKey> = []) {
+    private let ruleProgress: [String: RuleProgress]
+    public init(events: [LearningEvent], inferredKeys: Set<ReviewKey> = [], ruleProgress: [String: RuleProgress] = [:]) {
         self.inferredKeys = inferredKeys
+        self.ruleProgress = ruleProgress
         for event in events where event.kind == .review {
             guard let skill = event.skill else { continue }
             let key = ReviewKey(itemID: event.targetID, skill: skill)
             if latest[key].map({ LearningEvent.ordered($0, event) }) ?? true { latest[key] = event }
         }
+    }
+    public init(pack: ContentPack, events: [LearningEvent], now: Date = Date()) {
+        let rules = RuleKnowledge(pack: pack, events: events, now: now)
+        self.init(events: events, inferredKeys: rules.consolidatedKeys, ruleProgress: rules.progress)
+    }
+    func canApply(_ prerequisite: ReadingRulePrerequisite) -> Bool {
+        guard let progress = ruleProgress[prerequisite.ruleID], progress.verified else { return false }
+        return Set(prerequisite.questionIDs ?? []).isSubset(of: progress.confirmedQuestionIDs)
     }
     func recalled(_ id: String, _ skill: Skill) -> Bool {
         guard let event = latest[ReviewKey(itemID: id, skill: skill)] else { return false }
@@ -29,21 +39,21 @@ public struct ReadingReadiness {
     public var maximumParagraphUnknown: Int = 0
     public var extensive: Bool = false
     public var inferredOccurrences: Int = 0
+    public var missingRuleIDs: [String] = []
 
     public var coverage: Double {
         totalOccurrences > 0 ? Double(knownOccurrences + inferredOccurrences) / Double(totalOccurrences) : 0
     }
     public var percentage: Int { Int((coverage * 100).rounded(.down)) }
     public var isEligible: Bool {
-        totalOccurrences > 0 && missingGrammarIDs.isEmpty &&
+        totalOccurrences > 0 && missingGrammarIDs.isEmpty && missingRuleIDs.isEmpty &&
         coverage >= (extensive ? 0.98 : (isLong ? 0.95 : 0.80)) &&
         (isLong ? maximumParagraphUnknown <= 3 : unfamiliarWords.count <= 2)
     }
 
     public static func assess(_ reading: ReadingPassage, pack: ContentPack,
                               events: [LearningEvent]) -> ReadingReadiness {
-        assess(reading, pack: pack, knowledge: ReadingKnowledge(events: events,
-            inferredKeys: RuleKnowledge(pack: pack, events: events).consolidatedKeys))
+        assess(reading, pack: pack, knowledge: ReadingKnowledge(pack: pack, events: events))
     }
 
     public static func assess(_ reading: ReadingPassage, pack: ContentPack,
@@ -70,6 +80,7 @@ public struct ReadingReadiness {
                                 missingGrammarIDs: (reading.grammarIDs ?? []).filter { !knowledge.recalled($0, .grammar) },
                                 isLong: length >= 150 || words.count >= 40,
                                 maximumParagraphUnknown: maximumUnknown, extensive: reading.purpose == "extensive",
-                                inferredOccurrences: inferred)
+                                inferredOccurrences: inferred,
+                                missingRuleIDs: (reading.rulePrerequisites ?? []).filter { !knowledge.canApply($0) }.map(\.ruleID))
     }
 }

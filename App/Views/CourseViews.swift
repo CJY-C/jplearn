@@ -280,6 +280,12 @@ struct PassagePreview: View {
                     Text("前置表达：" + readiness.missingGrammarIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
                         .font(.caption).foregroundColor(.secondary)
                 }
+                if !readiness.missingRuleIDs.isEmpty {
+                    Text("需复测规则或特殊读法：" + readiness.missingRuleIDs.compactMap { id in
+                        model.pack.learningRules?.first { $0.id == id }?.title
+                    }.joined(separator: "、"))
+                        .font(.caption).foregroundColor(.secondary)
+                }
             }
             Section {
                 ForEach(reading.sentenceIDs.compactMap { model.pack.sentence($0) }) { SentenceView(sentence: $0) }

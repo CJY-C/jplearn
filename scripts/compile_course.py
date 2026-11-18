@@ -76,6 +76,12 @@ def compile_all():
     for _ in range(2):
         for record in records:
             if record["kind"] == "word": compile_one(record)
+    # Rule references are needed when compiling reading prerequisites. Load
+    # them only after words, since regular-word references cannot validate in
+    # the deliberately empty authored seed. The final pack validates both.
+    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    if source := manifest.get("ruleSource"):
+        index["learningRules"] = json.loads((ROOT / "content" / source).read_text())["learningRules"]
     for record in records:
         if record["kind"] != "word": compile_one(record)
     make_pack(overrides=outputs)

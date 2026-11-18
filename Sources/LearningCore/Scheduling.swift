@@ -81,7 +81,7 @@ public enum SessionPlanner {
         let capacity = max(1, min(minutes, 60) * 2)
         let scheduler = ReviewScheduler()
         let rules = RuleKnowledge(pack: pack, events: events, now: now)
-        let knowledge = ReadingKnowledge(events: events, inferredKeys: rules.consolidatedKeys)
+        let knowledge = ReadingKnowledge(events: events, inferredKeys: rules.consolidatedKeys, ruleProgress: rules.progress)
         // Both due selection and new-skill selection use the same replay of this
         // immutable history. Replaying FSRS again adds work, not information.
         let cards = try scheduler.replay(events)
@@ -182,8 +182,7 @@ public enum SessionPlanner {
                                         includeAssessments: Bool = false) -> Bool {
         let lastAttempt = events.lazy.filter { $0.kind == .readingAttempt && $0.targetID == reading.id }
             .map(\.timestamp).max()
-        return readingAvailable(reading, pack: pack, knowledge: knowledge ?? ReadingKnowledge(events: events,
-            inferredKeys: RuleKnowledge(pack: pack, events: events, now: now).consolidatedKeys),
+        return readingAvailable(reading, pack: pack, knowledge: knowledge ?? ReadingKnowledge(pack: pack, events: events, now: now),
                                 lastAttempt: lastAttempt, now: now, calendar: calendar,
                                 includeAssessments: includeAssessments)
     }
