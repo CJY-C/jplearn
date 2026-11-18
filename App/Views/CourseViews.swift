@@ -105,21 +105,6 @@ struct CourseView: View {
     var body: some View {
         let ruleKnowledge = RuleKnowledge(pack: model.pack, events: model.events)
         return List {
-            if let rules = model.pack.learningRules, !rules.isEmpty {
-                Section(header: Text("规则与举一反三")) {
-                    Text("先掌握规则，再换例子验证。特殊读法保留练习；通过隔天复测后，常规组合按组巩固。")
-                        .font(.caption).foregroundColor(.secondary)
-                    ForEach(rules) { rule in
-                        NavigationLink(destination: RuleDetailView(rule: rule)) {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(rule.title)
-                                Text(ruleKnowledge.progress[rule.id]?.title ?? "待学习与验证")
-                                    .font(.caption).foregroundColor(.secondary)
-                            }
-                        }
-                    }
-                }
-            }
             if let modules = model.pack.introModules, !modules.isEmpty {
                 Section(header: Text("入门与诊断")) {
                     ForEach(modules) { module in
@@ -130,6 +115,21 @@ struct CourseView: View {
                                 if model.events.last(where: { $0.kind == .placement && $0.targetID == module.id })?.value == "passed" {
                                     Image(systemName: "checkmark.circle").foregroundColor(.accentColor)
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+            if let rules = model.pack.learningRules, !rules.isEmpty {
+                Section(header: Text("规则与举一反三")) {
+                    Text("先掌握规则，再换例子验证。特殊读法保留练习；通过隔天复测后，常规组合按组巩固。")
+                        .font(.caption).foregroundColor(.secondary)
+                    ForEach(rules) { rule in
+                        NavigationLink(destination: RuleDetailView(rule: rule)) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(rule.title)
+                                Text(ruleKnowledge.progress[rule.id]?.title ?? "待学习与验证")
+                                    .font(.caption).foregroundColor(.secondary)
                             }
                         }
                     }
@@ -267,11 +267,11 @@ struct PassagePreview: View {
                 Text("\(reading.level) · \(reading.genre)").font(.caption).foregroundColor(.secondary)
                 let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
                 Text("实词覆盖 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+                    .font(.subheadline).foregroundColor(.secondary)
                 if readiness.inferredOccurrences > 0 {
                     Text("含 \(readiness.inferredOccurrences) 处经规则验证可推导的表达；不计为独立掌握词数。")
                         .font(.caption).foregroundColor(.secondary)
                 }
-                    .font(.subheadline).foregroundColor(.secondary)
                 if !readiness.unfamiliarWords.isEmpty {
                     Text("建议先学：" + readiness.unfamiliarWords.prefix(8).map(\.text).joined(separator: "、"))
                         .font(.caption).foregroundColor(.secondary)

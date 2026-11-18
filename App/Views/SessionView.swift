@@ -388,12 +388,14 @@ private struct ReadingCard: View {
                 }
             let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
             Text("实词覆盖 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
-            if readiness.inferredOccurrences > 0 {
-                Text("含 \(readiness.inferredOccurrences) 处经规则验证可推导的表达").font(.caption).foregroundColor(.secondary)
-            }
                 .font(.caption).foregroundColor(.secondary)
                 .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
                 .accessibilityIdentifier("study.readingCoverage")
+            if readiness.inferredOccurrences > 0 {
+                Text("含 \(readiness.inferredOccurrences) 处经规则验证可推导的表达")
+                    .font(.caption).foregroundColor(.secondary)
+                    .frame(maxWidth: .infinity, alignment: .leading).padding(.horizontal, 18).padding(.bottom, 4)
+            }
             ScrollViewReader { proxy in
                 ScrollView {
                     VStack(alignment: .leading, spacing: 12) {
