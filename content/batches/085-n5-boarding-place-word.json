@@ -1,0 +1,226 @@
+{
+  "items": [
+    {
+      "id": "vn5b001",
+      "kind": "word",
+      "level": "N5",
+      "text": "乗り場",
+      "reading": "のりば",
+      "romaji": "noriba",
+      "meaning": "乘车处；搭乘交通工具的指定地点",
+      "explanation": "本单元义项：乘车处；搭乘交通工具的指定地点。通过两个不同语境辨认；其他义项须结合上下文。\n表示搭乘交通工具的地点；可与バス等交通工具名称组合，不为每种组合另建词根。并非整座车站，也不表示发车时刻。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "乘车处；搭乘交通工具的指定地点",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5b001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1600520；2026-11-16 官方 JMdict 第1义；限定搭乘交通工具的地点，不限于公交站。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn5b001a",
+        "svn5b001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1600520
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn5b001a",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "て",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "右",
+          "reading": "みぎ",
+          "itemID": "vn5185"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "曲",
+          "reading": "ま",
+          "itemID": "vn5248"
+        },
+        {
+          "text": "がると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "バス",
+          "reading": "バス",
+          "itemID": "v0224"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "乗り場",
+          "reading": "のりば",
+          "itemID": "vn5b001"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "出车站后向右转，就是公交车乘车处。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5b001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn5b001b",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "なので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "タクシー",
+          "reading": "タクシー",
+          "itemID": "vn5369"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "乗り場",
+          "reading": "のりば",
+          "itemID": "vn5b001"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "因为下雨，我在出租车乘车处等车。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5b001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn5b001a",
+      "targetID": "vn5b001",
+      "sentenceID": "svn5b001b",
+      "skill": "meaning",
+      "prompt": "句中「乗り場」表示什么？",
+      "choices": [
+        "乘车处；搭乘交通工具的指定地点",
+        "交通工具出发的具体时刻",
+        "购买车票所花的金额"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「乘车处；搭乘交通工具的指定地点」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "のりば",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "乗り場",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn5b001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn5noriba01",
+      "title": "确认乘车地点",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N5",
+      "itemIDs": [
+        "vn5b001"
+      ],
+      "sentenceIDs": [
+        "svn5b001a",
+        "svn5b001b"
+      ],
+      "exerciseIDs": [
+        "evn5b001a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

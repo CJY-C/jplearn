@@ -139,7 +139,14 @@ def check_sources():
 def check_prior_changes(current=None):
     ledger, before = baseline()
     after = current if current is not None else json.loads((ROOT / RESOURCE).read_text())
+    later = None
+    if (ROOT / "content/source-checks/n2-basis-chapter.json").exists():
+        from check_n2_basis import check_prior_changes as check_basis
+        later = check_basis(after)
+        after = json.loads(previous(later["baselineCommit"], RESOURCE))
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    if later is not None:
+        manifest = json.loads(previous(later["baselineCommit"], "content/manuscripts.json"))
     old_manifest = json.loads(previous(ledger["baselineCommit"], "content/manuscripts.json"))
     assert manifest["entries"] == old_manifest["entries"] + ledger["manifestAdditions"]
     assert {k: v for k, v in manifest.items() if k != "entries"} == {k: v for k, v in old_manifest.items() if k != "entries"}
@@ -147,7 +154,8 @@ def check_prior_changes(current=None):
         path = "content/authoring/" + name
         assert hashlib.sha256(previous(ledger["baselineCommit"], path)).hexdigest() == expected
         output = ledger["oldSourceOutputSHA256"].get(name, expected)
-        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == output, (name, "unreviewed source change")
+        data = previous(later["baselineCommit"], path) if later is not None else (ROOT / path).read_bytes()
+        assert hashlib.sha256(data).hexdigest() == output, (name, "unreviewed source change")
     for name, sha in ledger["newSourceSHA256"].items():
         assert hashlib.sha256(source_path(name).read_bytes()).hexdigest() == sha
     assert before.keys() == after.keys()
@@ -181,7 +189,8 @@ def check_prior_changes(current=None):
     assert found == edits.keys()
     return dict(baselineCommit=ledger["baselineCommit"], oldSourcesChecked=len(ledger["oldSourceInputSHA256"]),
                 oldCollectionsPreservedExceptReviewedLinks=True, changedSentences=len(found),
-                changedAssociations=sum(len(e) for e in edits.values()), newRoots=101)
+                changedAssociations=sum(len(e) for e in edits.values()), newRoots=101,
+                subsequentBasisChangesVerified=later is not None)
 
 
 if __name__ == "__main__":

@@ -86,6 +86,9 @@
     {"kind": "grammar", "source": "n2-context-and-mediation.tsv", "batch": "081-n2-context-and-mediation.json"},
     {"kind": "reading", "source": "n2-context-readings.tsv", "batch": "082-n2-context-readings.json"},
     {"kind": "word", "source": "n3-evidence-foundation-words.tsv", "batch": "083-n3-evidence-foundation-words.json"},
-    {"kind": "word", "source": "n2-evidence-and-interpretation-words.tsv", "batch": "084-n2-evidence-and-interpretation-words.json"}
+    {"kind": "word", "source": "n2-evidence-and-interpretation-words.tsv", "batch": "084-n2-evidence-and-interpretation-words.json"},
+    {"kind": "word", "source": "n5-boarding-place-word.tsv", "batch": "085-n5-boarding-place-word.json"},
+    {"kind": "grammar", "source": "n2-basis-and-viewpoint.tsv", "batch": "086-n2-basis-and-viewpoint.json"},
+    {"kind": "reading", "source": "n2-basis-readings.tsv", "batch": "087-n2-basis-readings.json"}
   ]
 }

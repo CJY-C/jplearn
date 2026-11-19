@@ -1,0 +1,252 @@
+{
+  "status": "Source-checked authoring trial; independent Japanese review and native build pending",
+  "checkedDate": "2026-11-19",
+  "sourceSHA256": {
+    "n2-basis-and-viewpoint.tsv": "42168a018a3721c95e41c2b89bee95c1a8524ca0950de7c73232f153ff9effb4",
+    "n2-basis-readings.tsv": "3ba2fbfeea1b1e8b7d40d5ebfcecb450ddaa255c81e743a2d88b8fa0b5b06b96"
+  },
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "primarySources": [
+    {
+      "sourceID": "takasemeaning2014",
+      "url": "https://nakanihon.ac.jp/wp-content/themes/nac/doc/college/ronso/nac_ronso_044-04.pdf",
+      "downloadSHA256": "7deefe9988ff9fdcddb5cce5beec8d6702a72c5b5ff21889b298eb8b4b4d2323",
+      "checkedLocators": [
+        "印刷p.45：意义分类的组织目的",
+        "印刷p.50：140からすると、143に基づいて、145をもとに",
+        "印刷p.57：53にほかならない、54に違いない／に相違ない、58というものだ、66に越したことはない"
+      ]
+    },
+    {
+      "sourceID": "takahashikotoadverbial",
+      "url": "https://icaweb.info/files/03-02.pdf",
+      "downloadSHA256": "02ab1b34586290e93762e09b9dc35ac8ed68c8ee89f925d6df001f4ce30529f1",
+      "checkedLocators": [
+        "表1項目2、§3.2：ことから的理由关系",
+        "§3.1、印刷p.15：人物名词＋のことだから；并非ことだから的全部用法"
+      ]
+    },
+    {
+      "sourceID": "chinowa2023",
+      "url": "https://opac.ll.chiba-u.jp/da/curator/900121544/S24364231-46-P035.pdf",
+      "downloadSHA256": "d7ca585e1d59a989265b086c9631a15b4c44e1be7e3c3c8b748bb4f337542b1d",
+      "checkedLocators": [
+        "§2.2、印刷p.37：にすれば／にしたら等立场主題；不据此断言绝对人称限制"
+      ]
+    },
+    {
+      "sourceID": "tanakatoj2010",
+      "url": "https://www.ritsumei.ac.jp/acd/re/k-rsc/lcs/kiyou/pdf_22-2/RitsIILCS_22.2pp.145-179Tanaka.pdf",
+      "downloadSHA256": "4924141231f920960d8a85567acb8c8c879f1b031b6b802c319892a045e8d317",
+      "checkedLocators": [
+        "§4.12、印刷pp.158–159：というものだ的内容说明与评价语境、ではない／でもない的条件判断"
+      ]
+    }
+  ],
+  "dictionaryPhraseSource": {
+    "sourceID": "jmdict",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "selectedEntryIDs": [
+      2026620,
+      2028250,
+      2830842,
+      2724590
+    ],
+    "scope": "Selected phrase identities and functions; connection notes and examples are authored, not upstream examples or full definitions."
+  },
+  "grammarFunctions": [
+    {
+      "itemID": "gn2b001",
+      "referencePatterns": [
+        "o-moto-ni"
+      ],
+      "reviewedFocus": "区分基础材料与成品细节；复用已学基づく，不为其普通变形另建新根或新功能。",
+      "primaryLocators": [
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.50、項目145：基础材料关系；与已教基づく对照，不移植论文例句。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2101"
+    },
+    {
+      "itemID": "gn2b002",
+      "referencePatterns": [
+        "koto-kara"
+      ],
+      "reviewedFocus": "还原理由／观察与据此形成的判断；已知情况不自动证明后项推测。",
+      "primaryLocators": [
+        {
+          "sourceID": "takahashikotoadverbial",
+          "locator": "表1項目2と第3.2：ことから等の理由関係。只核对功能；全部语境与问题原创。"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry2026620：from the fact that；接续结合既有普通形与名词化教学核对。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2102"
+    },
+    {
+      "itemID": "gn2b003",
+      "referencePatterns": [
+        "koto-dakara"
+      ],
+      "reviewedFocus": "人物特点推断；区分特点所属人物、推断主体和后来的实际确认。",
+      "primaryLocators": [
+        {
+          "sourceID": "takahashikotoadverbial",
+          "locator": "第3.1、p.15：人物名词＋のことだから；本章仅选人物特点推断，不搬用原文例句。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2103"
+    },
+    {
+      "itemID": "gn2b004",
+      "referencePatterns": [
+        "kara-suru-to-kara-sureba",
+        "kara-miru-to-kara-mireba"
+      ],
+      "reviewedFocus": "材料线索推断；に相違ない与既有に違いない作近义形式对照，不另计功能。",
+      "primaryLocators": [
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.50、項目140：立场、材料、基准等判断关系；本组限定材料线索。"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entries2028250、2830842：からすると／からすれば的判断关系；不把所有后件都视为确证。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2102"
+    },
+    {
+      "itemID": "gn2b005",
+      "referencePatterns": [
+        "kara-suru-to-kara-sureba",
+        "ni-sureba-ni-shitara"
+      ],
+      "reviewedFocus": "功能接近的人物立场形式归为一组；不把代入判断当本人的直接引语。",
+      "primaryLocators": [
+        {
+          "sourceID": "chinowa2023",
+          "locator": "第2.2、印刷p.37：にすれば／にしたら等作为立场主題；不据此推导绝对人称限制。"
+        },
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.50、項目140：からすると的立场判断；同功能形式归组，语境和题目原创。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2103"
+    },
+    {
+      "itemID": "gn2b006",
+      "referencePatterns": [
+        "kara-iu-to-kara-itte"
+      ],
+      "reviewedFocus": "找出评价方面；不以单项标准代替整体取舍。",
+      "primaryLocators": [
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry2724590：からいうと／からいって／からいえば的评价角度；本章不用人称或语体作绝对排除。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2104"
+    },
+    {
+      "itemID": "gn2b007",
+      "referencePatterns": [
+        "to-iu-mono-da"
+      ],
+      "reviewedFocus": "本组只练评价用法，区分评价主体与内容；不据此概括というものだ全部用法。",
+      "primaryLocators": [
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.57、項目58：明确断定和评价；不引用原文例句，不与既有习惯ものだ另造同义功能。"
+        },
+        {
+          "sourceID": "tanakatoj2010",
+          "locator": "第4.12节、印刷pp.158–159：区别内容说明与评价用法，本组仅练评价，不把所有という都当引语。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2105"
+    },
+    {
+      "itemID": "gn2b008",
+      "referencePatterns": [
+        "to-iu-mono-de-wa-nai"
+      ],
+      "reviewedFocus": "否定单一条件足够／普遍保证，不反向推出该条件无用。",
+      "primaryLocators": [
+        {
+          "sourceID": "tanakatoj2010",
+          "locator": "第4.12节、印刷pp.158–159：というものだ／ではない／でもない；本组练单凭一项条件不足以成立的判断。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2104"
+    },
+    {
+      "itemID": "gn2b009",
+      "referencePatterns": [
+        "ni-hoka-naranai"
+      ],
+      "reviewedFocus": "强调身份、目标或理由；强断定不等于已经逐项核实其他可能。",
+      "primaryLocators": [
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.57、項目53：まさにAだ的强调；同页項目54与推测比较，全部练习为原创。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2105"
+    },
+    {
+      "itemID": "gn2b010",
+      "referencePatterns": [
+        "ni-koshita-koto-wa-nai"
+      ],
+      "reviewedFocus": "区分更理想与硬性门槛，结合现实限制；不宣称本组列出的接续穷尽全部。",
+      "primaryLocators": [
+        {
+          "sourceID": "takasemeaning2014",
+          "locator": "印刷p.57、項目66：推荐更理想的状态，结合原文转折核对；不沿用论文例句。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2106"
+    }
+  ],
+  "readingReviewNotes": [
+    "Eight original passages, six ordinary and two assessment; each has two paragraphs and two evidence-linked questions.",
+    "Corrected 返事を待つ to planned self-reply after work confirmation, and corrected attribution/appearance wording.",
+    "Photograph spelling differences support a possibility, not independently confirmed dating. Strong phrasing does not create new evidence.",
+    "Reused Vます-stem＋方, Vます-stem＋直す, adjective＋さ and 最終＋的に; required previously taught structures are declared. No derived forms are counted as new roots.",
+    "Avoided hidden unintroducedN2ものの、てこそ、を問わず and おそれがある, retaining the intended contrast, condition and uncertainty in taught forms.",
+    "Added the actual rewriting event before a critic evaluates that rewriting; source confirmation, interpretation and evaluation remain distinct.",
+    "乗り場 is separately taught as an earlier N5 foundation because an old N5 駅員 example already used it; only the reviewed itemID is changed.",
+    "All Chinese, contexts, questions and distractors are project-authored. Selected semantic facts do not constitute independent language review."
+  ],
+  "reusedFormsNotNewFunctions": [
+    "基づく→に基づいて",
+    "に違いない≈に相違ない",
+    "読む／言う＋方",
+    "書く／作る＋直す",
+    "長い／近い＋さ",
+    "最終＋的に"
+  ],
+  "researchLimitations": [
+    "No upstream example sentences, full papers, dictionary definitions or audio are bundled.",
+    "Meaning-classification papers guide organization and selected functions; they do not establish learning effectiveness for this app.",
+    "No new pitch accent claims, speech accuracy certification, fullN2 completion or newIPA."
+  ]
+}
