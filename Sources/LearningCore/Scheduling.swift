@@ -214,17 +214,36 @@ public struct SessionCheckpoint: Codable {
     public let lessonID: String?
     public let startedAt: Date
     public var questionIndex: Int?
+    public private(set) var ruleStudyModes: [String: RuleStudyMode]?
     public init(tasks: [SessionTask], lessonID: String? = nil) {
         schemaVersion = 1; id = UUID(); entries = tasks.map { SessionEntry(task: $0) }; index = 0
         self.lessonID = lessonID; startedAt = Date(); assistedEntryIDs = []
     }
     public var current: SessionEntry? { entries.indices.contains(index) ? entries[index] : nil }
+    public func ruleStudyMode(for entryID: UUID) -> RuleStudyMode? {
+        ruleStudyModes?[entryID.uuidString]
+    }
+    public mutating func selectRuleStudyMode(_ mode: RuleStudyMode, entryID: UUID) throws {
+        guard let entry = current, entry.id == entryID, case .rule = entry.task else {
+            throw LearningError.invalid("当前不是这组规则练习。")
+        }
+        if mode == .learn { assistedEntryIDs.insert(entryID) }
+        if ruleStudyModes == nil { ruleStudyModes = [:] }
+        ruleStudyModes?[entryID.uuidString] = mode
+    }
     public func validate() throws {
         guard schemaVersion == 1, (0...entries.count).contains(index),
               (0...4).contains(questionIndex ?? 0),
               Set(entries.map(\.id)).count == entries.count,
               assistedEntryIDs.isSubset(of: Set(entries.map(\.id))) else {
             throw LearningError.invalid("上次学习安排无法恢复，已完成的学习记录仍保留。")
+        }
+        for (key, mode) in ruleStudyModes ?? [:] {
+            guard let entry = entries.first(where: { $0.id.uuidString == key }),
+                  case .rule = entry.task,
+                  mode != .learn || assistedEntryIDs.contains(entry.id) else {
+                throw LearningError.invalid("规则练习状态无法恢复，已完成的学习记录仍保留。")
+            }
         }
     }
     public mutating func recover(recordedIDs: Set<UUID>) {
@@ -240,5 +259,7 @@ public struct SessionCheckpoint: Codable {
             return SessionPlanner.readingAvailable(reading, pack: pack, events: events, now: now, includeAssessments: true)
         }
         assistedEntryIDs.formIntersection(Set(entries.map(\.id)))
+        let retainedIDs = Set(entries.map { $0.id.uuidString })
+        ruleStudyModes = ruleStudyModes?.filter { retainedIDs.contains($0.key) }
     }
 }

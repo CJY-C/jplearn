@@ -303,13 +303,26 @@ import LearningCore
             targetID: reading.id, assisted: attempts.contains { $0.assisted }, value: correct ? "correct" : "incorrect")])
     }
 
-    func startRule(_ rule: LearningRule) throws {
+    func startRule(_ rule: LearningRule, mode: RuleStudyMode? = nil) throws {
         guard checkpoint == nil else { throw LearningError.invalid("请先继续或结束上一次练习。") }
         let knowledge = RuleKnowledge(pack: pack, events: events)
-        guard knowledge.ready(rule), let state = knowledge.progress[rule.id] else {
+        guard let canonical = pack.learningRules?.first(where: { $0.id == rule.id }),
+              let state = knowledge.progress[rule.id], mode != nil || knowledge.ready(canonical) else {
             throw LearningError.invalid("请先完成本规则列出的前置学习，再开始练习。")
         }
-        try saveCheckpoint(SessionCheckpoint(tasks: [.rule(state.nextSetID)]))
+        // Manual learning and diagnosis are available to people with prior knowledge.
+        // Automatic scheduling still checks prerequisites; no prerequisite word reviews are invented.
+        var current = SessionCheckpoint(tasks: [.rule(state.nextSetID)])
+        if let mode = mode, let entry = current.current {
+            try current.selectRuleStudyMode(mode, entryID: entry.id)
+        }
+        try saveCheckpoint(current)
+    }
+
+    func selectRuleStudyMode(_ mode: RuleStudyMode, entryID: UUID) throws {
+        guard var current = checkpoint, current.current?.id == entryID else { return }
+        try current.selectRuleStudyMode(mode, entryID: entryID)
+        try saveCheckpoint(current)
     }
 
     func recordRuleSelection(entryID: UUID, questionID: String, selection: Int) throws {

@@ -1,5 +1,11 @@
 import Foundation
 
+/// The current rule screen, saved locally with the session. Learning exposes hints;
+/// verification does not erase assistance already recorded for the same entry.
+public enum RuleStudyMode: String, Codable {
+    case learn, verify
+}
+
 /// Productive rules have their own evidence. Their examples never become invented word reviews.
 public struct RulePracticeSet: Codable, Identifiable {
     public let id: String
@@ -18,6 +24,9 @@ public struct LearningRule: Codable, Identifiable {
     public let regularItemIDs: [String]
     public let practiceSets: [RulePracticeSet]
     public let citations: [ContentCitation]
+
+    /// Topic labels omit the rule written after the colon before a diagnostic attempt.
+    public var topicTitle: String { String(title.prefix { $0 != "：" && $0 != ":" }) }
 }
 
 /// One immutable projection per plan, instead of repeatedly sorting the whole journal for every rule.
@@ -41,6 +50,9 @@ fileprivate struct RuleEvidence {
 
 public struct RuleProgress {
     public let successfulSets: Int
+    /// A complete correct round may support the next explanation even with hints.
+    /// It never supplies independent transfer, word knowledge or reading eligibility.
+    public let hasLearnedFoundation: Bool
     public let verified: Bool
     public let lastAttempt: Date?
     public let nextDue: Date?
@@ -50,7 +62,8 @@ public struct RuleProgress {
     public let confirmedQuestionIDs: Set<String>
 
     public var title: String {
-        verified ? "已验证迁移" : (successfulSets > 0 ? "等待隔天复测" : "待学习与验证")
+        verified ? "已验证迁移" : (successfulSets > 0 ? "等待隔天复测" :
+            (hasLearnedFoundation ? "已学规则，待独立验证" : "待学习与验证"))
     }
 
     public static func make(_ rule: LearningRule, pack: ContentPack, events: [LearningEvent],
@@ -64,6 +77,7 @@ public struct RuleProgress {
         var successes: [LearningEvent] = []
         var completed: [LearningEvent] = []
         var contexts = Set<String>()
+        var learnedFoundation = false
         for attempt in attempts {
             guard let context = attempt.contextID, UUID(uuidString: context) != nil,
                   let set = sets[attempt.targetID] else { continue }
@@ -74,6 +88,10 @@ public struct RuleProgress {
             // A placement flag alone is insufficient, including imported and legacy records.
             guard complete, contexts.insert(context).inserted else { continue }
             completed.append(attempt)
+            learnedFoundation = set.questions.allSatisfy { question in
+                selected.contains { $0.targetID == question.id && $0.value == String(question.answerIndex) &&
+                    ($0.correct == true || $0.assisted) }
+            }
             let passed = !attempt.assisted && attempt.value == "passed" && set.questions.allSatisfy { question in
                 selected.contains { $0.targetID == question.id && $0.value == String(question.answerIndex) &&
                     $0.correct == true && !$0.assisted }
@@ -115,7 +133,8 @@ public struct RuleProgress {
             let a = lastSeen[$0.id] ?? .distantPast, b = lastSeen[$1.id] ?? .distantPast
             return a == b ? $0.id < $1.id : a < b
         }!.id
-        return Self(successfulSets: successes.count, verified: spaced, lastAttempt: last,
+        return Self(successfulSets: successes.count, hasLearnedFoundation: learnedFoundation,
+                    verified: spaced, lastAttempt: last,
                     nextDue: last.map { $0.addingTimeInterval(interval) }, nextSetID: next,
                     consolidatedKeys: keys,
                     confirmedQuestionIDs: Set(successes.flatMap { sets[$0.targetID]?.questions.map(\.id) ?? [] }))
@@ -142,7 +161,7 @@ public struct RuleKnowledge {
             directKnowledge.recalled($0, .reading) && directKnowledge.recalled($0, .meaning)
         }
         let rulesReady = !rule.prerequisiteRuleIDs.isEmpty && rule.prerequisiteRuleIDs.allSatisfy {
-            (progress[$0]?.successfulSets ?? 0) > 0
+            progress[$0]?.hasLearnedFoundation ?? false
         }
         return wordsReady || rulesReady
     }

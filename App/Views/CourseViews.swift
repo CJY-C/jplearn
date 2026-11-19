@@ -122,16 +122,16 @@ struct CourseView: View {
             }
             if let rules = model.pack.learningRules, !rules.isEmpty {
                 Section(header: Text("规则与举一反三")) {
-                    Text("先掌握规则，再换例子验证。特殊读法保留练习；通过隔天复测后，常规组合按组巩固。")
+                    Text("已经会的可直接验证，需要时先学规则。换例子并隔天复测后，常规组合按组巩固；特殊读法保留练习。")
                         .font(.caption).foregroundColor(.secondary)
                     ForEach(rules) { rule in
                         NavigationLink(destination: RuleDetailView(rule: rule)) {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(rule.title)
+                                Text(rule.topicTitle)
                                 Text(ruleKnowledge.progress[rule.id]?.title ?? "待学习与验证")
                                     .font(.caption).foregroundColor(.secondary)
                             }
-                        }
+                        }.accessibilityIdentifier("course.rule." + rule.id)
                     }
                 }
             }

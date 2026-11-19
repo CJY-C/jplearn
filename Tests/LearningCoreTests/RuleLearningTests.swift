@@ -32,6 +32,63 @@ final class RuleLearningTests: XCTestCase {
         }
     }
 
+    func testRuleStudyChoiceRestoresBeforeAnswerAndCannotEraseAssistance() throws {
+        var checkpoint = SessionCheckpoint(tasks: [.rule("rulemonths1")])
+        let id = try XCTUnwrap(checkpoint.current?.id)
+        XCTAssertNil(checkpoint.ruleStudyMode(for: id))
+        try checkpoint.selectRuleStudyMode(.learn, entryID: id)
+        let restored = try ExchangeCoding.decoder().decode(SessionCheckpoint.self,
+            from: ExchangeCoding.encoder().encode(checkpoint))
+        try restored.validate()
+        XCTAssertEqual(restored.ruleStudyMode(for: id), .learn)
+        XCTAssertTrue(restored.assistedEntryIDs.contains(id))
+        var practice = restored
+        try practice.selectRuleStudyMode(.verify, entryID: id)
+        let reopened = try ExchangeCoding.decoder().decode(SessionCheckpoint.self,
+            from: ExchangeCoding.encoder().encode(practice))
+        try reopened.validate()
+        XCTAssertEqual(reopened.ruleStudyMode(for: id), .verify)
+        XCTAssertTrue(reopened.assistedEntryIDs.contains(id), "Starting questions cannot undo seeing the explanation")
+        XCTAssertNil(reopened.questionIndex, "The choice itself does not answer or advance a question")
+    }
+
+    func testLegacyCheckpointHasNoImplicitRuleStudyChoice() throws {
+        let checkpoint = SessionCheckpoint(tasks: [.rule("rulemonths1")])
+        var object = try XCTUnwrap(JSONSerialization.jsonObject(with: ExchangeCoding.encoder().encode(checkpoint)) as? [String: Any])
+        object.removeValue(forKey: "ruleStudyModes")
+        let restored = try ExchangeCoding.decoder().decode(SessionCheckpoint.self,
+            from: JSONSerialization.data(withJSONObject: object))
+        try restored.validate()
+        XCTAssertNil(restored.ruleStudyMode(for: try XCTUnwrap(restored.current?.id)))
+        XCTAssertTrue(restored.assistedEntryIDs.isEmpty)
+    }
+
+    func testRuleStudyChoiceRejectsStaleEntriesAndOtherTasks() throws {
+        var checkpoint = SessionCheckpoint(tasks: [.rule("rulemonths1"), .reading("r001")])
+        let ruleID = try XCTUnwrap(checkpoint.current?.id), readingID = checkpoint.entries[1].id
+        XCTAssertThrowsError(try checkpoint.selectRuleStudyMode(.verify, entryID: readingID))
+        try checkpoint.selectRuleStudyMode(.verify, entryID: ruleID)
+        checkpoint.index = 1
+        XCTAssertThrowsError(try checkpoint.selectRuleStudyMode(.learn, entryID: ruleID))
+        XCTAssertThrowsError(try checkpoint.selectRuleStudyMode(.learn, entryID: readingID))
+        XCTAssertTrue(checkpoint.assistedEntryIDs.isEmpty)
+        try checkpoint.validate()
+    }
+
+    func testMalformedRuleStudyModesCannotRestoreAsUnassistedEvidence() throws {
+        let checkpoint = SessionCheckpoint(tasks: [.rule("rulemonths1"), .reading("r001")])
+        let object = try XCTUnwrap(JSONSerialization.jsonObject(with: ExchangeCoding.encoder().encode(checkpoint)) as? [String: Any])
+        for modes in [[checkpoint.entries[0].id.uuidString: "learn"],
+                      [checkpoint.entries[1].id.uuidString: "verify"],
+                      [UUID().uuidString: "verify"]] {
+            var invalid = object
+            invalid["ruleStudyModes"] = modes
+            let restored = try ExchangeCoding.decoder().decode(SessionCheckpoint.self,
+                from: JSONSerialization.data(withJSONObject: invalid))
+            XCTAssertThrowsError(try restored.validate())
+        }
+    }
+
     func testDifferentSetsAndAFullDayAreBothRequired() throws {
         let pack = try ContentPack.bundled(), rule = rule("rulebooks", pack)
         let first = attempt(rule.practiceSets[0], at: now.addingTimeInterval(-86_400))
@@ -55,6 +112,46 @@ final class RuleLearningTests: XCTestCase {
         XCTAssertTrue(RuleKnowledge(pack: pack, events: onlyMeanings + readings, now: now).ready(verb))
         XCTAssertFalse(RuleKnowledge(pack: pack, events: onlyMeanings + readings, now: now)
             .ready(rule("ruleadjectiveforms", pack)))
+    }
+
+    func testGuidedCorrectRoundAllowsDependentLearningWithoutInventingTransfer() throws {
+        let pack = try ContentPack.bundled(), numbers = rule("rulenum", pack)
+        let history = attempt(numbers.practiceSets[0], at: now, assisted: true)
+        let knowledge = RuleKnowledge(pack: pack, events: history, now: now)
+        let progress = try XCTUnwrap(knowledge.progress[numbers.id])
+        XCTAssertTrue(progress.hasLearnedFoundation)
+        XCTAssertEqual(progress.title, "已学规则，待独立验证")
+        XCTAssertEqual(progress.successfulSets, 0)
+        XCTAssertFalse(progress.verified)
+        XCTAssertTrue(progress.confirmedQuestionIDs.isEmpty)
+        XCTAssertTrue(knowledge.consolidatedKeys.isEmpty)
+        XCTAssertTrue(knowledge.ready(rule("rulemonth", pack)), "Beginners can learn months after guided number practice")
+        XCTAssertFalse(knowledge.ready(rule("ruleverbforms", pack)))
+        let tasks = try SessionPlanner.make(pack: pack, events: history, minutes: 10, now: now,
+            newWordLimit: 0, newGrammarLimit: 0)
+        XCTAssertEqual(tasks.filter { if case .rule = $0 { return true }; return false }.map(\.id),
+            ["rule:" + rule("rulemonth", pack).practiceSets[0].id],
+            "Continue with dependent learning instead of immediately repeating numbers or waiting a day")
+        let direct = ReadingKnowledge(pack: pack, events: history, now: now)
+        for id in rule("rulemonth", pack).prerequisiteIDs {
+            XCTAssertFalse(direct.recalled(id, .reading))
+            XCTAssertFalse(direct.recalled(id, .meaning))
+        }
+    }
+
+    func testFailedIncompleteOrContradictoryGuidedRoundsCannotUnlockDependents() throws {
+        let pack = try ContentPack.bundled(), numbers = rule("rulenum", pack)
+        let good = attempt(numbers.practiceSets[0], at: now, assisted: true)
+        let failed = attempt(numbers.practiceSets[1], at: now.addingTimeInterval(1), correct: false, assisted: true)
+        let inconsistent = attempt(numbers.practiceSets[0], at: now).map { event in
+            LearningEvent(deviceID: event.deviceID, timestamp: event.timestamp, kind: event.kind,
+                targetID: event.targetID, assisted: false, value: event.value, contextID: event.contextID, correct: false)
+        }
+        for history in [Array(good.dropFirst()), good.filter { $0.kind == .placement }, inconsistent, good + failed] {
+            let knowledge = RuleKnowledge(pack: pack, events: history, now: now.addingTimeInterval(2))
+            XCTAssertFalse(knowledge.progress[numbers.id]?.hasLearnedFoundation ?? true)
+            XCTAssertFalse(knowledge.ready(rule("rulemonth", pack)))
+        }
     }
 
     func testFormTransferCannotConsolidateLemmaMeaningReadingOrOtherGrammar() throws {

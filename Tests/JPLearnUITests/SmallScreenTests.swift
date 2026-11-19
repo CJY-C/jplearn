@@ -485,6 +485,9 @@ final class SmallScreenTests: XCTestCase {
         launch(ruleSetID: "rulemonths1")
         app.buttons["today.start"].tap()
         visible(app.buttons["rule.practice"])
+        XCTAssertFalse(app.staticTexts["月份：数字＋がつ"].exists)
+        XCTAssertFalse(app.staticTexts["四月しがつ；七月しちがつ；九月くがつ。"].exists,
+            "The explanation must not reveal the exception answers before diagnosis")
         app.buttons["rule.practice"].tap()
         for _ in 0..<4 {
             visibleChoices()
@@ -499,9 +502,32 @@ final class SmallScreenTests: XCTestCase {
         screenshot("SE3-Rule-Complete")
     }
 
+    @MainActor func testManualRuleDiagnosisSkipsExplanationWithoutPrerequisiteCards() {
+        launch()
+        app.tabBars.buttons["课程"].tap()
+        let month = app.buttons["course.rule.rulemonth"]
+        for _ in 0..<6 where !month.isHittable { app.swipeUp() }
+        visible(month)
+        month.tap()
+        visible(app.buttons["rule.start"])
+        visible(app.buttons["rule.learn"])
+        XCTAssertFalse(app.staticTexts["四月しがつ；七月しちがつ；九月くがつ。"].exists)
+        app.buttons["rule.start"].tap()
+        visibleChoices()
+        XCTAssertFalse(app.buttons["rule.practice"].exists, "Manual diagnosis opens the first question directly")
+        XCTAssertFalse(app.staticTexts["四月しがつ；七月しちがつ；九月くがつ。"].exists)
+        visible(app.buttons["rule.hint"])
+        app.buttons["rule.hint"].tap()
+        XCTAssertTrue(app.staticTexts["四月しがつ；七月しちがつ；九月くがつ。"].exists)
+        visibleChoices()
+        screenshot("SE3-Rule-Manual-Diagnosis")
+    }
+
     @MainActor func testLongDateRuleScrollsAbovePracticeButtonAtLargeTextSize() {
         launch(ruleSetID: "ruledates1", largeText: true)
         app.buttons["today.start"].tap()
+        visible(app.buttons["rule.learn"])
+        app.buttons["rule.learn"].tap()
         let action = app.buttons["rule.practice"]
         visible(action)
         let fixed = action.frame

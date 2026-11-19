@@ -21,7 +21,10 @@ struct RuleDetailView: View {
         let knowledge = RuleKnowledge(pack: model.pack, events: model.events)
         return StudyCardLayout(scrolling: true) { _ in
             VStack(alignment: .leading, spacing: 16) {
-                RuleExplanation(rule: rule)
+                Text("已经熟悉这类表达，可以直接验证；需要讲解时，先学规则与例外。")
+                    .font(.callout)
+                Text("每组 \(rule.practiceSets.first?.questions.count ?? 0) 题 · 换实例运用")
+                    .font(.subheadline).foregroundColor(.secondary)
                 Text(knowledge.progress[rule.id]?.title ?? "待学习与验证").font(.subheadline.weight(.medium))
                 Text(rule.regularItemIDs.isEmpty
                     ? "换例子并隔天复测，检验能否迁移规则。原词的词义、读音和用法仍单独练习；会变形不会批量增加掌握词数。"
@@ -29,8 +32,9 @@ struct RuleDetailView: View {
                     .font(.caption).foregroundColor(.secondary)
                 if !knowledge.ready(rule) {
                     VStack(alignment: .leading, spacing: 6) {
+                        Text("自动安排前需完成基础；已有相关知识可直接验证。")
                         if !rule.prerequisiteIDs.isEmpty {
-                            Text("先掌握这些词的读音与含义：" + rule.prerequisiteIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
+                            Text("基础词的读音与含义：" + rule.prerequisiteIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
                         }
                         if !rule.prerequisiteRuleIDs.isEmpty {
                             Text((rule.prerequisiteIDs.isEmpty ? "先完成：" : "或先完成：") + rule.prerequisiteRuleIDs.compactMap { id in
@@ -41,14 +45,21 @@ struct RuleDetailView: View {
                 }
             }
         } actions: {
-            Button("换例子练习") {
-                model.perform { try model.startRule(rule); session = model.checkpoint != nil }
-            }.buttonStyle(StudyPrimaryButtonStyle())
-                .disabled(model.checkpoint != nil || !knowledge.ready(rule))
-                .accessibilityIdentifier("rule.start")
+            VStack(spacing: 8) {
+                Button("直接验证") { open(.verify) }
+                    .buttonStyle(StudyPrimaryButtonStyle())
+                    .accessibilityIdentifier("rule.start")
+                Button("先学规则") { open(.learn) }
+                    .buttonStyle(StudyQuietButtonStyle())
+                    .accessibilityIdentifier("rule.learn")
+            }.disabled(model.checkpoint != nil)
         }
-        .navigationTitle(rule.title).navigationBarTitleDisplayMode(.inline)
+        .navigationTitle(rule.topicTitle).navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(isPresented: $session) { NavigationView { SessionView() }.navigationViewStyle(.stack) }
+    }
+
+    private func open(_ mode: RuleStudyMode) {
+        model.perform { try model.startRule(rule, mode: mode); session = model.checkpoint != nil }
     }
 }
 
@@ -68,10 +79,23 @@ struct RulePracticeCard: View {
     var body: some View {
         StudyCardLayout(scrolling: true) { _ in
             VStack(alignment: .leading, spacing: 14) {
-                Text(rule.title).font(.headline)
-                if !started { RuleExplanation(rule: rule) }
+                Text(rule.topicTitle).font(.headline)
+                if !started {
+                    if showRule {
+                        RuleExplanation(rule: rule)
+                        Text("本轮包含讲解，记为有提示的学习练习；之后再独立复测。")
+                            .font(.caption).foregroundColor(.secondary)
+                    }
+                    else {
+                        Text("先用一组题看看能否举一反三。已经会的内容可以直接验证，需要时再看规则。")
+                            .font(.callout)
+                        Text("\(practiceSet.questions.count) 道题 · 不同实例与使用边界")
+                            .font(.subheadline).foregroundColor(.secondary)
+                    }
+                }
                 else {
-                    Text("规则迁移 · \(index + 1) / \(practiceSet.questions.count)").font(.caption).foregroundColor(.secondary)
+                    Text("\(isAssisted ? "学习练习" : "规则迁移") · \(index + 1) / \(practiceSet.questions.count)")
+                        .font(.caption).foregroundColor(.secondary)
                     Text(question.prompt).font(.title3.weight(.medium))
                     if let selection = selection {
                         AnswerFeedback(correct: selection == question.answerIndex,
@@ -82,8 +106,16 @@ struct RulePracticeCard: View {
             }
         } actions: {
             if !started {
-                Button("换例子练习") { started = true }.buttonStyle(StudyPrimaryButtonStyle())
-                    .accessibilityIdentifier("rule.practice")
+                VStack(spacing: 8) {
+                    Button(showRule ? "开始练习" : "直接验证") { select(.verify) }
+                        .buttonStyle(StudyPrimaryButtonStyle())
+                        .accessibilityIdentifier("rule.practice")
+                    if !showRule {
+                        Button("先学规则") { select(.learn) }
+                            .buttonStyle(StudyQuietButtonStyle())
+                            .accessibilityIdentifier("rule.learn")
+                    }
+                }
             } else if selection == nil {
                 VStack(spacing: 8) {
                     ChoiceAnswers(choices: question.choices) { selected in
@@ -91,7 +123,7 @@ struct RulePracticeCard: View {
                     }
                     Button("查看规则") {
                         model.perform { try model.markAssisted(entryID: entryID); showRule = true }
-                    }.buttonStyle(StudyQuietButtonStyle())
+                    }.buttonStyle(StudyQuietButtonStyle()).accessibilityIdentifier("rule.hint")
                 }
             } else {
                 Button("继续") {
@@ -101,10 +133,22 @@ struct RulePracticeCard: View {
         }
         .onAppear {
             let setIDs = Set(rule.practiceSets.map(\.id))
-            started = model.events.contains {
+            let mode = model.checkpoint?.ruleStudyMode(for: entryID)
+            started = mode == .verify || model.events.contains {
                 ($0.kind == .questionAttempt && $0.contextID == entryID.uuidString) ||
-                ($0.kind == .placement && setIDs.contains($0.targetID))
+                (mode == nil && $0.kind == .placement && setIDs.contains($0.targetID))
             }
+            showRule = !started && mode == .learn
+        }
+    }
+
+    private var isAssisted: Bool { model.checkpoint?.assistedEntryIDs.contains(entryID) ?? false }
+
+    private func select(_ mode: RuleStudyMode) {
+        model.perform {
+            try model.selectRuleStudyMode(mode, entryID: entryID)
+            started = mode == .verify
+            showRule = mode == .learn
         }
     }
 }

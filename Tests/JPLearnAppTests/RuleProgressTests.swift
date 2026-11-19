@@ -55,6 +55,51 @@ final class RuleProgressTests: XCTestCase {
         XCTAssertTrue(RuleProgress.make(rule, pack: restored.pack, events: restored.events).consolidatedKeys.isEmpty)
     }
 
+    @MainActor func testManualDiagnosisStartsBeforePrerequisiteCardsAndRestoresWithoutShowingRules() throws {
+        let folder = try directory(), model = try AppModel(storageDirectory: folder)
+        let rule = try XCTUnwrap(model.pack.learningRules?.first { $0.id == "rulemonth" })
+        XCTAssertFalse(RuleKnowledge(pack: model.pack, events: model.events).ready(rule))
+        XCTAssertThrowsError(try model.startRule(rule), "Automatic/default entry still requires the listed foundation")
+        try model.startRule(rule, mode: .verify)
+        let id = try XCTUnwrap(model.checkpoint?.current?.id)
+        let restored = try AppModel(storageDirectory: folder)
+        try restored.resumeSession()
+        XCTAssertEqual(restored.checkpoint?.ruleStudyMode(for: id), .verify)
+        XCTAssertFalse(restored.checkpoint?.assistedEntryIDs.contains(id) ?? true)
+        let set = rule.practiceSets[0]
+        for question in set.questions {
+            try restored.recordRuleSelection(entryID: id, questionID: question.id, selection: question.answerIndex)
+            try restored.advanceRuleQuestion(entryID: id, questionID: question.id)
+        }
+        XCTAssertEqual(restored.events.first { $0.kind == .placement }?.value, "passed")
+        XCTAssertFalse(restored.events.contains { $0.kind == .review }, "Diagnosis does not invent prerequisite word mastery")
+        let progress = RuleProgress.make(rule, pack: restored.pack, events: restored.events)
+        XCTAssertEqual(progress.successfulSets, 1)
+        XCTAssertFalse(progress.verified, "One immediate diagnosis is not delayed transfer evidence")
+    }
+
+    @MainActor func testLearningExplanationRemainsAssistedAfterSwitchingToQuestionsAndReopening() throws {
+        let folder = try directory(), model = try AppModel(storageDirectory: folder)
+        let rule = try XCTUnwrap(model.pack.learningRules?.first { $0.id == "rulemonth" })
+        try model.startRule(rule, mode: .learn)
+        let id = try XCTUnwrap(model.checkpoint?.current?.id)
+        let learning = try AppModel(storageDirectory: folder)
+        try learning.resumeSession()
+        XCTAssertEqual(learning.checkpoint?.ruleStudyMode(for: id), .learn)
+        XCTAssertTrue(learning.checkpoint?.assistedEntryIDs.contains(id) ?? false)
+        try learning.selectRuleStudyMode(.verify, entryID: id)
+        let restored = try AppModel(storageDirectory: folder)
+        try restored.resumeSession()
+        XCTAssertEqual(restored.checkpoint?.ruleStudyMode(for: id), .verify)
+        for question in rule.practiceSets[0].questions {
+            try restored.recordRuleSelection(entryID: id, questionID: question.id, selection: question.answerIndex)
+            try restored.advanceRuleQuestion(entryID: id, questionID: question.id)
+        }
+        XCTAssertEqual(restored.events.first { $0.kind == .placement }?.value, "review")
+        XCTAssertTrue(restored.events.filter { $0.kind == .questionAttempt }.allSatisfy(\.assisted))
+        XCTAssertEqual(RuleProgress.make(rule, pack: restored.pack, events: restored.events).successfulSets, 0)
+    }
+
     @MainActor func testFailedRuleRechecksQueuedCalendarReadingBeforeAdvancing() throws {
         let folder = try directory(), first = try AppModel(storageDirectory: folder), now = Date()
         let rule = try XCTUnwrap(first.pack.learningRules?.first { $0.id == "rulemonth" })
