@@ -1,0 +1,1182 @@
+{
+  "items": [
+    {
+      "id": "vn3q001",
+      "kind": "word",
+      "level": "N3",
+      "text": "基礎",
+      "reading": "きそ",
+      "romaji": "kiso",
+      "meaning": "基础；支撑后续知识或活动的基本部分",
+      "explanation": "本单元义项：基础；支撑后续知识或活动的基本部分。通过两个不同语境辨认；其他义项须结合上下文。\n本组为知识和技能的基础；建筑的地基另按语境理解。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "基础；支撑后续知识或活动的基本部分",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1219060；2026-11-16 官方 JMdict 第1义；本组限定基础；支撑后续知识或活动的基本部分。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3q001a",
+        "svn3q001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1219060
+    },
+    {
+      "id": "vn3q002",
+      "kind": "word",
+      "level": "N3",
+      "text": "架空",
+      "reading": "かくう",
+      "romaji": "kakuu",
+      "meaning": "虚构的；在现实中并不存在的",
+      "explanation": "本单元义项：虚构的；在现实中并不存在的。通过两个不同语境辨认；其他义项须结合上下文。\n限定虚构义，只接受かくう；がくう不适用于本义项，空中架设等用法另学。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词修饰语",
+      "sense": "虚构的；在现实中并不存在的",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1193130；2026-11-16 官方 JMdict 第1义；本组限定虚构的；在现实中并不存在的。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3q002a",
+        "svn3q002b"
+      ],
+      "order": 2001,
+      "jmdictEntryID": 1193130
+    },
+    {
+      "id": "vn3q003",
+      "kind": "word",
+      "level": "N3",
+      "text": "有無",
+      "reading": "うむ",
+      "romaji": "umu",
+      "meaning": "有无；是否存在或具备",
+      "explanation": "本单元义项：有无；是否存在或具备。通过两个不同语境辨认；其他义项须结合上下文。\n限定存在与否；不接受过时读音ゆうむ，也不教不容分说的有無を言わせず。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "有无；是否存在或具备",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1541610；2026-11-16 官方 JMdict 第1义；本组限定有无；是否存在或具备。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3q003a",
+        "svn3q003b"
+      ],
+      "order": 2002,
+      "jmdictEntryID": 1541610
+    },
+    {
+      "id": "vn3q004",
+      "kind": "word",
+      "level": "N3",
+      "text": "博物館",
+      "reading": "はくぶつかん",
+      "romaji": "hakubutsukan",
+      "meaning": "博物馆；收集和展示文物等资料的机构",
+      "explanation": "本单元义项：博物馆；收集和展示文物等资料的机构。通过两个不同语境辨认；其他义项须结合上下文。\n博物館与图书馆、旅馆等机构的用途不同；不按汉字含义推断全部功能。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "博物馆；收集和展示文物等资料的机构",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q004；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1474720；2026-11-16 官方 JMdict 第1义；限定博物馆。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3q004a",
+        "svn3q004b"
+      ],
+      "order": 2003,
+      "jmdictEntryID": 1474720
+    },
+    {
+      "id": "vn3q005",
+      "kind": "word",
+      "level": "N3",
+      "text": "登場",
+      "reading": "とうじょう",
+      "romaji": "toujou",
+      "meaning": "登场出现；人或事物出现在作品或舞台中",
+      "explanation": "本单元义项：登场出现；人或事物出现在作品或舞台中。通过两个不同语境辨认；其他义项须结合上下文。\n限定人或事物在作品、舞台中的出现；进入市场等扩展义另学。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "登场出现；人或事物出现在作品或舞台中",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q005；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1444800；2026-11-16 官方 JMdict 第1义；限定本组登场出现；人或事物出现在作品或舞台中。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3q005a",
+        "svn3q005b"
+      ],
+      "order": 2004,
+      "jmdictEntryID": 1444800
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn3q001a",
+      "segments": [
+        {
+          "text": "難",
+          "reading": "むずか",
+          "itemID": "v0046"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "文章",
+          "reading": "ぶんしょう",
+          "itemID": "vn5411"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "進",
+          "reading": "すす",
+          "itemID": "vn6115"
+        },
+        {
+          "text": "む",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "文法",
+          "reading": "ぶんぽう",
+          "itemID": "vn5556"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "基礎",
+          "reading": "きそ",
+          "itemID": "vn3q001"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "进入难文章之前，先确认语法基础。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q001b",
+      "segments": [
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学",
+          "reading": "まな",
+          "itemID": "vn4i180"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "基礎",
+          "reading": "きそ",
+          "itemID": "vn3q001"
+        },
+        {
+          "text": "が、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "役立",
+          "reading": "やくだ",
+          "itemID": "vn3i085"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "第一份工作中学到的基础，现在做事时也派得上用场。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q002a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ",
+          "itemID": "vn5566"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "舞台",
+          "reading": "ぶたい",
+          "itemID": "vn3c020"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "海",
+          "reading": "うみ",
+          "itemID": "vn5042"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "囲",
+          "reading": "かこ",
+          "itemID": "vn3i113"
+        },
+        {
+          "text": "まれた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "架空",
+          "reading": "かくう",
+          "itemID": "vn3q002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "国",
+          "reading": "くに",
+          "itemID": "vn5124"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这部小说的舞台是一个被海洋包围的虚构国家。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q002b",
+      "segments": [
+        {
+          "text": "実際",
+          "reading": "じっさい",
+          "itemID": "vn4422"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "事件",
+          "reading": "じけん",
+          "itemID": "vn3a031"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "架空",
+          "reading": "かくう",
+          "itemID": "vn3q002"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人物",
+          "reading": "じんぶつ",
+          "itemID": "vn3a061"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "加",
+          "reading": "くわ",
+          "itemID": "vn3g006"
+        },
+        {
+          "text": "えることで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "生",
+          "reading": "う",
+          "itemID": "vn5235"
+        },
+        {
+          "text": "まれました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把真实事件与虚构人物组合起来，产生了新的故事。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q003a",
+      "segments": [
+        {
+          "text": "申込書",
+          "reading": "もうしこみしょ",
+          "itemID": "vn4526"
+        },
+        {
+          "text": "には、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "経験",
+          "reading": "けいけん",
+          "itemID": "vn6175"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "有無",
+          "reading": "うむ",
+          "itemID": "vn3q003"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いてください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "请在申请表上填写是否有经验。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q003b",
+      "segments": [
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "有無",
+          "reading": "うむ",
+          "itemID": "vn3q003"
+        },
+        {
+          "text": "だけでなく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今回",
+          "reading": "こんかい",
+          "itemID": "vn5017"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "目的",
+          "reading": "もくてき",
+          "itemID": "vn4444"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": "vn6160"
+        },
+        {
+          "text": "うかも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "不仅确认有没有资料，也要核对内容是否符合本次目的。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q004a",
+      "segments": [
+        {
+          "text": "博物館",
+          "reading": "はくぶつかん",
+          "itemID": "vn3q004"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昔",
+          "reading": "むかし",
+          "itemID": "vn5986"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "っていた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我在博物馆看到了以前的人使用过的工具。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q004b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "博物館",
+          "reading": "はくぶつかん",
+          "itemID": "vn3q004"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "月曜日",
+          "reading": "げつようび",
+          "itemID": "v0269"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这个镇的博物馆星期一休息。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q005a",
+      "segments": [
+        {
+          "text": "物語",
+          "reading": "ものがたり",
+          "itemID": "v0139"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "登場",
+          "reading": "とうじょう",
+          "itemID": "vn3q005"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "老人",
+          "reading": "ろうじん",
+          "itemID": "vn3l055"
+        },
+        {
+          "text": "が、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "主人公",
+          "reading": "しゅじんこう",
+          "itemID": "v0140"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考",
+          "reading": "かんが",
+          "itemID": "v0165"
+        },
+        {
+          "text": "え",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "故事中途登场的老人改变了主人公的想法。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3q005b",
+      "segments": [
+        {
+          "text": "妹",
+          "reading": "いもうと",
+          "itemID": "v0199"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "登場",
+          "reading": "とうじょう",
+          "itemID": "vn3q005"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "ちながら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "兄",
+          "reading": "あに",
+          "itemID": "v0196"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "舞台",
+          "reading": "ぶたい",
+          "itemID": "vn3c020"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "静",
+          "reading": "しず",
+          "itemID": "v0047"
+        },
+        {
+          "text": "かに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "座",
+          "reading": "すわ",
+          "itemID": "v0301"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "哥哥静静坐在舞台前，等待妹妹登场。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn3q001a",
+      "targetID": "vn3q001",
+      "sentenceID": "svn3q001b",
+      "skill": "meaning",
+      "prompt": "句中「基礎」表示什么？",
+      "choices": [
+        "与后续学习没有关系的装饰",
+        "基础；支撑后续知识或活动的基本部分",
+        "已经完成的最终成果"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「基础；支撑后续知识或活动的基本部分」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "きそ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "基礎",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3q002a",
+      "targetID": "vn3q002",
+      "sentenceID": "svn3q002b",
+      "skill": "meaning",
+      "prompt": "句中「架空」表示什么？",
+      "choices": [
+        "悬挂于高处的线路",
+        "虚构的；在现实中并不存在的",
+        "已经核实确实存在的"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「虚构的；在现实中并不存在的」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かくう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "架空",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3q003a",
+      "targetID": "vn3q003",
+      "sentenceID": "svn3q003b",
+      "skill": "meaning",
+      "prompt": "句中「有無」表示什么？",
+      "choices": [
+        "已经确定的具体数量",
+        "有无；是否存在或具备",
+        "对提议表示同意或拒绝"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「有无；是否存在或具备」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "うむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "有無",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3q004a",
+      "targetID": "vn3q004",
+      "sentenceID": "svn3q004b",
+      "skill": "meaning",
+      "prompt": "句中「博物館」表示什么？",
+      "choices": [
+        "主要供列车到达出发的车站",
+        "博物馆；收集和展示文物等资料的机构",
+        "只提供住宿而不作展示的旅馆"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「博物馆；收集和展示文物等资料的机构」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "はくぶつかん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "博物館",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3q005a",
+      "targetID": "vn3q005",
+      "sentenceID": "svn3q005b",
+      "skill": "meaning",
+      "prompt": "句中「登場」表示什么？",
+      "choices": [
+        "人物已经离开作品而不再出现",
+        "新商品开始进入市场销售",
+        "登场出现；人或事物出现在作品或舞台中"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「登场出现；人或事物出现在作品或舞台中」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "とうじょう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "登場",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3q005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn3q01",
+      "title": "基础、虚构与作品阅读前置",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3q001",
+        "vn3q002",
+        "vn3q003",
+        "vn3q004",
+        "vn3q005"
+      ],
+      "sentenceIDs": [
+        "svn3q001a",
+        "svn3q001b",
+        "svn3q002a",
+        "svn3q002b",
+        "svn3q003a",
+        "svn3q003b",
+        "svn3q004a",
+        "svn3q004b",
+        "svn3q005a",
+        "svn3q005b"
+      ],
+      "exerciseIDs": [
+        "evn3q001a",
+        "evn3q002a",
+        "evn3q003a",
+        "evn3q004a",
+        "evn3q005a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

@@ -33,7 +33,10 @@ def check():
     for name, sha in ledger["sourceInputSHA256"].items():
         path = "content/authoring/" + name
         assert hashlib.sha256(previous(path)).hexdigest() == sha, (name, "input hash")
-        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == ledger["sourceOutputSHA256"][name], (name, "reviewed output hash")
+        output = (previous_at(subsequent["baselineCommit"], path)
+                  if subsequent and subsequent.get("subsequentVocabularyChangesVerified")
+                  else (ROOT / path).read_bytes())
+        assert hashlib.sha256(output).hexdigest() == ledger["sourceOutputSHA256"][name], (name, "reviewed output hash")
     for key in before.keys() - {"references"} - set(ledger["newIDs"]):
         assert before[key] == after[key], (key, "unreviewed metadata change")
     old_refs = {r["id"] for r in before["references"]}

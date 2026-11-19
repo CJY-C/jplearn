@@ -28,6 +28,7 @@ jobs:
           python3 scripts/compile_course.py --check
           python3 scripts/build_content.py --check
           python3 scripts/check_rule_transfer.py
+          python3 scripts/check_n2_evidence.py
           python3 content/staging/check_n2_context.py
           python3 content/staging/check_n2_prior_links.py
           python3 scripts/audit_curriculum.py --output curriculum-audit.json

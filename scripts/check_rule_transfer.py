@@ -16,6 +16,11 @@ def check(current=None):
     assert hashlib.sha256(baseline_data).hexdigest() == ledger["baselineRuntimeSHA256"], "Rule baseline changed"
     before = json.loads(baseline_data)
     after = current if current is not None else json.loads((ROOT / resource).read_text())
+    subsequent = None
+    if (ROOT / "content/source-checks/n2-evidence-chapter.json").exists():
+        from check_n2_evidence import check_prior_changes, previous
+        subsequent = check_prior_changes(after)
+        after = json.loads(previous(subsequent["baselineCommit"], resource))
     source = (ROOT / ledger["ruleSource"]).read_bytes()
     assert hashlib.sha256(source).hexdigest() == ledger["sourceSHA256"], "Unreviewed rule source"
     rules = json.loads(source)["learningRules"]
@@ -32,7 +37,8 @@ def check(current=None):
     assert after["learningRules"] == rules, "Runtime rule/source mismatch"
     return dict(baselineCommit=ledger["baselineCommit"], oldCollectionsPreserved=True,
                 oldRulesPreserved=len(before["learningRules"]), newRules=len(added),
-                newQuestions=ledger["newQuestions"], newLexicalRoots=0, newGrammarFunctions=0)
+                newQuestions=ledger["newQuestions"], newLexicalRoots=0, newGrammarFunctions=0,
+                subsequentVocabularyChangesVerified=subsequent is not None)
 
 
 if __name__ == "__main__":

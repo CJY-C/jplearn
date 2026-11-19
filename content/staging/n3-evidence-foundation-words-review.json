@@ -1,0 +1,270 @@
+{
+  "status": "Source-checked trial; independent Japanese review pending",
+  "checkedDate": "2026-11-19",
+  "manuscript": "content/authoring/n3-evidence-foundation-words.tsv",
+  "manuscriptSHA256": "10e62ec9ed805deddd81bb52aef1b7ccd0ffa3212d2a4ebb25dbbd22d30d41e0",
+  "roots": 5,
+  "targets": 5,
+  "contexts": 10,
+  "lessons": 1,
+  "independentLanguageReviews": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions; original Chinese and contexts, no upstream examples or full definitions bundled."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list. Community labels are retained; N3 prerequisites do not offset N2 quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn3q001",
+      "text": "基礎",
+      "primaryReading": "きそ",
+      "authoredMeaning": "基础；支撑后续知识或活动的基本部分",
+      "entryID": 1219060,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きそ",
+          "entryID": 1219060,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きそ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "基礎"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3q001a",
+        "svn3q001b"
+      ]
+    },
+    {
+      "itemID": "vn3q002",
+      "text": "架空",
+      "primaryReading": "かくう",
+      "authoredMeaning": "虚构的；在现实中并不存在的",
+      "entryID": 1193130,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かくう",
+          "entryID": 1193130,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "かくう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [
+            "かくう"
+          ]
+        }
+      ],
+      "dictionarySpellings": [
+        "架空",
+        "仮空"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3q002a",
+        "svn3q002b"
+      ]
+    },
+    {
+      "itemID": "vn3q003",
+      "text": "有無",
+      "primaryReading": "うむ",
+      "authoredMeaning": "有无；是否存在或具备",
+      "entryID": 1541610,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "うむ",
+          "entryID": 1541610,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "うむ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "有無"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3q003a",
+        "svn3q003b"
+      ]
+    },
+    {
+      "itemID": "vn3q004",
+      "text": "博物館",
+      "primaryReading": "はくぶつかん",
+      "authoredMeaning": "博物馆；收集和展示文物等资料的机构",
+      "entryID": 1474720,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "はくぶつかん",
+          "entryID": 1474720,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "はくぶつかん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "博物館"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3q004a",
+        "svn3q004b"
+      ]
+    },
+    {
+      "itemID": "vn3q005",
+      "text": "登場",
+      "primaryReading": "とうじょう",
+      "authoredMeaning": "登场出现；人或事物出现在作品或舞台中",
+      "entryID": 1444800,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "とうじょう",
+          "entryID": 1444800,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "とうじょう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "登場"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3q005a",
+        "svn3q005b"
+      ]
+    }
+  ]
+}

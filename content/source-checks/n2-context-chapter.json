@@ -1421,5 +1421,6 @@
       "Synthetic-clock readiness fixture uses its own clock; final full67-test run passes after both fixture corrections.",
       "Apple CryptoKit archive and iOS integration are outside the portable harness."
     ]
-  }
+  },
+  "subsequentAssociationRevisionLedger": "content/source-checks/n2-evidence-chapter.json"
 }
