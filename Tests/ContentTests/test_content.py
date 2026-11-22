@@ -128,7 +128,10 @@ class ContentTests(unittest.TestCase):
                     self.assertEqual(self.groups["items"][word["itemID"]]["text"], word["text"])
                 else:
                     self.assertNotIn(word["text"], ["?", "-"])
-                    self.assertTrue(reading["id"].startswith(("rn5", "rn4")), (reading["id"], word))
+                    if word.get("properName") is True:
+                        self.assertIn(word["text"], reading["properNames"])
+                    else:
+                        self.assertTrue(reading["id"].startswith(("rn5", "rn4")), (reading["id"], word))
             for identifier in reading["grammarIDs"]:
                 self.assertEqual(self.groups["items"][identifier]["kind"], "grammar")
             linked = Counter(segment["itemID"] for sid in reading["sentenceIDs"]
@@ -158,13 +161,30 @@ class ContentTests(unittest.TestCase):
                 self.assertTrue(set(q["evidenceSentenceIDs"]) <= set(reading["sentenceIDs"]))
 
     def test_source_licenses_and_intro_modules_are_explicit(self):
-        self.assertEqual(len(self.pack["introModules"]), 6)
+        self.assertEqual([m["id"] for m in self.pack["introModules"]], [f"intro{n}" for n in range(1, 10)])
         for module in self.pack["introModules"]:
             self.assertEqual(len(module["questions"]), 5)
             self.assertTrue(module["citations"])
         for source in ["taekim", "project", "pdx"]:
             self.assertTrue(self.groups["references"][source]["license"])
             self.assertTrue(self.groups["references"][source]["attribution"])
+
+    def test_pitch_references_are_sourced_and_not_guessed_for_unannotated_words(self):
+        authored = json.loads((ROOT / "content/pronunciation.json").read_text())
+        targets = {w["id"]: w for w in self.pack["items"] if w.get("pitchAccents")}
+        self.assertEqual(set(targets), set(authored["wordAccents"]))
+        self.assertEqual(len(targets), 8)
+        for identifier, word in targets.items():
+            self.assertEqual(word["pitchAccents"], authored["wordAccents"][identifier])
+            for accent in word["pitchAccents"]:
+                self.assertEqual("".join(accent["morae"]), accent["reading"])
+                self.assertIn(accent["reading"], [word["reading"]] + word.get("acceptedReadings", []))
+                self.assertIn(accent["dropAfter"], range(len(accent["morae"]) + 1))
+                self.assertTrue(accent["citations"])
+                self.assertTrue(all(c["sourceID"] in self.groups["references"] for c in accent["citations"]))
+        for module in self.pack["introModules"][6:]:
+            self.assertFalse(module["allowsSyntheticSpeech"])
+            self.assertEqual({q["ability"] for q in module["questions"]}, {"pitchNotation"})
 
     def test_generated_resource_matches_authoring_source(self):
         spec = importlib.util.spec_from_file_location("authoring", ROOT / "scripts/build_content.py")

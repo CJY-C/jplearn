@@ -1,0 +1,75 @@
+{
+  "status": "Source-checked original trial; independent Japanese review pending",
+  "checkedDate": "2026-11-22",
+  "manuscript": "content/authoring/n4-job-offer-foundation-word.tsv",
+  "manuscriptSHA256": "080c006014f3addd3ade753e4c801d3b0ce78f09fb8a327c5f1c2af4ff219f17",
+  "roots": 1,
+  "targets": 1,
+  "contexts": 2,
+  "lessons": 1,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions. Chinese definitions, usage notes, distractors and Japanese/Chinese contexts authored here; no upstream examples or complete definitions bundled."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list. Community N1–N5 labels retained; earlier foundations and additional senses never offset N2 root quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn4jobs001",
+      "text": "求人",
+      "primaryReading": "きゅうじん",
+      "authoredMeaning": "招聘、招人；所发布的岗位需求",
+      "entryID": 1229500,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きゅうじん",
+          "entryID": 1229500,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きゅうじん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "求人"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn4jobs001a",
+        "svn4jobs001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ]
+}

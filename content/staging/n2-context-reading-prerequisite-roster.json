@@ -1,0 +1,699 @@
+{
+  "status": "Original20 forms disposed into authored roots, known-word paraphrase and rule-based dates; source now registered, independent language review0.",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
+  "readingManuscript": "content/authoring/n2-context-readings.tsv",
+  "readingManuscriptSHA256": "5f1c2869a0c1358dde6f8dfa2785a6d69b61c1ee7c314babc88433685474f9f2",
+  "candidateForms": 20,
+  "selectedNewRoots": 17,
+  "primaryDictionary": {
+    "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36"
+  },
+  "alreadyResolvedWithoutNewRoots": [
+    {
+      "form": "さらに",
+      "targetID": "vn3j018",
+      "scope": "Specific hiragana representation of更に, same reading/meaning, sourceentry1279310."
+    },
+    {
+      "form": "観察会",
+      "targets": [
+        "観察",
+        "vn4i177"
+      ],
+      "scope": "Transparent観察+会(activity gathering); no combinatorial noun root."
+    },
+    {
+      "form": "百年",
+      "targets": [
+        "百",
+        "g030"
+      ],
+      "scope": "Known numeral and duration年ねん, not another word for every number of years."
+    }
+  ],
+  "entries": [
+    {
+      "form": "その後",
+      "contexts": [
+        "rn2002sc"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1006860,
+          "spellings": [
+            "その後",
+            "其の後",
+            "其後"
+          ],
+          "readings": [
+            {
+              "reading": "そのあと",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "そのご",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "そののち",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c016"
+      }
+    },
+    {
+      "form": "催し",
+      "contexts": [
+        "rn2001sd",
+        "rn2001sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1292140,
+          "spellings": [
+            "催し"
+          ],
+          "readings": [
+            {
+              "reading": "もよおし",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn3p012"
+      }
+    },
+    {
+      "form": "写真展",
+      "contexts": [
+        "rn2001sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2647790,
+          "spellings": [
+            "写真展"
+          ],
+          "readings": [
+            {
+              "reading": "しゃしんてん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c009"
+      }
+    },
+    {
+      "form": "初稿",
+      "contexts": [
+        "rn2001sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2844398,
+          "spellings": [
+            "初稿"
+          ],
+          "readings": [
+            {
+              "reading": "しょこう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c011"
+      }
+    },
+    {
+      "form": "四月七日",
+      "contexts": [
+        "rn2002sb"
+      ],
+      "dictionaryCandidates": [],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "productiveDate",
+        "ruleID": "rulemonth",
+        "exceptionQuestionIDs": [
+          "rulemonths1q3"
+        ],
+        "targets": [
+          "vn5504",
+          "vn5533"
+        ],
+        "note": "Four-month April readingし is explicitly verified;月がつ from the rule, day from existing taught date. No full-date root."
+      }
+    },
+    {
+      "form": "四月三日",
+      "contexts": [
+        "rn2002sb"
+      ],
+      "dictionaryCandidates": [],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "productiveDate",
+        "ruleID": "rulemonth",
+        "exceptionQuestionIDs": [
+          "rulemonths1q3"
+        ],
+        "targets": [
+          "vn5504",
+          "vn5529"
+        ],
+        "note": "Four-month April readingし is explicitly verified;月がつ from the rule, day from existing taught date. No full-date root."
+      }
+    },
+    {
+      "form": "小冊子",
+      "contexts": [
+        "rn2005sa",
+        "rn2005se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1660440,
+          "spellings": [
+            "小冊子"
+          ],
+          "readings": [
+            {
+              "reading": "しょうさっし",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c022"
+      }
+    },
+    {
+      "form": "挙げる",
+      "contexts": [
+        "rn2005sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2864818,
+          "spellings": [
+            "挙げる"
+          ],
+          "readings": [
+            {
+              "reading": "あげる",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn3p011"
+      }
+    },
+    {
+      "form": "昨年",
+      "contexts": [
+        "rn2001sa",
+        "rn2005se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1298230,
+          "spellings": [
+            "昨年"
+          ],
+          "readings": [
+            {
+              "reading": "さくねん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c004"
+      }
+    },
+    {
+      "form": "最寄り",
+      "contexts": [
+        "rn2001sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1293750,
+          "spellings": [
+            "最寄り",
+            "最寄"
+          ],
+          "readings": [
+            {
+              "reading": "もより",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c012"
+      }
+    },
+    {
+      "form": "混同",
+      "contexts": [
+        "rn2001sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1290480,
+          "spellings": [
+            "混同"
+          ],
+          "readings": [
+            {
+              "reading": "こんどう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c010"
+      }
+    },
+    {
+      "form": "照らし合わせる",
+      "contexts": [
+        "rn2002sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1847590,
+          "spellings": [
+            "照らし合わせる",
+            "照らしあわせる",
+            "照らし合せる",
+            "照し合せる",
+            "照し合わせる",
+            "てらし合わせる",
+            "照しあわせる"
+          ],
+          "readings": [
+            {
+              "reading": "てらしあわせる",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c015"
+      }
+    },
+    {
+      "form": "生む",
+      "contexts": [
+        "rn2003se"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1588410,
+          "spellings": [
+            "生む",
+            "産む"
+          ],
+          "readings": [
+            {
+              "reading": "うむ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c019"
+      }
+    },
+    {
+      "form": "登録者",
+      "contexts": [
+        "rn2001sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1943640,
+          "spellings": [
+            "登録者"
+          ],
+          "readings": [
+            {
+              "reading": "とうろくしゃ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "paraphrase",
+        "text": "登録した人",
+        "targets": [
+          "vn2a032"
+        ],
+        "note": "Use a known relative clause; no untaught者 suffix inferred and no registrant root added."
+      }
+    },
+    {
+      "form": "短編",
+      "contexts": [
+        "rn2004sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1597300,
+          "spellings": [
+            "短編",
+            "短篇"
+          ],
+          "readings": [
+            {
+              "reading": "たんぺん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c020"
+      }
+    },
+    {
+      "form": "職人",
+      "contexts": [
+        "rn2003sa"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1357550,
+          "spellings": [
+            "職人"
+          ],
+          "readings": [
+            {
+              "reading": "しょくにん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c018"
+      }
+    },
+    {
+      "form": "自身",
+      "contexts": [
+        "rn2005sd"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1318000,
+          "spellings": [
+            "自身"
+          ],
+          "readings": [
+            {
+              "reading": "じしん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn3p001"
+      }
+    },
+    {
+      "form": "視線",
+      "contexts": [
+        "rn2004sb"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1312060,
+          "spellings": [
+            "視線"
+          ],
+          "readings": [
+            {
+              "reading": "しせん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c021"
+      }
+    },
+    {
+      "form": "記す",
+      "contexts": [
+        "rn2002sa",
+        "rn2004sd"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 1223140,
+          "spellings": [
+            "記す",
+            "誌す",
+            "識す"
+          ],
+          "readings": [
+            {
+              "reading": "しるす",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "きす",
+              "nokanji": false,
+              "spellingRestrictions": [
+                "記す"
+              ],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c014"
+      }
+    },
+    {
+      "form": "読み違い",
+      "contexts": [
+        "rn2002sf"
+      ],
+      "dictionaryCandidates": [
+        {
+          "entryID": 2841883,
+          "spellings": [
+            "読み違い",
+            "読違い"
+          ],
+          "readings": [
+            {
+              "reading": "よみちがい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ],
+          "senseOrdinalsAvailable": [
+            1
+          ]
+        }
+      ],
+      "reviewStatus": "Contextual disposition applied to registered trial source; independent language review0",
+      "nextAction": "Native/device validation and continued fullN2 content expansion.",
+      "disposition": {
+        "kind": "authoredRoot",
+        "targetID": "vn2c017"
+      }
+    }
+  ],
+  "independentlyReviewed": 0,
+  "runtimeUnchanged": true,
+  "selectedN2Roots": 14,
+  "selectedN3BackfillRoots": 3
+}

@@ -52,6 +52,13 @@ import LearningCore
             }
             if exhausted {
                 seed += pack.readings.map { LearningEvent(deviceID: fixtureDeviceID, kind: .readingAttempt, targetID: $0.id, value: "correct") }
+                for rule in pack.learningRules ?? [] {
+                    let set = rule.practiceSets[0], context = UUID().uuidString
+                    seed += set.questions.map { LearningEvent(deviceID: fixtureDeviceID, kind: .questionAttempt,
+                        targetID: $0.id, value: String($0.answerIndex), contextID: context, correct: true) }
+                    seed.append(LearningEvent(deviceID: fixtureDeviceID, kind: .placement,
+                        targetID: set.id, value: "passed", contextID: context))
+                }
             }
             loadedEvents = try eventStore.append(seed, existing: [])
         }
@@ -96,10 +103,17 @@ import LearningCore
             try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
             checkpoint = fixture
         }
+        if let setID = ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_RULE_SET_ID"],
+           ProcessInfo.processInfo.environment["JPLEARN_UI_TEST_SESSION"] != nil,
+           pack.rule(forSet: setID) != nil, checkpoint == nil {
+            let fixture = SessionCheckpoint(tasks: [.rule(setID)])
+            try ExchangeCoding.encoder().encode(fixture).write(to: sessionURL, options: .atomic)
+            checkpoint = fixture
+        }
         #endif
         if !folderName.isEmpty { syncMessage = "本机已保存，可同步学习记录" }
         errorMessage = checkpointIssue
-        readingKnowledge = ReadingKnowledge(events: loadedEvents)
+        readingKnowledge = ReadingKnowledge(pack: pack, events: loadedEvents)
         cachedDueCount = (try? ReviewScheduler().dueKeys(events: loadedEvents, pack: pack).count) ?? 0
         studyClock.onInterval = { [weak self] id, interval in
             guard let self = self else { throw LearningError.invalid("暂时无法保存学习时间。") }
@@ -120,8 +134,8 @@ import LearningCore
         events = try store.append(incoming, existing: events)
         if incoming.contains(where: { [.review, .readingAttempt, .placement, .lessonCompleted].contains($0.kind) }) {
             cachedPlanKey = nil
-            if incoming.contains(where: { $0.kind == .review }) {
-                readingKnowledge = ReadingKnowledge(events: events)
+            if incoming.contains(where: { [.review, .placement].contains($0.kind) }) {
+                readingKnowledge = ReadingKnowledge(pack: pack, events: events)
                 cachedDueCount = try ReviewScheduler().dueKeys(events: events, pack: pack).count
             }
         }
@@ -163,6 +177,17 @@ import LearningCore
                 current.questionIndex = nil
             }
         }
+        if let entry = current.current, case .rule(let id) = entry.task,
+           let rule = pack.rule(forSet: id), let set = rule.practiceSets.first(where: { $0.id == id }) {
+            let answered = Set(events.filter { $0.kind == .questionAttempt && $0.contextID == entry.id.uuidString }.map(\.targetID))
+            let index = set.questions.prefix { answered.contains($0.id) }.count
+            current.questionIndex = index
+            if index == set.questions.count {
+                try completeRule(entry: entry, set: set)
+                current.recover(recordedIDs: Set(events.map(\.id)))
+                current.questionIndex = nil
+            }
+        }
         current.removeUnavailableReadings(pack: pack, events: events)
         try saveCheckpoint(current)
     }
@@ -178,11 +203,19 @@ import LearningCore
             item.kind == "word" ? item.skills.map { .recall(ReviewKey(itemID: item.id, skill: $0)) } : []
         }
         // Known words remain available in the lesson, while scheduled due work stays on Today.
+        let rules = RuleKnowledge(pack: pack, events: events)
         tasks = tasks.filter { task in
             guard case .recall(let key) = task else { return true }
-            return !introduced.contains(key) || due.contains(key)
+            return !rules.consolidatedKeys.contains(key) && (!introduced.contains(key) || due.contains(key))
         }
-        tasks += lesson.exerciseIDs.map { .exercise($0) }
+        tasks += lesson.exerciseIDs.compactMap { id -> SessionTask? in
+            guard let exercise = pack.exercise(id),
+                  !rules.consolidatedKeys.contains(ReviewKey(itemID: exercise.targetID, skill: exercise.skill ?? .grammar)) else { return nil }
+            return .exercise(id)
+        }
+        for rule in pack.learningRules ?? [] where rule.regularItemIDs.contains(where: { lesson.itemIDs.contains($0) }) {
+            if let state = rules.progress[rule.id], state.verified { tasks.append(.rule(state.nextSetID)) }
+        }
         if let readingID = lesson.readingID, let reading = pack.readings.first(where: { $0.id == readingID }),
            SessionPlanner.readingAvailable(reading, pack: pack, events: events) { tasks.append(.reading(readingID)) }
         try saveCheckpoint(SessionCheckpoint(tasks: tasks, lessonID: lesson.id))
@@ -212,6 +245,7 @@ import LearningCore
             case .reading(let id):
                 event = LearningEvent(id: entryID, deviceID: deviceID, kind: .readingAttempt, targetID: id,
                                       assisted: wasAssisted, value: rating > 1 && !wasAssisted ? "correct" : "incorrect")
+            case .rule: return
             }
             try append([event])
         }
@@ -267,6 +301,71 @@ import LearningCore
         }
         try append([LearningEvent(id: entry.id, deviceID: deviceID, kind: .readingAttempt,
             targetID: reading.id, assisted: attempts.contains { $0.assisted }, value: correct ? "correct" : "incorrect")])
+    }
+
+    func startRule(_ rule: LearningRule, mode: RuleStudyMode? = nil) throws {
+        guard checkpoint == nil else { throw LearningError.invalid("请先继续或结束上一次练习。") }
+        let knowledge = RuleKnowledge(pack: pack, events: events)
+        guard let canonical = pack.learningRules?.first(where: { $0.id == rule.id }),
+              let state = knowledge.progress[rule.id], mode != nil || knowledge.ready(canonical) else {
+            throw LearningError.invalid("请先完成本规则列出的前置学习，再开始练习。")
+        }
+        // Manual learning and diagnosis are available to people with prior knowledge.
+        // Automatic scheduling still checks prerequisites; no prerequisite word reviews are invented.
+        var current = SessionCheckpoint(tasks: [.rule(state.nextSetID)])
+        if let mode = mode, let entry = current.current {
+            try current.selectRuleStudyMode(mode, entryID: entry.id)
+        }
+        try saveCheckpoint(current)
+    }
+
+    func selectRuleStudyMode(_ mode: RuleStudyMode, entryID: UUID) throws {
+        guard var current = checkpoint, current.current?.id == entryID else { return }
+        try current.selectRuleStudyMode(mode, entryID: entryID)
+        try saveCheckpoint(current)
+    }
+
+    func recordRuleSelection(entryID: UUID, questionID: String, selection: Int) throws {
+        guard let current = checkpoint, let entry = current.current, entry.id == entryID,
+              case .rule(let id) = entry.task, let rule = pack.rule(forSet: id),
+              let set = rule.practiceSets.first(where: { $0.id == id }),
+              set.questions.indices.contains(current.questionIndex ?? 0) else { return }
+        let question = set.questions[current.questionIndex ?? 0]
+        guard question.id == questionID, question.choices.indices.contains(selection),
+              !events.contains(where: { $0.kind == .questionAttempt && $0.contextID == entryID.uuidString && $0.targetID == questionID }) else { return }
+        try studyClock.flush()
+        let assisted = current.assistedEntryIDs.contains(entryID)
+        try append([LearningEvent(deviceID: deviceID, kind: .questionAttempt, targetID: questionID,
+            assisted: assisted, value: String(selection), contextID: entryID.uuidString,
+            correct: selection == question.answerIndex && !assisted)])
+    }
+
+    func advanceRuleQuestion(entryID: UUID, questionID: String) throws {
+        guard var current = checkpoint, let entry = current.current, entry.id == entryID,
+              case .rule(let id) = entry.task, let rule = pack.rule(forSet: id),
+              let set = rule.practiceSets.first(where: { $0.id == id }) else { return }
+        let index = current.questionIndex ?? 0
+        guard set.questions.indices.contains(index), set.questions[index].id == questionID,
+              events.contains(where: { $0.kind == .questionAttempt && $0.contextID == entryID.uuidString && $0.targetID == questionID }) else { return }
+        if index + 1 < set.questions.count { current.questionIndex = index + 1 }
+        else {
+            try completeRule(entry: entry, set: set)
+            current.index += 1; current.questionIndex = nil
+            current.removeUnavailableReadings(pack: pack, events: events)
+        }
+        try saveCheckpoint(current)
+        if current.current == nil { try studyClock.setVisible(false) }
+    }
+
+    private func completeRule(entry: SessionEntry, set: RulePracticeSet) throws {
+        guard !events.contains(where: { $0.id == entry.id }) else { return }
+        let attempts = events.filter { $0.kind == .questionAttempt && $0.contextID == entry.id.uuidString }
+        let assisted = checkpoint?.assistedEntryIDs.contains(entry.id) ?? false
+        let passed = !assisted && set.questions.allSatisfy { question in
+            attempts.contains { $0.targetID == question.id && $0.value == String(question.answerIndex) && $0.correct == true && !$0.assisted }
+        }
+        try append([LearningEvent(id: entry.id, deviceID: deviceID, kind: .placement, targetID: set.id,
+            assisted: assisted, value: passed ? "passed" : "review", contextID: entry.id.uuidString)])
     }
 
     func recordPlacement(moduleID: String, passed: Bool) throws {

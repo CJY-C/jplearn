@@ -1195,7 +1195,8 @@
       "meaning": "拍摄（照片等）",
       "explanation": "本单元义项：拍摄（照片等）。通过两个不同语境辨认；其他义项须结合上下文。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -1210,13 +1211,19 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5036；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1298790；义项 34540：拍摄照片。与同词条内的录音、录像义分开教学。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
         "svn5036a",
         "svn5036b"
       ],
-      "order": 2035
+      "order": 2035,
+      "jmdictEntryID": 1298790
     },
     {
       "id": "vn5037",

@@ -1,0 +1,83 @@
+{
+  "status": "source-fact check and local validation only; iOS build and listening verification pending",
+  "checkedDate": "2026-11-16",
+  "independentlyReviewed": 0,
+  "input": "content/pronunciation.json",
+  "sha256": "6a7e0035a841c17153228893c975acc95418ac1b17c55a6fbda9bcbd2536a1b5",
+  "scope": {
+    "introModules": 3,
+    "notationQuestions": 15,
+    "wordReferences": 8,
+    "syntheticAccentDemonstrations": false,
+    "listeningOrProductionScore": false
+  },
+  "sourcesRead": [
+    {
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/202503.html",
+      "sections": [
+        "1.2",
+        "2.1–2.3",
+        "3–4"
+      ],
+      "facts": "Lexical downstep versus fixed isolated-word H/L curves, sentence intonation/focus, rain/candy contrast. Teaching article by the author, not an independently peer-reviewed efficacy trial."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-08-01.php",
+      "sections": [
+        "解説"
+      ],
+      "facts": "Explicit nuclei for 箸／あなた／湖／夏休み; 鼻が vs 花が. The low-high description of 橋 alone was not treated as sufficient evidence of a final drop, so 橋 remains unannotated."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-10-01.php",
+      "sections": [
+        "解説"
+      ],
+      "facts": "Mora rhythm, contracted sounds, special morae."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-11-01.php",
+      "sections": [
+        "解説"
+      ],
+      "facts": "Contracted kana counted with the preceding kana as one mora."
+    },
+    {
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-09-01.php",
+      "sections": [
+        "解説"
+      ],
+      "facts": "Lexical accent and utterance intonation are different levels. Does not create a rule that every occurrence of か must rise."
+    },
+    {
+      "url": "https://kotoba.ninjal.ac.jp/mado/09/09-04/",
+      "sections": [
+        "日本語のアクセントとは",
+        "声の高さの下がり目がポイント",
+        "平板式アクセントの見分け方"
+      ],
+      "facts": "Region limitation and lexical downstep; no copying of illustrations."
+    }
+  ],
+  "appleAPIFacts": [
+    {
+      "url": "https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoice/speechvoices()",
+      "fact": "Enumerates available on-device voices; does not prove any specific Japanese voice is installed on the user device."
+    },
+    {
+      "url": "https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoicequality/premium",
+      "fact": "premium available starting iOS16.0; native adapter availability-guards this case. iOS15.5 supports the earlier qualities."
+    },
+    {
+      "url": "https://support.apple.com/en-in/111798",
+      "fact": "Enhanced-quality voice downloads and system voice selection; offline verification remains a device test."
+    }
+  ],
+  "authorship": "Chinese explanations and diagnostic questions are original; only a small set of explicitly checked pronunciation facts is annotated. No external audio, images or pronunciation dictionary database was copied. Unannotated words have no inferred [0] default.",
+  "nextScope": [
+    "Gradually extend sourced per-reading, per-sense accent references through N5–N2 without inventing missing values.",
+    "Add reviewed contextual/inflected/compound examples and listening material with appropriate distribution rights.",
+    "Introduce separate accent practice and progress when validated tasks/audio exist; current notation diagnostics never become word mastery or acoustic pronunciation scores.",
+    "Validate native voice availability, actual audio quality, settings refresh and SE3 layout on iOS15.5/16.6."
+  ]
+}

@@ -20,6 +20,10 @@ public struct ReviewScheduler {
     ))
     public init() {}
 
+    func retrievability(card: Card, at date: Date) -> Double {
+        scheduler.getRetrievability(card: card, now: date).number
+    }
+
     public func validateHistory(_ events: [LearningEvent]) throws {
         _ = try replay(events)
     }
@@ -42,13 +46,15 @@ public struct ReviewScheduler {
     }
 
     func due(events: [LearningEvent], pack: ContentPack, now: Date = Date()) throws -> [ScheduledItem] {
-        due(cards: try replay(events), pack: pack, now: now)
+        due(cards: try replay(events), pack: pack, now: now,
+            consolidated: RuleKnowledge(pack: pack, events: events, now: now).consolidatedKeys)
     }
 
-    func due(cards: [ReviewKey: Card], pack: ContentPack, now: Date) -> [ScheduledItem] {
+    func due(cards: [ReviewKey: Card], pack: ContentPack, now: Date,
+             consolidated: Set<ReviewKey> = []) -> [ScheduledItem] {
         let available = Set(pack.items.flatMap { item in item.skills.map { ReviewKey(itemID: item.id, skill: $0) } })
         return cards.compactMap { key, card in
-            available.contains(key) && card.due <= now ? ScheduledItem(key: key, card: card) : nil
+            available.contains(key) && !consolidated.contains(key) && card.due <= now ? ScheduledItem(key: key, card: card) : nil
         }.sorted { $0.card.due == $1.card.due ? $0.id < $1.id : $0.card.due < $1.card.due }
     }
 }
@@ -57,11 +63,13 @@ public enum SessionTask: Identifiable, Codable {
     case recall(ReviewKey)
     case exercise(String)
     case reading(String)
+    case rule(String)
     public var id: String {
         switch self {
         case .recall(let key): return "recall:" + key.id
         case .exercise(let id): return "exercise:" + id
         case .reading(let id): return "reading:" + id
+        case .rule(let id): return "rule:" + id
         }
     }
 }
@@ -72,11 +80,12 @@ public enum SessionPlanner {
                             newWordLimit: Int = 10, newGrammarLimit: Int = 2) throws -> [SessionTask] {
         let capacity = max(1, min(minutes, 60) * 2)
         let scheduler = ReviewScheduler()
-        let knowledge = ReadingKnowledge(events: events)
+        let rules = RuleKnowledge(pack: pack, events: events, now: now)
+        let knowledge = ReadingKnowledge(events: events, inferredKeys: rules.consolidatedKeys, ruleProgress: rules.progress)
         // Both due selection and new-skill selection use the same replay of this
         // immutable history. Replaying FSRS again adds work, not information.
         let cards = try scheduler.replay(events)
-        let due = scheduler.due(cards: cards, pack: pack, now: now)
+        let due = scheduler.due(cards: cards, pack: pack, now: now, consolidated: rules.consolidatedKeys)
         var tasks = due.prefix(capacity).map { item -> SessionTask in
             if item.key.skill == .grammar || (item.key.skill == .meaning && item.card.reps % 2 == 0) {
                 let variations = pack.exercises.filter { $0.targetID == item.key.itemID && ($0.skill ?? .grammar) == item.key.skill }.sorted { $0.id < $1.id }
@@ -93,10 +102,18 @@ public enum SessionPlanner {
         })
         let wordSlots = max(0, min(20, max(0, newWordLimit)) - newToday.filter { pack.item($0)?.kind == "word" }.count)
         let grammarSlots = max(0, min(3, max(0, newGrammarLimit)) - newToday.filter { pack.item($0)?.kind == "grammar" }.count)
+        if tasks.count < capacity,
+           let rule = (pack.learningRules ?? []).first(where: { rule in
+               guard let state = rules.progress[rule.id], rules.ready(rule) else { return false }
+               return state.nextDue.map { $0 <= now } ?? true
+           }), let state = rules.progress[rule.id] {
+            tasks.append(.rule(state.nextSetID))
+        }
         if due.count < capacity / 2 {
             let unfinishedWords = pack.items.filter { item in
                 item.kind == "word" && item.skills.contains { cards[ReviewKey(itemID: item.id, skill: $0)] != nil }
-                && item.skills.contains { cards[ReviewKey(itemID: item.id, skill: $0)] == nil }
+                && item.skills.contains { cards[ReviewKey(itemID: item.id, skill: $0)] == nil &&
+                    !rules.consolidatedKeys.contains(ReviewKey(itemID: item.id, skill: $0)) }
             }
             func comesFirst(_ a: KnowledgeItem, _ b: KnowledgeItem) -> Bool {
                 let order = ["N5": 0, "N4": 1, "N3": 2, "N2": 3]
@@ -107,16 +124,18 @@ public enum SessionPlanner {
             }
             func ready(_ item: KnowledgeItem) -> Bool {
                 (item.prerequisiteIDs ?? []).allSatisfy { id in
-                    knowledge.recalled(id, pack.item(id)?.kind == "word" ? .meaning : .grammar)
+                    knowledge.canApply(id, pack.item(id)?.kind == "word" ? .meaning : .grammar)
                 }
             }
             let newWords = pack.items.filter { item in
                 item.kind == "word" && item.skills.allSatisfy { cards[ReviewKey(itemID: item.id, skill: $0)] == nil }
+                && item.skills.contains { !rules.consolidatedKeys.contains(ReviewKey(itemID: item.id, skill: $0)) }
                 && ready(item)
             }.sorted(by: comesFirst).prefix(wordSlots)
             // Separate the two skills with other words instead of showing the same word twice in succession.
             for skill in [Skill.reading, .meaning] {
-                for item in unfinishedWords + Array(newWords) where item.skills.contains(skill) && cards[ReviewKey(itemID: item.id, skill: skill)] == nil {
+                for item in unfinishedWords + Array(newWords) where item.skills.contains(skill) && cards[ReviewKey(itemID: item.id, skill: skill)] == nil &&
+                    !rules.consolidatedKeys.contains(ReviewKey(itemID: item.id, skill: skill)) {
                     tasks.append(.recall(ReviewKey(itemID: item.id, skill: skill)))
                 }
             }
@@ -163,7 +182,7 @@ public enum SessionPlanner {
                                         includeAssessments: Bool = false) -> Bool {
         let lastAttempt = events.lazy.filter { $0.kind == .readingAttempt && $0.targetID == reading.id }
             .map(\.timestamp).max()
-        return readingAvailable(reading, pack: pack, knowledge: knowledge ?? ReadingKnowledge(events: events),
+        return readingAvailable(reading, pack: pack, knowledge: knowledge ?? ReadingKnowledge(pack: pack, events: events, now: now),
                                 lastAttempt: lastAttempt, now: now, calendar: calendar,
                                 includeAssessments: includeAssessments)
     }
@@ -195,17 +214,36 @@ public struct SessionCheckpoint: Codable {
     public let lessonID: String?
     public let startedAt: Date
     public var questionIndex: Int?
+    public private(set) var ruleStudyModes: [String: RuleStudyMode]?
     public init(tasks: [SessionTask], lessonID: String? = nil) {
         schemaVersion = 1; id = UUID(); entries = tasks.map { SessionEntry(task: $0) }; index = 0
         self.lessonID = lessonID; startedAt = Date(); assistedEntryIDs = []
     }
     public var current: SessionEntry? { entries.indices.contains(index) ? entries[index] : nil }
+    public func ruleStudyMode(for entryID: UUID) -> RuleStudyMode? {
+        ruleStudyModes?[entryID.uuidString]
+    }
+    public mutating func selectRuleStudyMode(_ mode: RuleStudyMode, entryID: UUID) throws {
+        guard let entry = current, entry.id == entryID, case .rule = entry.task else {
+            throw LearningError.invalid("当前不是这组规则练习。")
+        }
+        if mode == .learn { assistedEntryIDs.insert(entryID) }
+        if ruleStudyModes == nil { ruleStudyModes = [:] }
+        ruleStudyModes?[entryID.uuidString] = mode
+    }
     public func validate() throws {
         guard schemaVersion == 1, (0...entries.count).contains(index),
               (0...4).contains(questionIndex ?? 0),
               Set(entries.map(\.id)).count == entries.count,
               assistedEntryIDs.isSubset(of: Set(entries.map(\.id))) else {
             throw LearningError.invalid("上次学习安排无法恢复，已完成的学习记录仍保留。")
+        }
+        for (key, mode) in ruleStudyModes ?? [:] {
+            guard let entry = entries.first(where: { $0.id.uuidString == key }),
+                  case .rule = entry.task,
+                  mode != .learn || assistedEntryIDs.contains(entry.id) else {
+                throw LearningError.invalid("规则练习状态无法恢复，已完成的学习记录仍保留。")
+            }
         }
     }
     public mutating func recover(recordedIDs: Set<UUID>) {
@@ -221,5 +259,7 @@ public struct SessionCheckpoint: Codable {
             return SessionPlanner.readingAvailable(reading, pack: pack, events: events, now: now, includeAssessments: true)
         }
         assistedEntryIDs.formIntersection(Set(entries.map(\.id)))
+        let retainedIDs = Set(entries.map { $0.id.uuidString })
+        ruleStudyModes = ruleStudyModes?.filter { retainedIDs.contains($0.key) }
     }
 }

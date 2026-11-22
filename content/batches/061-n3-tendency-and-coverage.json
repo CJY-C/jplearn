@@ -1,0 +1,3032 @@
+{
+  "items": [
+    {
+      "id": "gn3b017",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "名词加向け：面向某类对象制作",
+      "reading": "向けだ、向けに、向けの",
+      "romaji": "muke da muke ni muke no",
+      "meaning": "辨认预定使用对象，保留与实际使用者的差别",
+      "explanation": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "g002",
+        "gn3b016"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b017a",
+        "sgn3b017b",
+        "sgn3b017c",
+        "sgn3b017d",
+        "sgn3b017e",
+        "sgn3b017f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b018",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加がち：容易反复出现的倾向",
+      "reading": "がちだ、がちな、がちになる",
+      "romaji": "gachi da gachi na gachi ni naru",
+      "meaning": "把容易发生与必然、单次发生、主动愿望分开",
+      "explanation": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn466",
+        "gn474"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b018a",
+        "sgn3b018b",
+        "sgn3b018c",
+        "sgn3b018d",
+        "sgn3b018e",
+        "sgn3b018f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn3b019",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "固定名词加がち：常呈某种状态",
+      "reading": "がちだ、がちの、がちに",
+      "romaji": "gachi da gachi no gachi ni",
+      "meaning": "理解常见状态搭配，避免把所有名词机械加がち",
+      "explanation": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b018",
+        "g002"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b019a",
+        "sgn3b019b",
+        "sgn3b019c",
+        "sgn3b019d",
+        "sgn3b019e",
+        "sgn3b019f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b017a",
+      "segments": [
+        {
+          "text": "出版社",
+          "reading": "しゅっぱんしゃ",
+          "itemID": "vn3m028"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中学生",
+          "reading": "ちゅうがくせい",
+          "itemID": "vn3m029"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歴史",
+          "reading": "れきし",
+          "itemID": "vn4323"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作",
+          "reading": "つく",
+          "itemID": "v0068"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大人",
+          "reading": "おとな",
+          "itemID": "v0204"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読者",
+          "reading": "どくしゃ",
+          "itemID": "vn3a063"
+        },
+        {
+          "text": "からも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感想",
+          "reading": "かんそう",
+          "itemID": "vn4424"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "届",
+          "reading": "とど",
+          "itemID": "vn5772"
+        },
+        {
+          "text": "いています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "出版社制作了面向初中生的历史读物，也收到了成年读者的感想。",
+      "explanation": "向け说明目标对象；实际读者可以更广，也不能从目标对象推出所有人的行为和评价。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b017b",
+      "segments": [
+        {
+          "text": "海外",
+          "reading": "かいがい",
+          "itemID": "vn3h188"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案内",
+          "reading": "あんない",
+          "itemID": "vn5999"
+        },
+        {
+          "text": "には、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "国内",
+          "reading": "こくない",
+          "itemID": "vn3m030"
+        },
+        {
+          "text": "版",
+          "reading": "ばん",
+          "itemID": null
+        },
+        {
+          "text": "にはない",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "交通",
+          "reading": "こうつう",
+          "itemID": "vn4305"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "加",
+          "reading": "くわ",
+          "itemID": "vn3g006"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "面向海外的指南增加了国内版所没有的地图和交通说明。",
+      "explanation": "向けの修饰案内，说明版本面向；不能由制作安排推出实际阅读人数或页面方向。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b017c",
+      "segments": [
+        {
+          "text": "初心者",
+          "reading": "しょしんしゃ",
+          "itemID": "vn3m031"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "講座",
+          "reading": "こうざ",
+          "itemID": "vn3m032"
+        },
+        {
+          "text": "でも、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "速",
+          "reading": "はや",
+          "itemID": "vn5354"
+        },
+        {
+          "text": "すぎました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "対象",
+          "reading": "たいしょう",
+          "itemID": "vn3a096"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "表示",
+          "reading": "ひょうじ",
+          "itemID": "vn4521"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": "vn6160"
+        },
+        {
+          "text": "うかどうかは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "でした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "即使是面向初学者的课程，对我来说讲解还是太快。标注的目标对象与是否适合自己是两回事。",
+      "explanation": "制作目标不是对每位使用者的效果保证；后句明确保留个体差异。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b017d",
+      "segments": [
+        {
+          "text": "放送局",
+          "reading": "ほうそうきょく",
+          "itemID": "vn3m033"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "番組",
+          "reading": "ばんぐみ",
+          "itemID": "vn4i030"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夕方",
+          "reading": "ゆうがた",
+          "itemID": "vn5200"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "放送",
+          "reading": "ほうそう",
+          "itemID": "vn4345"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一緒",
+          "reading": "いっしょ",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "もいます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "电视台在傍晚播出面向儿童的节目，也有人全家一起看。",
+      "explanation": "面向对象不等于禁止其他观看者，也不直接说明演员或角色构成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b017e",
+      "segments": [
+        {
+          "text": "企業",
+          "reading": "きぎょう",
+          "itemID": "vn3h022"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "窓口",
+          "reading": "まどぐち",
+          "itemID": "vn4038"
+        },
+        {
+          "text": "と、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "個人",
+          "reading": "こじん",
+          "itemID": "vn3h009"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓口",
+          "reading": "まどぐち",
+          "itemID": "vn4038"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "受付",
+          "reading": "うけつけ",
+          "itemID": "vn5994"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "違",
+          "reading": "ちが",
+          "itemID": "v0132"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "面向企业的咨询窗口与面向个人的窗口，受理时间不同。",
+      "explanation": "向け区分服务类别，后句只明确受理时间不同；费用高低和建筑朝向未说明。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b017f",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教材",
+          "reading": "きょうざい",
+          "itemID": "vn3m034"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教師",
+          "reading": "きょうし",
+          "itemID": "vn3i089"
+        },
+        {
+          "text": "向",
+          "reading": "む",
+          "itemID": null
+        },
+        {
+          "text": "けだと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いてあります。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学習者",
+          "reading": "がくしゅうしゃ",
+          "itemID": "vn3m025"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "うときは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "目的",
+          "reading": "もくてき",
+          "itemID": "vn4444"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "してください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "新教材写着面向教师。学习者使用时，请先确认说明的目的。",
+      "explanation": "目标对象与审校证明、使用禁令不同；不能把教材标签扩大成文中没有的保证或规定。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018a",
+      "segments": [
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "いで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "投稿",
+          "reading": "とうこう",
+          "itemID": "vn3m035"
+        },
+        {
+          "text": "すると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日付",
+          "reading": "ひづけ",
+          "itemID": "vn5980"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘",
+          "reading": "わす",
+          "itemID": "v0103"
+        },
+        {
+          "text": "れがちです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送信",
+          "reading": "そうしん",
+          "itemID": "vn3e011"
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読み返",
+          "reading": "よみかえ",
+          "itemID": "vn4878"
+        },
+        {
+          "text": "すようにしています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "匆忙发帖时，我容易忘记核对日期，所以会在发送前重读。",
+      "explanation": "がち表示容易出现的倾向；后句的应对也表明这不是愿望或不可改变的必然。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018b",
+      "segments": [
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "をしていると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "困",
+          "reading": "こま",
+          "itemID": "v0322"
+        },
+        {
+          "text": "っていても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後回",
+          "reading": "あとまわ",
+          "itemID": "vn3m036"
+        },
+        {
+          "text": "しにしがちです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同僚",
+          "reading": "どうりょう",
+          "itemID": "vn3d003"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "をかけてもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "独自工作时，即使有困难也容易把咨询往后拖。同事主动来问了我。",
+      "explanation": "倾向句不单独确定每一回的结果；同事搭话也不等于文中已交代全部咨询过程。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018c",
+      "segments": [
+        {
+          "text": "天気",
+          "reading": "てんき",
+          "itemID": "v0084"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "悪",
+          "reading": "わる",
+          "itemID": "vn5221"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "週",
+          "reading": "しゅう",
+          "itemID": "vn5982"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "運動",
+          "reading": "うんどう",
+          "itemID": "vn4301"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "みがちですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "体",
+          "reading": "からだ",
+          "itemID": "vn5110"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "動",
+          "reading": "うご",
+          "itemID": "vn5764"
+        },
+        {
+          "text": "かしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "天气不好的那一周容易中断运动，但昨天在家稍微活动了身体。",
+      "explanation": "がち不等于全称断言；后句提供了具体的一回，不应抹去。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018d",
+      "segments": [
+        {
+          "text": "結末",
+          "reading": "けつまつ",
+          "itemID": "vn4447"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "っていると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変化",
+          "reading": "へんか",
+          "itemID": "vn3i015"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見落",
+          "reading": "みお",
+          "itemID": "vn3b030"
+        },
+        {
+          "text": "としがちです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今回",
+          "reading": "こんかい",
+          "itemID": "vn5017"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場面",
+          "reading": "ばめん",
+          "itemID": "vn4i169"
+        },
+        {
+          "text": "ごとに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "印",
+          "reading": "しるし",
+          "itemID": "vn3a126"
+        },
+        {
+          "text": "をつけました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "知道结局时，容易漏看中途的细小变化。这次我按场景做了标记。",
+      "explanation": "前句提示常见倾向；后句只是应对行为，不保证绝不漏看，也不推断作者删改。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018e",
+      "segments": [
+        {
+          "text": "忙",
+          "reading": "いそが",
+          "itemID": "v0285"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時期",
+          "reading": "じき",
+          "itemID": "vn3g059"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ",
+          "itemID": "vn4018"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れがちになりますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今朝",
+          "reading": "けさ",
+          "itemID": "v0170"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "すぐ",
+          "reading": "すぐ",
+          "itemID": "v0176"
+        },
+        {
+          "text": "答",
+          "reading": "こた",
+          "itemID": "vn5051"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "忙碌时期回复往往会变迟，但今早的联络我马上就回复了。",
+      "explanation": "がちになる表示倾向的形成，不把它读成全称保证；今早的例外是已给出的事实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b018f",
+      "segments": [
+        {
+          "text": "登場人物",
+          "reading": "とうじょうじんぶつ",
+          "itemID": "vn3i106"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "多",
+          "reading": "おお",
+          "itemID": "v0175"
+        },
+        {
+          "text": "いと、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "だけで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "関係",
+          "reading": "かんけい",
+          "itemID": "v0164"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "判断",
+          "reading": "はんだん",
+          "itemID": "vn4443"
+        },
+        {
+          "text": "しがちです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "語り手",
+          "reading": "かたりて",
+          "itemID": "vn3k014"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "立場",
+          "reading": "たちば",
+          "itemID": "vn4j150"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめることにしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "人物多时，我容易只凭名字判断关系，于是决定也核实叙述者的立场。",
+      "explanation": "判断しがち指出倾向，后句是决定采取的方法；不提供所有判断的正误结论。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019a",
+      "segments": [
+        {
+          "text": "今週",
+          "reading": "こんしゅう",
+          "itemID": "v0261"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "曇",
+          "reading": "くも",
+          "itemID": "vn5380"
+        },
+        {
+          "text": "りがちの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "天気",
+          "reading": "てんき",
+          "itemID": "v0084"
+        },
+        {
+          "text": "でしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "水曜日",
+          "reading": "すいようび",
+          "itemID": "v0271"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "青空",
+          "reading": "あおぞら",
+          "itemID": "vn3m037"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "vn6164"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这周天气多阴，但周三下午看到了蓝天。",
+      "explanation": "曇りがち说明总体倾向，不抹去某时段的具体天气，也不等于降雨量记录。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019b",
+      "segments": [
+        {
+          "text": "祖父",
+          "reading": "そふ",
+          "itemID": "v0200"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "のころ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "病気",
+          "reading": "びょうき",
+          "itemID": "vn5112"
+        },
+        {
+          "text": "がちだったそうですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "毎朝",
+          "reading": "まいあさ",
+          "itemID": "v0267"
+        },
+        {
+          "text": "公園",
+          "reading": "こうえん",
+          "itemID": "v0184"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "いています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "听说祖父小时候容易生病，现在每天早晨都在公园散步。",
+      "explanation": "过去的状态与现在的活动分开；病気がち没有给出病名，也不能扩大到他人或未来。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019c",
+      "segments": [
+        {
+          "text": "出張",
+          "reading": "しゅっちょう",
+          "itemID": "vn4029"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5773"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最近",
+          "reading": "さいきん",
+          "itemID": "vn5987"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "留守",
+          "reading": "るす",
+          "itemID": "vn4002"
+        },
+        {
+          "text": "がちです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "荷物",
+          "reading": "にもつ",
+          "itemID": "vn5372"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "配達",
+          "reading": "はいたつ",
+          "itemID": "vn3k068"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来週",
+          "reading": "らいしゅう",
+          "itemID": "v0262"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "頼",
+          "reading": "たの",
+          "itemID": "vn5060"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "出差接连不断，最近常常不在家。我把包裹配送约在了下周下午。",
+      "explanation": "这里报告最近的状态倾向；预约是将来的安排，不把它当成已完成配送或永远无人。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019d",
+      "segments": [
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集",
+          "reading": "あつ",
+          "itemID": "vn3e007"
+        },
+        {
+          "text": "まりで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "彼女",
+          "reading": "かのじょ",
+          "itemID": "v0016"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遠慮",
+          "reading": "えんりょ",
+          "itemID": "vn4i095"
+        },
+        {
+          "text": "がちに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "席",
+          "reading": "せき",
+          "itemID": "vn5995"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選",
+          "reading": "えら",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0104"
+        },
+        {
+          "text": "まると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伝",
+          "reading": "つた",
+          "itemID": "vn6166"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "初次参加聚会，她有些拘谨地选了座位。谈话开始后，也表达了自己的意见。",
+      "explanation": "がちに修饰动作样态；当时拘谨与后来表达意见可以同时成立，不推出终身性格或禁令。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019e",
+      "segments": [
+        {
+          "text": "病気",
+          "reading": "びょうき",
+          "itemID": "vn5112"
+        },
+        {
+          "text": "がちの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "授業",
+          "reading": "じゅぎょう",
+          "itemID": "vn5406"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "録音",
+          "reading": "ろくおん",
+          "itemID": "vn4957"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いていました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "欠席",
+          "reading": "けっせき",
+          "itemID": "vn3c028"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日数",
+          "reading": "にっすう",
+          "itemID": "vn3m038"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いてありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "容易生病的弟弟用录音补听缺席那天的课，文中没有写缺席天数。",
+      "explanation": "固定状态搭配不是精确统计量；不能给がち虚构统一频率或用一段叙述补齐完整记录。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b019f",
+      "segments": [
+        {
+          "text": "遠慮",
+          "reading": "えんりょ",
+          "itemID": "vn4i095"
+        },
+        {
+          "text": "がちな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "でしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "参加",
+          "reading": "さんか",
+          "itemID": "vn4410"
+        },
+        {
+          "text": "したいと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "伝",
+          "reading": "つた",
+          "itemID": "vn6166"
+        },
+        {
+          "text": "えていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "虽然说法有些拘谨，他还是表达了自己也想参加。",
+      "explanation": "远慮がちな修饰说法；意愿由参加したい给出，不根据样态倒转明确内容。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b017a",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017a",
+      "prompt": "中学生向けに说明什么？",
+      "choices": [
+        "实际读者只能是初中生",
+        "所有初中生都已经读过并喜欢这本书",
+        "制作时预定面向初中生这一类读者"
+      ],
+      "answerIndex": 2,
+      "explanation": "向け说明目标对象；实际读者可以更广，也不能从目标对象推出所有人的行为和评价。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "出版社は中学生向けに歴史の本を作りました。大人の読者からも感想が届いています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b017b",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017b",
+      "prompt": "这里向けの连接的是什么？",
+      "choices": [
+        "指南必须从北向南阅读的方向",
+        "指南已经被每个海外读者看完的结果",
+        "目标对象与为该对象准备的指南"
+      ],
+      "answerIndex": 2,
+      "explanation": "向けの修饰案内，说明版本面向；不能由制作安排推出实际阅读人数或页面方向。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "海外向けの案内には、国内版にはない地図と交通の説明を加えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b017c",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017c",
+      "prompt": "这能与初心者向け同时成立吗？",
+      "choices": [
+        "能，预定面向初学者不保证每个人都适应",
+        "不能，向け保证对象中的每个人都学得轻松",
+        "不能，向け只表示课程正在朝某方向移动"
+      ],
+      "answerIndex": 0,
+      "explanation": "制作目标不是对每位使用者的效果保证；后句明确保留个体差异。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "初心者向けの講座でも、私には説明が速すぎました。対象の表示と自分に合うかどうかは別でした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b017d",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017d",
+      "prompt": "节目面向儿童等于什么？",
+      "choices": [
+        "陪看的家长都违反了节目规定",
+        "节目中的人物一定全是儿童",
+        "儿童是节目预定的主要对象"
+      ],
+      "answerIndex": 2,
+      "explanation": "面向对象不等于禁止其他观看者，也不直接说明演员或角色构成。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "放送局は子供向けの番組を夕方に放送しています。家族で一緒に見る人もいます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b017e",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017e",
+      "prompt": "先确认什么才能选对时间？",
+      "choices": [
+        "哪类窗口一定对所有人收费更低",
+        "自己要使用哪一类对象的咨询窗口",
+        "建筑物哪面墙朝向企业总部"
+      ],
+      "answerIndex": 1,
+      "explanation": "向け区分服务类别，后句只明确受理时间不同；费用高低和建筑朝向未说明。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "企業向けの相談窓口と、個人向けの窓口は、受付の時間が違います。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b017f",
+      "targetID": "gn3b017",
+      "sentenceID": "sgn3b017f",
+      "prompt": "教師向けだ提供了哪项信息？",
+      "choices": [
+        "每位教师都已检验所有内容无误",
+        "学习者只要打开教材就会违法",
+        "编写时设想的使用者类别"
+      ],
+      "answerIndex": 2,
+      "explanation": "目标对象与审校证明、使用禁令不同；不能把教材标签扩大成文中没有的保证或规定。",
+      "hint": "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "新しい教材は教師向けだと書いてあります。学習者が使うときは、説明の目的を確認してください。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: muki-muke",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b017；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00055/ja/render.do：A 及先生へ，公共对象、使用目的、向き对照与私人行为限制；例句、中文及题目原创。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1277090，sense 31913：intended for／oriented towards／aimed at。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018a",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018a",
+      "prompt": "忘れがち报告了什么？",
+      "choices": [
+        "说话者希望故意忘记日期",
+        "在这种条件下容易反复出现的疏忽",
+        "说话者每次都必然忘记且无法避免"
+      ],
+      "answerIndex": 1,
+      "explanation": "がち表示容易出现的倾向；后句的应对也表明这不是愿望或不可改变的必然。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "急いで投稿すると、私は日付の確認を忘れがちです。送信前に読み返すようにしています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018b",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018b",
+      "prompt": "后回しにしがち与当次是否咨询是什么关系？",
+      "choices": [
+        "前者已经证明这次最终没有咨询",
+        "前者表示主动希望同事永远不说话",
+        "前者说明倾向，当次是否咨询还需看后文"
+      ],
+      "answerIndex": 2,
+      "explanation": "倾向句不单独确定每一回的结果；同事搭话也不等于文中已交代全部咨询过程。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "一人で仕事をしていると、困っていても相談を後回しにしがちです。同僚から声をかけてもらいました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018c",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018c",
+      "prompt": "昨天活动身体是否与前句矛盾？",
+      "choices": [
+        "矛盾，因为がち表示每次毫无例外",
+        "矛盾，因为がち只表示未来愿望",
+        "不矛盾，倾向允许有不同于通常的情况"
+      ],
+      "answerIndex": 2,
+      "explanation": "がち不等于全称断言；后句提供了具体的一回，不应抹去。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "天気が悪い週は運動を休みがちですが、昨日は家の中で少し体を動かしました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018d",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018d",
+      "prompt": "がち使什么成为提醒的理由？",
+      "choices": [
+        "作者已经删除了全部中间场景",
+        "做标记后一定能理解作品所有部分",
+        "知道结局时可能出现的阅读偏差"
+      ],
+      "answerIndex": 2,
+      "explanation": "前句提示常见倾向；后句只是应对行为，不保证绝不漏看，也不推断作者删改。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "結末を知っていると、途中の小さな変化を見落としがちです。今回は場面ごとに印をつけました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018e",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018e",
+      "prompt": "遅れがちになります表达哪一种变化？",
+      "choices": [
+        "主动决定把今早的回复延迟一整天",
+        "进入较容易延迟回复的状态",
+        "从今以后所有回复都绝不及时"
+      ],
+      "answerIndex": 1,
+      "explanation": "がちになる表示倾向的形成，不把它读成全称保证；今早的例外是已给出的事实。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "忙しい時期には返事が遅れがちになりますが、今朝の連絡にはすぐ答えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b018f",
+      "targetID": "gn3b018",
+      "sentenceID": "sgn3b018f",
+      "prompt": "作者在说明什么？",
+      "choices": [
+        "自己易出现的判断方式及准备采取的应对",
+        "作品中每个人物都只有同一种身份",
+        "核实立场之前已证明自己的判断全错"
+      ],
+      "answerIndex": 0,
+      "explanation": "判断しがち指出倾向，后句是决定采取的方法；不提供所有判断的正误结论。",
+      "hint": "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "登場人物が多いと、名前だけで関係を判断しがちです。語り手の立場も確かめることにしました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b018；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 A、先生へ；动词词干、易发生的非意图倾向及常见负面评价，不照搬教材例句。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 2016470，sense 113181；不借用胜利名词かち或俗语ガチ的义项。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019a",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019a",
+      "prompt": "曇りがち是否表示全天候毫无晴空？",
+      "choices": [
+        "是，后句只是说话者对明年的愿望",
+        "不是，后句明确出现了晴空",
+        "是，がち会排除任何例外"
+      ],
+      "answerIndex": 1,
+      "explanation": "曇りがち说明总体倾向，不抹去某时段的具体天气，也不等于降雨量记录。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "今週は曇りがちの天気でしたが、水曜日の午後は青空が見えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019b",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019b",
+      "prompt": "病気がちだった说明哪个时期？",
+      "choices": [
+        "未来所有家人的健康状况",
+        "转述中祖父小时候易生病的状态",
+        "祖父现在每一天都在住院"
+      ],
+      "answerIndex": 1,
+      "explanation": "过去的状态与现在的活动分开；病気がち没有给出病名，也不能扩大到他人或未来。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "祖父は子供のころ病気がちだったそうですが、今は毎朝公園を歩いています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019c",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019c",
+      "prompt": "留守がち能直接证明哪件事？",
+      "choices": [
+        "未来任何一天家里都绝不会有人",
+        "包裹已经成功送达本人手中",
+        "最近经常处于不在家的状态"
+      ],
+      "answerIndex": 2,
+      "explanation": "这里报告最近的状态倾向；预约是将来的安排，不把它当成已完成配送或永远无人。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "出張が続き、最近は留守がちです。荷物の配達は来週の午後に頼みました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019d",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019d",
+      "prompt": "遠慮がちに主要修饰什么？",
+      "choices": [
+        "聚会规定禁止任何人发言",
+        "选座位时显出的拘谨样子",
+        "她一生都没有任何自己的意见"
+      ],
+      "answerIndex": 1,
+      "explanation": "がちに修饰动作样态；当时拘谨与后来表达意见可以同时成立，不推出终身性格或禁令。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "初めての集まりで、彼女は遠慮がちに席を選びました。話が始まると、自分の意見も伝えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019e",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019e",
+      "prompt": "可以算出弟弟具体缺席了几天吗？",
+      "choices": [
+        "能，がちの后面的名词一定是数字",
+        "不能，状态描述和本句未给出完整天数",
+        "能，病気がち固定等于每月缺席十天"
+      ],
+      "answerIndex": 1,
+      "explanation": "固定状态搭配不是精确统计量；不能给がち虚构统一频率或用一段叙述补齐完整记录。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "病気がちの弟は、休んだ日の授業を録音で聞いていました。欠席の日数は書いてありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b019f",
+      "targetID": "gn3b019",
+      "sentenceID": "sgn3b019f",
+      "prompt": "拘谨与参加意愿怎样理解？",
+      "choices": [
+        "がちな只能说明两次参加之间的间隔",
+        "样态和内容分开，拘谨并不取消参加意愿",
+        "说得拘谨就证明他明确拒绝参加"
+      ],
+      "answerIndex": 1,
+      "explanation": "远慮がちな修饰说法；意愿由参加したい给出，不根据样态倒转明确内容。",
+      "hint": "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "遠慮がちな言い方でしたが、彼は自分も参加したいと伝えていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: gachi",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b019；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00068/ja/render.do：解释 B 及先生へ；名词状态倾向与固定搭配限制，原创情境区分状态、意愿、确切频率。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b017",
+      "title": "名词加向け：面向某类对象制作",
+      "subtitle": "辨认预定使用对象，保留与实际使用者的差别",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b017"
+      ],
+      "sentenceIDs": [
+        "sgn3b017a",
+        "sgn3b017b",
+        "sgn3b017c",
+        "sgn3b017d",
+        "sgn3b017e",
+        "sgn3b017f"
+      ],
+      "exerciseIDs": [
+        "egn3b017a",
+        "egn3b017b",
+        "egn3b017c",
+        "egn3b017d",
+        "egn3b017e",
+        "egn3b017f"
+      ],
+      "readingID": "rn3115",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "名词加向け说明出版物、节目、产品或公共服务等面向的对象、用途。向けの修饰名词，向けに修饰制作、说明等动作；不自动表示对象以外的人禁止使用，也不保证每位目标使用者都觉得适合。向き侧重适合性的评价。不要把向け任意套进只给某个亲友写信等私人行为，须看是否在说明面向一类对象的制作或服务。"
+      ]
+    },
+    {
+      "id": "lgn3b018",
+      "title": "动词加がち：容易反复出现的倾向",
+      "subtitle": "把容易发生与必然、单次发生、主动愿望分开",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b018"
+      ],
+      "sentenceIDs": [
+        "sgn3b018a",
+        "sgn3b018b",
+        "sgn3b018c",
+        "sgn3b018d",
+        "sgn3b018e",
+        "sgn3b018f"
+      ],
+      "exerciseIDs": [
+        "egn3b018a",
+        "egn3b018b",
+        "egn3b018c",
+        "egn3b018d",
+        "egn3b018e",
+        "egn3b018f"
+      ],
+      "readingID": "rn3116",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干加がち，表示往往会发生某动作或状态、容易不自觉地那样做，常带说话者认为不太理想的评价。它是倾向，不表示每次必定发生，也不单独确定某一次的结果；不能直接换成“想做”。与描述某一段状态稍有某种样子的気味、较突出性情的っぽい分别观察，不把时间长短当成绝对分界。"
+      ]
+    },
+    {
+      "id": "lgn3b019",
+      "title": "固定名词加がち：常呈某种状态",
+      "subtitle": "理解常见状态搭配，避免把所有名词机械加がち",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b019"
+      ],
+      "sentenceIDs": [
+        "sgn3b019a",
+        "sgn3b019b",
+        "sgn3b019c",
+        "sgn3b019d",
+        "sgn3b019e",
+        "sgn3b019f"
+      ],
+      "exerciseIDs": [
+        "egn3b019a",
+        "egn3b019b",
+        "egn3b019c",
+        "egn3b019d",
+        "egn3b019e",
+        "egn3b019f"
+      ],
+      "readingID": "rn3116",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "病気がち、留守がち、曇りがち、遠慮がち等是常见固定搭配，表示容易处于某状态、偏向该状态或呈现相近样子。修饰名词可见がちの或がちな，远慮等也可用がちに修饰动作；具体搭配要整体记忆，不可给任意名词自由加がち。它不提供精确频率、完整缺席记录或疾病诊断，需结合期间、程度和后文。"
+      ]
+    }
+  ]
+}

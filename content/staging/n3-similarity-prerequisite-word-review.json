@@ -1,0 +1,3193 @@
+{
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
+  "baselineVersion": "0.19.1",
+  "wordManuscript": "content/authoring/n3-similarity-prerequisite-words.tsv",
+  "manuscriptSHA256": "17d6dfb55daafdd2d8fc5da1bfa10c462af0b08a108347247894f271e48ad04d",
+  "roots": 65,
+  "contexts": 134,
+  "lessons": 8,
+  "acceptedAlternativeGroups": 5,
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "path": "build/sources/jamdict-cn/jamdict_cn_deduplicated.db",
+    "sha256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "license": "CC BY-SA 4.0",
+    "attribution": "JMdict / EDRDG. Metadata used only for lexical, spelling, reading and sense checks; no source examples or Chinese translations copied."
+  },
+  "communityReference": {
+    "commit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+    "note": "Community levels, not an official list. These are deliberately taught reading prerequisites; higher reference levels do not reduce the additional N2 quota.",
+    "counts": {
+      "N3": 6,
+      "N2": 14,
+      "N1": 10
+    },
+    "unlisted": 35
+  },
+  "semanticBoundaries": [
+    "解く trains solving questions/puzzles, not untying knots or cancelling contracts.",
+    "収納 trains storing physical items and storage space, not receipt of funds.",
+    "書庫 trains a physical book store-room, not a compressed computer archive.",
+    "栞／しおり links only the physical bookmark sense; booklet/guidebook and the unrelated haiku term are excluded.",
+    "はさみ trains scissors, not animal claws or a hole punch.",
+    "別人 uses べつじん; the dictionary marks べつにん as obsolete kana usage, so it is not accepted here.",
+    "危うい has ordinary adjective examples; the related adverb 危うく (entry1218370, senses24756/24757) is explained together with the separate near-miss grammar function, not counted as another root.",
+    "版 trains standalone edition はん. Source sense57401 explicitly says ban when a suffix and has noun-used-as-suffix POS. Only the bound 国内版 occurrence gn3b017a is marked as a suffix, not a lexical unknown; the conditional pronunciation is taught in the usage note. ばん is not an unrestricted reading answer for standalone 版."
+  ],
+  "annotationChanges": [
+    {
+      "context": "gn3b025a",
+      "surface": "しおり",
+      "itemID": "vn3m052",
+      "reason": "Same physical bookmark sense as new canonical 栞; text and reading preserved."
+    },
+    {
+      "context": "rn3119sc",
+      "surface": "しおり",
+      "itemID": "vn3m052",
+      "reason": "Same physical bookmark sense; narration, questions and answers preserved."
+    },
+    {
+      "context": "gn3b017a",
+      "surface": "版",
+      "reading": "ばん",
+      "classification": "bound noun suffix; source n-suf / ban when a suffix",
+      "reason": "Explicitly taught conditional reading; standalone reading stays はん. No blanket kana alias."
+    }
+  ],
+  "preservation": {
+    "baselineCommit": "e69d2be58049aa1a32687c0515b57ff4dd6ad707",
+    "annotatedFiles": [
+      "n3-completion-and-inception.tsv",
+      "n3-tendency-and-coverage.tsv",
+      "n3-similarity-story-readings.tsv"
+    ],
+    "textRubyTranslationsQuestionsIDsAnswersUnchanged": true
+  },
+  "entries": [
+    {
+      "itemID": "vn3m001",
+      "text": "新作",
+      "primaryReading": "しんさく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1361850,
+      "selectedSenses": [
+        {
+          "senseID": 42466,
+          "gloss": [
+            "new work",
+            "new production"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "新作"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しんさく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "新作、新作品；新近创作或制作的作品",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m001a",
+        "svn3m001b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m002",
+      "text": "年代",
+      "primaryReading": "ねんだい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1468950,
+      "selectedSenses": [
+        {
+          "senseID": 55835,
+          "gloss": [
+            "age",
+            "era",
+            "period",
+            "date"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "年代"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ねんだい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "年代、时代；所处或形成于某一时期",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m002a",
+        "svn3m002b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m003",
+      "text": "持ち物",
+      "primaryReading": "もちもの",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1605240,
+      "selectedSenses": [
+        {
+          "senseID": 73188,
+          "gloss": [
+            "one's property",
+            "personal effects",
+            "one's belongings"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "持ち物",
+        "持物",
+        "持ちもの"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もちもの",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "随身物品、个人物品；某人拥有或携带的东西",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m003a",
+        "svn3m003b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m004",
+      "text": "見出し",
+      "primaryReading": "みだし",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1259710,
+      "selectedSenses": [
+        {
+          "senseID": 29816,
+          "gloss": [
+            "heading",
+            "headline",
+            "title",
+            "caption"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "見出し"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みだし",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "标题、栏目标题；概括引出一段内容的题目",
+      "usageNote": "本组是文章、栏目等的标题义；词典词头、索引等用法不能只凭本组掌握推定。",
+      "exampleSentenceIDs": [
+        "svn3m004a",
+        "svn3m004b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m005",
+      "text": "形式",
+      "primaryReading": "けいしき",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1250310,
+      "selectedSenses": [
+        {
+          "senseID": 28637,
+          "gloss": [
+            "format",
+            "mode",
+            "appearance",
+            "form (something takes)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "形式"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "けいしき",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "呈现形式、格式；内容所采用的组织或表现方式",
+      "usageNote": "这里学习内容的呈现形式，不把格式本身等同内容正确，也不混入数学表达式等其他专门义。",
+      "exampleSentenceIDs": [
+        "svn3m005a",
+        "svn3m005b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m006",
+      "text": "分かれる",
+      "primaryReading": "わかれる",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1606600,
+      "selectedSenses": [
+        {
+          "senseID": 73390,
+          "gloss": [
+            "to separate",
+            "to split",
+            "to divide"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "分かれる",
+        "分れる"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "わかれる",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "分成不同部分或组别；意见分歧、各不相同",
+      "usageNote": "本组训练组别、意见等分开的义项；不要与表示离别、分手的別れる直接等同。",
+      "exampleSentenceIDs": [
+        "svn3m006a",
+        "svn3m006b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m007",
+      "text": "幻想",
+      "primaryReading": "げんそう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1262950,
+      "selectedSenses": [
+        {
+          "senseID": 30214,
+          "gloss": [
+            "fantasy",
+            "illusion",
+            "vision",
+            "dream"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "幻想"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "げんそう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "幻想、想象中的景象；并非眼前现实的意象",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m007a",
+        "svn3m007b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m008",
+      "text": "人通り",
+      "primaryReading": "ひとどおり",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1368820,
+      "selectedSenses": [
+        {
+          "senseID": 43268,
+          "gloss": [
+            "pedestrian traffic"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "人通り"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ひとどおり",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "行人往来、人流；某处步行经过的人流状况",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m008a",
+        "svn3m008b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m009",
+      "text": "構造",
+      "primaryReading": "こうぞう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1279790,
+      "selectedSenses": [
+        {
+          "senseID": 32241,
+          "gloss": [
+            "structure",
+            "construction",
+            "makeup",
+            "framework",
+            "organization",
+            "pattern"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "構造"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうぞう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "结构、构造；各部分的组合与组织方式",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m009a",
+        "svn3m009b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m010",
+      "text": "公共",
+      "primaryReading": "こうきょう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1273510,
+      "selectedSenses": [
+        {
+          "senseID": 31500,
+          "gloss": [
+            "public (facilities, service, etc.)",
+            "communal"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "公共"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうきょう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "公共、共用；供社会公众共同使用或涉及公众的",
+      "usageNote": "公共可修饰场所、设施和服务；不单凭这个词推定所有权属于政府、所有时段开放或一律免费。",
+      "exampleSentenceIDs": [
+        "svn3m010a",
+        "svn3m010b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m011",
+      "text": "視覚",
+      "primaryReading": "しかく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1312010,
+      "selectedSenses": [
+        {
+          "senseID": 36184,
+          "gloss": [
+            "sense of sight",
+            "vision"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "視覚"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しかく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "视觉；通过眼睛感知形状、颜色等的感觉",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m011a",
+        "svn3m011b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m012",
+      "text": "再現",
+      "primaryReading": "さいげん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1292640,
+      "selectedSenses": [
+        {
+          "senseID": 33799,
+          "gloss": [
+            "reproduction",
+            "reenactment",
+            "recreation"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "再現"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "さいげん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "再现、重现；把已有或想象的情景重新表现出来",
+      "usageNote": "本组是重现、复现情景的义项。表现方法与实际效果需分开，不能因使用再現就认定每项细节均已核实相同。",
+      "exampleSentenceIDs": [
+        "svn3m012a",
+        "svn3m012b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m013",
+      "text": "身近",
+      "primaryReading": "みぢか",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1365650,
+      "selectedSenses": [
+        {
+          "senseID": 42913,
+          "gloss": [
+            "near oneself",
+            "close to one",
+            "familiar"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "身近"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みぢか",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "身边的、近旁的；与自己接近或熟悉的",
+      "usageNote": "假名为みぢか，保留ぢ；本组涉及身边、熟悉、关系近的含义，不把它当作长度短的短い。",
+      "exampleSentenceIDs": [
+        "svn3m013a",
+        "svn3m013b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m014",
+      "text": "現地",
+      "primaryReading": "げんち",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1263860,
+      "selectedSenses": [
+        {
+          "senseID": 30315,
+          "gloss": [
+            "actual place",
+            "local",
+            "on-site"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "現地"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "げんち",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "当地、现场；事件或活动实际发生的地点",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m014a",
+        "svn3m014b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m015",
+      "text": "響く",
+      "primaryReading": "ひびく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1238610,
+      "selectedSenses": [
+        {
+          "senseID": 27182,
+          "gloss": [
+            "to resound",
+            "to be heard far away"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        },
+        {
+          "senseID": 27183,
+          "gloss": [
+            "to reverberate",
+            "to shake",
+            "to vibrate"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "響く"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ひびく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "响起、回响；声音传响、形成回声",
+      "usageNote": "本组是可听见的声音传响。心に響く等产生感触，以及影响事态结果的比喻用法不由本组自动推定。",
+      "exampleSentenceIDs": [
+        "svn3m015a",
+        "svn3m015b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m016",
+      "text": "別人",
+      "primaryReading": "べつじん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1583920,
+      "selectedSenses": [
+        {
+          "senseID": 70017,
+          "gloss": [
+            "different person",
+            "another person",
+            "someone else",
+            "changed man"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "別人"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "べつじん",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "べつにん",
+          "info": [
+            "out-dated or obsolete kana usage"
+          ],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "另一个人、不同的人；也可形容像变了个人",
+      "usageNote": "默认读べつじん；词典将べつにん标为旧假名用法，本组不把该旧读加入当前读音答案。別人のようだ可描写印象变化，不直接证明身份真的更换。",
+      "exampleSentenceIDs": [
+        "svn3m016a",
+        "svn3m016b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m017",
+      "text": "場",
+      "primaryReading": "ば",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1355790,
+      "selectedSenses": [
+        {
+          "senseID": 41664,
+          "gloss": [
+            "occasion",
+            "situation"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "場"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ば",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "场合；进行某种活动、交流或表达的场合",
+      "usageNote": "本组聚焦场合，不据此认定已掌握股票交易时段、戏剧分场、物理学的场等专门用法。",
+      "exampleSentenceIDs": [
+        "svn3m017a",
+        "svn3m017b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "currentPrimaryEntryID": 1355790,
+      "currentPrimarySenseOrdinals": [
+        3
+      ]
+    },
+    {
+      "itemID": "vn3m018",
+      "text": "落ち込む",
+      "primaryReading": "おちこむ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1548570,
+      "selectedSenses": [
+        {
+          "senseID": 65551,
+          "gloss": [
+            "to feel down",
+            "to feel sad",
+            "to be depressed",
+            "to be in low spirits"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "落ち込む",
+        "落込む",
+        "落ちこむ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おちこむ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "情绪低落、沮丧；因失落等心情消沉",
+      "usageNote": "这里学习人的心情低落，不直接借用为营业、景气低迷或掉入坑中的义项。",
+      "exampleSentenceIDs": [
+        "svn3m018a",
+        "svn3m018b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m019",
+      "text": "解く",
+      "primaryReading": "とく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1198890,
+      "selectedSenses": [
+        {
+          "senseID": 22290,
+          "gloss": [
+            "to solve",
+            "to work out",
+            "to answer"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "解く"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "とく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "解答、解开；找出问题、谜题等的答案",
+      "usageNote": "本组为解答义，读とく；解开绳结、解除禁止或消除误会等其他用法须按具体义项学习。",
+      "exampleSentenceIDs": [
+        "svn3m019a",
+        "svn3m019b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m020",
+      "text": "書店",
+      "primaryReading": "しょてん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1344120,
+      "selectedSenses": [
+        {
+          "senseID": 40156,
+          "gloss": [
+            "bookshop",
+            "bookstore"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "書店"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょてん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "书店；销售书籍的店铺",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m020a",
+        "svn3m020b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m021",
+      "text": "半年",
+      "primaryReading": "はんとし",
+      "acceptedAlternativeReadings": [
+        "はんねん"
+      ],
+      "entryID": 1583190,
+      "selectedSenses": [
+        {
+          "senseID": 69913,
+          "gloss": [
+            "half a year",
+            "six months"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "半年"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "はんとし",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "はんねん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "半年；六个月的时间",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m021a",
+        "svn3m021b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m022",
+      "text": "初日",
+      "primaryReading": "しょにち",
+      "acceptedAlternativeReadings": [
+        "しょじつ"
+      ],
+      "entryID": 1342980,
+      "selectedSenses": [
+        {
+          "senseID": 39999,
+          "gloss": [
+            "first day",
+            "opening day"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "初日"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょにち",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "しょじつ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "第一天、首日；活动或工作等开始的那一天",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m022a",
+        "svn3m022b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m023",
+      "text": "活躍",
+      "primaryReading": "かつやく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1208450,
+      "selectedSenses": [
+        {
+          "senseID": 23554,
+          "gloss": [
+            "activity (esp. energetic)",
+            "great efforts",
+            "conspicuous service"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "senseID": 23555,
+          "gloss": [
+            "to flourish",
+            "to participate actively",
+            "to play an active role"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "活躍"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かつやく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "活跃、发挥作用；积极参与并有所表现",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m023a",
+        "svn3m023b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m024",
+      "text": "初級",
+      "primaryReading": "しょきゅう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1342710,
+      "selectedSenses": [
+        {
+          "senseID": 39968,
+          "gloss": [
+            "elementary level",
+            "beginner level"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "初級"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょきゅう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "初级；学习或课程中的基础入门阶段",
+      "usageNote": "初級说等级或阶段，初心者说刚入门的人；不能把完成一份初级材料理解为已掌握所有基础。",
+      "exampleSentenceIDs": [
+        "svn3m024a",
+        "svn3m024b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m025",
+      "text": "学習者",
+      "primaryReading": "がくしゅうしゃ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1206830,
+      "selectedSenses": [
+        {
+          "senseID": 23292,
+          "gloss": [
+            "learner",
+            "student",
+            "scholar"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "学習者"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "がくしゅうしゃ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "学习者；正在学习某种知识或技能的人",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m025a",
+        "svn3m025b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m026",
+      "text": "収納",
+      "primaryReading": "しゅうのう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1330830,
+      "selectedSenses": [
+        {
+          "senseID": 38521,
+          "gloss": [
+            "storage",
+            "putting or stowing away"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "収納"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しゅうのう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "收纳、存放；将物品放好及其存放空间",
+      "usageNote": "本组是物品收纳、存放空间的义项；收缴款项、征收等用法不与之共用词义掌握。",
+      "exampleSentenceIDs": [
+        "svn3m026a",
+        "svn3m026b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m027",
+      "text": "方向",
+      "primaryReading": "ほうこう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1516990,
+      "selectedSenses": [
+        {
+          "senseID": 61729,
+          "gloss": [
+            "direction",
+            "orientation",
+            "bearing",
+            "way"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "方向"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ほうこう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "方向、朝向；某物所在或前进所朝的一边",
+      "usageNote": "这里训练空间方向。计划、政策的发展方向等抽象用法另看语境，不把方向等同目的地或距离。",
+      "exampleSentenceIDs": [
+        "svn3m027a",
+        "svn3m027b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "currentPrimaryEntryID": 1516990,
+      "currentPrimarySenseOrdinals": [
+        1
+      ]
+    },
+    {
+      "itemID": "vn3m028",
+      "text": "出版社",
+      "primaryReading": "しゅっぱんしゃ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1594870,
+      "selectedSenses": [
+        {
+          "senseID": 71617,
+          "gloss": [
+            "publisher",
+            "publishing house",
+            "publishing company"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "出版社",
+        "出版者"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しゅっぱんしゃ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "出版社、出版公司；负责出版作品的机构",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m028a",
+        "svn3m028b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m029",
+      "text": "中学生",
+      "primaryReading": "ちゅうがくせい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1423660,
+      "selectedSenses": [
+        {
+          "senseID": 50198,
+          "gloss": [
+            "junior high school student",
+            "middle school pupil"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "中学生"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ちゅうがくせい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "初中生；在中学阶段就读的学生",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m029a",
+        "svn3m029b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m030",
+      "text": "国内",
+      "primaryReading": "こくない",
+      "acceptedAlternativeReadings": [
+        "こくだい"
+      ],
+      "entryID": 1286930,
+      "selectedSenses": [
+        {
+          "senseID": 33083,
+          "gloss": [
+            "internal",
+            "domestic"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "国内"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こくない",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "こくだい",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "くぬち",
+          "info": [
+            "out-dated or obsolete kana usage"
+          ],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "国内、境内；所说国家范围之内",
+      "usageNote": "默认示范こくない；こくだい作为词典同义别读接受，旧读くぬち不在本组。国内的国家范围由上下文确定，并非在所有叙述中都固定指日本。",
+      "exampleSentenceIDs": [
+        "svn3m030a",
+        "svn3m030b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m031",
+      "text": "初心者",
+      "primaryReading": "しょしんしゃ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1342860,
+      "selectedSenses": [
+        {
+          "senseID": 39985,
+          "gloss": [
+            "beginner"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "初心者"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょしんしゃ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "初学者、新手；刚开始学习或从事某事的人",
+      "usageNote": "初心者说人，初級说阶段；新手不等于任何事都做不到，也不能只凭这个词推定具体年龄。",
+      "exampleSentenceIDs": [
+        "svn3m031a",
+        "svn3m031b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m032",
+      "text": "講座",
+      "primaryReading": "こうざ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1282270,
+      "selectedSenses": [
+        {
+          "senseID": 32539,
+          "gloss": [
+            "course (e.g. of lectures)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "講座"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうざ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "讲座、课程；围绕某个主题安排的教学或讲授课程",
+      "usageNote": "本组训练课程、讲授的义项，不与大学教研单位等专门用法混作已学。",
+      "exampleSentenceIDs": [
+        "svn3m032a",
+        "svn3m032b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m033",
+      "text": "放送局",
+      "primaryReading": "ほうそうきょく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1516760,
+      "selectedSenses": [
+        {
+          "senseID": 61688,
+          "gloss": [
+            "broadcasting station",
+            "broadcaster"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "放送局"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ほうそうきょく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "广播电台、电视台；制作或播送节目的机构",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m033a",
+        "svn3m033b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m034",
+      "text": "教材",
+      "primaryReading": "きょうざい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1237110,
+      "selectedSenses": [
+        {
+          "senseID": 27000,
+          "gloss": [
+            "teaching materials"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "教材"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "きょうざい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "教材、教学材料；为学习或教学准备的资料",
+      "usageNote": "教材不限于一本教科书，也可包括图片、录音等用于教学的材料；有音频不等于每一处发音均已核对。",
+      "exampleSentenceIDs": [
+        "svn3m034a",
+        "svn3m034b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m035",
+      "text": "投稿",
+      "primaryReading": "とうこう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1447180,
+      "selectedSenses": [
+        {
+          "senseID": 53165,
+          "gloss": [
+            "contribution (to a newspaper, magazine, etc.)",
+            "submission",
+            "post (on a blog, social media, etc.)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "投稿"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "とうこう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "投稿、发帖；向刊物或网络等提交文章、内容",
+      "usageNote": "本组包含向刊物提交内容、在网络发布内容的用法；投稿不保证获采用，提交、收件与正式刊登需分别判断。",
+      "exampleSentenceIDs": [
+        "svn3m035a",
+        "svn3m035b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m036",
+      "text": "後回し",
+      "primaryReading": "あとまわし",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1269500,
+      "selectedSenses": [
+        {
+          "senseID": 31007,
+          "gloss": [
+            "putting off",
+            "postponing"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "後回し"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あとまわし",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "推后、延后处理；把某事留到后面再做",
+      "usageNote": "常见搭配为後回しにする。推后不等于永久取消，实际何时完成仍须结合后文。",
+      "exampleSentenceIDs": [
+        "svn3m036a",
+        "svn3m036b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m037",
+      "text": "青空",
+      "primaryReading": "あおぞら",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1381470,
+      "selectedSenses": [
+        {
+          "senseID": 44860,
+          "gloss": [
+            "blue sky"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "青空"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あおぞら",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "蓝天、晴空；呈蓝色的天空",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m037a",
+        "svn3m037b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m038",
+      "text": "日数",
+      "primaryReading": "にっすう",
+      "acceptedAlternativeReadings": [
+        "ひかず"
+      ],
+      "entryID": 1582700,
+      "selectedSenses": [
+        {
+          "senseID": 69847,
+          "gloss": [
+            "a number of days"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "日数"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "にっすう",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ひかず",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "天数、日数；所花费或涉及的天的数量",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m038a",
+        "svn3m038b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m039",
+      "text": "入力",
+      "primaryReading": "にゅうりょく",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1466850,
+      "selectedSenses": [
+        {
+          "senseID": 55569,
+          "gloss": [
+            "input",
+            "(data) entry"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "入力"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "にゅうりょく",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "输入、录入；把数据或文字送入设备、系统",
+      "usageNote": "输入不是保存、发送或内容正确的保证；完成了哪一步需按具体动词判断。",
+      "exampleSentenceIDs": [
+        "svn3m039a",
+        "svn3m039b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m040",
+      "text": "書庫",
+      "primaryReading": "しょこ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1344020,
+      "selectedSenses": [
+        {
+          "senseID": 40143,
+          "gloss": [
+            "library",
+            "book storage",
+            "stack room"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "書庫"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょこ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "书库；集中存放书籍、资料的房间或空间",
+      "usageNote": "本组是实体书库，不把电子文件中的压缩归档等其他义项当作已掌握。",
+      "exampleSentenceIDs": [
+        "svn3m040a",
+        "svn3m040b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m041",
+      "text": "案内図",
+      "primaryReading": "あんないず",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1757350,
+      "selectedSenses": [
+        {
+          "senseID": 89016,
+          "gloss": [
+            "guide map"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "案内図"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あんないず",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "导览图、示意地图；标示位置或路线以供指引的图",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m041a",
+        "svn3m041b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m042",
+      "text": "手書き",
+      "primaryReading": "てがき",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1327830,
+      "selectedSenses": [
+        {
+          "senseID": 38132,
+          "gloss": [
+            "handwriting"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "senseID": 38133,
+          "gloss": [
+            "handwritten",
+            "hand-painted",
+            "hand-drawn"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "手書き",
+        "手描き",
+        "手書",
+        "手描"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "てがき",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "手写、手绘；用手写画而非印刷等方式制作",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m042a",
+        "svn3m042b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m043",
+      "text": "専門",
+      "primaryReading": "せんもん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1389880,
+      "selectedSenses": [
+        {
+          "senseID": 45964,
+          "gloss": [
+            "speciality",
+            "specialty",
+            "subject of study",
+            "expert",
+            "area of expertise"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "専門",
+        "專門"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "せんもん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "专长、专门领域；专门学习或从事的领域",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m043a",
+        "svn3m043b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m044",
+      "text": "用語",
+      "primaryReading": "ようご",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1546270,
+      "selectedSenses": [
+        {
+          "senseID": 65262,
+          "gloss": [
+            "term",
+            "terminology"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "用語"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ようご",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "术语、用语；某个领域或话题中使用的词语",
+      "usageNote": "本组聚焦术语、领域用词；特定说法、措辞选择等其他角度须结合上下文。",
+      "exampleSentenceIDs": [
+        "svn3m044a",
+        "svn3m044b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m045",
+      "text": "回答",
+      "primaryReading": "かいとう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1199680,
+      "selectedSenses": [
+        {
+          "senseID": 22409,
+          "gloss": [
+            "reply",
+            "answer"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "回答"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かいとう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "回答、答复；针对问题、询问等作出的回应",
+      "usageNote": "回答不自动表示内容正确，也不同于已经汇总出的全部结果。与解答等同音词按字形及语境区别。",
+      "exampleSentenceIDs": [
+        "svn3m045a",
+        "svn3m045b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m046",
+      "text": "山道",
+      "primaryReading": "やまみち",
+      "acceptedAlternativeReadings": [
+        "さんどう",
+        "せんどう"
+      ],
+      "entryID": 1303090,
+      "selectedSenses": [
+        {
+          "senseID": 35059,
+          "gloss": [
+            "mountain road",
+            "mountain trail"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "山道"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "やまみち",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "さんどう",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "せんどう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "山路、山间道路；山中的道路或步道",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m046a",
+        "svn3m046b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m047",
+      "text": "汚れ",
+      "primaryReading": "よごれ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1612200,
+      "selectedSenses": [
+        {
+          "senseID": 74103,
+          "gloss": [
+            "dirt",
+            "filth",
+            "stain",
+            "blot",
+            "spot"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "汚れ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "よごれ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "污渍、脏污；附着在物体表面的脏东西或痕迹",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m047a",
+        "svn3m047b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m048",
+      "text": "ペンキ",
+      "primaryReading": "ぺんき",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1121390,
+      "selectedSenses": [
+        {
+          "senseID": 13325,
+          "gloss": [
+            "paint"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [],
+      "sourceReadings": [
+        {
+          "reading": "ペンキ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "油漆、涂料；涂在门墙等表面的材料",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m048a",
+        "svn3m048b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m049",
+      "text": "持ち帰る",
+      "primaryReading": "もちかえる",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1658430,
+      "selectedSenses": [
+        {
+          "senseID": 78989,
+          "gloss": [
+            "to bring back",
+            "to carry home",
+            "to take out (e.g. food)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "持ち帰る",
+        "持帰る"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もちかえる",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "带回、带回家；也可指把食物外带",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m049a",
+        "svn3m049b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m050",
+      "text": "予備",
+      "primaryReading": "よび",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1543320,
+      "selectedSenses": [
+        {
+          "senseID": 64919,
+          "gloss": [
+            "reserve",
+            "spare"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "予備",
+        "預備"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "よび",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "备用、预备份；为需要时另外保留的东西",
+      "usageNote": "本组是备用份、备用物的义项；预备课程、预先准备等其他用法另看搭配。",
+      "exampleSentenceIDs": [
+        "svn3m050a",
+        "svn3m050b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m051",
+      "text": "完走",
+      "primaryReading": "かんそう",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1211540,
+      "selectedSenses": [
+        {
+          "senseID": 23922,
+          "gloss": [
+            "finishing (a race)",
+            "running the whole distance",
+            "reaching the goal",
+            "staying the course"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "完走"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かんそう",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "跑完全程、完赛；完成指定的赛程",
+      "usageNote": "完走报告完成所说赛程，不保证夺冠、最快速度，也不单凭这个词断定过程中完全没有停留。",
+      "exampleSentenceIDs": [
+        "svn3m051a",
+        "svn3m051b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m052",
+      "text": "栞",
+      "primaryReading": "しおり",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1568040,
+      "selectedSenses": [
+        {
+          "senseID": 67907,
+          "gloss": [
+            "bookmark"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "栞",
+        "枝折り",
+        "枝折"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しおり",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "书签；夹在书页间以标记阅读位置的物品",
+      "usageNote": "栞也常写作しおり；本组只练实体书签。旅行、活动小册子的しおり，以及俳句术语しおり不由本组自动掌握。",
+      "exampleSentenceIDs": [
+        "svn3m052a",
+        "svn3m052b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m053",
+      "text": "模型",
+      "primaryReading": "もけい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1533650,
+      "selectedSenses": [
+        {
+          "senseID": 63764,
+          "gloss": [
+            "model",
+            "dummy",
+            "maquette"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "模型"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もけい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "模型；按物体的形状或构造制作的代表物",
+      "usageNote": "模型与实际对象区分，不能仅凭模型存在就推定实际工程已完成或所有功能都相同。",
+      "exampleSentenceIDs": [
+        "svn3m053a",
+        "svn3m053b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m054",
+      "text": "耳を傾ける",
+      "primaryReading": "みみをかたむける",
+      "acceptedAlternativeReadings": [],
+      "entryID": 2069560,
+      "selectedSenses": [
+        {
+          "senseID": 118719,
+          "gloss": [
+            "to lend an ear",
+            "to hearken",
+            "to give an ear to",
+            "to listen carefully"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "expressions (phrases, clauses, etc.)",
+            "Ichidan verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "耳を傾ける",
+        "耳をかたむける"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みみをかたむける",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "倾听、认真听取；把注意力放在对方的话上",
+      "usageNote": "按整体语块学习，不能只把耳与傾ける分别认识就推定理解了认真倾听的含义；倾听也不等于最后一定赞同。",
+      "exampleSentenceIDs": [
+        "svn3m054a",
+        "svn3m054b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m055",
+      "text": "口に出す",
+      "primaryReading": "くちにだす",
+      "acceptedAlternativeReadings": [],
+      "entryID": 2128560,
+      "selectedSenses": [
+        {
+          "senseID": 124826,
+          "gloss": [
+            "to express (orally)",
+            "to put into words",
+            "to say out loud"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "expressions (phrases, clauses, etc.)",
+            "Godan verb with 'su' ending"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "口に出す"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "くちにだす",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "说出口、口头表达；把心里的话实际说出来",
+      "usageNote": "本组是实际口头表达；口に出しかける等形式是在整个语块后接续动作阶段，不能误读成把物品从嘴里取出。",
+      "exampleSentenceIDs": [
+        "svn3m055a",
+        "svn3m055b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m056",
+      "text": "はさみ",
+      "primaryReading": "はさみ",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1573820,
+      "selectedSenses": [
+        {
+          "senseID": 68567,
+          "gloss": [
+            "scissors",
+            "shears",
+            "clippers"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "鋏",
+        "剪刀"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "はさみ",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ハサミ",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N3"
+      ],
+      "authoredMeaning": "剪刀；用来剪纸、布等的工具",
+      "usageNote": "本组只练剪切工具。ハサミ是片假名表记，不另建一张读音卡；钳螯和打孔器等其他义项不一并接受为本组词义。",
+      "exampleSentenceIDs": [
+        "svn3m056a",
+        "svn3m056b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m057",
+      "text": "案内人",
+      "primaryReading": "あんないにん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 2105800,
+      "selectedSenses": [
+        {
+          "senseID": 122474,
+          "gloss": [
+            "guide (on a tour, etc.)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "案内人"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あんないにん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "导游、向导；带路或介绍所访地点的人",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m057a",
+        "svn3m057b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m058",
+      "text": "辛抱強い",
+      "primaryReading": "しんぼうづよい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1633500,
+      "selectedSenses": [
+        {
+          "senseID": 76346,
+          "gloss": [
+            "patient",
+            "persevering"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "辛抱強い"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しんぼうづよい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "有耐心的、能坚持的；能耐心等待或持续应对",
+      "usageNote": "注意假名しんぼうづよい中的づ；耐心描写不保证最后结果一定成功，也不等同于物品结实耐用。",
+      "exampleSentenceIDs": [
+        "svn3m058a",
+        "svn3m058b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m059",
+      "text": "印刷機",
+      "primaryReading": "いんさつき",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1168200,
+      "selectedSenses": [
+        {
+          "senseID": 18616,
+          "gloss": [
+            "printing press"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "印刷機"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "いんさつき",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "印刷机；把文字、图像印到纸张等上面的机器",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m059a",
+        "svn3m059b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m060",
+      "text": "開館",
+      "primaryReading": "かいかん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1202580,
+      "selectedSenses": [
+        {
+          "senseID": 22771,
+          "gloss": [
+            "opening (for that day's business; of a library, museum, cinema, etc.)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "開館"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かいかん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "开馆、开始开放；图书馆、博物馆等开始当日对外开放",
+      "usageNote": "本组训练每天开始开放；新场馆首次落成开放是相关但另有时间范围的用法，不能混作今天已经开门。",
+      "exampleSentenceIDs": [
+        "svn3m060a",
+        "svn3m060b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m061",
+      "text": "危うい",
+      "primaryReading": "あやうい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1218360,
+      "selectedSenses": [
+        {
+          "senseID": 24754,
+          "gloss": [
+            "dangerous",
+            "in danger",
+            "facing imminent danger"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [
+            "usu. as 危ういところ"
+          ],
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ]
+        },
+        {
+          "senseID": 24755,
+          "gloss": [
+            "precarious (situation)",
+            "perilous (state, balance, etc.)",
+            "in doubt",
+            "in jeopardy",
+            "uncertain",
+            "insecure",
+            "concerning",
+            "worrying"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "危うい"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あやうい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N2"
+      ],
+      "authoredMeaning": "危险、不稳妥；处于可能出现不良结果的状态",
+      "usageNote": "形容词可描述危险、不稳定。危うく～するところだった表示险些发生，由本章对应句型另练；危うくなった则是变得不稳，不能把所有く形都读成同一个险情已经实现。",
+      "exampleSentenceIDs": [
+        "svn3m061a",
+        "svn3m061b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m062",
+      "text": "置き忘れる",
+      "primaryReading": "おきわすれる",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1849920,
+      "selectedSenses": [
+        {
+          "senseID": 98447,
+          "gloss": [
+            "to leave behind",
+            "to misplace",
+            "to forget"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "置き忘れる",
+        "置忘れる"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おきわすれる",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "遗忘在某处；把物品放下后忘记带走",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m062a",
+        "svn3m062b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m063",
+      "text": "店内",
+      "primaryReading": "てんない",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1440780,
+      "selectedSenses": [
+        {
+          "senseID": 52368,
+          "gloss": [
+            "store interior",
+            "inside of a shop"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "店内"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "てんない",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [],
+      "authoredMeaning": "店内；店铺内部的空间",
+      "usageNote": null,
+      "exampleSentenceIDs": [
+        "svn3m063a",
+        "svn3m063b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m064",
+      "text": "記載",
+      "primaryReading": "きさい",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1223230,
+      "selectedSenses": [
+        {
+          "senseID": 25351,
+          "gloss": [
+            "mention (in a document)",
+            "record",
+            "entry",
+            "statement",
+            "listing"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "記載"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "きさい",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "记载、填写、列明；把信息写在文件、记录等中",
+      "usageNote": "記載说明记录了什么，不单独保证内容全部真实、最新或已核对。",
+      "exampleSentenceIDs": [
+        "svn3m064a",
+        "svn3m064b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m065",
+      "text": "版",
+      "primaryReading": "はん",
+      "acceptedAlternativeReadings": [],
+      "entryID": 1481480,
+      "selectedSenses": [
+        {
+          "senseID": 57401,
+          "gloss": [
+            "edition",
+            "version",
+            "printing",
+            "impression",
+            "implementation (e.g. software)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "sourceNotes": [
+            "ばん when a suffix"
+          ],
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "版"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "はん",
+          "info": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ばん",
+          "info": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "referenceLevels": [
+        "N1"
+      ],
+      "authoredMeaning": "版、版本；出版物等的一种版本或印次",
+      "usageNote": "独立使用时本组读はん。接在其他词后表示某种版本时，后缀版读ばん，如国内版（こくないばん）。这是有条件的后缀读音，不把ばん加入独立词的通用别读答案；印刷版块、模具等其他义项另辨。",
+      "exampleSentenceIDs": [
+        "svn3m065a",
+        "svn3m065b"
+      ],
+      "status": "authored, dictionary facts checked, registered source, not independently language reviewed",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3m066",
+      "text": "方向",
+      "primaryReading": "ほうこう",
+      "authoredMeaning": "发展方向、方针；事情、行动或思考将朝哪种方式发展",
+      "entryID": 1516990,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "sourceType": "listed",
+          "acceptedReading": "ほうこう",
+          "entryID": 1516990,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "方向"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ほうこう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3m066a",
+        "svn3m066b"
+      ],
+      "reviewedScope": "Independently authored contexts for this selected meaning; no sharing of meaning mastery with other senses.",
+      "lexemeID": "vn3m027",
+      "readingOwnerID": "vn3m027"
+    },
+    {
+      "itemID": "vn3m067",
+      "text": "場",
+      "primaryReading": "ば",
+      "authoredMeaning": "地点、现场；人或物实际所在的地方",
+      "entryID": 1355790,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "sourceType": "listed",
+          "acceptedReading": "ば",
+          "entryID": 1355790,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "場"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ば",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3m067a",
+        "svn3m067b"
+      ],
+      "reviewedScope": "Independently authored contexts for this selected meaning; no sharing of meaning mastery with other senses.",
+      "lexemeID": "vn3m017",
+      "readingOwnerID": "vn3m017"
+    }
+  ],
+  "gapsAfterOriginal65WordReview": {
+    "grammar": 0,
+    "reading": 96,
+    "combined": 96
+  },
+  "currentStructureReport": "content/staging/n3-similarity-reading-review.json",
+  "targets": 67,
+  "additionalSenses": 2,
+  "checkedDate": "2026-11-17",
+  "registeredVersion": "0.20.0",
+  "subsequentAssociationAudit": "content/source-checks/n2-context-chapter.json"
+}

@@ -1,0 +1,673 @@
+{
+  "status": "Source-checked original trial; independent Japanese review pending",
+  "checkedDate": "2026-11-22",
+  "manuscript": "content/authoring/n3-social-foundation-words.tsv",
+  "manuscriptSHA256": "c81d6866dc8675a83d4a17f91a7795cb375905c863fbab3ba5dfbe88ec4e582f",
+  "roots": 12,
+  "targets": 12,
+  "contexts": 24,
+  "lessons": 2,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions. Chinese definitions, usage notes, distractors and Japanese/Chinese contexts authored here; no upstream examples or complete definitions bundled."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list. Community N1–N5 labels retained; earlier foundations and additional senses never offset N2 root quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn3r001",
+      "text": "商業",
+      "primaryReading": "しょうぎょう",
+      "authoredMeaning": "商业；围绕商品买卖等进行的经营活动",
+      "entryID": 1346740,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しょうぎょう",
+          "entryID": 1346740,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しょうぎょう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "商業"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r001a",
+        "svn3r001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r002",
+      "text": "後輩",
+      "primaryReading": "こうはい",
+      "authoredMeaning": "后辈；在同一学校或工作单位等较晚进入的人",
+      "entryID": 1270010,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうはい",
+          "entryID": 1270010,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうはい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "後輩"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r002a",
+        "svn3r002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r003",
+      "text": "支援",
+      "primaryReading": "しえん",
+      "authoredMeaning": "支援、支持；为某人或某项活动提供帮助",
+      "entryID": 1310100,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しえん",
+          "entryID": 1310100,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しえん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "支援"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn3r003a",
+        "svn3r003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r004",
+      "text": "保護",
+      "primaryReading": "ほご",
+      "authoredMeaning": "保护、救护；使人、动物或信息等免受损害",
+      "entryID": 1513530,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ほご",
+          "entryID": 1513530,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ほご",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "保護"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r004a",
+        "svn3r004b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r005",
+      "text": "大臣",
+      "primaryReading": "だいじん",
+      "authoredMeaning": "大臣；政府内阁中负责某一方面事务的成员",
+      "entryID": 1414160,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "だいじん",
+          "entryID": 1414160,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "だいじん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "大臣"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r005a",
+        "svn3r005b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r006",
+      "text": "知事",
+      "primaryReading": "ちじ",
+      "authoredMeaning": "知事；日本都道府县的行政首长",
+      "entryID": 1420580,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちじ",
+          "entryID": 1420580,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちじ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "知事"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r006a",
+        "svn3r006b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r007",
+      "text": "免許",
+      "primaryReading": "めんきょ",
+      "authoredMeaning": "许可、执照；准许从事某项活动的资格凭证",
+      "entryID": 1533130,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "めんきょ",
+          "entryID": 1533130,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "めんきょ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "免許"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r007a",
+        "svn3r007b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r008",
+      "text": "事務",
+      "primaryReading": "じむ",
+      "authoredMeaning": "事务、文书工作；处理文件等办公业务",
+      "entryID": 1314270,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じむ",
+          "entryID": 1314270,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "じむ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "事務"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r008a",
+        "svn3r008b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r009",
+      "text": "奨学金",
+      "primaryReading": "しょうがくきん",
+      "authoredMeaning": "奖助学金、助学资金；具体制度也可能要求偿还",
+      "entryID": 1347530,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "acceptedAlternativeReadings": [
+        "しょうがっきん"
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しょうがくきん",
+          "entryID": 1347530,
+          "senseOrdinals": [
+            1,
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "しょうがくきん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        },
+        {
+          "acceptedReading": "しょうがっきん",
+          "entryID": 1347530,
+          "senseOrdinals": [
+            1,
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "しょうがっきん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "奨学金"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r009a",
+        "svn3r009b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r010",
+      "text": "就く",
+      "primaryReading": "つく",
+      "authoredMeaning": "就任、从事；进入某个职位或工作",
+      "entryID": 1331530,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "つく",
+          "entryID": 1331530,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "つく",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [
+            "就く"
+          ],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "就く",
+        "即く"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r010a",
+        "svn3r010b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r011",
+      "text": "競技",
+      "primaryReading": "きょうぎ",
+      "authoredMeaning": "竞技、比赛；按照规则进行的竞技活动或项目",
+      "entryID": 1234080,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きょうぎ",
+          "entryID": 1234080,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きょうぎ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "競技"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3r011a",
+        "svn3r011b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3r012",
+      "text": "学費",
+      "primaryReading": "がくひ",
+      "authoredMeaning": "学费、求学费用；为学习支付的费用",
+      "entryID": 1207060,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "がくひ",
+          "entryID": 1207060,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "がくひ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "学費"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn3r012a",
+        "svn3r012b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ],
+  "scholarshipSenseCheck": {
+    "itemID": "vn3r009",
+    "selectedSenses": [
+      1,
+      2
+    ],
+    "conclusion": "奨学金 alone does not decide whether repayment is required. Grant and loan funding both fall under the taught core meaning; eligibility, amounts and present legal requirements are outside this vocabulary entry.",
+    "primaryCorroboration": [
+      "https://www.jasso.go.jp/shogakukin/about/kyufu/",
+      "https://www.jasso.go.jp/shogakukin/about/taiyo/"
+    ]
+  }
+}

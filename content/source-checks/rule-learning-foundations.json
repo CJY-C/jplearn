@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-18",
+  "status": "sourceChecked-not-independently-reviewed",
+  "sourceSHA256": "5f51ee8503e61422c7156bedf3007eae55d6268822a3f3179a492e36e9c67a5a",
+  "rules": [
+    "rulenum",
+    "rulemonth",
+    "ruledate",
+    "ruleclock",
+    "rulebooks"
+  ],
+  "practiceSets": 15,
+  "questions": 60,
+  "newLexicalRoots": 0,
+  "newGrammarFunctions": 0,
+  "regularItemIDs": [
+    "v0158",
+    "v0160",
+    "vn5007",
+    "v0161",
+    "vn5013"
+  ],
+  "sources": [
+    {
+      "id": "jpfnumberrules",
+      "url": "https://ba.jpf.go.jp/wp-content/uploads/2022/03/Akiko2_bunpoo382002.pdf",
+      "sha256": "f4ea063a0bc36b929a54601a86041d46fe5a300be2a912799dadb8f638038fdc",
+      "checked": "第6課 数字・冊／本、第7課 年月日；PDF p.10日付表とp.11月名表を画像でも照合"
+    },
+    {
+      "id": "jpfclockrules",
+      "url": "https://md.jpf.go.jp/userfiles/file/2018/Lengua%20Japonesa/Gramatica/A1-JP_rev.pdf",
+      "checked": "印刷p.32–35、数字＋じ／時長、4・7・9の選読、伝達時のななじ、十の助数詞結合の二形"
+    }
+  ],
+  "scopeNotes": [
+    "零与基础数字读音沿用既有JMdict词项；0–99整数按位组合，不扩造数量词汇根。",
+    "基本读法与唯一读法不同；七時的ななじ及十冊的じっさつ不作为错误选项。",
+    "每月日期的一日ついたち不借用时长一日いちにち；一月いちがつ不借用时长ひとつき。",
+    "中文说明、问题与语境另行编写；不复制教材段落或论文例题。",
+    "没有为数字组合推测重音。",
+    "词汇、句型、阅读、独立审校数量不因规则单元增加。"
+  ],
+  "evidencePolicy": {
+    "requiredDistinctSets": 2,
+    "minimumSpacingSeconds": 86400,
+    "requiredCorrectPerSet": 4,
+    "assistedCountsAsPass": false,
+    "placementFlagAloneCountsAsPass": false,
+    "wordReviewEventsSynthesized": false
+  },
+  "intervalPolicy": {
+    "days": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "personalized": false,
+    "empiricallyValidatedForThisApp": false,
+    "sameDayExtraPracticeExtendsInterval": false
+  },
+  "pending": [
+    "macOS/iOS完整编译、集成和SE3界面检查",
+    "iOS15.5／16.6真机与双机iCloud验收",
+    "独立日语审校",
+    "更多活用与能产构词单元及其例外审核"
+  ],
+  "regularItemReview": [
+    {
+      "itemID": "v0158",
+      "text": "六時",
+      "reading": "ろくじ",
+      "meaning": "六点",
+      "acceptedReadings": [],
+      "scope": "Explicitly checked regular combination; no extra reading or sense is inferred."
+    },
+    {
+      "itemID": "v0160",
+      "text": "十時",
+      "reading": "じゅうじ",
+      "meaning": "十点",
+      "acceptedReadings": [],
+      "scope": "Explicitly checked regular combination; no extra reading or sense is inferred."
+    },
+    {
+      "itemID": "vn5007",
+      "text": "一時",
+      "reading": "いちじ",
+      "meaning": "一点钟（钟点）",
+      "acceptedReadings": [],
+      "scope": "Explicitly checked regular combination; no extra reading or sense is inferred."
+    },
+    {
+      "itemID": "v0161",
+      "text": "二冊",
+      "reading": "にさつ",
+      "meaning": "两本",
+      "acceptedReadings": [],
+      "scope": "Explicitly checked regular combination; no extra reading or sense is inferred."
+    },
+    {
+      "itemID": "vn5013",
+      "text": "三冊",
+      "reading": "さんさつ",
+      "meaning": "三本；三册（书的数量）",
+      "acceptedReadings": [],
+      "scope": "Explicitly checked regular combination; no extra reading or sense is inferred."
+    }
+  ],
+  "localValidation": {
+    "date": "2026-11-19",
+    "contentTests": 82,
+    "manuscripts": 74,
+    "targetedSwiftTests": 39,
+    "ruleSwiftTests": 17,
+    "exhaustivePracticePassages": 246,
+    "oldCollectionsUnchanged": [
+      "items",
+      "sentences",
+      "exercises",
+      "lessons",
+      "readings",
+      "introModules"
+    ],
+    "portableSourcesAndResourceByteIdentical": true,
+    "runtimeSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
+    "platform": "Linux,Swift5.10.1; isolated system timezone database and entropy devices provided",
+    "nativeIOSCompiled": false,
+    "appAndSE3TestsExecuted": false,
+    "notes": [
+      "Full246-passage rotation passed before the rule-evidence refinements. Latest39-test run covers17 rule cases,13 scheduling cases,6 statistics cases and3 word-sense cases; reading rule and exception gates are included. This does not constitute an iOS build.",
+      "Existing archive event model is unchanged; Apple CryptoKit and iOS integration require macOS."
+    ],
+    "scope": "Historical rule-only source snapshot; current integrated validation is recorded separately."
+  },
+  "readingExceptionPolicy": "Reading rule prerequisites require verified transfer and correct unassisted complete-set evidence for explicitly declared exception questions. Missing/incomplete/assisted records cannot confirm exceptions; a completed failed round clears that rule evidence. No synthetic word or FSRS reviews.",
+  "catalogReferenceAdditions": [
+    {
+      "id": "jpfnumberrules",
+      "title": "国際交流基金：数字・助数詞・年月日",
+      "url": "https://ba.jpf.go.jp/wp-content/uploads/2022/03/Akiko2_bunpoo382002.pdf"
+    },
+    {
+      "id": "jpfclockrules",
+      "title": "国際交流基金：まるごと入門A1 時刻と時間",
+      "url": "https://md.jpf.go.jp/userfiles/file/2018/Lengua%20Japonesa/Gramatica/A1-JP_rev.pdf"
+    }
+  ],
+  "currentIntegratedValidation": {
+    "date": "2026-11-19",
+    "contentTests": 86,
+    "manuscripts": 81,
+    "portableSwiftTests": 67,
+    "practiceRotation": 250,
+    "runtimeSHA256": "3ba918a46280d3a51d31c52c62f42f9dd9843901b1bc4b9fc0116633c26cf0b5",
+    "independentLanguageReview": 0,
+    "nativeIOSCompiled": false,
+    "appAndSE3TestsExecuted": false,
+    "oldAssociationProof": "content/source-checks/n2-context-chapter.json",
+    "scope": "Historical snapshot at first N2 registration; later morphology-rule validation is recorded in rule-learning-transfer.json."
+  },
+  "subsequentRuleExtension": "content/source-checks/rule-learning-transfer.json"
+}

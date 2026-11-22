@@ -1,0 +1,70 @@
+{
+  "status": "Source-checked trial; independent Japanese review pending",
+  "checkedDate": "2026-11-19",
+  "manuscript": "content/authoring/n5-boarding-place-word.tsv",
+  "manuscriptSHA256": "def285779a4c78614844252bf457e14287779a8fab5832b599876e235bf668a9",
+  "roots": 1,
+  "targets": 1,
+  "contexts": 2,
+  "lessons": 1,
+  "independentLanguageReviews": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions; original Chinese and contexts, no upstream examples or full definitions bundled."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list. This common boarding-place noun is N5 foundation because the old N5 駅員 context already uses it; no community label is asserted, and it does not offset N2 quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn5b001",
+      "text": "乗り場",
+      "primaryReading": "のりば",
+      "authoredMeaning": "乘车处；搭乘交通工具的指定地点",
+      "entryID": 1600520,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "のりば",
+          "entryID": 1600520,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "のりば",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "乗り場",
+        "乗場"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn5b001a",
+        "svn5b001b"
+      ]
+    }
+  ]
+}

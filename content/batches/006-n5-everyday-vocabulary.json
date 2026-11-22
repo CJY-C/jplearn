@@ -4013,7 +4013,8 @@
       "meaning": "拨打（电话）",
       "explanation": "本单元义项：拨打（电话）。通过两个不同语境辨认；其他义项须结合上下文。",
       "sourceIDs": [
-        "projectopen"
+        "projectopen",
+        "jmdict"
       ],
       "status": "trial",
       "partOfSpeech": "他动词",
@@ -4028,6 +4029,11 @@
           "sourceID": "projectopen",
           "locator": "原创词义整理与语境 vn5422；未独立语言审校",
           "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1207610；义项 23408：拨打电话。悬挂物品的用法另行学习。",
+          "status": "sourceChecked"
         }
       ],
       "exampleSentenceIDs": [
@@ -4035,7 +4041,8 @@
         "svn5422b"
       ],
       "order": 2121,
-      "readingCue": "拨打电话：如「電話をかける」"
+      "readingCue": "拨打电话：如「電話をかける」",
+      "jmdictEntryID": 1207610
     },
     {
       "id": "vn5423",
@@ -14546,7 +14553,7 @@
         {
           "text": "取",
           "reading": "と",
-          "itemID": null
+          "itemID": "vn3l112"
         },
         {
           "text": "れました。",

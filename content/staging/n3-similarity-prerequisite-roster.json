@@ -1,0 +1,3193 @@
+{
+  "status": "candidate facts retained; selected authored words recorded separately; unregistered and not delivered",
+  "baseline": "9c9d287",
+  "newThemeWordsConsidered": 120,
+  "unresolvedForms": 0,
+  "note": "Reference levels are community classifications, not official lists. Candidate readings and existing targets are not automatically accepted as aliases. No source examples reused.",
+  "entries": [
+    {
+      "form": "新作",
+      "occurrences": [
+        {
+          "context": "gn3b001f",
+          "surface": "新作",
+          "ruby": "しんさく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1361850,
+          "spelling": [
+            "新作"
+          ],
+          "readings": [
+            "しんさく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 42466,
+              "gloss": [
+                "new work",
+                "new production"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m001",
+        "entryID": 1361850,
+        "senseIDs": [
+          42466
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "年代",
+      "occurrences": [
+        {
+          "context": "gn3b002d",
+          "surface": "年代",
+          "ruby": "ねんだい"
+        },
+        {
+          "context": "gn3b027f",
+          "surface": "年代",
+          "ruby": "ねんだい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1468950,
+          "spelling": [
+            "年代"
+          ],
+          "readings": [
+            "ねんだい"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 55835,
+              "gloss": [
+                "age",
+                "era",
+                "period",
+                "date"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m002",
+        "entryID": 1468950,
+        "senseIDs": [
+          55835
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "持ち物",
+      "occurrences": [
+        {
+          "context": "gn3b003e",
+          "surface": "持ち物",
+          "ruby": "もちもの"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1605240,
+          "spelling": [
+            "持ち物",
+            "持物",
+            "持ちもの"
+          ],
+          "readings": [
+            "もちもの"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 73188,
+              "gloss": [
+                "one's property",
+                "personal effects",
+                "one's belongings"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m003",
+        "entryID": 1605240,
+        "senseIDs": [
+          73188
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "見出し",
+      "occurrences": [
+        {
+          "context": "gn3b004f",
+          "surface": "見出し",
+          "ruby": "みだし"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1259710,
+          "spelling": [
+            "見出し"
+          ],
+          "readings": [
+            "みだし"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 29816,
+              "gloss": [
+                "heading",
+                "headline",
+                "title",
+                "caption"
+              ]
+            },
+            {
+              "senseID": 29817,
+              "gloss": [
+                "index"
+              ]
+            },
+            {
+              "senseID": 29818,
+              "gloss": [
+                "headword"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m004",
+        "entryID": 1259710,
+        "senseIDs": [
+          29816
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "形式",
+      "occurrences": [
+        {
+          "context": "gn3b005a",
+          "surface": "形式",
+          "ruby": "けいしき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1250310,
+          "spelling": [
+            "形式"
+          ],
+          "readings": [
+            "けいしき"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 28635,
+              "gloss": [
+                "form (as opposed to substance)",
+                "formality"
+              ]
+            },
+            {
+              "senseID": 28636,
+              "gloss": [
+                "method",
+                "system",
+                "style"
+              ]
+            },
+            {
+              "senseID": 28637,
+              "gloss": [
+                "format",
+                "mode",
+                "appearance",
+                "form (something takes)"
+              ]
+            },
+            {
+              "senseID": 28638,
+              "gloss": [
+                "math expression"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m005",
+        "entryID": 1250310,
+        "senseIDs": [
+          28637
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "分かれる",
+      "occurrences": [
+        {
+          "context": "gn3b005b",
+          "surface": "分",
+          "ruby": "わ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1606600,
+          "spelling": [
+            "分かれる",
+            "分れる"
+          ],
+          "readings": [
+            "わかれる"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 73389,
+              "gloss": [
+                "to branch",
+                "to fork",
+                "to diverge"
+              ]
+            },
+            {
+              "senseID": 73390,
+              "gloss": [
+                "to separate",
+                "to split",
+                "to divide"
+              ]
+            },
+            {
+              "senseID": 73391,
+              "gloss": [
+                "to disperse",
+                "to scatter"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m006",
+        "entryID": 1606600,
+        "senseIDs": [
+          73390
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "幻想",
+      "occurrences": [
+        {
+          "context": "gn3b005c",
+          "surface": "幻想",
+          "ruby": "げんそう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1262950,
+          "spelling": [
+            "幻想"
+          ],
+          "readings": [
+            "げんそう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30214,
+              "gloss": [
+                "fantasy",
+                "illusion",
+                "vision",
+                "dream"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m007",
+        "entryID": 1262950,
+        "senseIDs": [
+          30214
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "人通り",
+      "occurrences": [
+        {
+          "context": "gn3b006e",
+          "surface": "人通り",
+          "ruby": "ひとどおり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1368820,
+          "spelling": [
+            "人通り"
+          ],
+          "readings": [
+            "ひとどおり"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 43268,
+              "gloss": [
+                "pedestrian traffic"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m008",
+        "entryID": 1368820,
+        "senseIDs": [
+          43268
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "構造",
+      "occurrences": [
+        {
+          "context": "gn3b006f",
+          "surface": "構造",
+          "ruby": "こうぞう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1279790,
+          "spelling": [
+            "構造"
+          ],
+          "readings": [
+            "こうぞう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 32241,
+              "gloss": [
+                "structure",
+                "construction",
+                "makeup",
+                "framework",
+                "organization",
+                "pattern"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m009",
+        "entryID": 1279790,
+        "senseIDs": [
+          32241
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "公共",
+      "occurrences": [
+        {
+          "context": "gn3b008a",
+          "surface": "公共",
+          "ruby": "こうきょう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1273510,
+          "spelling": [
+            "公共"
+          ],
+          "readings": [
+            "こうきょう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 31500,
+              "gloss": [
+                "public (facilities, service, etc.)",
+                "communal"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m010",
+        "entryID": 1273510,
+        "senseIDs": [
+          31500
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "視覚",
+      "occurrences": [
+        {
+          "context": "gn3b008b",
+          "surface": "視覚",
+          "ruby": "しかく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1312010,
+          "spelling": [
+            "視覚"
+          ],
+          "readings": [
+            "しかく"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 36184,
+              "gloss": [
+                "sense of sight",
+                "vision"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m011",
+        "entryID": 1312010,
+        "senseIDs": [
+          36184
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "再現",
+      "occurrences": [
+        {
+          "context": "gn3b009a",
+          "surface": "再現",
+          "ruby": "さいげん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1292640,
+          "spelling": [
+            "再現"
+          ],
+          "readings": [
+            "さいげん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 33798,
+              "gloss": [
+                "reappearance",
+                "reemergence",
+                "return",
+                "revival"
+              ]
+            },
+            {
+              "senseID": 33799,
+              "gloss": [
+                "reproduction",
+                "reenactment",
+                "recreation"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m012",
+        "entryID": 1292640,
+        "senseIDs": [
+          33799
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "身近",
+      "occurrences": [
+        {
+          "context": "gn3b009b",
+          "surface": "身近",
+          "ruby": "みぢか"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1365650,
+          "spelling": [
+            "身近"
+          ],
+          "readings": [
+            "みぢか"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 42913,
+              "gloss": [
+                "near oneself",
+                "close to one",
+                "familiar"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m013",
+        "entryID": 1365650,
+        "senseIDs": [
+          42913
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "現地",
+      "occurrences": [
+        {
+          "context": "gn3b009d",
+          "surface": "現地",
+          "ruby": "げんち"
+        },
+        {
+          "context": "gn3b012c",
+          "surface": "現地",
+          "ruby": "げんち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1263860,
+          "spelling": [
+            "現地"
+          ],
+          "readings": [
+            "げんち"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 30315,
+              "gloss": [
+                "actual place",
+                "local",
+                "on-site"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m014",
+        "entryID": 1263860,
+        "senseIDs": [
+          30315
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "響く",
+      "occurrences": [
+        {
+          "context": "gn3b009e",
+          "surface": "響",
+          "ruby": "ひび"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1238610,
+          "spelling": [
+            "響く"
+          ],
+          "readings": [
+            "ひびく"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 27182,
+              "gloss": [
+                "to resound",
+                "to be heard far away"
+              ]
+            },
+            {
+              "senseID": 27183,
+              "gloss": [
+                "to reverberate",
+                "to shake",
+                "to vibrate"
+              ]
+            },
+            {
+              "senseID": 27184,
+              "gloss": [
+                "to come (home)",
+                "to remain (with someone)"
+              ]
+            },
+            {
+              "senseID": 27185,
+              "gloss": [
+                "to have an effect",
+                "to make an impression"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m015",
+        "entryID": 1238610,
+        "senseIDs": [
+          27182,
+          27183
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "別人",
+      "occurrences": [
+        {
+          "context": "gn3b012a",
+          "surface": "別人",
+          "ruby": "べつじん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1583920,
+          "spelling": [
+            "別人"
+          ],
+          "readings": [
+            "べつじん",
+            "べつにん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 70017,
+              "gloss": [
+                "different person",
+                "another person",
+                "someone else",
+                "changed man"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m016",
+        "entryID": 1583920,
+        "senseIDs": [
+          70017
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "場",
+      "occurrences": [
+        {
+          "context": "gn3b012f",
+          "surface": "場",
+          "ruby": "ば"
+        },
+        {
+          "context": "gn3b026f",
+          "surface": "場",
+          "ruby": "ば"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1355790,
+          "spelling": [
+            "場"
+          ],
+          "readings": [
+            "ば"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 41662,
+              "gloss": [
+                "place",
+                "spot",
+                "space"
+              ]
+            },
+            {
+              "senseID": 41663,
+              "gloss": [
+                "field",
+                "discipline",
+                "sphere",
+                "realm"
+              ]
+            },
+            {
+              "senseID": 41664,
+              "gloss": [
+                "occasion",
+                "situation"
+              ]
+            },
+            {
+              "senseID": 41665,
+              "gloss": [
+                "scene (of a play, movie, etc.)"
+              ]
+            },
+            {
+              "senseID": 41666,
+              "gloss": [
+                "session (of the stock market)"
+              ]
+            },
+            {
+              "senseID": 41667,
+              "gloss": [
+                "field",
+                "table",
+                "area in which cards are laid out (in a card game)"
+              ]
+            },
+            {
+              "senseID": 41668,
+              "gloss": [
+                "round (east, south, etc.)"
+              ]
+            },
+            {
+              "senseID": 41669,
+              "gloss": [
+                "field"
+              ]
+            },
+            {
+              "senseID": 41670,
+              "gloss": [
+                "field (gestalt psychology)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m017",
+        "entryID": 1355790,
+        "senseIDs": [
+          41664
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "落ち込む",
+      "occurrences": [
+        {
+          "context": "gn3b013c",
+          "surface": "落ち込",
+          "ruby": "おちこ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1548570,
+          "spelling": [
+            "落ち込む",
+            "落込む",
+            "落ちこむ"
+          ],
+          "readings": [
+            "おちこむ"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 65551,
+              "gloss": [
+                "to feel down",
+                "to feel sad",
+                "to be depressed",
+                "to be in low spirits"
+              ]
+            },
+            {
+              "senseID": 65552,
+              "gloss": [
+                "to be in a slump (business, economy, etc.)",
+                "to be in an unfavourable condition"
+              ]
+            },
+            {
+              "senseID": 65553,
+              "gloss": [
+                "to fall into (e.g. a hole)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m018",
+        "entryID": 1548570,
+        "senseIDs": [
+          65551
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "解く",
+      "occurrences": [
+        {
+          "context": "gn3b013f",
+          "surface": "解",
+          "ruby": "と"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1198890,
+          "spelling": [
+            "解く"
+          ],
+          "readings": [
+            "とく"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 22288,
+              "gloss": [
+                "to untie",
+                "to unfasten",
+                "to unwrap",
+                "to undo",
+                "to unbind",
+                "to unpack"
+              ]
+            },
+            {
+              "senseID": 22289,
+              "gloss": [
+                "to unsew",
+                "to unstitch"
+              ]
+            },
+            {
+              "senseID": 22290,
+              "gloss": [
+                "to solve",
+                "to work out",
+                "to answer"
+              ]
+            },
+            {
+              "senseID": 22291,
+              "gloss": [
+                "to dispel (misunderstanding, etc.)",
+                "to clear up",
+                "to remove (suspicion)",
+                "to appease"
+              ]
+            },
+            {
+              "senseID": 22292,
+              "gloss": [
+                "to dissolve (a contract)",
+                "to cancel",
+                "to remove (a prohibition)",
+                "to lift (a ban)",
+                "to raise (a siege)"
+              ]
+            },
+            {
+              "senseID": 22293,
+              "gloss": [
+                "to release (from duty)",
+                "to relieve",
+                "to dismiss"
+              ]
+            },
+            {
+              "senseID": 22294,
+              "gloss": [
+                "to comb (out)",
+                "to card",
+                "to untangle (hair)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m019",
+        "entryID": 1198890,
+        "senseIDs": [
+          22290
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "書店",
+      "occurrences": [
+        {
+          "context": "gn3b014c",
+          "surface": "書店",
+          "ruby": "しょてん"
+        },
+        {
+          "context": "gn3b033b",
+          "surface": "書店",
+          "ruby": "しょてん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1344120,
+          "spelling": [
+            "書店"
+          ],
+          "readings": [
+            "しょてん"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 40156,
+              "gloss": [
+                "bookshop",
+                "bookstore"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m020",
+        "entryID": 1344120,
+        "senseIDs": [
+          40156
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "半年",
+      "occurrences": [
+        {
+          "context": "gn3b014c",
+          "surface": "半年",
+          "ruby": "はんとし"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1583190,
+          "spelling": [
+            "半年"
+          ],
+          "readings": [
+            "はんとし",
+            "はんねん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 69913,
+              "gloss": [
+                "half a year",
+                "six months"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m021",
+        "entryID": 1583190,
+        "senseIDs": [
+          69913
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "初日",
+      "occurrences": [
+        {
+          "context": "gn3b014c",
+          "surface": "初日",
+          "ruby": "しょにち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1342980,
+          "spelling": [
+            "初日"
+          ],
+          "readings": [
+            "しょにち",
+            "しょじつ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39999,
+              "gloss": [
+                "first day",
+                "opening day"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m022",
+        "entryID": 1342980,
+        "senseIDs": [
+          39999
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "活躍",
+      "occurrences": [
+        {
+          "context": "gn3b015f",
+          "surface": "活躍",
+          "ruby": "かつやく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1208450,
+          "spelling": [
+            "活躍"
+          ],
+          "readings": [
+            "かつやく"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 23554,
+              "gloss": [
+                "activity (esp. energetic)",
+                "great efforts",
+                "conspicuous service"
+              ]
+            },
+            {
+              "senseID": 23555,
+              "gloss": [
+                "to flourish",
+                "to participate actively",
+                "to play an active role"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m023",
+        "entryID": 1208450,
+        "senseIDs": [
+          23554,
+          23555
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "初級",
+      "occurrences": [
+        {
+          "context": "gn3b016a",
+          "surface": "初級",
+          "ruby": "しょきゅう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1342710,
+          "spelling": [
+            "初級"
+          ],
+          "readings": [
+            "しょきゅう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39968,
+              "gloss": [
+                "elementary level",
+                "beginner level"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m024",
+        "entryID": 1342710,
+        "senseIDs": [
+          39968
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "学習者",
+      "occurrences": [
+        {
+          "context": "gn3b016a",
+          "surface": "学習者",
+          "ruby": "がくしゅうしゃ"
+        },
+        {
+          "context": "gn3b017f",
+          "surface": "学習者",
+          "ruby": "がくしゅうしゃ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1206830,
+          "spelling": [
+            "学習者"
+          ],
+          "readings": [
+            "がくしゅうしゃ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 23292,
+              "gloss": [
+                "learner",
+                "student",
+                "scholar"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m025",
+        "entryID": 1206830,
+        "senseIDs": [
+          23292
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "収納",
+      "occurrences": [
+        {
+          "context": "gn3b016b",
+          "surface": "収納",
+          "ruby": "しゅうのう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1330830,
+          "spelling": [
+            "収納"
+          ],
+          "readings": [
+            "しゅうのう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 38521,
+              "gloss": [
+                "storage",
+                "putting or stowing away"
+              ]
+            },
+            {
+              "senseID": 38522,
+              "gloss": [
+                "receipt (of funds, payment, etc.)"
+              ]
+            },
+            {
+              "senseID": 38523,
+              "gloss": [
+                "harvesting"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m026",
+        "entryID": 1330830,
+        "senseIDs": [
+          38521
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "方向",
+      "occurrences": [
+        {
+          "context": "gn3b016f",
+          "surface": "方向",
+          "ruby": "ほうこう"
+        },
+        {
+          "context": "gn3b031b",
+          "surface": "方向",
+          "ruby": "ほうこう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1516990,
+          "spelling": [
+            "方向"
+          ],
+          "readings": [
+            "ほうこう"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61729,
+              "gloss": [
+                "direction",
+                "orientation",
+                "bearing",
+                "way"
+              ]
+            },
+            {
+              "senseID": 61730,
+              "gloss": [
+                "course (e.g. of action)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m027",
+        "entryID": 1516990,
+        "senseIDs": [
+          61729
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "出版社",
+      "occurrences": [
+        {
+          "context": "gn3b017a",
+          "surface": "出版社",
+          "ruby": "しゅっぱんしゃ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1594870,
+          "spelling": [
+            "出版社",
+            "出版者"
+          ],
+          "readings": [
+            "しゅっぱんしゃ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 71617,
+              "gloss": [
+                "publisher",
+                "publishing house",
+                "publishing company"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m028",
+        "entryID": 1594870,
+        "senseIDs": [
+          71617
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "中学生",
+      "occurrences": [
+        {
+          "context": "gn3b017a",
+          "surface": "中学生",
+          "ruby": "ちゅうがくせい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1423660,
+          "spelling": [
+            "中学生"
+          ],
+          "readings": [
+            "ちゅうがくせい"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 50198,
+              "gloss": [
+                "junior high school student",
+                "middle school pupil"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m029",
+        "entryID": 1423660,
+        "senseIDs": [
+          50198
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "国内",
+      "occurrences": [
+        {
+          "context": "gn3b017b",
+          "surface": "国内",
+          "ruby": "こくない"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1286930,
+          "spelling": [
+            "国内"
+          ],
+          "readings": [
+            "こくない",
+            "こくだい",
+            "くぬち"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 33083,
+              "gloss": [
+                "internal",
+                "domestic"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m030",
+        "entryID": 1286930,
+        "senseIDs": [
+          33083
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "版",
+      "occurrences": [
+        {
+          "context": "gn3b017b",
+          "surface": "版",
+          "ruby": "ばん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1481480,
+          "spelling": [
+            "版"
+          ],
+          "readings": [
+            "はん",
+            "ばん"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 57401,
+              "gloss": [
+                "edition",
+                "version",
+                "printing",
+                "impression",
+                "implementation (e.g. software)"
+              ]
+            },
+            {
+              "senseID": 57402,
+              "gloss": [
+                "plate",
+                "block",
+                "cast"
+              ]
+            },
+            {
+              "senseID": 57403,
+              "gloss": [
+                "editions of a publication"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m065",
+        "entryID": 1481480,
+        "senseIDs": [
+          57401
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "初心者",
+      "occurrences": [
+        {
+          "context": "gn3b017c",
+          "surface": "初心者",
+          "ruby": "しょしんしゃ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1342860,
+          "spelling": [
+            "初心者"
+          ],
+          "readings": [
+            "しょしんしゃ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 39985,
+              "gloss": [
+                "beginner"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m031",
+        "entryID": 1342860,
+        "senseIDs": [
+          39985
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "講座",
+      "occurrences": [
+        {
+          "context": "gn3b017c",
+          "surface": "講座",
+          "ruby": "こうざ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1282270,
+          "spelling": [
+            "講座"
+          ],
+          "readings": [
+            "こうざ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 32539,
+              "gloss": [
+                "course (e.g. of lectures)"
+              ]
+            },
+            {
+              "senseID": 32540,
+              "gloss": [
+                "academic university unit (professor, lecturers, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m032",
+        "entryID": 1282270,
+        "senseIDs": [
+          32539
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "放送局",
+      "occurrences": [
+        {
+          "context": "gn3b017d",
+          "surface": "放送局",
+          "ruby": "ほうそうきょく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1516760,
+          "spelling": [
+            "放送局"
+          ],
+          "readings": [
+            "ほうそうきょく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 61688,
+              "gloss": [
+                "broadcasting station",
+                "broadcaster"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m033",
+        "entryID": 1516760,
+        "senseIDs": [
+          61688
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "教材",
+      "occurrences": [
+        {
+          "context": "gn3b017f",
+          "surface": "教材",
+          "ruby": "きょうざい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1237110,
+          "spelling": [
+            "教材"
+          ],
+          "readings": [
+            "きょうざい"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 27000,
+              "gloss": [
+                "teaching materials"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m034",
+        "entryID": 1237110,
+        "senseIDs": [
+          27000
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "投稿",
+      "occurrences": [
+        {
+          "context": "gn3b018a",
+          "surface": "投稿",
+          "ruby": "とうこう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1447180,
+          "spelling": [
+            "投稿"
+          ],
+          "readings": [
+            "とうこう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 53165,
+              "gloss": [
+                "contribution (to a newspaper, magazine, etc.)",
+                "submission",
+                "post (on a blog, social media, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m035",
+        "entryID": 1447180,
+        "senseIDs": [
+          53165
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "後回し",
+      "occurrences": [
+        {
+          "context": "gn3b018b",
+          "surface": "後回",
+          "ruby": "あとまわ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1269500,
+          "spelling": [
+            "後回し"
+          ],
+          "readings": [
+            "あとまわし"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 31007,
+              "gloss": [
+                "putting off",
+                "postponing"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m036",
+        "entryID": 1269500,
+        "senseIDs": [
+          31007
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "青空",
+      "occurrences": [
+        {
+          "context": "gn3b019a",
+          "surface": "青空",
+          "ruby": "あおぞら"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1381470,
+          "spelling": [
+            "青空"
+          ],
+          "readings": [
+            "あおぞら"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 44860,
+              "gloss": [
+                "blue sky"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m037",
+        "entryID": 1381470,
+        "senseIDs": [
+          44860
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "日数",
+      "occurrences": [
+        {
+          "context": "gn3b019e",
+          "surface": "日数",
+          "ruby": "にっすう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1582700,
+          "spelling": [
+            "日数"
+          ],
+          "readings": [
+            "にっすう",
+            "ひかず"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 69847,
+              "gloss": [
+                "a number of days"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m038",
+        "entryID": 1582700,
+        "senseIDs": [
+          69847
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "入力",
+      "occurrences": [
+        {
+          "context": "gn3b021a",
+          "surface": "入力",
+          "ruby": "にゅうりょく"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1466850,
+          "spelling": [
+            "入力"
+          ],
+          "readings": [
+            "にゅうりょく"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 55569,
+              "gloss": [
+                "input",
+                "(data) entry"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m039",
+        "entryID": 1466850,
+        "senseIDs": [
+          55569
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "書庫",
+      "occurrences": [
+        {
+          "context": "gn3b021c",
+          "surface": "書庫",
+          "ruby": "しょこ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1344020,
+          "spelling": [
+            "書庫"
+          ],
+          "readings": [
+            "しょこ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 40143,
+              "gloss": [
+                "library",
+                "book storage",
+                "stack room"
+              ]
+            },
+            {
+              "senseID": 40144,
+              "gloss": [
+                "archive (file)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m040",
+        "entryID": 1344020,
+        "senseIDs": [
+          40143
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "案内図",
+      "occurrences": [
+        {
+          "context": "gn3b021c",
+          "surface": "案内図",
+          "ruby": "あんないず"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1757350,
+          "spelling": [
+            "案内図"
+          ],
+          "readings": [
+            "あんないず"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 89016,
+              "gloss": [
+                "guide map"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m041",
+        "entryID": 1757350,
+        "senseIDs": [
+          89016
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "手書き",
+      "occurrences": [
+        {
+          "context": "gn3b021c",
+          "surface": "手書き",
+          "ruby": "てがき"
+        },
+        {
+          "context": "gn3b030b",
+          "surface": "手書き",
+          "ruby": "てがき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1327830,
+          "spelling": [
+            "手書き",
+            "手描き",
+            "手書",
+            "手描"
+          ],
+          "readings": [
+            "てがき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 38132,
+              "gloss": [
+                "handwriting"
+              ]
+            },
+            {
+              "senseID": 38133,
+              "gloss": [
+                "handwritten",
+                "hand-painted",
+                "hand-drawn"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m042",
+        "entryID": 1327830,
+        "senseIDs": [
+          38132,
+          38133
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "専門",
+      "occurrences": [
+        {
+          "context": "gn3b021d",
+          "surface": "専門",
+          "ruby": "せんもん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1389880,
+          "spelling": [
+            "専門",
+            "專門"
+          ],
+          "readings": [
+            "せんもん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 45964,
+              "gloss": [
+                "speciality",
+                "specialty",
+                "subject of study",
+                "expert",
+                "area of expertise"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m043",
+        "entryID": 1389880,
+        "senseIDs": [
+          45964
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "用語",
+      "occurrences": [
+        {
+          "context": "gn3b021d",
+          "surface": "用語",
+          "ruby": "ようご"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1546270,
+          "spelling": [
+            "用語"
+          ],
+          "readings": [
+            "ようご"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 65262,
+              "gloss": [
+                "term",
+                "terminology"
+              ]
+            },
+            {
+              "senseID": 65263,
+              "gloss": [
+                "wording",
+                "choice of words",
+                "phraseology"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m044",
+        "entryID": 1546270,
+        "senseIDs": [
+          65262
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "回答",
+      "occurrences": [
+        {
+          "context": "gn3b021e",
+          "surface": "回答",
+          "ruby": "かいとう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1199680,
+          "spelling": [
+            "回答"
+          ],
+          "readings": [
+            "かいとう"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 22409,
+              "gloss": [
+                "reply",
+                "answer"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m045",
+        "entryID": 1199680,
+        "senseIDs": [
+          22409
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "山道",
+      "occurrences": [
+        {
+          "context": "gn3b022a",
+          "surface": "山道",
+          "ruby": "やまみち"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1303090,
+          "spelling": [
+            "山道"
+          ],
+          "readings": [
+            "やまみち",
+            "さんどう",
+            "せんどう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 35059,
+              "gloss": [
+                "mountain road",
+                "mountain trail"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m046",
+        "entryID": 1303090,
+        "senseIDs": [
+          35059
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "汚れ",
+      "occurrences": [
+        {
+          "context": "gn3b022b",
+          "surface": "汚れ",
+          "ruby": "よごれ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1612200,
+          "spelling": [
+            "汚れ"
+          ],
+          "readings": [
+            "よごれ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 74103,
+              "gloss": [
+                "dirt",
+                "filth",
+                "stain",
+                "blot",
+                "spot"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m047",
+        "entryID": 1612200,
+        "senseIDs": [
+          74103
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "ペンキ",
+      "occurrences": [
+        {
+          "context": "gn3b022e",
+          "surface": "ペンキ",
+          "ruby": "ぺんき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1121390,
+          "spelling": [],
+          "readings": [
+            "ペンキ"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 13325,
+              "gloss": [
+                "paint"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m048",
+        "entryID": 1121390,
+        "senseIDs": [
+          13325
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "持ち帰る",
+      "occurrences": [
+        {
+          "context": "gn3b023b",
+          "surface": "持ち帰",
+          "ruby": "もちかえ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1658430,
+          "spelling": [
+            "持ち帰る",
+            "持帰る"
+          ],
+          "readings": [
+            "もちかえる"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 78989,
+              "gloss": [
+                "to bring back",
+                "to carry home",
+                "to take out (e.g. food)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m049",
+        "entryID": 1658430,
+        "senseIDs": [
+          78989
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "予備",
+      "occurrences": [
+        {
+          "context": "gn3b023c",
+          "surface": "予備",
+          "ruby": "よび"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1543320,
+          "spelling": [
+            "予備",
+            "預備"
+          ],
+          "readings": [
+            "よび"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 64919,
+              "gloss": [
+                "reserve",
+                "spare"
+              ]
+            },
+            {
+              "senseID": 64920,
+              "gloss": [
+                "preparation",
+                "preliminaries"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m050",
+        "entryID": 1543320,
+        "senseIDs": [
+          64919
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "完走",
+      "occurrences": [
+        {
+          "context": "gn3b023e",
+          "surface": "完走",
+          "ruby": "かんそう"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1211540,
+          "spelling": [
+            "完走"
+          ],
+          "readings": [
+            "かんそう"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 23922,
+              "gloss": [
+                "finishing (a race)",
+                "running the whole distance",
+                "reaching the goal",
+                "staying the course"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m051",
+        "entryID": 1211540,
+        "senseIDs": [
+          23922
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "しおり",
+      "occurrences": [
+        {
+          "context": "gn3b025a",
+          "surface": "しおり",
+          "ruby": "しおり"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1568040,
+          "spelling": [
+            "栞",
+            "枝折り",
+            "枝折"
+          ],
+          "readings": [
+            "しおり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 67907,
+              "gloss": [
+                "bookmark"
+              ]
+            },
+            {
+              "senseID": 67908,
+              "gloss": [
+                "guidebook"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 2834703,
+          "spelling": [
+            "撓",
+            "萎",
+            "撓り"
+          ],
+          "readings": [
+            "しおり"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 204901,
+              "gloss": [
+                "interpenetration of spirit between the poet and nature in a haiku"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m052",
+        "entryID": 1568040,
+        "senseIDs": [
+          67907
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "模型",
+      "occurrences": [
+        {
+          "context": "gn3b025e",
+          "surface": "模型",
+          "ruby": "もけい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1533650,
+          "spelling": [
+            "模型"
+          ],
+          "readings": [
+            "もけい"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 63764,
+              "gloss": [
+                "model",
+                "dummy",
+                "maquette"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m053",
+        "entryID": 1533650,
+        "senseIDs": [
+          63764
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "耳を傾ける",
+      "occurrences": [
+        {
+          "context": "gn3b026e",
+          "surface": "耳を傾",
+          "ruby": "みみをかたむ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2069560,
+          "spelling": [
+            "耳を傾ける",
+            "耳をかたむける"
+          ],
+          "readings": [
+            "みみをかたむける"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 118719,
+              "gloss": [
+                "to lend an ear",
+                "to hearken",
+                "to give an ear to",
+                "to listen carefully"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m054",
+        "entryID": 2069560,
+        "senseIDs": [
+          118719
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "口に出す",
+      "occurrences": [
+        {
+          "context": "gn3b026f",
+          "surface": "口に出",
+          "ruby": "くちにだ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2128560,
+          "spelling": [
+            "口に出す"
+          ],
+          "readings": [
+            "くちにだす"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 124826,
+              "gloss": [
+                "to express (orally)",
+                "to put into words",
+                "to say out loud"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m055",
+        "entryID": 2128560,
+        "senseIDs": [
+          124826
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "はさみ",
+      "occurrences": [
+        {
+          "context": "gn3b028e",
+          "surface": "はさみ",
+          "ruby": "はさみ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1573820,
+          "spelling": [
+            "鋏",
+            "剪刀"
+          ],
+          "readings": [
+            "はさみ",
+            "ハサミ"
+          ],
+          "referenceLevels": [
+            "N3"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 68567,
+              "gloss": [
+                "scissors",
+                "shears",
+                "clippers"
+              ]
+            },
+            {
+              "senseID": 68568,
+              "gloss": [
+                "hole punch"
+              ]
+            }
+          ]
+        },
+        {
+          "entryID": 2029540,
+          "spelling": [
+            "螯"
+          ],
+          "readings": [
+            "はさみ"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 114610,
+              "gloss": [
+                "pincers (crab, scorpion, etc.)",
+                "claws",
+                "forceps"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m056",
+        "entryID": 1573820,
+        "senseIDs": [
+          68567
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "案内人",
+      "occurrences": [
+        {
+          "context": "gn3b029b",
+          "surface": "案内人",
+          "ruby": "あんないにん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 2105800,
+          "spelling": [
+            "案内人"
+          ],
+          "readings": [
+            "あんないにん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 122474,
+              "gloss": [
+                "guide (on a tour, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m057",
+        "entryID": 2105800,
+        "senseIDs": [
+          122474
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "辛抱強い",
+      "occurrences": [
+        {
+          "context": "gn3b029d",
+          "surface": "辛抱強",
+          "ruby": "しんぼうづよ"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1633500,
+          "spelling": [
+            "辛抱強い"
+          ],
+          "readings": [
+            "しんぼうづよい"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 76346,
+              "gloss": [
+                "patient",
+                "persevering"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m058",
+        "entryID": 1633500,
+        "senseIDs": [
+          76346
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "印刷機",
+      "occurrences": [
+        {
+          "context": "gn3b030b",
+          "surface": "印刷機",
+          "ruby": "いんさつき"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1168200,
+          "spelling": [
+            "印刷機"
+          ],
+          "readings": [
+            "いんさつき"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 18616,
+              "gloss": [
+                "printing press"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m059",
+        "entryID": 1168200,
+        "senseIDs": [
+          18616
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "開館",
+      "occurrences": [
+        {
+          "context": "gn3b030e",
+          "surface": "開館",
+          "ruby": "かいかん"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1202580,
+          "spelling": [
+            "開館"
+          ],
+          "readings": [
+            "かいかん"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 22771,
+              "gloss": [
+                "opening (for that day's business; of a library, museum, cinema, etc.)"
+              ]
+            },
+            {
+              "senseID": 22772,
+              "gloss": [
+                "opening (of a new library, museum, cinema, etc.)"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m060",
+        "entryID": 1202580,
+        "senseIDs": [
+          22771
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "危うい",
+      "occurrences": [
+        {
+          "context": "gn3b031a",
+          "surface": "危",
+          "ruby": "あや"
+        },
+        {
+          "context": "gn3b031e",
+          "surface": "危",
+          "ruby": "あや"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1218360,
+          "spelling": [
+            "危うい"
+          ],
+          "readings": [
+            "あやうい"
+          ],
+          "referenceLevels": [
+            "N2"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 24754,
+              "gloss": [
+                "dangerous",
+                "in danger",
+                "facing imminent danger"
+              ]
+            },
+            {
+              "senseID": 24755,
+              "gloss": [
+                "precarious (situation)",
+                "perilous (state, balance, etc.)",
+                "in doubt",
+                "in jeopardy",
+                "uncertain",
+                "insecure",
+                "concerning",
+                "worrying"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m061",
+        "entryID": 1218360,
+        "senseIDs": [
+          24754,
+          24755
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "置き忘れる",
+      "occurrences": [
+        {
+          "context": "gn3b031d",
+          "surface": "置き忘",
+          "ruby": "おきわす"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1849920,
+          "spelling": [
+            "置き忘れる",
+            "置忘れる"
+          ],
+          "readings": [
+            "おきわすれる"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 98447,
+              "gloss": [
+                "to leave behind",
+                "to misplace",
+                "to forget"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m062",
+        "entryID": 1849920,
+        "senseIDs": [
+          98447
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "店内",
+      "occurrences": [
+        {
+          "context": "gn3b033b",
+          "surface": "店内",
+          "ruby": "てんない"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1440780,
+          "spelling": [
+            "店内"
+          ],
+          "readings": [
+            "てんない"
+          ],
+          "referenceLevels": [],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 52368,
+              "gloss": [
+                "store interior",
+                "inside of a shop"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m063",
+        "entryID": 1440780,
+        "senseIDs": [
+          52368
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    },
+    {
+      "form": "記載",
+      "occurrences": [
+        {
+          "context": "gn3b033f",
+          "surface": "記載",
+          "ruby": "きさい"
+        }
+      ],
+      "candidates": [
+        {
+          "entryID": 1223230,
+          "spelling": [
+            "記載"
+          ],
+          "readings": [
+            "きさい"
+          ],
+          "referenceLevels": [
+            "N1"
+          ],
+          "existingCandidates": [],
+          "senses": [
+            {
+              "senseID": 25351,
+              "gloss": [
+                "mention (in a document)",
+                "record",
+                "entry",
+                "statement",
+                "listing"
+              ]
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "selected for the authored sense only; other candidate readings and senses not automatically accepted",
+      "selection": {
+        "itemID": "vn3m064",
+        "entryID": 1223230,
+        "senseIDs": [
+          25351
+        ],
+        "status": "authored with two original contexts; unregistered"
+      }
+    }
+  ],
+  "initialCandidateForms": 65,
+  "combinedGrammarAndReadingForms": 0,
+  "selectedWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
+  "currentStructureReport": "content/staging/n3-similarity-reading-review.json"
+}

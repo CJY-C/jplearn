@@ -1,0 +1,7653 @@
+{
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
+  "baselineCommit": "f7d2bfd0e2a923d20554221369a76f0fb5d96c87",
+  "wordManuscript": "content/authoring/n3-similarity-reading-prerequisite-words.tsv",
+  "manuscriptSHA256": "be5811e04c272acb3cc6400308843c44baef81de0d355d87240ee2906555f0d3",
+  "roots": 92,
+  "contexts": 186,
+  "lessons": 12,
+  "acceptedAlternativeGroups": 10,
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "primaryLocalCache": "build/sources/JMdict_e-current.gz",
+    "secondarySnapshot": "build/sources/jamdict-cn/jamdict_cn_deduplicated.db",
+    "secondarySnapshotSHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+    "license": "CC BY-SA 4.0",
+    "attribution": "JMdict / EDRDG; selected lexical facts only, no dictionary example, translated gloss or audio copied."
+  },
+  "communityReference": {
+    "commit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+    "counts": {
+      "N4": 1,
+      "N3": 9,
+      "N2": 20,
+      "N1": 10
+    },
+    "unlisted": 53,
+    "note": "Non-official community levels. Custom N3 reading prerequisites do not reduce the required additional N2 quota."
+  },
+  "primaryComparisonDecisions": [
+    {
+      "itemID": "vn3n002",
+      "decision": "Current けれど／けれども moved from snapshot entry1004200 to entry2853889; manuscript uses the current identity."
+    },
+    {
+      "itemID": "vn3n065",
+      "decision": "Official XML permitsつゆ with汁 for soup/broth. Snapshot restriction differed; keep the valid alternative using primary source evidence."
+    },
+    {
+      "itemID": "vn3n056",
+      "decision": "Currentあさげ is separate entry2863028, which explicitly lists朝食 and breakfast. Same-meaning alternative accepted with that specific source; obsoleteあさけ excluded."
+    },
+    {
+      "itemID": "vn3n087",
+      "decision": "Currentおんじょう is entry2872608: human voice sense1 accepted, gagaku music sense2 excluded. Not a global alternative for all meanings of音声."
+    },
+    {
+      "itemID": "vn3n038",
+      "decision": "Current XML confirmsかがん only with河岸; 川岸 keepsかわぎし."
+    },
+    {
+      "itemIDs": [
+        "vn3n029",
+        "vn3n040"
+      ],
+      "decision": "Current XML search-onlyみぎっかわ／ひだりっかわ are not promoted to ordinary reading answers."
+    }
+  ],
+  "semanticBoundaries": [
+    "ただ is a qualifying conjunction, not free of charge or merely; まるで is simile, not completely.",
+    "その場 examples teach immediate handling on the spot; まとめる gathers physical items, not text summaries.",
+    "値 means measured/calculated value; 丸 is circle, not yen; 市 is marketいち, not cityし.",
+    "正す trains posture/collar adjustment, not text correction, interrogation or identification.",
+    "夜行 trains night travel, including bus service, not only a night train; やぎょう not accepted in this target.",
+    "札 usesふだ for labels/signs; oldふみた／ふんだ and banknoteさつ excluded.",
+    "受領 does not imply approval; 応募 does not imply acceptance or winning.",
+    "手をつなぐ and 電話を切る are sourced lexical phrases with independent contexts, not physical object-connection or cutting.",
+    "縫う, 潰す, 盛る, 染める and 無線 retain their explicitly selected physical/action senses.",
+    "No inferred pitch accents added; missing accent data does not become a flat pattern."
+  ],
+  "entries": [
+    {
+      "itemID": "vn3n001",
+      "text": "おかげで",
+      "primaryReading": "おかげで",
+      "authoredMeaning": "多亏、由于……的帮助而；引出有利结果的原因",
+      "entryID": 1270210,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "expressions (phrases, clauses, etc.)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "お陰で",
+        "お蔭で",
+        "御蔭で",
+        "御陰で"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おかげで",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おかげで",
+          "entryID": 1270210,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "お陰で",
+            "お蔭で",
+            "御蔭で",
+            "御陰で"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おかげで",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n001a",
+        "svn3n001b"
+      ],
+      "snapshotEntryID": 1270210,
+      "snapshotSenseIDs": [
+        31093
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おかげで",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n002",
+      "text": "けれども",
+      "primaryReading": "けれども",
+      "authoredMeaning": "但是、不过；连接与前文预期不同的后续内容",
+      "entryID": 2853889,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "conjunction",
+            "particle"
+          ]
+        }
+      ],
+      "sourceSpellings": [],
+      "sourceReadings": [
+        {
+          "reading": "けれど",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "けれども",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "けれども",
+          "entryID": 2853889,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [],
+          "readingFacts": [
+            {
+              "reading": "けれども",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n002a",
+        "svn3n002b"
+      ],
+      "snapshotEntryID": 1004200,
+      "snapshotSenseIDs": [
+        596
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "けど",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "けれど",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "けれども",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "けども",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "けんど",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N4"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n003",
+      "text": "その場",
+      "primaryReading": "そのば",
+      "authoredMeaning": "当场、当时的现场；その場で表示就在当场处理",
+      "entryID": 2205240,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [
+            "as 〜で"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "その場",
+        "其の場",
+        "其場"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "そのば",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "そのば",
+          "entryID": 2205240,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "その場",
+            "其の場",
+            "其場"
+          ],
+          "readingFacts": [
+            {
+              "reading": "そのば",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n003a",
+        "svn3n003b"
+      ],
+      "snapshotEntryID": 2205240,
+      "snapshotSenseIDs": [
+        132961
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "そのば",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n004",
+      "text": "たすき",
+      "primaryReading": "たすき",
+      "authoredMeaning": "斜挎在肩上的带子；接力跑中交接的绶带",
+      "entryID": 2013620,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "襷",
+        "手繦"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "たすき",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たすき",
+          "entryID": 2013620,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "襷",
+            "手繦"
+          ],
+          "readingFacts": [
+            {
+              "reading": "たすき",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n004a",
+        "svn3n004b"
+      ],
+      "snapshotEntryID": 2013620,
+      "snapshotSenseIDs": [
+        112883
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "たすき",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n005",
+      "text": "ただ",
+      "primaryReading": "ただ",
+      "authoredMeaning": "不过、只是；为前面的叙述补充限制或保留",
+      "entryID": 1538900,
+      "currentSenseOrdinals": [
+        5
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 5,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [
+            "esp. 但 if written with kanji"
+          ],
+          "pos": [
+            "conjunction"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "只",
+        "唯",
+        "徒",
+        "但"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ただ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "タダ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": true
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ただ",
+          "entryID": 1538900,
+          "senseOrdinals": [
+            5
+          ],
+          "sourceSpellings": [
+            "只",
+            "唯",
+            "徒",
+            "但"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ただ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n005a",
+        "svn3n005b"
+      ],
+      "snapshotEntryID": 1538900,
+      "snapshotSenseIDs": [
+        64431
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ただ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "タダ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n006",
+      "text": "できれば",
+      "primaryReading": "できれば",
+      "authoredMeaning": "如果可以的话；提出带有余地的希望或请求",
+      "entryID": 2825960,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "expressions (phrases, clauses, etc.)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "出来れば"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "できれば",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "できれば",
+          "entryID": 2825960,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "出来れば"
+          ],
+          "readingFacts": [
+            {
+              "reading": "できれば",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n006a",
+        "svn3n006b"
+      ],
+      "snapshotEntryID": 2825960,
+      "snapshotSenseIDs": [
+        195890
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "できれば",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n007",
+      "text": "まとめる",
+      "primaryReading": "まとめる",
+      "authoredMeaning": "归拢、集中；把分散的物品收在一起",
+      "entryID": 1440930,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "纏める"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "まとめる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "まとめる",
+          "entryID": 1440930,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "纏める"
+          ],
+          "readingFacts": [
+            {
+              "reading": "まとめる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n007a",
+        "svn3n007b"
+      ],
+      "snapshotEntryID": 1440930,
+      "snapshotSenseIDs": [
+        52390
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "まとめる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": "vn4r001",
+      "readingOwnerID": "vn4r001"
+    },
+    {
+      "itemID": "vn3n008",
+      "text": "まるで",
+      "primaryReading": "まるで",
+      "authoredMeaning": "简直像、仿佛；强化与另一事物相似的印象",
+      "entryID": 1216280,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [
+            "usu. followed by a form of ようだ or みたいだ"
+          ],
+          "pos": [
+            "adverb (fukushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "丸で"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "まるで",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "まるで",
+          "entryID": 1216280,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "丸で"
+          ],
+          "readingFacts": [
+            {
+              "reading": "まるで",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n008a",
+        "svn3n008b"
+      ],
+      "snapshotEntryID": 1216280,
+      "snapshotSenseIDs": [
+        24513
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "まるで",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n009",
+      "text": "ボード",
+      "primaryReading": "ぼーど",
+      "authoredMeaning": "板、书写板；用于书写或展示信息的板面",
+      "entryID": 1123470,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [],
+      "sourceReadings": [
+        {
+          "reading": "ボード",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ぼーど",
+          "entryID": 1123470,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [],
+          "readingFacts": [
+            {
+              "reading": "ボード",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n009a",
+        "svn3n009b"
+      ],
+      "snapshotEntryID": 1123470,
+      "snapshotSenseIDs": [
+        13547
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ボード",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n010",
+      "text": "メニュー",
+      "primaryReading": "めにゅー",
+      "authoredMeaning": "菜单；列出可点选餐饮的清单",
+      "entryID": 1133790,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [],
+      "sourceReadings": [
+        {
+          "reading": "メニュー",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "めにゅー",
+          "entryID": 1133790,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [],
+          "readingFacts": [
+            {
+              "reading": "メニュー",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n010a",
+        "svn3n010b"
+      ],
+      "snapshotEntryID": 1133790,
+      "snapshotSenseIDs": [
+        14633
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "メニュー",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ムニュ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n011",
+      "text": "上流",
+      "primaryReading": "じょうりゅう",
+      "authoredMeaning": "河流上游；河道中靠近水源的部分",
+      "entryID": 1354510,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "上流"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "じょうりゅう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じょうりゅう",
+          "entryID": 1354510,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "上流"
+          ],
+          "readingFacts": [
+            {
+              "reading": "じょうりゅう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n011a",
+        "svn3n011b"
+      ],
+      "snapshotEntryID": 1354510,
+      "snapshotSenseIDs": [
+        41496
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "じょうりゅう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n012",
+      "text": "両側",
+      "primaryReading": "りょうがわ",
+      "authoredMeaning": "两侧、两边；某物左右相对的两边",
+      "entryID": 1585140,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "両側"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "りょうがわ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "りょうそく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "りょうがわ",
+          "entryID": 1585140,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "両側"
+          ],
+          "readingFacts": [
+            {
+              "reading": "りょうがわ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "りょうそく",
+          "entryID": 1585140,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "両側"
+          ],
+          "readingFacts": [
+            {
+              "reading": "りょうそく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "りょうそく"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n012a",
+        "svn3n012b"
+      ],
+      "snapshotEntryID": 1585140,
+      "snapshotSenseIDs": [
+        70205
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "りょうがわ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "りょうそく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n013",
+      "text": "両手",
+      "primaryReading": "りょうて",
+      "authoredMeaning": "双手、两只手",
+      "entryID": 1553660,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "両手"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "りょうて",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "りょうて",
+          "entryID": 1553660,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "両手"
+          ],
+          "readingFacts": [
+            {
+              "reading": "りょうて",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n013a",
+        "svn3n013b"
+      ],
+      "snapshotEntryID": 1553660,
+      "snapshotSenseIDs": [
+        66236
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "りょうて",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n014",
+      "text": "丸",
+      "primaryReading": "まる",
+      "authoredMeaning": "圆、圆圈；圆形的图案或标记",
+      "entryID": 1216250,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "丸",
+        "円"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "まる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "マル",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": true
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "まる",
+          "entryID": 1216250,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "丸",
+            "円"
+          ],
+          "readingFacts": [
+            {
+              "reading": "まる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n014a",
+        "svn3n014b"
+      ],
+      "snapshotEntryID": 1216250,
+      "snapshotSenseIDs": [
+        24504
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "まる",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "マル",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n015",
+      "text": "会釈",
+      "primaryReading": "えしゃく",
+      "authoredMeaning": "点头致意、微微鞠躬；轻轻低头表示问候或谢意",
+      "entryID": 1198600,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "会釈"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "えしゃく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "えしゃく",
+          "entryID": 1198600,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "会釈"
+          ],
+          "readingFacts": [
+            {
+              "reading": "えしゃく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n015a",
+        "svn3n015b"
+      ],
+      "snapshotEntryID": 1198600,
+      "snapshotSenseIDs": [
+        22257
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "えしゃく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n016",
+      "text": "体験",
+      "primaryReading": "たいけん",
+      "authoredMeaning": "亲身体验；自己实际参与或经历",
+      "entryID": 1409420,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "体験"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "たいけん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たいけん",
+          "entryID": 1409420,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "体験"
+          ],
+          "readingFacts": [
+            {
+              "reading": "たいけん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n016a",
+        "svn3n016b"
+      ],
+      "snapshotEntryID": 1409420,
+      "snapshotSenseIDs": [
+        48380
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "たいけん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n017",
+      "text": "個別",
+      "primaryReading": "こべつ",
+      "authoredMeaning": "个别、逐一；按各个对象分别处理",
+      "entryID": 1265000,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "個別",
+        "箇別"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こべつ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こべつ",
+          "entryID": 1265000,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "個別",
+            "箇別"
+          ],
+          "readingFacts": [
+            {
+              "reading": "こべつ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n017a",
+        "svn3n017b"
+      ],
+      "snapshotEntryID": 1265000,
+      "snapshotSenseIDs": [
+        30459
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "こべつ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n018",
+      "text": "値",
+      "primaryReading": "あたい",
+      "authoredMeaning": "数值；计算、测量所得的量值",
+      "entryID": 1581630,
+      "currentSenseOrdinals": [
+        3
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [
+            "esp. 値"
+          ],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "値",
+        "価",
+        "價"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あたい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "あたい",
+          "entryID": 1581630,
+          "senseOrdinals": [
+            3
+          ],
+          "sourceSpellings": [
+            "値",
+            "価",
+            "價"
+          ],
+          "readingFacts": [
+            {
+              "reading": "あたい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n018a",
+        "svn3n018b"
+      ],
+      "snapshotEntryID": 1581630,
+      "snapshotSenseIDs": [
+        69664
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "あたい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n019",
+      "text": "先日",
+      "primaryReading": "せんじつ",
+      "authoredMeaning": "前些天、日前；距今不久的某一天",
+      "entryID": 1388300,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "先日"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "せんじつ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "せんじつ",
+          "entryID": 1388300,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "先日"
+          ],
+          "readingFacts": [
+            {
+              "reading": "せんじつ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n019a",
+        "svn3n019b"
+      ],
+      "snapshotEntryID": 1388300,
+      "snapshotSenseIDs": [
+        45786
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "せんじつ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n020",
+      "text": "全て",
+      "primaryReading": "すべて",
+      "authoredMeaning": "全部、所有；所说范围中的每一项",
+      "entryID": 1595730,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "全て",
+        "総て",
+        "凡て",
+        "惣て",
+        "渾て",
+        "総べて",
+        "全べて"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "すべて",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "すべて",
+          "entryID": 1595730,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "全て",
+            "総て",
+            "凡て",
+            "惣て",
+            "渾て",
+            "総べて",
+            "全べて"
+          ],
+          "readingFacts": [
+            {
+              "reading": "すべて",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n020a",
+        "svn3n020b"
+      ],
+      "snapshotEntryID": 1595730,
+      "snapshotSenseIDs": [
+        71734
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "すべて",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n021",
+      "text": "公民館",
+      "primaryReading": "こうみんかん",
+      "authoredMeaning": "公民馆、社区活动中心；供当地居民开展文化学习等活动的设施",
+      "entryID": 1274780,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "公民館"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうみんかん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうみんかん",
+          "entryID": 1274780,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "公民館"
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうみんかん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n021a",
+        "svn3n021b"
+      ],
+      "snapshotEntryID": 1274780,
+      "snapshotSenseIDs": [
+        31629
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "こうみんかん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n022",
+      "text": "写し",
+      "primaryReading": "うつし",
+      "authoredMeaning": "副本、抄本、复制件；照原件复制的资料",
+      "entryID": 1321790,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "写し"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "うつし",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "うつし",
+          "entryID": 1321790,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "写し"
+          ],
+          "readingFacts": [
+            {
+              "reading": "うつし",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n022a",
+        "svn3n022b"
+      ],
+      "snapshotEntryID": 1321790,
+      "snapshotSenseIDs": [
+        37358
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "うつし",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n023",
+      "text": "出来上がり",
+      "primaryReading": "できあがり",
+      "authoredMeaning": "完成后的成品、完成效果",
+      "entryID": 1340600,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "出来上がり",
+        "でき上がり",
+        "出来上り"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "できあがり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "できあがり",
+          "entryID": 1340600,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "出来上がり",
+            "でき上がり",
+            "出来上り"
+          ],
+          "readingFacts": [
+            {
+              "reading": "できあがり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n023a",
+        "svn3n023b"
+      ],
+      "snapshotEntryID": 1340600,
+      "snapshotSenseIDs": [
+        39716
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "できあがり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n024",
+      "text": "出来上がる",
+      "primaryReading": "できあがる",
+      "authoredMeaning": "做好、完成；制作物达到可以使用或交付的状态",
+      "entryID": 1340610,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "出来上がる",
+        "でき上がる",
+        "出来あがる",
+        "出来上る"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "できあがる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "できあがる",
+          "entryID": 1340610,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "出来上がる",
+            "でき上がる",
+            "出来あがる",
+            "出来上る"
+          ],
+          "readingFacts": [
+            {
+              "reading": "できあがる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n024a",
+        "svn3n024b"
+      ],
+      "snapshotEntryID": 1340610,
+      "snapshotSenseIDs": [
+        39717
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "できあがる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n025",
+      "text": "出演者",
+      "primaryReading": "しゅつえんしゃ",
+      "authoredMeaning": "出演者、表演人员；参与舞台或节目演出的人",
+      "entryID": 1338300,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "出演者"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しゅつえんしゃ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しゅつえんしゃ",
+          "entryID": 1338300,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "出演者"
+          ],
+          "readingFacts": [
+            {
+              "reading": "しゅつえんしゃ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n025a",
+        "svn3n025b"
+      ],
+      "snapshotEntryID": 1338300,
+      "snapshotSenseIDs": [
+        39434
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "しゅつえんしゃ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n026",
+      "text": "列車",
+      "primaryReading": "れっしゃ",
+      "authoredMeaning": "列车、火车；在铁路上运行的车辆编组",
+      "entryID": 1558370,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "列車"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "れっしゃ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "れっしゃ",
+          "entryID": 1558370,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "列車"
+          ],
+          "readingFacts": [
+            {
+              "reading": "れっしゃ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n026a",
+        "svn3n026b"
+      ],
+      "snapshotEntryID": 1558370,
+      "snapshotSenseIDs": [
+        66792
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "れっしゃ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n027",
+      "text": "受領",
+      "primaryReading": "じゅりょう",
+      "authoredMeaning": "收取、收到；正式接受交付的文件或物品",
+      "entryID": 1330080,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "受領"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "じゅりょう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じゅりょう",
+          "entryID": 1330080,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "受領"
+          ],
+          "readingFacts": [
+            {
+              "reading": "じゅりょう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n027a",
+        "svn3n027b"
+      ],
+      "snapshotEntryID": 1330080,
+      "snapshotSenseIDs": [
+        38431
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "じゅりょう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n028",
+      "text": "台本",
+      "primaryReading": "だいほん",
+      "authoredMeaning": "剧本、台本；演出或录制所依据的对白与安排文本",
+      "entryID": 1412760,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "台本"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "だいほん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "だいほん",
+          "entryID": 1412760,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "台本"
+          ],
+          "readingFacts": [
+            {
+              "reading": "だいほん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n028a",
+        "svn3n028b"
+      ],
+      "snapshotEntryID": 1412760,
+      "snapshotSenseIDs": [
+        48798
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "だいほん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n029",
+      "text": "右側",
+      "primaryReading": "みぎがわ",
+      "authoredMeaning": "右侧、右边；以所说方向为准的右边一侧",
+      "entryID": 1576400,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "右側",
+        "右がわ",
+        "右っかわ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みぎがわ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "うそく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "みぎっかわ",
+          "spellingRestrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "みぎがわ",
+          "entryID": 1576400,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "右側",
+            "右がわ",
+            "右っかわ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "みぎがわ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "うそく",
+          "entryID": 1576400,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "右側",
+            "右がわ",
+            "右っかわ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "うそく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "うそく"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n029a",
+        "svn3n029b"
+      ],
+      "snapshotEntryID": 1576400,
+      "snapshotSenseIDs": [
+        68893
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "みぎがわ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "うそく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n030",
+      "text": "吊るす",
+      "primaryReading": "つるす",
+      "authoredMeaning": "吊挂、悬挂；用绳或挂钩等使物品悬着",
+      "entryID": 1433980,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "吊るす",
+        "吊す"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "つるす",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "つるす",
+          "entryID": 1433980,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "吊るす",
+            "吊す"
+          ],
+          "readingFacts": [
+            {
+              "reading": "つるす",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n030a",
+        "svn3n030b"
+      ],
+      "snapshotEntryID": 1433980,
+      "snapshotSenseIDs": [
+        51535
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "つるす",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n031",
+      "text": "味付け",
+      "primaryReading": "あじつけ",
+      "authoredMeaning": "调味、调出的味道；给食物加调料形成的风味",
+      "entryID": 1526980,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "味付け",
+        "味つけ",
+        "味着け"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あじつけ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "あじつけ",
+          "entryID": 1526980,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "味付け",
+            "味つけ",
+            "味着け"
+          ],
+          "readingFacts": [
+            {
+              "reading": "あじつけ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n031a",
+        "svn3n031b"
+      ],
+      "snapshotEntryID": 1526980,
+      "snapshotSenseIDs": [
+        62921
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "あじつけ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n032",
+      "text": "呼び鈴",
+      "primaryReading": "よびりん",
+      "authoredMeaning": "呼叫铃、门铃；用于呼唤人的铃",
+      "entryID": 1266430,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "呼び鈴",
+        "呼鈴",
+        "呼びりん"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "よびりん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "よびりん",
+          "entryID": 1266430,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "呼び鈴",
+            "呼鈴",
+            "呼びりん"
+          ],
+          "readingFacts": [
+            {
+              "reading": "よびりん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n032a",
+        "svn3n032b"
+      ],
+      "snapshotEntryID": 1266430,
+      "snapshotSenseIDs": [
+        30613
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "よびりん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n033",
+      "text": "外出先",
+      "primaryReading": "がいしゅつさき",
+      "authoredMeaning": "外出所在处、出门后到达或停留的地方",
+      "entryID": 2183600,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "外出先"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "がいしゅつさき",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "がいしゅつさき",
+          "entryID": 2183600,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "外出先"
+          ],
+          "readingFacts": [
+            {
+              "reading": "がいしゅつさき",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n033a",
+        "svn3n033b"
+      ],
+      "snapshotEntryID": 2183600,
+      "snapshotSenseIDs": [
+        130666
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "がいしゅつさき",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n034",
+      "text": "夜行",
+      "primaryReading": "やこう",
+      "authoredMeaning": "夜间行驶、夜间出行；如夜行バス为夜间行驶的巴士",
+      "entryID": 1584820,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "夜行"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "やこう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "やぎょう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "やこう",
+          "entryID": 1584820,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "夜行"
+          ],
+          "readingFacts": [
+            {
+              "reading": "やこう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n034a",
+        "svn3n034b"
+      ],
+      "snapshotEntryID": 1584820,
+      "snapshotSenseIDs": [
+        70153
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "やこう",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "やぎょう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n035",
+      "text": "小川",
+      "primaryReading": "おがわ",
+      "authoredMeaning": "小河、溪流；规模较小的河流",
+      "entryID": 1348460,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "小川"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おがわ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おがわ",
+          "entryID": 1348460,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "小川"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おがわ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n035a",
+        "svn3n035b"
+      ],
+      "snapshotEntryID": 1348460,
+      "snapshotSenseIDs": [
+        40672
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おがわ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n036",
+      "text": "展示室",
+      "primaryReading": "てんじしつ",
+      "authoredMeaning": "展室、陈列室；展示展品的房间",
+      "entryID": 2767470,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "展示室"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "てんじしつ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "てんじしつ",
+          "entryID": 2767470,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "展示室"
+          ],
+          "readingFacts": [
+            {
+              "reading": "てんじしつ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n036a",
+        "svn3n036b"
+      ],
+      "snapshotEntryID": 2767470,
+      "snapshotSenseIDs": [
+        189825
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "てんじしつ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n037",
+      "text": "岬",
+      "primaryReading": "みさき",
+      "authoredMeaning": "岬、海角；伸入海中的陆地尖端",
+      "entryID": 1611700,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "岬",
+        "崎"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みさき",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "みさき",
+          "entryID": 1611700,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "岬",
+            "崎"
+          ],
+          "readingFacts": [
+            {
+              "reading": "みさき",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n037a",
+        "svn3n037b"
+      ],
+      "snapshotEntryID": 1611700,
+      "snapshotSenseIDs": [
+        74033
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "みさき",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n038",
+      "text": "川岸",
+      "primaryReading": "かわぎし",
+      "authoredMeaning": "河岸、河边；河流两旁紧邻水面的岸地",
+      "entryID": 1390060,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "川岸",
+        "河岸"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かわぎし",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "かがん",
+          "spellingRestrictions": [
+            "河岸"
+          ],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かわぎし",
+          "entryID": 1390060,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "川岸",
+            "河岸"
+          ],
+          "readingFacts": [
+            {
+              "reading": "かわぎし",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n038a",
+        "svn3n038b"
+      ],
+      "snapshotEntryID": 1390060,
+      "snapshotSenseIDs": [
+        45984
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "かわぎし",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "かがん",
+          "information": [],
+          "spellingRestrictions": [
+            "河岸"
+          ]
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n039",
+      "text": "工房",
+      "primaryReading": "こうぼう",
+      "authoredMeaning": "工房、工作室；从事手工制作或艺术创作的场所",
+      "entryID": 1278260,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "工房"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうぼう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうぼう",
+          "entryID": 1278260,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "工房"
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうぼう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n039a",
+        "svn3n039b"
+      ],
+      "snapshotEntryID": 1278260,
+      "snapshotSenseIDs": [
+        32045
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "こうぼう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n040",
+      "text": "左側",
+      "primaryReading": "ひだりがわ",
+      "authoredMeaning": "左侧、左边；以所说方向为准的左边一侧",
+      "entryID": 1579180,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "左側"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ひだりがわ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "さそく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "ひだりっかわ",
+          "spellingRestrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ひだりがわ",
+          "entryID": 1579180,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "左側"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ひだりがわ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "さそく",
+          "entryID": 1579180,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "左側"
+          ],
+          "readingFacts": [
+            {
+              "reading": "さそく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "さそく"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n040a",
+        "svn3n040b"
+      ],
+      "snapshotEntryID": 1579180,
+      "snapshotSenseIDs": [
+        69289
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ひだりがわ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "さそく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n041",
+      "text": "市",
+      "primaryReading": "いち",
+      "authoredMeaning": "集市、市场；定期或集中进行物品买卖的场所",
+      "entryID": 1308080,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "市"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "いち",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "いち",
+          "entryID": 1308080,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "市"
+          ],
+          "readingFacts": [
+            {
+              "reading": "いち",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n041a",
+        "svn3n041b"
+      ],
+      "snapshotEntryID": 1308080,
+      "snapshotSenseIDs": [
+        35707
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "いち",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n042",
+      "text": "帰省",
+      "primaryReading": "きせい",
+      "authoredMeaning": "回乡探亲；回到故乡或父母家探望",
+      "entryID": 1221390,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "帰省"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "きせい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きせい",
+          "entryID": 1221390,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "帰省"
+          ],
+          "readingFacts": [
+            {
+              "reading": "きせい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n042a",
+        "svn3n042b"
+      ],
+      "snapshotEntryID": 1221390,
+      "snapshotSenseIDs": [
+        25139
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "きせい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n043",
+      "text": "帳簿",
+      "primaryReading": "ちょうぼ",
+      "authoredMeaning": "账簿；逐项记录收支或交易的簿册",
+      "entryID": 1427560,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "帳簿"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ちょうぼ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちょうぼ",
+          "entryID": 1427560,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "帳簿"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうぼ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n043a",
+        "svn3n043b"
+      ],
+      "snapshotEntryID": 1427560,
+      "snapshotSenseIDs": [
+        50654
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ちょうぼ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n044",
+      "text": "応募",
+      "primaryReading": "おうぼ",
+      "authoredMeaning": "报名应征、投稿参选；按征集要求提出参加申请",
+      "entryID": 1180030,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "応募"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おうぼ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おうぼ",
+          "entryID": 1180030,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "応募"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おうぼ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n044a",
+        "svn3n044b"
+      ],
+      "snapshotEntryID": 1180030,
+      "snapshotSenseIDs": [
+        20065
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おうぼ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n045",
+      "text": "手すり",
+      "primaryReading": "てすり",
+      "authoredMeaning": "扶手、栏杆；走动时可以扶持的横杆等",
+      "entryID": 1598320,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "手すり",
+        "手摺り",
+        "手摺"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "てすり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "てすり",
+          "entryID": 1598320,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "手すり",
+            "手摺り",
+            "手摺"
+          ],
+          "readingFacts": [
+            {
+              "reading": "てすり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n045a",
+        "svn3n045b"
+      ],
+      "snapshotEntryID": 1598320,
+      "snapshotSenseIDs": [
+        72109
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "てすり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n046",
+      "text": "手をつなぐ",
+      "primaryReading": "てをつなぐ",
+      "authoredMeaning": "牵手、手拉手；握住对方的手相连",
+      "entryID": 1896060,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "expressions (phrases, clauses, etc.)",
+            "Godan verb with 'gu' ending"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "手をつなぐ",
+        "手を繋ぐ",
+        "手を繫ぐ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "てをつなぐ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "てをつなぐ",
+          "entryID": 1896060,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "手をつなぐ",
+            "手を繋ぐ",
+            "手を繫ぐ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "てをつなぐ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n046a",
+        "svn3n046b"
+      ],
+      "snapshotEntryID": 1896060,
+      "snapshotSenseIDs": [
+        101950
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "てをつなぐ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n047",
+      "text": "折り返し",
+      "primaryReading": "おりかえし",
+      "authoredMeaning": "随即回复、尽快回电；接到联络后及时作出回应",
+      "entryID": 1385890,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "adverb (fukushi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "折り返し",
+        "折返し",
+        "折返"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おりかえし",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おりかえし",
+          "entryID": 1385890,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "折り返し",
+            "折返し",
+            "折返"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おりかえし",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n047a",
+        "svn3n047b"
+      ],
+      "snapshotEntryID": 1385890,
+      "snapshotSenseIDs": [
+        45460
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おりかえし",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n048",
+      "text": "持ち寄る",
+      "primaryReading": "もちよる",
+      "authoredMeaning": "各自带来凑在一起；聚会时分别带东西汇集",
+      "entryID": 1315550,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "持ち寄る",
+        "持ちよる",
+        "持寄る",
+        "もち寄る"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もちよる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "もちよる",
+          "entryID": 1315550,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "持ち寄る",
+            "持ちよる",
+            "持寄る",
+            "もち寄る"
+          ],
+          "readingFacts": [
+            {
+              "reading": "もちよる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n048a",
+        "svn3n048b"
+      ],
+      "snapshotEntryID": 1315550,
+      "snapshotSenseIDs": [
+        36579
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "もちよる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n049",
+      "text": "持ち手",
+      "primaryReading": "もちて",
+      "authoredMeaning": "提手、把手；物品上供手抓握的部分",
+      "entryID": 2760100,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "持ち手",
+        "持手"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もちて",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "もちて",
+          "entryID": 2760100,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "持ち手",
+            "持手"
+          ],
+          "readingFacts": [
+            {
+              "reading": "もちて",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n049a",
+        "svn3n049b"
+      ],
+      "snapshotEntryID": 2760100,
+      "snapshotSenseIDs": [
+        189067
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "もちて",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n050",
+      "text": "持参",
+      "primaryReading": "じさん",
+      "authoredMeaning": "自带、携带前往；把所需物品带到指定地点",
+      "entryID": 1315790,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "持参"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "じさん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じさん",
+          "entryID": 1315790,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "持参"
+          ],
+          "readingFacts": [
+            {
+              "reading": "じさん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n050a",
+        "svn3n050b"
+      ],
+      "snapshotEntryID": 1315790,
+      "snapshotSenseIDs": [
+        36617
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "じさん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n051",
+      "text": "掲載",
+      "primaryReading": "けいさい",
+      "authoredMeaning": "刊载、登载；把文章、图片或信息发布在报刊、网页等上",
+      "entryID": 1250610,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "掲載"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "けいさい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "けいさい",
+          "entryID": 1250610,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "掲載"
+          ],
+          "readingFacts": [
+            {
+              "reading": "けいさい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n051a",
+        "svn3n051b"
+      ],
+      "snapshotEntryID": 1250610,
+      "snapshotSenseIDs": [
+        28675
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "けいさい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n052",
+      "text": "数値",
+      "primaryReading": "すうち",
+      "authoredMeaning": "数值、测得的读数；用数字表示的量",
+      "entryID": 1373160,
+      "currentSenseOrdinals": [
+        1,
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "数値"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "すうち",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "すうち",
+          "entryID": 1373160,
+          "senseOrdinals": [
+            1,
+            2
+          ],
+          "sourceSpellings": [
+            "数値"
+          ],
+          "readingFacts": [
+            {
+              "reading": "すうち",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n052a",
+        "svn3n052b"
+      ],
+      "snapshotEntryID": 1373160,
+      "snapshotSenseIDs": [
+        43798,
+        43799
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "すうち",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n053",
+      "text": "旅先",
+      "primaryReading": "たびさき",
+      "authoredMeaning": "旅途中所在之处；旅行期间到访、停留的地方",
+      "entryID": 1553220,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "旅先"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "たびさき",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たびさき",
+          "entryID": 1553220,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "旅先"
+          ],
+          "readingFacts": [
+            {
+              "reading": "たびさき",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n053a",
+        "svn3n053b"
+      ],
+      "snapshotEntryID": 1553220,
+      "snapshotSenseIDs": [
+        66185
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "たびさき",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n054",
+      "text": "最終日",
+      "primaryReading": "さいしゅうび",
+      "authoredMeaning": "最后一天；一段活动或期间结束的那一天",
+      "entryID": 1655880,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "最終日"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "さいしゅうび",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "さいしゅうび",
+          "entryID": 1655880,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "最終日"
+          ],
+          "readingFacts": [
+            {
+              "reading": "さいしゅうび",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n054a",
+        "svn3n054b"
+      ],
+      "snapshotEntryID": 1655880,
+      "snapshotSenseIDs": [
+        78715
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "さいしゅうび",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n055",
+      "text": "朗読会",
+      "primaryReading": "ろうどくかい",
+      "authoredMeaning": "朗读会；公开朗读文章、诗歌等作品的活动",
+      "entryID": 2645570,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "朗読会"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ろうどくかい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ろうどくかい",
+          "entryID": 2645570,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "朗読会"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ろうどくかい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n055a",
+        "svn3n055b"
+      ],
+      "snapshotEntryID": 2645570,
+      "snapshotSenseIDs": [
+        177286
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ろうどくかい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n056",
+      "text": "朝食",
+      "primaryReading": "ちょうしょく",
+      "authoredMeaning": "早餐、早饭；早晨吃的一餐",
+      "entryID": 1428390,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "朝食"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ちょうしょく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちょうしょく",
+          "entryID": 1428390,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "朝食"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうしょく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "あさげ",
+          "entryID": 2863028,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "朝餉",
+            "朝食",
+            "朝げ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "あさげ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Same selected breakfast sense"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "あさげ"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n056a",
+        "svn3n056b"
+      ],
+      "snapshotEntryID": 1428390,
+      "snapshotSenseIDs": [
+        50770
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ちょうしょく",
+          "information": [],
+          "spellingRestrictions": [
+            "朝食"
+          ]
+        },
+        {
+          "reading": "あさげ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "あさけ",
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n057",
+      "text": "木々",
+      "primaryReading": "きぎ",
+      "authoredMeaning": "树木、许多树；集合地指多棵树",
+      "entryID": 1591090,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "木々",
+        "木木",
+        "樹々",
+        "樹樹"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "きぎ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きぎ",
+          "entryID": 1591090,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "木々",
+            "木木",
+            "樹々",
+            "樹樹"
+          ],
+          "readingFacts": [
+            {
+              "reading": "きぎ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n057a",
+        "svn3n057b"
+      ],
+      "snapshotEntryID": 1591090,
+      "snapshotSenseIDs": [
+        71070
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "きぎ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n058",
+      "text": "本部",
+      "primaryReading": "ほんぶ",
+      "authoredMeaning": "总部、本部；负责统筹组织活动的中心部门或地点",
+      "entryID": 1523170,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "本部"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ほんぶ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ほんぶ",
+          "entryID": 1523170,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "本部"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ほんぶ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n058a",
+        "svn3n058b"
+      ],
+      "snapshotEntryID": 1523170,
+      "snapshotSenseIDs": [
+        62459
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ほんぶ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n059",
+      "text": "札",
+      "primaryReading": "ふだ",
+      "authoredMeaning": "标签、牌子；写有文字用于标识物品或信息的片状物",
+      "entryID": 1298970,
+      "currentSenseOrdinals": [
+        2,
+        3
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        },
+        {
+          "ordinal": 3,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "札",
+        "簡"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ふだ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "ふみた",
+          "spellingRestrictions": [],
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "nokanji": false
+        },
+        {
+          "reading": "ふんだ",
+          "spellingRestrictions": [],
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ふだ",
+          "entryID": 1298970,
+          "senseOrdinals": [
+            2,
+            3
+          ],
+          "sourceSpellings": [
+            "札",
+            "簡"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ふだ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n059a",
+        "svn3n059b"
+      ],
+      "snapshotEntryID": 1298970,
+      "snapshotSenseIDs": [
+        34563,
+        34564
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ふだ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ふみた",
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ふんだ",
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n060",
+      "text": "染める",
+      "primaryReading": "そめる",
+      "authoredMeaning": "染色、染上颜色；使布、头发等呈现某种颜色",
+      "entryID": 1391160,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "染める"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "そめる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "そめる",
+          "entryID": 1391160,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "染める"
+          ],
+          "readingFacts": [
+            {
+              "reading": "そめる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n060a",
+        "svn3n060b"
+      ],
+      "snapshotEntryID": 1391160,
+      "snapshotSenseIDs": [
+        46120
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "そめる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n061",
+      "text": "植物学",
+      "primaryReading": "しょくぶつがく",
+      "authoredMeaning": "植物学；研究植物的学科",
+      "entryID": 1788520,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "植物学"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しょくぶつがく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しょくぶつがく",
+          "entryID": 1788520,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "植物学"
+          ],
+          "readingFacts": [
+            {
+              "reading": "しょくぶつがく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n061a",
+        "svn3n061b"
+      ],
+      "snapshotEntryID": 1788520,
+      "snapshotSenseIDs": [
+        92239
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "しょくぶつがく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n062",
+      "text": "正す",
+      "primaryReading": "ただす",
+      "authoredMeaning": "端正、整理；把姿势或衣着调整端正",
+      "entryID": 1376630,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "正す"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ただす",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ただす",
+          "entryID": 1376630,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "正す"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ただす",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n062a",
+        "svn3n062b"
+      ],
+      "snapshotEntryID": 1376630,
+      "snapshotSenseIDs": [
+        44254
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ただす",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n063",
+      "text": "水辺",
+      "primaryReading": "みずべ",
+      "authoredMeaning": "水边、水畔；紧靠河、湖等水域的地方",
+      "entryID": 1649910,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "水辺",
+        "水べ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "みずべ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "すいへん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "みずべ",
+          "entryID": 1649910,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "水辺",
+            "水べ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "みずべ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "すいへん",
+          "entryID": 1649910,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "水辺",
+            "水べ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "すいへん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "すいへん"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n063a",
+        "svn3n063b"
+      ],
+      "snapshotEntryID": 1649910,
+      "snapshotSenseIDs": [
+        78087
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "みずべ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "すいへん",
+          "information": [],
+          "spellingRestrictions": [
+            "水辺"
+          ]
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n064",
+      "text": "水面",
+      "primaryReading": "すいめん",
+      "authoredMeaning": "水面；水与空气相接的表面",
+      "entryID": 1372120,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "水面"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "すいめん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "みなも",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "すいめん",
+          "entryID": 1372120,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "水面"
+          ],
+          "readingFacts": [
+            {
+              "reading": "すいめん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "みなも",
+          "entryID": 1372120,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "水面"
+          ],
+          "readingFacts": [
+            {
+              "reading": "みなも",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "みなも"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n064a",
+        "svn3n064b"
+      ],
+      "snapshotEntryID": 1372120,
+      "snapshotSenseIDs": [
+        43679
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "すいめん",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "みなも",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n065",
+      "text": "汁",
+      "primaryReading": "しる",
+      "authoredMeaning": "汤、汤汁；用来饮用的液体菜肴或其汤液",
+      "entryID": 1335520,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "汁",
+        "液"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "しる",
+          "spellingRestrictions": [
+            "汁"
+          ],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "つゆ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しる",
+          "entryID": 1335520,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "汁",
+            "液"
+          ],
+          "readingFacts": [
+            {
+              "reading": "しる",
+              "spellingRestrictions": [
+                "汁"
+              ],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "つゆ",
+          "entryID": 1335520,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "汁",
+            "液"
+          ],
+          "readingFacts": [
+            {
+              "reading": "つゆ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "つゆ"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n065a",
+        "svn3n065b"
+      ],
+      "snapshotEntryID": 1335520,
+      "snapshotSenseIDs": [
+        39071
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "しる",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "つゆ",
+          "information": [],
+          "spellingRestrictions": [
+            "液"
+          ]
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n066",
+      "text": "潰す",
+      "primaryReading": "つぶす",
+      "authoredMeaning": "压碎、压扁、捣碎；施力使物体破碎或变扁",
+      "entryID": 1433820,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "潰す"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "つぶす",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "つぶす",
+          "entryID": 1433820,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "潰す"
+          ],
+          "readingFacts": [
+            {
+              "reading": "つぶす",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n066a",
+        "svn3n066b"
+      ],
+      "snapshotEntryID": 1433820,
+      "snapshotSenseIDs": [
+        51497
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "つぶす",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n067",
+      "text": "無線",
+      "primaryReading": "むせん",
+      "authoredMeaning": "无线电通信；用无线电传递消息的联络方式",
+      "entryID": 1530380,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "無線"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "むせん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "むせん",
+          "entryID": 1530380,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "無線"
+          ],
+          "readingFacts": [
+            {
+              "reading": "むせん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n067a",
+        "svn3n067b"
+      ],
+      "snapshotEntryID": 1530380,
+      "snapshotSenseIDs": [
+        63340
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "むせん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n068",
+      "text": "片手",
+      "primaryReading": "かたて",
+      "authoredMeaning": "单手、一只手",
+      "entryID": 1511690,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "片手"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かたて",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かたて",
+          "entryID": 1511690,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "片手"
+          ],
+          "readingFacts": [
+            {
+              "reading": "かたて",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n068a",
+        "svn3n068b"
+      ],
+      "snapshotEntryID": 1511690,
+      "snapshotSenseIDs": [
+        61060
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "かたて",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n069",
+      "text": "用途",
+      "primaryReading": "ようと",
+      "authoredMeaning": "用途、使用目的；物品或资源拿来做什么",
+      "entryID": 1546380,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "用途"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ようと",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ようと",
+          "entryID": 1546380,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "用途"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ようと",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n069a",
+        "svn3n069b"
+      ],
+      "snapshotEntryID": 1546380,
+      "snapshotSenseIDs": [
+        65275
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ようと",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n070",
+      "text": "盛る",
+      "primaryReading": "もる",
+      "authoredMeaning": "盛放、装盘；把食物放入碗盘等容器中",
+      "entryID": 1379740,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "盛る"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "もる",
+          "entryID": 1379740,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "盛る"
+          ],
+          "readingFacts": [
+            {
+              "reading": "もる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n070a",
+        "svn3n070b"
+      ],
+      "snapshotEntryID": 1379740,
+      "snapshotSenseIDs": [
+        44655
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "もる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n071",
+      "text": "目的地",
+      "primaryReading": "もくてきち",
+      "authoredMeaning": "目的地；行程希望到达的地点",
+      "entryID": 1535580,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "目的地"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "もくてきち",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "もくてきち",
+          "entryID": 1535580,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "目的地"
+          ],
+          "readingFacts": [
+            {
+              "reading": "もくてきち",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n071a",
+        "svn3n071b"
+      ],
+      "snapshotEntryID": 1535580,
+      "snapshotSenseIDs": [
+        63999
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "もくてきち",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n072",
+      "text": "組み合わせ",
+      "primaryReading": "くみあわせ",
+      "authoredMeaning": "组合、搭配；把多个要素配在一起的方式或一组结果",
+      "entryID": 1592290,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "組み合わせ",
+        "組合せ",
+        "組合わせ",
+        "組み合せ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "くみあわせ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "くみあわせ",
+          "entryID": 1592290,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "組み合わせ",
+            "組合せ",
+            "組合わせ",
+            "組み合せ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "くみあわせ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n072a",
+        "svn3n072b"
+      ],
+      "snapshotEntryID": 1592290,
+      "snapshotSenseIDs": [
+        71257
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "くみあわせ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n073",
+      "text": "編集部",
+      "primaryReading": "へんしゅうぶ",
+      "authoredMeaning": "编辑部；负责报刊、出版物等内容编辑的部门",
+      "entryID": 1512020,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "編集部"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "へんしゅうぶ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "へんしゅうぶ",
+          "entryID": 1512020,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "編集部"
+          ],
+          "readingFacts": [
+            {
+              "reading": "へんしゅうぶ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n073a",
+        "svn3n073b"
+      ],
+      "snapshotEntryID": 1512020,
+      "snapshotSenseIDs": [
+        61108
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "へんしゅうぶ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n074",
+      "text": "縫う",
+      "primaryReading": "ぬう",
+      "authoredMeaning": "缝、缝纫；用针线等把布料缀合起来",
+      "entryID": 1517700,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'u' ending",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "縫う"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ぬう",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ぬう",
+          "entryID": 1517700,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "縫う"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ぬう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n074a",
+        "svn3n074b"
+      ],
+      "snapshotEntryID": 1517700,
+      "snapshotSenseIDs": [
+        61811
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ぬう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n075",
+      "text": "置き場",
+      "primaryReading": "おきば",
+      "authoredMeaning": "放置处、存放地点；用于放某种物品的位置",
+      "entryID": 1421840,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "置き場",
+        "置場"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おきば",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おきば",
+          "entryID": 1421840,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "置き場",
+            "置場"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おきば",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n075a",
+        "svn3n075b"
+      ],
+      "snapshotEntryID": 1421840,
+      "snapshotSenseIDs": [
+        49964
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おきば",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n076",
+      "text": "羊",
+      "primaryReading": "ひつじ",
+      "authoredMeaning": "绵羊；常被饲养以获取羊毛等的动物",
+      "entryID": 1546490,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "羊"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ひつじ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "ヒツジ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": true
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ひつじ",
+          "entryID": 1546490,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "羊"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ひつじ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n076a",
+        "svn3n076b"
+      ],
+      "snapshotEntryID": 1546490,
+      "snapshotSenseIDs": [
+        65287
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ひつじ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ヒツジ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n077",
+      "text": "苔",
+      "primaryReading": "こけ",
+      "authoredMeaning": "苔藓；常覆盖在潮湿地表或石木上的小型植物",
+      "entryID": 1411030,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "苔",
+        "蘚",
+        "蘿"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こけ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "コケ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": true
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こけ",
+          "entryID": 1411030,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "苔",
+            "蘚",
+            "蘿"
+          ],
+          "readingFacts": [
+            {
+              "reading": "こけ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n077a",
+        "svn3n077b"
+      ],
+      "snapshotEntryID": 1411030,
+      "snapshotSenseIDs": [
+        48578
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "こけ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "コケ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n078",
+      "text": "蔦",
+      "primaryReading": "つた",
+      "authoredMeaning": "爬墙藤、爬山虎；可沿墙壁、树干等攀附的藤本植物",
+      "entryID": 1433760,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "蔦"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "つた",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "ツタ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": true
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "つた",
+          "entryID": 1433760,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "蔦"
+          ],
+          "readingFacts": [
+            {
+              "reading": "つた",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n078a",
+        "svn3n078b"
+      ],
+      "snapshotEntryID": 1433760,
+      "snapshotSenseIDs": [
+        51485
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "つた",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ツタ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n079",
+      "text": "親子",
+      "primaryReading": "おやこ",
+      "authoredMeaning": "亲子、父母与孩子；家长和孩子的组合或关系",
+      "entryID": 1365170,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "親子"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おやこ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "しんし",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おやこ",
+          "entryID": 1365170,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "親子"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おやこ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "しんし",
+          "entryID": 1365170,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "親子"
+          ],
+          "readingFacts": [
+            {
+              "reading": "しんし",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "しんし"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n079a",
+        "svn3n079b"
+      ],
+      "snapshotEntryID": 1365170,
+      "snapshotSenseIDs": [
+        42855
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おやこ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "しんし",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n080",
+      "text": "観測",
+      "primaryReading": "かんそく",
+      "authoredMeaning": "观测、测定；观察自然现象并记录或测量其状态",
+      "entryID": 1214980,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "観測"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かんそく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かんそく",
+          "entryID": 1214980,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "観測"
+          ],
+          "readingFacts": [
+            {
+              "reading": "かんそく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n080a",
+        "svn3n080b"
+      ],
+      "snapshotEntryID": 1214980,
+      "snapshotSenseIDs": [
+        24335
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "かんそく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n081",
+      "text": "調理",
+      "primaryReading": "ちょうり",
+      "authoredMeaning": "烹调、烹饪；把食材加工制作成食物",
+      "entryID": 1429310,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "調理"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ちょうり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちょうり",
+          "entryID": 1429310,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "調理"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n081a",
+        "svn3n081b"
+      ],
+      "snapshotEntryID": 1429310,
+      "snapshotSenseIDs": [
+        50879
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ちょうり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n082",
+      "text": "透明",
+      "primaryReading": "とうめい",
+      "authoredMeaning": "透明；能透过光线看见另一侧物体的状态",
+      "entryID": 1450590,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "透明"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "とうめい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "とうめい",
+          "entryID": 1450590,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "透明"
+          ],
+          "readingFacts": [
+            {
+              "reading": "とうめい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n082a",
+        "svn3n082b"
+      ],
+      "snapshotEntryID": 1450590,
+      "snapshotSenseIDs": [
+        53607
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "とうめい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n083",
+      "text": "録音機",
+      "primaryReading": "ろくおんき",
+      "authoredMeaning": "录音机、录音设备；用于记录声音的机器",
+      "entryID": 1820280,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "録音機"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ろくおんき",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ろくおんき",
+          "entryID": 1820280,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "録音機"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ろくおんき",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n083a",
+        "svn3n083b"
+      ],
+      "snapshotEntryID": 1820280,
+      "snapshotSenseIDs": [
+        95413
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ろくおんき",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n084",
+      "text": "長靴",
+      "primaryReading": "ながぐつ",
+      "authoredMeaning": "长筒靴、雨靴；靴筒较长、可覆盖脚踝以上的靴子",
+      "entryID": 1797820,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "長靴",
+        "長ぐつ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "ながぐつ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        },
+        {
+          "reading": "ちょうか",
+          "spellingRestrictions": [
+            "長靴"
+          ],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ながぐつ",
+          "entryID": 1797820,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "長靴",
+            "長ぐつ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ながぐつ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "ちょうか",
+          "entryID": 1797820,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "長靴",
+            "長ぐつ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうか",
+              "spellingRestrictions": [
+                "長靴"
+              ],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "ちょうか"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n084a",
+        "svn3n084b"
+      ],
+      "snapshotEntryID": 1797820,
+      "snapshotSenseIDs": [
+        93173
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "ながぐつ",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "ちょうか",
+          "information": [],
+          "spellingRestrictions": [
+            "長靴"
+          ]
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n085",
+      "text": "雨宿り",
+      "primaryReading": "あまやどり",
+      "authoredMeaning": "避雨、躲雨；暂时躲在有遮蔽处等待雨停",
+      "entryID": 1172040,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "雨宿り",
+        "雨やどり"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "あまやどり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "あまやどり",
+          "entryID": 1172040,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "雨宿り",
+            "雨やどり"
+          ],
+          "readingFacts": [
+            {
+              "reading": "あまやどり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n085a",
+        "svn3n085b"
+      ],
+      "snapshotEntryID": 1172040,
+      "snapshotSenseIDs": [
+        19119
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "あまやどり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n086",
+      "text": "電話を切る",
+      "primaryReading": "でんわをきる",
+      "authoredMeaning": "挂断电话、结束通话",
+      "entryID": 1443850,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "expressions (phrases, clauses, etc.)",
+            "Godan verb with 'ru' ending"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "電話を切る",
+        "電話をきる"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "でんわをきる",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "でんわをきる",
+          "entryID": 1443850,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "電話を切る",
+            "電話をきる"
+          ],
+          "readingFacts": [
+            {
+              "reading": "でんわをきる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n086a",
+        "svn3n086b"
+      ],
+      "snapshotEntryID": 1443850,
+      "snapshotSenseIDs": [
+        52730
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "でんわをきる",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n087",
+      "text": "音声",
+      "primaryReading": "おんせい",
+      "authoredMeaning": "语音、人声；说话的声音或录下的人声",
+      "entryID": 1183880,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "音声"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "おんせい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "おんせい",
+          "entryID": 1183880,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "音声"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おんせい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        },
+        {
+          "acceptedReading": "おんじょう",
+          "entryID": 2872608,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "音声"
+          ],
+          "readingFacts": [
+            {
+              "reading": "おんじょう",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Same selected human-voice sense, not gagaku music"
+        }
+      ],
+      "acceptedAlternativeReadings": [
+        "おんじょう"
+      ],
+      "exampleSentenceIDs": [
+        "svn3n087a",
+        "svn3n087b"
+      ],
+      "snapshotEntryID": 1183880,
+      "snapshotSenseIDs": [
+        20501
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "おんせい",
+          "information": [],
+          "spellingRestrictions": []
+        },
+        {
+          "reading": "おんじょう",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n088",
+      "text": "項目",
+      "primaryReading": "こうもく",
+      "authoredMeaning": "项目、条目；列表、表格等中分列的一项内容",
+      "entryID": 1283000,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "項目"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "こうもく",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうもく",
+          "entryID": 1283000,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "項目"
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうもく",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n088a",
+        "svn3n088b"
+      ],
+      "snapshotEntryID": 1283000,
+      "snapshotSenseIDs": [
+        32623
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "こうもく",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n089",
+      "text": "順位",
+      "primaryReading": "じゅんい",
+      "authoredMeaning": "名次、排名；按成绩等标准排列的位置",
+      "entryID": 1342260,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "順位"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "じゅんい",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じゅんい",
+          "entryID": 1342260,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "順位"
+          ],
+          "readingFacts": [
+            {
+              "reading": "じゅんい",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n089a",
+        "svn3n089b"
+      ],
+      "snapshotEntryID": 1342260,
+      "snapshotSenseIDs": [
+        39907
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "じゅんい",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n090",
+      "text": "飛び立つ",
+      "primaryReading": "とびたつ",
+      "authoredMeaning": "飞起、起飞；鸟等离开原处飞向空中",
+      "entryID": 1485430,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Godan verb with 'tsu' ending",
+            "intransitive verb"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "飛び立つ",
+        "飛びたつ",
+        "飛立つ"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "とびたつ",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "とびたつ",
+          "entryID": 1485430,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "飛び立つ",
+            "飛びたつ",
+            "飛立つ"
+          ],
+          "readingFacts": [
+            {
+              "reading": "とびたつ",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n090a",
+        "svn3n090b"
+      ],
+      "snapshotEntryID": 1485430,
+      "snapshotSenseIDs": [
+        57896
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "とびたつ",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n091",
+      "text": "飾り",
+      "primaryReading": "かざり",
+      "authoredMeaning": "装饰、饰物；为了美观而添加的物品或部分",
+      "entryID": 1357160,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "飾り"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かざり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かざり",
+          "entryID": 1357160,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "飾り"
+          ],
+          "readingFacts": [
+            {
+              "reading": "かざり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n091a",
+        "svn3n091b"
+      ],
+      "snapshotEntryID": 1357160,
+      "snapshotSenseIDs": [
+        41839
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "かざり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n092",
+      "text": "香り",
+      "primaryReading": "かおり",
+      "authoredMeaning": "香气、芳香；令人感受到的气味，常指好闻的气味",
+      "entryID": 1589820,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "香り",
+        "薫り",
+        "馨り",
+        "香",
+        "薫"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "かおり",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かおり",
+          "entryID": 1589820,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "香り",
+            "薫り",
+            "馨り",
+            "香",
+            "薫"
+          ],
+          "readingFacts": [
+            {
+              "reading": "かおり",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n092a",
+        "svn3n092b"
+      ],
+      "snapshotEntryID": 1589820,
+      "snapshotSenseIDs": [
+        70883
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "かおり",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3n093",
+      "text": "駅伝",
+      "primaryReading": "えきでん",
+      "authoredMeaning": "驿传、长距离接力跑；多人分段接力的长跑比赛",
+      "entryID": 1175200,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ]
+        }
+      ],
+      "sourceSpellings": [
+        "駅伝"
+      ],
+      "sourceReadings": [
+        {
+          "reading": "えきでん",
+          "spellingRestrictions": [],
+          "information": [],
+          "nokanji": false
+        }
+      ],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "えきでん",
+          "entryID": 1175200,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "駅伝"
+          ],
+          "readingFacts": [
+            {
+              "reading": "えきでん",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ],
+          "semanticScope": "Selected contextual meaning only"
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "exampleSentenceIDs": [
+        "svn3n093a",
+        "svn3n093b"
+      ],
+      "snapshotEntryID": 1175200,
+      "snapshotSenseIDs": [
+        19491
+      ],
+      "snapshotReadings": [
+        {
+          "reading": "えきでん",
+          "information": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [],
+      "reviewedScope": "Selected spelling, readings and contextual meaning only; no upstream example or Chinese gloss copied.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ],
+  "preservation": {
+    "baselineCommit": "f7d2bfd0e2a923d20554221369a76f0fb5d96c87",
+    "runtimeResourceSHA256": "e2f16afe76e55363cd777d00c4f3820d068fad35601f0cb53daf8af6b2ef530b",
+    "runtimeResourceUnchanged": true,
+    "changedExistingManuscripts": [
+      "n3-similarity-market-readings.tsv"
+    ],
+    "change": "One explicit target link for市いち; all existing sentence text, ruby, Chinese, questions, answers, IDs and relative order preserved",
+    "structureReport": "content/staging/n3-similarity-reading-review.json"
+  },
+  "targets": 93,
+  "additionalSenses": 1,
+  "checkedDate": "2026-11-17",
+  "rootAssociationChange": "vn3n007 physical gathering now points to the newly taught N4 summary root vn4r001; same dictionary entry and spelling/reading, independent meaning review, no additional word root.",
+  "registeredVersion": "0.20.0",
+  "subsequentAssociationAudit": "content/source-checks/n2-context-chapter.json"
+}

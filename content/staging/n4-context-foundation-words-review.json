@@ -1,0 +1,420 @@
+{
+  "status": "Registered trial source; selected dictionary facts checked, independent language review0",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
+  "wordManuscript": "content/authoring/n4-context-foundation-words.tsv",
+  "manuscriptSHA256": "61828dafd01d3e1ce0bdc0bc0c6d39f7ac0de22ddc854c9549f1a7dd52197ff1",
+  "roots": 6,
+  "targets": 8,
+  "contexts": 16,
+  "lessons": 2,
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "attribution": "JMdict / EDRDG; selected lexical facts only. No upstream examples, extended definitions, Chinese glosses, illustrations, audio or full dictionary bundled."
+  },
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "levelPolicy": "Self-authored reading order; community labels retained, not an official list. 6N4 and12N3 backfill roots do not offset2500 additionalN2 roots; extra senses do not add roots.",
+  "entries": [
+    {
+      "itemID": "vn4s001",
+      "text": "自宅",
+      "primaryReading": "じたく",
+      "authoredMeaning": "自宅；自己居住的家或住宅",
+      "entryID": 1318260,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "じたく",
+          "entryID": 1318260,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "じたく",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s001a",
+        "svn4s001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s002",
+      "text": "知人",
+      "primaryReading": "ちじん",
+      "authoredMeaning": "相识的人、熟人；彼此认识的人",
+      "entryID": 1420620,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちじん",
+          "entryID": 1420620,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちじん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s002a",
+        "svn4s002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N2"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s003",
+      "text": "知り合う",
+      "primaryReading": "しりあう",
+      "authoredMeaning": "结识；彼此开始相识、互相认识",
+      "entryID": 1420450,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しりあう",
+          "entryID": 1420450,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しりあう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s003a",
+        "svn4s003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s004",
+      "text": "一日中",
+      "primaryReading": "いちにちじゅう",
+      "authoredMeaning": "一整天；在一天中的整个时段",
+      "entryID": 1165500,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "いちにちじゅう",
+          "entryID": 1165500,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "いちにちじゅう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s004a",
+        "svn4s004b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s005",
+      "text": "館内",
+      "primaryReading": "かんない",
+      "authoredMeaning": "馆内；图书馆、会馆等建筑的内部",
+      "entryID": 1614320,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かんない",
+          "entryID": 1614320,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "かんない",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s005a",
+        "svn4s005b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn4s006",
+      "text": "高い",
+      "primaryReading": "たかい",
+      "authoredMeaning": "程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平",
+      "entryID": 1283190,
+      "senseOrdinals": [
+        3
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たかい",
+          "entryID": 1283190,
+          "senseOrdinals": [
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "たかい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s006a",
+        "svn4s006b"
+      ],
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041",
+      "communityLevelsByEntry": [
+        "N5"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    },
+    {
+      "itemID": "vn4s008",
+      "text": "交流",
+      "primaryReading": "こうりゅう",
+      "authoredMeaning": "交流；人与人或群体之间的交往与相互沟通",
+      "entryID": 1272580,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "こうりゅう",
+          "entryID": 1272580,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "こうりゅう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s008a",
+        "svn4s008b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N2"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    },
+    {
+      "itemID": "vn4s007",
+      "text": "高い",
+      "primaryReading": "たかい",
+      "authoredMeaning": "声音的音高较高；本组用于声或音的高低，不表示响度",
+      "entryID": 1283190,
+      "senseOrdinals": [
+        5
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 5,
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たかい",
+          "entryID": 1283190,
+          "senseOrdinals": [
+            5
+          ],
+          "readingFacts": [
+            {
+              "reading": "たかい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s007a",
+        "svn4s007b"
+      ],
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041",
+      "communityLevelsByEntry": [
+        "N5"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    }
+  ]
+}

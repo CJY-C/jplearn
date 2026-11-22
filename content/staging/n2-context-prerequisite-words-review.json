@@ -1,0 +1,728 @@
+{
+  "status": "Registered trial source; selected dictionary facts checked, independent language review0",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "b7a2712f48a6bf48ee647db3b1563f97e4c6157f",
+  "wordManuscript": "content/authoring/n2-context-prerequisite-words.tsv",
+  "manuscriptSHA256": "3017e1487ba0a98df407b01b6fe83a99fa9912358a5f7535d208bf9d536d37e2",
+  "roots": 11,
+  "targets": 14,
+  "contexts": 28,
+  "lessons": 3,
+  "independentlyReviewed": 0,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "attribution": "JMdict / EDRDG; selected lexical facts only. No upstream examples, extended definitions, Chinese glosses, illustrations, audio or full dictionary bundled."
+  },
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "levelPolicy": "Self-authored reading order; community labels retained, not an official list. 6N4 and12N3 backfill roots do not offset2500 additionalN2 roots; extra senses do not add roots.",
+  "entries": [
+    {
+      "itemID": "vn2b001",
+      "text": "やり取り",
+      "primaryReading": "やりとり",
+      "authoredMeaning": "往来、交流；相互交换话语、信件或消息",
+      "entryID": 1012940,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": [
+            "word usually written using kana alone"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "やりとり",
+          "entryID": 1012940,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "やりとり",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b001a",
+        "svn2b001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b002",
+      "text": "世紀",
+      "primaryReading": "せいき",
+      "authoredMeaning": "世纪；以一百年为单位划分的年代",
+      "entryID": 1373990,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "せいき",
+          "entryID": 1373990,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "せいき",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b002a",
+        "svn2b002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b003",
+      "text": "主催者",
+      "primaryReading": "しゅさいしゃ",
+      "authoredMeaning": "主办方；负责组织并举行活动的人或机构",
+      "entryID": 1325470,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しゅさいしゃ",
+          "entryID": 1325470,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しゅさいしゃ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b003a",
+        "svn2b003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b005",
+      "text": "作中",
+      "primaryReading": "さくちゅう",
+      "authoredMeaning": "作品中、故事内部；在所谈的小说、戏剧等作品之内",
+      "entryID": 2826833,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "さくちゅう",
+          "entryID": 2826833,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "さくちゅう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b005a",
+        "svn2b005b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b006",
+      "text": "依頼主",
+      "primaryReading": "いらいぬし",
+      "authoredMeaning": "委托人；提出委托、请别人办理事项的人",
+      "entryID": 2805440,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "いらいぬし",
+          "entryID": 2805440,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "いらいぬし",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b006a",
+        "svn2b006b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b007",
+      "text": "傷める",
+      "primaryReading": "いためる",
+      "authoredMeaning": "损坏、损伤；使物品的状态或功能变坏",
+      "entryID": 1432720,
+      "senseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [
+            "usu. 傷める"
+          ],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "いためる",
+          "entryID": 1432720,
+          "senseOrdinals": [
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "いためる",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b007a",
+        "svn2b007b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N1"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b008",
+      "text": "共有",
+      "primaryReading": "きょうゆう",
+      "authoredMeaning": "共享；由多个人共同持有、知悉或使用某些内容",
+      "entryID": 1235240,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きょうゆう",
+          "entryID": 1235240,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きょうゆう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b008a",
+        "svn2b008b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b009",
+      "text": "同行",
+      "primaryReading": "どうこう",
+      "authoredMeaning": "同行、陪同；跟某人一起前往或旅行",
+      "entryID": 1452340,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "どうこう",
+          "entryID": 1452340,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "どうこう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b009a",
+        "svn2b009b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b011",
+      "text": "寄贈",
+      "primaryReading": "きぞう",
+      "authoredMeaning": "捐赠、赠送；将书籍、物品等无偿赠给机构或他人",
+      "entryID": 1577730,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きぞう",
+          "entryID": 1577730,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きぞう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b011a",
+        "svn2b011b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N1"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b012",
+      "text": "気づく",
+      "primaryReading": "きづく",
+      "authoredMeaning": "注意到、察觉；意识到此前没有留意的事情",
+      "entryID": 1591330,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きづく",
+          "entryID": 1591330,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きづく",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b012a",
+        "svn2b012b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b013",
+      "text": "翻訳者",
+      "primaryReading": "ほんやくしゃ",
+      "authoredMeaning": "翻译者、译者；将文字作品译成另一语言的人",
+      "entryID": 1523430,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ほんやくしゃ",
+          "entryID": 1523430,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ほんやくしゃ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b013a",
+        "svn2b013b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null,
+      "communityLevelsByEntry": [],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b019",
+      "text": "達する",
+      "primaryReading": "たっする",
+      "authoredMeaning": "达成、达到；经过思考或协商而到达结论、合意等状态",
+      "entryID": 1416230,
+      "senseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "suru verb - special class",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たっする",
+          "entryID": 1416230,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "たっする",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b019a",
+        "svn2b019b"
+      ],
+      "lexemeID": "vn3h042",
+      "readingOwnerID": "vn3h042",
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b020",
+      "text": "指す",
+      "primaryReading": "さす",
+      "authoredMeaning": "指代、意指；词语或表达所表示的是某人、某物或某项内容",
+      "entryID": 1309670,
+      "senseOrdinals": [
+        3
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "notes": [],
+          "misc": []
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "さす",
+          "entryID": 1309670,
+          "senseOrdinals": [
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "さす",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b020a",
+        "svn2b020b"
+      ],
+      "lexemeID": "vn4i171",
+      "readingOwnerID": "vn4i171",
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning; no automatic acceptance of every dictionary spelling, reading, sense or pitch pattern."
+    },
+    {
+      "itemID": "vn2b021",
+      "text": "当てる",
+      "primaryReading": "あてる",
+      "authoredMeaning": "使光线、照明等照向对象；使对象受到光线等作用",
+      "entryID": 1448860,
+      "senseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "misc": [],
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "あてる",
+          "entryID": 1448860,
+          "senseOrdinals": [
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "あてる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn2b021a",
+        "svn2b021b"
+      ],
+      "lexemeID": "vn3l026",
+      "readingOwnerID": "vn3l026",
+      "communityLevelsByEntry": [
+        "N3"
+      ],
+      "scope": "Only the authored contextual meaning and explicitly checked readings; no inference of every dictionary sense or accent."
+    }
+  ],
+  "addedSenseReview": "当てる的照射／使暴露于光线义独立于已教的贴靠义；同字同读共用认读，词义分别练习，新增目标不增加词汇根。"
+}

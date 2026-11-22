@@ -34,6 +34,13 @@ struct TodayView: View {
                 .background(Color(UIColor.systemGroupedBackground))
         }
         .navigationTitle("今天").navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                NavigationLink(destination: StatisticsView()) {
+                    Image(systemName: "chart.bar.xaxis")
+                }.accessibilityLabel("学习统计").accessibilityIdentifier("today.statistics")
+            }
+        }
         .fullScreenCover(isPresented: $session) { NavigationView { SessionView() }.navigationViewStyle(.stack) }
     }
 
@@ -62,7 +69,7 @@ struct TodayView: View {
             HStack {
                 metric("\(dueCount)", "待复习")
                 Spacer()
-                metric("\(model.snapshot.reviewedToday())", "今日练习")
+                metric("\(model.snapshot.practicedToday())", "今日练习")
                 Spacer()
                 Image(systemName: "leaf").foregroundColor(.accentColor)
             }.padding(.horizontal, 4)
@@ -96,7 +103,8 @@ struct TodayView: View {
 struct CourseView: View {
     @EnvironmentObject private var model: AppModel
     var body: some View {
-        List {
+        let ruleKnowledge = RuleKnowledge(pack: model.pack, events: model.events)
+        return List {
             if let modules = model.pack.introModules, !modules.isEmpty {
                 Section(header: Text("入门与诊断")) {
                     ForEach(modules) { module in
@@ -109,6 +117,21 @@ struct CourseView: View {
                                 }
                             }
                         }
+                    }
+                }
+            }
+            if let rules = model.pack.learningRules, !rules.isEmpty {
+                Section(header: Text("规则与举一反三")) {
+                    Text("已经会的可直接验证，需要时先学规则。换例子并隔天复测后，常规组合按组巩固；特殊读法保留练习。")
+                        .font(.caption).foregroundColor(.secondary)
+                    ForEach(rules) { rule in
+                        NavigationLink(destination: RuleDetailView(rule: rule)) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(rule.topicTitle)
+                                Text(ruleKnowledge.progress[rule.id]?.title ?? "待学习与验证")
+                                    .font(.caption).foregroundColor(.secondary)
+                            }
+                        }.accessibilityIdentifier("course.rule." + rule.id)
                     }
                 }
             }
@@ -243,14 +266,24 @@ struct PassagePreview: View {
             Section {
                 Text("\(reading.level) · \(reading.genre)").font(.caption).foregroundColor(.secondary)
                 let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
-                Text("已会实词 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
+                Text("实词覆盖 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
                     .font(.subheadline).foregroundColor(.secondary)
+                if readiness.inferredOccurrences > 0 {
+                    Text("含 \(readiness.inferredOccurrences) 处经规则验证可推导的表达；不计为独立掌握词数。")
+                        .font(.caption).foregroundColor(.secondary)
+                }
                 if !readiness.unfamiliarWords.isEmpty {
                     Text("建议先学：" + readiness.unfamiliarWords.prefix(8).map(\.text).joined(separator: "、"))
                         .font(.caption).foregroundColor(.secondary)
                 }
                 if !readiness.missingGrammarIDs.isEmpty {
                     Text("前置表达：" + readiness.missingGrammarIDs.compactMap { model.pack.item($0)?.text }.joined(separator: "、"))
+                        .font(.caption).foregroundColor(.secondary)
+                }
+                if !readiness.missingRuleIDs.isEmpty {
+                    Text("需复测规则或特殊读法：" + readiness.missingRuleIDs.compactMap { id in
+                        model.pack.learningRules?.first { $0.id == id }?.title
+                    }.joined(separator: "、"))
                         .font(.caption).foregroundColor(.secondary)
                 }
             }

@@ -1,0 +1,4679 @@
+{
+  "sentences": [
+    {
+      "id": "rn3117sa",
+      "segments": [
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "市",
+          "reading": "いち",
+          "itemID": "vn3n041"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "だ",
+          "itemID": "vn5027"
+        },
+        {
+          "text": "す",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "布",
+          "reading": "ぬの",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "三人",
+          "reading": "さんにん",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作",
+          "reading": "つく",
+          "itemID": "v0068"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昨日",
+          "reading": "きのう",
+          "itemID": "v0002"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "遅",
+          "reading": "おそ",
+          "itemID": "v0290"
+        },
+        {
+          "text": "くまで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "っていたため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今朝",
+          "reading": "けさ",
+          "itemID": "v0170"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疲",
+          "reading": "つか",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "れ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "でした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓",
+          "reading": "まど",
+          "itemID": "v0293"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0304"
+        },
+        {
+          "text": "け、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "温",
+          "reading": "あたた",
+          "itemID": "vn5788"
+        },
+        {
+          "text": "かい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "お茶",
+          "reading": "おちゃ",
+          "itemID": "v0154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "飲",
+          "reading": "の",
+          "itemID": "v0034"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们三个人正在制作明天集市上出售的布袋。昨天缝到很晚，今早有些疲倦。我开窗透气，在工作前喝了杯温茶。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3117sb",
+      "segments": [
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午前中",
+          "reading": "ごぜんちゅう",
+          "itemID": "v0156"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十二",
+          "reading": "じゅうに",
+          "itemID": null
+        },
+        {
+          "text": "個",
+          "reading": "こ",
+          "itemID": null
+        },
+        {
+          "text": "とも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕上",
+          "reading": "しあ",
+          "itemID": "vn3c075"
+        },
+        {
+          "text": "げるはずでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気味",
+          "reading": "ぎみ",
+          "itemID": null
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十",
+          "reading": "じゅう",
+          "itemID": null
+        },
+        {
+          "text": "個",
+          "reading": "こ",
+          "itemID": null
+        },
+        {
+          "text": "はできていて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二",
+          "reading": "ふた",
+          "itemID": null
+        },
+        {
+          "text": "つは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "持ち手",
+          "reading": "もちて",
+          "itemID": "vn3n049"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "っているところです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "検査",
+          "reading": "けんさ",
+          "itemID": "vn4610"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "按计划十二个袋子应在上午全部完成，但工作稍有落后。十个已经做好，剩下两个还在缝提手。检查人员下午会来。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3117sc",
+      "segments": [
+        {
+          "text": "全部",
+          "reading": "ぜんぶ",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "いで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "うより、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "完成",
+          "reading": "かんせい",
+          "itemID": "vn3g012"
+        },
+        {
+          "text": "した",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順",
+          "reading": "じゅん",
+          "itemID": "vn4704"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "糸",
+          "reading": "いと",
+          "itemID": "vn4i011"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しようと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "底",
+          "reading": "そこ",
+          "itemID": "vn6198"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "重",
+          "reading": "おも",
+          "itemID": "v0249"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "い",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "れると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "vn6164"
+        },
+        {
+          "text": "えにくい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部分",
+          "reading": "ぶぶん",
+          "itemID": "vn3a024"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめられます。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数",
+          "reading": "かず",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "だけを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "増",
+          "reading": "ふ",
+          "itemID": "vn6149"
+        },
+        {
+          "text": "やすつもりはありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们决定先逐个检查做好的袋子的缝线，而不是赶着缝完全部。在袋底放入重物，可以检查外面不容易看见的部分。我们不打算只追求数量。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3117sd",
+      "segments": [
+        {
+          "text": "昼",
+          "reading": "ひる",
+          "itemID": "v0006"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手伝",
+          "reading": "てつだ",
+          "itemID": "v0092"
+        },
+        {
+          "text": "いに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "広",
+          "reading": "ひろ",
+          "itemID": "vn3i013"
+        },
+        {
+          "text": "げ、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "vn4i161"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置",
+          "reading": "お",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "itemID": "v0023"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "か",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かるようにしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "中午朋友来帮忙。我们扩大了一点工作空间，把缝制与检查分开，桌上放了写有名字的纸，方便知道东西接下来由谁使用。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3117se",
+      "segments": [
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二",
+          "reading": "ふた",
+          "itemID": null
+        },
+        {
+          "text": "つも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わりました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ただ",
+          "reading": "ただ",
+          "itemID": "vn3n005"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "到着",
+          "reading": "とうちゃく",
+          "itemID": "vn6106"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れるそうなので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "検査",
+          "reading": "けんさ",
+          "itemID": "vn4610"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0104"
+        },
+        {
+          "text": "まっていません。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "たちは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "片づ",
+          "reading": "かたづ",
+          "itemID": "vn6000"
+        },
+        {
+          "text": "けながら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "並",
+          "reading": "なら",
+          "itemID": "vn5228"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "下午，最后两个也缝完了。不过检查人员说会晚到，因此检查还没开始。我们一边收拾桌子，一边按检查顺序摆好袋子。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3117sf",
+      "segments": [
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "んでからは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "元気",
+          "reading": "げんき",
+          "itemID": "v0288"
+        },
+        {
+          "text": "になり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "についても",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "落ち着",
+          "reading": "おちつ",
+          "itemID": "vn4901"
+        },
+        {
+          "text": "いて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "せました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "には、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "縫",
+          "reading": "ぬ",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数",
+          "reading": "かず",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数",
+          "reading": "かず",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別々",
+          "reading": "べつべつ",
+          "itemID": "vn5030"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "その",
+          "reading": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "てから",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "運",
+          "reading": "はこ",
+          "itemID": "vn5247"
+        },
+        {
+          "text": "びます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "休息后，我比早上有精神，也能平静地商量剩下的工作。今天的记录把已缝完的数量与等待检查的数量分开写，明早先看记录再搬运。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118sa",
+      "segments": [
+        {
+          "text": "公園",
+          "reading": "こうえん",
+          "itemID": "v0184"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "vn5775"
+        },
+        {
+          "text": "え、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "たちは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小屋",
+          "reading": "こや",
+          "itemID": "vn3l085"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "戻",
+          "reading": "もど",
+          "itemID": "vn5768"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "っていたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "靴",
+          "reading": "くつ",
+          "itemID": "v0209"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "泥",
+          "reading": "どろ",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "布",
+          "reading": "ぬの",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置",
+          "reading": "お",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "くのが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遅",
+          "reading": "おく",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "れ、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "床",
+          "reading": "ゆか",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "足跡",
+          "reading": "あしあと",
+          "itemID": "vn3b110"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "itemID": "vn6134"
+        },
+        {
+          "text": "いてしまいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "公园作业结束，我们把工具放回小屋。雨下到早上，鞋上满是泥。入口处的擦鞋布放晚了，地板也留下了脚印。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118sb",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "係",
+          "reading": "かかり",
+          "itemID": "vn4403"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "メモ",
+          "reading": "めも",
+          "itemID": "vn3a121"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "や",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置き場",
+          "reading": "おきば",
+          "itemID": "vn3n075"
+        },
+        {
+          "text": "についての",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "ったことのない",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "があるので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "すぐ",
+          "reading": "すぐ",
+          "itemID": "v0176"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "答",
+          "reading": "こた",
+          "itemID": "vn5051"
+        },
+        {
+          "text": "えられません。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "名前",
+          "reading": "なまえ",
+          "itemID": "v0022"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "棚",
+          "reading": "たな",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "itemID": "vn4q001"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "新负责人的备忘里写满了有关工具名称与存放处的问题。我也有没用过的工具，无法马上全部回答，就先把认得的名称写在纸上贴到架子上。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118sc",
+      "segments": [
+        {
+          "text": "棚",
+          "reading": "たな",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "奥",
+          "reading": "おく",
+          "itemID": "vn6197"
+        },
+        {
+          "text": "にあった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ほこり",
+          "reading": "ほこり",
+          "itemID": "vn3j152"
+        },
+        {
+          "text": "だらけでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "拭",
+          "reading": "ふ",
+          "itemID": "vn6142"
+        },
+        {
+          "text": "いてから",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "開",
+          "reading": "あ",
+          "itemID": "v0304"
+        },
+        {
+          "text": "けると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "昔",
+          "reading": "むかし",
+          "itemID": "vn5986"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "い",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "れてあり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "泥",
+          "reading": "どろ",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ほこり",
+          "reading": "ほこり",
+          "itemID": "vn3j152"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "つ",
+          "reading": "つ",
+          "itemID": "vn6134"
+        },
+        {
+          "text": "いていませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "架子深处的箱子满是灰尘。擦过外面再打开，发现里面有以前作业的照片。照片装在袋子里，没有沾上泥土或灰尘。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118sd",
+      "segments": [
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "とは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "違",
+          "reading": "ちが",
+          "itemID": "v0132"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "並",
+          "reading": "なら",
+          "itemID": "vn5227"
+        },
+        {
+          "text": "んでいました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "裏",
+          "reading": "うら",
+          "itemID": "vn6201"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日付",
+          "reading": "ひづけ",
+          "itemID": "vn5980"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "十年",
+          "reading": "じゅうねん",
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "係",
+          "reading": "かかり",
+          "itemID": "vn4403"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "写真",
+          "reading": "しゃしん",
+          "itemID": "v0097"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "参考",
+          "reading": "さんこう",
+          "itemID": "vn3j185"
+        },
+        {
+          "text": "にしながらも、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "現在",
+          "reading": "げんざい",
+          "itemID": "vn3k044"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置き場",
+          "reading": "おきば",
+          "itemID": "vn3n075"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "実際",
+          "reading": "じっさい",
+          "itemID": "vn4422"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめる",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "があると",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "照片中工具的摆放位置与现在不同，背面的日期是十年前。新负责人说，虽然可以参考照片，现在的存放位置仍需实际确认。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118se",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "棚",
+          "reading": "たな",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "右側",
+          "reading": "みぎがわ",
+          "itemID": "vn3n029"
+        },
+        {
+          "text": "だけ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "数",
+          "reading": "かぞ",
+          "itemID": "vn5769"
+        },
+        {
+          "text": "え、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一覧",
+          "reading": "いちらん",
+          "itemID": "vn3c056"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": "vn6160"
+        },
+        {
+          "text": "っていることを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "左側",
+          "reading": "ひだりがわ",
+          "itemID": "vn3n040"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "物",
+          "reading": "もの",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "多",
+          "reading": "おお",
+          "itemID": "v0175"
+        },
+        {
+          "text": "く、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": null
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べます。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "全部",
+          "reading": "ぜんぶ",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わったわけではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天只清点了架子右侧，确认与清单相符。左侧大件多，下次休息时两人一起查，并非已查完全部工具。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118sf",
+      "segments": [
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "床",
+          "reading": "ゆか",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "泥",
+          "reading": "どろ",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "拭",
+          "reading": "ふ",
+          "itemID": "vn6142"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "汚",
+          "reading": "よご",
+          "itemID": "vn6138"
+        },
+        {
+          "text": "れた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "布",
+          "reading": "ぬの",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "洗",
+          "reading": "あら",
+          "itemID": "v0310"
+        },
+        {
+          "text": "うために",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持ち帰",
+          "reading": "もちかえ",
+          "itemID": "vn3m049"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "朝",
+          "reading": "あさ",
+          "itemID": "v0005"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "布",
+          "reading": "ぬの",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "置",
+          "reading": "お",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "くつもりです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "メモ",
+          "reading": "めも",
+          "itemID": "vn3a121"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "答",
+          "reading": "こた",
+          "itemID": "v0096"
+        },
+        {
+          "text": "えの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かった",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "項目",
+          "reading": "こうもく",
+          "itemID": "vn3n088"
+        },
+        {
+          "text": "だけ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "印",
+          "reading": "しるし",
+          "itemID": "vn3a126"
+        },
+        {
+          "text": "をつけ、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "消",
+          "reading": "け",
+          "itemID": "vn5244"
+        },
+        {
+          "text": "さずに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4145"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "离开前擦掉地板的泥，把脏布带回去洗，打算明早先在门口放布。备忘里只给已解答的项目做了记号，其余问题继续保留。",
+      "explanation": "结合篇章中的人物、时间、地点与前后关系理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "rn3117",
+      "title": "市集前一天的工作日志",
+      "genre": "活动日志",
+      "level": "N3",
+      "purpose": "practice",
+      "grammarIDs": [
+        "gn3b020",
+        "gn467",
+        "gn465"
+      ],
+      "sentenceIDs": [
+        "rn3117sa",
+        "rn3117sb",
+        "rn3117sc",
+        "rn3117sd",
+        "rn3117se",
+        "rn3117sf"
+      ],
+      "question": "疲れ気味与遅れ気味分别描述什么？",
+      "choices": [
+        "前者说明作者现在仍未恢复，后者说明明天市集已取消",
+        "前者是袋子的质量评价，后者是检查人员已经给出的结果",
+        "前者是作者今早的状态，后者是相对原定时间的工作进度"
+      ],
+      "answerIndex": 2,
+      "explanation": "两个気味的对象不同；休息后的变化、尚未开始的检查和明天的安排，不能被进度落后这一描述代替。",
+      "vocabulary": [
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "市",
+          "itemID": "vn3n041"
+        },
+        {
+          "text": "出す",
+          "itemID": "vn5027"
+        },
+        {
+          "text": "布",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "袋",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "作る",
+          "itemID": "v0068"
+        },
+        {
+          "text": "昨日",
+          "itemID": "v0002"
+        },
+        {
+          "text": "夜",
+          "itemID": "v0007"
+        },
+        {
+          "text": "遅い",
+          "itemID": "v0290"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "今朝",
+          "itemID": "v0170"
+        },
+        {
+          "text": "少し",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "疲れる",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "窓",
+          "itemID": "v0293"
+        },
+        {
+          "text": "開ける",
+          "itemID": "v0304"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "温かい",
+          "itemID": "vn5788"
+        },
+        {
+          "text": "お茶",
+          "itemID": "v0154"
+        },
+        {
+          "text": "飲む",
+          "itemID": "v0034"
+        },
+        {
+          "text": "予定",
+          "itemID": "v0111"
+        },
+        {
+          "text": "午前中",
+          "itemID": "v0156"
+        },
+        {
+          "text": "仕上げる",
+          "itemID": "vn3c075"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "遅れる",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "残る",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "持ち手",
+          "itemID": "vn3n049"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "検査",
+          "itemID": "vn4610"
+        },
+        {
+          "text": "担当者",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "午後",
+          "itemID": "v0157"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "全部",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "急ぐ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "完成",
+          "itemID": "vn3g012"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "順",
+          "itemID": "vn4704"
+        },
+        {
+          "text": "糸",
+          "itemID": "vn4i011"
+        },
+        {
+          "text": "確認",
+          "itemID": "v0124"
+        },
+        {
+          "text": "決める",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "袋",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "底",
+          "itemID": "vn6198"
+        },
+        {
+          "text": "重い",
+          "itemID": "v0249"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "入れる",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "外",
+          "itemID": "v0060"
+        },
+        {
+          "text": "見える",
+          "itemID": "vn6164"
+        },
+        {
+          "text": "部分",
+          "itemID": "vn3a024"
+        },
+        {
+          "text": "確かめる",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "数",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "増やす",
+          "itemID": "vn6149"
+        },
+        {
+          "text": "昼",
+          "itemID": "v0006"
+        },
+        {
+          "text": "友人",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "手伝う",
+          "itemID": "v0092"
+        },
+        {
+          "text": "来る",
+          "itemID": "v0031"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "場所",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "少し",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "広げる",
+          "itemID": "vn3i013"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "人",
+          "itemID": "v0020"
+        },
+        {
+          "text": "調べる",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "人",
+          "itemID": "v0020"
+        },
+        {
+          "text": "分ける",
+          "itemID": "vn4i161"
+        },
+        {
+          "text": "机",
+          "itemID": "v0052"
+        },
+        {
+          "text": "名前",
+          "itemID": "v0022"
+        },
+        {
+          "text": "書く",
+          "itemID": "v0026"
+        },
+        {
+          "text": "紙",
+          "itemID": "v0213"
+        },
+        {
+          "text": "置く",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "誰",
+          "itemID": "v0023"
+        },
+        {
+          "text": "次",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "使う",
+          "itemID": "v0067"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "午後",
+          "itemID": "v0157"
+        },
+        {
+          "text": "最後",
+          "itemID": "v0177"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "ただ",
+          "itemID": "vn3n005"
+        },
+        {
+          "text": "担当者",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "到着",
+          "itemID": "vn6106"
+        },
+        {
+          "text": "遅れる",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "検査",
+          "itemID": "vn4610"
+        },
+        {
+          "text": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "始まる",
+          "itemID": "v0104"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "机",
+          "itemID": "v0052"
+        },
+        {
+          "text": "片付ける",
+          "itemID": "vn6000"
+        },
+        {
+          "text": "袋",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "調べる",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "順番",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "並べる",
+          "itemID": "vn5228"
+        },
+        {
+          "text": "休む",
+          "itemID": "v0314"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "元気",
+          "itemID": "v0288"
+        },
+        {
+          "text": "残る",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "落ち着く",
+          "itemID": "vn4901"
+        },
+        {
+          "text": "話す",
+          "itemID": "v0028"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "記録",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "縫う",
+          "itemID": "vn3n074"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "数",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "確認",
+          "itemID": "v0124"
+        },
+        {
+          "text": "待つ",
+          "itemID": "v0065"
+        },
+        {
+          "text": "数",
+          "itemID": "vn5538"
+        },
+        {
+          "text": "別々",
+          "itemID": "vn5030"
+        },
+        {
+          "text": "書く",
+          "itemID": "v0026"
+        },
+        {
+          "text": "明日",
+          "itemID": "v0003"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "記録",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "見る",
+          "itemID": "v0029"
+        },
+        {
+          "text": "運ぶ",
+          "itemID": "vn5247"
+        }
+      ],
+      "paragraphs": [
+        {
+          "sentenceIDs": [
+            "rn3117sa",
+            "rn3117sb",
+            "rn3117sc"
+          ],
+          "vocabulary": [
+            {
+              "text": "明日",
+              "itemID": "v0003"
+            },
+            {
+              "text": "市",
+              "itemID": "vn3n041"
+            },
+            {
+              "text": "出す",
+              "itemID": "vn5027"
+            },
+            {
+              "text": "布",
+              "itemID": "vn4i173"
+            },
+            {
+              "text": "袋",
+              "itemID": "vn5055"
+            },
+            {
+              "text": "作る",
+              "itemID": "v0068"
+            },
+            {
+              "text": "昨日",
+              "itemID": "v0002"
+            },
+            {
+              "text": "夜",
+              "itemID": "v0007"
+            },
+            {
+              "text": "遅い",
+              "itemID": "v0290"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "今朝",
+              "itemID": "v0170"
+            },
+            {
+              "text": "少し",
+              "itemID": "vn5032"
+            },
+            {
+              "text": "疲れる",
+              "itemID": "vn5237"
+            },
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "窓",
+              "itemID": "v0293"
+            },
+            {
+              "text": "開ける",
+              "itemID": "v0304"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "前",
+              "itemID": "v0056"
+            },
+            {
+              "text": "温かい",
+              "itemID": "vn5788"
+            },
+            {
+              "text": "お茶",
+              "itemID": "v0154"
+            },
+            {
+              "text": "飲む",
+              "itemID": "v0034"
+            },
+            {
+              "text": "予定",
+              "itemID": "v0111"
+            },
+            {
+              "text": "午前中",
+              "itemID": "v0156"
+            },
+            {
+              "text": "仕上げる",
+              "itemID": "vn3c075"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "遅れる",
+              "itemID": "vn4005"
+            },
+            {
+              "text": "残る",
+              "itemID": "vn4127"
+            },
+            {
+              "text": "まだ",
+              "itemID": "v0144"
+            },
+            {
+              "text": "持ち手",
+              "itemID": "vn3n049"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "検査",
+              "itemID": "vn4610"
+            },
+            {
+              "text": "担当者",
+              "itemID": "vn3i123"
+            },
+            {
+              "text": "午後",
+              "itemID": "v0157"
+            },
+            {
+              "text": "来る",
+              "itemID": "v0031"
+            },
+            {
+              "text": "全部",
+              "itemID": "vn5024"
+            },
+            {
+              "text": "急ぐ",
+              "itemID": "vn5751"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "完成",
+              "itemID": "vn3g012"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "順",
+              "itemID": "vn4704"
+            },
+            {
+              "text": "糸",
+              "itemID": "vn4i011"
+            },
+            {
+              "text": "確認",
+              "itemID": "v0124"
+            },
+            {
+              "text": "決める",
+              "itemID": "vn6156"
+            },
+            {
+              "text": "袋",
+              "itemID": "vn5055"
+            },
+            {
+              "text": "底",
+              "itemID": "vn6198"
+            },
+            {
+              "text": "重い",
+              "itemID": "v0249"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "入れる",
+              "itemID": "vn5022"
+            },
+            {
+              "text": "外",
+              "itemID": "v0060"
+            },
+            {
+              "text": "見える",
+              "itemID": "vn6164"
+            },
+            {
+              "text": "部分",
+              "itemID": "vn3a024"
+            },
+            {
+              "text": "確かめる",
+              "itemID": "vn6162"
+            },
+            {
+              "text": "数",
+              "itemID": "vn5538"
+            },
+            {
+              "text": "増やす",
+              "itemID": "vn6149"
+            }
+          ]
+        },
+        {
+          "sentenceIDs": [
+            "rn3117sd",
+            "rn3117se",
+            "rn3117sf"
+          ],
+          "vocabulary": [
+            {
+              "text": "昼",
+              "itemID": "v0006"
+            },
+            {
+              "text": "友人",
+              "itemID": "vn3g005"
+            },
+            {
+              "text": "手伝う",
+              "itemID": "v0092"
+            },
+            {
+              "text": "来る",
+              "itemID": "v0031"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "場所",
+              "itemID": "vn5946"
+            },
+            {
+              "text": "少し",
+              "itemID": "vn5032"
+            },
+            {
+              "text": "広げる",
+              "itemID": "vn3i013"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "人",
+              "itemID": "v0020"
+            },
+            {
+              "text": "調べる",
+              "itemID": "vn5753"
+            },
+            {
+              "text": "人",
+              "itemID": "v0020"
+            },
+            {
+              "text": "分ける",
+              "itemID": "vn4i161"
+            },
+            {
+              "text": "机",
+              "itemID": "v0052"
+            },
+            {
+              "text": "名前",
+              "itemID": "v0022"
+            },
+            {
+              "text": "書く",
+              "itemID": "v0026"
+            },
+            {
+              "text": "紙",
+              "itemID": "v0213"
+            },
+            {
+              "text": "置く",
+              "itemID": "vn5053"
+            },
+            {
+              "text": "誰",
+              "itemID": "v0023"
+            },
+            {
+              "text": "次",
+              "itemID": "vn5039"
+            },
+            {
+              "text": "使う",
+              "itemID": "v0067"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "分かる",
+              "itemID": "v0101"
+            },
+            {
+              "text": "午後",
+              "itemID": "v0157"
+            },
+            {
+              "text": "最後",
+              "itemID": "v0177"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "終わる",
+              "itemID": "v0105"
+            },
+            {
+              "text": "ただ",
+              "itemID": "vn3n005"
+            },
+            {
+              "text": "担当者",
+              "itemID": "vn3i123"
+            },
+            {
+              "text": "到着",
+              "itemID": "vn6106"
+            },
+            {
+              "text": "遅れる",
+              "itemID": "vn4005"
+            },
+            {
+              "text": "検査",
+              "itemID": "vn4610"
+            },
+            {
+              "text": "まだ",
+              "itemID": "v0144"
+            },
+            {
+              "text": "始まる",
+              "itemID": "v0104"
+            },
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "机",
+              "itemID": "v0052"
+            },
+            {
+              "text": "片付ける",
+              "itemID": "vn6000"
+            },
+            {
+              "text": "袋",
+              "itemID": "vn5055"
+            },
+            {
+              "text": "調べる",
+              "itemID": "vn5753"
+            },
+            {
+              "text": "順番",
+              "itemID": "vn5996"
+            },
+            {
+              "text": "並べる",
+              "itemID": "vn5228"
+            },
+            {
+              "text": "休む",
+              "itemID": "v0314"
+            },
+            {
+              "text": "朝",
+              "itemID": "v0005"
+            },
+            {
+              "text": "元気",
+              "itemID": "v0288"
+            },
+            {
+              "text": "残る",
+              "itemID": "vn4127"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "落ち着く",
+              "itemID": "vn4901"
+            },
+            {
+              "text": "話す",
+              "itemID": "v0028"
+            },
+            {
+              "text": "今日",
+              "itemID": "v0001"
+            },
+            {
+              "text": "記録",
+              "itemID": "vn4i174"
+            },
+            {
+              "text": "縫う",
+              "itemID": "vn3n074"
+            },
+            {
+              "text": "終わる",
+              "itemID": "v0105"
+            },
+            {
+              "text": "数",
+              "itemID": "vn5538"
+            },
+            {
+              "text": "確認",
+              "itemID": "v0124"
+            },
+            {
+              "text": "待つ",
+              "itemID": "v0065"
+            },
+            {
+              "text": "数",
+              "itemID": "vn5538"
+            },
+            {
+              "text": "別々",
+              "itemID": "vn5030"
+            },
+            {
+              "text": "書く",
+              "itemID": "v0026"
+            },
+            {
+              "text": "明日",
+              "itemID": "v0003"
+            },
+            {
+              "text": "朝",
+              "itemID": "v0005"
+            },
+            {
+              "text": "その",
+              "itemID": "vn5305"
+            },
+            {
+              "text": "記録",
+              "itemID": "vn4i174"
+            },
+            {
+              "text": "見る",
+              "itemID": "v0029"
+            },
+            {
+              "text": "運ぶ",
+              "itemID": "vn5247"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rn3117qa",
+          "prompt": "疲れ気味与遅れ気味分别描述什么？",
+          "choices": [
+            "前者说明作者现在仍未恢复，后者说明明天市集已取消",
+            "前者是袋子的质量评价，后者是检查人员已经给出的结果",
+            "前者是作者今早的状态，后者是相对原定时间的工作进度"
+          ],
+          "answerIndex": 2,
+          "explanation": "两个気味的对象不同；休息后的变化、尚未开始的检查和明天的安排，不能被进度落后这一描述代替。",
+          "evidenceSentenceIDs": [
+            "rn3117sa",
+            "rn3117sb",
+            "rn3117se",
+            "rn3117sf"
+          ],
+          "ability": "perspective"
+        },
+        {
+          "id": "rn3117qb",
+          "prompt": "写日志时，十二个袋子的状态怎样？",
+          "choices": [
+            "十二个都已由检查人员验收，正在明天的市集出售",
+            "缝制已全部结束，检查尚未开始，记录分开保存这两种状态",
+            "十个已检查合格，剩下两个还没开始缝制"
+          ],
+          "answerIndex": 1,
+          "explanation": "上午的数量后来发生变化；下午最后两个也缝完，但检查人员晚到。完成缝制不能直接等同通过检查。",
+          "evidenceSentenceIDs": [
+            "rn3117sb",
+            "rn3117se",
+            "rn3117sf"
+          ],
+          "ability": "temporalRelation"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3117；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "rn3118",
+      "title": "雨后的工具小屋",
+      "genre": "整理记录",
+      "level": "N3",
+      "purpose": "practice",
+      "grammarIDs": [
+        "gn3b021",
+        "gn3b022",
+        "gn407",
+        "gn310"
+      ],
+      "sentenceIDs": [
+        "rn3118sa",
+        "rn3118sb",
+        "rn3118sc",
+        "rn3118sd",
+        "rn3118se",
+        "rn3118sf"
+      ],
+      "question": "箱子ほこりだらけ与照片的状态是什么关系？",
+      "choices": [
+        "箱外灰尘很多，但袋中的照片没有沾灰，也没有沾泥",
+        "箱子里外和照片都同样沾满灰尘，只是还没擦",
+        "照片已被泥毁坏，所以作者只好参考十年前的文字记录"
+      ],
+      "answerIndex": 0,
+      "explanation": "读清覆盖对象和容器内外范围；文本明确否定照片沾泥、沾灰，并且后文实际查看了照片。",
+      "vocabulary": [
+        {
+          "text": "公園",
+          "itemID": "v0184"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "終える",
+          "itemID": "vn5775"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "道具",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "小屋",
+          "itemID": "vn3l085"
+        },
+        {
+          "text": "戻す",
+          "itemID": "vn5768"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "雨",
+          "itemID": "v0083"
+        },
+        {
+          "text": "降る",
+          "itemID": "v0171"
+        },
+        {
+          "text": "靴",
+          "itemID": "v0209"
+        },
+        {
+          "text": "泥",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "入口",
+          "itemID": "v0295"
+        },
+        {
+          "text": "布",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "置く",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "遅れる",
+          "itemID": "vn4005"
+        },
+        {
+          "text": "床",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "足跡",
+          "itemID": "vn3b110"
+        },
+        {
+          "text": "付く",
+          "itemID": "vn6134"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "係",
+          "itemID": "vn4403"
+        },
+        {
+          "text": "メモ",
+          "itemID": "vn3a121"
+        },
+        {
+          "text": "道具",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "名前",
+          "itemID": "v0022"
+        },
+        {
+          "text": "置き場",
+          "itemID": "vn3n075"
+        },
+        {
+          "text": "質問",
+          "itemID": "v0095"
+        },
+        {
+          "text": "私",
+          "itemID": "v0013"
+        },
+        {
+          "text": "使う",
+          "itemID": "v0067"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "すぐ",
+          "itemID": "v0176"
+        },
+        {
+          "text": "答える",
+          "itemID": "vn5051"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "名前",
+          "itemID": "v0022"
+        },
+        {
+          "text": "紙",
+          "itemID": "v0213"
+        },
+        {
+          "text": "書く",
+          "itemID": "v0026"
+        },
+        {
+          "text": "棚",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "付ける",
+          "itemID": "vn4q001"
+        },
+        {
+          "text": "棚",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "奥",
+          "itemID": "vn6197"
+        },
+        {
+          "text": "箱",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "埃",
+          "itemID": "vn3j152"
+        },
+        {
+          "text": "外",
+          "itemID": "v0060"
+        },
+        {
+          "text": "拭く",
+          "itemID": "vn6142"
+        },
+        {
+          "text": "開ける",
+          "itemID": "v0304"
+        },
+        {
+          "text": "中",
+          "itemID": "v0059"
+        },
+        {
+          "text": "昔",
+          "itemID": "vn5986"
+        },
+        {
+          "text": "作業",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "写真",
+          "itemID": "v0097"
+        },
+        {
+          "text": "写真",
+          "itemID": "v0097"
+        },
+        {
+          "text": "袋",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "入れる",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "泥",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "埃",
+          "itemID": "vn3j152"
+        },
+        {
+          "text": "付く",
+          "itemID": "vn6134"
+        },
+        {
+          "text": "写真",
+          "itemID": "v0097"
+        },
+        {
+          "text": "見る",
+          "itemID": "v0029"
+        },
+        {
+          "text": "今",
+          "itemID": "v0004"
+        },
+        {
+          "text": "違う",
+          "itemID": "v0132"
+        },
+        {
+          "text": "場所",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "道具",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "並ぶ",
+          "itemID": "vn5227"
+        },
+        {
+          "text": "裏",
+          "itemID": "vn6201"
+        },
+        {
+          "text": "日付",
+          "itemID": "vn5980"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "新しい",
+          "itemID": "v0037"
+        },
+        {
+          "text": "係",
+          "itemID": "vn4403"
+        },
+        {
+          "text": "写真",
+          "itemID": "v0097"
+        },
+        {
+          "text": "参考",
+          "itemID": "vn3j185"
+        },
+        {
+          "text": "現在",
+          "itemID": "vn3k044"
+        },
+        {
+          "text": "置き場",
+          "itemID": "vn3n075"
+        },
+        {
+          "text": "実際",
+          "itemID": "vn4422"
+        },
+        {
+          "text": "確かめる",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "必要",
+          "itemID": "v0129"
+        },
+        {
+          "text": "言う",
+          "itemID": "v0168"
+        },
+        {
+          "text": "今日",
+          "itemID": "v0001"
+        },
+        {
+          "text": "棚",
+          "itemID": "vn5901"
+        },
+        {
+          "text": "右側",
+          "itemID": "vn3n029"
+        },
+        {
+          "text": "数える",
+          "itemID": "vn5769"
+        },
+        {
+          "text": "一覧",
+          "itemID": "vn3c056"
+        },
+        {
+          "text": "合う",
+          "itemID": "vn6160"
+        },
+        {
+          "text": "確認",
+          "itemID": "v0124"
+        },
+        {
+          "text": "左側",
+          "itemID": "vn3n040"
+        },
+        {
+          "text": "大きい",
+          "itemID": "v0039"
+        },
+        {
+          "text": "物",
+          "itemID": "vn5388"
+        },
+        {
+          "text": "多い",
+          "itemID": "v0175"
+        },
+        {
+          "text": "次",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "休み",
+          "itemID": "v0080"
+        },
+        {
+          "text": "調べる",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "全部",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "道具",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "調べる",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "終わる",
+          "itemID": "v0105"
+        },
+        {
+          "text": "帰る",
+          "itemID": "v0032"
+        },
+        {
+          "text": "前",
+          "itemID": "v0056"
+        },
+        {
+          "text": "床",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "泥",
+          "itemID": "vn3k067"
+        },
+        {
+          "text": "拭く",
+          "itemID": "vn6142"
+        },
+        {
+          "text": "汚れる",
+          "itemID": "vn6138"
+        },
+        {
+          "text": "布",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "洗う",
+          "itemID": "v0310"
+        },
+        {
+          "text": "持ち帰る",
+          "itemID": "vn3m049"
+        },
+        {
+          "text": "次",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "朝",
+          "itemID": "v0005"
+        },
+        {
+          "text": "入口",
+          "itemID": "v0295"
+        },
+        {
+          "text": "布",
+          "itemID": "vn4i173"
+        },
+        {
+          "text": "先",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "置く",
+          "itemID": "vn5053"
+        },
+        {
+          "text": "メモ",
+          "itemID": "vn3a121"
+        },
+        {
+          "text": "答え",
+          "itemID": "v0096"
+        },
+        {
+          "text": "分かる",
+          "itemID": "v0101"
+        },
+        {
+          "text": "項目",
+          "itemID": "vn3n088"
+        },
+        {
+          "text": "印",
+          "itemID": "vn3a126"
+        },
+        {
+          "text": "残る",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "質問",
+          "itemID": "v0095"
+        },
+        {
+          "text": "消す",
+          "itemID": "vn5244"
+        },
+        {
+          "text": "残す",
+          "itemID": "vn4145"
+        }
+      ],
+      "paragraphs": [
+        {
+          "sentenceIDs": [
+            "rn3118sa",
+            "rn3118sb",
+            "rn3118sc"
+          ],
+          "vocabulary": [
+            {
+              "text": "公園",
+              "itemID": "v0184"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "終える",
+              "itemID": "vn5775"
+            },
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "道具",
+              "itemID": "vn4622"
+            },
+            {
+              "text": "小屋",
+              "itemID": "vn3l085"
+            },
+            {
+              "text": "戻す",
+              "itemID": "vn5768"
+            },
+            {
+              "text": "朝",
+              "itemID": "v0005"
+            },
+            {
+              "text": "雨",
+              "itemID": "v0083"
+            },
+            {
+              "text": "降る",
+              "itemID": "v0171"
+            },
+            {
+              "text": "靴",
+              "itemID": "v0209"
+            },
+            {
+              "text": "泥",
+              "itemID": "vn3k067"
+            },
+            {
+              "text": "入口",
+              "itemID": "v0295"
+            },
+            {
+              "text": "布",
+              "itemID": "vn4i173"
+            },
+            {
+              "text": "置く",
+              "itemID": "vn5053"
+            },
+            {
+              "text": "遅れる",
+              "itemID": "vn4005"
+            },
+            {
+              "text": "床",
+              "itemID": "vn5903"
+            },
+            {
+              "text": "足跡",
+              "itemID": "vn3b110"
+            },
+            {
+              "text": "付く",
+              "itemID": "vn6134"
+            },
+            {
+              "text": "新しい",
+              "itemID": "v0037"
+            },
+            {
+              "text": "係",
+              "itemID": "vn4403"
+            },
+            {
+              "text": "メモ",
+              "itemID": "vn3a121"
+            },
+            {
+              "text": "道具",
+              "itemID": "vn4622"
+            },
+            {
+              "text": "名前",
+              "itemID": "v0022"
+            },
+            {
+              "text": "置き場",
+              "itemID": "vn3n075"
+            },
+            {
+              "text": "質問",
+              "itemID": "v0095"
+            },
+            {
+              "text": "私",
+              "itemID": "v0013"
+            },
+            {
+              "text": "使う",
+              "itemID": "v0067"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "すぐ",
+              "itemID": "v0176"
+            },
+            {
+              "text": "答える",
+              "itemID": "vn5051"
+            },
+            {
+              "text": "分かる",
+              "itemID": "v0101"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "名前",
+              "itemID": "v0022"
+            },
+            {
+              "text": "紙",
+              "itemID": "v0213"
+            },
+            {
+              "text": "書く",
+              "itemID": "v0026"
+            },
+            {
+              "text": "棚",
+              "itemID": "vn5901"
+            },
+            {
+              "text": "付ける",
+              "itemID": "vn4q001"
+            },
+            {
+              "text": "棚",
+              "itemID": "vn5901"
+            },
+            {
+              "text": "奥",
+              "itemID": "vn6197"
+            },
+            {
+              "text": "箱",
+              "itemID": "vn5131"
+            },
+            {
+              "text": "埃",
+              "itemID": "vn3j152"
+            },
+            {
+              "text": "外",
+              "itemID": "v0060"
+            },
+            {
+              "text": "拭く",
+              "itemID": "vn6142"
+            },
+            {
+              "text": "開ける",
+              "itemID": "v0304"
+            },
+            {
+              "text": "中",
+              "itemID": "v0059"
+            },
+            {
+              "text": "昔",
+              "itemID": "vn5986"
+            },
+            {
+              "text": "作業",
+              "itemID": "vn4413"
+            },
+            {
+              "text": "写真",
+              "itemID": "v0097"
+            },
+            {
+              "text": "写真",
+              "itemID": "v0097"
+            },
+            {
+              "text": "袋",
+              "itemID": "vn5055"
+            },
+            {
+              "text": "入れる",
+              "itemID": "vn5022"
+            },
+            {
+              "text": "泥",
+              "itemID": "vn3k067"
+            },
+            {
+              "text": "埃",
+              "itemID": "vn3j152"
+            },
+            {
+              "text": "付く",
+              "itemID": "vn6134"
+            }
+          ]
+        },
+        {
+          "sentenceIDs": [
+            "rn3118sd",
+            "rn3118se",
+            "rn3118sf"
+          ],
+          "vocabulary": [
+            {
+              "text": "写真",
+              "itemID": "v0097"
+            },
+            {
+              "text": "見る",
+              "itemID": "v0029"
+            },
+            {
+              "text": "今",
+              "itemID": "v0004"
+            },
+            {
+              "text": "違う",
+              "itemID": "v0132"
+            },
+            {
+              "text": "場所",
+              "itemID": "vn5946"
+            },
+            {
+              "text": "道具",
+              "itemID": "vn4622"
+            },
+            {
+              "text": "並ぶ",
+              "itemID": "vn5227"
+            },
+            {
+              "text": "裏",
+              "itemID": "vn6201"
+            },
+            {
+              "text": "日付",
+              "itemID": "vn5980"
+            },
+            {
+              "text": "前",
+              "itemID": "v0056"
+            },
+            {
+              "text": "新しい",
+              "itemID": "v0037"
+            },
+            {
+              "text": "係",
+              "itemID": "vn4403"
+            },
+            {
+              "text": "写真",
+              "itemID": "v0097"
+            },
+            {
+              "text": "参考",
+              "itemID": "vn3j185"
+            },
+            {
+              "text": "現在",
+              "itemID": "vn3k044"
+            },
+            {
+              "text": "置き場",
+              "itemID": "vn3n075"
+            },
+            {
+              "text": "実際",
+              "itemID": "vn4422"
+            },
+            {
+              "text": "確かめる",
+              "itemID": "vn6162"
+            },
+            {
+              "text": "必要",
+              "itemID": "v0129"
+            },
+            {
+              "text": "言う",
+              "itemID": "v0168"
+            },
+            {
+              "text": "今日",
+              "itemID": "v0001"
+            },
+            {
+              "text": "棚",
+              "itemID": "vn5901"
+            },
+            {
+              "text": "右側",
+              "itemID": "vn3n029"
+            },
+            {
+              "text": "数える",
+              "itemID": "vn5769"
+            },
+            {
+              "text": "一覧",
+              "itemID": "vn3c056"
+            },
+            {
+              "text": "合う",
+              "itemID": "vn6160"
+            },
+            {
+              "text": "確認",
+              "itemID": "v0124"
+            },
+            {
+              "text": "左側",
+              "itemID": "vn3n040"
+            },
+            {
+              "text": "大きい",
+              "itemID": "v0039"
+            },
+            {
+              "text": "物",
+              "itemID": "vn5388"
+            },
+            {
+              "text": "多い",
+              "itemID": "v0175"
+            },
+            {
+              "text": "次",
+              "itemID": "vn5039"
+            },
+            {
+              "text": "休み",
+              "itemID": "v0080"
+            },
+            {
+              "text": "調べる",
+              "itemID": "vn5753"
+            },
+            {
+              "text": "全部",
+              "itemID": "vn5024"
+            },
+            {
+              "text": "道具",
+              "itemID": "vn4622"
+            },
+            {
+              "text": "調べる",
+              "itemID": "vn5753"
+            },
+            {
+              "text": "終わる",
+              "itemID": "v0105"
+            },
+            {
+              "text": "帰る",
+              "itemID": "v0032"
+            },
+            {
+              "text": "前",
+              "itemID": "v0056"
+            },
+            {
+              "text": "床",
+              "itemID": "vn5903"
+            },
+            {
+              "text": "泥",
+              "itemID": "vn3k067"
+            },
+            {
+              "text": "拭く",
+              "itemID": "vn6142"
+            },
+            {
+              "text": "汚れる",
+              "itemID": "vn6138"
+            },
+            {
+              "text": "布",
+              "itemID": "vn4i173"
+            },
+            {
+              "text": "洗う",
+              "itemID": "v0310"
+            },
+            {
+              "text": "持ち帰る",
+              "itemID": "vn3m049"
+            },
+            {
+              "text": "次",
+              "itemID": "vn5039"
+            },
+            {
+              "text": "朝",
+              "itemID": "v0005"
+            },
+            {
+              "text": "入口",
+              "itemID": "v0295"
+            },
+            {
+              "text": "布",
+              "itemID": "vn4i173"
+            },
+            {
+              "text": "先",
+              "itemID": "vn5021"
+            },
+            {
+              "text": "置く",
+              "itemID": "vn5053"
+            },
+            {
+              "text": "メモ",
+              "itemID": "vn3a121"
+            },
+            {
+              "text": "答え",
+              "itemID": "v0096"
+            },
+            {
+              "text": "分かる",
+              "itemID": "v0101"
+            },
+            {
+              "text": "項目",
+              "itemID": "vn3n088"
+            },
+            {
+              "text": "印",
+              "itemID": "vn3a126"
+            },
+            {
+              "text": "残る",
+              "itemID": "vn4127"
+            },
+            {
+              "text": "質問",
+              "itemID": "v0095"
+            },
+            {
+              "text": "消す",
+              "itemID": "vn5244"
+            },
+            {
+              "text": "残す",
+              "itemID": "vn4145"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rn3118qa",
+          "prompt": "箱子ほこりだらけ与照片的状态是什么关系？",
+          "choices": [
+            "箱外灰尘很多，但袋中的照片没有沾灰，也没有沾泥",
+            "箱子里外和照片都同样沾满灰尘，只是还没擦",
+            "照片已被泥毁坏，所以作者只好参考十年前的文字记录"
+          ],
+          "answerIndex": 0,
+          "explanation": "读清覆盖对象和容器内外范围；文本明确否定照片沾泥、沾灰，并且后文实际查看了照片。",
+          "evidenceSentenceIDs": [
+            "rn3118sc",
+            "rn3118sd"
+          ],
+          "ability": "causalRelation"
+        },
+        {
+          "id": "rn3118qb",
+          "prompt": "整理结束时，哪些信息已得到确认？",
+          "choices": [
+            "左侧工具缺失，右侧尚未清点，所以决定次日重建清单",
+            "架子右侧数量与清单相符；左侧和部分备忘问题仍待查",
+            "全部工具都在十年前照片所示的位置，问题已全部消除"
+          ],
+          "answerIndex": 1,
+          "explanation": "清点、旧照片和备忘各自提供不同范围的信息；问题多不等于工具缺失多，右侧确认不能扩大到整个小屋。",
+          "evidenceSentenceIDs": [
+            "rn3118sb",
+            "rn3118sd",
+            "rn3118se",
+            "rn3118sf"
+          ],
+          "ability": "evidence"
+        }
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创分级短文与题目 rn3118；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "status": "Selected dictionary meanings and original contexts checked; registered source, not independently language-reviewed; no new IPA.",
+  "baselineCommit": "0e277d9acb77a36db56619567c194d6014decd00",
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA 4.0",
+    "attribution": "JMdict / EDRDG; original examples and Chinese; no external example or dictionary audio copied."
+  },
+  "independentlyReviewed": 0,
+  "entries": [
+    {
+      "itemID": "vn4r001",
+      "text": "まとめる",
+      "primaryReading": "まとめる",
+      "authoredMeaning": "整理、归纳；把信息、想法等按要点组织起来",
+      "entryID": 1440930,
+      "currentSenseOrdinals": [
+        2
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "sourceType": "listed",
+          "acceptedReading": "まとめる",
+          "entryID": 1440930,
+          "senseOrdinals": [
+            2
+          ],
+          "sourceSpellings": [
+            "纏める"
+          ],
+          "readingFacts": [
+            {
+              "reading": "まとめる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4r001a",
+        "svn4r001b"
+      ],
+      "reviewedScope": "Independently authored contexts for this selected meaning; no sharing of meaning mastery with other senses.",
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn4r002",
+      "text": "まとめる",
+      "primaryReading": "まとめる",
+      "authoredMeaning": "集中、一起处理；以まとめて表示把多项放在同一次行动中",
+      "entryID": 1440930,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "readingRestrictions": [],
+          "spellingRestrictions": [],
+          "notes": [],
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ]
+        }
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "sourceType": "listed",
+          "acceptedReading": "まとめる",
+          "entryID": 1440930,
+          "senseOrdinals": [
+            1
+          ],
+          "sourceSpellings": [
+            "纏める"
+          ],
+          "readingFacts": [
+            {
+              "reading": "まとめる",
+              "spellingRestrictions": [],
+              "information": [],
+              "nokanji": false
+            }
+          ]
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4r002a",
+        "svn4r002b"
+      ],
+      "reviewedScope": "Independently authored contexts for this selected meaning; no sharing of meaning mastery with other senses.",
+      "lexemeID": "vn4r001",
+      "readingOwnerID": "vn4r001"
+    }
+  ],
+  "roots": 1,
+  "targets": 2,
+  "additionalSenses": 1,
+  "contexts": 4,
+  "lessons": 1,
+  "wordManuscript": "content/authoring/n4-similarity-sense-prerequisites.tsv",
+  "manuscriptSHA256": "371333e35715c41707caa7a17d0b038491f17424c230273c1c40ba47f4e34df6",
+  "checkedDate": "2026-11-17",
+  "supplementarySemanticFacts": [
+    {
+      "expression": "まとめて",
+      "entryID": 2750270,
+      "currentSenseOrdinals": [
+        1
+      ],
+      "scope": "Batch-action use ofまとめるのて形; no extra root for an inflected form."
+    }
+  ],
+  "registeredVersion": "0.20.0"
+}

@@ -10,6 +10,8 @@ D: word id, a short sense cue needed to disambiguate an isolated spelling.
 N: word id, an authored usage note appended to the explanation.
 R: word id, register or politeness label.
 G: word id, canonical word id (an additional, independently trained sense).
+J: word id, checked JMdict entry number, source locator. Explicitly allows an
+   additional sense to use a different written form from its canonical word.
 This compiler never manufactures sentences or translates source material.
 """
 import argparse
@@ -24,6 +26,7 @@ from word_links import kana, validate_lexemes, word_lookup
 
 def compile_manuscript(path, pack):
     lessons, words, examples, alternatives, cues, notes, registers, owners = {}, {}, {}, {}, {}, {}, {}, {}
+    identities = {}
     level, has_header = "N5", False
     for number, line in enumerate(path.read_text().splitlines(), 1):
         if not line or line.startswith("#"): continue
@@ -68,15 +71,20 @@ def compile_manuscript(path, pack):
                 _, wid, owner = fields
                 assert wid not in owners and wid != owner
                 owners[wid] = owner
-            else: raise ValueError("expected H, L, W, E, A, D, N, R or G")
+            elif fields[0] == "J":
+                _, wid, entry, locator = fields
+                assert wid not in identities and int(entry) > 0 and locator
+                identities[wid] = (int(entry), locator)
+            else: raise ValueError("expected H, L, W, E, A, D, N, R, G or J")
         except (ValueError, AssertionError) as error:
             raise ValueError(f"{path}:{number}: {error}") from error
-    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes) | set(registers) | set(owners)) <= words.keys()
+    assert all(wid in words for wid, _ in examples) and (set(alternatives) | set(cues) | set(notes) | set(registers) | set(owners) | set(identities)) <= words.keys()
     indexed = [w for w in pack["items"] if w["kind"] == "word" and w["id"] not in words]
     for word in words.values():
         if word["id"] in alternatives:
             word["acceptedReadings"] = alternatives[word["id"]][0]
         if word["id"] in owners: word["lexemeID"] = owners[word["id"]]
+        if word["id"] in identities: word["jmdictEntryID"] = identities[word["id"]][0]
         assert word["lessonID"] in lessons
     indexed.extend(words.values())
     by_id = {w["id"]: w for w in indexed}
@@ -84,7 +92,7 @@ def compile_manuscript(path, pack):
         owner = by_id.get(owner_id)
         assert owner, (wid, "invalid lexeme owner")
         own = words[wid]
-        if {kana(x) for x in [own["reading"]] + own.get("acceptedReadings", [])} == {kana(x) for x in [owner["reading"]] + owner.get("acceptedReadings", [])}:
+        if own["text"] == owner["text"] and {kana(x) for x in [own["reading"]] + own.get("acceptedReadings", [])} == {kana(x) for x in [owner["reading"]] + owner.get("acceptedReadings", [])}:
             own["readingOwnerID"] = owner_id
     validate_lexemes(indexed)
     lookup = word_lookup(indexed)
@@ -116,6 +124,12 @@ def compile_manuscript(path, pack):
             batch["items"][-1]["sourceIDs"].append(source)
             batch["items"][-1]["citations"].append(dict(sourceID=source, locator=locator, status="reference"))
         if wid in cues: batch["items"][-1]["readingCue"] = cues[wid]
+        if wid in identities:
+            entry, locator = identities[wid]
+            batch["items"][-1]["jmdictEntryID"] = entry
+            if "jmdict" not in batch["items"][-1]["sourceIDs"]: batch["items"][-1]["sourceIDs"].append("jmdict")
+            batch["items"][-1]["citations"] = batch["items"][-1]["citations"] + [
+                dict(sourceID="jmdict", locator=f"JMdict entry {entry}；{locator}", status="sourceChecked")]
         if wid in notes: batch["items"][-1]["explanation"] += "\n" + notes[wid]
         if wid in owners:
             batch["items"][-1]["lexemeID"] = owners[wid]

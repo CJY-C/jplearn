@@ -1,0 +1,258 @@
+{
+  "status": "source-checked trial; native and independent language review pending",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "ce7ab1db6e0c8c6acb5a55276812f8058dea48e6",
+  "baselineRuntimeSHA256": "3ba918a46280d3a51d31c52c62f42f9dd9843901b1bc4b9fc0116633c26cf0b5",
+  "ruleSource": "content/learning-rules.json",
+  "sourceSHA256": "ebb576f9dc7f53420436f7bde4313d56cb6f356c7c8e51aa077872f157b802b4",
+  "newRuleIDs": [
+    "ruleverbforms",
+    "ruleadjectiveforms"
+  ],
+  "newReferences": [
+    {
+      "id": "tufsverbclass",
+      "title": "東京外国語大学：動詞の３種類",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html"
+    },
+    {
+      "id": "tufsverbte",
+      "title": "東京外国語大学：Vて（て形）",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html"
+    },
+    {
+      "id": "tufsverbplain",
+      "title": "東京外国語大学：普通形の体系",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+    },
+    {
+      "id": "tufsadjectiveforms",
+      "title": "東京外国語大学：形容詞の普通形",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/040.html"
+    }
+  ],
+  "newPracticeSets": 6,
+  "newQuestions": 24,
+  "newLexicalRoots": 0,
+  "newGrammarFunctions": 0,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "scopeNotes": [
+    "Original Chinese explanations, questions and scene sentence; selected morphological facts checked against TUFS, no upstream example sentences/audio copied.",
+    "Productive forms are not independent lexemes or new grammar-function counts. Lemma reading, meanings, senses and pitch accents remain independent; no regularItemIDs added.",
+    "Whole-round unassisted evidence and delayed different-set verification continue to apply; three fixed sets are not unlimited unseen items.",
+    "Known word prerequisites are the literal listed words, not numeric knowledge. New forms teach no implicit vocabulary mastery.",
+    "Old resource collections and first five rules stay byte-equivalent as JSON values; only two rules and four citations are appended.",
+    "Full N5–N2 scope and native release gates remain unchanged."
+  ],
+  "dictionaryClassCheck": {
+    "sourceID": "jmdict",
+    "distributionDate": "2026-11-16",
+    "sourceSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "scope": "Select the intended lexical entry, not all homophones: する means doing, いい means good. No dictionary definitions or example sentences bundled.",
+    "entries": [
+      {
+        "word": "待つ",
+        "entryID": 1410590,
+        "partOfSpeech": [
+          "Godan verb with 'tsu' ending",
+          "transitive verb",
+          "intransitive verb"
+        ]
+      },
+      {
+        "word": "遊ぶ",
+        "entryID": 1542160,
+        "partOfSpeech": [
+          "Godan verb with 'bu' ending",
+          "intransitive verb"
+        ]
+      },
+      {
+        "word": "書く",
+        "entryID": 1343950,
+        "partOfSpeech": [
+          "Godan verb with 'ku' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "来る",
+        "entryID": 1547720,
+        "partOfSpeech": [
+          "Kuru verb - special class",
+          "intransitive verb",
+          "auxiliary verb"
+        ]
+      },
+      {
+        "word": "泳ぐ",
+        "entryID": 1174340,
+        "partOfSpeech": [
+          "Godan verb with 'gu' ending",
+          "intransitive verb"
+        ]
+      },
+      {
+        "word": "話す",
+        "entryID": 1562350,
+        "partOfSpeech": [
+          "Godan verb with 'su' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "借りる",
+        "entryID": 1323560,
+        "partOfSpeech": [
+          "Ichidan verb",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "帰る",
+        "entryID": 1221270,
+        "partOfSpeech": [
+          "Godan verb with 'ru' ending",
+          "intransitive verb"
+        ]
+      },
+      {
+        "word": "行く",
+        "entryID": 1578850,
+        "partOfSpeech": [
+          "Godan verb - Iku/Yuku special class",
+          "intransitive verb",
+          "auxiliary verb"
+        ]
+      },
+      {
+        "word": "買う",
+        "entryID": 1473740,
+        "partOfSpeech": [
+          "Godan verb with 'u' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "食べる",
+        "entryID": 1358280,
+        "partOfSpeech": [
+          "Ichidan verb",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "読む",
+        "entryID": 1456360,
+        "partOfSpeech": [
+          "Godan verb with 'mu' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "呼ぶ",
+        "entryID": 1266440,
+        "partOfSpeech": [
+          "Godan verb with 'bu' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "飲む",
+        "entryID": 1169870,
+        "partOfSpeech": [
+          "Godan verb with 'mu' ending",
+          "transitive verb"
+        ]
+      },
+      {
+        "word": "する",
+        "entryID": 1157170,
+        "partOfSpeech": [
+          "suru verb - included",
+          "intransitive verb",
+          "transitive verb",
+          "suffix",
+          "auxiliary verb"
+        ]
+      },
+      {
+        "word": "新しい",
+        "entryID": 1361490,
+        "partOfSpeech": [
+          "adjective (keiyoushi)"
+        ]
+      },
+      {
+        "word": "寒い",
+        "entryID": 1210360,
+        "partOfSpeech": [
+          "adjective (keiyoushi)"
+        ]
+      },
+      {
+        "word": "静か",
+        "entryID": 1381820,
+        "partOfSpeech": [
+          "adjectival nouns or quasi-adjectives (keiyodoshi)"
+        ]
+      },
+      {
+        "word": "いい",
+        "entryID": 2820690,
+        "partOfSpeech": [
+          "adjective (keiyoushi) - yoi/ii class"
+        ]
+      },
+      {
+        "word": "高い",
+        "entryID": 1283190,
+        "partOfSpeech": [
+          "adjective (keiyoushi)"
+        ]
+      },
+      {
+        "word": "きれい",
+        "entryID": 1591900,
+        "partOfSpeech": [
+          "adjectival nouns or quasi-adjectives (keiyodoshi)"
+        ]
+      },
+      {
+        "word": "安い",
+        "entryID": 1153670,
+        "partOfSpeech": [
+          "adjective (keiyoushi)"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "date": "2026-11-19",
+    "contentTests": 88,
+    "manuscripts": 81,
+    "portableSwiftTests": 70,
+    "portableRuleTests": 20,
+    "practiceReadingRotation": 250,
+    "oldRulesPreserved": 5,
+    "sourceRebuildMatchesResource": true,
+    "portableProductionSourcesAndResourceByteIdentical": true,
+    "runtimeSHA256": "08b3467d612ee307c50ba3c42d9d64a07d87abcfc146ae4ead3e4b8d684f9abc",
+    "historicalN2AndN3AssociationAuditsPass": true,
+    "appSwiftSyntaxParsed": true,
+    "nativeIOSCompiled": false,
+    "appIntegrationAndSE3TestsExecuted": false,
+    "independentLanguageReviews": 0,
+    "platform": "Linux, Swift5.10.1; isolated system timezone and entropy devices provided",
+    "artifacts": [
+      "build/artifacts/0.20.0/rule-transfer-content-tests.log",
+      "build/artifacts/0.20.0/rule-transfer-core-tests.log"
+    ],
+    "notes": [
+      "Portable harness excludes Apple CryptoKit ArchiveCodec; syntax parsing does not type-check SwiftUI or compile an iOS app.",
+      "Existing GitHub Actions quota limitation remains; no manual rebuild or release bypass requested."
+    ]
+  },
+  "subsequentAssociationRevisionLedger": "content/source-checks/n2-evidence-chapter.json"
+}

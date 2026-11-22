@@ -1,0 +1,126 @@
+{
+  "status": "Six further meanings and98 reviewed associations registered with the chapter; source checks passed; independent language review0; no new IPA.",
+  "checkedDate": "2026-11-17",
+  "baselineCommit": "0e277d9acb77a36db56619567c194d6014decd00",
+  "independentlyReviewed": 0,
+  "additionalTargets": [
+    "vn4r001",
+    "vn4r002",
+    "vn3l123",
+    "vn3l124",
+    "vn3m066",
+    "vn3m067"
+  ],
+  "additionalOriginalContexts": 12,
+  "newWordRootsNet": 0,
+  "rootPolicy": "The N4 information-summary root vn4r001 is taught before the former N3 physical-gathering root vn3n007. The latter becomes its independent sense, so the combined root total stays278. Batch-actionまとめて is a verb-form use and adds no root.",
+  "currentDraft": {
+    "roots": 278,
+    "wordTargets": 286,
+    "additionalSenses": 8,
+    "wordContexts": 572,
+    "wordLessons": 36,
+    "n3Roots": 277,
+    "n4Roots": 1,
+    "grammarFunctions": 33,
+    "grammarContexts": 198,
+    "readings": 20,
+    "assessmentReadings": 4
+  },
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36"
+  },
+  "supplementarySourcesRead": [
+    {
+      "url": "https://kotobank.jp/word/%E5%BD%93%E3%82%8B-425374",
+      "publisher": "小学館 デジタル大辞泉, licensed on Kotobank",
+      "sections": [
+        "1㋐–㋒",
+        "3㋐"
+      ],
+      "facts": "Physical impact, reception of light/heat/wind, and a prediction proving right are checked separately; none of the dictionary examples is copied."
+    },
+    {
+      "url": "https://kotobank.jp/word/%E7%BA%8F%E3%82%81%E3%82%8B-635287",
+      "publisher": "小学館 デジタル大辞泉, licensed on Kotobank",
+      "sections": [
+        "1–3"
+      ],
+      "facts": "Gathering, organizing information, and settling negotiations are different contextual uses; the latter is not silently taught through the former two."
+    },
+    {
+      "url": "https://kotobank.jp/jaesword/%E7%BA%8F%E3%82%81%E3%82%8B",
+      "publisher": "小学館 和西辞典, licensed on Kotobank",
+      "sections": [
+        "まとめて"
+      ],
+      "facts": "The batch-action expression is explicitly listed. Own original contexts distinguish it from producing a summary."
+    },
+    {
+      "url": "https://kotobank.jp/word/%E6%96%B9%E5%90%91-627461",
+      "publisher": "小学館 デジタル大辞泉, licensed on Kotobank",
+      "sections": [
+        "1–2"
+      ],
+      "facts": "Spatial direction versus course of action or thought."
+    },
+    {
+      "url": "https://kotobank.jp/word/%E5%A0%B4-112620",
+      "publisher": "小学館 デジタル大辞泉, licensed on Kotobank",
+      "sections": [
+        "名1–4"
+      ],
+      "facts": "Physical location versus communicative situation/occasion; not all senses or fields imported."
+    }
+  ],
+  "sourceScope": "Only dictionary facts were checked. Chinese meanings, explanations and all new examples are original, CC BY-SA4.0. No publisher example, extended definition, illustration, audio or full dictionary is bundled.",
+  "reviewedOldAssociations": {
+    "total": 98,
+    "newAssociations": 94,
+    "preserveCityAssociations": 4,
+    "redirectWrongSense": 10,
+    "applied": 98,
+    "preflightCommand": "python3 content/staging/check_n3_prior_links.py"
+  },
+  "runtimeResourceUnchanged": false,
+  "runtimeResourceSHA256": "13b08ee97fdcd5c3ab004b2a6961ea865cb076b985334f84711cedf5b816f6a9",
+  "remaining": [
+    "Native iOS integration, SE3 layouts and device audio tests; package and release after build succeeds.",
+    "Complete the additional N2 curriculum, six original-reading bridges and sourced pronunciation extension.",
+    "Independent Japanese language review."
+  ],
+  "manuscripts": {
+    "content/authoring/n3-boundaries-and-near-misses.tsv": "a3294e391bd79f76df33ef1262e26d649ef16e6062f18f521c411e9a1c3f8059",
+    "content/authoring/n3-completion-and-inception.tsv": "ae46349677e3f967696c4be8684c6e7ac0ebac1a16904907bfa70cd8e5f235b6",
+    "content/authoring/n3-models-and-correspondence.tsv": "1b323f260d6455fd6bdac0585911184352c2724c02d83b213c2e99b4b3b3d434",
+    "content/authoring/n3-retrial-and-difficulty.tsv": "261e7ed14ee792d84a0df9d6cdfadc0e8cd51d852736f3e1671268c94a7c1852",
+    "content/authoring/n3-similarity-and-tendencies.tsv": "fd2794d19381f077a9ba4b828d0883d8b10a7301ddd3a50be018d56e9162281c",
+    "content/authoring/n3-similarity-assessment-readings.tsv": "efac9ef367894b72bc782f6ad5c9ca7f6ce180cfe39421bc518513cb7e67f40f",
+    "content/authoring/n3-similarity-choice-readings.tsv": "657d662860e365dedba38e22544809f5eb0fec875e778b200b1912d45acec175",
+    "content/authoring/n3-similarity-evidence-readings.tsv": "48bba1138e3f48df8908588c01f23f2cd119b7d70cac1a4ac969f4a749860899",
+    "content/authoring/n3-similarity-extensions.tsv": "788abc0f55fb0076d312b9677f892d5218d939915ae13eaec737067fb9433aff",
+    "content/authoring/n3-similarity-market-readings.tsv": "09fa3e82e30b440a2be8a88aa08942dd06135d852827eeabfdf992ea8e26f2ea",
+    "content/authoring/n3-similarity-prerequisite-words.tsv": "afed3e5486114cb297d1e7cd6c9c25423058570413da29bb0d02095f530bc056",
+    "content/authoring/n3-similarity-reading-prerequisite-words.tsv": "e317d9d7d3cb66b2045677986f64eaa0e58c7865cd62d279337680d6aee43fff",
+    "content/authoring/n3-similarity-readings.tsv": "fc604cb9ca04ac5b490dc093b084bbb019f8daba065e4b47a26590a7e9e2efbb",
+    "content/authoring/n3-similarity-revision-readings.tsv": "4d30d3e9b256387325fd7606b38beda084bd43ccb2c25243735c35cc14be1b62",
+    "content/authoring/n3-similarity-social-readings.tsv": "2eae813ccf08d741eb88cef33a336a6ec04ef52b65976b1808f171d183d03495",
+    "content/authoring/n3-similarity-story-readings.tsv": "7cf014115be255d780e81625d005bf68f40047057c64e8f4d379465010ca8e7c",
+    "content/authoring/n3-similarity-theme-words.tsv": "3c9ce4b9a3d435a46fb3b892cebaceeaae9e67329a56d18a2d4107dfbe2dd606",
+    "content/authoring/n3-similarity-work-readings.tsv": "4316be41b079abbe65afd3cf9a836fcce3e4666cc787ae6f9fcef4e45bdef846",
+    "content/authoring/n3-state-and-surface.tsv": "4cbc8d9ed05ef715e56690565371966cf016adb4a6fc380deae72ec809921e62",
+    "content/authoring/n3-tendency-and-coverage.tsv": "3d7c365ba05cbb59735365b21818c08517727950cdf2e4b70950f69f77e6bbda",
+    "content/authoring/n4-similarity-sense-prerequisites.tsv": "371333e35715c41707caa7a17d0b038491f17424c230273c1c40ba47f4e34df6"
+  },
+  "existingDraftReadingGrammarTextQuestionsAnswersAndIDsPreserved": true,
+  "properNameDeclaration": {
+    "readingID": "rn3130",
+    "spelling": "ミオ",
+    "reading": "みお",
+    "occurrences": 4,
+    "status": "Explicit declaration and6 Python/4 native core regression cases passed;4 occurrences remain unknown."
+  },
+  "baselineRuntimeResourceSHA256": "e2f16afe76e55363cd777d00c4f3820d068fad35601f0cb53daf8af6b2ef530b"
+}

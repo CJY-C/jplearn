@@ -1,0 +1,180 @@
+{
+  "status": "Registered trial source; structure, source facts and isolation checked; independent language review0",
+  "manuscript": "content/authoring/n2-context-and-mediation.tsv",
+  "manuscriptSHA256": "9d60191ae11bf9a55daca27a52357f848e8fab974328c4dbb1e10cd382e40026",
+  "baselineRuntimeVersion": "0.20.0",
+  "baselineRuntimeSHA256": "85b104217dc88e82654c1c5ae7f1a6eca13741610968a827c3b545ca1de7e449",
+  "runtimeResourceSHA256": "15725eb28eab56086803e50df37cd24d01e633c8a52972aaea8cc249586da4af",
+  "sourceReconstructionExcludesOwnBatches": true,
+  "draftGrammarFunctions": 13,
+  "draftOriginalContexts": 78,
+  "draftExercises": 78,
+  "draftLessons": 13,
+  "draftReferencePatterns": {
+    "ni-oite-ni-okeru": [
+      "gn2a001",
+      "gn2a002",
+      "gn2a003"
+    ],
+    "o-tsuujite-o-tooshite": [
+      "gn2a004",
+      "gn2a005"
+    ],
+    "to-wa-kagiranai": [
+      "gn2a006"
+    ],
+    "ta-tokoro": [
+      "gn2a007"
+    ],
+    "ni-mukete": [
+      "gn2a008",
+      "gn2a009"
+    ],
+    "ue-de": [
+      "gn2a010",
+      "gn2a011",
+      "gn2a012",
+      "gn2a013"
+    ]
+  },
+  "registeredNewN2Targets": 117,
+  "wordRoots": 119,
+  "wordTargets": 128,
+  "n2WordRoots": 101,
+  "n4FoundationRoots": 6,
+  "n3FoundationRoots": 12,
+  "wordContexts": 256,
+  "wordLessons": 22,
+  "earlierOwnContextsHaveNoLaterLevelLinkedTargets": true,
+  "wordManuscripts": {
+    "content/authoring/n4-context-foundation-words.tsv": "61828dafd01d3e1ce0bdc0bc0c6d39f7ac0de22ddc854c9549f1a7dd52197ff1",
+    "content/authoring/n3-context-foundation-words.tsv": "d9666a96cc18987e4f2c0585729c9ee0b8122bf829b154426d2f9868fec7f182",
+    "content/authoring/n2-information-and-documents.tsv": "df49fd80cb634391cee794ae50e66a22e4f15ab12213900e84822b207398cd38",
+    "content/authoring/n2-context-prerequisite-words.tsv": "3017e1487ba0a98df407b01b6fe83a99fa9912358a5f7535d208bf9d536d37e2",
+    "content/authoring/n2-context-reading-words.tsv": "7eb7f4d8d3722d49f5966ea4411bde3ce3a4edb80847902befb6308cc20088d0"
+  },
+  "readingManuscript": "content/authoring/n2-context-readings.tsv",
+  "readingManuscriptSHA256": "f1e685c2af9927c7977d7786fe33b7150ff15f610569d8e589c064d7682f4ea6",
+  "readings": 5,
+  "practiceReadings": 4,
+  "assessmentReadings": 1,
+  "readingQuestions": 10,
+  "allDraftFunctionsUsedInOrdinaryReadings": true,
+  "ordinaryFunctionWitnesses": {
+    "gn2a001": {
+      "sentenceID": "rn2001sa",
+      "surface": "資料館において開催"
+    },
+    "gn2a002": {
+      "sentenceID": "rn2002sa",
+      "surface": "時代における生活"
+    },
+    "gn2a003": {
+      "sentenceID": "rn2001sc",
+      "surface": "分かりやすさにおいては"
+    },
+    "gn2a004": {
+      "sentenceID": "rn2003sb",
+      "surface": "作業を通して確かめる"
+    },
+    "gn2a005": {
+      "sentenceID": "rn2003sc",
+      "surface": "二か月間を通じて"
+    },
+    "gn2a006": {
+      "sentenceID": "rn2002sc",
+      "surface": "すべて起きたとは限らない"
+    },
+    "gn2a007": {
+      "sentenceID": "rn2001sc",
+      "surface": "案内を改訂したところ"
+    },
+    "gn2a008": {
+      "sentenceID": "rn2004sc",
+      "surface": "誰に向けた発言"
+    },
+    "gn2a009": {
+      "sentenceID": "rn2003sf",
+      "surface": "次の公演に向けて"
+    },
+    "gn2a010": {
+      "sentenceID": "rn2003sf",
+      "surface": "応用するうえでは"
+    },
+    "gn2a011": {
+      "sentenceID": "rn2004sa",
+      "surface": "確認した上で、二つの訳文を比べる"
+    },
+    "gn2a012": {
+      "sentenceID": "rn2001sb",
+      "surface": "地図の上では"
+    },
+    "gn2a013": {
+      "sentenceID": "rn2004sc",
+      "surface": "仕事の上では"
+    }
+  },
+  "completeDraftPackValidated": true,
+  "passageChecks": [
+    {
+      "id": "rn2001",
+      "purpose": "practice",
+      "characters": 520,
+      "annotatedOccurrences": 119,
+      "unlinkedOccurrences": 0
+    },
+    {
+      "id": "rn2002",
+      "purpose": "practice",
+      "characters": 495,
+      "annotatedOccurrences": 120,
+      "unlinkedOccurrences": 0
+    },
+    {
+      "id": "rn2003",
+      "purpose": "practice",
+      "characters": 528,
+      "annotatedOccurrences": 121,
+      "unlinkedOccurrences": 0
+    },
+    {
+      "id": "rn2004",
+      "purpose": "practice",
+      "characters": 535,
+      "annotatedOccurrences": 122,
+      "unlinkedOccurrences": 0
+    },
+    {
+      "id": "rn2005",
+      "purpose": "assessment",
+      "characters": 515,
+      "annotatedOccurrences": 123,
+      "unlinkedOccurrences": 0
+    }
+  ],
+  "readingRulePrerequisites": {
+    "rn2002": [
+      {
+        "ruleID": "rulemonth",
+        "questionIDs": [
+          "rulemonths1q3"
+        ]
+      }
+    ]
+  },
+  "unresolvedReadingForms": 0,
+  "readingGaps": {},
+  "unresolvedWordExampleForms": 0,
+  "wordExampleGaps": {},
+  "readingRegistrationReady": true,
+  "heldoutFragmentCharacters": 20,
+  "heldoutLeaks": 0,
+  "unresolvedForms": 0,
+  "gaps": {},
+  "independentLanguageReviews": 0,
+  "remaining": [
+    "Complete the remaining additionalN2 roots/functions/readings and all six bridges; chapter registration is not fullN2 completion.",
+    "Run native iOS integration,SE3,archive and device/voice checks; no new IPA is implied by source registration.",
+    "Independent Japanese language review remains0; source and structural checks do not certify language quality."
+  ]
+}

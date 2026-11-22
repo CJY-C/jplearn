@@ -1,0 +1,3886 @@
+{
+  "items": [
+    {
+      "id": "gn3b023",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加切る／切れない：做到底与无法做完",
+      "reading": "切る、切った、切れる、切れない",
+      "romaji": "kiru kitta kireru kirenai",
+      "meaning": "区分完成全部、没有做完与无法完成，不把读完等同完全理解",
+      "explanation": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict",
+        "ninjalcomp"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn419",
+        "gn412"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b023a",
+        "sgn3b023b",
+        "sgn3b023c",
+        "sgn3b023d",
+        "sgn3b023e",
+        "sgn3b023f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b024",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加切る：状态或程度达到极点",
+      "reading": "疲れ切る、困り切る、澄み切る",
+      "romaji": "tsukarekiru komarikiru sumikiru",
+      "meaning": "辨认强烈状态，不把程度极点误读成状态结束或永远不变",
+      "explanation": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "ninjalcomp"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b023",
+        "gn3b020"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b024a",
+        "sgn3b024b",
+        "sgn3b024c",
+        "sgn3b024d",
+        "sgn3b024e",
+        "sgn3b024f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    },
+    {
+      "id": "gn3b025",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加かける／かけの：着手而尚未完成",
+      "reading": "かける、かけた、かけの",
+      "romaji": "kakeru kaketa kake no",
+      "meaning": "看清已经开始的部分和仍未完成的整体",
+      "explanation": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn419",
+        "gn412"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b025a",
+        "sgn3b025b",
+        "sgn3b025c",
+        "sgn3b025d",
+        "sgn3b025e",
+        "sgn3b025f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1002
+    },
+    {
+      "id": "gn3b026",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "动词加かける：变化临近而未必完成",
+      "reading": "かける、かけた、かけている",
+      "romaji": "kakeru kaketa kakete iru",
+      "meaning": "从变化临近读出风险或迹象，不把临界状态直接读成结果实现",
+      "explanation": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "ninjalcomp"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b025",
+        "gn455"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b026a",
+        "sgn3b026b",
+        "sgn3b026c",
+        "sgn3b026d",
+        "sgn3b026e",
+        "sgn3b026f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1003
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b023a",
+      "segments": [
+        {
+          "text": "週末",
+          "reading": "しゅうまつ",
+          "itemID": "v0260"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長編",
+          "reading": "ちょうへん",
+          "itemID": "vn3c054"
+        },
+        {
+          "text": "小説",
+          "reading": "しょうせつ",
+          "itemID": "vn5566"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読み",
+          "reading": "よみ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "りましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結末",
+          "reading": "けつまつ",
+          "itemID": "vn4447"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意味",
+          "reading": "いみ",
+          "itemID": "v0163"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "考",
+          "reading": "かんが",
+          "itemID": "v0165"
+        },
+        {
+          "text": "えています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "周末我把长篇小说读完了，但还在思考结局的含义。",
+      "explanation": "完成的是阅读到末尾这一动作；后句明确意义理解仍在继续，不将动作完成等同完全理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b023b",
+      "segments": [
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きなパンを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一人",
+          "reading": "ひとり",
+          "itemID": null
+        },
+        {
+          "text": "では",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食べ",
+          "reading": "たべ",
+          "itemID": "v0033"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "れなかったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "半分",
+          "reading": "はんぶん",
+          "itemID": "vn5359"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持ち帰",
+          "reading": "もちかえ",
+          "itemID": "vn3m049"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这么大的面包，我一个人吃不完，于是把剩下的一半带回了家。",
+      "explanation": "切れなかった是完成可能的过去否定；剩下半个提供了未吃完的事实，不是说一口未吃。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b023c",
+      "segments": [
+        {
+          "text": "取材",
+          "reading": "しゅざい",
+          "itemID": "vn3a034"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電池",
+          "reading": "でんち",
+          "itemID": "vn5916"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使い",
+          "reading": "つかい",
+          "itemID": "v0067"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "ったので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "録音",
+          "reading": "ろくおん",
+          "itemID": "vn4957"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予備",
+          "reading": "よび",
+          "itemID": "vn3m050"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "です。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "采访用的电池已经耗尽，下午录音需要备用电池。",
+      "explanation": "切る表示所说范围用完；不把该电池状态推广到未提及的备用品，更不把未来准备读成完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b023d",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "中",
+          "reading": "じゅう",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "全部",
+          "reading": "ぜんぶ",
+          "itemID": "vn5024"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書き",
+          "reading": "かき",
+          "itemID": "v0026"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "れるかどうかは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "分",
+          "reading": "わ",
+          "itemID": "v0101"
+        },
+        {
+          "text": "かりません。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "がかかります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天之内能否全部写完，还不清楚，核实资料也需要时间。",
+      "explanation": "可能形加疑问嵌入句没有断言完成；期限与核实所需时间仍是判断条件。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b023e",
+      "segments": [
+        {
+          "text": "今年",
+          "reading": "ことし",
+          "itemID": "v0264"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "走り",
+          "reading": "はしり",
+          "itemID": "v0309"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "りましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "去年",
+          "reading": "きょねん",
+          "itemID": "v0266"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0314"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "速",
+          "reading": "はや",
+          "itemID": "vn5354"
+        },
+        {
+          "text": "さより",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "完走",
+          "reading": "かんそう",
+          "itemID": "vn3m051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "目標",
+          "reading": "もくひょう",
+          "itemID": "vn3c053"
+        },
+        {
+          "text": "にしていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今年我跑到了终点，去年则在中途休息过。比起速度，我把跑完全程作为目标。",
+      "explanation": "切る在这里标出完成边界；完跑不等于夺冠，也不能抹去明确说出的去年情况。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b023f",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今週",
+          "reading": "こんしゅう",
+          "itemID": "v0261"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読み",
+          "reading": "よみ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "らず、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "章",
+          "reading": "しょう",
+          "itemID": "vn3c049"
+        },
+        {
+          "text": "ごとに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "感想",
+          "reading": "かんそう",
+          "itemID": "vn4424"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "くつもりです。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "さが",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい",
+          "itemID": "v0128"
+        },
+        {
+          "text": "なのではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这本书我打算本周先不读完，而是逐章写感想，问题并不在篇幅。",
+      "explanation": "切らず是单纯否定的连接形式；后文说明阅读安排，不应无条件改写为做不到。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024a",
+      "segments": [
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "移動",
+          "reading": "いどう",
+          "itemID": "vn3g060"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疲れ",
+          "reading": "つかれ",
+          "itemID": "vn5237"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "itemID": "v0015"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "いす",
+          "reading": "いす",
+          "itemID": "v0053"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "座",
+          "reading": "すわ",
+          "itemID": "v0301"
+        },
+        {
+          "text": "り、しばらく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "黙",
+          "reading": "だま",
+          "itemID": "vn3c005"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "长途移动后疲惫不堪的他坐在车站的椅子上，沉默了一会儿。",
+      "explanation": "这里强调疲劳的程度，不是结束疲劳，也不是字面切割；后文仍写他休息时的表现。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024b",
+      "segments": [
+        {
+          "text": "受付",
+          "reading": "うけつけ",
+          "itemID": "vn5994"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "困り",
+          "reading": "こまり",
+          "itemID": "v0322"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "顔",
+          "reading": "かお",
+          "itemID": "vn5061"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい",
+          "itemID": "v0128"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "解決",
+          "reading": "かいけつ",
+          "itemID": "vn3b056"
+        },
+        {
+          "text": "していません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "接待人员一脸困极了的样子，正在联系负责人，问题还没有解决。",
+      "explanation": "同一切る要结合前项解释；状态极点不等于问题解决，联系中也不等于已得到答复。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024c",
+      "segments": [
+        {
+          "text": "冬",
+          "reading": "ふゆ",
+          "itemID": "v0259"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "澄み",
+          "reading": "すみ",
+          "itemID": "vn4j102"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "空",
+          "reading": "そら",
+          "itemID": "vn5180"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "星",
+          "reading": "ほし",
+          "itemID": "vn5799"
+        },
+        {
+          "text": "がよく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "vn6164"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "天気",
+          "reading": "てんき",
+          "itemID": "v0084"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "冬夜的天空清澈无比，星星看得很清楚。我还没有查明天的天气。",
+      "explanation": "切る可用于清澈等状态，并非只表示负面感受；当前描写不自动成为未来天气保证。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024d",
+      "segments": [
+        {
+          "text": "冷え",
+          "reading": "ひえ",
+          "itemID": "vn4128"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暖房",
+          "reading": "だんぼう",
+          "itemID": "vn5922"
+        },
+        {
+          "text": "をつけましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "すぐ",
+          "reading": "すぐ",
+          "itemID": "v0176"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "暖",
+          "reading": "あたた",
+          "itemID": "vn4812"
+        },
+        {
+          "text": "まりませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "在冷透了的房间里开了暖气，但并没有马上暖和起来。",
+      "explanation": "冷え切った强调冷的充分状态；暖房をつけた与すぐには暖まらない分别说明动作与实际结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024e",
+      "segments": [
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "信じ",
+          "reading": "しんじ",
+          "itemID": "vn4887"
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "っていましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日付",
+          "reading": "ひづけ",
+          "itemID": "vn5980"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間違い",
+          "reading": "まちがい",
+          "itemID": "vn4701"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "vn6165"
+        },
+        {
+          "text": "つかりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我原本完全相信朋友的说明，后来却发现日期有错。",
+      "explanation": "主体的确信程度与信息真实性分开；后句明确报告发现错误，不能用确信取消它。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b024f",
+      "segments": [
+        {
+          "text": "全員",
+          "reading": "ぜんいん",
+          "itemID": "vn4511"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "来",
+          "reading": "き",
+          "itemID": "v0031"
+        },
+        {
+          "text": "たと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "安心",
+          "reading": "あんしん",
+          "itemID": "vn4201"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "切",
+          "reading": "き",
+          "itemID": null
+        },
+        {
+          "text": "っていたら、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "待",
+          "reading": "ま",
+          "itemID": "v0065"
+        },
+        {
+          "text": "っている",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ",
+          "itemID": "v0155"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我以为所有人都到了，完全放下心来，这时却接到仍在另一个入口等候的人的电话。",
+      "explanation": "状态强化并不替判断提供事实保证；阅读时要根据新增信息更新先前的理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025a",
+      "segments": [
+        {
+          "text": "読み",
+          "reading": "よみ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "かけの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "しおり",
+          "reading": "しおり",
+          "itemID": "vn3m052"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "挟",
+          "reading": "はさ",
+          "itemID": "vn3i098"
+        },
+        {
+          "text": "んで、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn3c057"
+        },
+        {
+          "text": "きは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "むことにしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我给读到一半的书夹上书签，决定明天再继续读。",
+      "explanation": "かけの保留开始过但未完成的状态；后句是继续的安排，不是已经实现的未来结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025b",
+      "segments": [
+        {
+          "text": "書き",
+          "reading": "かき",
+          "itemID": "v0026"
+        },
+        {
+          "text": "かけた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返事",
+          "reading": "へんじ",
+          "itemID": "vn4018"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "保存",
+          "reading": "ほぞん",
+          "itemID": "vn3g013"
+        },
+        {
+          "text": "してから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "送信",
+          "reading": "そうしん",
+          "itemID": "vn3e011"
+        },
+        {
+          "text": "はしていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我保存了刚开始写的回复，先去核实新资料，没有发送。",
+      "explanation": "书写的未完与保存、发送是不同事件；不能从保存草稿推出已发送或对方已阅读。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025c",
+      "segments": [
+        {
+          "text": "食べ",
+          "reading": "たべ",
+          "itemID": "v0033"
+        },
+        {
+          "text": "かけのパンを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "袋",
+          "reading": "ふくろ",
+          "itemID": "vn5055"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "い",
+          "itemID": "vn5022"
+        },
+        {
+          "text": "れました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "電話",
+          "reading": "でんわ",
+          "itemID": "v0155"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "ってから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "りを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "食",
+          "reading": "た",
+          "itemID": "v0033"
+        },
+        {
+          "text": "べるつもりです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把吃了一部分的面包装进袋子，打算等通话结束再吃剩下的。",
+      "explanation": "かけ表示相关动作的未完成状态，不等于全新未动，也不单独说明清理结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025d",
+      "segments": [
+        {
+          "text": "描き",
+          "reading": "かき",
+          "itemID": "vn5035"
+        },
+        {
+          "text": "かけの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "絵",
+          "reading": "え",
+          "itemID": "vn5052"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "色",
+          "reading": "いろ",
+          "itemID": "vn5382"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "少",
+          "reading": "すく",
+          "itemID": "vn5215"
+        },
+        {
+          "text": "なく、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作者",
+          "reading": "さくしゃ",
+          "itemID": "vn3a062"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "週末",
+          "reading": "しゅうまつ",
+          "itemID": "v0260"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn3c057"
+        },
+        {
+          "text": "きを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "描",
+          "reading": "か",
+          "itemID": "vn5035"
+        },
+        {
+          "text": "くと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "していました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "尚未画完的画颜色还不多，作者说下个周末继续画。",
+      "explanation": "かけの描述当前未完，と話していた转述未来安排；二者都没有保证最终效果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025e",
+      "segments": [
+        {
+          "text": "作り",
+          "reading": "つくり",
+          "itemID": "v0068"
+        },
+        {
+          "text": "かけの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "模型",
+          "reading": "もけい",
+          "itemID": "vn3m053"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "箱",
+          "reading": "はこ",
+          "itemID": "vn5131"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "戻",
+          "reading": "もど",
+          "itemID": "vn5768"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部品",
+          "reading": "ぶひん",
+          "itemID": "vn4623"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4127"
+        },
+        {
+          "text": "っていますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ここ",
+          "reading": "ここ",
+          "itemID": "vn5307"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "作業",
+          "reading": "さぎょう",
+          "itemID": "vn4413"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "や",
+          "itemID": "vn4o005"
+        },
+        {
+          "text": "めます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我把没做完的模型放回箱子，零件还有剩余，不过今天的作业就到这里。",
+      "explanation": "这里是当天暂停，不是模型完成；零件剩余也不能推出作业没有开始。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b025f",
+      "segments": [
+        {
+          "text": "弟",
+          "reading": "おとうと",
+          "itemID": "v0198"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "理由",
+          "reading": "りゆう",
+          "itemID": "v0126"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言い",
+          "reading": "いい",
+          "itemID": "v0168"
+        },
+        {
+          "text": "かけましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本人",
+          "reading": "ほんにん",
+          "itemID": "vn3a043"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "めたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "までは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我刚要向弟弟说出理由，他本人就先开始解释了，所以我没有讲完。",
+      "explanation": "かける保留动作起始边界与未完成；后句明确没有说完，也未说明弟弟复述了什么。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026a",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "itemID": "v0052"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "端",
+          "reading": "はし",
+          "itemID": "vn6199"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "落ち",
+          "reading": "おち",
+          "itemID": "vn5759"
+        },
+        {
+          "text": "かけた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手",
+          "reading": "て",
+          "itemID": "vn5034"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "支",
+          "reading": "ささ",
+          "itemID": "vn4835"
+        },
+        {
+          "text": "さえたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "床",
+          "reading": "ゆか",
+          "itemID": "vn5903"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "落",
+          "reading": "お",
+          "itemID": "vn5759"
+        },
+        {
+          "text": "ちませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我用手托住了差点从桌边掉下来的书，所以书没有落到地板上。",
+      "explanation": "かけた报告临近下落，后句明确否定落地；不要把过去形式误解为下落结果必已完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026b",
+      "segments": [
+        {
+          "text": "電池",
+          "reading": "でんち",
+          "itemID": "vn5916"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すく",
+          "itemID": "vn5215"
+        },
+        {
+          "text": "なくなり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "画面",
+          "reading": "がめん",
+          "itemID": "vn5919"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明かり",
+          "reading": "あかり",
+          "itemID": "vn4i182"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "消え",
+          "reading": "きえ",
+          "itemID": "vn5245"
+        },
+        {
+          "text": "かけていました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "充電",
+          "reading": "じゅうでん",
+          "itemID": "vn5918"
+        },
+        {
+          "text": "すると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "再び",
+          "reading": "ふたたび",
+          "itemID": "vn3l016"
+        },
+        {
+          "text": "明",
+          "reading": "あか",
+          "itemID": "vn5203"
+        },
+        {
+          "text": "るくなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "电池快没电，屏幕亮光将熄未熄，充电后又亮了起来。",
+      "explanation": "变化临近与后来恢复相衔接；かける不保证永久结果，更不能推翻此前有亮光的描述。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026c",
+      "segments": [
+        {
+          "text": "長",
+          "reading": "なが",
+          "itemID": "v0043"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "わずにいた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "表現",
+          "reading": "ひょうげん",
+          "itemID": "vn3a074"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "忘れ",
+          "reading": "わすれ",
+          "itemID": "v0103"
+        },
+        {
+          "text": "かけていましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "古",
+          "reading": "ふる",
+          "itemID": "v0038"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ノート",
+          "reading": "のーと",
+          "itemID": "v0217"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "て",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "思い出",
+          "reading": "おもいだ",
+          "itemID": "vn4110"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "长期没用的表达我几乎要忘了，看到旧笔记后又想起来了。",
+      "explanation": "接近某变化与彻底、永久完成不同；应把后句提供的恢复结果纳入理解。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026d",
+      "segments": [
+        {
+          "text": "風",
+          "reading": "かぜ",
+          "itemID": "v0255"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "倒れ",
+          "reading": "たおれ",
+          "itemID": "vn6119"
+        },
+        {
+          "text": "かけた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "看板",
+          "reading": "かんばん",
+          "itemID": "vn4523"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店員",
+          "reading": "てんいん",
+          "itemID": "vn5739"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "押",
+          "reading": "お",
+          "itemID": "vn4839"
+        },
+        {
+          "text": "さえました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "その",
+          "reading": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "後",
+          "reading": "あと",
+          "itemID": "v0181"
+        },
+        {
+          "text": "、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中",
+          "reading": "なか",
+          "itemID": "v0059"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "運",
+          "reading": "はこ",
+          "itemID": "vn5247"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店员按住了被风吹得将倒未倒的招牌，随后把它搬进了店里。",
+      "explanation": "这里关注临近倒下而非损坏结果；后句还有按住和搬运，不能凭かけた补出粉碎。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026e",
+      "segments": [
+        {
+          "text": "悲",
+          "reading": "かな",
+          "itemID": "vn5780"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "泣き",
+          "reading": "なき",
+          "itemID": "vn5747"
+        },
+        {
+          "text": "かけましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相手",
+          "reading": "あいて",
+          "itemID": "vn3a046"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn3c057"
+        },
+        {
+          "text": "きを",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "めたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "黙",
+          "reading": "だま",
+          "itemID": "vn3c005"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "耳を傾",
+          "reading": "みみをかたむ",
+          "itemID": "vn3m054"
+        },
+        {
+          "text": "けました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "听了伤心的事，我几乎要哭出来，但对方又开始讲后续，我就默默听着。",
+      "explanation": "かける描述相关主体的临近状态，不提供哭泣时长，也不能推广到对方的表现。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b026f",
+      "segments": [
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "っていた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "口に出",
+          "reading": "くちにだ",
+          "itemID": "vn3m055"
+        },
+        {
+          "text": "しかけて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ここ",
+          "reading": "ここ",
+          "itemID": "vn5307"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場",
+          "reading": "ば",
+          "itemID": "vn3m017"
+        },
+        {
+          "text": "だと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "気がつ",
+          "reading": "きがつ",
+          "itemID": "vn4426"
+        },
+        {
+          "text": "き、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我差点把心里的话直接说出口，意识到这里是会议场合后换了说法。",
+      "explanation": "かける可接在动作表达后，不仅能机械地逐字相加；后句说明调整说法，不能虚构具体原话。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b023a",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023a",
+      "prompt": "読み切った已经说明什么？",
+      "choices": [
+        "整本小说已经读到最后，理解仍可能有待深入",
+        "作品中的每个细节都已完全理解",
+        "只读到第一段便决定永不再看"
+      ],
+      "answerIndex": 0,
+      "explanation": "完成的是阅读到末尾这一动作；后句明确意义理解仍在继续，不将动作完成等同完全理解。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "週末に長編小説を読み切りましたが、結末の意味はまだ考えています。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b023b",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023b",
+      "prompt": "食べ切れなかった否定了什么？",
+      "choices": [
+        "说话者曾经吃过面包这一全部经历",
+        "面包曾经存在过这一事实",
+        "当时一个人吃完全部的能力或可能"
+      ],
+      "answerIndex": 2,
+      "explanation": "切れなかった是完成可能的过去否定；剩下半个提供了未吃完的事实，不是说一口未吃。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "大きなパンを一人では食べ切れなかったので、残った半分を家に持ち帰りました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b023c",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023c",
+      "prompt": "使い切った在这里对应什么状态？",
+      "choices": [
+        "所有备用电池也已证明损坏",
+        "下午的录音已经完成且无需准备",
+        "所说电池可用的电量已经用尽"
+      ],
+      "answerIndex": 2,
+      "explanation": "切る表示所说范围用完；不把该电池状态推广到未提及的备用品，更不把未来准备读成完成。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "取材に使う電池を使い切ったので、午後の録音には予備が必要です。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b023d",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023d",
+      "prompt": "書き切れるかどうか保留了什么？",
+      "choices": [
+        "作者已写完全篇，接下来只核对资料",
+        "能否在期限内完成全部写作的不确定性",
+        "作者已经确认今天不能写完全部内容"
+      ],
+      "answerIndex": 1,
+      "explanation": "可能形加疑问嵌入句没有断言完成；期限与核实所需时间仍是判断条件。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "今日中に全部を書き切れるかどうかは、まだ分かりません。資料の確認にも時間がかかります。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b023e",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023e",
+      "prompt": "今年明确实现了哪项目标？",
+      "choices": [
+        "把所说的路程坚持跑到最后",
+        "在所有参加者中速度第一",
+        "证明去年也从未中途休息"
+      ],
+      "answerIndex": 0,
+      "explanation": "切る在这里标出完成边界；完跑不等于夺冠，也不能抹去明确说出的去年情况。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "今年は最後まで走り切りましたが、去年は途中で休みました。速さより完走を目標にしていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b023f",
+      "targetID": "gn3b023",
+      "sentenceID": "sgn3b023f",
+      "prompt": "読み切らず与読み切れず的差别在本句中是什么？",
+      "choices": [
+        "这里没有直接说能力不足，而是在说明安排",
+        "因为篇幅过长，客观上无法在本周读完",
+        "本周先读完全书，之后才开始写各章感想"
+      ],
+      "answerIndex": 0,
+      "explanation": "切らず是单纯否定的连接形式；后文说明阅读安排，不应无条件改写为做不到。",
+      "hint": "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "この本は今週は読み切らず、章ごとに感想を書くつもりです。長さが問題なのではありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b023；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1384830，sense 45304，辅助动词完成义；否定与可能形依切る活用，原创语境区分完成动作、完成范围与理解结果。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词的完了类列出きる；引用该说明，不声称语汇型数据库逐项收录本组构词。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024a",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024a",
+      "prompt": "疲れ切った说明什么？",
+      "choices": [
+        "当时疲劳程度很深",
+        "疲劳已经全部消失并恢复精力",
+        "身体真的被某种工具切开"
+      ],
+      "answerIndex": 0,
+      "explanation": "这里强调疲劳的程度，不是结束疲劳，也不是字面切割；后文仍写他休息时的表现。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "長い移動で疲れ切った彼は、駅のいすに座り、しばらく黙っていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024b",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024b",
+      "prompt": "困り切った能理解为困难已经处理完了吗？",
+      "choices": [
+        "问题已处理完，只等负责人确认",
+        "负责人已给出解决办法，接待员正在转告",
+        "不能，它加强困惑状态，后句也说尚未解决"
+      ],
+      "answerIndex": 2,
+      "explanation": "同一切る要结合前项解释；状态极点不等于问题解决，联系中也不等于已得到答复。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "受付の人は困り切った顔で、担当者に連絡していました。問題はまだ解決していません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024c",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024c",
+      "prompt": "澄み切った把什么加强了？",
+      "choices": [
+        "已经确认明天仍然无云的天气结果",
+        "当天夜里逐渐起云，星星越来越难以辨认",
+        "当时天空清澈的状态"
+      ],
+      "answerIndex": 2,
+      "explanation": "切る可用于清澈等状态，并非只表示负面感受；当前描写不自动成为未来天气保证。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "冬の夜、澄み切った空に星がよく見えました。明日の天気はまだ調べていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024d",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024d",
+      "prompt": "文本怎样描述房间的状态？",
+      "choices": [
+        "起初冷得很透，开暖气后也未立刻暖和",
+        "起初已经很暖和，所以关闭了暖气",
+        "切った表示冷气已经完全结束"
+      ],
+      "answerIndex": 0,
+      "explanation": "冷え切った强调冷的充分状态；暖房をつけた与すぐには暖まらない分别说明动作与实际结果。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "冷え切った部屋で暖房をつけましたが、すぐには暖まりませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024e",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024e",
+      "prompt": "信じ切っていた保证说明一定正确吗？",
+      "choices": [
+        "保证，后来发现错误只是没有发生的假设",
+        "不保证，它说明说话者当时相信得很彻底",
+        "保证，切る会使所相信的内容成为事实"
+      ],
+      "answerIndex": 1,
+      "explanation": "主体的确信程度与信息真实性分开；后句明确报告发现错误，不能用确信取消它。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友人の説明を信じ切っていましたが、後で日付の間違いが見つかりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b024f",
+      "targetID": "gn3b024",
+      "sentenceID": "sgn3b024f",
+      "prompt": "安心し切っていた与来齐了是什么关系？",
+      "choices": [
+        "前者说明从来没有任何人到场",
+        "前者是主体的状态，后来电话表明原判断有误",
+        "前者直接证明每个人都已进到同一个房间"
+      ],
+      "answerIndex": 1,
+      "explanation": "状态强化并不替判断提供事实保证；阅读时要根据新增信息更新先前的理解。",
+      "hint": "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "全員が来たと思って安心し切っていたら、別の入口で待っている人から電話がありました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kiru-kirenai",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b024；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：resulting-state emphasis 的 -kiru，与统语完了类对照；本组例句和问题原创，不复制该数据库语料。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025a",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025a",
+      "prompt": "読みかけの本属于什么状态？",
+      "choices": [
+        "从买来到现在一个字都没有开始读",
+        "已经读了一部分，整本尚未读完",
+        "已经整本读完且不再有后续"
+      ],
+      "answerIndex": 1,
+      "explanation": "かけの保留开始过但未完成的状态；后句是继续的安排，不是已经实现的未来结果。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "読みかけの本にしおりを挟んで、続きは明日読むことにしました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025b",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025b",
+      "prompt": "现在明确完成的是哪件事？",
+      "choices": [
+        "先核实完资料，之后才开始写回复",
+        "保存了未写完的回复，并去核实资料",
+        "回复已发送，现在才开始核实新资料"
+      ],
+      "answerIndex": 1,
+      "explanation": "书写的未完与保存、发送是不同事件；不能从保存草稿推出已发送或对方已阅读。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "書きかけた返事を保存してから、先に新しい資料を確認しました。送信はしていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025c",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025c",
+      "prompt": "食べかけ能推出什么？",
+      "choices": [
+        "已经吃过一部分，还有剩余",
+        "面包从未被动过",
+        "所有面包屑都已经被清理完毕"
+      ],
+      "answerIndex": 0,
+      "explanation": "かけ表示相关动作的未完成状态，不等于全新未动，也不单独说明清理结果。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "食べかけのパンを袋に入れました。電話が終ってから、残りを食べるつもりです。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025d",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025d",
+      "prompt": "本句如何区分现状与计划？",
+      "choices": [
+        "作者已经给画补上了全部颜色",
+        "作者决定下周末不再继续这幅画",
+        "画尚未完成，继续作画是将来的安排"
+      ],
+      "answerIndex": 2,
+      "explanation": "かけの描述当前未完，と話していた转述未来安排；二者都没有保证最终效果。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "描きかけの絵には色がまだ少なく、作者は次の週末に続きを描くと話していました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025e",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025e",
+      "prompt": "作業を止めます与作りかけ的关系是什么？",
+      "choices": [
+        "已经做完了模型的全部部分",
+        "把模型从未动工的状态直接变成成品",
+        "在尚未完成的状态下结束今天的作业"
+      ],
+      "answerIndex": 2,
+      "explanation": "这里是当天暂停，不是模型完成；零件剩余也不能推出作业没有开始。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "作りかけの模型を箱に戻しました。部品は残っていますが、今日はここで作業を止めます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b025f",
+      "targetID": "gn3b025",
+      "sentenceID": "sgn3b025f",
+      "prompt": "言いかけました在这里是否等于理由全部讲完？",
+      "choices": [
+        "等于，过去形式总会使全部内容完成",
+        "等于，弟弟已经逐字复述了我的全部理由",
+        "不等于，说话已临近开始或起了头，但没有讲完"
+      ],
+      "answerIndex": 2,
+      "explanation": "かける保留动作起始边界与未完成；后句明确没有说完，也未说明弟弟复述了什么。",
+      "hint": "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "弟に理由を言いかけましたが、本人が先に説明を始めたので、最後までは話しませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b025；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1207610，sense 23428：partway／begin but not complete／about to；与 sense 23429 的指向对方、搭话等功能分开。全部语境原创。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026a",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026a",
+      "prompt": "实际发生的结果是哪一项？",
+      "choices": [
+        "书被托住了，没有掉到地上",
+        "书落到地上后才被捡回桌边",
+        "书停在桌边，但没有人动过它"
+      ],
+      "answerIndex": 0,
+      "explanation": "かけた报告临近下落，后句明确否定落地；不要把过去形式误解为下落结果必已完成。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "机の端から落ちかけた本を手で支さえたので、床には落ちませんでした。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026b",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026b",
+      "prompt": "消えかけていた与后句怎样联系？",
+      "choices": [
+        "光接近熄灭，后来恢复明亮",
+        "所有电池已永久失去充电能力",
+        "屏幕从一开始就完全没有亮过"
+      ],
+      "answerIndex": 0,
+      "explanation": "变化临近与后来恢复相衔接；かける不保证永久结果，更不能推翻此前有亮光的描述。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "電池が少なくなり、画面の明かりが消えかけていました。充電すると、再び明るくなりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026c",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026c",
+      "prompt": "忘れかけていた能直接改成一直彻底想不起来吗？",
+      "choices": [
+        "能，かけていた取消后面所有恢复信息",
+        "能，任何长时间没用的表达都永久丢失",
+        "不能，它保留接近遗忘的状态，后句还写了想起"
+      ],
+      "answerIndex": 2,
+      "explanation": "接近某变化与彻底、永久完成不同；应把后句提供的恢复结果纳入理解。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "長く使わずにいた表現を忘れかけていましたが、古いノートを見て思い出しました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026d",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026d",
+      "prompt": "倒れかけた本身说明什么？",
+      "choices": [
+        "招牌处在接近倒下的状态",
+        "招牌已被明确证实摔得粉碎",
+        "店员从来没有接触过招牌"
+      ],
+      "answerIndex": 0,
+      "explanation": "这里关注临近倒下而非损坏结果；后句还有按住和搬运，不能凭かけた补出粉碎。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "風で倒れかけた看板を、店員が押さえました。その後、店の中へ運びました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026e",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026e",
+      "prompt": "泣きかけました明确断言了哪一层？",
+      "choices": [
+        "说话者临近哭出来的状态",
+        "之后连续哭泣了整整一夜",
+        "对方也必定同时哭了出来"
+      ],
+      "answerIndex": 0,
+      "explanation": "かける描述相关主体的临近状态，不提供哭泣时长，也不能推广到对方的表现。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "悲しい話を聞いて泣きかけましたが、相手が続きを話し始めたので、黙って耳を傾けました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b026f",
+      "targetID": "gn3b026",
+      "sentenceID": "sgn3b026f",
+      "prompt": "这里かける的前项是什么范围？",
+      "choices": [
+        "把原话完整讲出后，另补充了一种说法",
+        "因会议尚未开始，保留原说法而未作调整",
+        "口に出す这一整个动作表达"
+      ],
+      "answerIndex": 2,
+      "explanation": "かける可接在动作表达后，不仅能机械地逐字相加；后句说明调整说法，不能虚构具体原话。",
+      "hint": "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "思っていた言葉を口に出しかけて、ここは会議の場だと気がつき、言い方を変えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: kakeru",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b026；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalcomp",
+          "locator": "https://www2.ninjal.ac.jp/vvlexicon/about.html：统语复合动词始动类及动词短语接续说明；本地 JMdict entry 1207610 sense 23428 核对临近、起始义，后文另外给出阻止或恢复，不由构式强推结果。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b023",
+      "title": "动词加切る／切れない：做到底与无法做完",
+      "subtitle": "区分完成全部、没有做完与无法完成，不把读完等同完全理解",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b023"
+      ],
+      "sentenceIDs": [
+        "sgn3b023a",
+        "sgn3b023b",
+        "sgn3b023c",
+        "sgn3b023d",
+        "sgn3b023e",
+        "sgn3b023f"
+      ],
+      "exerciseIDs": [
+        "egn3b023a",
+        "egn3b023b",
+        "egn3b023c",
+        "egn3b023d",
+        "egn3b023e",
+        "egn3b023f"
+      ],
+      "readingID": "rn3119",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干加切る，表示把所说范围的动作完成到底、全部做完，活用随切る变化。切れる是能做完，切れない是无法做完；单纯否定切らない则不直接等于能力不足。读清完成的是哪项动作、范围和时态，不从読み切った推出所有细节都已理解。状态达到极点的切る另练，不把这里当成用刀切割。"
+      ]
+    },
+    {
+      "id": "lgn3b024",
+      "title": "动词加切る：状态或程度达到极点",
+      "subtitle": "辨认强烈状态，不把程度极点误读成状态结束或永远不变",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b024"
+      ],
+      "sentenceIDs": [
+        "sgn3b024a",
+        "sgn3b024b",
+        "sgn3b024c",
+        "sgn3b024d",
+        "sgn3b024e",
+        "sgn3b024f"
+      ],
+      "exerciseIDs": [
+        "egn3b024a",
+        "egn3b024b",
+        "egn3b024c",
+        "egn3b024d",
+        "egn3b024e",
+        "egn3b024f"
+      ],
+      "readingID": "rn3119",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "部分动词加切る可强调状态、变化结果达到充分或极端程度，如疲れ切る、困り切る、澄み切る。这里不一定存在“任务做完”的宾语，也不表示该状态已经消失或将永远持续；信じ切る等说的是主体的确信程度，不保证所信内容为真。搭配有词汇习惯，不能把切る一律逐字解释成切断。"
+      ]
+    },
+    {
+      "id": "lgn3b025",
+      "title": "动词加かける／かけの：着手而尚未完成",
+      "subtitle": "看清已经开始的部分和仍未完成的整体",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b025"
+      ],
+      "sentenceIDs": [
+        "sgn3b025a",
+        "sgn3b025b",
+        "sgn3b025c",
+        "sgn3b025d",
+        "sgn3b025e",
+        "sgn3b025f"
+      ],
+      "exerciseIDs": [
+        "egn3b025a",
+        "egn3b025b",
+        "egn3b025c",
+        "egn3b025d",
+        "egn3b025e",
+        "egn3b025f"
+      ],
+      "readingID": "rn3120",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "动词ます形词干加かける，可以表示已经着手而还未完成；かけの把这一状态用于修饰名词，如読みかけの本。它不表示此前完全没做，也不保证后来一定做完。究竟进行到哪一步、现在是否继续，要依前项动作及上下文；即将出现某变化的かける另练，不把话しかける等词汇化的“向人搭话”一概拆成未完。"
+      ]
+    },
+    {
+      "id": "lgn3b026",
+      "title": "动词加かける：变化临近而未必完成",
+      "subtitle": "从变化临近读出风险或迹象，不把临界状态直接读成结果实现",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b026"
+      ],
+      "sentenceIDs": [
+        "sgn3b026a",
+        "sgn3b026b",
+        "sgn3b026c",
+        "sgn3b026d",
+        "sgn3b026e",
+        "sgn3b026f"
+      ],
+      "exerciseIDs": [
+        "egn3b026a",
+        "egn3b026b",
+        "egn3b026c",
+        "egn3b026d",
+        "egn3b026e",
+        "egn3b026f"
+      ],
+      "readingID": "rn3120",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "かける接变化类动词时，可以表示已接近某变化、处于发生边缘，如落ちかける、消えかける。与动作做到一半相关但焦点不同；变化是否终于完成，要看后文有无阻止、恢复或结果说明。过去形式かけた也不自动断言结果已实现，进行形かけている也不等于变化已全部结束。"
+      ]
+    }
+  ]
+}

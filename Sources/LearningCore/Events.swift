@@ -93,6 +93,9 @@ public struct LearningSnapshot {
     public func reviewedToday(at now: Date = Date(), calendar: Calendar = .current) -> Int {
         events.filter { $0.kind == .review && calendar.isDate($0.timestamp, inSameDayAs: now) }.count
     }
+    public func practicedToday(at now: Date = Date(), calendar: Calendar = .current) -> Int {
+        events.filter { [.review, .questionAttempt].contains($0.kind) && calendar.isDate($0.timestamp, inSameDayAs: now) }.count
+    }
 }
 
 public enum ExchangeCoding {

@@ -20,6 +20,10 @@ COMPILERS = {"grammar": grammar, "reading": reading, "word": word}
 def entries():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     assert manifest["version"] == 1
+    if source := manifest.get("pronunciationSource"):
+        assert Path(source).name == source and (ROOT / "content" / source).is_file(), "Missing pronunciation source"
+    if source := manifest.get("ruleSource"):
+        assert Path(source).name == source and (ROOT / "content" / source).is_file(), "Missing rule source"
     records = manifest["entries"]
     for field in ("source", "batch"):
         values = [r[field] for r in records]
@@ -39,7 +43,9 @@ def compile_all():
     records = entries()
     # Compile from authored/static records; stale managed JSON must not provide
     # phantom targets or prevent regeneration. All replacements validate later.
-    index = make_pack(overrides={ROOT / "content/batches" / r["batch"]: {} for r in records})
+    # Pronunciation annotations belong to the finished pack; their targets may
+    # be supplied by word manuscripts that are deliberately absent from this seed.
+    index = make_pack(overrides={ROOT / "content/batches" / r["batch"]: {} for r in records}, include_pronunciation=False, include_rules=False)
     # Explicit sense references may point to a later manuscript. Seed every
     # declared word before compiling examples, so file order cannot pick a sense.
     for record in records:
@@ -55,6 +61,7 @@ def compile_all():
         for row in fields:
             if row[0] == "A": declared[row[1]]["acceptedReadings"] = row[2].split(",")
             if row[0] == "G": declared[row[1]]["lexemeID"] = row[2]
+            if row[0] == "J": declared[row[1]]["jmdictEntryID"] = int(row[2])
         assert not {w["id"] for w in index["items"]} & declared.keys(), "Duplicate authored word ID"
         index["items"].extend(declared.values())
     outputs = {}
@@ -69,6 +76,12 @@ def compile_all():
     for _ in range(2):
         for record in records:
             if record["kind"] == "word": compile_one(record)
+    # Rule references are needed when compiling reading prerequisites. Load
+    # them only after words, since regular-word references cannot validate in
+    # the deliberately empty authored seed. The final pack validates both.
+    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    if source := manifest.get("ruleSource"):
+        index["learningRules"] = json.loads((ROOT / "content" / source).read_text())["learningRules"]
     for record in records:
         if record["kind"] != "word": compile_one(record)
     make_pack(overrides=outputs)

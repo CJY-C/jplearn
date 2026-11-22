@@ -1,0 +1,463 @@
+{
+  "status": "Registered trial source:13 functions,128 word targets,5 readings; dictionary, contextual association, full old-record and structural checks complete; independent language review0.",
+  "checkedDate": "2026-11-19",
+  "baselineCommit": "b39c2574fdb46a23109df421663a0b7f1125c2db",
+  "baselineVersion": "0.20.0",
+  "manuscript": "content/authoring/n2-context-and-mediation.tsv",
+  "manuscriptSHA256": "9d60191ae11bf9a55daca27a52357f848e8fab974328c4dbb1e10cd382e40026",
+  "primarySources": [
+    {
+      "code": "BMA00052",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00052/ja/render.do",
+      "sha256": "f1f86eb404437c270c30744990f02fb5c0bca19e4099dfd8f90371715debd90b",
+      "localCache": "build/sources/jpf-BMA00052-2026-11-17.html",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "解说A:场所",
+        "解说B:时代与世纪等时间范围",
+        "解说C:领域、评价和比较范围",
+        "先生へ:时间名词限制、正式语体与におきまして"
+      ]
+    },
+    {
+      "code": "BMA00047",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00047/ja/render.do",
+      "sha256": "f6c6df413471edf417a913263344b4241166837296478de6d92b9607ae384821",
+      "localCache": "build/sources/jpf-BMA00047-2026-11-17.html",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "解说A:经由人物、媒介或经验",
+        "解说B:期间整体范围",
+        "先生へ:书面语体、形式重叠及不可缺媒介时的通して提示"
+      ]
+    },
+    {
+      "code": "BMA00015",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00015/ja/render.do",
+      "accessed": "2026-11-17",
+      "publisher": "国際交流基金・みんなの教材サイト「教科書を作ろう」",
+      "bundled": false,
+      "sectionsRead": [
+        "部分否定的解说A",
+        "先生へ与とは限らない等一并教学的提示"
+      ],
+      "scope": "Partial-negation facts only; examples/rules/questions are original, not copied."
+    }
+  ],
+  "newDraftGrammarFunctions": 13,
+  "originalContexts": 78,
+  "draftLessons": 13,
+  "coveredReferencePatterns": [
+    "N2:ni-oite-ni-okeru",
+    "N2:o-tsuujite-o-tooshite",
+    "N2:to-wa-kagiranai",
+    "N2:ta-tokoro",
+    "N2:ni-mukete",
+    "N2:ue-de"
+  ],
+  "functionBoundaries": {
+    "gn2a001": "正式说明中的事件发生场所，保留名词修饰与郑重形式。",
+    "gn2a002": "时代背景，与当前事实及小说虚构范围分开；不推广为所有钟点名词都能接。",
+    "gn2a003": "领域或比较方面，不把局部评价扩大为总体优劣。",
+    "gn2a004": "经由的人、媒介或经验；意见持有者、中间人和接收者不混为一人。",
+    "gn2a005": "贯穿期间的状态或反复活动；不自动推成每时每刻不停或跨越文中期间。",
+    "gn2a006": "否定必然或全称判断，不等于全都相反，也不预设具体概率；不与词语限る的限定义合并掌握。",
+    "gn2a007": "实际行动后发现或得知的结果，不等于刚完成的时点，也不与ところが或たところで混同。",
+    "gn2a008": "言语、信息所指向的对象；特定个人也可，不保证收到、理解或同意。",
+    "gn2a009": "面向未来目标的准备方向；不推定目标已经实现或准备必然成功。",
+    "gn2a010": "V辞书形或动作名词のうえで设定活动中的考虑范围，不表示动作已经完成。",
+    "gn2a011": "同一主体有意志地先完成前项，以其结果为后续行为依据；本顺序用法不以では／でも强调。",
+    "gn2a012": "图表、数据、地图、日历等载体上的信息；不保证现实核实，不是身体在物理上方。",
+    "gn2a013": "工作、健康、法律等有限方面的评价，局部结论不扩展为总体评价。"
+  },
+  "knownSenseReuse": {
+    "sentence": "gn2a001a",
+    "targetID": "vn4o002",
+    "reason": "说明会を開く uses the already taught event-organizing sense, not physical opening or opening a software file."
+  },
+  "unresolvedForms": 0,
+  "unresolvedPolicy": "All annotated grammar, own-word-example and reading forms resolve. Resolved forms are learnable targets, not evidence of user mastery or automatically correct contextual senses.",
+  "sourceScope": "Source grammar facts only. Japanese examples, Chinese rules/translation/questions/choices/explanations are original CC BY-SA4.0. No JPF source example, extended explanation, image or audio is bundled. Official pages refer to the old2級; the present N2 grouping uses the pinned community reference, not an official published modern word list.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "independentlyReviewed": 0,
+  "registeredNewN2Targets": 117,
+  "runtimeResourceUnchanged": false,
+  "runtimeResourceSHA256": "3ba918a46280d3a51d31c52c62f42f9dd9843901b1bc4b9fc0116633c26cf0b5",
+  "validationCommand": "python3 content/staging/check_n2_context.py",
+  "remaining": [
+    "Complete remaining2399 N2 roots,127 functions,135 readings,71 lessons,27 assessments and117 reference patterns; six bridges still0/3 each.",
+    "Native iOS integration,SE3,archive,device voice and cross-device checks remain pending; no new IPA implied.",
+    "Independent Japanese language review remains0."
+  ],
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "primaryDistributionDate": "2026-11-16",
+    "primaryGzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36"
+  },
+  "supplementarySource": {
+    "url": "https://kotobank.jp/word/%E8%A7%A6%E3%82%8C%E3%82%8B-622378",
+    "publisher": "小学館 licensed on Kotobank",
+    "accessed": "2026-11-17",
+    "scope": "Physical contact, encountering/experiencing an abstract thing, mention and conflict with rules are not automatically one taught meaning. No dictionary examples copied."
+  },
+  "wordDraft": {
+    "roots": 119,
+    "n2Roots": 101,
+    "n4FoundationRoots": 6,
+    "additionalSenses": 9,
+    "targets": 128,
+    "originalContexts": 256,
+    "lessons": 22,
+    "reviews": [
+      "content/staging/n4-context-foundation-words-review.json",
+      "content/staging/n3-context-foundation-words-review.json",
+      "content/staging/n2-information-and-documents-review.json",
+      "content/staging/n2-context-prerequisite-words-review.json",
+      "content/staging/n2-context-reading-words-review.json"
+    ],
+    "n3FoundationRoots": 12
+  },
+  "independentLanguageReview": 0,
+  "readingDraft": {
+    "readings": 5,
+    "practice": 4,
+    "assessment": 1,
+    "questions": 10,
+    "sentenceRows": 30,
+    "characters": {
+      "minimum": 495,
+      "maximum": 535
+    },
+    "status": "Registered trial; all annotated words and rule prerequisites resolve; independent language review0.",
+    "unresolvedForms": 0,
+    "manuscriptSHA256": "f1e685c2af9927c7977d7786fe33b7150ff15f610569d8e589c064d7682f4ea6",
+    "manuscript": "content/authoring/n2-context-readings.tsv"
+  },
+  "ordinaryFunctionUsage": {
+    "gn2a001": [
+      "rn2001sa",
+      "rn2001sd"
+    ],
+    "gn2a002": [
+      "rn2002sa",
+      "rn2002se",
+      "rn2004sd"
+    ],
+    "gn2a003": [
+      "rn2001sc",
+      "rn2004se"
+    ],
+    "gn2a004": [
+      "rn2003sb",
+      "rn2003sd"
+    ],
+    "gn2a005": [
+      "rn2003sc"
+    ],
+    "gn2a006": [
+      "rn2002sc",
+      "rn2003sf",
+      "rn2004sc"
+    ],
+    "gn2a007": [
+      "rn2001sc"
+    ],
+    "gn2a008": [
+      "rn2004sc"
+    ],
+    "gn2a009": [
+      "rn2003sf"
+    ],
+    "gn2a010": [
+      "rn2003sf"
+    ],
+    "gn2a011": [
+      "rn2004sa"
+    ],
+    "gn2a012": [
+      "rn2001sb"
+    ],
+    "gn2a013": [
+      "rn2004sc"
+    ]
+  },
+  "semanticCorrections": [
+    {
+      "context": "gn2a002b",
+      "decision": "暮らして is the inflected verb暮らす, not the noun暮らし; original Japanese/Chinese preserved."
+    },
+    {
+      "context": "gn2a001f",
+      "decision": "お知らせします reuses知らせる through the honorificおVします construction, not the noun知らせ."
+    },
+    {
+      "context": "gn2a001b",
+      "decision": "申し込み explicitly reuses the taught申込 target after checking entry1605140; no new root."
+    },
+    {
+      "contexts": [
+        "gn2a002a",
+        "gn2a002d"
+      ],
+      "decision": "Narrative描く uses source-restrictedえがく; new independent contextual sense, not the painting sense withかく."
+    },
+    {
+      "context": "gn2a002c",
+      "decision": "Experiencing a work uses the new触れる sense, not physical contact."
+    },
+    {
+      "context": "gn2a003b",
+      "decision": "Evaluation high uses a separate高い sense from physical height/price."
+    },
+    {
+      "context": "gn2a005f",
+      "decision": "Exchanging information is taught separately from replacing physical parts or swapping books."
+    },
+    {
+      "contexts": [
+        "gn2a006c",
+        "gn2a006e"
+      ],
+      "decision": "Reaching a conclusion and a pronoun referring to a person have their own contextual targets; neither borrows quantity-reaching or physical-pointing mastery."
+    },
+    {
+      "context": "rn2003sb",
+      "decision": "照明を当てる uses new light-exposure vn2b021, not existing apply/put-against vn3l026."
+    },
+    {
+      "context": "rn2004sb",
+      "decision": "Physical gaze orientation uses existing向ける vn6205; original unsupportedそらす replaced with視線を窓の外に向ける and matching Chinese."
+    },
+    {
+      "context": "vn2a012a",
+      "decision": "見えた links to見えるvn6164, not見る; plain Japanese and Chinese unchanged."
+    },
+    {
+      "context": "gn2a004f",
+      "decision": "Untaughtサイト replaced with knownメール as the medium; matching Chinese, prompt and evidence explanation changed. No extra website root introduced."
+    },
+    {
+      "context": "vn4j072b",
+      "decision": "Sound pitch maps to newN4 vn4s007,JMdict1283190 sense5; not loudness or quality."
+    },
+    {
+      "context": "vn3n090b",
+      "decision": "Forming a ring in flight maps to vn3p005,JMdict1583460 sense4. 輪 maps to1555710/わ, not counterりん."
+    }
+  ],
+  "sensePolicy": "Nine additional teaching scopes do not add roots. Six earlier-level scopes cover degree, sound pitch, narrative depiction, tracing shapes, contact with ideas and exchanging information. N2 retains reaching conclusions, lexical reference and illumination. Only identical written forms with identical accepted reading sets share reading review; narrative描く stays restricted toえがく.",
+  "morphologyPolicy": [
+    {
+      "forms": [
+        "一年",
+        "一年間",
+        "三週間",
+        "四年間",
+        "二階"
+      ],
+      "decision": "Compose known numerals/counters and quantity grammar; do not create a new root for each number."
+    },
+    {
+      "forms": [
+        "卒業後",
+        "毎章"
+      ],
+      "decision": "Known卒業/章 with time/frequency suffixes; no combinatorial roots."
+    },
+    {
+      "forms": [
+        "好意的",
+        "数日"
+      ],
+      "decision": "Explicitly teach the respective的 suffix and数+period prefix inG006, with checked source facts; no new root."
+    },
+    {
+      "forms": [
+        "手続",
+        "締切",
+        "標題",
+        "具体"
+      ],
+      "decision": "手続 reuses手続き;締切 reuses締め切り;表題/標題 is one source entry;具体 does not duplicate the already taught具体的. Candidates excluded, not new words."
+    }
+  ],
+  "wordExampleContextualLinksFinalReview": "Authored contextual choices applied;128 targets have256 distinct own examples, all linked forms resolve, earlier-level contexts use no later-level linked targets. All139 old candidates reviewed,46 actual associations changed in45 sentences; two reading vocabulary projections updated. No independent language review claimed.",
+  "runtimeScopeNote": "RegisteredN2 context chapter added after immutable b39c257 baseline. Old text/ruby/Chinese/answers/pitch annotations and relative order are verified by check_n2_prior_links.py; earlierN3 registration proof is chained through that baseline.",
+  "ordinaryFunctionWitnesses": {
+    "gn2a001": {
+      "sentenceID": "rn2001sa",
+      "surface": "資料館において開催"
+    },
+    "gn2a002": {
+      "sentenceID": "rn2002sa",
+      "surface": "時代における生活"
+    },
+    "gn2a003": {
+      "sentenceID": "rn2001sc",
+      "surface": "分かりやすさにおいては"
+    },
+    "gn2a004": {
+      "sentenceID": "rn2003sb",
+      "surface": "作業を通して確かめる"
+    },
+    "gn2a005": {
+      "sentenceID": "rn2003sc",
+      "surface": "二か月間を通じて"
+    },
+    "gn2a006": {
+      "sentenceID": "rn2002sc",
+      "surface": "すべて起きたとは限らない"
+    },
+    "gn2a007": {
+      "sentenceID": "rn2001sc",
+      "surface": "案内を改訂したところ"
+    },
+    "gn2a008": {
+      "sentenceID": "rn2004sc",
+      "surface": "誰に向けた発言"
+    },
+    "gn2a009": {
+      "sentenceID": "rn2003sf",
+      "surface": "次の公演に向けて"
+    },
+    "gn2a010": {
+      "sentenceID": "rn2003sf",
+      "surface": "応用するうえでは"
+    },
+    "gn2a011": {
+      "sentenceID": "rn2004sa",
+      "surface": "確認した上で、二つの訳文を比べる"
+    },
+    "gn2a012": {
+      "sentenceID": "rn2001sb",
+      "surface": "地図の上では"
+    },
+    "gn2a013": {
+      "sentenceID": "rn2004sc",
+      "surface": "仕事の上では"
+    }
+  },
+  "readingRulePrerequisites": {
+    "rn2002": [
+      {
+        "ruleID": "rulemonth",
+        "questionIDs": [
+          "rulemonths1q3"
+        ]
+      }
+    ]
+  },
+  "completeDraftPackValidated": true,
+  "primarySourceFunctionReviews": [
+    {
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00061/ja/render.do",
+      "sectionsRead": [
+        "A：图表／资料信息依据",
+        "B：评价方面限制",
+        "C：从事活动时应注意的事项",
+        "D：先行行为及其结果作为后续行动依据，同主体、有意志行动"
+      ],
+      "note": "已用于四种うえで功能，各6个原创语境及普通阅读；原出处例句未复制，未独立日语审校。",
+      "accessed": "2026-11-18"
+    },
+    {
+      "url": "https://www2.ninjal.ac.jp/past-events/2009_2021/event/specialists/project-meeting/files/20111217-043re/20111218_tateishi.pdf",
+      "author": "建石始",
+      "date": "2011-12-18",
+      "sourceType": "国立国語研究所研究会配布资料，非最新论文",
+      "sectionsRead": [
+        "2.3：たところ的功能区分",
+        "4.3：Vたところ、顺接结果的语料分析"
+      ],
+      "scope": "核对行动／询问／调查后得知结果，与刚做完的たところだ及たところが分开；不复制例句，不把旧语料统计称为当前频率。",
+      "accessed": "2026-11-18"
+    },
+    {
+      "url": "https://clrd.ninjal.ac.jp/lrw/lrw2024/i3_B2-paper.pdf",
+      "author": "丁文静",
+      "date": "2024",
+      "sourceType": "言語資源ワークショップ2024论文",
+      "sectionsRead": [
+        "摘要、调查方法及第5节：行动所向对象的に向けて",
+        "第6节：日中表达非逐词一对一的结论"
+      ],
+      "scope": "核对行为所向对象及中文对／向不同映射，未来目标准备另与JMdict2644330第1义核对。文中转引工藤2007不等于项目已读原著。",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "resolvedReadingPrerequisites": [
+    {
+      "readingID": "rn2001",
+      "sentenceID": "rn2001sc",
+      "construction": "Vたところ: actual result after trying/acting",
+      "reason": "ExistingN3ところを functions orところだ stages do not teach this construction.",
+      "authoredFunctionIDs": [
+        "gn2a007"
+      ]
+    },
+    {
+      "readingID": "rn2004",
+      "sentenceID": "rn2004sc",
+      "construction": "に向けた: intended addressee/target of an utterance",
+      "reason": "Marked as the lexical candidate向ける, not hidden using a grammar dash; function teaching still required.",
+      "authoredFunctionIDs": [
+        "gn2a008"
+      ],
+      "relatedContrastFunctionIDs": [
+        "gn2a009"
+      ]
+    },
+    {
+      "readingID": "rn2005",
+      "sentenceID": "rn2005sf",
+      "construction": "Vるうえで: in carrying out an activity/with respect to it",
+      "reason": "Must distinguish from sequencingVた上で and additionうえに before registration.",
+      "authoredFunctionIDs": [
+        "gn2a010"
+      ],
+      "relatedContrastFunctionIDs": [
+        "gn2a011",
+        "gn2a012",
+        "gn2a013"
+      ]
+    }
+  ],
+  "readingGrammarGaps": [],
+  "controlledContextChanges": {
+    "ownWordExampleGapsBefore": 69,
+    "annotatedFormsUnresolvedAfter": 0,
+    "addedReadingRoots": 28,
+    "n3BackfillRoots": 12,
+    "productiveForms": [
+      "二百字",
+      "一枚",
+      "一文",
+      "百年",
+      "十年",
+      "使い方",
+      "考え方",
+      "扱い方",
+      "読み直す",
+      "四月三日",
+      "四月七日"
+    ],
+    "notes": "No new roots for each numeric combination or productive construction; generic登録者 paraphrased using known登録した人. Reading dates require verifiedrulemonth plus rulemonths1q3. 姓名/主体/专名不从一般规则借用掌握。",
+    "n4BackfillRoots": 6,
+    "earlyContextSupportValidated": true
+  },
+  "oldIndexPreflight": {
+    "status": "Historical candidate discovery; all139 choices applied and current full-record proof passes.",
+    "checkedSentences": 1883,
+    "changedSentences": 1,
+    "changedLinks": 1,
+    "compilationFailures": [],
+    "rawCandidateOccurrences": 139,
+    "ambiguousOccurrences": 122
+  },
+  "earlierLevelPolicy": "6 N4 roots and12 N3 roots are backfills required by existing contexts. They do not offset2500 additionalN2 roots; own examples have no linked later-level targets.",
+  "oldRecordProof": "content/source-checks/n2-context-chapter.json"
+}

@@ -23,10 +23,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Validate authored content and curriculum coverage
         run: |
           python3 scripts/compile_course.py --check
           python3 scripts/build_content.py --check
+          python3 scripts/check_n2_social.py
+          python3 scripts/check_n2_basis.py
+          python3 scripts/check_rule_transfer.py
+          python3 scripts/check_n2_evidence.py
+          python3 content/staging/check_n2_context.py
+          python3 content/staging/check_n2_prior_links.py
           python3 scripts/audit_curriculum.py --output curriculum-audit.json
           python3 -m unittest discover -s Tests/ContentTests -v
       - name: Upload actual curriculum coverage

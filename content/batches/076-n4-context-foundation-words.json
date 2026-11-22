@@ -1,0 +1,1855 @@
+{
+  "items": [
+    {
+      "id": "vn4s001",
+      "kind": "word",
+      "level": "N4",
+      "text": "自宅",
+      "reading": "じたく",
+      "romaji": "jitaku",
+      "meaning": "自宅；自己居住的家或住宅",
+      "explanation": "本单元义项：自宅；自己居住的家或住宅。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "自宅；自己居住的家或住宅",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1318260；2026-11-16 官方 JMdict 第1义；限定本组自宅；自己居住的家或住宅。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s001a",
+        "svn4s001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1318260
+    },
+    {
+      "id": "vn4s002",
+      "kind": "word",
+      "level": "N4",
+      "text": "知人",
+      "reading": "ちじん",
+      "romaji": "chijin",
+      "meaning": "相识的人、熟人；彼此认识的人",
+      "explanation": "本单元义项：相识的人、熟人；彼此认识的人。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "相识的人、熟人；彼此认识的人",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1420620；2026-11-16 官方 JMdict 第1义；限定本组相识的人、熟人；彼此认识的人。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s002a",
+        "svn4s002b"
+      ],
+      "order": 2001,
+      "jmdictEntryID": 1420620
+    },
+    {
+      "id": "vn4s003",
+      "kind": "word",
+      "level": "N4",
+      "text": "知り合う",
+      "reading": "しりあう",
+      "romaji": "shiriau",
+      "meaning": "结识；彼此开始相识、互相认识",
+      "explanation": "本单元义项：结识；彼此开始相识、互相认识。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "自动词",
+      "sense": "结识；彼此开始相识、互相认识",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1420450；2026-11-16 官方 JMdict 第1义；限定本组结识；彼此开始相识、互相认识。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s003a",
+        "svn4s003b"
+      ],
+      "order": 2002,
+      "jmdictEntryID": 1420450
+    },
+    {
+      "id": "vn4s004",
+      "kind": "word",
+      "level": "N4",
+      "text": "一日中",
+      "reading": "いちにちじゅう",
+      "romaji": "ichinichijuu",
+      "meaning": "一整天；在一天中的整个时段",
+      "explanation": "本单元义项：一整天；在一天中的整个时段。通过两个不同语境辨认；其他义项须结合上下文。\n一日中是按所教固定时段意义学习的表达，不通过一日、二日、三日等数字组合批量增加词根；与日中的白天义区分。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "副词性数量表达",
+      "sense": "一整天；在一天中的整个时段",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s004；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1165500；2026-11-16 官方 JMdict 第1义；限定本组一整天；在一天中的整个时段。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s004a",
+        "svn4s004b"
+      ],
+      "order": 2003,
+      "jmdictEntryID": 1165500
+    },
+    {
+      "id": "vn4s005",
+      "kind": "word",
+      "level": "N4",
+      "text": "館内",
+      "reading": "かんない",
+      "romaji": "kannai",
+      "meaning": "馆内；图书馆、会馆等建筑的内部",
+      "explanation": "本单元义项：馆内；图书馆、会馆等建筑的内部。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "馆内；图书馆、会馆等建筑的内部",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s005；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1614320；2026-11-16 官方 JMdict 第1义；限定本组馆内；图书馆、会馆等建筑的内部。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s005a",
+        "svn4s005b"
+      ],
+      "order": 2004,
+      "jmdictEntryID": 1614320
+    },
+    {
+      "id": "vn4s006",
+      "kind": "word",
+      "level": "N4",
+      "text": "高い",
+      "reading": "たかい",
+      "romaji": "takai",
+      "meaning": "程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平",
+      "explanation": "本单元义项：程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平。通过两个不同语境辨认；其他义项须结合上下文。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "い形容词",
+      "sense": "程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "v0041"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s006；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1283190；2026-11-16 官方JMdict第3义；程度、水平高，不与物理高度、价格或声音的高低混同。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s006a",
+        "svn4s006b"
+      ],
+      "order": 2005,
+      "jmdictEntryID": 1283190,
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041"
+    },
+    {
+      "id": "vn4s008",
+      "kind": "word",
+      "level": "N4",
+      "text": "交流",
+      "reading": "こうりゅう",
+      "romaji": "kouryuu",
+      "meaning": "交流；人与人或群体之间的交往与相互沟通",
+      "explanation": "本单元义项：交流；人与人或群体之间的交往与相互沟通。通过两个不同语境辨认；其他义项须结合上下文。\n本组是人际或群体交往，不包括电学中的交流电义项。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "交流；人与人或群体之间的交往与相互沟通",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s008；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1272580；2026-11-16 官方 JMdict 第1义；限定本组交流；人与人或群体之间的交往与相互沟通。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s008a",
+        "svn4s008b"
+      ],
+      "order": 2006,
+      "jmdictEntryID": 1272580
+    },
+    {
+      "id": "vn4s007",
+      "kind": "word",
+      "level": "N4",
+      "text": "高い",
+      "reading": "たかい",
+      "romaji": "takai",
+      "meaning": "声音的音高较高；本组用于声或音的高低，不表示响度",
+      "explanation": "本单元义项：声音的音高较高；本组用于声或音的高低，不表示响度。通过两个不同语境辨认；其他义项须结合上下文。\n这是词义中的音高，不是某个词的东京式重音型；不从高い一词推断音拍下降位置，也不与大声、昂贵或评价水平共用词义掌握。字形、读音相同，认读复用原词根。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "い形容词",
+      "sense": "声音的音高较高；本组用于声或音的高低，不表示响度",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "v0041"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s007；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1283190；2026-11-16 官方JMdict第5义；音高较高，与响度第4义、程度第3义分别学习。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4s007a",
+        "svn4s007b"
+      ],
+      "order": 2007,
+      "readingCue": "声や音の高さを比べるとき",
+      "jmdictEntryID": 1283190,
+      "lexemeID": "v0041",
+      "readingOwnerID": "v0041"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4s001a",
+      "segments": [
+        {
+          "text": "午前",
+          "reading": "ごぜん",
+          "itemID": "vn5425"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "授業",
+          "reading": "じゅぎょう",
+          "itemID": "vn5406"
+        },
+        {
+          "text": "がない",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自宅",
+          "reading": "じたく",
+          "itemID": "vn4s001"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご",
+          "itemID": "v0278"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう",
+          "itemID": "v0077"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "上午没有课的日子，我在自己家中学习日语。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s001b",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "ではなく",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自宅",
+          "reading": "じたく",
+          "itemID": "vn4s001"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "をしています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "今天我在自己家中工作，而不是在学校。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s002a",
+      "segments": [
+        {
+          "text": "図書館",
+          "reading": "としょかん",
+          "itemID": "v0011"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "働",
+          "reading": "はたら",
+          "itemID": "v0076"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知人",
+          "reading": "ちじん",
+          "itemID": "vn4s002"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "借",
+          "reading": "か",
+          "itemID": "v0062"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我向在图书馆工作的一位熟人借了新书。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s002b",
+      "segments": [
+        {
+          "text": "会場",
+          "reading": "かいじょう",
+          "itemID": "vn4350"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知人",
+          "reading": "ちじん",
+          "itemID": "vn4s002"
+        },
+        {
+          "text": "もいましたが、ほとんどの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "とは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "初",
+          "reading": "はじ",
+          "itemID": "vn5029"
+        },
+        {
+          "text": "めて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会",
+          "reading": "あ",
+          "itemID": "v0064"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "会场里也有熟人，不过大多数人我还是第一次见。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s003a",
+      "segments": [
+        {
+          "text": "隣",
+          "reading": "となり",
+          "itemID": "v0058"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "座",
+          "reading": "すわ",
+          "itemID": "v0301"
+        },
+        {
+          "text": "った",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "とは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "去年",
+          "reading": "きょねん",
+          "itemID": "v0266"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夏",
+          "reading": "なつ",
+          "itemID": "v0257"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知り合",
+          "reading": "しりあ",
+          "itemID": "vn4s003"
+        },
+        {
+          "text": "い、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今",
+          "reading": "いま",
+          "itemID": "v0004"
+        },
+        {
+          "text": "も",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一緒",
+          "reading": "いっしょ",
+          "itemID": "vn5010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "勉強",
+          "reading": "べんきょう",
+          "itemID": "v0077"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我与坐在旁边的人在去年夏天结识，如今也一起学习。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s003b",
+      "segments": [
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": "vn5525"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知り合",
+          "reading": "しりあ",
+          "itemID": "vn4s003"
+        },
+        {
+          "text": "ったのは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "去年",
+          "reading": "きょねん",
+          "itemID": "v0266"
+        },
+        {
+          "text": "ですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "itemID": "v0315"
+        },
+        {
+          "text": "んでいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "两人是去年才相识的，不过此前已经住在同一个镇上。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s004a",
+      "segments": [
+        {
+          "text": "休",
+          "reading": "やす",
+          "itemID": "v0080"
+        },
+        {
+          "text": "みの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "一日中",
+          "reading": "いちにちじゅう",
+          "itemID": "vn4s004"
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "好",
+          "reading": "す",
+          "itemID": "v0281"
+        },
+        {
+          "text": "きな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "んでいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "休息日那天，我一整天都在家读喜欢的书。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s004b",
+      "segments": [
+        {
+          "text": "一日中",
+          "reading": "いちにちじゅう",
+          "itemID": "vn4s004"
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5773"
+        },
+        {
+          "text": "いたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "遊",
+          "reading": "あそ",
+          "itemID": "v0313"
+        },
+        {
+          "text": "びませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "由于整天下雨，我没有在外面玩。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s005a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "本",
+          "reading": "ほん",
+          "itemID": "v0035"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "館内",
+          "reading": "かんない",
+          "itemID": "vn4s005"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "めますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持",
+          "reading": "も",
+          "itemID": "v0066"
+        },
+        {
+          "text": "って",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "帰",
+          "reading": "かえ",
+          "itemID": "v0032"
+        },
+        {
+          "text": "ることはできません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这本书可以在馆内阅读，不过不能带回家。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s005b",
+      "segments": [
+        {
+          "text": "館内",
+          "reading": "かんない",
+          "itemID": "vn4s005"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入口",
+          "reading": "いりぐち",
+          "itemID": "v0295"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出口",
+          "reading": "でぐち",
+          "itemID": "v0296"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "位置",
+          "reading": "いち",
+          "itemID": "vn4564"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我通过馆内地图确认了入口和出口的位置。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s006a",
+      "segments": [
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "vn4s006"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "技術",
+          "reading": "ぎじゅつ",
+          "itemID": "vn4329"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持",
+          "reading": "も",
+          "itemID": "v0066"
+        },
+        {
+          "text": "つ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": "vn5754"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてもらいました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我请技术高的人教我修理工具的方法。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s006b",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5773"
+        },
+        {
+          "text": "いたため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "湿度",
+          "reading": "しつど",
+          "itemID": "vn4584"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "より",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "vn4s006"
+        },
+        {
+          "text": "くなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "由于持续下雨，房间湿度比前一天高了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s008a",
+      "segments": [
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "子供",
+          "reading": "こども",
+          "itemID": "v0021"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大人",
+          "reading": "おとな",
+          "itemID": "v0204"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "交流",
+          "reading": "こうりゅう",
+          "itemID": "vn4s008"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5773"
+        },
+        {
+          "text": "いています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "镇上学校里的孩子与大人持续开展交流。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s008b",
+      "segments": [
+        {
+          "text": "二人",
+          "reading": "ふたり",
+          "itemID": "vn5525"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "国",
+          "reading": "くに",
+          "itemID": "vn5124"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住",
+          "reading": "す",
+          "itemID": "v0315"
+        },
+        {
+          "text": "んでいますが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "手紙",
+          "reading": "てがみ",
+          "itemID": "v0073"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "交流",
+          "reading": "こうりゅう",
+          "itemID": "vn4s008"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5774"
+        },
+        {
+          "text": "けています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "两人住在不同国家，但一直通过书信交流。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s007a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "歌",
+          "reading": "うた",
+          "itemID": "vn5040"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "最後",
+          "reading": "さいご",
+          "itemID": "v0177"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言葉",
+          "reading": "ことば",
+          "itemID": "v0072"
+        },
+        {
+          "text": "だけ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "vn4s007"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歌",
+          "reading": "うた",
+          "itemID": "vn5041"
+        },
+        {
+          "text": "います。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这首歌只有最后的词用更高的音高来唱。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4s007b",
+      "segments": [
+        {
+          "text": "電話",
+          "reading": "でんわ",
+          "itemID": "v0155"
+        },
+        {
+          "text": "からは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "高",
+          "reading": "たか",
+          "itemID": "vn4s007"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "vn5054"
+        },
+        {
+          "text": "こえましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きくありませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "电话里传来音高较高的声音，不过音量并不大。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4s001a",
+      "targetID": "vn4s001",
+      "sentenceID": "svn4s001b",
+      "skill": "meaning",
+      "prompt": "句中「自宅」表示什么？",
+      "choices": [
+        "自宅；自己居住的家或住宅",
+        "工作单位的公共办公室",
+        "临时借用的活动会场"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「自宅；自己居住的家或住宅」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "じたく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "自宅",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s002a",
+      "targetID": "vn4s002",
+      "sentenceID": "svn4s002b",
+      "skill": "meaning",
+      "prompt": "句中「知人」表示什么？",
+      "choices": [
+        "从未听说也从未认识的人",
+        "仅凭称呼就确定的近亲家属",
+        "相识的人、熟人；彼此认识的人"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「相识的人、熟人；彼此认识的人」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ちじん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "知人",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s003a",
+      "targetID": "vn4s003",
+      "sentenceID": "svn4s003b",
+      "skill": "meaning",
+      "prompt": "句中「知り合う」表示什么？",
+      "choices": [
+        "本来相识的人故意断绝来往",
+        "只看到姓名却始终没有认识对方",
+        "结识；彼此开始相识、互相认识"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「结识；彼此开始相识、互相认识」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しりあう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "知り合う",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s004a",
+      "targetID": "vn4s004",
+      "sentenceID": "svn4s004b",
+      "skill": "meaning",
+      "prompt": "句中「一日中」表示什么？",
+      "choices": [
+        "连续一周的全部日期",
+        "一整天；在一天中的整个时段",
+        "仅在白天某一个不确定时刻"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「一整天；在一天中的整个时段」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "いちにちじゅう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "一日中",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s005a",
+      "targetID": "vn4s005",
+      "sentenceID": "svn4s005b",
+      "skill": "meaning",
+      "prompt": "句中「館内」表示什么？",
+      "choices": [
+        "建筑外的整条街道",
+        "图书馆所收藏的全部书籍",
+        "馆内；图书馆、会馆等建筑的内部"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「馆内；图书馆、会馆等建筑的内部」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "かんない",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "館内",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s006a",
+      "targetID": "vn4s006",
+      "sentenceID": "svn4s006b",
+      "skill": "meaning",
+      "prompt": "句中「高い」表示什么？",
+      "choices": [
+        "仅指物体距离地面的物理高度",
+        "仅指购买物品需要的价格昂贵",
+        "程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「程度、水平或数值高；本组包括技术水平、湿度等程度以及评价水平」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "たかい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "高い",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s008a",
+      "targetID": "vn4s008",
+      "sentenceID": "svn4s008b",
+      "skill": "meaning",
+      "prompt": "句中「交流」表示什么？",
+      "choices": [
+        "只由一方长期发令而不接受回应",
+        "电流随时间改变方向的专门类型",
+        "交流；人与人或群体之间的交往与相互沟通"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「交流；人与人或群体之间的交往与相互沟通」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "こうりゅう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "交流",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn4s007a",
+      "targetID": "vn4s007",
+      "sentenceID": "svn4s007b",
+      "skill": "meaning",
+      "prompt": "句中「高い」表示什么？",
+      "choices": [
+        "声音的音高较高；本组用于声或音的高低，不表示响度",
+        "声音更大、更响亮而不考虑音高",
+        "只指买声音设备的价格昂贵"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「声音的音高较高；本组用于声或音的高低，不表示响度」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "たかい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "高い",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4s01",
+      "title": "住所、相识与场所时间",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4s001",
+        "vn4s002",
+        "vn4s003",
+        "vn4s004",
+        "vn4s005"
+      ],
+      "sentenceIDs": [
+        "svn4s001a",
+        "svn4s001b",
+        "svn4s002a",
+        "svn4s002b",
+        "svn4s003a",
+        "svn4s003b",
+        "svn4s004a",
+        "svn4s004b",
+        "svn4s005a",
+        "svn4s005b"
+      ],
+      "exerciseIDs": [
+        "evn4s001a",
+        "evn4s002a",
+        "evn4s003a",
+        "evn4s004a",
+        "evn4s005a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn4s02",
+      "title": "程度、声音与相互交流",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4s006",
+        "vn4s008",
+        "vn4s007"
+      ],
+      "sentenceIDs": [
+        "svn4s006a",
+        "svn4s006b",
+        "svn4s008a",
+        "svn4s008b",
+        "svn4s007a",
+        "svn4s007b"
+      ],
+      "exerciseIDs": [
+        "evn4s006a",
+        "evn4s008a",
+        "evn4s007a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

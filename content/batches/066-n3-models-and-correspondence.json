@@ -1,0 +1,2007 @@
+{
+  "items": [
+    {
+      "id": "gn3b032",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "とおりに／どおりに：依照说明或范本去做",
+      "reading": "とおりに、どおりに、とおりの",
+      "romaji": "toori ni doori ni toori no",
+      "meaning": "分清依据的模型、采取的动作与最后效果",
+      "explanation": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "ninjalkamus",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn419",
+        "g002"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b032a",
+        "sgn3b032b",
+        "sgn3b032c",
+        "sgn3b032d",
+        "sgn3b032e",
+        "sgn3b032f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1000
+    },
+    {
+      "id": "gn3b033",
+      "kind": "grammar",
+      "level": "N3",
+      "text": "とおり／どおり：事实与信息、预期吻合",
+      "reading": "とおりだ、どおりだった、とおりにはならない",
+      "romaji": "toori da doori datta toori ni wa naranai",
+      "meaning": "判断哪一项符合预期，并保留未核实的其他内容",
+      "explanation": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "sourceIDs": [
+        "openjlpt",
+        "projectopen",
+        "jpfmaterials",
+        "jmdict"
+      ],
+      "status": "trial",
+      "prerequisiteIDs": [
+        "gn3b032",
+        "gn455"
+      ],
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "sgn3b033a",
+        "sgn3b033b",
+        "sgn3b033c",
+        "sgn3b033d",
+        "sgn3b033e",
+        "sgn3b033f"
+      ],
+      "tags": [
+        "structure",
+        "n3-completion"
+      ],
+      "order": 1001
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sgn3b032a",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "黒板",
+          "reading": "こくばん",
+          "itemID": "vn5559"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いたとおりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "番号",
+          "reading": "ばんごう",
+          "itemID": "vn5048"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "並",
+          "reading": "なら",
+          "itemID": "vn5228"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めたのではありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我按老师在黑板上写的那样排列了号码，并不是自己决定了新顺序。",
+      "explanation": "とおりに引出行动遵照的模型，后句明确否定自己另定顺序；不把依据和实际操作者混在一起。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b032b",
+      "segments": [
+        {
+          "text": "説明書",
+          "reading": "せつめいしょ",
+          "itemID": "vn4014"
+        },
+        {
+          "text": "どおりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部品",
+          "reading": "ぶひん",
+          "itemID": "vn4623"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "組み立",
+          "reading": "くみた",
+          "itemID": "vn3i150"
+        },
+        {
+          "text": "てましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "機械",
+          "reading": "きかい",
+          "itemID": "vn4022"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "動",
+          "reading": "うご",
+          "itemID": "vn5763"
+        },
+        {
+          "text": "きませんでした。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "原因",
+          "reading": "げんいん",
+          "itemID": "vn4327"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "これから",
+          "reading": "これから",
+          "itemID": "vn4p005"
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我按说明书组装了零件，但机器没有运转，原因接下来再查。",
+      "explanation": "遵照说明并不自动保证效果；原因尚待查明，不能凭形式指定责任人。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b032c",
+      "segments": [
+        {
+          "text": "見本",
+          "reading": "みほん",
+          "itemID": "vn4i172"
+        },
+        {
+          "text": "のとおりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "折",
+          "reading": "お",
+          "itemID": "vn6131"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "形",
+          "reading": "かたち",
+          "itemID": "vn4706"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": "vn6160"
+        },
+        {
+          "text": "わせましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "紙",
+          "reading": "かみ",
+          "itemID": "v0213"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "好き",
+          "reading": "すき",
+          "itemID": "v0281"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "青",
+          "reading": "あお",
+          "itemID": "v0248"
+        },
+        {
+          "text": "いものにしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我按范本折了纸，形状照做，纸的颜色则选了自己喜欢的蓝色。",
+      "explanation": "とおり的对应范围由后文限定；不能把形状的相同扩大为颜色、材料来源等全部属性。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b032d",
+      "segments": [
+        {
+          "text": "最初",
+          "reading": "さいしょ",
+          "itemID": "vn5988"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "地図",
+          "reading": "ちず",
+          "itemID": "v0098"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "示",
+          "reading": "しめ",
+          "itemID": "vn3a073"
+        },
+        {
+          "text": "されたとおりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "歩",
+          "reading": "ある",
+          "itemID": "v0172"
+        },
+        {
+          "text": "きましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "工事",
+          "reading": "こうじ",
+          "itemID": "vn4031"
+        },
+        {
+          "text": "のため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "別",
+          "reading": "べつ",
+          "itemID": "vn4249"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "道",
+          "reading": "みち",
+          "itemID": "v0082"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選",
+          "reading": "えら",
+          "itemID": "vn5752"
+        },
+        {
+          "text": "びました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "起初我按地图所示行走，因为施工，中途改选了另一条路。",
+      "explanation": "最初与途中から分别划分对应范围和后续改变；不能忽略转折，把部分遵照读成全程一致。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b032e",
+      "segments": [
+        {
+          "text": "指示",
+          "reading": "しじ",
+          "itemID": "vn4041"
+        },
+        {
+          "text": "どおりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ファイル",
+          "reading": "ふぁいる",
+          "itemID": "vn4o004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "保存",
+          "reading": "ほぞん",
+          "itemID": "vn3g013"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "提出",
+          "reading": "ていしゅつ",
+          "itemID": "vn4528"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "中身",
+          "reading": "なかみ",
+          "itemID": "vn3a025"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "します。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我按指示保存了文件，提交之前会由负责人核对内容。",
+      "explanation": "とおりに说明保存所依据的指示，不合并保存、检查和提交这些不同阶段。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b032f",
+      "segments": [
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてもらったとおりの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "材料",
+          "reading": "ざいりょう",
+          "itemID": "vn4624"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "混",
+          "reading": "ま",
+          "itemID": "vn3e018"
+        },
+        {
+          "text": "ぜましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "火",
+          "reading": "ひ",
+          "itemID": "vn5795"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "強",
+          "reading": "つよ",
+          "itemID": "v0253"
+        },
+        {
+          "text": "さは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "教",
+          "reading": "おし",
+          "itemID": "v0087"
+        },
+        {
+          "text": "えてもらっていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我按别人教的顺序混合了材料，但火候还没请教过。",
+      "explanation": "とおりの修饰顺番；未给出的火候不能由对应关系自动补出，更不能把混合读成烹煮完成。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033a",
+      "segments": [
+        {
+          "text": "予報",
+          "reading": "よほう",
+          "itemID": "vn3g017"
+        },
+        {
+          "text": "どおり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "から",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "雨",
+          "reading": "あめ",
+          "itemID": "v0083"
+        },
+        {
+          "text": "になりました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "夜",
+          "reading": "よる",
+          "itemID": "v0007"
+        },
+        {
+          "text": "まで",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "降",
+          "reading": "ふ",
+          "itemID": "v0171"
+        },
+        {
+          "text": "り",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": null
+        },
+        {
+          "text": "くかどうかは、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "文",
+          "reading": "ぶん",
+          "itemID": "vn5548"
+        },
+        {
+          "text": "には",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "いてありません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "如预报所说，下午开始下雨了，是否会持续到夜里，这句话没有写。",
+      "explanation": "这里比较预报与已观察情况，不提供未写的持续时长，更不把信息对应读成因果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033b",
+      "segments": [
+        {
+          "text": "友人",
+          "reading": "ゆうじん",
+          "itemID": "vn3g005"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "言",
+          "reading": "い",
+          "itemID": "v0168"
+        },
+        {
+          "text": "ったとおり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "通",
+          "reading": "とお",
+          "itemID": "vn5947"
+        },
+        {
+          "text": "りの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "奥",
+          "reading": "おく",
+          "itemID": "vn6197"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書店",
+          "reading": "しょてん",
+          "itemID": "vn3m020"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店内",
+          "reading": "てんない",
+          "itemID": "vn3m063"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "様子",
+          "reading": "ようす",
+          "itemID": "vn4i164"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "まだ",
+          "reading": "まだ",
+          "itemID": "v0144"
+        },
+        {
+          "text": "見",
+          "reading": "み",
+          "itemID": "v0029"
+        },
+        {
+          "text": "ていません。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "正如朋友说的，街道深处有一家小书店，店内情况我还没看过。",
+      "explanation": "同一读音在不同位置承担不同功能；这里只确认了书店位置，不能补出店内调查结果。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033c",
+      "segments": [
+        {
+          "text": "思",
+          "reading": "おも",
+          "itemID": "v0070"
+        },
+        {
+          "text": "ったとおりの",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結末",
+          "reading": "けつまつ",
+          "itemID": "vn4447"
+        },
+        {
+          "text": "でしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "そこ",
+          "reading": "そこ",
+          "itemID": "vn5308"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "至",
+          "reading": "いた",
+          "itemID": "vn3h043"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "理由",
+          "reading": "りゆう",
+          "itemID": "v0126"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予想",
+          "reading": "よそう",
+          "itemID": "vn4j145"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "違",
+          "reading": "ちが",
+          "itemID": "v0132"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "结局与我想的一样，但走向结局的原因与预测不同。",
+      "explanation": "とおりの限定在結末；后句明确排除理由的一致，不把部分相符扩展成整部作品都已猜中。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033d",
+      "segments": [
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "どおり",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "五時",
+          "reading": "ごじ",
+          "itemID": null
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "終",
+          "reading": "お",
+          "itemID": "v0105"
+        },
+        {
+          "text": "わりましたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "合",
+          "reading": "あ",
+          "itemID": null
+        },
+        {
+          "text": "う",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順番",
+          "reading": "じゅんばん",
+          "itemID": "vn5996"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "途中",
+          "reading": "とちゅう",
+          "itemID": "vn4955"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "変",
+          "reading": "か",
+          "itemID": "vn6192"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "会议按计划在五点结束了，不过讨论顺序中途改过。",
+      "explanation": "对应范围需由句子说明；时间吻合不取消已明确的顺序变化，也不提供逐字稿信息。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033e",
+      "segments": [
+        {
+          "text": "期待",
+          "reading": "きたい",
+          "itemID": "vn3b010"
+        },
+        {
+          "text": "どおりにはなりませんでしたが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう",
+          "itemID": "vn4951"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "少",
+          "reading": "すこ",
+          "itemID": "vn5032"
+        },
+        {
+          "text": "し",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "くなりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "虽没达到期望的样子，新方法还是让时间缩短了一点。",
+      "explanation": "否定的是符合期待，并非一切变化；后句明确保留了时间略有缩短的事实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "sgn3b033f",
+      "segments": [
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "かれているとおり、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "部屋",
+          "reading": "へや",
+          "itemID": "v0051"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時計",
+          "reading": "とけい",
+          "itemID": "v0205"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "正午",
+          "reading": "しょうご",
+          "itemID": "vn5979"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "止",
+          "reading": "と",
+          "itemID": "v0319"
+        },
+        {
+          "text": "まっていました。",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ほか",
+          "reading": "ほか",
+          "itemID": "vn5128"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記載",
+          "reading": "きさい",
+          "itemID": "vn3m064"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "これから",
+          "reading": "これから",
+          "itemID": "vn4p005"
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめます。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "与记录写的一样，房间里的钟停在正午，其他记载还要继续核实。",
+      "explanation": "とおり也可接書かれている等形式；一项信息相符不等于全部信息都已检验，更不提供销毁记录的事实。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "egn3b032a",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032a",
+      "prompt": "号码顺序依据什么？",
+      "choices": [
+        "尚未公布且任何人都不知道的内容",
+        "老师写在黑板上的内容",
+        "说话者临时独立创造的另一套顺序"
+      ],
+      "answerIndex": 1,
+      "explanation": "とおりに引出行动遵照的模型，后句明确否定自己另定顺序；不把依据和实际操作者混在一起。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "先生が黒板に書いたとおりに番号を並べました。自分で新しい順番を決めたのではありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b032b",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032b",
+      "prompt": "说明书どおりに能保证机器正常运转吗？",
+      "choices": [
+        "不能，依照步骤与实际效果分开，后句明确未运转",
+        "能，只要说どおり就等于结果成功",
+        "能，どおり本身已经证明故障是某个人造成"
+      ],
+      "answerIndex": 0,
+      "explanation": "遵照说明并不自动保证效果；原因尚待查明，不能凭形式指定责任人。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "説明書どおりに部品を組み立てましたが、機械は動きませんでした。原因はこれから調べます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b032c",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032c",
+      "prompt": "哪里依照了范本？",
+      "choices": [
+        "明确说到的形状，并非所有细节都完全照搬",
+        "纸张颜色依照范本，形状则另行设计",
+        "选了蓝色纸，所以形状还处在没折好的阶段"
+      ],
+      "answerIndex": 0,
+      "explanation": "とおり的对应范围由后文限定；不能把形状的相同扩大为颜色、材料来源等全部属性。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "見本のとおりに紙を折りました。形は合わせましたが、紙は好きな青いものにしました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b032d",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032d",
+      "prompt": "实际行走过程怎样变化？",
+      "choices": [
+        "全程从未偏离地图上的原路线",
+        "看到地图之前已经走完全程",
+        "先依地图行走，中途改变路线"
+      ],
+      "answerIndex": 2,
+      "explanation": "最初与途中から分别划分对应范围和后续改变；不能忽略转折，把部分遵照读成全程一致。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "最初は地図に示されたとおりに歩きましたが、工事のため、途中から別の道を選びました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b032e",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032e",
+      "prompt": "已经完成的是哪一项？",
+      "choices": [
+        "依照指示保存文件，核对及提交尚在后续",
+        "负责人已经核对完且文件已提交",
+        "保存操作已经证明所有内容都正确"
+      ],
+      "answerIndex": 0,
+      "explanation": "とおりに说明保存所依据的指示，不合并保存、检查和提交这些不同阶段。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "指示どおりにファイルを保存しました。提出する前に、担当者が中身を確認します。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b032f",
+      "targetID": "gn3b032",
+      "sentenceID": "sgn3b032f",
+      "prompt": "とおりの順番有没有提供火候信息？",
+      "choices": [
+        "有，材料已被明确煮熟且完成装盘",
+        "没有，遵照的是材料混合顺序，火候另未说明",
+        "有，任何とおり都会自动附带完整配方的全部信息"
+      ],
+      "answerIndex": 1,
+      "explanation": "とおりの修饰顺番；未给出的火候不能由对应关系自动补出，更不能把混合读成烹煮完成。",
+      "hint": "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "教えてもらったとおりの順番で材料を混ぜましたが、火の強さはまだ教えてもらっていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b032；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "ninjalkamus",
+          "locator": "https://mmsrv.ninjal.ac.jp/kamus/data/item3603.html：第2义とおり，按指示、计划、说明行动；与第1义道路及第3义种类计数分开。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432930，sense 51370 的依照义，及 entry 1432920 sense 51367；本组范本和题目原创，不复用字典例句。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033a",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033a",
+      "prompt": "本句确认了什么吻合？",
+      "choices": [
+        "预报本身造成了实际降雨",
+        "下午开始下雨这一情况符合预报",
+        "雨一定会整夜不停这一结果已经确定"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里比较预报与已观察情况，不提供未写的持续时长，更不把信息对应读成因果。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": false,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "予報どおり、午後から雨になりました。夜まで降り続くかどうかは、この文には書いてありません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033b",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033b",
+      "prompt": "这里的两个とおり／通り分别怎样理解？",
+      "choices": [
+        "两个都只能表示方法的种类数量",
+        "前者表示与所说相符，后者是街道",
+        "两个都表示已经按指令完成了店内调查"
+      ],
+      "answerIndex": 1,
+      "explanation": "同一读音在不同位置承担不同功能；这里只确认了书店位置，不能补出店内调查结果。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "友人が言ったとおり、通りの奥に小さな書店がありました。店内の様子はまだ見ていません。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033c",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033c",
+      "prompt": "哪些内容吻合、哪些不同？",
+      "choices": [
+        "所有情节和理由都与预测完全相同",
+        "结局本身没有发生，只是说话者的愿望",
+        "结局吻合，通向结局的原因不同"
+      ],
+      "answerIndex": 2,
+      "explanation": "とおりの限定在結末；后句明确排除理由的一致，不把部分相符扩展成整部作品都已猜中。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "思ったとおりの結末でしたが、そこに至る理由は予想と違っていました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033d",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033d",
+      "prompt": "予定どおり覆盖了哪一项？",
+      "choices": [
+        "本句明说的结束时间，讨论顺序另有变化",
+        "整个会议的每句话都与原稿逐字相同",
+        "顺序从头到尾没有任何变动"
+      ],
+      "answerIndex": 0,
+      "explanation": "对应范围需由句子说明；时间吻合不取消已明确的顺序变化，也不提供逐字稿信息。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "会議は予定どおり五時に終わりましたが、話し合う順番は途中で変えました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033e",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033e",
+      "prompt": "否定是否意味着任何改善都没有？",
+      "choices": [
+        "是，どおりにはならない会否定后面所有事实",
+        "是，任何方法都已被证明永远没有作用",
+        "不是，未达期待与仍有一点改善可以并存"
+      ],
+      "answerIndex": 2,
+      "explanation": "否定的是符合期待，并非一切变化；后句明确保留了时间略有缩短的事实。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "期待どおりにはなりませんでしたが、新しい方法で時間は少し短くなりました。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "egn3b033f",
+      "targetID": "gn3b033",
+      "sentenceID": "sgn3b033f",
+      "prompt": "这一项吻合能证明整份记录都准确吗？",
+      "choices": [
+        "不能，目前只核实了时钟这一项",
+        "能，钟面吻合就说明其他记载也都已核验",
+        "能，记录的写作时间也已由钟面停时确认"
+      ],
+      "answerIndex": 0,
+      "explanation": "とおり也可接書かれている等形式；一项信息相符不等于全部信息都已检验，更不提供销毁记录的事实。",
+      "hint": "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。",
+      "transfer": true,
+      "skill": "grammar",
+      "ability": "structure",
+      "evidence": "記録に書かれているとおり、部屋の時計は正午で止まっていました。ほかの記載はこれから確かめます。",
+      "citations": [
+        {
+          "sourceID": "openjlpt",
+          "locator": "grammar/n3: toori-ni-doori-ni",
+          "status": "reference"
+        },
+        {
+          "sourceID": "projectopen",
+          "locator": "原创中文规则、例句及题目 gn3b033；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jpfmaterials",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate2/intermediate2_teaching_topic.pdf，Topic7「読むのに役立つ文法・文型」第1项：Vたとおり、Nどおり、Nのとおり及Vているとおり；教材聚焦已得信息与实际感想的照合，原创故事不沿用教材评论。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "本地 JMdict entry 1432920 sense 51367 与 1432930 sense 51370 核对相符、依照义，不借用道路或计数义作为掌握依据。",
+          "status": "reference"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lgn3b032",
+      "title": "とおりに／どおりに：依照说明或范本去做",
+      "subtitle": "分清依据的模型、采取的动作与最后效果",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b032"
+      ],
+      "sentenceIDs": [
+        "sgn3b032a",
+        "sgn3b032b",
+        "sgn3b032c",
+        "sgn3b032d",
+        "sgn3b032e",
+        "sgn3b032f"
+      ],
+      "exerciseIDs": [
+        "egn3b032a",
+        "egn3b032b",
+        "egn3b032c",
+        "egn3b032d",
+        "egn3b032e",
+        "egn3b032f"
+      ],
+      "readingID": "rn3126",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "Vた／Vる等加とおり，Nのとおり或Nどおり，可表示照着所说、所示的方法、顺序或范本行动；に常用于修饰后面的动作，の可连接名词。不能由“照着做”直接推出必然成功，也不能把只照某一项的安排扩展为全部细节完全相同。とおり和どおり的接续整体记忆；道路、种类计数等通り另辨。"
+      ]
+    },
+    {
+      "id": "lgn3b033",
+      "title": "とおり／どおり：事实与信息、预期吻合",
+      "subtitle": "判断哪一项符合预期，并保留未核实的其他内容",
+      "level": "N3",
+      "itemIDs": [
+        "gn3b033"
+      ],
+      "sentenceIDs": [
+        "sgn3b033a",
+        "sgn3b033b",
+        "sgn3b033c",
+        "sgn3b033d",
+        "sgn3b033e",
+        "sgn3b033f"
+      ],
+      "exerciseIDs": [
+        "egn3b033a",
+        "egn3b033b",
+        "egn3b033c",
+        "egn3b033d",
+        "egn3b033e",
+        "egn3b033f"
+      ],
+      "readingID": "rn3126",
+      "prerequisiteIDs": [],
+      "objectives": [
+        "とおり／どおり还可把观察到的事实、结果与先前话语、记录、想法或预期对照，表示所说方面相符，不一定是在执行指令。Vたとおり、Vているとおり、Nどおり、Nのとおり等依前项接续；とおりにはならない则否定相符。核对所指方面和信息来源，一项吻合不证明全部记录准确，也不自动推出因果或未来必然性。"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "foundation",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "title": "日语阅读基础篇",
   "notice": "N5–N2 完整课程分批补充。已上线内容以实际单元为准，分级为非官方学习范围；中文整理与原创练习尚未独立日语审校。",
   "references": [
@@ -197,6 +197,93 @@
       "title": "OHANA BLOOM：N4 英语版日语语法教材第二册（公开PDF）",
       "url": "https://ohanaonline.jp/wp-content/uploads/2024/09/n4_en_ohanabloom-2.pdf",
       "attribution": "原作者学校网站公开教材；仅核对愿望表达与建议表达，未复制正文、练习或例句。未以PDF修改日期冒充出版日期。"
+    },
+    {
+      "id": "jpfaccent2025",
+      "title": "国際交流基金：2025 重音教学与下降点",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/202503.html",
+      "attribution": "磯村一弘（2025）；核对下降点与句子语调的关系，中文与题目另行原创，未复制图片或音频。"
+    },
+    {
+      "id": "tufsaccent",
+      "title": "东京外国語大学：日语重音基础",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-08-01.php",
+      "attribution": "东京外国語大学言語モジュール；仅核对本批八个词的共通语参考型和助词接续差异，未复制教材音频或插图。"
+    },
+    {
+      "id": "tufsmora",
+      "title": "东京外国語大学：拍与特殊拍",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-10-01.php"
+    },
+    {
+      "id": "tufsintonation",
+      "title": "东京外国語大学：句子语调基础",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/pmod/practical/01-09-01.php"
+    },
+    {
+      "id": "ninjalaccent",
+      "title": "国立国語研究所：重音、下降点与地域差异",
+      "url": "https://kotoba.ninjal.ac.jp/mado/09/09-04/"
+    },
+    {
+      "id": "jpfnumberrules",
+      "title": "国際交流基金：数字・助数詞・年月日",
+      "url": "https://ba.jpf.go.jp/wp-content/uploads/2022/03/Akiko2_bunpoo382002.pdf"
+    },
+    {
+      "id": "jpfclockrules",
+      "title": "国際交流基金：まるごと入門A1 時刻と時間",
+      "url": "https://md.jpf.go.jp/userfiles/file/2018/Lengua%20Japonesa/Gramatica/A1-JP_rev.pdf"
+    },
+    {
+      "id": "ninjaltatokoro",
+      "title": "建石始：Vたところ的语料功能区分（2011研究会资料）",
+      "url": "https://www2.ninjal.ac.jp/past-events/2009_2021/event/specialists/project-meeting/files/20111217-043re/20111218_tateishi.pdf"
+    },
+    {
+      "id": "ninjalobjects2024",
+      "title": "丁文静：对象を示す格助詞性複合辞的日中对照（2024）",
+      "url": "https://clrd.ninjal.ac.jp/lrw/lrw2024/i3_B2-paper.pdf"
+    },
+    {
+      "id": "tufsverbclass",
+      "title": "東京外国語大学：動詞の３種類",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/039.html"
+    },
+    {
+      "id": "tufsverbte",
+      "title": "東京外国語大学：Vて（て形）",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/043.html"
+    },
+    {
+      "id": "tufsverbplain",
+      "title": "東京外国語大学：普通形の体系",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/038.html"
+    },
+    {
+      "id": "tufsadjectiveforms",
+      "title": "東京外国語大学：形容詞の普通形",
+      "url": "https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/explanation/040.html"
+    },
+    {
+      "id": "takasemeaning2014",
+      "title": "高瀬利恵子：日本語上級文型の意味分類（2014）",
+      "url": "https://nakanihon.ac.jp/wp-content/themes/nac/doc/college/ronso/nac_ronso_044-04.pdf"
+    },
+    {
+      "id": "takahashikotoadverbial",
+      "title": "高橋雄一：副詞節・句を作る「もの」「こと」を含む複合辞について",
+      "url": "https://icaweb.info/files/03-02.pdf"
+    },
+    {
+      "id": "chinowa2023",
+      "title": "茅野正雄：日本語の助詞ハの基本的機能について（2023）",
+      "url": "https://opac.ll.chiba-u.jp/da/curator/900121544/S24364231-46-P035.pdf"
+    },
+    {
+      "id": "tanakatoj2010",
+      "title": "田中寛：「いう」と「おもう」の言語学（2010）",
+      "url": "https://www.ritsumei.ac.jp/acd/re/k-rsc/lcs/kiyou/pdf_22-2/RitsIILCS_22.2pp.145-179Tanaka.pdf"
     }
   ],
   "stages": [

@@ -1,0 +1,1128 @@
+{
+  "status": "120 theme roots checked and registered,124 independent meaning targets and248 original contexts; not independently language-reviewed.",
+  "baseline": "9c9d287",
+  "source": "pinned OpenJLPT 0d1d3410bec90bd4098a7c72de820543cb4f707c; no source examples reused",
+  "words": [
+    {
+      "id": "vn3l001",
+      "text": "あらゆる",
+      "reading": "あらゆる",
+      "sourceRomaji": "arayuru",
+      "primaryEntryID": 1586780,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l002",
+      "text": "一層",
+      "reading": "いっそう",
+      "sourceRomaji": "issou",
+      "primaryEntryID": 1164340,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l003",
+      "text": "言わば",
+      "reading": "いわば",
+      "sourceRomaji": "iwaba",
+      "primaryEntryID": 1264380,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l004",
+      "text": "いわゆる",
+      "reading": "いわゆる",
+      "sourceRomaji": "iwayuru",
+      "primaryEntryID": 1343150,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l005",
+      "text": "したがって",
+      "reading": "したがって",
+      "sourceRomaji": "shitagatte",
+      "primaryEntryID": 1335230,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l006",
+      "text": "要するに",
+      "reading": "ようするに",
+      "sourceRomaji": "yousuruni",
+      "primaryEntryID": 1546620,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l007",
+      "text": "しばしば",
+      "reading": "しばしば",
+      "sourceRomaji": "shibashiba",
+      "primaryEntryID": 1005580,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l008",
+      "text": "実は",
+      "reading": "じつは",
+      "sourceRomaji": "jitsuwa",
+      "primaryEntryID": 1320830,
+      "lessonID": "lvn3l01",
+      "lessonTitle": "判断与衔接"
+    },
+    {
+      "id": "vn3l009",
+      "text": "一瞬",
+      "reading": "いっしゅん",
+      "sourceRomaji": "isshun",
+      "primaryEntryID": 1163340,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l010",
+      "text": "瞬間",
+      "reading": "しゅんかん",
+      "sourceRomaji": "shunkan",
+      "primaryEntryID": 1341210,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l011",
+      "text": "今にも",
+      "reading": "いまにも",
+      "sourceRomaji": "imanimo",
+      "primaryEntryID": 1288950,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l012",
+      "text": "徐々に",
+      "reading": "じょじょに",
+      "sourceRomaji": "jojoni",
+      "primaryEntryID": 1595480,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l013",
+      "text": "半ば",
+      "reading": "なかば",
+      "sourceRomaji": "nakaba",
+      "primaryEntryID": 1478780,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l014",
+      "text": "前進",
+      "reading": "ぜんしん",
+      "sourceRomaji": "zenshin",
+      "primaryEntryID": 1393350,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l015",
+      "text": "永久",
+      "reading": "えいきゅう",
+      "sourceRomaji": "eikyuu",
+      "primaryEntryID": 1576520,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l016",
+      "text": "再び",
+      "reading": "ふたたび",
+      "sourceRomaji": "futatabi",
+      "primaryEntryID": 1292300,
+      "lessonID": "lvn3l02",
+      "lessonTitle": "瞬间、进展与时间"
+    },
+    {
+      "id": "vn3l017",
+      "text": "生き物",
+      "reading": "いきもの",
+      "sourceRomaji": "ikimono",
+      "primaryEntryID": 1378590,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l018",
+      "text": "泡",
+      "reading": "あわ",
+      "sourceRomaji": "awa",
+      "primaryEntryID": 1517510,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l019",
+      "text": "餌",
+      "reading": "えさ",
+      "sourceRomaji": "esa",
+      "primaryEntryID": 1173340,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l020",
+      "text": "梅",
+      "reading": "うめ",
+      "sourceRomaji": "ume",
+      "primaryEntryID": 1473460,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l021",
+      "text": "桜",
+      "reading": "さくら",
+      "sourceRomaji": "sakura",
+      "primaryEntryID": 1593710,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l022",
+      "text": "氷",
+      "reading": "こおり",
+      "sourceRomaji": "koori",
+      "primaryEntryID": 1488840,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l023",
+      "text": "満ちる",
+      "reading": "みちる",
+      "sourceRomaji": "michiru",
+      "primaryEntryID": 1604540,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l024",
+      "text": "流す",
+      "reading": "ながす",
+      "sourceRomaji": "nagasu",
+      "primaryEntryID": 1552120,
+      "lessonID": "lvn3l03",
+      "lessonTitle": "自然与流动"
+    },
+    {
+      "id": "vn3l025",
+      "text": "当たる",
+      "reading": "あたる",
+      "sourceRomaji": "ataru",
+      "primaryEntryID": 1448810,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l026",
+      "text": "当てる",
+      "reading": "あてる",
+      "sourceRomaji": "ateru",
+      "primaryEntryID": 1448860,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l027",
+      "text": "欠ける",
+      "reading": "かける",
+      "sourceRomaji": "kakeru",
+      "primaryEntryID": 1253920,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l028",
+      "text": "加わる",
+      "reading": "くわわる",
+      "sourceRomaji": "kuwawaru",
+      "primaryEntryID": 1189980,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l029",
+      "text": "腐る",
+      "reading": "くさる",
+      "sourceRomaji": "kusaru",
+      "primaryEntryID": 1497800,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l030",
+      "text": "組む",
+      "reading": "くむ",
+      "sourceRomaji": "kumu",
+      "primaryEntryID": 1397590,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l031",
+      "text": "通り過ぎる",
+      "reading": "とおりすぎる",
+      "sourceRomaji": "toorisugiru",
+      "primaryEntryID": 1432980,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l032",
+      "text": "詰める",
+      "reading": "つめる",
+      "sourceRomaji": "tsumeru",
+      "primaryEntryID": 1226510,
+      "lessonID": "lvn3l04",
+      "lessonTitle": "接触、变化与动作"
+    },
+    {
+      "id": "vn3l033",
+      "text": "幼い",
+      "reading": "おさない",
+      "sourceRomaji": "osanai",
+      "primaryEntryID": 1545110,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l034",
+      "text": "居眠り",
+      "reading": "いねむり",
+      "sourceRomaji": "inemuri",
+      "primaryEntryID": 1231890,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l035",
+      "text": "癖",
+      "reading": "くせ",
+      "sourceRomaji": "kuse",
+      "primaryEntryID": 1509350,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l036",
+      "text": "苦労",
+      "reading": "くろう",
+      "sourceRomaji": "kurou",
+      "primaryEntryID": 1244680,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l037",
+      "text": "決心",
+      "reading": "けっしん",
+      "sourceRomaji": "kesshin",
+      "primaryEntryID": 1254340,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l038",
+      "text": "夢中",
+      "reading": "むちゅう",
+      "sourceRomaji": "muchuu",
+      "primaryEntryID": 1529500,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l039",
+      "text": "熱中",
+      "reading": "ねっちゅう",
+      "sourceRomaji": "netchuu",
+      "primaryEntryID": 1467950,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l040",
+      "text": "怠ける",
+      "reading": "なまける",
+      "sourceRomaji": "namakeru",
+      "primaryEntryID": 1410660,
+      "lessonID": "lvn3l05",
+      "lessonTitle": "性情、专注与决定"
+    },
+    {
+      "id": "vn3l041",
+      "text": "痛み",
+      "reading": "いたみ",
+      "sourceRomaji": "itami",
+      "primaryEntryID": 1587300,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l042",
+      "text": "食欲",
+      "reading": "しょくよく",
+      "sourceRomaji": "shokuyoku",
+      "primaryEntryID": 1358660,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l043",
+      "text": "独身",
+      "reading": "どくしん",
+      "sourceRomaji": "dokushin",
+      "primaryEntryID": 1455850,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l044",
+      "text": "身長",
+      "reading": "しんちょう",
+      "sourceRomaji": "shinchou",
+      "primaryEntryID": 1365770,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l045",
+      "text": "頭痛",
+      "reading": "ずつう",
+      "sourceRomaji": "zutsuu",
+      "primaryEntryID": 1450890,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l046",
+      "text": "上達",
+      "reading": "じょうたつ",
+      "sourceRomaji": "joutatsu",
+      "primaryEntryID": 1353850,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l047",
+      "text": "疲れ",
+      "reading": "つかれ",
+      "sourceRomaji": "tsukare",
+      "primaryEntryID": 1483730,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l048",
+      "text": "酔う",
+      "reading": "よう",
+      "sourceRomaji": "you",
+      "primaryEntryID": 1372650,
+      "lessonID": "lvn3l06",
+      "lessonTitle": "感受与生活状态"
+    },
+    {
+      "id": "vn3l049",
+      "text": "成人",
+      "reading": "せいじん",
+      "sourceRomaji": "seijin",
+      "primaryEntryID": 1375740,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l050",
+      "text": "誕生",
+      "reading": "たんじょう",
+      "sourceRomaji": "tanjou",
+      "primaryEntryID": 1419080,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l051",
+      "text": "祝う",
+      "reading": "いわう",
+      "sourceRomaji": "iwau",
+      "primaryEntryID": 1337390,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l052",
+      "text": "双子",
+      "reading": "ふたご",
+      "sourceRomaji": "futago",
+      "primaryEntryID": 1398750,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l053",
+      "text": "孫",
+      "reading": "まご",
+      "sourceRomaji": "mago",
+      "primaryEntryID": 1406230,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l054",
+      "text": "嫁",
+      "reading": "よめ",
+      "sourceRomaji": "yome",
+      "primaryEntryID": 1191680,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l055",
+      "text": "老人",
+      "reading": "ろうじん",
+      "sourceRomaji": "roujin",
+      "primaryEntryID": 1561090,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l056",
+      "text": "青年",
+      "reading": "せいねん",
+      "sourceRomaji": "seinen",
+      "primaryEntryID": 1381750,
+      "lessonID": "lvn3l07",
+      "lessonTitle": "亲属、成长与祝愿"
+    },
+    {
+      "id": "vn3l057",
+      "text": "詩",
+      "reading": "し",
+      "sourceRomaji": "shi",
+      "primaryEntryID": 1929950,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l058",
+      "text": "書物",
+      "reading": "しょもつ",
+      "sourceRomaji": "shomotsu",
+      "primaryEntryID": 1344150,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l059",
+      "text": "伝統",
+      "reading": "でんとう",
+      "sourceRomaji": "dentou",
+      "primaryEntryID": 1442260,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l060",
+      "text": "模様",
+      "reading": "もよう",
+      "sourceRomaji": "moyou",
+      "primaryEntryID": 1533720,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l061",
+      "text": "ユーモア",
+      "reading": "ゆーもあ",
+      "sourceRomaji": "yuumoa",
+      "primaryEntryID": 1136850,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l062",
+      "text": "真似",
+      "reading": "まね",
+      "sourceRomaji": "mane",
+      "primaryEntryID": 1363740,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l063",
+      "text": "手品",
+      "reading": "てじな",
+      "sourceRomaji": "tejina",
+      "primaryEntryID": 1328310,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l064",
+      "text": "文明",
+      "reading": "ぶんめい",
+      "sourceRomaji": "bunmei",
+      "primaryEntryID": 1505650,
+      "lessonID": "lvn3l08",
+      "lessonTitle": "文学、文化与创作"
+    },
+    {
+      "id": "vn3l065",
+      "text": "宗教",
+      "reading": "しゅうきょう",
+      "sourceRomaji": "shuukyou",
+      "primaryEntryID": 1331400,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l066",
+      "text": "軍",
+      "reading": "ぐん",
+      "sourceRomaji": "gun",
+      "primaryEntryID": 1247660,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l067",
+      "text": "軍隊",
+      "reading": "ぐんたい",
+      "sourceRomaji": "guntai",
+      "primaryEntryID": 1248710,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l068",
+      "text": "憲法",
+      "reading": "けんぽう",
+      "sourceRomaji": "kenpou",
+      "primaryEntryID": 1257590,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l069",
+      "text": "外交",
+      "reading": "がいこう",
+      "sourceRomaji": "gaikou",
+      "primaryEntryID": 1203540,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l070",
+      "text": "税",
+      "reading": "ぜい",
+      "sourceRomaji": "zei",
+      "primaryEntryID": 2081570,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l071",
+      "text": "金融",
+      "reading": "きんゆう",
+      "sourceRomaji": "kin'yuu",
+      "primaryEntryID": 1243290,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l072",
+      "text": "議員",
+      "reading": "ぎいん",
+      "sourceRomaji": "giin",
+      "primaryEntryID": 1226020,
+      "lessonID": "lvn3l09",
+      "lessonTitle": "社会与制度"
+    },
+    {
+      "id": "vn3l073",
+      "text": "経営",
+      "reading": "けいえい",
+      "sourceRomaji": "keiei",
+      "primaryEntryID": 1251130,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l074",
+      "text": "景気",
+      "reading": "けいき",
+      "sourceRomaji": "keiki",
+      "primaryEntryID": 1250830,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l075",
+      "text": "物価",
+      "reading": "ぶっか",
+      "sourceRomaji": "bukka",
+      "primaryEntryID": 1502430,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l076",
+      "text": "援助",
+      "reading": "えんじょ",
+      "sourceRomaji": "enjo",
+      "primaryEntryID": 1176660,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l077",
+      "text": "寄付",
+      "reading": "きふ",
+      "sourceRomaji": "kifu",
+      "primaryEntryID": 1591400,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l078",
+      "text": "建設",
+      "reading": "けんせつ",
+      "sourceRomaji": "kensetsu",
+      "primaryEntryID": 1257420,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l079",
+      "text": "建築",
+      "reading": "けんちく",
+      "sourceRomaji": "kenchiku",
+      "primaryEntryID": 1257500,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l080",
+      "text": "農業",
+      "reading": "のうぎょう",
+      "sourceRomaji": "nougyou",
+      "primaryEntryID": 1470660,
+      "lessonID": "lvn3l10",
+      "lessonTitle": "建设、经营与援助"
+    },
+    {
+      "id": "vn3l081",
+      "text": "旅",
+      "reading": "たび",
+      "sourceRomaji": "tabi",
+      "primaryEntryID": 1553120,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l082",
+      "text": "光景",
+      "reading": "こうけい",
+      "sourceRomaji": "koukei",
+      "primaryEntryID": 1272950,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l083",
+      "text": "眺め",
+      "reading": "ながめ",
+      "sourceRomaji": "nagame",
+      "primaryEntryID": 1610960,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l084",
+      "text": "翼",
+      "reading": "つばさ",
+      "sourceRomaji": "tsubasa",
+      "primaryEntryID": 1547530,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l085",
+      "text": "小屋",
+      "reading": "こや",
+      "sourceRomaji": "koya",
+      "primaryEntryID": 1347830,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l086",
+      "text": "トンネル",
+      "reading": "とんねる",
+      "sourceRomaji": "tonneru",
+      "primaryEntryID": 1087630,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l087",
+      "text": "通行",
+      "reading": "つうこう",
+      "sourceRomaji": "tsuukou",
+      "primaryEntryID": 1433180,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l088",
+      "text": "通信",
+      "reading": "つうしん",
+      "sourceRomaji": "tsuushin",
+      "primaryEntryID": 1433330,
+      "lessonID": "lvn3l11",
+      "lessonTitle": "旅行、场景与联络"
+    },
+    {
+      "id": "vn3l089",
+      "text": "安定",
+      "reading": "あんてい",
+      "sourceRomaji": "antei",
+      "primaryEntryID": 1154120,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l090",
+      "text": "豪華",
+      "reading": "ごうか",
+      "sourceRomaji": "gouka",
+      "primaryEntryID": 1285520,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l091",
+      "text": "重大",
+      "reading": "じゅうだい",
+      "sourceRomaji": "juudai",
+      "primaryEntryID": 1336500,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l092",
+      "text": "大半",
+      "reading": "たいはん",
+      "sourceRomaji": "taihan",
+      "primaryEntryID": 1414790,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l093",
+      "text": "大部分",
+      "reading": "だいぶぶん",
+      "sourceRomaji": "daibubun",
+      "primaryEntryID": 1414850,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l094",
+      "text": "莫大",
+      "reading": "ばくだい",
+      "sourceRomaji": "bakudai",
+      "primaryEntryID": 1476060,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l095",
+      "text": "容易",
+      "reading": "ようい",
+      "sourceRomaji": "youi",
+      "primaryEntryID": 1545350,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l096",
+      "text": "清潔",
+      "reading": "せいけつ",
+      "sourceRomaji": "seiketsu",
+      "primaryEntryID": 1378200,
+      "lessonID": "lvn3l12",
+      "lessonTitle": "性质、比例与程度"
+    },
+    {
+      "id": "vn3l097",
+      "text": "金庫",
+      "reading": "きんこ",
+      "sourceRomaji": "kinko",
+      "primaryEntryID": 1242850,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l098",
+      "text": "籠",
+      "reading": "かご",
+      "sourceRomaji": "kago",
+      "primaryEntryID": 1590200,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l099",
+      "text": "笛",
+      "reading": "ふえ",
+      "sourceRomaji": "fue",
+      "primaryEntryID": 1437310,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l100",
+      "text": "束",
+      "reading": "たば",
+      "sourceRomaji": "taba",
+      "primaryEntryID": 1404450,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l101",
+      "text": "棒",
+      "reading": "ぼう",
+      "sourceRomaji": "bou",
+      "primaryEntryID": 1519750,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l102",
+      "text": "宝石",
+      "reading": "ほうせき",
+      "sourceRomaji": "houseki",
+      "primaryEntryID": 1516220,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l103",
+      "text": "武器",
+      "reading": "ぶき",
+      "sourceRomaji": "buki",
+      "primaryEntryID": 1498460,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l104",
+      "text": "墓",
+      "reading": "はか",
+      "sourceRomaji": "haka",
+      "primaryEntryID": 1514840,
+      "lessonID": "lvn3l13",
+      "lessonTitle": "物品与遗迹"
+    },
+    {
+      "id": "vn3l105",
+      "text": "関連",
+      "reading": "かんれん",
+      "sourceRomaji": "kanren",
+      "primaryEntryID": 1216060,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l106",
+      "text": "通す",
+      "reading": "とおす",
+      "sourceRomaji": "toosu",
+      "primaryEntryID": 1432900,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l107",
+      "text": "及ぼす",
+      "reading": "およぼす",
+      "sourceRomaji": "oyobosu",
+      "primaryEntryID": 1228180,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l108",
+      "text": "影響",
+      "reading": "えいきょう",
+      "sourceRomaji": "eikyou",
+      "primaryEntryID": 1173660,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l109",
+      "text": "吸収",
+      "reading": "きゅうしゅう",
+      "sourceRomaji": "kyuushuu",
+      "primaryEntryID": 1228330,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l110",
+      "text": "左右",
+      "reading": "さゆう",
+      "sourceRomaji": "sayuu",
+      "primaryEntryID": 1290810,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l111",
+      "text": "占める",
+      "reading": "しめる",
+      "sourceRomaji": "shimeru",
+      "primaryEntryID": 1389460,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l112",
+      "text": "取れる",
+      "reading": "とれる",
+      "sourceRomaji": "toreru",
+      "primaryEntryID": 1326990,
+      "lessonID": "lvn3l14",
+      "lessonTitle": "关联、作用与结果"
+    },
+    {
+      "id": "vn3l113",
+      "text": "あいにく",
+      "reading": "あいにく",
+      "sourceRomaji": "ainiku",
+      "primaryEntryID": 1379210,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l114",
+      "text": "必死",
+      "reading": "ひっし",
+      "sourceRomaji": "hisshi",
+      "primaryEntryID": 1601890,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l115",
+      "text": "ぐっすり",
+      "reading": "ぐっすり",
+      "sourceRomaji": "gussuri",
+      "primaryEntryID": 1004060,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l116",
+      "text": "ちゃんと",
+      "reading": "ちゃんと",
+      "sourceRomaji": "chanto",
+      "primaryEntryID": 1007720,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l117",
+      "text": "きちんと",
+      "reading": "きちんと",
+      "sourceRomaji": "kichinto",
+      "primaryEntryID": 1003400,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l118",
+      "text": "さっぱり",
+      "reading": "さっぱり",
+      "sourceRomaji": "sappari",
+      "primaryEntryID": 1005210,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l119",
+      "text": "たっぷり",
+      "reading": "たっぷり",
+      "sourceRomaji": "tappuri",
+      "primaryEntryID": 1007240,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    },
+    {
+      "id": "vn3l120",
+      "text": "何とか",
+      "reading": "なんとか",
+      "sourceRomaji": "nantoka",
+      "primaryEntryID": 1188420,
+      "lessonID": "lvn3l15",
+      "lessonTitle": "态度与方式"
+    }
+  ],
+  "overlapsToReview": [
+    [
+      "欠ける",
+      1253920,
+      [
+        [
+          "vn5422",
+          "かける",
+          "かける",
+          "拨打（电话）"
+        ]
+      ]
+    ],
+    [
+      "翼",
+      1547530,
+      [
+        [
+          "v0182",
+          "よく",
+          "よく",
+          "经常；充分地"
+        ]
+      ]
+    ],
+    [
+      "左右",
+      1290810,
+      [
+        [
+          "vn5325",
+          "そう",
+          "そう",
+          "那样；是那样"
+        ]
+      ]
+    ]
+  ],
+  "selectedWordReview": "content/staging/n3-similarity-theme-word-review.json",
+  "currentThemeTargets": 124,
+  "currentThemeAdditionalSenses": 4
+}

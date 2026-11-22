@@ -1,0 +1,232 @@
+{
+  "status": "local primary dictionary facts checked for selected links; independent Japanese review pending",
+  "dictionaryPath": "build/sources/jamdict-cn/jamdict_cn_deduplicated.db",
+  "dictionarySHA256": "0a1fc422f79548e4b7ef1c83e741c727c9652a5c1afc643fa8ce84c00b30c0db",
+  "reviewedFacts": "Kanji/Kana spellings and selected sense facts, not blanket acceptance of all readings or meanings. Three N4 written-sense targets are now registered; existing roots only gained dictionary source metadata.",
+  "selectedSameSenseLinks": [
+    {
+      "itemID": "vn5781",
+      "entryID": 1219510,
+      "senseID": 24888,
+      "authoredForm": "うれしい",
+      "contexts": [
+        "rn3114sb"
+      ],
+      "scope": "Happiness in meeting former companions; not a new root."
+    },
+    {
+      "itemID": "vn6000",
+      "entryID": 1511790,
+      "senseID": 61074,
+      "authoredForm": "片づける",
+      "contexts": [
+        "rn3117se"
+      ],
+      "scope": "Tidy the work table; not settling a dispute, completing a task or harming a person."
+    },
+    {
+      "itemID": "vn5327",
+      "entryID": 1598680,
+      "senseID": 72158,
+      "authoredForm": "ときどき",
+      "contexts": [
+        "rn3115sb"
+      ],
+      "scope": "Occasionally stopping during a walk; not seasonal suitability."
+    },
+    {
+      "itemID": "vn3e026",
+      "entryID": 1577270,
+      "senseID": 69008,
+      "authoredForm": "せりふ",
+      "contexts": [
+        "rn3114sc",
+        "rn3114se"
+      ],
+      "scope": "Spoken lines during rehearsal; only the taught せりふ reading is used."
+    },
+    {
+      "itemID": "vn4831",
+      "entryID": 1251900,
+      "senseID": 28844,
+      "authoredForm": "つなぐ",
+      "contexts": [
+        "rn3120sc"
+      ],
+      "scope": "Connect the device to power; not forwarding calls or financial hedging."
+    },
+    {
+      "itemID": "v0206",
+      "entryID": 1208910,
+      "senseID": 23615,
+      "authoredForm": "鞄",
+      "contexts": [
+        "rn3120sf",
+        "rn3130sd"
+      ],
+      "scope": "The physical bag containing a book or letter; no extra word or reading card."
+    },
+    {
+      "itemID": "v0226",
+      "entryID": 1270590,
+      "senseID": 31147,
+      "authoredForm": "御飯",
+      "contexts": [
+        "rn3127se"
+      ],
+      "scope": "An additional serving of cooked rice; not shrine offerings or alternate おんいい／おまんま readings."
+    },
+    {
+      "itemID": "vn4858",
+      "entryID": 1416170,
+      "senseID": 49239,
+      "authoredForm": "たたく",
+      "contexts": [
+        "rn3128sa"
+      ],
+      "scope": "Pat the younger runner on the shoulder; not online abuse or function invocation."
+    },
+    {
+      "itemID": "vn4860",
+      "entryID": 1433650,
+      "senseID": 51470,
+      "authoredForm": "つかむ",
+      "contexts": [
+        "rn3128se",
+        "rn3130sc"
+      ],
+      "scope": "Physically catch a hat or grip a shoulder; not acquire wealth or understand an idea."
+    },
+    {
+      "itemID": "vn3f013",
+      "entryID": 1220310,
+      "senseID": 25012,
+      "authoredForm": "すでに",
+      "contexts": [
+        "rn3119sa"
+      ],
+      "scope": "Already asleep at the reference time; do not add alternate すんでに."
+    },
+    {
+      "itemID": "vn3j018",
+      "entryID": 1279310,
+      "senseID": 32175,
+      "authoredForm": "さらに",
+      "contexts": [
+        "rn3119se"
+      ],
+      "scope": "Further investigation of the date question; same additive sense."
+    },
+    {
+      "itemID": "vn3a042",
+      "entryID": 1549780,
+      "senseID": 65700,
+      "authoredForm": "履き替える",
+      "contexts": [
+        "rn3128sc"
+      ],
+      "scope": "Change muddy shoes to borrowed boots; not accidentally put on someone else's shoes."
+    },
+    {
+      "itemID": "vn4j086",
+      "entryID": 1484320,
+      "senseID": 57753,
+      "authoredForm": "被せる",
+      "contexts": [
+        "rn3124se"
+      ],
+      "scope": "Cover the printed sign with a transparent bag, matching the existing physical-covering sense of かぶせる. No guilt, metal-plating or other sense was accepted."
+    }
+  ],
+  "properNames": {
+    "ミオ": [
+      "rn3130sa",
+      "rn3130sb",
+      "rn3130sc",
+      "rn3130sf"
+    ]
+  },
+  "sourceAndAuthorship": "The narratives, Chinese translations, evidence questions and distractors are original, CC BY-SA 4.0. They are not translations of dictionary examples. Grammar facts are documented in the chapter's existing source records.",
+  "manuscriptHashes": {
+    "content/authoring/n3-similarity-assessment-readings.tsv": "b6f2dffb4b8940a4eb4f171cf2f736954d1e0b6d091cabd914b2434e4bdef80c",
+    "content/authoring/n3-similarity-choice-readings.tsv": "f975ec9765fc5038022800a98cf85dfbfd264df2231ae0819ea2c32591469f48",
+    "content/authoring/n3-similarity-evidence-readings.tsv": "a189c1bc812a51803e959d685fa73fee0afcddfc47aeab77c7abc373ff8099ce",
+    "content/authoring/n3-similarity-market-readings.tsv": "6b0dc1015a2955c0bc53a0c6bb8649a9f32c95ea3c4b3f27f34eb76d145dc081",
+    "content/authoring/n3-similarity-readings.tsv": "8ad85f061c9ecc8abbe9736f7da169766350fa9c413d50419636bcbd30e81b31",
+    "content/authoring/n3-similarity-revision-readings.tsv": "235117ccc094ffe216fe8ce69655b1a72936d400a4195fbac00ac30b7ffb91b8",
+    "content/authoring/n3-similarity-social-readings.tsv": "9b177eb76a7e5fdb2b47dc2992deecdcc3aee42a5f5696f3d0b7e98d45f6aafb",
+    "content/authoring/n3-similarity-story-readings.tsv": "cf40eb8e145ec8d5b0cf4e39e9a2fdcc93dae41f8e6a7a80315b8ea52062cfba",
+    "content/authoring/n3-similarity-work-readings.tsv": "4607a390fe9647cdecbe214d98ca1c6e7eec62b5e3e3008c49adaaa4a6131db6"
+  },
+  "structureReport": "content/staging/n3-similarity-reading-review.json",
+  "remainingWork": [
+    "Declare and validate the4 proper-name occurrences inrn3130, preserving unknown-word denominator.",
+    "Apply the98 reviewed old-sentence annotations and register/generate chapter together; full curriculum gates still required.",
+    "Obtain independent Japanese review and run macOS/iOS, SE3, audio/device/archive/release checks when Actions is available.",
+    "Finish additional N2 content, six original-reading bridges and sourced pronunciation depth."
+  ],
+  "prerequisiteWordReview": "content/staging/n3-similarity-prerequisite-word-review.json",
+  "registeredAdditionalSenses": [
+    {
+      "form": "付ける",
+      "entryID": 1495770,
+      "senseID": 59114,
+      "existingCandidates": [
+        "vn5246",
+        "vn3i084"
+      ],
+      "previousReviewReason": "Physically attach a name label to the shelf; neither switching on a device nor adding a name/number automatically proves this physical-attachment sense was taught. Leave unresolved.",
+      "itemID": "vn4q001",
+      "lexemeID": "vn5246",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
+    },
+    {
+      "form": "掛ける",
+      "entryID": 1207610,
+      "senseID": 23405,
+      "existingCandidates": [
+        "vn5422"
+      ],
+      "previousReviewReason": "Hang a coat or cloth; the existing target means making a telephone call. Keep the new sense separate and review lexeme ownership rather than counting a duplicate root.",
+      "itemID": "vn4q002",
+      "lexemeID": "vn5422",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
+    },
+    {
+      "form": "録る",
+      "entryID": 1298790,
+      "senseID": 34541,
+      "existingCandidates": [
+        "vn5036"
+      ],
+      "previousReviewReason": "Record voice, whereas existing 撮る teaches taking photos. Review spelling restrictions and a sense-level model before adding or reusing a target.",
+      "itemID": "vn4q003",
+      "lexemeID": "vn5036",
+      "status": "registered at N4 with two original contexts and separate reading practice; not released",
+      "review": "content/source-checks/n4-written-senses.json"
+    }
+  ],
+  "readingWordReview": "content/staging/n3-similarity-reading-word-review.json",
+  "annotationChanges": [
+    {
+      "context": "rn3117sa",
+      "before": "[市|いち]",
+      "after": "[市|いち|@vn3n041]",
+      "scope": "Same text and ruby, explicit market sense; administrative市し remains separate"
+    }
+  ],
+  "unresolvedReadingForms": 0,
+  "unresolvedGrammarForms": 0,
+  "themeWordReview": "content/staging/n3-similarity-theme-word-review.json",
+  "additionalSenseReview": "content/staging/n3-similarity-additional-sense-review.json",
+  "oldAssociationReview": "content/staging/n3-similarity-prior-link-candidates.json",
+  "properNameDeclaration": {
+    "readingID": "rn3130",
+    "spelling": "ミオ",
+    "reading": "みお",
+    "occurrences": 4,
+    "status": "Explicit declaration and Python/native core regression checks passed;4 occurrences remain unknown."
+  }
+}
