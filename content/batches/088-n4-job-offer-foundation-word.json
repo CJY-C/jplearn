@@ -1,0 +1,216 @@
+{
+  "items": [
+    {
+      "id": "vn4jobs001",
+      "kind": "word",
+      "level": "N4",
+      "text": "求人",
+      "reading": "きゅうじん",
+      "romaji": "kyuujin",
+      "meaning": "招聘、招人；所发布的岗位需求",
+      "explanation": "本单元义项：招聘、招人；所发布的岗位需求。通过两个不同语境辨认；其他义项须结合上下文。\n本组指招人或岗位招募信息；求職表示寻找工作，参与者方向不同。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "招聘、招人；所发布的岗位需求",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4jobs001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1229500；2026-11-16 官方JMdict 第1义；本组限定招聘、招人；所发布的岗位需求。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4jobs001a",
+        "svn4jobs001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1229500
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4jobs001a",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "求人",
+          "reading": "きゅうじん",
+          "itemID": "vn4jobs001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案内",
+          "reading": "あんない",
+          "itemID": "vn5999"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "店门口有招聘信息。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4jobs001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4jobs001b",
+      "segments": [
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "探",
+          "reading": "さが",
+          "itemID": "v0318"
+        },
+        {
+          "text": "して、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "求人",
+          "reading": "きゅうじん",
+          "itemID": "vn4jobs001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "ページ",
+          "reading": "ページ",
+          "itemID": "vn5004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我为了找工作，阅读了招聘页面。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4jobs001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4jobs001a",
+      "targetID": "vn4jobs001",
+      "sentenceID": "svn4jobs001b",
+      "skill": "meaning",
+      "prompt": "句中「求人」表示什么？",
+      "choices": [
+        "求职者寻找工作的行动",
+        "已经决定的下班时间",
+        "招聘、招人；所发布的岗位需求"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「招聘、招人；所发布的岗位需求」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "きゅうじん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "求人",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4jobs001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4jobs01",
+      "title": "招聘信息中的基本词",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4jobs001"
+      ],
+      "sentenceIDs": [
+        "svn4jobs001a",
+        "svn4jobs001b"
+      ],
+      "exerciseIDs": [
+        "evn4jobs001a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

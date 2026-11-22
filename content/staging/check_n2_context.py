@@ -35,12 +35,13 @@ def source_path(name):
 def base_pack():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     excluded = set(CHAPTER_FILES)
-    later = ROOT / "content/source-checks/n2-basis-chapter.json"
-    if later.exists():
-        # A later chapter requires the very targets rebuilt by this check.
-        # Keep its earlier vocabulary backfill; exclude its dependent N2 units.
-        excluded.update(name for name in json.loads(later.read_text())["manuscripts"]
-                        if name.startswith("n2-"))
+    for ledger_name in ["n2-basis-chapter.json", "n2-social-chapter.json"]:
+        later = ROOT / "content/source-checks" / ledger_name
+        if later.exists():
+            # Keep earlier backfills while independently rebuilding the N2
+            # targets required by later units. The newest proof checks all.
+            excluded.update(name for name in json.loads(later.read_text())["manuscripts"]
+                            if name.startswith("n2-"))
     replacements = {ROOT / "content/batches" / r["batch"]: {}
                     for r in manifest["entries"] if r["source"] in excluded}
     return make_pack(overrides=replacements)

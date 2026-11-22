@@ -89,6 +89,9 @@
     {"kind": "word", "source": "n2-evidence-and-interpretation-words.tsv", "batch": "084-n2-evidence-and-interpretation-words.json"},
     {"kind": "word", "source": "n5-boarding-place-word.tsv", "batch": "085-n5-boarding-place-word.json"},
     {"kind": "grammar", "source": "n2-basis-and-viewpoint.tsv", "batch": "086-n2-basis-and-viewpoint.json"},
-    {"kind": "reading", "source": "n2-basis-readings.tsv", "batch": "087-n2-basis-readings.json"}
+    {"kind": "reading", "source": "n2-basis-readings.tsv", "batch": "087-n2-basis-readings.json"},
+    {"kind": "word", "source": "n4-job-offer-foundation-word.tsv", "batch": "088-n4-job-offer-foundation-word.json"},
+    {"kind": "word", "source": "n3-social-foundation-words.tsv", "batch": "089-n3-social-foundation-words.json"},
+    {"kind": "word", "source": "n2-social-and-work-words.tsv", "batch": "090-n2-social-and-work-words.json"}
   ]
 }

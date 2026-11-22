@@ -196,13 +196,27 @@ def check_prior_changes(current=None):
     assert ledger["baselineCommit"] == BASELINE and ledger["baselineRuntimeSHA256"] == BASELINE_SHA256
     pack, batches, coverage = source_batches()
     after = current if current is not None else json.loads((ROOT / RESOURCE).read_text())
+    later = None
+    if (ROOT / "content/source-checks/n2-social-chapter.json").exists():
+        from check_n2_social import check_prior_changes as check_social
+        later = check_social(after)
+        checkpoint = later["baselineCommit"]
+        after = json.loads(subprocess.check_output(["git", "show", checkpoint + ":" + RESOURCE], cwd=ROOT))
+
+    def current_data(path):
+        # The newest proof validates all subsequent data first; audit this
+        # chapter's original output at the immutable handover checkpoint.
+        if later is not None:
+            return subprocess.check_output(["git", "show", checkpoint + ":" + path], cwd=ROOT)
+        return (ROOT / path).read_bytes()
+
     assert after == pack, "Basis chapter differs from independent source reconstruction"
     for name, expected in ledger["newSourceSHA256"].items():
         assert sha(source_path(name).read_bytes()) == expected, (name, "New source changed")
     for path, expected in ledger["reviewSHA256"].items():
         assert sha((ROOT / path).read_bytes()) == expected, (path, "Source review changed")
     old_manifest = json.loads(previous("content/manuscripts.json"))
-    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    manifest = json.loads(current_data("content/manuscripts.json"))
     assert manifest == dict(old_manifest, entries=old_manifest["entries"] + ledger["manifestAdditions"])
     assert len(ledger["manifestAdditions"]) == 3
     for entry in ledger["manifestAdditions"]:
@@ -216,22 +230,23 @@ def check_prior_changes(current=None):
             text = original.decode()
             assert text.count("[乗り場|のりば]") == 1
             expected = text.replace("[乗り場|のりば]", "[乗り場|のりば|@vn5b001]").encode()
-        assert (ROOT / "content/authoring" / source).read_bytes() == expected, (source, "Unreviewed old-source edit")
+        assert current_data("content/authoring/" + source) == expected, (source, "Unreviewed old-source edit")
     catalog = json.loads(previous("content/catalog.json"))
     catalog["references"] += json.loads(REFERENCES.read_text())["references"]
-    assert json.loads((ROOT / "content/catalog.json").read_text()) == catalog
+    assert json.loads(current_data("content/catalog.json")) == catalog
     syllabus = json.loads(previous("content/syllabus.json"))
     for pattern, ids in coverage.items():
         key = "N2:" + pattern
         assert key not in syllabus["grammarCoverage"]
         syllabus["grammarCoverage"][key] = dict(itemIDs=ids, note=MAPPING_NOTE)
-    assert json.loads((ROOT / "content/syllabus.json").read_text()) == syllabus, "Unreviewed syllabus or quota change"
+    assert json.loads(current_data("content/syllabus.json")) == syllabus, "Unreviewed syllabus or quota change"
     expected_ids = {key: [r["id"] for name in FILES for r in batches[name].get(key, [])] for key in COLLECTIONS}
     assert ledger["newIDs"] == expected_ids
     assert ledger["reviewedOldSentenceIDs"] == [OLD_SENTENCE]
     return dict(baselineCommit=BASELINE, oldSourcesChecked=len(old_manifest["entries"]),
                 oldCollectionsPreservedExceptReviewedLink=True, changedSentences=1,
-                changedAssociations=1, newRoots=1, grammarFunctions=10, newReadings=8)
+                changedAssociations=1, newRoots=1, grammarFunctions=10, newReadings=8,
+                subsequentSocialChangesVerified=later is not None)
 
 
 if __name__ == "__main__":

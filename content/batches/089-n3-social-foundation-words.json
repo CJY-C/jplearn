@@ -1,0 +1,2565 @@
+{
+  "items": [
+    {
+      "id": "vn3r001",
+      "kind": "word",
+      "level": "N3",
+      "text": "商業",
+      "reading": "しょうぎょう",
+      "romaji": "shougyou",
+      "meaning": "商业；围绕商品买卖等进行的经营活动",
+      "explanation": "本单元义项：商业；围绕商品买卖等进行的经营活动。通过两个不同语境辨认；其他义项须结合上下文。\n商业与已教的工業、農業等领域不同；本组不把所有产业都称作商业。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "商业；围绕商品买卖等进行的经营活动",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1346740；2026-11-16 官方JMdict 第1义；本组限定商业；围绕商品买卖等进行的经营活动。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r001a",
+        "svn3r001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1346740
+    },
+    {
+      "id": "vn3r002",
+      "kind": "word",
+      "level": "N3",
+      "text": "後輩",
+      "reading": "こうはい",
+      "romaji": "kouhai",
+      "meaning": "后辈；在同一学校或工作单位等较晚进入的人",
+      "explanation": "本单元义项：后辈；在同一学校或工作单位等较晚进入的人。通过两个不同语境辨认；其他义项须结合上下文。\n与先輩对照时先看同一学校、单位等关系；不能只凭实际年龄判定。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "后辈；在同一学校或工作单位等较晚进入的人",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1270010；2026-11-16 官方JMdict 第1义；本组限定后辈；在同一学校或工作单位等较晚进入的人。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r002a",
+        "svn3r002b"
+      ],
+      "order": 2001,
+      "jmdictEntryID": 1270010
+    },
+    {
+      "id": "vn3r003",
+      "kind": "word",
+      "level": "N3",
+      "text": "支援",
+      "reading": "しえん",
+      "romaji": "shien",
+      "meaning": "支援、支持；为某人或某项活动提供帮助",
+      "explanation": "本单元义项：支援、支持；为某人或某项活动提供帮助。通过两个不同语境辨认；其他义项须结合上下文。\n可以是资金、信息或行动上的帮助；不把支援一律理解为只给钱。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "支援、支持；为某人或某项活动提供帮助",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1310100；2026-11-16 官方JMdict 第1义；本组限定支援、支持；为某人或某项活动提供帮助。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r003a",
+        "svn3r003b"
+      ],
+      "order": 2002,
+      "jmdictEntryID": 1310100
+    },
+    {
+      "id": "vn3r004",
+      "kind": "word",
+      "level": "N3",
+      "text": "保護",
+      "reading": "ほご",
+      "romaji": "hogo",
+      "meaning": "保护、救护；使人、动物或信息等免受损害",
+      "explanation": "本单元义项：保护、救护；使人、动物或信息等免受损害。通过两个不同语境辨认；其他义项须结合上下文。\n本组为保护、救护；自然资源保存等语境要继续辨认对象，不借此认定所有相关行为已经完成。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "保护、救护；使人、动物或信息等免受损害",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r004；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1513530；2026-11-16 官方JMdict 第1义；本组限定保护、救护；使人、动物或信息等免受损害。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r004a",
+        "svn3r004b"
+      ],
+      "order": 2003,
+      "jmdictEntryID": 1513530
+    },
+    {
+      "id": "vn3r005",
+      "kind": "word",
+      "level": "N3",
+      "text": "大臣",
+      "reading": "だいじん",
+      "romaji": "daijin",
+      "meaning": "大臣；政府内阁中负责某一方面事务的成员",
+      "explanation": "本单元义项：大臣；政府内阁中负责某一方面事务的成员。通过两个不同语境辨认；其他义项须结合上下文。\n本组为现代政府职位，读だいじん；おとど等历史用法另按语境核对。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "大臣；政府内阁中负责某一方面事务的成员",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r005；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1414160；2026-11-16 官方JMdict 第1义；本组限定大臣；政府内阁中负责某一方面事务的成员。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r005a",
+        "svn3r005b"
+      ],
+      "order": 2004,
+      "jmdictEntryID": 1414160
+    },
+    {
+      "id": "vn3r006",
+      "kind": "word",
+      "level": "N3",
+      "text": "知事",
+      "reading": "ちじ",
+      "romaji": "chiji",
+      "meaning": "知事；日本都道府县的行政首长",
+      "explanation": "本单元义项：知事；日本都道府县的行政首长。通过两个不同语境辨认；其他义项须结合上下文。\n本组辨认地方行政职位，不把知事与大臣、议员等职位混同；不介绍现任人物。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "知事；日本都道府县的行政首长",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r006；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1420580；2026-11-16 官方JMdict 第1义；本组限定知事；日本都道府县的行政首长。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r006a",
+        "svn3r006b"
+      ],
+      "order": 2005,
+      "jmdictEntryID": 1420580
+    },
+    {
+      "id": "vn3r007",
+      "kind": "word",
+      "level": "N3",
+      "text": "免許",
+      "reading": "めんきょ",
+      "romaji": "menkyo",
+      "meaning": "许可、执照；准许从事某项活动的资格凭证",
+      "explanation": "本单元义项：许可、执照；准许从事某项活动的资格凭证。通过两个不同语境辨认；其他义项须结合上下文。\n本组为活动资格的许可或执照；驾照是常见例子，不把免許只限于开车。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "许可、执照；准许从事某项活动的资格凭证",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r007；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1533130；2026-11-16 官方JMdict 第1义；本组限定许可、执照；准许从事某项活动的资格凭证。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r007a",
+        "svn3r007b"
+      ],
+      "order": 2006,
+      "jmdictEntryID": 1533130
+    },
+    {
+      "id": "vn3r008",
+      "kind": "word",
+      "level": "N3",
+      "text": "事務",
+      "reading": "じむ",
+      "romaji": "jimu",
+      "meaning": "事务、文书工作；处理文件等办公业务",
+      "explanation": "本单元义项：事务、文书工作；处理文件等办公业务。通过两个不同语境辨认；其他义项须结合上下文。\n本组为文书、手续等办公工作；并非所有职业活动都只有事務这一类。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "事务、文书工作；处理文件等办公业务",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r008；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1314270；2026-11-16 官方JMdict 第1义；本组限定事务、文书工作；处理文件等办公业务。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r008a",
+        "svn3r008b"
+      ],
+      "order": 2007,
+      "jmdictEntryID": 1314270
+    },
+    {
+      "id": "vn3r009",
+      "kind": "word",
+      "level": "N3",
+      "text": "奨学金",
+      "reading": "しょうがくきん",
+      "romaji": "shougakukin",
+      "meaning": "奖助学金、助学资金；具体制度也可能要求偿还",
+      "explanation": "本单元义项：奖助学金、助学资金；具体制度也可能要求偿还。通过两个不同语境辨认；其他义项须结合上下文。\n本组把学业资助资金作为共同概念，明确给付与贷款两类。是否需要偿还要看具体制度，不能仅凭奨学金一词决定；不介绍申请条件或金额。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "奖助学金、助学资金；具体制度也可能要求偿还",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r009；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict1347530第1、2义同义读音，无表记或读音限制。",
+          "status": "reference"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1347530；2026-11-16 官方JMdict 第1,2义；本组限定奖助学金、助学资金；具体制度也可能要求偿还。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r009a",
+        "svn3r009b"
+      ],
+      "order": 2008,
+      "acceptedReadings": [
+        "しょうがっきん"
+      ],
+      "jmdictEntryID": 1347530
+    },
+    {
+      "id": "vn3r010",
+      "kind": "word",
+      "level": "N3",
+      "text": "就く",
+      "reading": "つく",
+      "romaji": "tsuku",
+      "meaning": "就任、从事；进入某个职位或工作",
+      "explanation": "本单元义项：就任、从事；进入某个职位或工作。通过两个不同语境辨认；其他义项须结合上下文。\n本组为进入职位或从事工作；到达的着く、附着的付く要看字形与搭配。就学、即位等其他义另学。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "五段动词",
+      "sense": "就任、从事；进入某个职位或工作",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r010；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1331530；2026-11-16 官方JMdict 第1义；本组限定就任、从事；进入某个职位或工作。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r010a",
+        "svn3r010b"
+      ],
+      "order": 2009,
+      "jmdictEntryID": 1331530
+    },
+    {
+      "id": "vn3r011",
+      "kind": "word",
+      "level": "N3",
+      "text": "競技",
+      "reading": "きょうぎ",
+      "romaji": "kyougi",
+      "meaning": "竞技、比赛；按照规则进行的竞技活动或项目",
+      "explanation": "本单元义项：竞技、比赛；按照规则进行的竞技活动或项目。通过两个不同语境辨认；其他义项须结合上下文。\n本组为比赛、竞技活动；与練習、競争等词联系比较，不凭共有汉字认定含义相同。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "竞技、比赛；按照规则进行的竞技活动或项目",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r011；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1234080；2026-11-16 官方JMdict 第1义；本组限定竞技、比赛；按照规则进行的竞技活动或项目。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r011a",
+        "svn3r011b"
+      ],
+      "order": 2010,
+      "jmdictEntryID": 1234080
+    },
+    {
+      "id": "vn3r012",
+      "kind": "word",
+      "level": "N3",
+      "text": "学費",
+      "reading": "がくひ",
+      "romaji": "gakuhi",
+      "meaning": "学费、求学费用；为学习支付的费用",
+      "explanation": "本单元义项：学费、求学费用；为学习支付的费用。通过两个不同语境辨认；其他义项须结合上下文。\n学費是所需费用，与提供资助的奨学金区分；具体费用涵盖范围需看说明，不自行推定全部都包括。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "学费、求学费用；为学习支付的费用",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r012；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1207060；2026-11-16 官方JMdict 第1义；本组限定求学所需费用。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3r012a",
+        "svn3r012b"
+      ],
+      "order": 2011,
+      "jmdictEntryID": 1207060
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn3r001a",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "えき",
+          "itemID": "v0012"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近",
+          "reading": "ちか",
+          "itemID": "v0151"
+        },
+        {
+          "text": "くに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "増",
+          "reading": "ふ",
+          "itemID": "vn6148"
+        },
+        {
+          "text": "え、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "商業",
+          "reading": "しょうぎょう",
+          "itemID": "vn3r001"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発展",
+          "reading": "はってん",
+          "itemID": "vn3f053"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "车站附近店铺增加，商业发展了起来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r001b",
+      "segments": [
+        {
+          "text": "高校",
+          "reading": "こうこう",
+          "itemID": "vn4i031"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学",
+          "reading": "まな",
+          "itemID": "vn4i180"
+        },
+        {
+          "text": "んだ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "商業",
+          "reading": "しょうぎょう",
+          "itemID": "vn3r001"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知識",
+          "reading": "ちしき",
+          "itemID": "vn3h086"
+        },
+        {
+          "text": "が、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "店",
+          "reading": "みせ",
+          "itemID": "v0081"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "役立",
+          "reading": "やくだ",
+          "itemID": "vn3i085"
+        },
+        {
+          "text": "っています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "高中学过的商业知识，在店里的工作中派上了用场。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r002a",
+      "segments": [
+        {
+          "text": "大学",
+          "reading": "だいがく",
+          "itemID": "v0183"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後輩",
+          "reading": "こうはい",
+          "itemID": "vn3r002"
+        },
+        {
+          "text": "から、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "久",
+          "reading": "ひさ",
+          "itemID": "vn3c072"
+        },
+        {
+          "text": "しぶりに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "連絡",
+          "reading": "れんらく",
+          "itemID": "v0122"
+        },
+        {
+          "text": "がありました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "大学的后辈久违地联系了我。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r002b",
+      "segments": [
+        {
+          "text": "職場",
+          "reading": "しょくば",
+          "itemID": "vn4i128"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "後輩",
+          "reading": "こうはい",
+          "itemID": "vn3r002"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "順序",
+          "reading": "じゅんじょ",
+          "itemID": "vn4516"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我向单位的后辈说明了工作的顺序。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r003a",
+      "segments": [
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "探",
+          "reading": "さが",
+          "itemID": "v0318"
+        },
+        {
+          "text": "す",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "への",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "支援",
+          "reading": "しえん",
+          "itemID": "vn3r003"
+        },
+        {
+          "text": "について、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓口",
+          "reading": "まどぐち",
+          "itemID": "vn4038"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我在镇上的服务窗口询问了为求职者提供的帮助。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r003b",
+      "segments": [
+        {
+          "text": "地域",
+          "reading": "ちいき",
+          "itemID": "vn4570"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "人",
+          "reading": "ひと",
+          "itemID": "v0020"
+        },
+        {
+          "text": "たちが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "活動",
+          "reading": "かつどう",
+          "itemID": "vn3i026"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "支援",
+          "reading": "しえん",
+          "itemID": "vn3r003"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "当地居民在支持学校的活动。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r004a",
+      "segments": [
+        {
+          "text": "個人",
+          "reading": "こじん",
+          "itemID": "vn3h009"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "情報",
+          "reading": "じょうほう",
+          "itemID": "vn4423"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "保護",
+          "reading": "ほご",
+          "itemID": "vn3r004"
+        },
+        {
+          "text": "するため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資料",
+          "reading": "しりょう",
+          "itemID": "v0123"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "扱",
+          "reading": "あつか",
+          "itemID": "vn3i054"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为了保护个人信息，我们确认了资料的处理方式。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r004b",
+      "segments": [
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さな",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "動物",
+          "reading": "どうぶつ",
+          "itemID": "vn5386"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "保護",
+          "reading": "ほご",
+          "itemID": "vn3r004"
+        },
+        {
+          "text": "し、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "安全",
+          "reading": "あんぜん",
+          "itemID": "vn6178"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "場所",
+          "reading": "ばしょ",
+          "itemID": "vn5946"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "移",
+          "reading": "うつ",
+          "itemID": "vn3c068"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们救护了小动物，把它转移到安全的地方。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r005a",
+      "segments": [
+        {
+          "text": "政府",
+          "reading": "せいふ",
+          "itemID": "vn3h023"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大臣",
+          "reading": "だいじん",
+          "itemID": "vn3r005"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今後",
+          "reading": "こんご",
+          "itemID": "vn3e013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方針",
+          "reading": "ほうしん",
+          "itemID": "vn3h036"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "大臣在政府会议上说明了今后的方针。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r005b",
+      "segments": [
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "には、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教育",
+          "reading": "きょういく",
+          "itemID": "vn4303"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当",
+          "reading": "たんとう",
+          "itemID": "vn4i157"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大臣",
+          "reading": "だいじん",
+          "itemID": "vn3r005"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はなし",
+          "itemID": "v0071"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "載",
+          "reading": "の",
+          "itemID": "vn3k011"
+        },
+        {
+          "text": "っていました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "报纸刊登了负责教育事务的大臣的谈话。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r006a",
+      "segments": [
+        {
+          "text": "県",
+          "reading": "けん",
+          "itemID": "vn5959"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "について、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知事",
+          "reading": "ちじ",
+          "itemID": "vn3r006"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "住民",
+          "reading": "じゅうみん",
+          "itemID": "vn4i119"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "知事向居民说明了县里的工作。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r006b",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "itemID": "v0013"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知事",
+          "reading": "ちじ",
+          "itemID": "vn3r006"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "発言",
+          "reading": "はつげん",
+          "itemID": "vn3a093"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "新聞",
+          "reading": "しんぶん",
+          "itemID": "v0036"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我通过报纸核对了知事的发言。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r007a",
+      "segments": [
+        {
+          "text": "自動車",
+          "reading": "じどうしゃ",
+          "itemID": "vn5737"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "運転",
+          "reading": "うんてん",
+          "itemID": "vn6107"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "免許",
+          "reading": "めんきょ",
+          "itemID": "vn3r007"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "取",
+          "reading": "と",
+          "itemID": "vn5225"
+        },
+        {
+          "text": "りました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我取得了驾驶汽车的执照。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r007b",
+      "segments": [
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "始",
+          "reading": "はじ",
+          "itemID": "v0169"
+        },
+        {
+          "text": "める",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "免許",
+          "reading": "めんきょ",
+          "itemID": "vn3r007"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "持",
+          "reading": "も",
+          "itemID": "v0066"
+        },
+        {
+          "text": "っているか",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "开始工作前，我确认了自己是否持有所需执照。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r008a",
+      "segments": [
+        {
+          "text": "書類",
+          "reading": "しょるい",
+          "itemID": "vn4i154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "整理",
+          "reading": "せいり",
+          "itemID": "vn3a105"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "事務",
+          "reading": "じむ",
+          "itemID": "vn3r008"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "をしています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我从事整理文件等事务工作。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r008b",
+      "segments": [
+        {
+          "text": "午前中",
+          "reading": "ごぜんちゅう",
+          "itemID": "v0156"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "事務",
+          "reading": "じむ",
+          "itemID": "vn3r008"
+        },
+        {
+          "text": "をして、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "午後",
+          "reading": "ごご",
+          "itemID": "v0157"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "客",
+          "reading": "きゃく",
+          "itemID": "vn5740"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "上午处理了事务，下午与客人进行了交谈。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r009a",
+      "segments": [
+        {
+          "text": "奨学金",
+          "reading": "しょうがくきん",
+          "itemID": "vn3r009"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "itemID": "v0063"
+        },
+        {
+          "text": "す",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "があるか、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確",
+          "reading": "たし",
+          "itemID": "vn6162"
+        },
+        {
+          "text": "かめました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我向学校确认了这项助学资金是否需要偿还。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r009；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict1347530第1、2义同义读音，无表记或读音限制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "svn3r009b",
+      "segments": [
+        {
+          "text": "学費",
+          "reading": "がくひ",
+          "itemID": "vn3r012"
+        },
+        {
+          "text": "のために、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "返",
+          "reading": "かえ",
+          "itemID": "v0063"
+        },
+        {
+          "text": "さなくてよい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "奨学金",
+          "reading": "しょうがくきん",
+          "itemID": "vn3r009"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "探",
+          "reading": "さが",
+          "itemID": "v0318"
+        },
+        {
+          "text": "しています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为了支付学费，我在寻找无需偿还的奖助学金。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r009；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict1347530第1、2义同义读音，无表记或读音限制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "svn3r010a",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "就",
+          "reading": "つ",
+          "itemID": "vn3r010"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "开始从事新工作之前，我与家人商量了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r010；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r010b",
+      "segments": [
+        {
+          "text": "大学",
+          "reading": "だいがく",
+          "itemID": "v0183"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "てから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "教育",
+          "reading": "きょういく",
+          "itemID": "vn4303"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "就",
+          "reading": "つ",
+          "itemID": "vn3r010"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "大学毕业后，我从事了教育工作。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r010；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r011a",
+      "segments": [
+        {
+          "text": "競技",
+          "reading": "きょうぎ",
+          "itemID": "vn3r011"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "選手",
+          "reading": "せんしゅ",
+          "itemID": "vn3a033"
+        },
+        {
+          "text": "たちは",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "規則",
+          "reading": "きそく",
+          "itemID": "vn4328"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "比赛之前，选手们确认了规则。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r011；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r011b",
+      "segments": [
+        {
+          "text": "選手",
+          "reading": "せんしゅ",
+          "itemID": "vn3a033"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "競技",
+          "reading": "きょうぎ",
+          "itemID": "vn3r011"
+        },
+        {
+          "text": "でよい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "結果",
+          "reading": "けっか",
+          "itemID": "v0127"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "だ",
+          "itemID": "vn5027"
+        },
+        {
+          "text": "したいと",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "选手说，希望在比赛中取得好成绩。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r011；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r012a",
+      "segments": [
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "入",
+          "reading": "はい",
+          "itemID": "v0302"
+        },
+        {
+          "text": "る",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "前",
+          "reading": "まえ",
+          "itemID": "v0056"
+        },
+        {
+          "text": "に、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学費",
+          "reading": "がくひ",
+          "itemID": "vn3r012"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく",
+          "itemID": "v0202"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "入学前，我与家人一起查询了所需的学费。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r012；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3r012b",
+      "segments": [
+        {
+          "text": "学費",
+          "reading": "がくひ",
+          "itemID": "vn3r012"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "用意",
+          "reading": "ようい",
+          "itemID": "vn4016"
+        },
+        {
+          "text": "するため、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "休み",
+          "reading": "やすみ",
+          "itemID": "v0080"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "間",
+          "reading": "あいだ",
+          "itemID": "vn6202"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "働",
+          "reading": "はたら",
+          "itemID": "v0076"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为了准备学费，我在假期里工作了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r012；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn3r001a",
+      "targetID": "vn3r001",
+      "sentenceID": "svn3r001b",
+      "skill": "meaning",
+      "prompt": "句中「商業」表示什么？",
+      "choices": [
+        "只指生产商品的机器",
+        "完全没有交易的自然现象",
+        "商业；围绕商品买卖等进行的经营活动"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「商业；围绕商品买卖等进行的经营活动」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しょうぎょう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "商業",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r002a",
+      "targetID": "vn3r002",
+      "sentenceID": "svn3r002b",
+      "skill": "meaning",
+      "prompt": "句中「後輩」表示什么？",
+      "choices": [
+        "后辈；在同一学校或工作单位等较晚进入的人",
+        "同一单位中比自己更早进入的前辈",
+        "任何与自己无关的陌生人"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「后辈；在同一学校或工作单位等较晚进入的人」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "こうはい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "後輩",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r003a",
+      "targetID": "vn3r003",
+      "sentenceID": "svn3r003b",
+      "skill": "meaning",
+      "prompt": "句中「支援」表示什么？",
+      "choices": [
+        "只统计参与者的年龄而不提供帮助",
+        "支援、支持；为某人或某项活动提供帮助",
+        "明确阻止某项活动继续进行"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「支援、支持；为某人或某项活动提供帮助」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しえん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "支援",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r004a",
+      "targetID": "vn3r004",
+      "sentenceID": "svn3r004b",
+      "skill": "meaning",
+      "prompt": "句中「保護」表示什么？",
+      "choices": [
+        "主动把重要信息公开给任何人",
+        "只记录对象的颜色而不采取行动",
+        "保护、救护；使人、动物或信息等免受损害"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「保护、救护；使人、动物或信息等免受损害」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ほご",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "保護",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r005a",
+      "targetID": "vn3r005",
+      "sentenceID": "svn3r005b",
+      "skill": "meaning",
+      "prompt": "句中「大臣」表示什么？",
+      "choices": [
+        "一所学校中所有学生的总称",
+        "大臣；政府内阁中负责某一方面事务的成员",
+        "普通商店中负责收银的人"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「大臣；政府内阁中负责某一方面事务的成员」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "だいじん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "大臣",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r006a",
+      "targetID": "vn3r006",
+      "sentenceID": "svn3r006b",
+      "skill": "meaning",
+      "prompt": "句中「知事」表示什么？",
+      "choices": [
+        "只负责出售火车票的工作人员",
+        "知事；日本都道府县的行政首长",
+        "国家政府中所有议员的总称"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「知事；日本都道府县的行政首长」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ちじ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "知事",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r007a",
+      "targetID": "vn3r007",
+      "sentenceID": "svn3r007b",
+      "skill": "meaning",
+      "prompt": "句中「免許」表示什么？",
+      "choices": [
+        "没有核对资格就提出的个人愿望",
+        "只说明参加活动的人数",
+        "许可、执照；准许从事某项活动的资格凭证"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「许可、执照；准许从事某项活动的资格凭证」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "めんきょ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "免許",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r008a",
+      "targetID": "vn3r008",
+      "sentenceID": "svn3r008b",
+      "skill": "meaning",
+      "prompt": "句中「事務」表示什么？",
+      "choices": [
+        "只指体育馆里的运动训练",
+        "只指在野外进行的比赛",
+        "事务、文书工作；处理文件等办公业务"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「事务、文书工作；处理文件等办公业务」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "じむ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "事務",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r009a",
+      "targetID": "vn3r009",
+      "sentenceID": "svn3r009b",
+      "skill": "meaning",
+      "prompt": "句中「奨学金」表示什么？",
+      "choices": [
+        "奖助学金、助学资金；具体制度也可能要求偿还",
+        "所有领取后都必定不用归还的钱",
+        "学生向学校缴纳的全部学费"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「奖助学金、助学资金；具体制度也可能要求偿还」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しょうがくきん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "奨学金",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r009；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict1347530第1、2义同义读音，无表记或读音限制。",
+          "status": "reference"
+        }
+      ]
+    },
+    {
+      "id": "evn3r010a",
+      "targetID": "vn3r010",
+      "sentenceID": "svn3r010b",
+      "skill": "meaning",
+      "prompt": "句中「就く」表示什么？",
+      "choices": [
+        "就任、从事；进入某个职位或工作",
+        "已经离开并永久放弃所有工作",
+        "交通工具到达某个地点"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「就任、从事；进入某个职位或工作」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "つく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "就く",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r010；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r011a",
+      "targetID": "vn3r011",
+      "sentenceID": "svn3r011b",
+      "skill": "meaning",
+      "prompt": "句中「競技」表示什么？",
+      "choices": [
+        "竞技、比赛；按照规则进行的竞技活动或项目",
+        "没有任何规则的随意闲聊",
+        "仅说明比赛地点的地址"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「竞技、比赛；按照规则进行的竞技活动或项目」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "きょうぎ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "競技",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r011；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3r012a",
+      "targetID": "vn3r012",
+      "sentenceID": "svn3r012b",
+      "skill": "meaning",
+      "prompt": "句中「学費」表示什么？",
+      "choices": [
+        "学费、求学费用；为学习支付的费用",
+        "资助学生的所有款项都无须偿还",
+        "与学习没有关系的普通旅游票价"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「学费、求学费用；为学习支付的费用」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "がくひ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "学費",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3r012；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn3rsocial01",
+      "title": "商业、后辈与社会支持",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3r001",
+        "vn3r002",
+        "vn3r003",
+        "vn3r004"
+      ],
+      "sentenceIDs": [
+        "svn3r001a",
+        "svn3r001b",
+        "svn3r002a",
+        "svn3r002b",
+        "svn3r003a",
+        "svn3r003b",
+        "svn3r004a",
+        "svn3r004b"
+      ],
+      "exerciseIDs": [
+        "evn3r001a",
+        "evn3r002a",
+        "evn3r003a",
+        "evn3r004a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn3rroles01",
+      "title": "公共职位、工作与学业前置",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3r005",
+        "vn3r006",
+        "vn3r007",
+        "vn3r008",
+        "vn3r009",
+        "vn3r010",
+        "vn3r011",
+        "vn3r012"
+      ],
+      "sentenceIDs": [
+        "svn3r005a",
+        "svn3r005b",
+        "svn3r006a",
+        "svn3r006b",
+        "svn3r007a",
+        "svn3r007b",
+        "svn3r008a",
+        "svn3r008b",
+        "svn3r009a",
+        "svn3r009b",
+        "svn3r010a",
+        "svn3r010b",
+        "svn3r011a",
+        "svn3r011b",
+        "svn3r012a",
+        "svn3r012b"
+      ],
+      "exerciseIDs": [
+        "evn3r005a",
+        "evn3r006a",
+        "evn3r007a",
+        "evn3r008a",
+        "evn3r009a",
+        "evn3r010a",
+        "evn3r011a",
+        "evn3r012a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}
