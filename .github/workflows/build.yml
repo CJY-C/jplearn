@@ -29,6 +29,7 @@ jobs:
         run: |
           python3 scripts/compile_course.py --check
           python3 scripts/build_content.py --check
+          python3 scripts/check_n2_conditions.py
           python3 scripts/check_n2_social.py
           python3 scripts/check_n2_basis.py
           python3 scripts/check_rule_transfer.py

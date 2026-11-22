@@ -1,0 +1,1774 @@
+{
+  "items": [
+    {
+      "id": "vn3s001",
+      "kind": "word",
+      "level": "N3",
+      "text": "長所",
+      "reading": "ちょうしょ",
+      "romaji": "chousho",
+      "meaning": "长处、优点；某人或某物值得肯定的一面",
+      "explanation": "本单元义项：长处、优点；某人或某物值得肯定的一面。通过两个不同语境辨认；其他义项须结合上下文。\n与短所一起看同一对象的不同方面；長所は軽いこと可说明工具优点，人物的長所可在面试等场合说明。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "长处、优点；某人或某物值得肯定的一面",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1430030；2026-11-16 官方JMdict 第1义；长处、优点，不是几何长度。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s001a",
+        "svn3s001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1430030
+    },
+    {
+      "id": "vn3s002",
+      "kind": "word",
+      "level": "N3",
+      "text": "短所",
+      "reading": "たんしょ",
+      "romaji": "tansho",
+      "meaning": "短处、缺点；某人或某物不足的一面",
+      "explanation": "本单元义项：短处、缺点；某人或某物不足的一面。通过两个不同语境辨认；其他义项须结合上下文。\n与長所成对比较。某方面有短所不等于对象一无是处；需要读出被评价的具体方面。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "短处、缺点；某人或某物不足的一面",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1418760；2026-11-16 官方JMdict 第1义；短处、缺点，不是时长。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s002a",
+        "svn3s002b"
+      ],
+      "order": 2001,
+      "jmdictEntryID": 1418760
+    },
+    {
+      "id": "vn3s003",
+      "kind": "word",
+      "level": "N3",
+      "text": "集会",
+      "reading": "しゅうかい",
+      "romaji": "shuukai",
+      "meaning": "集会、聚会；人们为一定目的聚集的活动",
+      "explanation": "本单元义项：集会、聚会；人们为一定目的聚集的活动。通过两个不同语境辨认；其他义项须结合上下文。\n集会强调人们聚在一起的活动；常与参加する、開く等搭配。具体讨论内容、决定结果仍需另读。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "集会、聚会；人们为一定目的聚集的活动",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1333600；2026-11-16 官方JMdict 第1义；集会、聚集活动。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s003a",
+        "svn3s003b"
+      ],
+      "order": 2002,
+      "jmdictEntryID": 1333600
+    },
+    {
+      "id": "vn3s004",
+      "kind": "word",
+      "level": "N3",
+      "text": "回す",
+      "reading": "まわす",
+      "romaji": "mawasu",
+      "meaning": "转到后面处理、留待以后；把事务移到另一时点（本组）",
+      "explanation": "本单元义项：转到后面处理、留待以后；把事务移到另一时点（本组）。通过两个不同语境辨认；其他义项须结合上下文。\n本组是把问题或工作留到之后处理，不能只凭回す就理解为取消。与原来旋转物体的意义分别回忆；相同字形和读音共用认读。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "五段动词",
+      "sense": "转到后面处理、留待以后；把事务移到另一时点（本组）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [
+        "vn5766"
+      ],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s004；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1199350；2026-11-16 官方JMdict 第3义的移交、转移；本组时间后移语境，另核对小学馆デジタル大辞泉「回し」第2义的移转与后置用法。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s004a",
+        "svn3s004b"
+      ],
+      "order": 2003,
+      "jmdictEntryID": 1199350,
+      "lexemeID": "vn5766",
+      "readingOwnerID": "vn5766"
+    },
+    {
+      "id": "vn3s005",
+      "kind": "word",
+      "level": "N3",
+      "text": "資金",
+      "reading": "しきん",
+      "romaji": "shikin",
+      "meaning": "资金；用于某项事业或活动的钱款",
+      "explanation": "本单元义项：资金；用于某项事业或活动的钱款。通过两个不同语境辨认；其他义项须结合上下文。\n資金を集める、資金が不足する等说明活动需要的钱款；与已经发生的経費、整体的収支联系比较。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "资金；用于某项事业或活动的钱款",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s005；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1312700；2026-11-16 官方JMdict 第1义；资金、资本。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s005a",
+        "svn3s005b"
+      ],
+      "order": 2004,
+      "jmdictEntryID": 1312700
+    },
+    {
+      "id": "vn3s006",
+      "kind": "word",
+      "level": "N3",
+      "text": "双方",
+      "reading": "そうほう",
+      "romaji": "souhou",
+      "meaning": "双方、两方；相对的两方当事者",
+      "explanation": "本单元义项：双方、两方；相对的两方当事者。通过两个不同语境辨认；其他义项须结合上下文。\n双方の意見可包含分歧，双方が合意した才说明达成一致；双方本身不表示意见相同。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "双方、两方；相对的两方当事者",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s006；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1398940；2026-11-16 官方JMdict 第1义；双方、两方。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s006a",
+        "svn3s006b"
+      ],
+      "order": 2005,
+      "jmdictEntryID": 1398940
+    },
+    {
+      "id": "vn3s007",
+      "kind": "word",
+      "level": "N3",
+      "text": "規模",
+      "reading": "きぼ",
+      "romaji": "kibo",
+      "meaning": "规模；组织、事业或活动等的大小和范围",
+      "explanation": "本单元义项：规模；组织、事业或活动等的大小和范围。通过两个不同语境辨认；其他义项须结合上下文。\n規模を小さくする与中止する不同；缩小规模仍可能继续活动，具体改变哪一方面要看文中说明。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "规模；组织、事业或活动等的大小和范围",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s007；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1223090；2026-11-16 官方JMdict 第1义；规模、范围。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s007a",
+        "svn3s007b"
+      ],
+      "order": 2006,
+      "jmdictEntryID": 1223090
+    },
+    {
+      "id": "vn3s008",
+      "kind": "word",
+      "level": "N3",
+      "text": "設ける",
+      "reading": "もうける",
+      "romaji": "moukeru",
+      "meaning": "设置、安排、提供；备置设施、时间或机会等",
+      "explanation": "本单元义项：设置、安排、提供；备置设施、时间或机会等。通过两个不同语境辨认；其他义项须结合上下文。\n施設や柵を設ける、時間や機会を設ける分别看所备置的对象，放在同一词组比较；安排机会与实际参加、取得结果仍分开。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "一段动词",
+      "sense": "设置、安排、提供；备置设施、时间或机会等",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s008；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1386000；2026-11-16 官方JMdict 第1,2义；提供、备置及设立；设施与机会按共同概念比较。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3s008a",
+        "svn3s008b"
+      ],
+      "order": 2007,
+      "jmdictEntryID": 1386000
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn3s001a",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "道具",
+          "reading": "どうぐ",
+          "itemID": "vn4622"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長所",
+          "reading": "ちょうしょ",
+          "itemID": "vn3s001"
+        },
+        {
+          "text": "は、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "軽",
+          "reading": "かる",
+          "itemID": "v0250"
+        },
+        {
+          "text": "くて",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さいことです。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这个工具的优点是轻巧。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s001b",
+      "segments": [
+        {
+          "text": "面接",
+          "reading": "めんせつ",
+          "itemID": "vn4010"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "長所",
+          "reading": "ちょうしょ",
+          "itemID": "vn3s001"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短",
+          "reading": "みじか",
+          "itemID": "v0044"
+        },
+        {
+          "text": "く",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "説明",
+          "reading": "せつめい",
+          "itemID": "v0094"
+        },
+        {
+          "text": "しました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "面试时，我简要说明了自己的长处。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s002a",
+      "segments": [
+        {
+          "text": "安",
+          "reading": "やす",
+          "itemID": "v0042"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "製品",
+          "reading": "せいひん",
+          "itemID": "vn3h104"
+        },
+        {
+          "text": "ですが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "音",
+          "reading": "おと",
+          "itemID": "vn5794"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "大",
+          "reading": "おお",
+          "itemID": "v0039"
+        },
+        {
+          "text": "きいという",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短所",
+          "reading": "たんしょ",
+          "itemID": "vn3s002"
+        },
+        {
+          "text": "があります。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "这个产品便宜，但有噪声大的缺点。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s002b",
+      "segments": [
+        {
+          "text": "自分",
+          "reading": "じぶん",
+          "itemID": "v0179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "短所",
+          "reading": "たんしょ",
+          "itemID": "vn3s002"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "知",
+          "reading": "し",
+          "itemID": "v0069"
+        },
+        {
+          "text": "って、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "改善",
+          "reading": "かいぜん",
+          "itemID": "vn3h101"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方法",
+          "reading": "ほうほう",
+          "itemID": "vn4951"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考",
+          "reading": "かんが",
+          "itemID": "v0165"
+        },
+        {
+          "text": "えました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "了解自己的短处后，我考虑了改善办法。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s003a",
+      "segments": [
+        {
+          "text": "住民",
+          "reading": "じゅうみん",
+          "itemID": "vn4i119"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集会",
+          "reading": "しゅうかい",
+          "itemID": "vn3s003"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "公園",
+          "reading": "こうえん",
+          "itemID": "v0184"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "使",
+          "reading": "つか",
+          "itemID": "v0067"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "方",
+          "reading": "かた",
+          "itemID": null
+        },
+        {
+          "text": "について",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話し合",
+          "reading": "はなしあ",
+          "itemID": "vn3g023"
+        },
+        {
+          "text": "いました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "居民集会上，大家讨论了公园的使用方式。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s003b",
+      "segments": [
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集会",
+          "reading": "しゅうかい",
+          "itemID": "vn3s003"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "参加",
+          "reading": "さんか",
+          "itemID": "vn4410"
+        },
+        {
+          "text": "し、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今後",
+          "reading": "こんご",
+          "itemID": "vn3e013"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我参加了学校集会，听取了今后的安排。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s004a",
+      "segments": [
+        {
+          "text": "急",
+          "reading": "いそ",
+          "itemID": "vn5751"
+        },
+        {
+          "text": "がない",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仕事",
+          "reading": "しごと",
+          "itemID": "v0078"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "明日",
+          "reading": "あした",
+          "itemID": "v0003"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "回",
+          "reading": "まわ",
+          "itemID": "vn3s004"
+        },
+        {
+          "text": "し、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "今日",
+          "reading": "きょう",
+          "itemID": "v0001"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "先",
+          "reading": "さき",
+          "itemID": "vn5021"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "をしました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "把不急的工作留到明天，今天先做核实。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s004b",
+      "segments": [
+        {
+          "text": "この",
+          "reading": "この",
+          "itemID": "vn5304"
+        },
+        {
+          "text": "問題",
+          "reading": "もんだい",
+          "itemID": "v0128"
+        },
+        {
+          "text": "は",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "会議",
+          "reading": "かいぎ",
+          "itemID": "vn4001"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "回",
+          "reading": "まわ",
+          "itemID": "vn3s004"
+        },
+        {
+          "text": "すことになりました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "决定把这个问题留到下次会议处理。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s005a",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "活動",
+          "reading": "かつどう",
+          "itemID": "vn3i026"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "資金",
+          "reading": "しきん",
+          "itemID": "vn3s005"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "町",
+          "reading": "まち",
+          "itemID": "vn5047"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "集",
+          "reading": "あつ",
+          "itemID": "vn6147"
+        },
+        {
+          "text": "めています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "镇上正在筹集新活动所需的资金。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s005b",
+      "segments": [
+        {
+          "text": "資金",
+          "reading": "しきん",
+          "itemID": "vn3s005"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "不足",
+          "reading": "ふそく",
+          "itemID": "vn4j049"
+        },
+        {
+          "text": "して、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "どおりには",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "進",
+          "reading": "すす",
+          "itemID": "vn6116"
+        },
+        {
+          "text": "められませんでした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "资金不足，无法按原定安排推进。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s006a",
+      "segments": [
+        {
+          "text": "双方",
+          "reading": "そうほう",
+          "itemID": "vn3s006"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いてから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話し合い",
+          "reading": "はなしあい",
+          "itemID": "vn4036"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "記録",
+          "reading": "きろく",
+          "itemID": "vn4i174"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書",
+          "reading": "か",
+          "itemID": "v0026"
+        },
+        {
+          "text": "きました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "听取双方意见后，我写下了商谈记录。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s006b",
+      "segments": [
+        {
+          "text": "双方",
+          "reading": "そうほう",
+          "itemID": "vn3s006"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "内容",
+          "reading": "ないよう",
+          "itemID": "vn4446"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "確認",
+          "reading": "かくにん",
+          "itemID": "v0124"
+        },
+        {
+          "text": "したか、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "書類",
+          "reading": "しょるい",
+          "itemID": "vn4i154"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "読",
+          "reading": "よ",
+          "itemID": "v0025"
+        },
+        {
+          "text": "みました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我读了文件，核实双方是否确认了同一内容。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s007a",
+      "segments": [
+        {
+          "text": "費用",
+          "reading": "ひよう",
+          "itemID": "vn3c004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "考",
+          "reading": "かんが",
+          "itemID": "v0165"
+        },
+        {
+          "text": "えて、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "活動",
+          "reading": "かつどう",
+          "itemID": "vn3i026"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "規模",
+          "reading": "きぼ",
+          "itemID": "vn3s007"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "小",
+          "reading": "ちい",
+          "itemID": "v0040"
+        },
+        {
+          "text": "さくする",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "案",
+          "reading": "あん",
+          "itemID": "vn3g026"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "ました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "考虑到费用，有人提出缩小活动规模。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s007b",
+      "segments": [
+        {
+          "text": "同",
+          "reading": "おな",
+          "itemID": "v0131"
+        },
+        {
+          "text": "じ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "規模",
+          "reading": "きぼ",
+          "itemID": "vn3s007"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "続",
+          "reading": "つづ",
+          "itemID": "vn5774"
+        },
+        {
+          "text": "けられるか、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "必要",
+          "reading": "ひつよう",
+          "itemID": "v0129"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "費用",
+          "reading": "ひよう",
+          "itemID": "vn3c004"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "調",
+          "reading": "しら",
+          "itemID": "vn5753"
+        },
+        {
+          "text": "べています。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们正在调查所需费用，以判断能否按同样规模继续。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s008a",
+      "segments": [
+        {
+          "text": "質問",
+          "reading": "しつもん",
+          "itemID": "v0095"
+        },
+        {
+          "text": "する",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "時間",
+          "reading": "じかん",
+          "itemID": "v0079"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "設",
+          "reading": "もう",
+          "itemID": "vn3s008"
+        },
+        {
+          "text": "けたので、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "疑問",
+          "reading": "ぎもん",
+          "itemID": "vn3b001"
+        },
+        {
+          "text": "があれば",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "聞",
+          "reading": "き",
+          "itemID": "v0027"
+        },
+        {
+          "text": "いてください。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我们安排了提问时间，有疑问请提出。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3s008b",
+      "segments": [
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "相談",
+          "reading": "そうだん",
+          "itemID": "vn6171"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "窓口",
+          "reading": "まどぐち",
+          "itemID": "vn4038"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "設",
+          "reading": "もう",
+          "itemID": "vn3s008"
+        },
+        {
+          "text": "け、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "担当者",
+          "reading": "たんとうしゃ",
+          "itemID": "vn3i123"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "決",
+          "reading": "き",
+          "itemID": "vn6156"
+        },
+        {
+          "text": "めました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "学校设立了咨询窗口，并确定了负责人。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn3s001a",
+      "targetID": "vn3s001",
+      "sentenceID": "svn3s001b",
+      "skill": "meaning",
+      "prompt": "句中「長所」表示什么？",
+      "choices": [
+        "与不足有关的短处",
+        "只说明物体长度而不作评价",
+        "长处、优点；某人或某物值得肯定的一面"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「长处、优点；某人或某物值得肯定的一面」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "ちょうしょ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "長所",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s002a",
+      "targetID": "vn3s002",
+      "sentenceID": "svn3s002b",
+      "skill": "meaning",
+      "prompt": "句中「短所」表示什么？",
+      "choices": [
+        "短处、缺点；某人或某物不足的一面",
+        "值得肯定的长处",
+        "只说明一段时间很短而不作评价"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「短处、缺点；某人或某物不足的一面」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "たんしょ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "短所",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s003a",
+      "targetID": "vn3s003",
+      "sentenceID": "svn3s003b",
+      "skill": "meaning",
+      "prompt": "句中「集会」表示什么？",
+      "choices": [
+        "参加者各自在家而未聚集的状态",
+        "只用于存放资料的柜子",
+        "集会、聚会；人们为一定目的聚集的活动"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「集会、聚会；人们为一定目的聚集的活动」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しゅうかい",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "集会",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s004a",
+      "targetID": "vn3s004",
+      "sentenceID": "svn3s004b",
+      "skill": "meaning",
+      "prompt": "句中「回す」表示什么？",
+      "choices": [
+        "已经取消而绝不再安排处理",
+        "转到后面处理、留待以后；把事务移到另一时点（本组）",
+        "使物体围绕轴旋转的原有物理义"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「转到后面处理、留待以后；把事务移到另一时点（本组）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "まわす",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "回す",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s004；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s005a",
+      "targetID": "vn3s005",
+      "sentenceID": "svn3s005b",
+      "skill": "meaning",
+      "prompt": "句中「資金」表示什么？",
+      "choices": [
+        "资金；用于某项事业或活动的钱款",
+        "与活动用途无关的纸张重量",
+        "已经支出的全部时间"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「资金；用于某项事业或活动的钱款」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しきん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "資金",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s005；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s006a",
+      "targetID": "vn3s006",
+      "sentenceID": "svn3s006b",
+      "skill": "meaning",
+      "prompt": "句中「双方」表示什么？",
+      "choices": [
+        "双方、两方；相对的两方当事者",
+        "只有一方而完全不包含另一方",
+        "表示任何事情都已协商一致"
+      ],
+      "answerIndex": 0,
+      "explanation": "本句中对应的义项是「双方、两方；相对的两方当事者」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "そうほう",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "双方",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s006；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s007a",
+      "targetID": "vn3s007",
+      "sentenceID": "svn3s007b",
+      "skill": "meaning",
+      "prompt": "句中「規模」表示什么？",
+      "choices": [
+        "仅表示活动名称的发音",
+        "只说明个人当时的心情",
+        "规模；组织、事业或活动等的大小和范围"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「规模；组织、事业或活动等的大小和范围」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "きぼ",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "規模",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s007；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3s008a",
+      "targetID": "vn3s008",
+      "sentenceID": "svn3s008b",
+      "skill": "meaning",
+      "prompt": "句中「設ける」表示什么？",
+      "choices": [
+        "只表示物体颜色改变",
+        "设置、安排、提供；备置设施、时间或机会等",
+        "已经把所有机会彻底取消"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「设置、安排、提供；备置设施、时间或机会等」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "もうける",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "設ける",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3s008；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn3qualities01",
+      "title": "长处与短处：同一对象的两面",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3s001",
+        "vn3s002"
+      ],
+      "sentenceIDs": [
+        "svn3s001a",
+        "svn3s001b",
+        "svn3s002a",
+        "svn3s002b"
+      ],
+      "exerciseIDs": [
+        "evn3s001a",
+        "evn3s002a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn3gather01",
+      "title": "集会：共同讨论的场合",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3s003"
+      ],
+      "sentenceIDs": [
+        "svn3s003a",
+        "svn3s003b"
+      ],
+      "exerciseIDs": [
+        "evn3s003a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn3postpone01",
+      "title": "回す：把事务移到后面处理",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3s004"
+      ],
+      "sentenceIDs": [
+        "svn3s004a",
+        "svn3s004b"
+      ],
+      "exerciseIDs": [
+        "evn3s004a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn3operation02",
+      "title": "协商、规模与资源安排",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3s005",
+        "vn3s006",
+        "vn3s007",
+        "vn3s008"
+      ],
+      "sentenceIDs": [
+        "svn3s005a",
+        "svn3s005b",
+        "svn3s006a",
+        "svn3s006b",
+        "svn3s007a",
+        "svn3s007b",
+        "svn3s008a",
+        "svn3s008b"
+      ],
+      "exerciseIDs": [
+        "evn3s005a",
+        "evn3s006a",
+        "evn3s007a",
+        "evn3s008a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

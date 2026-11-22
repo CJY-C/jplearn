@@ -204,13 +204,25 @@ def check_prior_changes(current=None):
     assert (ledger["baselineCommit"], ledger["baselineRuntimeSHA256"]) == (BASELINE, BASELINE_SHA256)
     expected, batches = source_batches()
     after = current if current is not None else json.loads((ROOT / RESOURCE).read_text())
+    later = None
+    if (ROOT / "content/source-checks/n2-conditions-chapter.json").exists():
+        from check_n2_conditions import check_prior_changes as check_conditions
+        later = check_conditions(after)
+        checkpoint = later["baselineCommit"]
+        after = json.loads(subprocess.check_output(["git", "show", checkpoint + ":" + RESOURCE], cwd=ROOT))
+
+    def current_data(path):
+        if later is not None:
+            return subprocess.check_output(["git", "show", checkpoint + ":" + path], cwd=ROOT)
+        return (ROOT / path).read_bytes()
+
     assert after == expected, "Social batch differs from source reconstruction or unreviewed historical data changed"
     assert ledger["manuscripts"] == FILES
     for name in FILES:
         assert sha(source_path(name).read_bytes()) == ledger["newSourceSHA256"][name]
         assert sha(review_path(name).read_bytes()) == ledger["reviewSHA256"][str(review_path(name).relative_to(ROOT))]
     old_manifest = json.loads(previous("content/manuscripts.json"))
-    manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
+    manifest = json.loads(current_data("content/manuscripts.json"))
     additions = [dict(kind="word", source=n, batch=f"{88+i:03}-{n.removesuffix('.tsv')}.json") for i, n in enumerate(FILES)]
     assert ledger["manifestAdditions"] == additions
     assert manifest == dict(old_manifest, entries=old_manifest["entries"] + additions)
@@ -219,14 +231,15 @@ def check_prior_changes(current=None):
     for entry in old_manifest["entries"]:
         name = entry["source"]
         assert sha(previous("content/authoring/" + name)) == ledger["oldSourceInputSHA256"][name]
-        assert (ROOT / "content/authoring" / name).read_bytes() == expected_old_source(name), (name, "Unreviewed prior source change")
+        assert current_data("content/authoring/" + name) == expected_old_source(name), (name, "Unreviewed prior source change")
     for path in ["content/catalog.json", "content/syllabus.json"]:
-        assert (ROOT / path).read_bytes() == previous(path), (path, "Metadata or quotas changed")
+        assert current_data(path) == previous(path), (path, "Metadata or quotas changed")
     assert ledger["newIDs"] == {k: [r["id"] for b in batches.values() for r in b.get(k, [])] for k in COLLECTIONS}
     assert ledger["reviewedOldSentenceIDs"] == ["s" + target + key for _, target, key, *_ in OLD_LINKS]
     return dict(baselineCommit=BASELINE, oldSourcesChecked=len(old_manifest["entries"]),
                 oldCollectionsPreservedExceptReviewedLinks=True, changedSentences=7,
-                changedAssociations=7, newRoots=124, n2Roots=111)
+                changedAssociations=7, newRoots=124, n2Roots=111,
+                subsequentConditionsChangesVerified=later is not None)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,443 @@
+{
+  "status": "Source-checked original trial; independent Japanese review pending",
+  "checkedDate": "2026-11-22",
+  "manuscript": "content/authoring/n2-condition-reading-words.tsv",
+  "manuscriptSHA256": "f25b4eb48a8edfeabdecaf0d91f92a4cb1930441e96d7898358ed68b2408ed8e",
+  "roots": 8,
+  "targets": 8,
+  "contexts": 16,
+  "lessons": 3,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions freshly extracted from the pinned primary distribution; all Chinese and examples authored here."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list; earlier foundations, additional senses and productive forms never offset N2 root quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn2f001",
+      "text": "閉鎖",
+      "primaryReading": "へいさ",
+      "authoredMeaning": "封闭、关闭；使通道或设施等停止开放（本组）",
+      "entryID": 1508670,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "へいさ",
+          "entryID": 1508670,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "へいさ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "閉鎖"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn2f001a",
+        "svn2f001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f002",
+      "text": "人手",
+      "primaryReading": "ひとで",
+      "authoredMeaning": "人手、劳动力；完成工作所需的人员力量（本组）",
+      "entryID": 2825953,
+      "senseOrdinals": [
+        3
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ひとで",
+          "entryID": 2825953,
+          "senseOrdinals": [
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "ひとで",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "人手"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn2f002a",
+        "svn2f002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f003",
+      "text": "確保",
+      "primaryReading": "かくほ",
+      "authoredMeaning": "确保、落实；设法取得并保有所需资源（本组）",
+      "entryID": 1205920,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "かくほ",
+          "entryID": 1205920,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "かくほ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "確保"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn2f003a",
+        "svn2f003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f005",
+      "text": "意向",
+      "primaryReading": "いこう",
+      "authoredMeaning": "意向、打算；希望采用的方向或想法",
+      "entryID": 1587200,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "いこう",
+          "entryID": 1587200,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "いこう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "意向",
+        "意嚮"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn2f005a",
+        "svn2f005b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f007",
+      "text": "了承",
+      "primaryReading": "りょうしょう",
+      "authoredMeaning": "了解、认可、同意；理解并接受对方的说明或事项",
+      "entryID": 1606280,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "りょうしょう",
+          "entryID": 1606280,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "りょうしょう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "了承",
+        "諒承",
+        "領承"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn2f007a",
+        "svn2f007b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f009",
+      "text": "納品",
+      "primaryReading": "のうひん",
+      "authoredMeaning": "交货、交付货品；把订购的物品交给对方",
+      "entryID": 1470100,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "のうひん",
+          "entryID": 1470100,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "のうひん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "納品"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn2f009a",
+        "svn2f009b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f011",
+      "text": "帳面",
+      "primaryReading": "ちょうめん",
+      "authoredMeaning": "笔记簿、账簿；用于书写记录的本子",
+      "entryID": 1427580,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちょうめん",
+          "entryID": 1427580,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうめん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "帳面"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn2f011a",
+        "svn2f011b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn2f012",
+      "text": "物足りない",
+      "primaryReading": "ものたりない",
+      "authoredMeaning": "不够满足、总觉欠缺；感觉某方面尚不足",
+      "entryID": 1502650,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ものたりない",
+          "entryID": 1502650,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ものたりない",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adjective (keiyoushi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "物足りない",
+        "もの足りない",
+        "モノ足りない",
+        "物足り無い",
+        "物たりない"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn2f012a",
+        "svn2f012b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ],
+  "senseChecks": [
+    {
+      "itemID": "vn2f002",
+      "selectedEntry": 2825953,
+      "selectedSense": 3,
+      "excludedHomophoneEntry": 2194790,
+      "scope": "工作劳动力；不选人手／海星的海星条目，也不混同转到他人手中的义。"
+    }
+  ]
+}

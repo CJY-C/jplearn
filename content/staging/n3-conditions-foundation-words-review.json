@@ -1,0 +1,457 @@
+{
+  "status": "Source-checked original trial; independent Japanese review pending",
+  "checkedDate": "2026-11-22",
+  "manuscript": "content/authoring/n3-conditions-foundation-words.tsv",
+  "manuscriptSHA256": "95e49ff003583b8d24c1199bc88095dec803d491ab692abbbf19f273ed590d6f",
+  "roots": 7,
+  "targets": 8,
+  "contexts": 16,
+  "lessons": 4,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions freshly extracted from the pinned primary distribution; all Chinese and examples authored here."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list; earlier foundations, additional senses and productive forms never offset N2 root quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn3s001",
+      "text": "長所",
+      "primaryReading": "ちょうしょ",
+      "authoredMeaning": "长处、优点；某人或某物值得肯定的一面",
+      "entryID": 1430030,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "ちょうしょ",
+          "entryID": 1430030,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "ちょうしょ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "長所"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s001a",
+        "svn3s001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s002",
+      "text": "短所",
+      "primaryReading": "たんしょ",
+      "authoredMeaning": "短处、缺点；某人或某物不足的一面",
+      "entryID": 1418760,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "たんしょ",
+          "entryID": 1418760,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "たんしょ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "短所"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s002a",
+        "svn3s002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s003",
+      "text": "集会",
+      "primaryReading": "しゅうかい",
+      "authoredMeaning": "集会、聚会；人们为一定目的聚集的活动",
+      "entryID": 1333600,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しゅうかい",
+          "entryID": 1333600,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しゅうかい",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "集会"
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s003a",
+        "svn3s003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s004",
+      "text": "回す",
+      "primaryReading": "まわす",
+      "authoredMeaning": "转到后面处理、留待以后；把事务移到另一时点（本组）",
+      "entryID": 1199350,
+      "senseOrdinals": [
+        3
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "まわす",
+          "entryID": 1199350,
+          "senseOrdinals": [
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "まわす",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "回す",
+        "廻す"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s004a",
+        "svn3s004b"
+      ],
+      "lexemeID": "vn5766",
+      "readingOwnerID": "vn5766"
+    },
+    {
+      "itemID": "vn3s005",
+      "text": "資金",
+      "primaryReading": "しきん",
+      "authoredMeaning": "资金；用于某项事业或活动的钱款",
+      "entryID": 1312700,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しきん",
+          "entryID": 1312700,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "しきん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "資金"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s005a",
+        "svn3s005b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s006",
+      "text": "双方",
+      "primaryReading": "そうほう",
+      "authoredMeaning": "双方、两方；相对的两方当事者",
+      "entryID": 1398940,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "そうほう",
+          "entryID": 1398940,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "そうほう",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "双方"
+      ],
+      "communityLevels": [],
+      "exampleSentenceIDs": [
+        "svn3s006a",
+        "svn3s006b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s007",
+      "text": "規模",
+      "primaryReading": "きぼ",
+      "authoredMeaning": "规模；组织、事业或活动等的大小和范围",
+      "entryID": 1223090,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "きぼ",
+          "entryID": 1223090,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "きぼ",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "規模"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s007a",
+        "svn3s007b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3s008",
+      "text": "設ける",
+      "primaryReading": "もうける",
+      "authoredMeaning": "设置、安排、提供；备置设施、时间或机会等",
+      "entryID": 1386000,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "もうける",
+          "entryID": 1386000,
+          "senseOrdinals": [
+            1,
+            2
+          ],
+          "readingFacts": [
+            {
+              "reading": "もうける",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "設ける"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn3s008a",
+        "svn3s008b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ],
+  "senseChecks": [
+    {
+      "itemID": "vn3s004",
+      "owner": "vn5766",
+      "selectedSense": 3,
+      "corroborationURL": "https://kotobank.jp/word/回し-636466",
+      "locator": "小学館デジタル大辞泉「回し」2、精選版日本国語大辞典「回し」[一]⑤；回す的连用形名词化。",
+      "scope": "JMdict3 supports transfer/forward; the Japanese dictionary explicitly corroborates shifting a plan later. This temporal use gets its own meaning recall and shares only reading with physical rotation."
+    },
+    {
+      "itemID": "vn3s008",
+      "selectedSenses": [
+        1,
+        2
+      ],
+      "scope": "设置设施与安排时间机会合为相关核心意义，由两种对象语境迁移，不按词典序号机械增造另一义项。"
+    }
+  ]
+}

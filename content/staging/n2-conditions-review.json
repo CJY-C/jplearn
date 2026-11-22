@@ -1,0 +1,323 @@
+{
+  "status": "Source-checked authoring trial; independent Japanese review and native build pending",
+  "checkedDate": "2026-11-22",
+  "sourceSHA256": {
+    "n2-conditions-and-concessions.tsv": "69c405cef9186dcd685196c787e790807ad350ef75142a3371ffe0162ba5dbfa",
+    "n2-conditions-readings.tsv": "62758f00606615574604d08901577575d0047226692d11c8e83476db80ee5bf7"
+  },
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "primarySources": [
+    {
+      "sourceID": "bunprokaraniwa",
+      "url": "https://bunpro.jp/grammar_points/からには",
+      "checkedLocators": [
+        "Structure／About；既定前提、判断和决心。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "bunproijou2",
+      "url": "https://bunpro.jp/grammar_points/以上2",
+      "checkedLocators": [
+        "Structure／About；以上（は）既定前提，区别数量以上①。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "zhaocompare2017",
+      "url": "https://www.iag.meisei-u.ac.jp/meuhp/KgApp?detlId=22&detlSeq=45&detlUid=ymdegesgggy",
+      "checkedLocators": [
+        "作者所在大学的2017年8月会议发表概要，仅核对前接成分、主节搭配存在差异；不冒充2018期刊论文全文。"
+      ],
+      "scope": "University-listed author conference overview only; not the 2018 journal article"
+    },
+    {
+      "sourceID": "jpfkoso",
+      "url": "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00062/ja/render.do",
+      "checkedLocators": [
+        "構造図、解説A/B、先生へ；てこそ、からこそ的强调及接续。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "bunpronaikoto",
+      "url": "https://bunpro.jp/ja/grammar_points/347",
+      "checkedLocators": [
+        "構造／注意点；必要条件，后项也可用不含ない的困难、不利结果。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "bunprotekara",
+      "url": "https://bunpro.jp/grammar_points/てからでないと",
+      "checkedLocators": [
+        "Structure／About；てからでなければ，先后步骤中的必要前提。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "mlckagiri",
+      "url": "https://www.mlcjapanese.co.jp/n2_04_18.html",
+      "checkedLocators": [
+        "意味、接続；持续条件与unless，后项可肯定。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "bunprokagiri",
+      "url": "https://bunpro.jp/grammar_points/限り",
+      "checkedLocators": [
+        "Structure／About；知觉、知识范围与条件范围的区别。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "jpfmono201209",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201209.html",
+      "checkedLocators": [
+        "§2A可能形＋ものなら、§2B意向形＋ものなら、§3ものの；包括过去反复情景。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    },
+    {
+      "sourceID": "tokorode2020abstract",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002552819",
+      "checkedLocators": [
+        "KCI所载日文作者摘要；日本學硏究59、115–139、DOI10.18841/2020.59.6。仅据摘要核对假设即使成立仍不产生预期结果；未声称阅读全文。"
+      ],
+      "scope": "Author abstract only; full article not inspected"
+    },
+    {
+      "sourceID": "jpfconcession201703",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201703.html",
+      "checkedLocators": [
+        "§1书面逆接，ながら（も）的状态性及ものの承认后补充；不把所有转折机械互换。"
+      ],
+      "scope": "Selected original teaching explanations, not copied examples"
+    }
+  ],
+  "grammarFunctions": [
+    {
+      "itemID": "gn2c001",
+      "referencePatterns": [
+        "kara-ni-wa",
+        "ijou-wa"
+      ],
+      "reviewedFocus": "把已接受的事实、决定与后面的责任或判断联系起来",
+      "primaryLocators": [
+        {
+          "sourceID": "bunprokaraniwa",
+          "locator": "Structure／About；既定前提、判断和决心。"
+        },
+        {
+          "sourceID": "bunproijou2",
+          "locator": "Structure／About；以上（は）既定前提，区别数量以上①。"
+        },
+        {
+          "sourceID": "zhaocompare2017",
+          "locator": "作者所在大学的2017年8月会议发表概要，仅核对前接成分、主节搭配存在差异；不冒充2018期刊论文全文。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2201"
+    },
+    {
+      "itemID": "gn2c002",
+      "referencePatterns": [
+        "kara-koso"
+      ],
+      "reviewedFocus": "找出说话人特别强调的原因",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfkoso",
+          "locator": "構造図、解説A/B、先生へ；てこそ、からこそ的强调及接续。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2202"
+    },
+    {
+      "itemID": "gn2c003",
+      "referencePatterns": [
+        "te-koso"
+      ],
+      "reviewedFocus": "辨认说话人强调的必要基础",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfkoso",
+          "locator": "構造図、解説A/B、先生へ；てこそ、からこそ的强调及接续。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2202"
+    },
+    {
+      "itemID": "gn2c004",
+      "referencePatterns": [
+        "nai-koto-ni-wa"
+      ],
+      "reviewedFocus": "找出尚缺的必要条件",
+      "primaryLocators": [
+        {
+          "sourceID": "bunpronaikoto",
+          "locator": "構造／注意点；必要条件，后项也可用不含ない的困难、不利结果。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2203"
+    },
+    {
+      "itemID": "gn2c005",
+      "referencePatterns": [
+        "te-kara-de-nai-to"
+      ],
+      "reviewedFocus": "辨认有先后顺序的必要步骤",
+      "primaryLocators": [
+        {
+          "sourceID": "bunprotekara",
+          "locator": "Structure／About；てからでなければ，先后步骤中的必要前提。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2203"
+    },
+    {
+      "itemID": "gn2c006",
+      "referencePatterns": [
+        "kagiri"
+      ],
+      "reviewedFocus": "找出结论适用的持续条件",
+      "primaryLocators": [
+        {
+          "sourceID": "mlckagiri",
+          "locator": "意味、接続；持续条件与unless，后项可肯定。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2204"
+    },
+    {
+      "itemID": "gn2c007",
+      "referencePatterns": [
+        "nai-kagiri"
+      ],
+      "reviewedFocus": "从否定条件读出后项保持的范围",
+      "primaryLocators": [
+        {
+          "sourceID": "mlckagiri",
+          "locator": "意味、接続；持续条件与unless，后项可肯定。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2204"
+    },
+    {
+      "itemID": "gn2c008",
+      "referencePatterns": [
+        "kagiri"
+      ],
+      "reviewedFocus": "把所知范围内的判断与普遍断言分开",
+      "primaryLocators": [
+        {
+          "sourceID": "bunprokagiri",
+          "locator": "Structure／About；知觉、知识范围与条件范围的区别。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2205"
+    },
+    {
+      "itemID": "gn2c009",
+      "referencePatterns": [
+        "mono-nara"
+      ],
+      "reviewedFocus": "从低可能性的假设中读出愿望或决意",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfmono201209",
+          "locator": "§2A可能形＋ものなら、§2B意向形＋ものなら、§3ものの；包括过去反复情景。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2206"
+    },
+    {
+      "itemID": "gn2c010",
+      "referencePatterns": [
+        "mono-nara"
+      ],
+      "reviewedFocus": "区分警告性的假设与真正的行动意向",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfmono201209",
+          "locator": "§2A可能形＋ものなら、§2B意向形＋ものなら、§3ものの；包括过去反复情景。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2206"
+    },
+    {
+      "itemID": "gn2c011",
+      "referencePatterns": [
+        "ta-tokoro-de"
+      ],
+      "reviewedFocus": "读出说话人对假设效果的否定评价",
+      "primaryLocators": [
+        {
+          "sourceID": "tokorode2020abstract",
+          "locator": "KCI所载日文作者摘要；日本學硏究59、115–139、DOI10.18841/2020.59.6。仅据摘要核对假设即使成立仍不产生预期结果；未声称阅读全文。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2207"
+    },
+    {
+      "itemID": "gn2c012",
+      "referencePatterns": [
+        "mono-no"
+      ],
+      "reviewedFocus": "避免只因前项成立就推出充分结果",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfmono201209",
+          "locator": "§2A可能形＋ものなら、§2B意向形＋ものなら、§3ものの；包括过去反复情景。"
+        },
+        {
+          "sourceID": "jpfconcession201703",
+          "locator": "§1书面逆接，ながら（も）的状态性及ものの承认后补充；不把所有转折机械互换。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2207"
+    },
+    {
+      "itemID": "gn2c013",
+      "referencePatterns": [
+        "nagara-mo"
+      ],
+      "reviewedFocus": "区分一边做事与虽如此仍然",
+      "primaryLocators": [
+        {
+          "sourceID": "jpfconcession201703",
+          "locator": "§1书面逆接，ながら（も）的状态性及ものの承认后补充；不把所有转折机械互换。"
+        }
+      ],
+      "contexts": 6,
+      "practiceReadingID": "rn2208"
+    }
+  ],
+  "readingReviewNotes": [
+    "Eight original practice passages and two heldout assessments; two paragraphs, six authored sentence blocks and two evidence-linked questions per passage.",
+    "Ordinary passages provide actual surface witnesses for every new function; prerequisite declarations are checked separately.",
+    "Cannot infer universal permission from age, facts from missing records, consent from silence, or agreement from a stated intention.",
+    "Corrected temporary stopping, interpreting speech, scheduling later, setting a plan and touching a machine to their actually taught senses.",
+    "Existing advanced forms used in passages are declared as prerequisites; productivity and alternative grammatical forms do not inflate root counts."
+  ],
+  "researchLimitations": [
+    "Grammar references support selected linguistic facts, not a learning-effectiveness claim.",
+    "The 2020 tokorode source was read as its author abstract; the 2017 comparison as its university-listed overview. Full papers are not claimed as read.",
+    "Two attempted primary PDF downloads for separate 2018 and 2020 papers failed; neither unavailable full text is cited as inspected evidence.",
+    "No upstream examples, full articles, dictionary definitions or audio bundled. No independent Japanese review, native iOS compilation or new IPA."
+  ]
+}
