@@ -1,9 +1,14 @@
 name: Validate and build iOS IPA
 
+# Run only when the user explicitly requests a build; pushes, PRs and tags are free.
 on:
-  push:
-  pull_request:
   workflow_dispatch:
+    inputs:
+      publish_release:
+        description: 'Publish the tested IPA as a versioned GitHub Release'
+        type: boolean
+        required: true
+        default: false
 
 permissions:
   contents: read
@@ -108,7 +113,7 @@ jobs:
   release:
     name: Publish versioned IPA
     needs: ios
-    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_release
     runs-on: ubuntu-latest
     permissions:
       contents: write

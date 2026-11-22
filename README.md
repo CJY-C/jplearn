@@ -22,12 +22,12 @@
 - 课程资料搜索、收藏、笔记；带完整性校验的备份与幂等合并。
 - 用户授权的 iCloud Drive 文件夹交换；按事件合并，支持两机离线后汇合。
 - GitHub Actions 的内容检查、Swift 单元测试、iOS 集成测试、设备归档和 IPA 打包。
-- 新版本通过检查后自动发布 Release，直接提供 IPA 下载，保留旧版文件。
+- 仅手动触发构建；选择发布且通过检查后生成 Release，直接提供 IPA 下载，保留旧版文件。
 
 ## 通过 GitHub 构建
 
 1. 将项目放入自己的 GitHub 仓库，保留 `.github/workflows/build.yml`。
-2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；push 和 pull request 也会触发检查。
+2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；仅在明确需要构建时手动运行；push、pull request 和 tag 不触发 Actions，也不消耗构建额度。需要发布时勾选 `publish_release`。
 3. 工作流通过后，在 [Releases](https://github.com/CJY-C/jplearn/releases) 下载 `JPLearn.ipa`；Actions artifact 也会保留。
 4. 在已经安装 TrollStore 的兼容设备上打开 IPA 并安装。应用固定 Bundle ID 为 `dev.jplearn.reader`，后续同 ID 更新可保留应用数据。
 
@@ -35,7 +35,7 @@
 
 工作流明确使用 macOS 15、Xcode 16.4 和校验过 SHA-256 的 XcodeGen 2.46.0。XcodeGen 从 `project.yml` 生成 Xcode 工程及 Info.plist，SwiftPM 从根目录 `Package.swift` 加载核心模块。FSRS 依赖固定到提交 `4fbaf20184d62f82a9f44f343337c61a2c5483e9`。
 
-应用版本和构建号统一在 `Version.xcconfig` 设置。发布新版本时修改此文件并补充 `CHANGELOG.md`，推送 main。全部测试通过后，工作流为对应提交创建 `v<版本号>` Release 并附上 IPA；重复构建同一版本不会覆盖已发布文件。pull request 只检查，不发布。
+应用版本和构建号统一在 `Version.xcconfig` 设置。发布新版本时修改此文件并补充 `CHANGELOG.md`，推送代码后，在 Actions 中选择对应分支并手动运行；需要发布时勾选 `publish_release`。全部测试通过后，工作流为所选提交创建 `v<版本号>` Release 并附上 IPA；重复构建同一版本不会覆盖已发布文件。未勾选发布时仅生成 Actions artifact。
 
 ## 本地开发与检查
 
