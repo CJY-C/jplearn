@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       publish_release:
-        description: 'Publish the tested IPA as a versioned GitHub Release'
+        description: 'Also publish a Release for this manual build (version tags publish automatically)'
         type: boolean
         required: true
         default: false
@@ -130,7 +130,7 @@ jobs:
   release:
     name: Publish versioned IPA
     needs: ios
-    if: github.event_name == 'workflow_dispatch' && inputs.publish_release
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_release)
     runs-on: ubuntu-latest
     permissions:
       contents: write

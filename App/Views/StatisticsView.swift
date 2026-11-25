@@ -109,8 +109,8 @@ struct StatisticsView: View {
                         Spacer()
                         Text(level.meaning.total == 0 ? "内容待补充" : "词义 \(level.meaning.remembered) / \(level.meaning.total)")
                             .font(.subheadline).foregroundColor(.secondary)
-                    }
-                }.accessibilityIdentifier("statistics.level.\(level.id)")
+                    }.accessibilityIdentifier("statistics.level.\(level.id)")
+                }
             }
         } header: { Text("内容进度") } footer: {
             Text("按当前内容包统计，词义和读音分别计算。“记得”指最近一次独立选择“记得”或“熟悉”；遗忘后会回落。一个词的不同义项分别计数，共用的读音只计一次。")

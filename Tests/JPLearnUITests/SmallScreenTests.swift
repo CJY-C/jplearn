@@ -138,7 +138,7 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(overview.waitForExistence(timeout: 15))
         XCTAssertTrue(app.staticTexts["单日最高 00:00"].exists)
         screenshot("SE3-Statistics-Overview")
-        let level = app.buttons["statistics.level.N5"]
+        let level = app.descendants(matching: .any).matching(identifier: "statistics.level.N5").firstMatch
         scrollStatisticsTo(level)
         visible(level)
         level.tap()
