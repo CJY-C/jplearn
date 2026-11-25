@@ -96,6 +96,8 @@
     {"kind": "word", "source": "n3-conditions-foundation-words.tsv", "batch": "091-n3-conditions-foundation-words.json"},
     {"kind": "word", "source": "n2-condition-reading-words.tsv", "batch": "092-n2-condition-reading-words.json"},
     {"kind": "grammar", "source": "n2-conditions-and-concessions.tsv", "batch": "093-n2-conditions-and-concessions.json"},
-    {"kind": "reading", "source": "n2-conditions-readings.tsv", "batch": "094-n2-conditions-readings.json"}
+    {"kind": "reading", "source": "n2-conditions-readings.tsv", "batch": "094-n2-conditions-readings.json"},
+    {"kind": "word", "source": "n3-emotion-foundation-words.tsv", "batch": "095-n3-emotion-foundation-words.json"},
+    {"kind": "word", "source": "n2-emotions-and-relationships.tsv", "batch": "096-n2-emotions-and-relationships.json"}
   ]
 }

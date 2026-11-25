@@ -1,0 +1,231 @@
+{
+  "status": "Source-checked original trial; independent Japanese review pending",
+  "checkedDate": "2026-11-22",
+  "manuscript": "content/authoring/n3-emotion-foundation-words.tsv",
+  "manuscriptSHA256": "bf5e6fe0b8f11d1073c7b7cb8733a14978dcd3d79daab7eeafd434a3d30baf94",
+  "roots": 3,
+  "targets": 3,
+  "contexts": 6,
+  "lessons": 2,
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "license": "CC BY-SA4.0",
+    "scope": "Selected spelling, reading, grammatical class and sense restrictions freshly extracted from the pinned primary distribution; Chinese, Japanese/Chinese examples and distractors authored here. No upstream examples or full gloss lists bundled."
+  },
+  "levelPolicy": "Self-authored reading order, not an official JLPT list. Community labels retained. Earlier foundations, additional senses and productive forms never offset N2 root quota.",
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "unresolvedContextForms": {},
+  "entries": [
+    {
+      "itemID": "vn3t001",
+      "text": "柵",
+      "primaryReading": "さく",
+      "authoredMeaning": "围栏、栅栏；围住或分隔空间的栏障",
+      "entryID": 1298250,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "さく",
+          "entryID": 1298250,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "さく",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "柵"
+      ],
+      "dictionaryKanaForms": [
+        "さく"
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "exampleSentenceIDs": [
+        "svn3t001a",
+        "svn3t001b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3t002",
+      "text": "自然",
+      "primaryReading": "しぜん",
+      "authoredMeaning": "自然；大自然，或非刻意、自然而然的状态",
+      "entryID": 1318090,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "しぜん",
+          "entryID": 1318090,
+          "senseOrdinals": [
+            1,
+            2,
+            3
+          ],
+          "readingFacts": [
+            {
+              "reading": "しぜん",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "自然"
+      ],
+      "dictionaryKanaForms": [
+        "しぜん"
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "exampleSentenceIDs": [
+        "svn3t002a",
+        "svn3t002b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    },
+    {
+      "itemID": "vn3t003",
+      "text": "喧嘩",
+      "primaryReading": "けんか",
+      "authoredMeaning": "吵架、争斗；彼此争执或发生冲突",
+      "entryID": 1257040,
+      "senseOrdinals": [
+        1
+      ],
+      "acceptedAlternativeReadings": [],
+      "acceptedReadingSources": [
+        {
+          "acceptedReading": "けんか",
+          "entryID": 1257040,
+          "senseOrdinals": [
+            1
+          ],
+          "readingFacts": [
+            {
+              "reading": "けんか",
+              "nokanji": false,
+              "spellingRestrictions": [],
+              "information": []
+            },
+            {
+              "reading": "ケンカ",
+              "nokanji": true,
+              "spellingRestrictions": [],
+              "information": []
+            }
+          ]
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": []
+        }
+      ],
+      "dictionarySpellings": [
+        "喧嘩",
+        "諠譁"
+      ],
+      "dictionaryKanaForms": [
+        "けんか",
+        "ケンカ"
+      ],
+      "communityLevels": [
+        "N3",
+        "N4"
+      ],
+      "exampleSentenceIDs": [
+        "svn3t003a",
+        "svn3t003b"
+      ],
+      "lexemeID": null,
+      "readingOwnerID": null
+    }
+  ],
+  "meaningTransfer": [
+    {
+      "itemID": "vn3t002",
+      "selectedSenses": [
+        1,
+        2,
+        3
+      ],
+      "scope": "大自然 and natural/uncontrived states are taught as a related core concept. 自然な／自然に reuse adjective forms, not extra roots."
+    },
+    {
+      "itemID": "vn3t003",
+      "scope": "喧嘩 can be verbal or physical conflict; the word alone does not establish a specific punch or other act."
+    }
+  ]
+}

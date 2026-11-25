@@ -1,0 +1,656 @@
+{
+  "items": [
+    {
+      "id": "vn3t001",
+      "kind": "word",
+      "level": "N3",
+      "text": "柵",
+      "reading": "さく",
+      "romaji": "saku",
+      "meaning": "围栏、栅栏；围住或分隔空间的栏障",
+      "explanation": "本单元义项：围栏、栅栏；围住或分隔空间的栏障。通过两个不同语境辨认；其他义项须结合上下文。\n本组只练围栏义；しがらみ和き等同字其他词条及要塞义不混入；早先篇章中出现的围栏与本目标接通。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词",
+      "sense": "围栏、栅栏；围住或分隔空间的栏障",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1298250；2026-11-16固定分发版；第1义；围栏，不选其他同字词条。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3t001a",
+        "svn3t001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1298250
+    },
+    {
+      "id": "vn3t002",
+      "kind": "word",
+      "level": "N3",
+      "text": "自然",
+      "reading": "しぜん",
+      "romaji": "shizen",
+      "meaning": "自然；大自然，或非刻意、自然而然的状态",
+      "explanation": "本单元义项：自然；大自然，或非刻意、自然而然的状态。通过两个不同语境辨认；其他义项须结合上下文。\n用大自然与自然的表达两个对象联系理解；自然な、自然に复用已学的な形容词形式，不逐个增加派生词。这里不概括自然科学的全部含义。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／な形容词／副词",
+      "sense": "自然；大自然，或非刻意、自然而然的状态",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t002；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1318090；2026-11-16固定分发版；第1,2,3义；共同自然概念及既有な形容词、副词用法。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3t002a",
+        "svn3t002b"
+      ],
+      "order": 2001,
+      "jmdictEntryID": 1318090
+    },
+    {
+      "id": "vn3t003",
+      "kind": "word",
+      "level": "N3",
+      "text": "喧嘩",
+      "reading": "けんか",
+      "romaji": "kenka",
+      "meaning": "吵架、争斗；彼此争执或发生冲突",
+      "explanation": "本单元义项：吵架、争斗；彼此争执或发生冲突。通过两个不同语境辨认；其他义项须结合上下文。\n可涉及口角或身体冲突；仅凭喧嘩不补出具体殴打动作。喧嘩する复用する，不另建一个同义动词词根。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "名词／する动词",
+      "sense": "吵架、争斗；彼此争执或发生冲突",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t003；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1257040；2026-11-16固定分发版；第1义；争执、冲突的共同概念。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn3t003a",
+        "svn3t003b"
+      ],
+      "order": 2002,
+      "jmdictEntryID": 1257040
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn3t001a",
+      "segments": [
+        {
+          "text": "公園",
+          "reading": "こうえん",
+          "itemID": "v0184"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "池",
+          "reading": "いけ",
+          "itemID": "vn5179"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "周",
+          "reading": "まわ",
+          "itemID": "vn6195"
+        },
+        {
+          "text": "りには、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "低",
+          "reading": "ひく",
+          "itemID": "vn5216"
+        },
+        {
+          "text": "い",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "柵",
+          "reading": "さく",
+          "itemID": "vn3t001"
+        },
+        {
+          "text": "がある。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "公园的池塘周围有一道低矮的围栏。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3t001b",
+      "segments": [
+        {
+          "text": "壊",
+          "reading": "こわ",
+          "itemID": "vn5757"
+        },
+        {
+          "text": "れた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "柵",
+          "reading": "さく",
+          "itemID": "vn3t001"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "直",
+          "reading": "なお",
+          "itemID": "vn5754"
+        },
+        {
+          "text": "してから、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "庭",
+          "reading": "にわ",
+          "itemID": "v0292"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "片付",
+          "reading": "かたづ",
+          "itemID": "vn6000"
+        },
+        {
+          "text": "けた。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "修好破损的栅栏后，我收拾了院子。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3t002a",
+      "segments": [
+        {
+          "text": "森",
+          "reading": "もり",
+          "itemID": "vn5936"
+        },
+        {
+          "text": "や",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "川",
+          "reading": "かわ",
+          "itemID": "vn5178"
+        },
+        {
+          "text": "のある",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自然",
+          "reading": "しぜん",
+          "itemID": "vn3t002"
+        },
+        {
+          "text": "を、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "次",
+          "reading": "つぎ",
+          "itemID": "vn5039"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "世代",
+          "reading": "せだい",
+          "itemID": "vn4i114"
+        },
+        {
+          "text": "にも",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "残",
+          "reading": "のこ",
+          "itemID": "vn4145"
+        },
+        {
+          "text": "したい。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我希望把有森林和河流的自然环境也留给下一代。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3t002b",
+      "segments": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "itemID": "v0018"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "練習",
+          "reading": "れんしゅう",
+          "itemID": "vn5239"
+        },
+        {
+          "text": "すると、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "自然",
+          "reading": "しぜん",
+          "itemID": "vn3t002"
+        },
+        {
+          "text": "な",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "日本語",
+          "reading": "にほんご",
+          "itemID": "v0278"
+        },
+        {
+          "text": "で",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "話",
+          "reading": "はな",
+          "itemID": "v0028"
+        },
+        {
+          "text": "せるようになった。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "和老师练习后，我逐渐能用自然的日语交谈了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3t003a",
+      "segments": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "itemID": "v0017"
+        },
+        {
+          "text": "と",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "喧嘩",
+          "reading": "けんか",
+          "itemID": "vn3t003"
+        },
+        {
+          "text": "したが、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "その",
+          "reading": "その",
+          "itemID": "vn5305"
+        },
+        {
+          "text": "日",
+          "reading": "ひ",
+          "itemID": "vn5037"
+        },
+        {
+          "text": "のうちに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "仲直",
+          "reading": "なかなお",
+          "itemID": "vn3d019"
+        },
+        {
+          "text": "りした。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "我和朋友吵了架，不过当天就和好了。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn3t003b",
+      "segments": [
+        {
+          "text": "喧嘩",
+          "reading": "けんか",
+          "itemID": "vn3t003"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "声",
+          "reading": "こえ",
+          "itemID": "v0142"
+        },
+        {
+          "text": "で、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "家",
+          "reading": "いえ",
+          "itemID": "v0010"
+        },
+        {
+          "text": "にいた",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "母",
+          "reading": "はは",
+          "itemID": "v0195"
+        },
+        {
+          "text": "が",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "外",
+          "reading": "そと",
+          "itemID": "v0060"
+        },
+        {
+          "text": "へ",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "出",
+          "reading": "で",
+          "itemID": "v0303"
+        },
+        {
+          "text": "てきた。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "听到争吵声，原本在家里的母亲走了出来。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn3t001a",
+      "targetID": "vn3t001",
+      "sentenceID": "svn3t001b",
+      "skill": "meaning",
+      "prompt": "句中「柵」表示什么？",
+      "choices": [
+        "悬挂在高处的灯具",
+        "围栏、栅栏；围住或分隔空间的栏障",
+        "用于密封盛水的容器"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「围栏、栅栏；围住或分隔空间的栏障」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "さく",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "柵",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3t002a",
+      "targetID": "vn3t002",
+      "sentenceID": "svn3t002b",
+      "skill": "meaning",
+      "prompt": "句中「自然」表示什么？",
+      "choices": [
+        "只表示某个孩子在家中的出生顺序",
+        "自然；大自然，或非刻意、自然而然的状态",
+        "专指完全按人工痕迹刻意安排的状态"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「自然；大自然，或非刻意、自然而然的状态」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "しぜん",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "自然",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t002；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "evn3t003a",
+      "targetID": "vn3t003",
+      "sentenceID": "svn3t003b",
+      "skill": "meaning",
+      "prompt": "句中「喧嘩」表示什么？",
+      "choices": [
+        "双方意见完全一致且没有争执",
+        "按约定安静地完成共同工作",
+        "吵架、争斗；彼此争执或发生冲突"
+      ],
+      "answerIndex": 2,
+      "explanation": "本句中对应的义项是「吵架、争斗；彼此争执或发生冲突」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "けんか",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "喧嘩",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn3t003；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn3t01",
+      "title": "环境、边界与自然的表达",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3t001",
+        "vn3t002"
+      ],
+      "sentenceIDs": [
+        "svn3t001a",
+        "svn3t001b",
+        "svn3t002a",
+        "svn3t002b"
+      ],
+      "exerciseIDs": [
+        "evn3t001a",
+        "evn3t002a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    },
+    {
+      "id": "lvn3t02",
+      "title": "争执与和好",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N3",
+      "itemIDs": [
+        "vn3t003"
+      ],
+      "sentenceIDs": [
+        "svn3t003a",
+        "svn3t003b"
+      ],
+      "exerciseIDs": [
+        "evn3t003a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

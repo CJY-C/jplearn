@@ -23,7 +23,7 @@ final class RuleLearningTests: XCTestCase {
     func testRulesPreserveRealVocabularyAndExceptionPractice() throws {
         let pack = try ContentPack.bundled()
         XCTAssertEqual(pack.learningRules?.count, 7)
-        XCTAssertEqual(pack.wordCount, 4007)
+        XCTAssertEqual(pack.wordCount, 4103)
         XCTAssertEqual(pack.learningRules?.flatMap { $0.practiceSets.flatMap(\.questions) }.count, 84)
         let regular = Set(pack.learningRules!.flatMap(\.regularItemIDs))
         XCTAssertEqual(regular, Set(["v0158", "v0160", "vn5007", "v0161", "vn5013"]))
