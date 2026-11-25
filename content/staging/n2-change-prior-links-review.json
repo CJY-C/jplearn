@@ -1,0 +1,541 @@
+{
+  "changes": [
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j154",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "授業で、神経が信号を伝える仕組みを学びました。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-condition-and-perspective-words.tsv",
+      "key": [
+        "vn3j191",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "動画",
+      "reading": "どうが",
+      "lemma": null,
+      "old": null,
+      "context": "最近は、短い動画が好まれる傾向があります。",
+      "new": "vn3u007",
+      "meaning": "视频、影像片段；可连续播放的影像（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-judgment-and-belief.tsv",
+      "key": [
+        "vn3b048",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "新しい仕組みを運用してから、問題が見つかりました。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-observation-and-explanation.tsv",
+      "key": [
+        "vn3a009",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "図を見て、機械の仕組みを理解しました。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-observation-and-explanation.tsv",
+      "key": [
+        "vn3a049",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "沿",
+      "reading": "そ",
+      "lemma": "沿う",
+      "old": null,
+      "context": "小さい船が、水の流れに沿って進んでいました。",
+      "new": "vn3u016",
+      "meaning": "沿着、依照；贴着路线或参照方向行动",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-reading-and-event-words.tsv",
+      "key": [
+        "vn3c042",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "交",
+      "reading": "か",
+      "lemma": "交わす",
+      "old": null,
+      "context": "駅で別れの言葉を交わしました。",
+      "new": "vn3u020",
+      "meaning": "交换、相互作出；彼此交谈、问候或交换信息（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h096",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "連絡の仕組みが機能せず、変更が伝わりませんでした。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h133",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "市場",
+      "reading": "いちば",
+      "lemma": null,
+      "old": null,
+      "context": "市場で新鮮な野菜を買いました。",
+      "new": "vn3u011",
+      "meaning": "市场、集市；人们实际买卖货物的场所（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h172",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "技師に機械の仕組みを説明してもらいました。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-relations-and-causes-words.tsv",
+      "key": [
+        "vn3h194",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "市場",
+      "reading": "いちば",
+      "lemma": null,
+      "old": null,
+      "context": "市場の活気を写真に残しました。",
+      "new": "vn3u011",
+      "meaning": "市场、集市；人们实际买卖货物的场所（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "key": [
+        "vn3m050",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "分",
+      "reading": "ぶん",
+      "lemma": null,
+      "old": null,
+      "context": "予備の鍵を母に預け、自分の分は鞄に入れました。",
+      "new": "vn3u013",
+      "meaning": "份额、相应的量；与某项数量或变化相对应的部分（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "key": [
+        "vn3n053",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "市場",
+      "reading": "いちば",
+      "lemma": null,
+      "old": null,
+      "context": "旅先の市場を歩くと、その土地の食べ物が分かります。",
+      "new": "vn3u011",
+      "meaning": "市场、集市；人们实际买卖货物的场所（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l063",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "手品の仕組みを知ってから、もう一度見ました。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-similarity-theme-words.tsv",
+      "key": [
+        "vn3l071",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "仕組み",
+      "reading": "しくみ",
+      "lemma": null,
+      "old": null,
+      "context": "物語では、金融の仕組みが事件の背景にあります。",
+      "new": "vn3u019",
+      "meaning": "机制、构造；各部分结合起来发挥作用的安排（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-temporal-and-change-words.tsv",
+      "key": [
+        "vn3f051",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "体力",
+      "reading": "たいりょく",
+      "lemma": null,
+      "old": null,
+      "context": "年とともに体力が衰えたと祖父は言います。",
+      "new": "vn3u018",
+      "meaning": "体力；身体活动所需的力量和耐力（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-temporal-and-change-words.tsv",
+      "key": [
+        "vn3f059",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "事業",
+      "reading": "じぎょう",
+      "lemma": null,
+      "old": null,
+      "context": "新しい事業を企てましたが、資金が足りませんでした。",
+      "new": "vn3u017",
+      "meaning": "事业、业务、项目；持续开展并有一定目的的经营或社会活动",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-time-intention-and-degree.tsv",
+      "key": [
+        "gn344",
+        "d"
+      ],
+      "tag": "C",
+      "surface": "若者",
+      "reading": "わかもの",
+      "lemma": null,
+      "old": null,
+      "context": "町を離れる若者が増え、人口は減る一方です。",
+      "new": "vn3u005",
+      "meaning": "年轻人；处于年轻年龄阶段的人",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n3-time-reading-prerequisites.tsv",
+      "key": [
+        "vn3g001",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "年上",
+      "reading": "としうえ",
+      "lemma": null,
+      "old": null,
+      "context": "年上でも、この会社では新人です。",
+      "new": "vn3u010",
+      "meaning": "年长；年龄比比较对象更大",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n4-notices-and-scene-words.tsv",
+      "key": [
+        "vn4506",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "前半",
+      "reading": "ぜんはん",
+      "lemma": null,
+      "old": null,
+      "context": "試験の範囲は教科書の前半です。",
+      "new": "vn3u008",
+      "meaning": "前半、前半部分；整体分为前后两部分时靠前的一部分",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n4-notices-and-scene-words.tsv",
+      "key": [
+        "vn4577",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "寄",
+      "reading": "よ",
+      "lemma": "寄せる",
+      "old": null,
+      "context": "風で折れた枝を道の端に寄せました。",
+      "new": "vn4t001",
+      "meaning": "移近、集中到一处，或把意见信息送向接收方（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i113",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "若者",
+      "reading": "わかもの",
+      "lemma": null,
+      "old": null,
+      "context": "物語の若者は、故郷を離れて都へ向かいました。",
+      "new": "vn3u005",
+      "meaning": "年轻人；处于年轻年龄阶段的人",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    },
+    {
+      "source": "n5-everyday-words.tsv",
+      "key": [
+        "vn5344",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "市場",
+      "reading": "いちば",
+      "lemma": null,
+      "old": null,
+      "context": "昼の市場はとても賑やかでした。",
+      "new": "vn3u011",
+      "meaning": "市场、集市；人们实际买卖货物的场所（本组）",
+      "decision": "Attach the reviewed word sense to a formerly unlinked occurrence; preserve text/ruby/Chinese/answers and old IDs. No mastery event is created."
+    }
+  ],
+  "ambiguities": [
+    {
+      "source": "n4-actions-and-states.tsv",
+      "key": [
+        "vn4854",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "抱",
+      "reading": "だ",
+      "lemma": "抱く",
+      "old": "vn4854",
+      "context": "父は眠っている赤ちゃんを抱いていました。",
+      "error": "Ambiguous word reference: 抱く; use @itemID or ?",
+      "expectedAfter": "vn4854",
+      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+    },
+    {
+      "source": "n4-actions-and-states.tsv",
+      "key": [
+        "vn4854",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "抱",
+      "reading": "だ",
+      "lemma": "抱く",
+      "old": "vn4854",
+      "context": "猫を抱くと、温かさが手に伝わりました。",
+      "error": "Ambiguous word reference: 抱く; use @itemID or ?",
+      "expectedAfter": "vn4854",
+      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+    },
+    {
+      "source": "n4-society-and-daily-life-readings.tsv",
+      "key": [
+        "rn4406",
+        "5"
+      ],
+      "tag": "S",
+      "surface": "抱",
+      "reading": "だ",
+      "lemma": "抱く",
+      "old": "vn4854",
+      "context": "帰ると、父が洗濯を始めていました。母は掃除を済ませて、赤ん坊の弟を抱いていました。",
+      "error": "Ambiguous word reference: 抱く; use @itemID or ?",
+      "expectedAfter": "vn4854",
+      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i001",
+        "b"
+      ],
+      "tag": "E",
+      "surface": "抱",
+      "reading": "だ",
+      "lemma": "抱く",
+      "old": "vn4854",
+      "context": "写真の中で母が抱いている赤ん坊は、私です。",
+      "error": "Ambiguous word reference: 抱く; use @itemID or ?",
+      "expectedAfter": "vn4854",
+      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+    },
+    {
+      "source": "n4-society-and-daily-life.tsv",
+      "key": [
+        "vn4i029",
+        "a"
+      ],
+      "tag": "E",
+      "surface": "抱",
+      "reading": "だ",
+      "lemma": "抱く",
+      "old": "vn4854",
+      "context": "妹は小さい人形を抱いて眠りました。",
+      "error": "Ambiguous word reference: 抱く; use @itemID or ?",
+      "expectedAfter": "vn4854",
+      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+    }
+  ],
+  "status": "Reviewed prior occurrences; runtime registration and explicit physical-meaning source bindings pending",
+  "checkedDate": "2026-11-25",
+  "baselineCommit": "4d31f5bd0be392b108fc40a630104af9d071e87b",
+  "changesReviewed": 22,
+  "physicalReferencesToKeep": 5,
+  "independentLanguageReviews": 0,
+  "oldSourceSHA256": {
+    "n5-structures.tsv": "0a5377b79d637d06f373d525227bbc0d1816a6cb70c478d48b8d750f299de3d3",
+    "n5-readings.tsv": "33a272193001e03c07c7e19c9ecc37b138e3aceafd5daf0df373b581f0fea237",
+    "n5-reading-words.tsv": "6996798a7fac8a9e6381f940c6a229868ce5000a30b2c5fe5ebeeed361e7a511",
+    "n5-core-words.tsv": "b44e9b378f20bfaac7ee8d78908158b3f9342b1b36f8639972b9e4c74fffeb54",
+    "n5-everyday-words.tsv": "bbfe7818e40ba829f750dffd3fb5e17826bd3d62916769438fa6f5e07ea5b747",
+    "n5-numbers-and-reading-words.tsv": "c35735fb31a391548189e8eb2177d75851aeb505bb586efedf4ce3e367893941",
+    "n5-expanded-context-words.tsv": "bd8a8477592926c34af17094d67e0682ca088a9fabf89cfd8a97571904763049",
+    "n5-scene-words.tsv": "8a69eed89f6703acbfa80c22ed43bed9df24c8ab3af63dc6ca684e0a2e448dc5",
+    "n5-foundation-actions.tsv": "0c18263d867ce6130834dc5c00bad7ec4e21706f908934b88b5fdae1baed4410",
+    "n4-structures.tsv": "41c65d45e01a23227718376c8de114d40c78664390a6bfd4ecff973a59f4ebf6",
+    "n4-reading-words.tsv": "d1d95238ded2a49f2ac518925b2e8fe601e2c287b4337c363413a8a646d1152f",
+    "n4-readings.tsv": "7cd0cde4b11c5dd3340c00258294a0c36553bc0e158eda715970144deaa3c5d4",
+    "n4-core-actions.tsv": "e79d9933c823febb24b317889c55ac70191e79bb086324a695b33c106725bc93",
+    "n4-states-and-cues.tsv": "0fda565282a5cf110600df4495698423f65f481240e4d0076c86d6417d1c525a",
+    "n4-activities-and-notices.tsv": "23f31f773844a7a570c21f1f5a3b3911c023128759cc2ffda3ce8d053f366d5f",
+    "n4-completion-structures.tsv": "233baab736abcedca0b43ffd7d19a7a9d7d4bd861c5856a27404c09d5c921b86",
+    "n4-completion-readings.tsv": "aca9607b78bcc0a923d716980b01cc60170fa9d7e765125f7019f9c1afd7b83f",
+    "n4-completion-words.tsv": "c3b7ecae6852eb30744ea0ef47b77407398ae5f4ca721cde0e8a65252112567d",
+    "n4-notices-and-scene-words.tsv": "ec9e32a358e0eb196a553f9363be4fec1197242c9772bf0499cb7d45d9a25c4e",
+    "n4-public-and-scene-readings.tsv": "2a08669e9efd92e319ad13094272c586ffd1cdb9095e3d482feaece3c4cc4586",
+    "n4-public-reading-words.tsv": "f2e5f120eb4caf2715bac3b2cd6a5c39f9e7e4e70b7718f4e3a600f706d3bfb5",
+    "n4-actions-and-states.tsv": "fe19dadfeec135499f79790703ed8a9d832109de905e9eafff71a0c45dc231dd",
+    "n4-actions-and-states-readings.tsv": "fffc1ddb2767ed872fc8179ef7e0f5915d6f8534fe9fdae1c43a99fe3d802138",
+    "n4-society-and-daily-life.tsv": "c095d5e5104f3fd5f630ed169cbf6eef447d7e8086d1c0f8a116f166f356a5e4",
+    "n4-society-and-daily-life-readings.tsv": "cfb5eabd360a42ab0751c5a012fe07bec343cef8215dfc0d958e99a0130acdcd",
+    "n5-everyday-senses.tsv": "a17c7907dbaf6a67aead4941c23b31a95b94838d5ab0297c7b53b6be5fb2e0d8",
+    "n4-reactions-and-decisions.tsv": "b10250d020d0fc0fad5c868dc2513e4ce36c58db28fee145aa53897749dcf833",
+    "n3-observation-and-explanation.tsv": "fc87c48a1ec6a63c4d9c441fa40665eb93529f9790940cdeb513df4b0d01590a",
+    "n3-source-role-and-viewpoint.tsv": "37da29b7b1d7686c19b02090ea576ec994ec0ddddd0e9a0f0d122d6b49508d3b",
+    "n3-source-role-and-viewpoint-readings.tsv": "8f8a96504091b34eeb1b10f7f08c39f2824ba0d80929028d28f6f182368226ea",
+    "n3-judgment-and-belief.tsv": "8a9caa53088e54fcaf62a01502a5b76ebe2671a07e038c489f19c4d0642d3296",
+    "n3-reading-and-event-words.tsv": "01c9d46d5f960099213f88a45e3d3cec07c5c634faae727ee7a6461efa9bc5c9",
+    "n3-inference-and-negation.tsv": "c276fb92e611a646681e935b9ee5172cacc888ca801812c900d9452a12a73ac1",
+    "n3-inference-and-negation-readings.tsv": "d3a285ce3eb567db31d50f0911ec09ebed7a3ec1c64ee2a1154a6978e3fab304",
+    "n3-relationships-and-expression.tsv": "21f7cc895a5c3afdaa57234a4c6afbdacda2ddb7f668d0a838e7fcbfa9e7f595",
+    "n3-reading-and-correspondence-words.tsv": "7590612f149286d1813856ee6b9ac4e1ba30a3bc89b355f9074e24a879dfd192",
+    "n3-norms-memory-and-reasons.tsv": "7b0fb3416d2ba837299095b5c6c61e37ef15dad96e31b9bcecde592c4c905f19",
+    "n3-norms-memory-and-reasons-readings.tsv": "e1587079c0cb13859a28f27c0207835708b0b6db583374bd66cd2d502b7b23bc",
+    "n4-reading-and-sense-boundaries.tsv": "d54b60bc5c906cdd1888ccf76689f5e4b49752097df41f7dff5d8c2c39007ceb",
+    "n3-temporal-and-change-words.tsv": "4d0a9155b67e21a5a4426dfa4982b3a4e6ea8628e402b3d0f32e972aa10bbc74",
+    "n3-time-reading-prerequisites.tsv": "e1a721cce93f5caec5c0b100800788ba540faf87aa4f0acb171b8bd34643dc53",
+    "n3-time-intention-and-degree.tsv": "91673198c134b47b46259475e5bff7140fc8fb59b75facb60e950fcdd5520765",
+    "n3-time-intention-and-degree-readings.tsv": "2568d5fb3a8f3e2ea53e9c1bc6e7f4fced0e6a4fa6c3c38aa62252304b0d70a9",
+    "n3-relations-and-causes-words.tsv": "91067215fb6d42d7bbd87c7e4e8270d85f067fe64e3f64b40b53e0bb79f592f3",
+    "n3-relations-reading-prerequisites.tsv": "891c50649fe4f9b342be0a42313432eefa289f0e8ed3e7da9b1332541f69aaae",
+    "n3-relations-and-causes.tsv": "ca7af2fa1015e3ee3fd09b3450b4882ab7b279cfcd2bee5e171849f6fd9beb30",
+    "n3-relations-and-causes-readings.tsv": "3e345a31213d5f642384a9841ea00b59c2b58715a462248ef62fc7abad1076cb",
+    "n3-condition-and-perspective-words.tsv": "4bb3c7f9127c79cc8562e605b989e0f70f85423f75d318b12b8259265bd353ae",
+    "n4-condition-prerequisites.tsv": "8f11d5db753fca241485fd9fd51fdcae8f717d94e98322092bcc182018be7c0c",
+    "n3-condition-prerequisites.tsv": "f8282df3bc6472a3de38a9968e6be8c328de27bf3f4e52b1ecd5b0600fa189e6",
+    "n3-condition-and-perspective.tsv": "20683109660637b58a125fb2199d02e1506617954164b14cbf697d41b4d3d918",
+    "n3-condition-readings.tsv": "f953faca4d20522e98541e809d3325a99206d31db812dc236dab466bc858f617",
+    "n4-similarity-reading-senses.tsv": "01f78e8120dbdcbdce7e8d2bc5bc5c3a5ae33fb3d282b6f9f464c48530664708",
+    "n4-similarity-sense-prerequisites.tsv": "371333e35715c41707caa7a17d0b038491f17424c230273c1c40ba47f4e34df6",
+    "n3-similarity-theme-words.tsv": "d6b2eb34225175acb8c59641f39d4bec2e6211d4940f2e7a308031e452d4a2d4",
+    "n3-similarity-prerequisite-words.tsv": "17d6dfb55daafdd2d8fc5da1bfa10c462af0b08a108347247894f271e48ad04d",
+    "n3-similarity-reading-prerequisite-words.tsv": "be5811e04c272acb3cc6400308843c44baef81de0d355d87240ee2906555f0d3",
+    "n3-similarity-and-tendencies.tsv": "98868dcb16d2496077392e003e00096490a7f0642281a4382b36bf5338e910b7",
+    "n3-similarity-extensions.tsv": "788abc0f55fb0076d312b9677f892d5218d939915ae13eaec737067fb9433aff",
+    "n3-tendency-and-coverage.tsv": "3d7c365ba05cbb59735365b21818c08517727950cdf2e4b70950f69f77e6bbda",
+    "n3-state-and-surface.tsv": "4cbc8d9ed05ef715e56690565371966cf016adb4a6fc380deae72ec809921e62",
+    "n3-completion-and-inception.tsv": "47d4fb0f97784ada4136932595902e8acccb25761be8e9cc84dd5efde97a8dfc",
+    "n3-retrial-and-difficulty.tsv": "605f35ac8eb25c7757efad34f6a5761ce40fc70eee32b47239b9884c04229701",
+    "n3-boundaries-and-near-misses.tsv": "a3294e391bd79f76df33ef1262e26d649ef16e6062f18f521c411e9a1c3f8059",
+    "n3-models-and-correspondence.tsv": "1b323f260d6455fd6bdac0585911184352c2724c02d83b213c2e99b4b3b3d434",
+    "n3-similarity-assessment-readings.tsv": "efac9ef367894b72bc782f6ad5c9ca7f6ce180cfe39421bc518513cb7e67f40f",
+    "n3-similarity-choice-readings.tsv": "657d662860e365dedba38e22544809f5eb0fec875e778b200b1912d45acec175",
+    "n3-similarity-evidence-readings.tsv": "48bba1138e3f48df8908588c01f23f2cd119b7d70cac1a4ac969f4a749860899",
+    "n3-similarity-market-readings.tsv": "09fa3e82e30b440a2be8a88aa08942dd06135d852827eeabfdf992ea8e26f2ea",
+    "n3-similarity-readings.tsv": "fc604cb9ca04ac5b490dc093b084bbb019f8daba065e4b47a26590a7e9e2efbb",
+    "n3-similarity-revision-readings.tsv": "4d30d3e9b256387325fd7606b38beda084bd43ccb2c25243735c35cc14be1b62",
+    "n3-similarity-social-readings.tsv": "2eae813ccf08d741eb88cef33a336a6ec04ef52b65976b1808f171d183d03495",
+    "n3-similarity-story-readings.tsv": "7cf014115be255d780e81625d005bf68f40047057c64e8f4d379465010ca8e7c",
+    "n3-similarity-work-readings.tsv": "4316be41b079abbe65afd3cf9a836fcce3e4666cc787ae6f9fcef4e45bdef846",
+    "n4-context-foundation-words.tsv": "61828dafd01d3e1ce0bdc0bc0c6d39f7ac0de22ddc854c9549f1a7dd52197ff1",
+    "n3-context-foundation-words.tsv": "d9666a96cc18987e4f2c0585729c9ee0b8122bf829b154426d2f9868fec7f182",
+    "n2-information-and-documents.tsv": "df49fd80cb634391cee794ae50e66a22e4f15ab12213900e84822b207398cd38",
+    "n2-context-prerequisite-words.tsv": "3017e1487ba0a98df407b01b6fe83a99fa9912358a5f7535d208bf9d536d37e2",
+    "n2-context-reading-words.tsv": "7eb7f4d8d3722d49f5966ea4411bde3ce3a4edb80847902befb6308cc20088d0",
+    "n2-context-and-mediation.tsv": "9d60191ae11bf9a55daca27a52357f848e8fab974328c4dbb1e10cd382e40026",
+    "n2-context-readings.tsv": "f1e685c2af9927c7977d7786fe33b7150ff15f610569d8e589c064d7682f4ea6",
+    "n3-evidence-foundation-words.tsv": "10e62ec9ed805deddd81bb52aef1b7ccd0ffa3212d2a4ebb25dbbd22d30d41e0",
+    "n2-evidence-and-interpretation-words.tsv": "a17d7753c8c47666ba60a29c179d527450c227b5131633c259718b9dc3b55eb0",
+    "n5-boarding-place-word.tsv": "def285779a4c78614844252bf457e14287779a8fab5832b599876e235bf668a9",
+    "n2-basis-and-viewpoint.tsv": "42168a018a3721c95e41c2b89bee95c1a8524ca0950de7c73232f153ff9effb4",
+    "n2-basis-readings.tsv": "3ba2fbfeea1b1e8b7d40d5ebfcecb450ddaa255c81e743a2d88b8fa0b5b06b96",
+    "n4-job-offer-foundation-word.tsv": "080c006014f3addd3ade753e4c801d3b0ce78f09fb8a327c5f1c2af4ff219f17",
+    "n3-social-foundation-words.tsv": "c81d6866dc8675a83d4a17f91a7795cb375905c863fbab3ba5dfbe88ec4e582f",
+    "n2-social-and-work-words.tsv": "b2070807dd74831e358f8ce04facd592f0b4fed9636094597367fcfb1219eda1",
+    "n3-conditions-foundation-words.tsv": "95e49ff003583b8d24c1199bc88095dec803d491ab692abbbf19f273ed590d6f",
+    "n2-condition-reading-words.tsv": "f25b4eb48a8edfeabdecaf0d91f92a4cb1930441e96d7898358ed68b2408ed8e",
+    "n2-conditions-and-concessions.tsv": "69c405cef9186dcd685196c787e790807ad350ef75142a3371ffe0162ba5dbfa",
+    "n2-conditions-readings.tsv": "62758f00606615574604d08901577575d0047226692d11c8e83476db80ee5bf7",
+    "n3-emotion-foundation-words.tsv": "bf5e6fe0b8f11d1073c7b7cb8733a14978dcd3d79daab7eeafd434a3d30baf94",
+    "n2-emotions-and-relationships.tsv": "3be5178e4597c2f1ec58c14b8082ba305552b9b529575c4055e306185eb1bd04"
+  }
+}

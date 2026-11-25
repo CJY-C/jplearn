@@ -29,7 +29,7 @@
 
 社区参考给本批部分词标作N1，源记录保留这些标签；课程级别是正式文本阅读次序，不是官方JLPT词表声明。本批只增加111个本级根，前级补缺、旧词表记和追加义项不抵扣N2目标；后续仍需继续核对常用词主题、表达、阅读和六项衔接。
 
-下一章[变化、对应与范围草稿](../content/staging/n2-change-and-scope.tsv)已写12个功能、72个原创语境，对应11项参考模式；另有[8个N3前置根](../content/staging/n3-change-foundation-words.tsv)和[9个N2根](../content/staging/n2-change-prerequisite-words.tsv)、34个原创双语语境。砂浜复用既有词，不重复计数；伴随、范围、沿着与参照、反面表记及接续变体按共同功能迁移，つつ的并行与逆接分开练习。17份词典身份、别读与表记限制及所选教材／词典事实已[记录范围](../content/staging/n2-change-draft-review.json)，通过`python3 content/staging/check_n2_change_draft.py`检查。草稿尚无配套阅读，仍待自然度、干扰项、检测隔离、历史关联审查及正式登记；未进入应用，也未计入上述数量或抵扣N2缺口。发布分支继续保持0.20.4修复待验状态。
+下一章[变化、对应与范围草稿](../content/staging/n2-change-and-scope.tsv)已有12个功能、72个原创语境，对应11项参考模式；词语前置为[1个N4根](../content/staging/n4-change-foundation-word.tsv)、[18个N3根及1个追加义项](../content/staging/n3-change-foundation-words.tsv)、[11个N2根](../content/staging/n2-change-prerequisite-words.tsv)，共30个新根、31个词义目标和62个原创语境。另有[10篇两段阅读](../content/staging/n2-change-readings.tsv)，8篇练习、2篇独立检测，共20道证据题；每篇567–614字，严格日语字符均超过350。`python3 content/staging/check_n2_change_draft.py`核对全部新功能在普通正文中的实际用例、标注实词关联、检测连续20字隔离与31份字形／读音／义项限制事实。前级例句需要的词不抵扣N2词额；寄せる的物理移近与寄送信息合组，抽象抱く另记词义及较窄的读音范围。22处旧句新关联已逐项检查，5处身体拥抱义需在登记前显式保留；95份旧源的字节尚未改变。草稿仍待正式登记、完整历史保留审计及回归；未进入应用，未计入上述数量。来源核对和结构检查不替代独立日语审校，审校仍为0。发布分支继续保持0.20.4修复待验状态。
 
 以下保留各批登记时的历史数量与验证范围。
 
