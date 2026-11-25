@@ -368,7 +368,7 @@
       "context": "父は眠っている赤ちゃんを抱いていました。",
       "error": "Ambiguous word reference: 抱く; use @itemID or ?",
       "expectedAfter": "vn4854",
-      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+      "decision": "Retain physical holding via @vn4854; abstractいだく remains a distinct meaning and reading target."
     },
     {
       "source": "n4-actions-and-states.tsv",
@@ -384,7 +384,7 @@
       "context": "猫を抱くと、温かさが手に伝わりました。",
       "error": "Ambiguous word reference: 抱く; use @itemID or ?",
       "expectedAfter": "vn4854",
-      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+      "decision": "Retain physical holding via @vn4854; abstractいだく remains a distinct meaning and reading target."
     },
     {
       "source": "n4-society-and-daily-life-readings.tsv",
@@ -400,7 +400,7 @@
       "context": "帰ると、父が洗濯を始めていました。母は掃除を済ませて、赤ん坊の弟を抱いていました。",
       "error": "Ambiguous word reference: 抱く; use @itemID or ?",
       "expectedAfter": "vn4854",
-      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+      "decision": "Retain physical holding via @vn4854; abstractいだく remains a distinct meaning and reading target."
     },
     {
       "source": "n4-society-and-daily-life.tsv",
@@ -416,7 +416,7 @@
       "context": "写真の中で母が抱いている赤ん坊は、私です。",
       "error": "Ambiguous word reference: 抱く; use @itemID or ?",
       "expectedAfter": "vn4854",
-      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+      "decision": "Retain physical holding via @vn4854; abstractいだく remains a distinct meaning and reading target."
     },
     {
       "source": "n4-society-and-daily-life.tsv",
@@ -432,10 +432,10 @@
       "context": "妹は小さい人形を抱いて眠りました。",
       "error": "Ambiguous word reference: 抱く; use @itemID or ?",
       "expectedAfter": "vn4854",
-      "decision": "Keep physical holding, explicitly use @vn4854 before registration; do not reassign to abstractいだく."
+      "decision": "Retain physical holding via @vn4854; abstractいだく remains a distinct meaning and reading target."
     }
   ],
-  "status": "Reviewed prior occurrences; runtime registration and explicit physical-meaning source bindings pending",
+  "status": "Reviewed original occurrences; registered source bindings verified by exact reconstruction",
   "checkedDate": "2026-11-25",
   "baselineCommit": "4d31f5bd0be392b108fc40a630104af9d071e87b",
   "changesReviewed": 22,

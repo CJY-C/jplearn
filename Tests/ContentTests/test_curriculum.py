@@ -29,7 +29,7 @@ class CurriculumDeliveryTests(unittest.TestCase):
         targets = [w for w in self.pack["items"] if w["kind"] == "word"]
         senses = [w for w in targets if w.get("lexemeID")]
         self.assertEqual({w["id"] for w in senses}, {"vn4960", "vn4961", "vn4962", "vn4963", "vn5s001", "vn5s002", "vn3a133", "vn4o002", "vn4o003", "vn4o007", "vn3g010", "vn3g011", "vn3i084", "vn4q001", "vn4q002", "vn4q003", "vn3l121", "vn3l122", "vn3l123", "vn3l124", "vn3m066", "vn3m067", "vn3n007", "vn4r002",
-            "vn4s006", "vn4s007", "vn3p002", "vn3p003", "vn3p004", "vn3p005", "vn2b019", "vn2b020", "vn2b021", "vn2e112", "vn3s004", "vn2g077", "vn2g090"})
+            "vn4s006", "vn4s007", "vn3p002", "vn3p003", "vn3p004", "vn3p005", "vn2b019", "vn2b020", "vn2b021", "vn2e112", "vn3s004", "vn2g077", "vn2g090", "vn3u015"})
         expected = len({w.get("lexemeID") or w["id"] for w in targets})
         self.assertEqual(report(self.pack)["words"], expected)
         self.assertEqual(report(self.pack)["wordTargets"], expected + len(senses))

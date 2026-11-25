@@ -1,16 +1,16 @@
 {
-  "status": "UNREGISTERED DRAFT; not included in app or completed course counts",
+  "status": "Source-checked original trial; independent Japanese review pending",
   "checkedDate": "2026-11-25",
   "baselineCommit": "4d31f5bd0be392b108fc40a630104af9d071e87b",
   "baselineResourceSHA256": "c2910b91048f8579e0defb91b2f82a1123d560fb720f36068daef20fd02df5c8",
   "sourceSHA256": {
-    "n4-change-foundation-word.tsv": "491fb0564197c5a878bf0f64a95498abf53521d392c8d800b1efccdb79a5dd7c",
-    "n3-change-foundation-words.tsv": "d95aeb6556a033d151dc162b9408a37dad1e5c5bf412dc67a452b5420174f586",
-    "n2-change-prerequisite-words.tsv": "368bfbf2b88ea3582c059f5da972cafca1e5710f567277f07e5a00c08053f4c9",
-    "n2-change-and-scope.tsv": "d2488d8f7a1856e37cc2dadc93483914fe567848e4f81d93c7076af3a9799d67",
+    "n4-change-foundation-word.tsv": "fc15464133dcef3bbd9a0c920d4cb2c0e91a949f16bc711e616d8675db870439",
+    "n3-change-foundation-words.tsv": "dc033481dbd1105770303791305edde39afaeaa71eff3dfc85e08410d5e6dc0c",
+    "n2-change-prerequisite-words.tsv": "4cc6c0621feb758f3c5612109fdac6f58959a671442a211375e7e6c7effb2e1a",
+    "n2-change-and-scope.tsv": "1e046fcfe22b00ba15f310489566f521ce391786083e9e368cf6ba7c9c17deb4",
     "n2-change-references.json": "2f4fc839c0bf36bcc5d646e1faf511bb236a57f4363dae951364648d4d85bf1e",
-    "n2-change-readings.tsv": "ee66585f61cca59c1fa2620864554d6606d4edb05cea5ae0af64211eb0d3208e",
-    "n2-change-prior-links-review.json": "7ea0cae613efc3284d10fd9c6aff1997e4afd0189d83d7f3dbef10b1e2297f37"
+    "n2-change-readings.tsv": "4b4c5fc3510769fee08114e42cfc018acba12d19ccee8090ea42c18e37fbf250",
+    "n2-change-prior-links-review.json": "d4f79e228215029f5cea99c54e816c19da30f9d0312e15891e6ef3dd955d3ca5"
   },
   "independentLanguageReviews": 0,
   "nativeIOSCompiled": false,
@@ -1333,7 +1333,7 @@
     "NINJAL2024 Ding paper selected sections do not supportをめぐって; it is not cited as such.",
     "Ocha2009 and NINJAL025/015 PDF fetches failed or rate-limited; unread full texts are not cited as checked.",
     "No new IPA, independent Japanese review, completed N2 chapter or changed runtime curriculum is claimed.",
-    "Naturalness, distractor quality, historical-link review and registration remain pending; structural/isolation checks do not constitute independent language review."
+    "Materials remain author-reviewed trial content; source, structural and isolation checks do not constitute independent Japanese review or learning-effectiveness evidence."
   ],
   "readingReviewNotes": [
     "Eight ordinary passages andtwo independent assessments, each six authored blocks andtwo paragraphs, two evidence-linked questions.",
@@ -1342,7 +1342,7 @@
     "Vocabulary annotation is explicit content-word occurrence coverage, not automatic full-text segmentation.",
     "Draft checker verifies at least350strictJapanese characters per passage, no unlinked authored lexical occurrences, all12ordinary function witnesses, two evidence questions per passage and20-character heldout isolation against oldpack/newtraining/other newassessment.",
     "Reviewed roles:伝わる not伝える for messages getting through;建つ not建てる for buildings standing;the abstract抱く target, not bodily抱く;formal update进程 notcompletion;actualuse scopes notall-users claims.",
-    "Word-definition/answer review remains an authored trial with no independent language reviewer; historical links and registration remain separate pending gates."
+    "Word-definition and answer decisions remain author-reviewed trial content. Historical links and registration are checked by full source reconstruction; independent language review remains0."
   ],
   "senseChecks": [
     {
@@ -1391,5 +1391,6 @@
       "locator": "実証運行のポイント；bus service frequency, not flight-only restriction inferred from the English gloss."
     }
   ],
-  "historicalReview": "22 formerly unlinked occurrences reviewed; five physical抱く source bindings identified, to be made explicit before registration. All95registered authoring sources still byte-identical to pinned pre-chapter checkpoint."
+  "historicalReview": "22 formerly unlinked associations reviewed; five physical抱く sources explicitly retain vn4854. Full baseline reconstruction preserves all other old text, answers, IDs and relative order.",
+  "registered": true
 }

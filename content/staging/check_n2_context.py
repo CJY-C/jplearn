@@ -10,6 +10,7 @@ from collections import defaultdict
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -35,7 +36,7 @@ def source_path(name):
 def base_pack():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     excluded = set(CHAPTER_FILES)
-    for ledger_name in ["n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json"]:
+    for ledger_name in ["n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json", "n2-change-chapter.json"]:
         later = ROOT / "content/source-checks" / ledger_name
         if later.exists():
             # Keep earlier backfills while independently rebuilding the N2
@@ -266,10 +267,14 @@ def check():
     runtime_sha = hashlib.sha256(resource.read_bytes()).hexdigest()
     baseline_sha = (json.loads((ROOT / "content/source-checks/n2-context-chapter.json").read_text())["baselineRuntimeSHA256"]
                     if registered else runtime_sha)
+    baseline_version = pack["version"]
+    if registered:
+        checkpoint = json.loads((ROOT / "content/source-checks/n2-context-chapter.json").read_text())["baselineCommit"]
+        baseline_version = json.loads(subprocess.check_output(["git", "show", checkpoint + ":Sources/LearningCore/Resources/foundation.json"], cwd=ROOT))["version"]
     return dict(status=("Registered trial source; structure, source facts and isolation checked; independent language review0" if registered else
                        "Unregistered draft; source/structure/isolation checked, contextual word-sense and independent language review pending"),
         manuscript=str(path.relative_to(ROOT)), manuscriptSHA256=hashlib.sha256(path.read_bytes()).hexdigest(),
-        baselineRuntimeVersion=pack["version"], baselineRuntimeSHA256=baseline_sha,
+        baselineRuntimeVersion=baseline_version, baselineRuntimeSHA256=baseline_sha,
         runtimeResourceSHA256=runtime_sha, sourceReconstructionExcludesOwnBatches=True,
         draftGrammarFunctions=len(new), draftOriginalContexts=len(batch["sentences"]), draftExercises=len(batch["exercises"]),
         draftLessons=len(batch["lessons"]), draftReferencePatterns=coverage,

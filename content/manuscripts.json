@@ -2,102 +2,509 @@
   "version": 1,
   "pronunciationSource": "pronunciation.json",
   "ruleSource": "learning-rules.json",
-  "staticBatches": ["001-foundation.json"],
+  "staticBatches": [
+    "001-foundation.json"
+  ],
   "entries": [
-    {"kind": "grammar", "source": "n5-structures.tsv", "batch": "002-n5-structures.json"},
-    {"kind": "reading", "source": "n5-readings.tsv", "batch": "003-n5-readings.json"},
-    {"kind": "word", "source": "n5-reading-words.tsv", "batch": "004-n5-reading-vocabulary.json"},
-    {"kind": "word", "source": "n5-core-words.tsv", "batch": "005-n5-core-vocabulary.json"},
-    {"kind": "word", "source": "n5-everyday-words.tsv", "batch": "006-n5-everyday-vocabulary.json"},
-    {"kind": "word", "source": "n5-numbers-and-reading-words.tsv", "batch": "007-n5-numbers-and-reading-vocabulary.json"},
-    {"kind": "word", "source": "n5-expanded-context-words.tsv", "batch": "008-n5-expanded-context-vocabulary.json"},
-    {"kind": "word", "source": "n5-scene-words.tsv", "batch": "009-n5-scene-vocabulary.json"},
-    {"kind": "word", "source": "n5-foundation-actions.tsv", "batch": "010-n5-foundation-actions.json"},
-    {"kind": "grammar", "source": "n4-structures.tsv", "batch": "011-n4-structures.json"},
-    {"kind": "word", "source": "n4-reading-words.tsv", "batch": "012-n4-reading-vocabulary.json"},
-    {"kind": "reading", "source": "n4-readings.tsv", "batch": "013-n4-readings.json"},
-    {"kind": "word", "source": "n4-core-actions.tsv", "batch": "014-n4-core-actions.json"},
-    {"kind": "word", "source": "n4-states-and-cues.tsv", "batch": "015-n4-states-and-cues.json"},
-    {"kind": "word", "source": "n4-activities-and-notices.tsv", "batch": "016-n4-activities-and-notices.json"},
-    {"kind": "grammar", "source": "n4-completion-structures.tsv", "batch": "017-n4-completion-structures.json"},
-    {"kind": "reading", "source": "n4-completion-readings.tsv", "batch": "018-n4-completion-readings.json"},
-    {"kind": "word", "source": "n4-completion-words.tsv", "batch": "019-n4-completion-words.json"},
-    {"kind": "word", "source": "n4-notices-and-scene-words.tsv", "batch": "020-n4-notices-and-scene-words.json"},
-    {"kind": "reading", "source": "n4-public-and-scene-readings.tsv", "batch": "021-n4-public-and-scene-readings.json"},
-    {"kind": "word", "source": "n4-public-reading-words.tsv", "batch": "022-n4-public-reading-words.json"},
-    {"kind": "word", "source": "n4-actions-and-states.tsv", "batch": "023-n4-actions-and-states.json"},
-    {"kind": "reading", "source": "n4-actions-and-states-readings.tsv", "batch": "024-n4-actions-and-states-readings.json"},
-    {"kind": "word", "source": "n4-society-and-daily-life.tsv", "batch": "025-n4-society-and-daily-life.json"},
-    {"kind": "reading", "source": "n4-society-and-daily-life-readings.tsv", "batch": "026-n4-society-and-daily-life-readings.json"},
-    {"kind": "word", "source": "n5-everyday-senses.tsv", "batch": "027-n5-everyday-senses.json"},
-    {"kind": "word", "source": "n4-reactions-and-decisions.tsv", "batch": "028-n4-reactions-and-decisions.json"},
-    {"kind": "word", "source": "n3-observation-and-explanation.tsv", "batch": "029-n3-observation-and-explanation.json"},
-    {"kind": "grammar", "source": "n3-source-role-and-viewpoint.tsv", "batch": "030-n3-source-role-and-viewpoint.json"},
-    {"kind": "reading", "source": "n3-source-role-and-viewpoint-readings.tsv", "batch": "031-n3-source-role-and-viewpoint-readings.json"},
-    {"kind": "word", "source": "n3-judgment-and-belief.tsv", "batch": "032-n3-judgment-and-belief.json"},
-    {"kind": "word", "source": "n3-reading-and-event-words.tsv", "batch": "033-n3-reading-and-event-words.json"},
-    {"kind": "grammar", "source": "n3-inference-and-negation.tsv", "batch": "034-n3-inference-and-negation.json"},
-    {"kind": "reading", "source": "n3-inference-and-negation-readings.tsv", "batch": "035-n3-inference-and-negation-readings.json"},
-    {"kind": "word", "source": "n3-relationships-and-expression.tsv", "batch": "036-n3-relationships-and-expression.json"},
-    {"kind": "word", "source": "n3-reading-and-correspondence-words.tsv", "batch": "037-n3-reading-and-correspondence-words.json"},
-    {"kind": "grammar", "source": "n3-norms-memory-and-reasons.tsv", "batch": "038-n3-norms-memory-and-reasons.json"},
-    {"kind": "reading", "source": "n3-norms-memory-and-reasons-readings.tsv", "batch": "039-n3-norms-memory-and-reasons-readings.json"},
-    {"kind": "word", "source": "n4-reading-and-sense-boundaries.tsv", "batch": "040-n4-reading-and-sense-boundaries.json"},
-    {"kind": "word", "source": "n3-temporal-and-change-words.tsv", "batch": "041-n3-temporal-and-change-words.json"},
-    {"kind": "word", "source": "n3-time-reading-prerequisites.tsv", "batch": "042-n3-time-reading-prerequisites.json"},
-    {"kind": "grammar", "source": "n3-time-intention-and-degree.tsv", "batch": "043-n3-time-intention-and-degree.json"},
-    {"kind": "reading", "source": "n3-time-intention-and-degree-readings.tsv", "batch": "044-n3-time-intention-and-degree-readings.json"},
-    {"kind": "word", "source": "n3-relations-and-causes-words.tsv", "batch": "045-n3-relations-and-causes-words.json"},
-    {"kind": "word", "source": "n3-relations-reading-prerequisites.tsv", "batch": "046-n3-relations-reading-prerequisites.json"},
-    {"kind": "grammar", "source": "n3-relations-and-causes.tsv", "batch": "047-n3-relations-and-causes.json"},
-    {"kind": "reading", "source": "n3-relations-and-causes-readings.tsv", "batch": "048-n3-relations-and-causes-readings.json"},
-    {"kind": "word", "source": "n3-condition-and-perspective-words.tsv", "batch": "049-n3-condition-and-perspective-words.json"},
-    {"kind": "word", "source": "n4-condition-prerequisites.tsv", "batch": "050-n4-condition-prerequisites.json"},
-    {"kind": "word", "source": "n3-condition-prerequisites.tsv", "batch": "051-n3-condition-prerequisites.json"},
-    {"kind": "grammar", "source": "n3-condition-and-perspective.tsv", "batch": "052-n3-condition-and-perspective.json"},
-    {"kind": "reading", "source": "n3-condition-readings.tsv", "batch": "053-n3-condition-readings.json"},
-    {"kind": "word", "source": "n4-similarity-reading-senses.tsv", "batch": "054-n4-written-senses.json"},
-    {"kind": "word", "source": "n4-similarity-sense-prerequisites.tsv", "batch": "055-n4-similarity-sense-prerequisites.json"},
-    {"kind": "word", "source": "n3-similarity-theme-words.tsv", "batch": "056-n3-similarity-theme-words.json"},
-    {"kind": "word", "source": "n3-similarity-prerequisite-words.tsv", "batch": "057-n3-similarity-prerequisite-words.json"},
-    {"kind": "word", "source": "n3-similarity-reading-prerequisite-words.tsv", "batch": "058-n3-similarity-reading-prerequisite-words.json"},
-    {"kind": "grammar", "source": "n3-similarity-and-tendencies.tsv", "batch": "059-n3-similarity-and-tendencies.json"},
-    {"kind": "grammar", "source": "n3-similarity-extensions.tsv", "batch": "060-n3-similarity-extensions.json"},
-    {"kind": "grammar", "source": "n3-tendency-and-coverage.tsv", "batch": "061-n3-tendency-and-coverage.json"},
-    {"kind": "grammar", "source": "n3-state-and-surface.tsv", "batch": "062-n3-state-and-surface.json"},
-    {"kind": "grammar", "source": "n3-completion-and-inception.tsv", "batch": "063-n3-completion-and-inception.json"},
-    {"kind": "grammar", "source": "n3-retrial-and-difficulty.tsv", "batch": "064-n3-retrial-and-difficulty.json"},
-    {"kind": "grammar", "source": "n3-boundaries-and-near-misses.tsv", "batch": "065-n3-boundaries-and-near-misses.json"},
-    {"kind": "grammar", "source": "n3-models-and-correspondence.tsv", "batch": "066-n3-models-and-correspondence.json"},
-    {"kind": "reading", "source": "n3-similarity-assessment-readings.tsv", "batch": "067-n3-similarity-assessment-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-choice-readings.tsv", "batch": "068-n3-similarity-choice-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-evidence-readings.tsv", "batch": "069-n3-similarity-evidence-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-market-readings.tsv", "batch": "070-n3-similarity-market-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-readings.tsv", "batch": "071-n3-similarity-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-revision-readings.tsv", "batch": "072-n3-similarity-revision-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-social-readings.tsv", "batch": "073-n3-similarity-social-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-story-readings.tsv", "batch": "074-n3-similarity-story-readings.json"},
-    {"kind": "reading", "source": "n3-similarity-work-readings.tsv", "batch": "075-n3-similarity-work-readings.json"},
-    {"kind": "word", "source": "n4-context-foundation-words.tsv", "batch": "076-n4-context-foundation-words.json"},
-    {"kind": "word", "source": "n3-context-foundation-words.tsv", "batch": "077-n3-context-foundation-words.json"},
-    {"kind": "word", "source": "n2-information-and-documents.tsv", "batch": "078-n2-information-and-documents.json"},
-    {"kind": "word", "source": "n2-context-prerequisite-words.tsv", "batch": "079-n2-context-prerequisite-words.json"},
-    {"kind": "word", "source": "n2-context-reading-words.tsv", "batch": "080-n2-context-reading-words.json"},
-    {"kind": "grammar", "source": "n2-context-and-mediation.tsv", "batch": "081-n2-context-and-mediation.json"},
-    {"kind": "reading", "source": "n2-context-readings.tsv", "batch": "082-n2-context-readings.json"},
-    {"kind": "word", "source": "n3-evidence-foundation-words.tsv", "batch": "083-n3-evidence-foundation-words.json"},
-    {"kind": "word", "source": "n2-evidence-and-interpretation-words.tsv", "batch": "084-n2-evidence-and-interpretation-words.json"},
-    {"kind": "word", "source": "n5-boarding-place-word.tsv", "batch": "085-n5-boarding-place-word.json"},
-    {"kind": "grammar", "source": "n2-basis-and-viewpoint.tsv", "batch": "086-n2-basis-and-viewpoint.json"},
-    {"kind": "reading", "source": "n2-basis-readings.tsv", "batch": "087-n2-basis-readings.json"},
-    {"kind": "word", "source": "n4-job-offer-foundation-word.tsv", "batch": "088-n4-job-offer-foundation-word.json"},
-    {"kind": "word", "source": "n3-social-foundation-words.tsv", "batch": "089-n3-social-foundation-words.json"},
-    {"kind": "word", "source": "n2-social-and-work-words.tsv", "batch": "090-n2-social-and-work-words.json"},
-    {"kind": "word", "source": "n3-conditions-foundation-words.tsv", "batch": "091-n3-conditions-foundation-words.json"},
-    {"kind": "word", "source": "n2-condition-reading-words.tsv", "batch": "092-n2-condition-reading-words.json"},
-    {"kind": "grammar", "source": "n2-conditions-and-concessions.tsv", "batch": "093-n2-conditions-and-concessions.json"},
-    {"kind": "reading", "source": "n2-conditions-readings.tsv", "batch": "094-n2-conditions-readings.json"},
-    {"kind": "word", "source": "n3-emotion-foundation-words.tsv", "batch": "095-n3-emotion-foundation-words.json"},
-    {"kind": "word", "source": "n2-emotions-and-relationships.tsv", "batch": "096-n2-emotions-and-relationships.json"}
+    {
+      "kind": "grammar",
+      "source": "n5-structures.tsv",
+      "batch": "002-n5-structures.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n5-readings.tsv",
+      "batch": "003-n5-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-reading-words.tsv",
+      "batch": "004-n5-reading-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-core-words.tsv",
+      "batch": "005-n5-core-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-everyday-words.tsv",
+      "batch": "006-n5-everyday-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-numbers-and-reading-words.tsv",
+      "batch": "007-n5-numbers-and-reading-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-expanded-context-words.tsv",
+      "batch": "008-n5-expanded-context-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-scene-words.tsv",
+      "batch": "009-n5-scene-vocabulary.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-foundation-actions.tsv",
+      "batch": "010-n5-foundation-actions.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n4-structures.tsv",
+      "batch": "011-n4-structures.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-reading-words.tsv",
+      "batch": "012-n4-reading-vocabulary.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n4-readings.tsv",
+      "batch": "013-n4-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-core-actions.tsv",
+      "batch": "014-n4-core-actions.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-states-and-cues.tsv",
+      "batch": "015-n4-states-and-cues.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-activities-and-notices.tsv",
+      "batch": "016-n4-activities-and-notices.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n4-completion-structures.tsv",
+      "batch": "017-n4-completion-structures.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n4-completion-readings.tsv",
+      "batch": "018-n4-completion-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-completion-words.tsv",
+      "batch": "019-n4-completion-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-notices-and-scene-words.tsv",
+      "batch": "020-n4-notices-and-scene-words.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n4-public-and-scene-readings.tsv",
+      "batch": "021-n4-public-and-scene-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-public-reading-words.tsv",
+      "batch": "022-n4-public-reading-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-actions-and-states.tsv",
+      "batch": "023-n4-actions-and-states.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n4-actions-and-states-readings.tsv",
+      "batch": "024-n4-actions-and-states-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-society-and-daily-life.tsv",
+      "batch": "025-n4-society-and-daily-life.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n4-society-and-daily-life-readings.tsv",
+      "batch": "026-n4-society-and-daily-life-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-everyday-senses.tsv",
+      "batch": "027-n5-everyday-senses.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-reactions-and-decisions.tsv",
+      "batch": "028-n4-reactions-and-decisions.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-observation-and-explanation.tsv",
+      "batch": "029-n3-observation-and-explanation.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-source-role-and-viewpoint.tsv",
+      "batch": "030-n3-source-role-and-viewpoint.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-source-role-and-viewpoint-readings.tsv",
+      "batch": "031-n3-source-role-and-viewpoint-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-judgment-and-belief.tsv",
+      "batch": "032-n3-judgment-and-belief.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-reading-and-event-words.tsv",
+      "batch": "033-n3-reading-and-event-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-inference-and-negation.tsv",
+      "batch": "034-n3-inference-and-negation.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-inference-and-negation-readings.tsv",
+      "batch": "035-n3-inference-and-negation-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-relationships-and-expression.tsv",
+      "batch": "036-n3-relationships-and-expression.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-reading-and-correspondence-words.tsv",
+      "batch": "037-n3-reading-and-correspondence-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-norms-memory-and-reasons.tsv",
+      "batch": "038-n3-norms-memory-and-reasons.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-norms-memory-and-reasons-readings.tsv",
+      "batch": "039-n3-norms-memory-and-reasons-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-reading-and-sense-boundaries.tsv",
+      "batch": "040-n4-reading-and-sense-boundaries.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-temporal-and-change-words.tsv",
+      "batch": "041-n3-temporal-and-change-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-time-reading-prerequisites.tsv",
+      "batch": "042-n3-time-reading-prerequisites.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-time-intention-and-degree.tsv",
+      "batch": "043-n3-time-intention-and-degree.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-time-intention-and-degree-readings.tsv",
+      "batch": "044-n3-time-intention-and-degree-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-relations-and-causes-words.tsv",
+      "batch": "045-n3-relations-and-causes-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-relations-reading-prerequisites.tsv",
+      "batch": "046-n3-relations-reading-prerequisites.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-relations-and-causes.tsv",
+      "batch": "047-n3-relations-and-causes.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-relations-and-causes-readings.tsv",
+      "batch": "048-n3-relations-and-causes-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-condition-and-perspective-words.tsv",
+      "batch": "049-n3-condition-and-perspective-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-condition-prerequisites.tsv",
+      "batch": "050-n4-condition-prerequisites.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-condition-prerequisites.tsv",
+      "batch": "051-n3-condition-prerequisites.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-condition-and-perspective.tsv",
+      "batch": "052-n3-condition-and-perspective.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-condition-readings.tsv",
+      "batch": "053-n3-condition-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-similarity-reading-senses.tsv",
+      "batch": "054-n4-written-senses.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-similarity-sense-prerequisites.tsv",
+      "batch": "055-n4-similarity-sense-prerequisites.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-similarity-theme-words.tsv",
+      "batch": "056-n3-similarity-theme-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-similarity-prerequisite-words.tsv",
+      "batch": "057-n3-similarity-prerequisite-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-similarity-reading-prerequisite-words.tsv",
+      "batch": "058-n3-similarity-reading-prerequisite-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-similarity-and-tendencies.tsv",
+      "batch": "059-n3-similarity-and-tendencies.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-similarity-extensions.tsv",
+      "batch": "060-n3-similarity-extensions.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-tendency-and-coverage.tsv",
+      "batch": "061-n3-tendency-and-coverage.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-state-and-surface.tsv",
+      "batch": "062-n3-state-and-surface.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-completion-and-inception.tsv",
+      "batch": "063-n3-completion-and-inception.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-retrial-and-difficulty.tsv",
+      "batch": "064-n3-retrial-and-difficulty.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-boundaries-and-near-misses.tsv",
+      "batch": "065-n3-boundaries-and-near-misses.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n3-models-and-correspondence.tsv",
+      "batch": "066-n3-models-and-correspondence.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-assessment-readings.tsv",
+      "batch": "067-n3-similarity-assessment-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-choice-readings.tsv",
+      "batch": "068-n3-similarity-choice-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-evidence-readings.tsv",
+      "batch": "069-n3-similarity-evidence-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-market-readings.tsv",
+      "batch": "070-n3-similarity-market-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-readings.tsv",
+      "batch": "071-n3-similarity-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-revision-readings.tsv",
+      "batch": "072-n3-similarity-revision-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-social-readings.tsv",
+      "batch": "073-n3-similarity-social-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-story-readings.tsv",
+      "batch": "074-n3-similarity-story-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n3-similarity-work-readings.tsv",
+      "batch": "075-n3-similarity-work-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-context-foundation-words.tsv",
+      "batch": "076-n4-context-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-context-foundation-words.tsv",
+      "batch": "077-n3-context-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-information-and-documents.tsv",
+      "batch": "078-n2-information-and-documents.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-context-prerequisite-words.tsv",
+      "batch": "079-n2-context-prerequisite-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-context-reading-words.tsv",
+      "batch": "080-n2-context-reading-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n2-context-and-mediation.tsv",
+      "batch": "081-n2-context-and-mediation.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n2-context-readings.tsv",
+      "batch": "082-n2-context-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-evidence-foundation-words.tsv",
+      "batch": "083-n3-evidence-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-evidence-and-interpretation-words.tsv",
+      "batch": "084-n2-evidence-and-interpretation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n5-boarding-place-word.tsv",
+      "batch": "085-n5-boarding-place-word.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n2-basis-and-viewpoint.tsv",
+      "batch": "086-n2-basis-and-viewpoint.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n2-basis-readings.tsv",
+      "batch": "087-n2-basis-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-job-offer-foundation-word.tsv",
+      "batch": "088-n4-job-offer-foundation-word.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-social-foundation-words.tsv",
+      "batch": "089-n3-social-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-social-and-work-words.tsv",
+      "batch": "090-n2-social-and-work-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-conditions-foundation-words.tsv",
+      "batch": "091-n3-conditions-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-condition-reading-words.tsv",
+      "batch": "092-n2-condition-reading-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n2-conditions-and-concessions.tsv",
+      "batch": "093-n2-conditions-and-concessions.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n2-conditions-readings.tsv",
+      "batch": "094-n2-conditions-readings.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-emotion-foundation-words.tsv",
+      "batch": "095-n3-emotion-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-emotions-and-relationships.tsv",
+      "batch": "096-n2-emotions-and-relationships.json"
+    },
+    {
+      "kind": "word",
+      "source": "n4-change-foundation-word.tsv",
+      "batch": "097-n4-change-foundation-word.json"
+    },
+    {
+      "kind": "word",
+      "source": "n3-change-foundation-words.tsv",
+      "batch": "098-n3-change-foundation-words.json"
+    },
+    {
+      "kind": "word",
+      "source": "n2-change-prerequisite-words.tsv",
+      "batch": "099-n2-change-prerequisite-words.json"
+    },
+    {
+      "kind": "grammar",
+      "source": "n2-change-and-scope.tsv",
+      "batch": "100-n2-change-and-scope.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n2-change-readings.tsv",
+      "batch": "101-n2-change-readings.json"
+    }
   ]
 }
