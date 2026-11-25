@@ -1,7 +1,11 @@
 name: Validate and build iOS IPA
+run-name: Build IPA · ${{ github.ref_name }}
 
-# Run only when the user explicitly requests a build; pushes, PRs and tags are free.
+# A new version tag starts one build; ordinary branch pushes and PRs do not.
 on:
+  push:
+    tags:
+      - 'v[0-9]*'
   workflow_dispatch:
     inputs:
       publish_release:
@@ -20,11 +24,14 @@ concurrency:
 jobs:
   content:
     name: Validate authored course
+    if: github.event_name == 'workflow_dispatch' || github.event.created == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Check version tag before validation and packaging
+        run: python3 scripts/check_version_tag.py
       - name: Validate authored content and curriculum coverage
         run: |
           python3 scripts/compile_course.py --check

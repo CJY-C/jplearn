@@ -26,12 +26,12 @@
 - 课程资料搜索、收藏、笔记；带完整性校验的备份与幂等合并。
 - 用户授权的 iCloud Drive 文件夹交换；按事件合并，支持两机离线后汇合。
 - GitHub Actions 的内容检查、Swift 单元测试、iOS 集成测试、设备归档和 IPA 打包。
-- 仅手动触发构建；默认从 Actions artifacts 下载 IPA 到本地，明确选择发布时再生成 Release，保留旧版文件。
+- 每个新版本标签自动构建，也可手动运行；默认从 Actions artifacts 下载 IPA 到本地，明确选择发布时再生成 Release，保留旧版文件。
 
 ## 通过 GitHub 构建
 
 1. 将项目放入自己的 GitHub 仓库，保留 `.github/workflows/build.yml`。
-2. 在 **Actions → Validate and build iOS IPA** 中运行工作流；仅在明确需要构建时手动运行；push、pull request 和 tag 不触发 Actions，也不消耗构建额度。需要发布时勾选 `publish_release`。
+2. 推送与 `Version.xcconfig` 一致的 `vX.Y.Z` 新版本标签会自动构建；普通分支推送和 pull request 不触发。也可在 **Actions → Validate and build iOS IPA** 中手动运行；需要发布 Release 时勾选 `publish_release`。
 3. 工作流通过后，从该次运行的 **Artifacts → JPLearn-提交哈希** 下载并解压，取得 `JPLearn.ipa`。本机也可用 `gh run download <运行编号> -n JPLearn-<完整提交哈希> -D build/downloads/actions-<运行编号>` 下载已有产物；此命令不启动构建。只有勾选发布时才另外提供 Release。
 4. 在已经安装 TrollStore 的兼容设备上打开 IPA 并安装。应用固定 Bundle ID 为 `dev.jplearn.reader`，后续同 ID 更新可保留应用数据。
 
@@ -39,7 +39,9 @@
 
 工作流明确使用 macOS 15、Xcode 16.4 和校验过 SHA-256 的 XcodeGen 2.46.0。XcodeGen 从 `project.yml` 生成 Xcode 工程及 Info.plist，SwiftPM 从根目录 `Package.swift` 加载核心模块。FSRS 依赖固定到提交 `4fbaf20184d62f82a9f44f343337c61a2c5483e9`。
 
-应用版本和构建号统一在 `Version.xcconfig` 设置。发布新版本时修改此文件并补充 `CHANGELOG.md`，推送代码后，在 Actions 中选择对应分支并手动运行；需要发布时勾选 `publish_release`。全部测试通过后，工作流为所选提交创建 `v<版本号>` Release 并附上 IPA；重复构建同一版本不会覆盖已发布文件。未勾选发布时仅生成 Actions artifact。
+应用版本和构建号统一在 `Version.xcconfig` 设置。准备新版本时修改此文件、补充 `CHANGELOG.md` 并完成本地检查，然后推送代码及对应的 `vX.Y.Z` 新标签。自动构建在验证标签与应用版本一致后，执行内容、核心、iOS集成与SE3检查并生成IPA artifact；旧标签不移动或覆盖。需要发布Release时，另外手动选择对应标签并勾选 `publish_release`；全部测试通过后附上IPA，重复构建不会覆盖已发布文件。日常代码和课程修改不自动升版或创建标签。
+
+版本标签校验的3项本地回归与工作流actionlint检查通过，覆盖标签／应用版本不一致、缺失或重复版本声明和手动分支运行。
 
 ## 本地开发与检查
 
@@ -83,9 +85,9 @@ open JPLearn.xcodeproj
 
 当前注册源码为 4,103 个词汇根、另 37 个义项、348 知识点、6,057 道词句题、333 阅读、799 单元及 9 个入门模块。字音、统计、阅读注音开关、朗读与[重音教学](docs/PRONUNCIATION.md)包含在本分支中。重音提供 3 个入门模块、15 道标记理解题、首批 8 个有来源的词语参考型；未核对词不自动填为平板型。听辨材料、独立重音复习与词库标注继续扩充。
 
-本轮110项内容测试、95份编写源一致性、资源重建及来源和历史保留审计通过；98项Swift5.10.1 Linux可移植核心回归通过，包含8项阅读重复专项、26项规则检查、264篇日常阅读轮换及内容用尽后结束。情绪词汇批96份词典条目事实从固定版本JMdict原始分发文件重新核对，堪える的读音另与日语词典所选用法核对；此前各批记录保留。11份可移植核心生产源和最终资源与工作区一致；Linux未验证Apple CryptoKit备份模块，也不替代iOS编译。新增两项AppModel集成回归已写入、仅完成语法检查，尚未原生执行；SE3界面、设备语音、归档及双机验收仍待完成。2026-11-22按要求[手动尝试构建0.20.0](https://github.com/CJY-C/jplearn/actions/runs/44982734912)，GitHub以“账号近期付款失败或需提高支出上限”拦截，所有执行步骤均未启动。已在默认分支和开发分支关闭push／PR／tag自动触发，今后仅在明确要求构建时手动运行，不自动重试。**最新下载仍为0.19.0，尚无0.20.0 IPA。**
+本轮110项课程内容测试、95份编写源一致性、资源重建及来源和历史保留审计通过；98项Swift5.10.1 Linux可移植核心回归通过，包含8项阅读重复专项、26项规则检查、264篇日常阅读轮换及内容用尽后结束。情绪词汇批96份词典条目事实从固定版本JMdict原始分发文件重新核对，堪える的读音另与日语词典所选用法核对；此前各批记录保留。11份可移植核心生产源和最终资源与工作区一致；Linux未验证Apple CryptoKit备份模块，也不替代iOS编译。新增两项AppModel集成回归已写入、仅完成语法检查，尚未原生执行；SE3界面、设备语音、归档及双机验收仍待完成。2026-11-22按要求[手动尝试构建0.20.0](https://github.com/CJY-C/jplearn/actions/runs/44982734912)，GitHub以“账号近期付款失败或需提高支出上限”拦截，所有执行步骤均未启动。2026-11-25用户授权改为公开仓库并让每个新版本自动构建，触发方式更新为新版本标签及手动运行；普通提交与PR仍不触发。**最新下载仍为0.19.0，尚无0.20.0 IPA。**
 
-仓库目前为私有，标准GitHub托管运行器消耗账号的月度额度；公开仓库使用标准运行器的计算免费，另一个公开项目能构建不表示私有项目额度已恢复，见[GitHub计费规则](https://docs.github.com/en/actions/concepts/billing-and-usage)。从Actions artifact下载已有IPA不会重跑构建，切换下载入口也不改变私有仓库的构建计费方式。
+公开仓库使用标准GitHub托管运行器的计算免费；私有仓库消耗账号的月度额度，见[GitHub计费规则](https://docs.github.com/en/actions/concepts/billing-and-usage)。从Actions artifact下载已有IPA不会重跑构建，切换下载入口也不改变构建计算的计费方式。
 
 2026-11-09（北京时间）的 [0.19.0 工作流](https://github.com/CJY-C/jplearn/actions/runs/42505729281)通过 142 项检查：60 内容、56 核心、9 iOS 集成与 17 SE3 界面；52 份注册编写源及 CI 覆盖报告与本地一致。新增 281 词、37 句型功能、20 阅读，含 4 篇未见检测，仍未完成全部 N3–N2。下载包与发布提交 `1de9b4cfa28ee089c0c21562d83f73fbcc8ad82e` 的课程资源逐字节一致；0.19.0 / build 24、arm64 和二进制最低目标 iOS 15.5 已核验，文件 3,129,023 字节，SHA-256 为 `8d0fcfedf635c873480a9aaefd13b576920abeb83218de33dced6919400e4183`。SE3 大字号词义语境卡与长阅读第二题反馈截图复核通过；旧版系统真机及双机 iCloud 验收仍待完成。以下为此前版本记录。
 
