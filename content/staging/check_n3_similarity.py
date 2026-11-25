@@ -80,7 +80,7 @@ def base_pack():
     # Later N2 targets depend on this chapter. Exclude those downstream
     # batches while retaining the explicitly earlier N4/N3 backfills needed
     # by corrected old contexts. The N2 audit checks the complete composition.
-    for ledger_name in ["n2-context-chapter.json", "n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json", "n2-change-chapter.json"]:
+    for ledger_name in ["n2-context-chapter.json", "n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json", "n2-change-chapter.json", "n2-dialogue-bridge.json"]:
         later = ROOT / "content/source-checks" / ledger_name
         if later.exists():
             names.update(name for name in json.loads(later.read_text())["manuscripts"]

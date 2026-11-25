@@ -32,6 +32,7 @@ jobs:
         run: |
           python3 scripts/compile_course.py --check
           python3 scripts/build_content.py --check
+          python3 scripts/check_dialogue_bridge.py
           python3 scripts/check_n2_change.py
           python3 scripts/check_n2_emotions.py
           python3 scripts/check_n2_conditions.py

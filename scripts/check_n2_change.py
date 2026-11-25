@@ -297,8 +297,20 @@ def check_prior_changes(current=None):
     assert ledger["baselineCommit"] == BASELINE and ledger["baselineRuntimeSHA256"] == BASELINE_SHA256
     expected, batches, coverage, _ = _review()
     actual = current if current is not None else json.loads((ROOT / RESOURCE).read_text())
+    later = None
+    if (ROOT / "content/source-checks/n2-dialogue-bridge.json").exists():
+        from check_dialogue_bridge import check_prior_changes as check_dialogue
+        later = check_dialogue(actual)
+        checkpoint = later["baselineCommit"]
+        actual = json.loads(subprocess.check_output(["git", "show", checkpoint + ":" + RESOURCE], cwd=ROOT))
+
+    def current_data(path):
+        if later is not None:
+            return subprocess.check_output(["git", "show", checkpoint + ":" + path], cwd=ROOT)
+        return (ROOT / path).read_bytes()
+
     assert actual == expected, "Changes chapter differs from source reconstruction or old content changed"
-    assert sha((ROOT / RESOURCE).read_bytes()) == ledger["runtimeSHA256"]
+    assert sha(current_data(RESOURCE)) == ledger["runtimeSHA256"]
     assert ledger["manuscripts"] == FILES
     for name in FILES:
         assert sha(source_path(name).read_bytes()) == ledger["newSourceSHA256"][name]
@@ -308,7 +320,7 @@ def check_prior_changes(current=None):
     additions = [dict(kind=kind, source=name, batch=f"{97+i:03}-{name.removesuffix('.tsv')}.json")
         for i,(name,kind) in enumerate(zip(FILES,["word","word","word","grammar","reading"]))]
     assert ledger["manifestAdditions"] == additions
-    assert json.loads((ROOT / "content/manuscripts.json").read_text()) == dict(old_manifest, entries=old_manifest["entries"]+additions)
+    assert json.loads(current_data("content/manuscripts.json")) == dict(old_manifest, entries=old_manifest["entries"]+additions)
     for entry in additions:
         assert json.loads((ROOT / "content/batches" / entry["batch"]).read_text()) == batches[entry["source"]]
     for name in ["catalog", "syllabus"]:
@@ -321,12 +333,12 @@ def check_prior_changes(current=None):
                 key = "N2:" + pattern
                 assert key not in expected_meta["grammarCoverage"]
                 expected_meta["grammarCoverage"][key] = dict(itemIDs=ids, note=MAPPING_NOTE)
-        assert json.loads((ROOT / "content" / (name + ".json")).read_text()) == expected_meta
+        assert json.loads(current_data("content/" + name + ".json")) == expected_meta
     assert ledger["newIDs"] == {k:[r["id"] for b in batches.values() for r in b.get(k,[])] for k in COLLECTIONS}
     assert ledger["reviewedOldSentenceIDs"] == ["s" + "".join(r["key"]) for r in json.loads((STAGING / "n2-change-prior-links-review.json").read_text())["changes"]]
     return dict(baselineCommit=BASELINE, oldSourcesChecked=95, changedAssociations=22,
         explicitPhysicalBindings=5, newRoots=30, n2Roots=11, newReadings=10,
-        oldCollectionsPreservedExceptReviewedLinks=True)
+        oldCollectionsPreservedExceptReviewedLinks=True, subsequentDialogueVerified=later is not None)
 
 
 if __name__ == "__main__":
