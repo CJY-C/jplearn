@@ -64,13 +64,13 @@ final class SmallScreenTests: XCTestCase {
         start.press(forDuration: 0.1, thenDragTo: end)
     }
 
-    @MainActor private func scrollStatisticsTo(_ element: XCUIElement) {
+    @MainActor private func scrollListTo(_ element: XCUIElement) {
         let top = app.navigationBars.firstMatch.frame.maxY
         let bottom = app.tabBars.firstMatch.frame.minY
         let viewport = CGRect(x: app.frame.minX, y: top, width: app.frame.width, height: bottom - top)
         for _ in 0..<12 {
             if element.exists && element.isHittable && viewport.contains(element.frame) { return }
-            let above = element.exists && element.frame.maxY <= viewport.minY
+            let above = element.exists && element.frame.minY < viewport.minY
             let start = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: above ? 0.48 : 0.76))
             let end = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: above ? 0.76 : 0.48))
             start.press(forDuration: 0.1, thenDragTo: end)
@@ -139,16 +139,16 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["单日最高 00:00"].exists)
         screenshot("SE3-Statistics-Overview")
         let level = app.descendants(matching: .any).matching(identifier: "statistics.level.N5").firstMatch
-        scrollStatisticsTo(level)
+        scrollListTo(level)
         visible(level)
         level.tap()
         for ability in ["meaning", "reading"] {
             let row = app.descendants(matching: .any).matching(identifier: "statistics.progress.N5.\(ability)").firstMatch
-            scrollStatisticsTo(row)
+            scrollListTo(row)
             visible(row)
             XCTAssertTrue(row.label.contains("练过 0 项"))
         }
-        scrollStatisticsTo(app.segmentedControls["statistics.skill"])
+        scrollListTo(app.segmentedControls["statistics.skill"])
         visible(app.segmentedControls["statistics.skill"])
         XCTAssertTrue(app.staticTexts["statistics.emptyForecast"].waitForExistence(timeout: 5))
         screenshot("SE3-Statistics-Empty-Forecast")
@@ -525,7 +525,7 @@ final class SmallScreenTests: XCTestCase {
         launch()
         app.tabBars.buttons["课程"].tap()
         let month = app.buttons["course.rule.rulemonth"]
-        for _ in 0..<6 where !month.isHittable { app.swipeUp() }
+        scrollListTo(month)
         visible(month)
         month.tap()
         visible(app.buttons["rule.start"])

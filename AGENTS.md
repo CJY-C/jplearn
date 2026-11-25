@@ -1,7 +1,6 @@
-# 版本构建约定
+# 构建额度约定
 
-- 用户已授权将仓库公开，并让每个新版本自动构建。新版本以与 `Version.xcconfig` 一致的 `vX.Y.Z` 标签为准；只在准备新版本时创建新标签，日常代码和课程更新不创建标签、不自动构建。
-- `.github/workflows/build.yml` 保留版本标签的 `push.tags` 和 `workflow_dispatch`；不要添加普通分支 push、pull_request 或定时触发。修改或删除已有标签不重新执行版本构建，不覆盖旧版本标签。
-- 仓库公开状态确认前，不启动本次自动构建；之后新版本标签构建已获授权，无需再次询问。临时验收或重跑仍按任务授权处理。
-- 新版本标签构建全部检查通过后自动发布 Release，并保留 Actions artifacts。手动运行时，发布设 `publish_release=true`，只验收设为 false。失败后先查看日志、修复并完成本地检查，不反复盲目重跑。
+- 只有用户明确要求构建、打包或更新 IPA 时，才运行 GitHub Actions 或重跑远程构建。日常代码和课程更新不自动构建。
+- `.github/workflows/build.yml` 只保留 `workflow_dispatch`，不要添加 push、pull_request、tag 或定时触发。
+- 发布时手动选择分支并设置 `publish_release=true`；只验收时设为 false。失败后先查看日志、修复并完成本地检查，不反复盲目重跑。
 - 本地内容检查和必要的本地测试可以正常运行。发布版本及旧 IPA 不覆盖。

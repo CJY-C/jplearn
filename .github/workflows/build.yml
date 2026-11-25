@@ -1,15 +1,12 @@
 name: Validate and build iOS IPA
 run-name: Build IPA · ${{ github.ref_name }}
 
-# A new version tag starts one build; ordinary branch pushes and PRs do not.
+# Builds run only when explicitly requested; source and tag pushes do not run CI.
 on:
-  push:
-    tags:
-      - 'v[0-9]*'
   workflow_dispatch:
     inputs:
       publish_release:
-        description: 'Also publish a Release for this manual build (version tags publish automatically)'
+        description: 'Publish a Release after all checks pass (false for validation only)'
         type: boolean
         required: true
         default: false
@@ -24,7 +21,6 @@ concurrency:
 jobs:
   content:
     name: Validate authored course
-    if: github.event_name == 'workflow_dispatch' || github.event.created == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -130,7 +126,7 @@ jobs:
   release:
     name: Publish versioned IPA
     needs: ios
-    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.publish_release)
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_release
     runs-on: ubuntu-latest
     permissions:
       contents: write
