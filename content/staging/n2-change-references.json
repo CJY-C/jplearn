@@ -1,0 +1,108 @@
+{
+  "status": "Selected teaching/lexical facts checked; not effectiveness research or independent language review",
+  "checkedDate": "2026-11-25",
+  "references": [
+    {
+      "id": "bunprotomonatte",
+      "title": "Bunpro：に伴って・に伴い",
+      "url": "https://bunpro.jp/ja/grammar_points/に伴って-に伴い",
+      "checkedScope": "接续、名词修饰及相关变化；未据此断言严格比例或唯一原因"
+    },
+    {
+      "id": "bunprooujite",
+      "title": "Bunpro：に応じて",
+      "url": "https://bunpro.jp/ja/grammar_points/に応じて",
+      "checkedScope": "名词接续、条件适应、に応じた"
+    },
+    {
+      "id": "bunprohanshite",
+      "title": "Bunpro：に反して",
+      "url": "https://bunpro.jp/ja/grammar_points/に反して",
+      "checkedScope": "名词接续与预期相反；规范义由日语词典补核"
+    },
+    {
+      "id": "bunprowatatte",
+      "title": "Bunpro：にわたって",
+      "url": "https://bunpro.jp/ja/grammar_points/にわたって",
+      "checkedScope": "时间与范围跨度及名词修饰；并未复制上游例句"
+    },
+    {
+      "id": "bunprosotte",
+      "title": "Bunpro：に沿って",
+      "url": "https://bunpro.jp/ja/grammar_points/に沿って",
+      "checkedScope": "物理走向、抽象参照、名词修饰"
+    },
+    {
+      "id": "bunprokuwaete",
+      "title": "Bunpro：に加えて",
+      "url": "https://bunpro.jp/ja/grammar_points/に加えて",
+      "checkedScope": "名词追加、に加え变体、正负评价皆可"
+    },
+    {
+      "id": "bunpromegutte",
+      "title": "Bunpro：を巡って",
+      "url": "https://bunpro.jp/ja/grammar_points/を巡って",
+      "checkedScope": "议题关系、多视点倾向及名词修饰；不把争议当作每例必要条件"
+    },
+    {
+      "id": "bunprochuushin",
+      "title": "Bunpro：を中心に",
+      "url": "https://bunpro.jp/ja/grammar_points/を中心に",
+      "checkedScope": "位置、人员与内容重心及接续变体；重点不等于排他"
+    },
+    {
+      "id": "bunprotsutsu",
+      "title": "Bunpro：つつ",
+      "url": "https://bunpro.jp/ja/grammar_points/つつ",
+      "checkedScope": "动词连用形、并行与书面倾向；身体动作不禁用由原始词典补核"
+    },
+    {
+      "id": "bunprotsutsumo",
+      "title": "Bunpro：つつ（も）",
+      "url": "https://bunpro.jp/ja/grammar_points/つつ-も",
+      "checkedScope": "动词接续和逆接；も不是唯一判据，由原始词典补核"
+    },
+    {
+      "id": "bunprotsutsuaru",
+      "title": "Bunpro：つつある",
+      "url": "https://bunpro.jp/ja/grammar_points/つつある",
+      "checkedScope": "连用形、变化过程与结果状态的区别"
+    },
+    {
+      "id": "bunprohanmen",
+      "title": "Bunpro：反面",
+      "url": "https://bunpro.jp/ja/grammar_points/反面",
+      "checkedScope": "接续及对象两面；半面表记由原始词典补核"
+    },
+    {
+      "id": "daijisenhansuru",
+      "title": "小学館デジタル大辞泉：反する",
+      "url": "https://kotobank.jp/word/反する-606693",
+      "checkedScope": "第1,2,3义：预期相背、违反规则、背离命令或教导"
+    },
+    {
+      "id": "daijisentsutsu",
+      "title": "小学館デジタル大辞泉：つつ",
+      "url": "https://kotobank.jp/word/つつ-571855",
+      "checkedScope": "第1,2义：并行及逆接；身体动作可用、无も也可逆接；只核对现代用法"
+    },
+    {
+      "id": "daijisentsutsumo",
+      "title": "小学館デジタル大辞泉：つつも",
+      "url": "https://kotobank.jp/word/つつも-571995",
+      "checkedScope": "第1,2义：可强调并行，也可逆接；不是以有无も机械二分"
+    },
+    {
+      "id": "daijisenhanmen",
+      "title": "小学館デジタル大辞泉：反面",
+      "url": "https://kotobank.jp/word/反面-607366",
+      "checkedScope": "第2义：另一面，不引用上游例句"
+    },
+    {
+      "id": "daijisenhanmenalt",
+      "title": "小学館デジタル大辞泉：半面",
+      "url": "https://kotobank.jp/word/半面-607367",
+      "checkedScope": "第3义：事物的一面，与数量一半的义项分开"
+    }
+  ]
+}

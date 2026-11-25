@@ -1,0 +1,733 @@
+{
+  "status": "UNREGISTERED DRAFT; not included in app or completed course counts",
+  "checkedDate": "2026-11-25",
+  "baselineCommit": "4d31f5bd0be392b108fc40a630104af9d071e87b",
+  "baselineResourceSHA256": "c2910b91048f8579e0defb91b2f82a1123d560fb720f36068daef20fd02df5c8",
+  "sourceSHA256": {
+    "n3-change-foundation-words.tsv": "627415c1bdf3122bdc7d9c0c96be20565ae2e19e481e8ff85aad94a72e387df8",
+    "n2-change-prerequisite-words.tsv": "cbe757763c20b8bea3982f049194f3c5895acf62b88e5705b7332234dc340a5a",
+    "n2-change-and-scope.tsv": "c83fcc589b21b52376629382e11c148fa3f570372e853bbbc2ffb4f951cbd91f",
+    "n2-change-references.json": "81478b022800febea7ed7764875fc498694f89fb61a5f601f8be6287263d61a5"
+  },
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "dictionary": {
+    "primaryURL": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+    "distributionDate": "2026-11-16",
+    "gzipSHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+    "scope": "Spelling, selected reading/POS/sense restrictions re-extracted locally from pinned official primary distribution. Chinese and both example contexts authored here. No upstream examples or full gloss lists bundled."
+  },
+  "communityReferenceCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "wordEntries": [
+    {
+      "itemID": "vn3u001",
+      "text": "会費",
+      "level": "N3",
+      "primaryReading": "かいひ",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "会费；为加入或参加团体活动而缴纳的费用",
+      "entryID": 1198860,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "会費"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かいひ",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u002",
+      "text": "保護者",
+      "level": "N3",
+      "primaryReading": "ほごしゃ",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "监护人；对孩子等负有保护、照顾责任的人（本组）",
+      "entryID": 1513630,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "保護者"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ほごしゃ",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u003",
+      "text": "空き地",
+      "level": "N3",
+      "primaryReading": "あきち",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "空地；没有建筑物等占用的地块（本组）",
+      "entryID": 1245340,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "空き地",
+        "空地",
+        "明き地",
+        "あき地"
+      ],
+      "readingFacts": [
+        {
+          "reading": "あきち",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u005",
+      "text": "若者",
+      "level": "N3",
+      "primaryReading": "わかもの",
+      "acceptedAlternativeReadings": [
+        "わかもん"
+      ],
+      "authoredMeaning": "年轻人；处于年轻年龄阶段的人",
+      "entryID": 1324350,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "若者"
+      ],
+      "readingFacts": [
+        {
+          "reading": "わかもの",
+          "restrictions": [],
+          "information": []
+        },
+        {
+          "reading": "わかもん",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u006",
+      "text": "使用",
+      "level": "N3",
+      "primaryReading": "しよう",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "使用、运用；为某种目的利用物品或方法",
+      "entryID": 1306200,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "使用"
+      ],
+      "readingFacts": [
+        {
+          "reading": "しよう",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ]
+    },
+    {
+      "itemID": "vn3u007",
+      "text": "動画",
+      "level": "N3",
+      "primaryReading": "どうが",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "视频、影像片段；可连续播放的影像（本组）",
+      "entryID": 1451290,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "動画"
+      ],
+      "readingFacts": [
+        {
+          "reading": "どうが",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u008",
+      "text": "前半",
+      "level": "N3",
+      "primaryReading": "ぜんはん",
+      "acceptedAlternativeReadings": [
+        "ぜんぱん"
+      ],
+      "authoredMeaning": "前半、前半部分；整体分为前后两部分时靠前的一部分",
+      "entryID": 1581140,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "前半"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ぜんはん",
+          "restrictions": [],
+          "information": []
+        },
+        {
+          "reading": "ぜんぱん",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn3u009",
+      "text": "全国",
+      "level": "N3",
+      "primaryReading": "ぜんこく",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "全国、整个国家的范围",
+      "entryID": 1581180,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "全国"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ぜんこく",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ]
+    },
+    {
+      "itemID": "vn2h001",
+      "text": "伴う",
+      "level": "N2",
+      "primaryReading": "ともなう",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "伴随、相伴；随某事出现或带着某人一同行动",
+      "entryID": 1478370,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "伴う",
+        "伴なう"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ともなう",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "pos": [
+            "Godan verb with 'u' ending",
+            "transitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h002",
+      "text": "沿う",
+      "level": "N2",
+      "primaryReading": "そう",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "沿着、依照；贴着路线或参照方向行动",
+      "entryID": 1176700,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "spellings": [
+        "沿う"
+      ],
+      "readingFacts": [
+        {
+          "reading": "そう",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "pos": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 3,
+          "pos": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h003",
+      "text": "反する",
+      "level": "N2",
+      "primaryReading": "はんする",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "相反、违背；与预期、规范或应遵循的要求不一致",
+      "entryID": 1480080,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "spellings": [
+        "反する",
+        "叛する"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はんする",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "suru verb - special class",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "pos": [
+            "suru verb - special class",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 3,
+          "pos": [
+            "suru verb - special class",
+            "intransitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h004",
+      "text": "事業",
+      "level": "N2",
+      "primaryReading": "じぎょう",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "事业、业务、项目；持续开展并有一定目的的经营或社会活动",
+      "entryID": 1313670,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "事業"
+      ],
+      "readingFacts": [
+        {
+          "reading": "じぎょう",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        },
+        {
+          "ordinal": 2,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h005",
+      "text": "当事者",
+      "level": "N2",
+      "primaryReading": "とうじしゃ",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "当事人；与事件、问题或事务有直接关系的人",
+      "entryID": 1449080,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "当事者"
+      ],
+      "readingFacts": [
+        {
+          "reading": "とうじしゃ",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn2h006",
+      "text": "通常",
+      "level": "N2",
+      "primaryReading": "つうじょう",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "通常、平常；一般情况下的状态或做法",
+      "entryID": 1433280,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "通常"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つうじょう",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "nouns which may take the genitive case particle 'no'",
+            "noun (common) (futsuumeishi)",
+            "adverb (fukushi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h007",
+      "text": "在宅",
+      "level": "N2",
+      "primaryReading": "ざいたく",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "在家；身处住宅内的状态",
+      "entryID": 1296540,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "在宅"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ざいたく",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    },
+    {
+      "itemID": "vn2h008",
+      "text": "体力",
+      "level": "N2",
+      "primaryReading": "たいりょく",
+      "acceptedAlternativeReadings": [],
+      "authoredMeaning": "体力；身体活动所需的力量和耐力（本组）",
+      "entryID": 1409760,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "体力"
+      ],
+      "readingFacts": [
+        {
+          "reading": "たいりょく",
+          "restrictions": [],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ]
+    },
+    {
+      "itemID": "vn2h009",
+      "text": "書き留める",
+      "level": "N2",
+      "primaryReading": "かきとめる",
+      "acceptedAlternativeReadings": [
+        "かきとどめる"
+      ],
+      "authoredMeaning": "记下、笔录；把信息写下来以供保存或回看",
+      "entryID": 1343940,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "書き留める",
+        "書きとめる",
+        "書留める",
+        "書き止める"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かきとめる",
+          "restrictions": [],
+          "information": []
+        },
+        {
+          "reading": "かきとどめる",
+          "restrictions": [
+            "書き留める"
+          ],
+          "information": []
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "pos": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "readingRestrictions": [],
+          "spellingRestrictions": []
+        }
+      ],
+      "communityLevels": []
+    }
+  ],
+  "expectedCounts": {
+    "newRoots": 17,
+    "n3FoundationRoots": 8,
+    "n2Roots": 9,
+    "wordContexts": 34,
+    "grammarFunctions": 12,
+    "grammarContexts": 72,
+    "referencePatterns": 11,
+    "readings": 0
+  },
+  "reuseNotes": [
+    "砂浜 draft removed after duplicate gate found existing vn4572; reuse its actual target, do not count a new root.",
+    "皆／他 contexts reuse existingみんな／ほか instead of creating redundant spelling targets.",
+    "病気の時 is the already taught temporal structure gn411, declared prerequisite; no new noun card.",
+    "使用する、含まれる、名词修饰形式、Vstem＋方 and the selected event nominal stems reuse taught productive forms; no new roots for inflections.",
+    "Physical receive vn6157, meeting-hold vn4o002, occasion vn3m017, summarize vn4r001, city vn5958 selected explicitly; no homograph-by-array-order inference.",
+    "温まりつつあった links existing warm-up verb vn4812, not 温かい adjective."
+  ],
+  "linguisticScopeNotes": [
+    "The modern dictionary explicitly permits physical-action simultaneousつつ; Bunpro preference is not treated as an absolute prohibition.",
+    "Bothつつandつつも can be interpreted by their clause relationship; no rule thatもalone uniquely marks contrast.",
+    "Time and areaにわたって share a scope function; no inference of every instant or every position being occupied.",
+    "に伴って grammatical variants, に反して expectations/norms, に沿って physical/abstract and反面／半面 stay grouped for transfer.",
+    "Related lexical senses are grouped where appropriate rather than mechanically creating one card per dictionary sense number; prerequisites do not claim automatic mastery."
+  ],
+  "researchLimitations": [
+    "These are selected primary teaching/lexical facts, not new empirical learning-effectiveness evidence.",
+    "NINJAL2024 Ding paper selected sections do not supportをめぐって; it is not cited as such.",
+    "Ocha2009 and NINJAL025/015 PDF fetches failed or rate-limited; unread full texts are not cited as checked.",
+    "Naturalness, distractor quality, ordinary reading witnesses, heldout assessment isolation, historical-link review and registration remain pending.",
+    "No new IPA, independent Japanese review, completed N2 chapter or changed runtime curriculum is claimed."
+  ]
+}
