@@ -74,6 +74,39 @@ public enum SessionTask: Identifiable, Codable {
     }
 }
 
+// Passage repetition is separate from word/grammar FSRS. A correct answer to a
+// familiar passage does not demonstrate transfer to a new text or its words.
+private struct ReadingReviewState {
+    var lastAttempt: Date
+    var nextDue: Date
+    var spacedSuccesses: Int
+
+    static func history(_ events: [LearningEvent], now: Date) -> [String: ReadingReviewState] {
+        // A bounded product policy, not an estimated forgetting curve.
+        let intervals = [1, 3, 7, 14, 30].map { TimeInterval($0) * 86_400 }
+        let attempts = events.filter { $0.kind == .readingAttempt && $0.timestamp <= now }
+            .sorted(by: LearningEvent.ordered)
+        var result: [String: ReadingReviewState] = [:]
+        for event in attempts {
+            let previous = result[event.targetID]
+            var state = previous ?? ReadingReviewState(lastAttempt: event.timestamp,
+                nextDue: event.timestamp, spacedSuccesses: 0)
+            state.lastAttempt = event.timestamp
+            if event.value != "correct" || event.assisted {
+                state.spacedSuccesses = 0
+                state.nextDue = event.timestamp.addingTimeInterval(intervals[0])
+            } else if previous == nil || event.timestamp >= state.nextDue {
+                state.spacedSuccesses = min(intervals.count, state.spacedSuccesses + 1)
+                state.nextDue = event.timestamp.addingTimeInterval(intervals[state.spacedSuccesses - 1])
+            }
+            // Early manual repetitions neither count as spaced successes nor
+            // postpone the next independent check. The daily cooldown still applies.
+            result[event.targetID] = state
+        }
+        return result
+    }
+}
+
 public enum SessionPlanner {
     public static func make(pack: ContentPack, events: [LearningEvent], minutes: Int,
                             now: Date = Date(), calendar: Calendar = .current,
@@ -155,15 +188,12 @@ public enum SessionPlanner {
         }
         // Never fall back to the first passage to fill a time goal.
         // Suitable unseen readings come first; spaced rereading is allowed on a later day.
-        let lastAttempts = events.reduce(into: [String: Date]()) { result, event in
-            guard event.kind == .readingAttempt else { return }
-            result[event.targetID] = result[event.targetID].map { max($0, event.timestamp) } ?? event.timestamp
-        }
+        let readingHistory = ReadingReviewState.history(events, now: now)
         let candidates = pack.readings.filter {
-            readingAvailable($0, pack: pack, knowledge: knowledge, lastAttempt: lastAttempts[$0.id],
+            readingAvailable($0, pack: pack, knowledge: knowledge, history: readingHistory[$0.id],
                              now: now, calendar: calendar, includeAssessments: false)
         }.sorted { a, b in
-            let aLast = lastAttempts[a.id], bLast = lastAttempts[b.id]
+            let aLast = readingHistory[a.id]?.lastAttempt, bLast = readingHistory[b.id]?.lastAttempt
             if aLast != bLast { return (aLast ?? .distantPast) < (bLast ?? .distantPast) }
             let aLength = a.vocabulary?.count ?? Int.max, bLength = b.vocabulary?.count ?? Int.max
             return aLength == bLength ? a.id < b.id : aLength < bLength
@@ -180,20 +210,21 @@ public enum SessionPlanner {
                                         events: [LearningEvent], now: Date = Date(),
                                         calendar: Calendar = .current, knowledge: ReadingKnowledge? = nil,
                                         includeAssessments: Bool = false) -> Bool {
-        let lastAttempt = events.lazy.filter { $0.kind == .readingAttempt && $0.targetID == reading.id }
-            .map(\.timestamp).max()
+        let history = ReadingReviewState.history(events.filter { $0.targetID == reading.id }, now: now)[reading.id]
         return readingAvailable(reading, pack: pack, knowledge: knowledge ?? ReadingKnowledge(pack: pack, events: events, now: now),
-                                lastAttempt: lastAttempt, now: now, calendar: calendar,
+                                history: history, now: now, calendar: calendar,
                                 includeAssessments: includeAssessments)
     }
 
     private static func readingAvailable(_ reading: ReadingPassage, pack: ContentPack,
-                                         knowledge: ReadingKnowledge, lastAttempt: Date?,
+                                         knowledge: ReadingKnowledge, history: ReadingReviewState?,
                                          now: Date, calendar: Calendar, includeAssessments: Bool) -> Bool {
         guard includeAssessments || reading.purpose != "assessment" else { return false }
-        if let last = lastAttempt,
-           calendar.isDate(last, inSameDayAs: now) || now.timeIntervalSince(last) < 86_400 {
-            return false
+        if let history = history {
+            if calendar.isDate(history.lastAttempt, inSameDayAs: now) ||
+                now.timeIntervalSince(history.lastAttempt) < 86_400 || history.nextDue > now {
+                return false
+            }
         }
         return ReadingReadiness.assess(reading, pack: pack, knowledge: knowledge).isEligible
     }
@@ -250,8 +281,12 @@ public struct SessionCheckpoint: Codable {
         while let entry = current, recordedIDs.contains(entry.id) { index += 1 }
     }
     public mutating func removeUnavailableReadings(pack: ContentPack, events: [LearningEvent], now: Date = Date()) {
+        var seenReadings = Set(entries.prefix(index).compactMap { entry -> String? in
+            if case .reading(let id) = entry.task { return id }; return nil
+        })
         entries = Array(entries.prefix(index)) + entries.dropFirst(index).filter { entry in
             guard case .reading(let id) = entry.task else { return true }
+            guard seenReadings.insert(id).inserted else { return false }
             guard let reading = pack.readings.first(where: { $0.id == id }) else { return false }
             if reading.purpose == "assessment" {
                 return !events.contains { $0.kind == .readingAttempt && $0.targetID == id }

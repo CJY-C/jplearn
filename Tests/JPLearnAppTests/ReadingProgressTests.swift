@@ -79,4 +79,53 @@ final class ReadingProgressTests: XCTestCase {
         XCTAssertEqual(model.events[0].kind, .placement)
         XCTAssertTrue(try ReviewScheduler().dueKeys(events: model.events, pack: model.pack).isEmpty)
     }
+
+    @MainActor func testMorningPassageDoesNotRepeatAfterEndingOnAnswerFeedback() throws {
+        let folder = try directory(), pack = try ContentPack.bundled()
+        let reading = try XCTUnwrap(pack.readings.first { $0.id == "r009" })
+        let device = UUID()
+        let known = Set((reading.vocabulary ?? []).compactMap(\.itemID)).map {
+            LearningEvent(deviceID: device, kind: .review, targetID: $0, skill: .meaning, rating: 3)
+        } + (reading.grammarIDs ?? []).map {
+            LearningEvent(deviceID: device, kind: .review, targetID: $0, skill: .grammar, rating: 3)
+        }
+        let store = try EventStore(directory: folder)
+        _ = try store.append(known, existing: [])
+        let queued = SessionCheckpoint(tasks: [.reading(reading.id), .reading(reading.id), .exercise("e001a")])
+        try ExchangeCoding.encoder().encode(queued).write(to: folder.appendingPathComponent("session.json"), options: .atomic)
+        let model = try AppModel(storageDirectory: folder)
+        XCTAssertEqual(model.checkpoint?.entries.filter { $0.task.id == "reading:r009" }.count, 1)
+        let entry = try XCTUnwrap(model.checkpoint?.current?.id), q = reading.allQuestions[0]
+        _ = try model.plannedTasks(minutes: 20, newWordLimit: 0)
+        try model.recordReadingSelection(entryID: entry, questionID: q.id, selection: q.answerIndex, assisted: false)
+        XCTAssertEqual(model.events.filter { $0.kind == .readingAttempt && $0.targetID == reading.id }.count, 1)
+        // Deliberately end on feedback without pressing Continue.
+        try model.finishSession()
+        let reopened = try AppModel(storageDirectory: folder)
+        XCTAssertFalse(try reopened.plannedTasks(minutes: 20).contains { $0.id == "reading:r009" })
+        XCTAssertEqual(reopened.events.filter { $0.kind == .readingAttempt && $0.targetID == reading.id }.count, 1)
+    }
+
+    @MainActor func testEndingLegacySessionFinalizesItsAlreadySavedLastAnswer() throws {
+        let folder = try directory(), pack = try ContentPack.bundled()
+        let reading = try XCTUnwrap(pack.readings.first { $0.id == "r009" }), device = UUID()
+        let queued = SessionCheckpoint(tasks: [.reading(reading.id), .exercise("e001a")])
+        let entry = try XCTUnwrap(queued.current?.id), question = reading.allQuestions[0]
+        let known = Set((reading.vocabulary ?? []).compactMap(\.itemID)).map {
+            LearningEvent(deviceID: device, kind: .review, targetID: $0, skill: .meaning, rating: 3)
+        } + (reading.grammarIDs ?? []).map {
+            LearningEvent(deviceID: device, kind: .review, targetID: $0, skill: .grammar, rating: 3)
+        }
+        let legacyAnswer = LearningEvent(deviceID: device, kind: .questionAttempt, targetID: question.id,
+            value: String(question.answerIndex), contextID: entry.uuidString, correct: true)
+        let store = try EventStore(directory: folder)
+        _ = try store.append(known + [legacyAnswer], existing: [])
+        try ExchangeCoding.encoder().encode(queued).write(to: folder.appendingPathComponent("session.json"), options: .atomic)
+        let model = try AppModel(storageDirectory: folder)
+        try model.finishSession()
+        let completed = try XCTUnwrap(model.events.first { $0.id == entry })
+        XCTAssertEqual(completed.kind, .readingAttempt)
+        XCTAssertEqual(completed.value, "correct")
+        XCTAssertFalse(try model.plannedTasks(minutes: 20).contains { $0.id == "reading:r009" })
+    }
 }

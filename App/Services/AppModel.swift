@@ -269,12 +269,11 @@ import LearningCore
               reading.allQuestions.indices.contains(checkpoint.questionIndex ?? 0) else { return }
         let question = reading.allQuestions[checkpoint.questionIndex ?? 0]
         guard question.id == questionID, question.choices.indices.contains(selection) else { return }
-        guard !events.contains(where: { $0.kind == .questionAttempt && $0.contextID == entryID.uuidString && $0.targetID == questionID }) else { return }
         try studyClock.flush()
         let help = assisted || checkpoint.assistedEntryIDs.contains(entryID)
-        try append([LearningEvent(deviceID: deviceID, kind: .questionAttempt, targetID: questionID,
-            assisted: help, value: String(selection), contextID: entryID.uuidString,
-            correct: selection == question.answerIndex && !help)])
+        let records = ReadingAttemptJournal.answer(reading: reading, entryID: entryID, deviceID: deviceID,
+            questionID: questionID, selection: selection, assisted: help, events: events)
+        if !records.isEmpty { try append(records) }
     }
 
     func advanceReadingQuestion(entryID: UUID, questionID: String) throws {
@@ -288,6 +287,7 @@ import LearningCore
         } else {
             try completeReading(entry: entry, reading: reading)
             current.index += 1; current.questionIndex = nil
+            current.removeUnavailableReadings(pack: pack, events: events)
         }
         try saveCheckpoint(current)
         if current.current == nil { try studyClock.setVisible(false) }
@@ -295,12 +295,9 @@ import LearningCore
 
     private func completeReading(entry: SessionEntry, reading: ReadingPassage) throws {
         guard !events.contains(where: { $0.id == entry.id }) else { return }
-        let attempts = events.filter { $0.kind == .questionAttempt && $0.contextID == entry.id.uuidString }
-        let correct = reading.allQuestions.allSatisfy { question in
-            attempts.contains { $0.targetID == question.id && $0.correct == true && !$0.assisted }
-        }
-        try append([LearningEvent(id: entry.id, deviceID: deviceID, kind: .readingAttempt,
-            targetID: reading.id, assisted: attempts.contains { $0.assisted }, value: correct ? "correct" : "incorrect")])
+        guard let completion = ReadingAttemptJournal.completion(reading: reading, entryID: entry.id,
+            deviceID: deviceID, events: events) else { throw LearningError.invalid("请先完成这篇阅读的问题。") }
+        try append([completion])
     }
 
     func startRule(_ rule: LearningRule, mode: RuleStudyMode? = nil) throws {
@@ -384,6 +381,13 @@ import LearningCore
         try studyClock.setVisible(false)
         guard var current = checkpoint else { return }
         current.recover(recordedIDs: Set(events.map(\.id)))
+        if let entry = current.current, case .reading(let id) = entry.task,
+           let reading = pack.readings.first(where: { $0.id == id }),
+           let completion = ReadingAttemptJournal.completion(reading: reading, entryID: entry.id,
+                deviceID: deviceID, events: events) {
+            try append([completion])
+            current.recover(recordedIDs: Set(events.map(\.id)))
+        }
         if current.current == nil, let lessonID = current.lessonID,
            !events.contains(where: { $0.id == current.id }) {
             try append([LearningEvent(id: current.id, deviceID: deviceID, kind: .lessonCompleted, targetID: lessonID)])
