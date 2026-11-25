@@ -130,9 +130,9 @@
     "reason": "Teach the existing N5 context word as an earlier foundation; Japanese, Chinese and answers unchanged"
   },
   "reviewSHA256": {
-    "/home/masa/Projects/iosapp/jplearn/content/staging/n2-basis-additional-references.json": "49ec8f934e290032ef1722bfc5bca8be3939d7b8db3b7b21305d17c871cfcafb",
-    "/home/masa/Projects/iosapp/jplearn/content/staging/n2-basis-review.json": "70857c84e844d88e43c0a7648d58d20ddf849d5cc797cf0029d59a321d1ffa0b",
-    "/home/masa/Projects/iosapp/jplearn/content/staging/n5-boarding-place-word-review.json": "7c3a31925fa0751e5beccdb1e0e133b8928efa562e5b27ae83f62bbaae0639c9"
+    "content/staging/n2-basis-additional-references.json": "49ec8f934e290032ef1722bfc5bca8be3939d7b8db3b7b21305d17c871cfcafb",
+    "content/staging/n2-basis-review.json": "70857c84e844d88e43c0a7648d58d20ddf849d5cc797cf0029d59a321d1ffa0b",
+    "content/staging/n5-boarding-place-word-review.json": "7c3a31925fa0751e5beccdb1e0e133b8928efa562e5b27ae83f62bbaae0639c9"
   },
   "newIDs": {
     "items": [
