@@ -102,7 +102,7 @@ class SimilarityChapterTests(unittest.TestCase):
         n3, n2 = result["stages"][2:]
         self.assertTrue(n3["complete"])
         self.assertEqual(n3["grammarPatterns"]["covered"], 101)
-        self.assertEqual(n3["actual"]["words"], 1668)
+        self.assertEqual(n3["actual"]["words"], 1686)
         self.assertEqual(n2["required"]["words"], 2500)
         self.assertFalse(n2["complete"])
         self.assertFalse(result["complete"])

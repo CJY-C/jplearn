@@ -1,0 +1,226 @@
+{
+  "items": [
+    {
+      "id": "vn4t001",
+      "kind": "word",
+      "level": "N4",
+      "text": "寄せる",
+      "reading": "よせる",
+      "romaji": "yoseru",
+      "meaning": "移近、集中到一处，或把意见信息送向接收方（本组）",
+      "explanation": "本单元义项：移近、集中到一处，或把意见信息送向接收方（本组）。通过两个不同语境辨认；其他义项须结合上下文。\n椅子を壁に寄せる是把物品移近，意見を学校に寄せる是把信息送向接收方。两种对象在同组比较，不等于相同结果，也不保证对方采纳；寄托感情等其他用法需另看语境。",
+      "sourceIDs": [
+        "projectopen",
+        "jmdict"
+      ],
+      "status": "trial",
+      "partOfSpeech": "一段动词",
+      "sense": "移近、集中到一处，或把意见信息送向接收方（本组）",
+      "register": "一般",
+      "tags": [
+        "reading-foundation"
+      ],
+      "prerequisiteIDs": [],
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4t001；未独立语言审校",
+          "status": "original"
+        },
+        {
+          "sourceID": "jmdict",
+          "locator": "JMdict entry 1219560；2026-11-16 官方JMdict 第2,3义；移近物品与寄送信息按移向接收处的共同概念比较，不重复造词根。",
+          "status": "sourceChecked"
+        }
+      ],
+      "exampleSentenceIDs": [
+        "svn4t001a",
+        "svn4t001b"
+      ],
+      "order": 2000,
+      "jmdictEntryID": 1219560
+    }
+  ],
+  "sentences": [
+    {
+      "id": "svn4t001a",
+      "segments": [
+        {
+          "text": "掃除",
+          "reading": "そうじ",
+          "itemID": "vn5240"
+        },
+        {
+          "text": "をするために、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "椅子",
+          "reading": "いす",
+          "itemID": "v0053"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "壁",
+          "reading": "かべ",
+          "itemID": "vn5902"
+        },
+        {
+          "text": "の",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "近",
+          "reading": "ちか",
+          "itemID": "v0151"
+        },
+        {
+          "text": "くに",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "寄",
+          "reading": "よ",
+          "itemID": "vn4t001"
+        },
+        {
+          "text": "せました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "为了打扫，我把椅子移到墙附近。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    },
+    {
+      "id": "svn4t001b",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "あたら",
+          "itemID": "v0037"
+        },
+        {
+          "text": "しい",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "予定",
+          "reading": "よてい",
+          "itemID": "v0111"
+        },
+        {
+          "text": "について、",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "学校",
+          "reading": "がっこう",
+          "itemID": "v0009"
+        },
+        {
+          "text": "に",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "意見",
+          "reading": "いけん",
+          "itemID": "vn4051"
+        },
+        {
+          "text": "を",
+          "reading": null,
+          "itemID": null
+        },
+        {
+          "text": "寄",
+          "reading": "よ",
+          "itemID": "vn4t001"
+        },
+        {
+          "text": "せました。",
+          "reading": null,
+          "itemID": null
+        }
+      ],
+      "translation": "关于新安排，我向学校提出了意见。",
+      "explanation": "注意本词在这个具体场景中的意思及搭配。",
+      "speechText": null,
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "evn4t001a",
+      "targetID": "vn4t001",
+      "sentenceID": "svn4t001b",
+      "skill": "meaning",
+      "prompt": "句中「寄せる」表示什么？",
+      "choices": [
+        "只说明双方已经同意同一个结论",
+        "移近、集中到一处，或把意见信息送向接收方（本组）",
+        "让物品或信息完全离开所有接收方"
+      ],
+      "answerIndex": 1,
+      "explanation": "本句中对应的义项是「移近、集中到一处，或把意见信息送向接收方（本组）」；结合句子所描述的人物、对象或动作理解。",
+      "hint": "よせる",
+      "transfer": true,
+      "ability": "contextMeaning",
+      "evidence": "寄せる",
+      "citations": [
+        {
+          "sourceID": "projectopen",
+          "locator": "原创词义整理与语境 vn4t001；未独立语言审校",
+          "status": "original"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lvn4change01",
+      "title": "寄せる：把物体或信息移向一处",
+      "subtitle": "读音、词义和两个实际语境",
+      "level": "N4",
+      "itemIDs": [
+        "vn4t001"
+      ],
+      "sentenceIDs": [
+        "svn4t001a",
+        "svn4t001b"
+      ],
+      "exerciseIDs": [
+        "evn4t001a"
+      ],
+      "readingID": null,
+      "prerequisiteIDs": [],
+      "objectives": [
+        "辨认本组词在句段中的读音与具体含义。"
+      ]
+    }
+  ]
+}

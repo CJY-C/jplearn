@@ -215,6 +215,18 @@ def check_prior_changes(current=None):
     assert (ledger["baselineCommit"], ledger["baselineRuntimeSHA256"]) == (BASELINE, BASELINE_SHA256)
     expected, batches = source_batches()
     after = current if current is not None else json.loads((ROOT / RESOURCE).read_text())
+    later = None
+    if (ROOT / "content/source-checks/n2-change-chapter.json").exists():
+        from check_n2_change import check_prior_changes as check_changes
+        later = check_changes(after)
+        checkpoint = later["baselineCommit"]
+        after = json.loads(subprocess.check_output(["git", "show", checkpoint + ":" + RESOURCE], cwd=ROOT))
+
+    def current_data(path):
+        if later is not None:
+            return subprocess.check_output(["git", "show", checkpoint + ":" + path], cwd=ROOT)
+        return (ROOT / path).read_bytes()
+
     assert after == expected, "Emotions differs from reconstruction or unreviewed historical data changed"
     assert ledger["manuscripts"] == FILES
     for n in FILES:
@@ -223,18 +235,19 @@ def check_prior_changes(current=None):
     old_manifest = json.loads(previous("content/manuscripts.json"))
     additions = [dict(kind="word", source=n, batch=f"{95+i:03}-{n.removesuffix('.tsv')}.json") for i, n in enumerate(FILES)]
     assert ledger["manifestAdditions"] == additions
-    assert json.loads((ROOT / "content/manuscripts.json").read_text()) == dict(old_manifest, entries=old_manifest["entries"] + additions)
+    assert json.loads(current_data("content/manuscripts.json")) == dict(old_manifest, entries=old_manifest["entries"] + additions)
     for e in additions: assert json.loads((ROOT / "content/batches" / e["batch"]).read_text()) == batches[e["source"]]
     for e in old_manifest["entries"]:
         n = e["source"]
         assert sha(previous("content/authoring/" + n)) == ledger["oldSourceInputSHA256"][n]
-        assert (ROOT / "content/authoring" / n).read_bytes() == expected_old_source(n), (n, "Unreviewed earlier source change")
-    for p in ["content/catalog.json", "content/syllabus.json"]: assert (ROOT / p).read_bytes() == previous(p)
+        assert current_data("content/authoring/" + n) == expected_old_source(n), (n, "Unreviewed earlier source change")
+    for p in ["content/catalog.json", "content/syllabus.json"]: assert current_data(p) == previous(p)
     assert ledger["newIDs"] == {k: [r["id"] for b in batches.values() for r in b.get(k, [])] for k in COLLECTIONS}
     assert ledger["reviewedOldSentenceIDs"] == ["s" + target + key for _, target, key, *_ in OLD_LINKS]
     return dict(baselineCommit=BASELINE, oldSourcesChecked=len(old_manifest["entries"]),
                 oldCollectionsPreservedExceptReviewedLinks=True, changedSentences=6,
-                changedAssociations=6, newRoots=96, n2Roots=93)
+                changedAssociations=6, newRoots=96, n2Roots=93,
+                subsequentChangesVerified=later is not None)
 
 
 if __name__ == "__main__":
