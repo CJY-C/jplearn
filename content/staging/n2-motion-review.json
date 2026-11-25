@@ -1,0 +1,6696 @@
+{
+  "status": "Unregistered original trial; selected source facts checked, independent Japanese review pending",
+  "registered": false,
+  "baselineCommit": "3db1dba63cb2f0d3b5fa5eb11c9b4ec318b9a702",
+  "baselineResourceSHA256": "d19e1c7025a6d9bd5384b1220369e6c419b64261dcd4d00ca014c0087ce3f6f5",
+  "dictionaryDate": "2026-11-16",
+  "dictionarySHA256": "96baa24218c052fef29de6d0f6fdb1aa35070ca5215f71580b62e8d03b671d36",
+  "communityCommit": "0d1d3410bec90bd4098a7c72de820543cb4f707c",
+  "communityScope": "Community labels retained as evidence, not official JLPT lists. 唸る/ボート/吐く placed at N3; earlier actual uses may require still earlier backfills. N1/unlisted words are included for broad original-text reading, without claiming official N2 word-list status.",
+  "manuscripts": [
+    "n5-winding-foundation-word.tsv",
+    "n4-motion-foundation-words.tsv",
+    "n3-motion-foundation-words.tsv",
+    "n2-motion-and-sensation.tsv"
+  ],
+  "sourceSHA256": {
+    "n5-winding-foundation-word.tsv": "ab991fa746b936f46678d6903e0c5e215930f00f52b2d54848a619fc924c3230",
+    "n4-motion-foundation-words.tsv": "2cc7deab11110214cbea14240d4df07a504e04dafc2924730610cf7f4875bfc5",
+    "n3-motion-foundation-words.tsv": "b691d4c2b5087245893aaf4cb76a2d922933f76b76bbaff515d74f5c6c750515",
+    "n2-motion-and-sensation.tsv": "6e0e931f751190e81abf1acfe518b7fc499aa50f53ab58ec140292b02155590f"
+  },
+  "wordRoots": 129,
+  "n2Roots": 114,
+  "n3FoundationRoots": 8,
+  "n4FoundationRoots": 5,
+  "n5FoundationRoots": 2,
+  "contexts": 258,
+  "wordEntries": [
+    {
+      "itemID": "vn5u001",
+      "text": "巻く",
+      "primaryReading": "まく",
+      "acceptedAlternativeReadings": [],
+      "level": "N5",
+      "authoredMeaning": "卷起、缠绕；使物体沿某处绕成层或圈",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1211200,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "巻く",
+        "捲く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "まく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n5-scene-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn5965",
+            "b"
+          ],
+          "surface": "巻",
+          "reading": "ま",
+          "lemma": "巻く",
+          "old": null,
+          "level": "N5",
+          "markup": "[寒|さむ|寒い]いので[首|くび]に[マフラー|まふらー]を[巻|ま|巻く]きました。"
+        },
+        {
+          "source": "n3-condition-and-perspective-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3j166",
+            "b"
+          ],
+          "surface": "巻",
+          "reading": "ま",
+          "lemma": "巻く",
+          "old": null,
+          "level": "N3",
+          "markup": "[本|ほん]に[巻|ま|巻く]かれた[帯|おび]に、[作品|さくひん]の[紹介|しょうかい]が[書|か|書く]かれていました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn5u002",
+      "text": "マフラー",
+      "primaryReading": "まふらー",
+      "acceptedAlternativeReadings": [],
+      "level": "N5",
+      "authoredMeaning": "围巾；围在颈部保暖的衣物",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1129210,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "マフラー",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n5-scene-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn5965",
+            "b"
+          ],
+          "surface": "マフラー",
+          "reading": "まふらー",
+          "lemma": "",
+          "old": null,
+          "level": "N5",
+          "markup": "[寒|さむ|寒い]いので[首|くび]に[マフラー|まふらー]を[巻|ま|巻く]きました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn4u001",
+      "text": "破れる",
+      "primaryReading": "やぶれる",
+      "acceptedAlternativeReadings": [],
+      "level": "N4",
+      "authoredMeaning": "破损、撕裂；物体本身裂开而不再完整",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1471210,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "破れる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "やぶれる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n4-completion-structures.tsv",
+          "tag": "C",
+          "key": [
+            "gn466",
+            "b"
+          ],
+          "surface": "破",
+          "reading": "やぶ",
+          "lemma": "破れる",
+          "old": null,
+          "level": "N4",
+          "markup": "[この|この][紙|かみ]は[薄|うす|薄い]くて[破|やぶ|破れる]れやすいです。"
+        },
+        {
+          "source": "n3-relations-reading-prerequisites.tsv",
+          "tag": "E",
+          "key": [
+            "vn3i013",
+            "b"
+          ],
+          "surface": "破",
+          "reading": "やぶ",
+          "lemma": "破れる",
+          "old": null,
+          "level": "N3",
+          "markup": "[大|おお|大きい]きな[布|ぬの]を[広|ひろ|広げる]げ、[破|やぶ|破れる]れた[部分|ぶぶん]を[探|さが|探す]しました。"
+        },
+        {
+          "source": "n3-similarity-reading-prerequisite-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3n074",
+            "a"
+          ],
+          "surface": "破",
+          "reading": "やぶ",
+          "lemma": "破れる",
+          "old": null,
+          "level": "N3",
+          "markup": "[破|やぶ|破れる]れた[袖|そで]を[縫|ぬ|@vn3n074]って、[もう一度|もういちど|-][着|き|着る]られるようにしました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn4u002",
+      "text": "ボール",
+      "primaryReading": "ぼーる",
+      "acceptedAlternativeReadings": [],
+      "level": "N4",
+      "authoredMeaning": "球；用于投掷、踢动或球类运动的圆球",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1123550,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ボール",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "oldUses": [
+        {
+          "source": "n4-core-actions.tsv",
+          "tag": "E",
+          "key": [
+            "vn4105",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[弟|おとうと]が[ボール|ぼーる]を[打|う|打つ]ちました。"
+        },
+        {
+          "source": "n4-core-actions.tsv",
+          "tag": "E",
+          "key": [
+            "vn4121",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[友達|ともだち]に[ボール|ぼーる]を[投|な|投げる]げました。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4850",
+            "b"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[子供|こども]は[転|ころ|転がる]がる[ボール|ぼーる]を[追|お|追いかける]いかけています。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4859",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[公園|こうえん]で[ボール|ぼーる]を[蹴|け|蹴る]りました。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4895",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[ボール|ぼーる]が[坂|さか]を[転|ころ|転がる]がっていきました。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4896",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[子供|こども]に[向|む|向く]けて[ボール|ぼーる]を[転|ころ|転がす]がしました。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4899",
+            "b"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[池|いけ]に[浮|う|浮く]いていた[小|ちい|小さい]さい[ボール|ぼーる]を[網|あみ]で[取|と|取る]りました。"
+        },
+        {
+          "source": "n4-reactions-and-decisions.tsv",
+          "tag": "E",
+          "key": [
+            "vn4j084",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[ボール|ぼーる]が[床|ゆか]で[何度|なんど]も[跳|は|跳ねる]ねました。"
+        },
+        {
+          "source": "n3-similarity-theme-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3l025",
+            "a"
+          ],
+          "surface": "ボール",
+          "reading": "ぼーる",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[ボール|ぼーる]が[窓|まど]に[当|あ|@vn3l025]たりました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn4u003",
+      "text": "下ろす",
+      "primaryReading": "おろす",
+      "acceptedAlternativeReadings": [],
+      "level": "N4",
+      "authoredMeaning": "放下、取下或卸下；使位置降低或离开承载处",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1589580,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "下ろす",
+        "降ろす",
+        "下す"
+      ],
+      "readingFacts": [
+        {
+          "reading": "おろす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [
+            "esp. 降ろす"
+          ],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "oldUses": [
+        {
+          "source": "n4-society-and-daily-life.tsv",
+          "tag": "E",
+          "key": [
+            "vn4i124",
+            "b"
+          ],
+          "surface": "下",
+          "reading": "お",
+          "lemma": "下ろす",
+          "old": null,
+          "level": "N4",
+          "markup": "[荷台|にだい]から[下|お|下ろす]ろした[板|いた]を、[二人|ふたり]で[運|はこ|運ぶ]びました。"
+        },
+        {
+          "source": "n3-similarity-reading-prerequisite-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3n038",
+            "a"
+          ],
+          "surface": "下",
+          "reading": "お",
+          "lemma": "下ろす",
+          "old": null,
+          "level": "N3",
+          "markup": "[川岸|かわぎし|@vn3n038]に[腰|こし]を[下|お|下ろす]ろして、[流|なが|流れる]れてくる[葉|は]を[見|み|見る]ていました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn4u004",
+      "text": "絵の具",
+      "primaryReading": "えのぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N4",
+      "authoredMeaning": "绘画颜料；用来着色画画的材料",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1202290,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "絵の具",
+        "絵具"
+      ],
+      "readingFacts": [
+        {
+          "reading": "えのぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "expressions (phrases, clauses, etc.)",
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n4-reactions-and-decisions.tsv",
+          "tag": "E",
+          "key": [
+            "vn4j076",
+            "b"
+          ],
+          "surface": "絵の具",
+          "reading": "えのぐ",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[絵の具|えのぐ]が[固|かた|固まる]まって、[筆|ふで]が[動|うご|動く]かなくなりました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn4u005",
+      "text": "匂い",
+      "primaryReading": "におい",
+      "acceptedAlternativeReadings": [],
+      "level": "N4",
+      "authoredMeaning": "气味；由鼻子闻到的香味或异味",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1599760,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "匂い",
+        "臭い",
+        "香い",
+        "匂"
+      ],
+      "readingFacts": [
+        {
+          "reading": "におい",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [
+            "臭い used for unpleasant smells"
+          ],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N4"
+      ],
+      "oldUses": [
+        {
+          "source": "n4-completion-structures.tsv",
+          "tag": "C",
+          "key": [
+            "gn491",
+            "c"
+          ],
+          "surface": "匂",
+          "reading": "にお",
+          "lemma": "匂い",
+          "old": null,
+          "level": "N4",
+          "markup": "[台所|だいどころ]から[いい|いい][匂|にお|匂い]いがします。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4816",
+            "b"
+          ],
+          "surface": "におい",
+          "reading": "におい",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[焦|こ|焦げる]げた[におい|におい]がして、[台所|だいどころ]へ[急|いそ|急ぐ]ぎました。"
+        },
+        {
+          "source": "n4-actions-and-states.tsv",
+          "tag": "E",
+          "key": [
+            "vn4868",
+            "b"
+          ],
+          "surface": "におい",
+          "reading": "におい",
+          "lemma": "",
+          "old": null,
+          "level": "N4",
+          "markup": "[瓶|びん]の[栓|せん]を[抜|ぬ|抜く]くと、[いい|いい][におい|におい]がしました。"
+        },
+        {
+          "source": "n3-observation-and-explanation.tsv",
+          "tag": "E",
+          "key": [
+            "vn3a032",
+            "a"
+          ],
+          "surface": "匂い",
+          "reading": "におい",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[鍋|なべ]から[煙|けむり]が[上|あ|上がる]がり、[焦|こ|焦げる]げた[匂い|におい]がしました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v001",
+      "text": "唸る",
+      "primaryReading": "うなる",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "发出低沉而持续的声音；呻吟、低吼或机器轰鸣",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1565300,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "spellings": [
+        "唸る",
+        "呻る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "うなる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn3v002",
+      "text": "塞ぐ",
+      "primaryReading": "ふさぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "堵住、挡住；使通路或开口不能通过",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1602590,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "塞ぐ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ふさぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n3-norms-memory-and-reasons.tsv",
+          "tag": "C",
+          "key": [
+            "gn334",
+            "f"
+          ],
+          "surface": "ふさ",
+          "reading": "ふさ",
+          "lemma": "ふさぐ",
+          "old": null,
+          "level": "N3",
+          "markup": "[紙|かみ]には「[入口|いりぐち]を[ふさ|ふさ|ふさぐ]がないこと」とありますが、[今|いま]は[入口|いりぐち]に[荷物|にもつ]が[置|お|置く]いてあります。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v003",
+      "text": "身振り",
+      "primaryReading": "みぶり",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "手势、身体动作；用身体作出的示意",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1365720,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "身振り",
+        "身ぶり",
+        "身振"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みぶり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": [
+        {
+          "source": "n3-relations-and-causes-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3h084",
+            "b"
+          ],
+          "surface": "身振り",
+          "reading": "みぶり",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[言語|げんご]だけでなく、[身振り|みぶり]でも[気持ち|きもち]は[伝|つた|伝わる]わります。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v004",
+      "text": "ぎっしり",
+      "primaryReading": "ぎっしり",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "满满地、紧密地；内部或空间被密集填满",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1003590,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ぎっしり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ギッシリ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ぎっちり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ギッチリ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": [
+        {
+          "source": "n3-condition-prerequisites.tsv",
+          "tag": "E",
+          "key": [
+            "vn3k008",
+            "a"
+          ],
+          "surface": "ぎっしり",
+          "reading": "ぎっしり",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[棚|たな]には[本|ほん]が[ぎっしり|ぎっしり][詰|つ|詰まる]まっています。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v005",
+      "text": "ボート",
+      "primaryReading": "ぼーと",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "小船、划艇；可由人划桨等推动的小型船只",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1123440,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ボート",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [
+            "usu. in compounds"
+          ],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn3v006",
+      "text": "額",
+      "primaryReading": "ひたい",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "额头；脸上眉眼上方的部分",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1207510,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "額"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひたい",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": [
+        {
+          "source": "n3-similarity-theme-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3l026",
+            "a"
+          ],
+          "surface": "額",
+          "reading": "ひたい",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[額|ひたい]に[手|て]を[当|あ|@vn3l026]てて、[考|かんが|考える]えていました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v007",
+      "text": "枠",
+      "primaryReading": "わく",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "边框、框架；也指限定的范围或名额",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1562610,
+      "senseOrdinals": [
+        1,
+        3
+      ],
+      "spellings": [
+        "枠",
+        "框"
+      ],
+      "readingFacts": [
+        {
+          "reading": "わく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": [
+        {
+          "source": "n3-similarity-theme-words.tsv",
+          "tag": "E",
+          "key": [
+            "vn3l030",
+            "b"
+          ],
+          "surface": "枠",
+          "reading": "わく",
+          "lemma": "",
+          "old": null,
+          "level": "N3",
+          "markup": "[机|つくえ]の[枠|わく]を[組|く|組む]む[前|まえ]に、[材料|ざいりょう]を[確認|かくにん]しました。"
+        }
+      ]
+    },
+    {
+      "itemID": "vn3v008",
+      "text": "吐く",
+      "primaryReading": "はく",
+      "acceptedAlternativeReadings": [],
+      "level": "N3",
+      "authoredMeaning": "呕吐、吐出胃内的东西",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 2646460,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "吐く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N3"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i001",
+      "text": "仰ぐ",
+      "primaryReading": "あおぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "仰头看、向上望；本组为抬眼朝上看",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1238780,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "仰ぐ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "あおぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i002",
+      "text": "扇ぐ",
+      "primaryReading": "あおぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "扇动使空气流动、扇风",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1609000,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "扇ぐ",
+        "煽ぐ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "あおぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i003",
+      "text": "あがく",
+      "primaryReading": "あがく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "挣扎、拼力摆脱困境；难以顺利行动时仍奋力尝试",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1846280,
+      "senseOrdinals": [
+        2,
+        3
+      ],
+      "spellings": [
+        "足掻く",
+        "踠く",
+        "足搔く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "あがく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i004",
+      "text": "息切れ",
+      "primaryReading": "いきぎれ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "气喘、上气不接下气；呼吸急促而难以接续",
+      "authoredPartOfSpeech": "名词、する自动词",
+      "entryID": 1404420,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "息切れ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "いきぎれ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i005",
+      "text": "お辞儀",
+      "primaryReading": "おじぎ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "鞠躬；低头弯身表示礼貌",
+      "authoredPartOfSpeech": "名词、する自动词",
+      "entryID": 1002030,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "お辞儀",
+        "御辞儀"
+      ],
+      "readingFacts": [
+        {
+          "reading": "おじぎ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "polite (teineigo) language"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i006",
+      "text": "おんぶ",
+      "primaryReading": "おんぶ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "把人背在背上；背负或骑背",
+      "authoredPartOfSpeech": "名词、する他动词",
+      "entryID": 1498040,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "負んぶ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "おんぶ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "オンブ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "transitive verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i007",
+      "text": "かがむ",
+      "primaryReading": "かがむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "弯下身、俯身；降低身体的姿势",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1246550,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "屈む",
+        "踞む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かがむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "こごむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "くぐむ",
+          "restrictions": [],
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i008",
+      "text": "かき回す",
+      "primaryReading": "かきまわす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "搅动、搅拌；使里面的东西来回混动",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1399880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "かき回す",
+        "掻き回す",
+        "掻きまわす",
+        "搔き回す"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かきまわす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i009",
+      "text": "霞む",
+      "primaryReading": "かすむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "朦胧、发蒙；景物或视线变得不清晰",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1196520,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "霞む",
+        "翳む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かすむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [
+            "esp. 霞む"
+          ],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [
+            "esp. 翳む"
+          ],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i010",
+      "text": "かじる",
+      "primaryReading": "かじる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "啃、咬下一点；用牙齿一点点咬",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1610640,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "齧る",
+        "囓る",
+        "噛る",
+        "噛じる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かじる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i011",
+      "text": "かわす",
+      "primaryReading": "かわす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "躲开、避开；使自己不正面承受来势或追问",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1984880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "躱す",
+        "避わす"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かわす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i012",
+      "text": "崩す",
+      "primaryReading": "くずす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "使崩塌、打乱原有形状或秩序",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1516260,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "崩す"
+      ],
+      "readingFacts": [
+        {
+          "reading": "くずす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i013",
+      "text": "くっつく",
+      "primaryReading": "くっつく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "贴住、粘在一起；物体紧贴而不易分开",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1003860,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "くっ付く",
+        "食っ付く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "くっつく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i014",
+      "text": "くっつける",
+      "primaryReading": "くっつける",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "把物体贴合、粘在一起",
+      "authoredPartOfSpeech": "一段他动词",
+      "entryID": 1003870,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "くっ付ける"
+      ],
+      "readingFacts": [
+        {
+          "reading": "くっつける",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i015",
+      "text": "漕ぐ",
+      "primaryReading": "こぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "划桨、踩踏板；反复使力推动船或自行车等",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1400530,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "漕ぐ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "こぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i016",
+      "text": "こする",
+      "primaryReading": "こする",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "摩擦、揉擦、擦拭；贴着表面来回用力",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1298910,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "擦る",
+        "錯る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "こする",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i017",
+      "text": "しがみつく",
+      "primaryReading": "しがみつく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "紧紧抓住不放；身体紧贴并抓牢支撑物",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1005470,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "しがみ付く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "しがみつく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i018",
+      "text": "痺れる",
+      "primaryReading": "しびれる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "发麻、麻木；手脚等的感觉暂时变迟钝",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1569620,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "痺れる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "しびれる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "シビれる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        },
+        {
+          "reading": "シビレる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i019",
+      "text": "しゃぶる",
+      "primaryReading": "しゃぶる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "含着吸吮、吮舔",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1005670,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "しゃぶる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i020",
+      "text": "ずらす",
+      "primaryReading": "ずらす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "挪开、错开；改变原来的位置或时间安排",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1006420,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ずらす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i021",
+      "text": "聳える",
+      "primaryReading": "そびえる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "高高耸立；建筑或山等向高处立起",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1570770,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "聳える"
+      ],
+      "readingFacts": [
+        {
+          "reading": "そびえる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i022",
+      "text": "畳む",
+      "primaryReading": "たたむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "折叠、叠起来；把展开的东西收拢",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1356780,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "畳む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "たたむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i023",
+      "text": "浸かる",
+      "primaryReading": "つかる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "浸在液体中、泡着；身体或物品没入液体",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1433670,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "浸かる",
+        "漬かる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つかる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i024",
+      "text": "躓く",
+      "primaryReading": "つまずく",
+      "acceptedAlternativeReadings": [
+        "つまづく"
+      ],
+      "level": "N2",
+      "authoredMeaning": "绊住、跌绊；也指事情开始或推进时遭遇挫折",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1573400,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "躓く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つまずく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "つまづく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i025",
+      "text": "潰れる",
+      "primaryReading": "つぶれる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "被压碎、压瘪；原有形状因压力破坏",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1433830,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "潰れる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つぶれる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i026",
+      "text": "つまむ",
+      "primaryReading": "つまむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "捏住、夹取；用指尖或筷子等夹着拿起",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1598080,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "摘む",
+        "摘まむ",
+        "撮む",
+        "抓む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つまむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i027",
+      "text": "退ける",
+      "primaryReading": "どける",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "把挡路的东西移开、挪到一边",
+      "authoredPartOfSpeech": "一段他动词",
+      "entryID": 2850084,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "退ける"
+      ],
+      "readingFacts": [
+        {
+          "reading": "どける",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i028",
+      "text": "滲む",
+      "primaryReading": "にじむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "渗开、洇开或涌出；液体扩散使边界不再清楚",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1568800,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "spellings": [
+        "滲む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "にじむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i029",
+      "text": "拭う",
+      "primaryReading": "ぬぐう",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "擦去、拭掉；把表面的液体等抹去",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1357220,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "拭う"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ぬぐう",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'u' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i030",
+      "text": "抜け出す",
+      "primaryReading": "ぬけだす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "脱身、溜出；从身处的位置或束缚中离开",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1478220,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "抜け出す",
+        "脱け出す",
+        "抜出す",
+        "脱出す",
+        "抜けだす",
+        "脱けだす",
+        "ぬけ出す"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ぬけだす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i031",
+      "text": "ねじる",
+      "primaryReading": "ねじる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "扭转、拧动；使细长物或部位发生扭曲",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1611090,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "捩る",
+        "捻る",
+        "拗る",
+        "捩じる",
+        "捻じる",
+        "拗じる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ねじる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i032",
+      "text": "這う",
+      "primaryReading": "はう",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "爬行、匍匐；身体低伏并向前移动",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1474200,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "這う",
+        "匍う",
+        "延う"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はう",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'u' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i033",
+      "text": "腫れる",
+      "primaryReading": "はれる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "肿起、肿胀；身体部位鼓起",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1328910,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "腫れる",
+        "脹れる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はれる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i034",
+      "text": "引っかく",
+      "primaryReading": "ひっかく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "抓挠、刮抓；用指甲或尖物划擦表面",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1169430,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "引っかく",
+        "引っ掻く",
+        "引掻く",
+        "引っ搔く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひっかく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i035",
+      "text": "引っ込む",
+      "primaryReading": "ひっこむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "缩回、退到里面；原本露出或在外的人物退入",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1169390,
+      "senseOrdinals": [
+        1,
+        3
+      ],
+      "spellings": [
+        "引っ込む",
+        "引っこむ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひっこむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i036",
+      "text": "ひねる",
+      "primaryReading": "ひねる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "扭、拧转；对局部施加转动的力",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1469530,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "捻る",
+        "拈る",
+        "撚る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひねる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i037",
+      "text": "膨らむ",
+      "primaryReading": "ふくらむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "鼓起、膨胀；体积或外形变大",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1519990,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "膨らむ",
+        "脹らむ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ふくらむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i038",
+      "text": "塞がる",
+      "primaryReading": "ふさがる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "被堵住、被占用；通路或空位不能再使用",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1602570,
+      "senseOrdinals": [
+        1,
+        2,
+        3
+      ],
+      "spellings": [
+        "塞がる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ふさがる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ふたがる",
+          "restrictions": [],
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i039",
+      "text": "放る",
+      "primaryReading": "ほうる",
+      "acceptedAlternativeReadings": [
+        "ほる"
+      ],
+      "level": "N2",
+      "authoredMeaning": "扔、抛；使手中的物品离手飞出去",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1516530,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "放る",
+        "抛る",
+        "投る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ほうる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ほる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i040",
+      "text": "ほぐす",
+      "primaryReading": "ほぐす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "解开缠结、使紧缩松开；使物体或肌肉不再绷紧",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1632920,
+      "senseOrdinals": [
+        1,
+        3
+      ],
+      "spellings": [
+        "解す"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ほぐす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ほごす",
+          "restrictions": [],
+          "information": [
+            "rarely used kana form"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i041",
+      "text": "跨ぐ",
+      "primaryReading": "またぐ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "跨过、迈过；两脚分在物体两侧而越过",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1267830,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "跨ぐ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "またぐ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'gu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i042",
+      "text": "纏う",
+      "primaryReading": "まとう",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "披在身上、穿戴；使衣物包覆身体",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1440900,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "纏う"
+      ],
+      "readingFacts": [
+        {
+          "reading": "まとう",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'u' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i043",
+      "text": "むしる",
+      "primaryReading": "むしる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "拔下、揪掉、扯取；抓住一部分用力取下",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1568540,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "毟る",
+        "挘る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "むしる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i044",
+      "text": "もがく",
+      "primaryReading": "もがく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "挣扎、扭动；急于脱离束缚或困难而奋力行动",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1012490,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "藻掻く",
+        "踠く",
+        "藻搔く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "もがく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i045",
+      "text": "揉む",
+      "primaryReading": "もむ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "揉搓、揉按；用手反复挤压或搓动",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1567610,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "揉む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "もむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i046",
+      "text": "歪む",
+      "primaryReading": "ゆがむ",
+      "acceptedAlternativeReadings": [
+        "いがむ"
+      ],
+      "level": "N2",
+      "authoredMeaning": "歪斜、变形；原有端正的形状扭曲",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1585360,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "歪む"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ゆがむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "いがむ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'mu' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i047",
+      "text": "身動き",
+      "primaryReading": "みうごき",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "身体的移动、挪动；改变身体所在位置或姿势",
+      "authoredPartOfSpeech": "名词、する自动词",
+      "entryID": 1705960,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "身動き",
+        "身うごき"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みうごき",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [
+            "usu. with neg. verb"
+          ],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i048",
+      "text": "見晴らし",
+      "primaryReading": "みはらし",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "视野、眺望到的景色；从某处向外看见的开阔程度",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1259770,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "見晴らし",
+        "見晴し",
+        "見はらし"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みはらし",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i049",
+      "text": "見通し",
+      "primaryReading": "みとおし",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "前方能看清的情况；也指对今后进展的预期",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1604610,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [
+        "見通し",
+        "見透し",
+        "見とおし",
+        "見通"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みとおし",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i050",
+      "text": "物陰",
+      "primaryReading": "ものかげ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "被物体遮住而不易看见的地方；遮蔽处",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1502410,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "物陰",
+        "物蔭"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ものかげ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i051",
+      "text": "光沢",
+      "primaryReading": "こうたく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "光泽；物体表面反射出的光亮",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1273050,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "光沢"
+      ],
+      "readingFacts": [
+        {
+          "reading": "こうたく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i052",
+      "text": "手触り",
+      "primaryReading": "てざわり",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "手摸到的感觉、触感",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1327920,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "手触り",
+        "手ざわり"
+      ],
+      "readingFacts": [
+        {
+          "reading": "てざわり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i053",
+      "text": "肌触り",
+      "primaryReading": "はだざわり",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "接触肌肤时的感觉；衣物等贴肤的触感",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1600800,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "肌触り",
+        "肌ざわり",
+        "膚触り",
+        "肌触",
+        "はだ触り",
+        "肌触わり"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はだざわり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i054",
+      "text": "皮膚",
+      "primaryReading": "ひふ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "皮肤；覆盖身体表面的组织",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1483920,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "皮膚",
+        "皮ふ",
+        "皮フ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひふ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i055",
+      "text": "血液",
+      "primaryReading": "けつえき",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "血液；在血管内流动的液体",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1255120,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "血液"
+      ],
+      "readingFacts": [
+        {
+          "reading": "けつえき",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i056",
+      "text": "血圧",
+      "primaryReading": "けつあつ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "血压；血液对血管壁施加的压力",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1255110,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "血圧"
+      ],
+      "readingFacts": [
+        {
+          "reading": "けつあつ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i057",
+      "text": "脈",
+      "primaryReading": "みゃく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "脉搏；随心跳而产生的有节律的搏动",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1528440,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "脈",
+        "脉"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みゃく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i058",
+      "text": "疲労",
+      "primaryReading": "ひろう",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "疲劳、疲惫；身体或精神劳累的状态",
+      "authoredPartOfSpeech": "名词、する自动词",
+      "entryID": 1483780,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "疲労"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ひろう",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i059",
+      "text": "嗅覚",
+      "primaryReading": "きゅうかく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "嗅觉；感知气味的感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1565490,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "嗅覚"
+      ],
+      "readingFacts": [
+        {
+          "reading": "きゅうかく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i060",
+      "text": "味覚",
+      "primaryReading": "みかく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "味觉；分辨味道的感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1527020,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "味覚"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みかく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i061",
+      "text": "聴覚",
+      "primaryReading": "ちょうかく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "听觉；感知声音的感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1428880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "聴覚"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ちょうかく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i062",
+      "text": "吐き気",
+      "primaryReading": "はきけ",
+      "acceptedAlternativeReadings": [
+        "はきげ"
+      ],
+      "level": "N2",
+      "authoredMeaning": "恶心、想吐的感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1444120,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "吐き気",
+        "吐気",
+        "嘔き気",
+        "吐きけ"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はきけ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "はきげ",
+          "restrictions": [],
+          "information": [
+            "word containing irregular kana usage"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i063",
+      "text": "めまい",
+      "primaryReading": "めまい",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "头晕、眩晕；周围或自身似在转动而不稳的感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1569810,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "眩暈",
+        "目眩",
+        "目まい",
+        "目眩い",
+        "眩冒"
+      ],
+      "readingFacts": [
+        {
+          "reading": "めまい",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i064",
+      "text": "痒み",
+      "primaryReading": "かゆみ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "痒、瘙痒；使人想抓挠的皮肤感觉",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 2007700,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "痒み"
+      ],
+      "readingFacts": [
+        {
+          "reading": "かゆみ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i065",
+      "text": "窪み",
+      "primaryReading": "くぼみ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "凹陷、洼处；表面比周围低下去的部分",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1246830,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "凹み",
+        "窪み"
+      ],
+      "readingFacts": [
+        {
+          "reading": "くぼみ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "へこみ",
+          "restrictions": [
+            "凹み"
+          ],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i066",
+      "text": "凸凹",
+      "primaryReading": "でこぼこ",
+      "acceptedAlternativeReadings": [
+        "とつおう"
+      ],
+      "level": "N2",
+      "authoredMeaning": "凹凸、不平整；表面有高低起伏",
+      "authoredPartOfSpeech": "名词、な形容词",
+      "entryID": 1582410,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "凸凹"
+      ],
+      "readingFacts": [
+        {
+          "reading": "でこぼこ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "とつおう",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "だくぼく",
+          "restrictions": [],
+          "information": [
+            "out-dated or obsolete kana usage"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i067",
+      "text": "斜面",
+      "primaryReading": "しゃめん",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "斜面、坡面；相对水平面倾斜的表面",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1322470,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "斜面"
+      ],
+      "readingFacts": [
+        {
+          "reading": "しゃめん",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i068",
+      "text": "傾斜",
+      "primaryReading": "けいしゃ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "倾斜、斜度；偏离水平或垂直的状态",
+      "authoredPartOfSpeech": "名词、する自动词",
+      "entryID": 1249500,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "傾斜"
+      ],
+      "readingFacts": [
+        {
+          "reading": "けいしゃ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i069",
+      "text": "崖",
+      "primaryReading": "がけ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "悬崖、陡壁；陡峭得近乎直立的地形",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1204380,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "崖",
+        "厓"
+      ],
+      "readingFacts": [
+        {
+          "reading": "がけ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ガケ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i070",
+      "text": "峠",
+      "primaryReading": "とうげ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "山口、垭口；越山道路达到高处并翻越的地方",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1454420,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "峠"
+      ],
+      "readingFacts": [
+        {
+          "reading": "とうげ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun, used as a suffix"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i071",
+      "text": "峰",
+      "primaryReading": "みね",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "山峰、峰顶；山脊突出的高处",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1516250,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "峰",
+        "嶺",
+        "峯"
+      ],
+      "readingFacts": [
+        {
+          "reading": "みね",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i072",
+      "text": "麓",
+      "primaryReading": "ふもと",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "山脚、山麓；山体下部与周边相接的地方",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1611440,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "麓",
+        "梺"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ふもと",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i073",
+      "text": "先端",
+      "primaryReading": "せんたん",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "尖端、前端；细长物最靠前的末梢",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1388110,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "先端",
+        "尖端"
+      ],
+      "readingFacts": [
+        {
+          "reading": "せんたん",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i074",
+      "text": "末端",
+      "primaryReading": "まったん",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "末端、尽头；距离中心或起点较远的端部",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1525530,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "末端"
+      ],
+      "readingFacts": [
+        {
+          "reading": "まったん",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i075",
+      "text": "奥行き",
+      "primaryReading": "おくゆき",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "纵深、深度；从近处向里面延伸的长度",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1179480,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "奥行き",
+        "奥行"
+      ],
+      "readingFacts": [
+        {
+          "reading": "おくゆき",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i076",
+      "text": "ふらふら",
+      "primaryReading": "ふらふら",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "摇摇晃晃、站立不稳地；身体缺乏稳定",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1011060,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ふらふら",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "フラフラ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i077",
+      "text": "よろよろ",
+      "primaryReading": "よろよろ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "踉跄、蹒跚；身体不稳地勉强移动",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1013230,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "よろよろ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ヨロヨロ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i078",
+      "text": "ぶらぶら",
+      "primaryReading": "ぶらぶら",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "悬着摇摆或悠闲闲逛；没有固定约束地晃动、走动",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1011230,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ぶらぶら",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ブラブラ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i079",
+      "text": "ぐらぐら",
+      "primaryReading": "ぐらぐら",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "摇晃、晃动；物体不牢稳而来回动",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1004110,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "グラグラ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ぐらぐら",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru",
+            "nouns which may take the genitive case particle 'no'",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i080",
+      "text": "ぐるぐる",
+      "primaryReading": "ぐるぐる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "一圈圈地转、绕来绕去；反复回环移动",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1004140,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ぐるぐる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "グルグル",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i081",
+      "text": "くるくる",
+      "primaryReading": "くるくる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "不停地轻快旋转、一圈圈转动",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1003960,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "くるくる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "クルクル",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i082",
+      "text": "うとうと",
+      "primaryReading": "うとうと",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "打盹、昏昏欲睡；浅浅地进入睡意",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1001030,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "うとうと",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ウトウト",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "うとっと",
+          "restrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "noKanji": false
+        },
+        {
+          "reading": "ウトッと",
+          "restrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "noKanji": false
+        },
+        {
+          "reading": "ウトっと",
+          "restrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i083",
+      "text": "じわじわ",
+      "primaryReading": "じわじわ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "一点点缓慢而持续地推进、渗透或显出效果",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1066570,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ジワジワ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "じわじわ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i084",
+      "text": "ぴかぴか",
+      "primaryReading": "ぴかぴか",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "闪亮、亮晶晶；也形容崭新而光亮",
+      "authoredPartOfSpeech": "副词、な形容词",
+      "entryID": 1010830,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ピカピカ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ぴかぴか",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ピッカピカ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ぴっかぴか",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ビカビカ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "びかびか",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb taking the 'to' particle",
+            "adverb (fukushi)",
+            "nouns which may take the genitive case particle 'no'",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [
+            "ピッカピカ and ビカビカ are more emphatic"
+          ],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "nouns which may take the genitive case particle 'no'",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i085",
+      "text": "ざらざら",
+      "primaryReading": "ざらざら",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "粗糙、沙沙的；触到表面时不细滑",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1005420,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ザラザラ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ざらざら",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru",
+            "nouns which may take the genitive case particle 'no'",
+            "adjectival nouns or quasi-adjectives (keiyodoshi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i086",
+      "text": "つるつる",
+      "primaryReading": "つるつる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "光滑、滑溜；表面平滑而不易抓稳",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1008220,
+      "senseOrdinals": [
+        1,
+        2
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "つるつる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ツルツル",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "nouns which may take the genitive case particle 'no'",
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 2,
+          "partOfSpeech": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "nouns which may take the genitive case particle 'no'",
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i087",
+      "text": "べたべた",
+      "primaryReading": "べたべた",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "黏糊糊、发黏；接触时容易粘住",
+      "authoredPartOfSpeech": "副词、する自动词",
+      "entryID": 1011440,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ベタベタ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "べたべた",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adjectival nouns or quasi-adjectives (keiyodoshi)",
+            "adverb (fukushi)",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i088",
+      "text": "ぼやける",
+      "primaryReading": "ぼやける",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "模糊、变得不清；轮廓或印象失去清晰度",
+      "authoredPartOfSpeech": "一段自动词",
+      "entryID": 1011860,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "ぼやける",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ボヤける",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i089",
+      "text": "くっきり",
+      "primaryReading": "くっきり",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "清晰分明、轮廓鲜明地",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1003840,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "くっきり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "クッキリ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle",
+            "noun or participle which takes the aux. verb suru"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i090",
+      "text": "びっしり",
+      "primaryReading": "びっしり",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "密密麻麻、紧密布满；几乎没有空隙地排列",
+      "authoredPartOfSpeech": "副词",
+      "entryID": 1010770,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "びっしり",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ビッシリ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ぴっしり",
+          "restrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "noKanji": false
+        },
+        {
+          "reading": "ピッシリ",
+          "restrictions": [],
+          "information": [
+            "search-only kana form"
+          ],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "adverb (fukushi)",
+            "adverb taking the 'to' particle"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "onomatopoeic or mimetic word"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i091",
+      "text": "逸らす",
+      "primaryReading": "そらす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "移开视线、转移注意；使朝向偏离原来的对象",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1167650,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "逸らす"
+      ],
+      "readingFacts": [
+        {
+          "reading": "そらす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i092",
+      "text": "反らす",
+      "primaryReading": "そらす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "使向后或向外弯曲、使弯起",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1480090,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "反らす"
+      ],
+      "readingFacts": [
+        {
+          "reading": "そらす",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'su' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i093",
+      "text": "剥く",
+      "primaryReading": "むく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "削皮、剥去外层；去掉表皮或壳",
+      "authoredPartOfSpeech": "五段他动词",
+      "entryID": 1474370,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "剥く",
+        "剝く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "むく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i094",
+      "text": "湧く",
+      "primaryReading": "わく",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "涌出、涌起；水从里面冒出，也指情绪念头自然产生",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1606685,
+      "senseOrdinals": [
+        1,
+        3
+      ],
+      "spellings": [
+        "湧く",
+        "涌く"
+      ],
+      "readingFacts": [
+        {
+          "reading": "わく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'ku' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i095",
+      "text": "寒気",
+      "primaryReading": "さむけ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "寒意、发冷的感觉；身体感到一阵冷或战栗",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1210410,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "寒気",
+        "寒け"
+      ],
+      "readingFacts": [
+        {
+          "reading": "さむけ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i096",
+      "text": "しわ",
+      "primaryReading": "しわ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "皱纹、褶皱；皮肤或纸布等表面的小折痕",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1569740,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "皺",
+        "皴"
+      ],
+      "readingFacts": [
+        {
+          "reading": "しわ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "シワ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i097",
+      "text": "根元",
+      "primaryReading": "ねもと",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "根部、基部；树木或柱等接近根与起点的地方",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 2848281,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "根元",
+        "根本",
+        "根もと"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ねもと",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i098",
+      "text": "炭",
+      "primaryReading": "すみ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "木炭；将木材炭化后得到的燃料",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1418480,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "炭"
+      ],
+      "readingFacts": [
+        {
+          "reading": "すみ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i099",
+      "text": "はまる",
+      "primaryReading": "はまる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "嵌入、卡在里面；物体进入与其相合或难以脱出的地方",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1601030,
+      "senseOrdinals": [
+        1,
+        3
+      ],
+      "spellings": [
+        "嵌まる",
+        "填まる",
+        "塡まる",
+        "嵌る"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はまる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "ハマる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": true
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        },
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i100",
+      "text": "渦",
+      "primaryReading": "うず",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "旋涡、涡流；液体或气体旋转形成的流动",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1172310,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "渦"
+      ],
+      "readingFacts": [
+        {
+          "reading": "うず",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i101",
+      "text": "バランス",
+      "primaryReading": "ばらんす",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "平衡、均衡；各部分的力量或配置相互协调",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1099690,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [],
+      "readingFacts": [
+        {
+          "reading": "バランス",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "noun or participle which takes the aux. verb suru",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i102",
+      "text": "磁石",
+      "primaryReading": "じしゃく",
+      "acceptedAlternativeReadings": [
+        "じせき"
+      ],
+      "level": "N2",
+      "authoredMeaning": "磁铁、磁石；能产生磁性吸引等作用的物体",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1317080,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "磁石"
+      ],
+      "readingFacts": [
+        {
+          "reading": "じしゃく",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "じせき",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)",
+            "nouns which may take the genitive case particle 'no'"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i103",
+      "text": "向かい風",
+      "primaryReading": "むかいかぜ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "逆风、迎面吹来的风",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1604770,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "向い風",
+        "向かい風"
+      ],
+      "readingFacts": [
+        {
+          "reading": "むかいかぜ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i104",
+      "text": "柱",
+      "primaryReading": "はしら",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "柱子、支柱；竖立并起支撑作用的构件",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1426480,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "柱"
+      ],
+      "readingFacts": [
+        {
+          "reading": "はしら",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i105",
+      "text": "ぶつける",
+      "primaryReading": "ぶつける",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "使撞上、碰到；把身体或物品撞向别物",
+      "authoredPartOfSpeech": "一段他动词",
+      "entryID": 2742080,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "打付ける",
+        "打つける"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ぶつける",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [
+            "word usually written using kana alone"
+          ],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i106",
+      "text": "爪",
+      "primaryReading": "つめ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "指甲、趾甲或动物的爪甲",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1433880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "爪"
+      ],
+      "readingFacts": [
+        {
+          "reading": "つめ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i107",
+      "text": "帆",
+      "primaryReading": "ほ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "帆；在船上展开以承受风力的布面",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1481240,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "帆"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ほ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i108",
+      "text": "受け止める",
+      "primaryReading": "うけとめる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "接住、挡住；迎着来物把它止住",
+      "authoredPartOfSpeech": "一段他动词",
+      "entryID": 1329630,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "受け止める",
+        "受けとめる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "うけとめる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i109",
+      "text": "絡まる",
+      "primaryReading": "からまる",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "缠绕、缠结；线或细长物相互绕在一起",
+      "authoredPartOfSpeech": "五段自动词",
+      "entryID": 1548490,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "絡まる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "からまる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Godan verb with 'ru' ending",
+            "intransitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i110",
+      "text": "理科",
+      "primaryReading": "りか",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "理科课；学校中学习自然科学基础的科目",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1549900,
+      "senseOrdinals": [
+        3
+      ],
+      "spellings": [
+        "理科"
+      ],
+      "readingFacts": [
+        {
+          "reading": "りか",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 3,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i111",
+      "text": "器",
+      "primaryReading": "うつわ",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "器皿、容器；用来盛放食物等的具体物件",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1218880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "器"
+      ],
+      "readingFacts": [
+        {
+          "reading": "うつわ",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N1"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i112",
+      "text": "水滴",
+      "primaryReading": "すいてき",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "水滴；少量水形成的圆滴",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1371880,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "水滴"
+      ],
+      "readingFacts": [
+        {
+          "reading": "すいてき",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i113",
+      "text": "茹でる",
+      "primaryReading": "ゆでる",
+      "acceptedAlternativeReadings": [
+        "うでる"
+      ],
+      "level": "N2",
+      "authoredMeaning": "焯、煮；把食物放进热水中加热煮熟",
+      "authoredPartOfSpeech": "一段他动词",
+      "entryID": 1571470,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "茹でる",
+        "煠でる"
+      ],
+      "readingFacts": [
+        {
+          "reading": "ゆでる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        },
+        {
+          "reading": "うでる",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "Ichidan verb",
+            "transitive verb"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    },
+    {
+      "itemID": "vn2i114",
+      "text": "殻",
+      "primaryReading": "から",
+      "acceptedAlternativeReadings": [],
+      "level": "N2",
+      "authoredMeaning": "壳、外壳；包在蛋或种子等外面的硬层",
+      "authoredPartOfSpeech": "名词",
+      "entryID": 1205740,
+      "senseOrdinals": [
+        1
+      ],
+      "spellings": [
+        "殻",
+        "骸"
+      ],
+      "readingFacts": [
+        {
+          "reading": "から",
+          "restrictions": [],
+          "information": [],
+          "noKanji": false
+        }
+      ],
+      "selectedSenseFacts": [
+        {
+          "ordinal": 1,
+          "partOfSpeech": [
+            "noun (common) (futsuumeishi)"
+          ],
+          "spellingRestrictions": [],
+          "readingRestrictions": [],
+          "misc": [],
+          "notes": [],
+          "dialects": []
+        }
+      ],
+      "communityLevels": [
+        "N2"
+      ],
+      "oldUses": []
+    }
+  ],
+  "boundGrammarAnnotations": [
+    {
+      "source": "n3-motion-foundation-words.tsv",
+      "target": "vn3v004",
+      "key": "b",
+      "surface": "一冊",
+      "reading": "いっさつ"
+    },
+    {
+      "source": "n2-motion-and-sensation.tsv",
+      "target": "vn2i032",
+      "key": "a",
+      "surface": "方",
+      "reading": "ほう"
+    },
+    {
+      "source": "n2-motion-and-sensation.tsv",
+      "target": "vn2i050",
+      "key": "b",
+      "surface": "方",
+      "reading": "ほう"
+    },
+    {
+      "source": "n2-motion-and-sensation.tsv",
+      "target": "vn2i094",
+      "key": "b",
+      "surface": "もう一度",
+      "reading": "もういちど"
+    }
+  ],
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "primarySources": [
+    {
+      "url": "https://kotobank.jp/word/凸凹-559900",
+      "scope": "Dictionary reading sections: でこぼこ and とつおう; primary surface meaning. No quoted examples copied."
+    },
+    {
+      "url": "https://kotobank.jp/word/磁石-73268",
+      "scope": "Dictionary readings じしゃく and じせき; selected physical magnet meaning, not compass."
+    },
+    {
+      "url": "https://kotobank.jp/word/放る-603808",
+      "scope": "Dictionary ほうる/ほる throw sense. Other historical headwords and homographs not accepted."
+    },
+    {
+      "url": "https://www.kanjipedia.jp/kotoba/0003324500",
+      "scope": "茹でる: ゆでる and うでる for cooking in hot water; no examples copied."
+    }
+  ],
+  "variantScope": "All accepted readings are supported by exact written-form and selected-sense JMdict facts. はきげ is retained from the pinned dictionary; the Japanese secondary pages checked list はきけ, with no frequency claim about the alternative.",
+  "semanticReview": [
+    "見える and 見つめる reuse their own earlier meanings rather than active 見る.",
+    "Physical height, sound-making, material gathering, exposure to wind and rotation use their existing sense IDs.",
+    "かがむ/ほぐす are printed as kana; different kana headwords are not accepted as readings.",
+    "窪み does not accept へこみ restricted to 凹み; 凸凹 does not accept old-use だくぼく.",
+    "交わす/かわす, 沸く/湧く and 仰ぐ/扇ぐ retain different entries and meanings; no copied mastery.",
+    "衣物マフラー, 球ボール, 额头額 and 容器器 have selected meanings; homographs are not treated as the same word."
+  ],
+  "pending": [
+    "Prior-association review and exact registered resource reconstruction",
+    "Full content/core validation after registration",
+    "Independent Japanese review",
+    "Native iOS and physical device acceptance",
+    "Original N2 quotas and five other reading bridges"
+  ]
+}
