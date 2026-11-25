@@ -64,6 +64,19 @@ final class SmallScreenTests: XCTestCase {
         start.press(forDuration: 0.1, thenDragTo: end)
     }
 
+    @MainActor private func scrollStatisticsTo(_ element: XCUIElement) {
+        let top = app.navigationBars.firstMatch.frame.maxY
+        let bottom = app.tabBars.firstMatch.frame.minY
+        let viewport = CGRect(x: app.frame.minX, y: top, width: app.frame.width, height: bottom - top)
+        for _ in 0..<12 {
+            if element.exists && element.isHittable && viewport.contains(element.frame) { return }
+            let above = element.exists && element.frame.maxY <= viewport.minY
+            let start = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: above ? 0.48 : 0.76))
+            let end = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: above ? 0.76 : 0.48))
+            start.press(forDuration: 0.1, thenDragTo: end)
+        }
+    }
+
     @MainActor func testRecallAndRatingControlsFitOnSE3() {
         launch(wordID: "v0001")
         XCTAssertEqual(app.frame.width, 375, accuracy: 1)
@@ -126,11 +139,17 @@ final class SmallScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["单日最高 00:00"].exists)
         screenshot("SE3-Statistics-Overview")
         let level = app.buttons["statistics.level.N5"]
-        for _ in 0..<3 where !level.isHittable { app.swipeUp() }
+        scrollStatisticsTo(level)
         visible(level)
         level.tap()
-        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "练过 0 项")).firstMatch.exists)
-        for _ in 0..<4 where !app.segmentedControls["statistics.skill"].isHittable { app.swipeUp() }
+        for ability in ["meaning", "reading"] {
+            let row = app.descendants(matching: .any).matching(identifier: "statistics.progress.N5.\(ability)").firstMatch
+            scrollStatisticsTo(row)
+            visible(row)
+            XCTAssertTrue(row.label.contains("练过 0 项"))
+        }
+        scrollStatisticsTo(app.segmentedControls["statistics.skill"])
+        visible(app.segmentedControls["statistics.skill"])
         XCTAssertTrue(app.staticTexts["statistics.emptyForecast"].waitForExistence(timeout: 5))
         screenshot("SE3-Statistics-Empty-Forecast")
     }

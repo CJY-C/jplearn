@@ -97,10 +97,10 @@ struct StatisticsView: View {
         Section {
             ForEach(stats.levels) { level in
                 DisclosureGroup {
-                    progressRow("词义", level.meaning)
-                    progressRow("读音", level.reading)
-                    progressRow("表达理解", level.grammar)
-                    progressRow("阅读理解", level.passages, reading: true)
+                    progressRow("词义", level.meaning, identifier: "statistics.progress.\(level.id).meaning")
+                    progressRow("读音", level.reading, identifier: "statistics.progress.\(level.id).reading")
+                    progressRow("表达理解", level.grammar, identifier: "statistics.progress.\(level.id).grammar")
+                    progressRow("阅读理解", level.passages, identifier: "statistics.progress.\(level.id).passages", reading: true)
                     Text("字音义都记得：\(level.linkedWords) 个词义目标")
                         .font(.caption).foregroundColor(.secondary)
                 } label: {
@@ -117,7 +117,7 @@ struct StatisticsView: View {
         }
     }
 
-    private func progressRow(_ title: String, _ progress: LearningProgress, reading: Bool = false) -> some View {
+    private func progressRow(_ title: String, _ progress: LearningProgress, identifier: String, reading: Bool = false) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack {
                 Text(title).font(.subheadline)
@@ -131,7 +131,7 @@ struct StatisticsView: View {
                         "练过 \(progress.practiced) 项 · 最近独立记得 \(progress.remembered) 项")
                     .font(.caption).foregroundColor(.secondary)
             }
-        }.padding(.vertical, 4).accessibilityElement(children: .combine)
+        }.padding(.vertical, 4).accessibilityElement(children: .combine).accessibilityIdentifier(identifier)
     }
 
     private func retentionSection(_ stats: LearningStatistics) -> some View {

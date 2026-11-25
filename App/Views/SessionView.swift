@@ -379,13 +379,17 @@ private struct ReadingCard: View {
                 Spacer()
                 LookupMenu(sentenceIDs: reading.sentenceIDs) { lookup($0) }
             }.padding(.horizontal, 18).padding(.bottom, 8)
-            Toggle("假名注音", isOn: $showReading)
-                .font(.subheadline).tint(.accentColor)
-                .frame(minHeight: 44).padding(.horizontal, 18).padding(.bottom, 4)
-                .accessibilityIdentifier("study.readingFurigana")
-                .onChange(of: showReading) { enabled in
-                    if enabled { onAssistance(); assisted = true }
-                }
+            HStack {
+                Text("假名注音").font(.subheadline).accessibilityHidden(true)
+                Spacer()
+                Toggle("假名注音", isOn: $showReading)
+                    .labelsHidden().tint(.accentColor)
+                    .fixedSize().frame(minHeight: 44)
+                    .accessibilityIdentifier("study.readingFurigana")
+                    .onChange(of: showReading) { enabled in
+                        if enabled { onAssistance(); assisted = true }
+                    }
+            }.frame(minHeight: 44).padding(.horizontal, 18).padding(.bottom, 4)
             let readiness = ReadingReadiness.assess(reading, pack: model.pack, knowledge: model.readingKnowledge)
             Text("实词覆盖 \(readiness.percentage)% · 待学 \(readiness.unfamiliarWords.count) 词")
                 .font(.caption).foregroundColor(.secondary)
