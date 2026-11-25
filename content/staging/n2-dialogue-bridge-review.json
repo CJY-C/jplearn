@@ -1,0 +1,413 @@
+{
+  "status": "Original project trial; source facts and explicit question reasoning self-reviewed, not independent Japanese review",
+  "baselineCommit": "4ecbbf1ffae5d406ba3efa47e424d54a5327f5f7",
+  "manuscriptSHA256": "c923f64111aad006ab46aa4b172225d9d9fc7a210c35a59156ef13a4c7dcc6ee",
+  "independentLanguageReviews": 0,
+  "nativeIOSCompiled": false,
+  "teachingGoal": "在连贯对话中恢复被省略的参与者与对象，区分话题与转述，并保留请求、提议和过去完成的差异。复用已学结构，不另造重复词卡。",
+  "boundGrammarAnnotations": [
+    [
+      "rnbd001",
+      "e",
+      "方",
+      "かた"
+    ],
+    [
+      "rnbd003",
+      "b",
+      "方",
+      "ほう"
+    ],
+    [
+      "rnbd003",
+      "e",
+      "中",
+      "じゅう"
+    ]
+  ],
+  "annotationScope": "所有标注实词逐次计入分母；词形、词义与现有目标逐处核对。助词、辅助成分、活用尾及应答语留在标注外。不是自动分词覆盖率，是否已会仍由用户独立词义回忆决定。",
+  "semanticBindings": [
+    {
+      "itemID": "vn6157",
+      "meaning": "实际接收名册",
+      "notItemID": "vn3g010",
+      "reason": "不是把话语理解为某种意思"
+    },
+    {
+      "itemID": "vn4i171",
+      "meaning": "手指指向台本页",
+      "notItemID": "vn2b020",
+      "reason": "不是表达在语义上指代对象"
+    },
+    {
+      "itemID": "vn4q003",
+      "meaning": "録る记录声音",
+      "reason": "复用既有录制义，不借用撮る拍照的词义"
+    },
+    {
+      "itemID": "vn4106",
+      "excluded": true,
+      "reason": "写す旧目标为抄写复制，拍旅行照片使用既有撮る，不用同音字形扩大掌握"
+    }
+  ],
+  "grammarWitnesses": {
+    "rnbd001": {
+      "g019": {
+        "sentenceID": "rnbd001sc",
+        "text": "戻ってきたら、一緒に"
+      },
+      "g024": {
+        "sentenceID": "rnbd001sd",
+        "text": "ここで待ってる"
+      },
+      "gn407": {
+        "sentenceID": "rnbd001sb",
+        "text": "運んじゃった"
+      },
+      "gn408": {
+        "sentenceID": "rnbd001sc",
+        "text": "聞いとく"
+      },
+      "gn402": {
+        "sentenceID": "rnbd001sd",
+        "text": "名簿を探してくれた"
+      },
+      "gn404": {
+        "sentenceID": "rnbd001sd",
+        "text": "見てくださってる"
+      },
+      "gn2a011": {
+        "sentenceID": "rnbd001se",
+        "text": "中身と持ち方を確かめたうえで"
+      }
+    },
+    "rnbd002": {
+      "g019": {
+        "sentenceID": "rnbd002sc",
+        "text": "声はまだ"
+      },
+      "gn318": {
+        "sentenceID": "rnbd002sb",
+        "text": "最後の場面は明日にするって"
+      },
+      "gn319": {
+        "sentenceID": "rnbd002se",
+        "text": "今日の分って、どこまで"
+      },
+      "gn408": {
+        "sentenceID": "rnbd002sc",
+        "text": "見といて"
+      },
+      "gn475": {
+        "sentenceID": "rnbd002se",
+        "text": "読まなくちゃ"
+      },
+      "gn2c012": {
+        "sentenceID": "rnbd002sa",
+        "text": "用意したものの"
+      }
+    },
+    "rnbd003": {
+      "g019": {
+        "sentenceID": "rnbd003se",
+        "text": "まだ。雨がやんだら"
+      },
+      "gn318": {
+        "sentenceID": "rnbd003sb",
+        "text": "大きいの、もういいって"
+      },
+      "gn408": {
+        "sentenceID": "rnbd003sb",
+        "text": "送っといて"
+      },
+      "gn310": {
+        "sentenceID": "rnbd003sc",
+        "text": "嫌がったわけではなかった"
+      },
+      "gn420": {
+        "sentenceID": "rnbd003se",
+        "text": "今週中ならいい"
+      },
+      "gn2a007": {
+        "sentenceID": "rnbd003sc",
+        "text": "祖父に確かめたところ"
+      }
+    }
+  },
+  "questionEvidence": {
+    "rnbd001q1": {
+      "answer": "留在入口的红箱子；先别搬它，改为先去接待处",
+      "ability": "ellipsis",
+      "evidenceSentenceIDs": [
+        "rnbd001sa",
+        "rnbd001sb"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd001sa",
+          "text": "入口には、赤い箱が一つ残っていた"
+        },
+        {
+          "sentenceID": "rnbd001sb",
+          "text": "青いのはもう運んじゃった"
+        },
+        {
+          "sentenceID": "rnbd001sb",
+          "text": "動かさないで。先に受付へ行ってくれる"
+        }
+      ],
+      "reasoning": "の代替前文的箱，動かさないで省略的对象是私这边尚未搬的红箱子。青箱已搬完，不是要求恢复原状；保持原样也不表示永远取消搬运。",
+      "rejectedInferences": [
+        "不把红箱子的暂停处理套给已搬完的蓝箱子",
+        "不把临时不动读成取消展览或取消全部搬运"
+      ]
+    },
+    "rnbd001q2": {
+      "answer": "前辈先向负责人询问，私从接待处回来后两人再一起搬",
+      "ability": "participants",
+      "evidenceSentenceIDs": [
+        "rnbd001sb",
+        "rnbd001sc",
+        "rnbd001se"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd001sc",
+          "text": "先輩は「箱のことは担当者に聞いとく。戻ってきたら、一緒に」"
+        },
+        {
+          "sentenceID": "rnbd001se",
+          "text": "二人で運び始めた"
+        }
+      ],
+      "reasoning": "聞いとく是聞いておく的口语形式。说话的前辈承担询问，戻ってきたら承接被派去接待处的私；一緒に后省略的共同搬运动作由后文兑现。",
+      "rejectedInferences": [
+        "不把询问负责人的执行者从前辈换成私",
+        "不按最近出现的名词机械补齐所有省略主语"
+      ]
+    },
+    "rnbd001q3": {
+      "answer": "负责人已检查箱子，搬运尚待两人开始",
+      "ability": "aspect",
+      "evidenceSentenceIDs": [
+        "rnbd001se",
+        "rnbd001sf"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd001se",
+          "text": "もう見てもらったよ。運ぶのはこれから"
+        }
+      ],
+      "reasoning": "もう的范围是見てもらった；随后的運ぶのはこれから将搬运明确留在之后，不能把一个动作的完成扩大到所有准备。",
+      "rejectedInferences": [
+        "检查完成不等于搬运完成",
+        "一个动作完成不能推出所有准备结束"
+      ]
+    },
+    "rnbd002q1": {
+      "answer": "朋友转述向老师咨询后的安排，只把最后一幕的录音留到明天",
+      "ability": "informationSource",
+      "evidenceSentenceIDs": [
+        "rnbd002sa",
+        "rnbd002sb",
+        "rnbd002se"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd002sa",
+          "text": "先生のいる部屋へ行った"
+        },
+        {
+          "sentenceID": "rnbd002sb",
+          "text": "先生の返事を伝えた"
+        },
+        {
+          "sentenceID": "rnbd002sb",
+          "text": "最後の場面は明日にするって。今日の分だけ先に録っとこう"
+        }
+      ],
+      "reasoning": "友人先去向先生相談，回来再传达安排，って承接这一转述。最后一幕延期不等于全部录音取消，今日の分仍要先录。",
+      "rejectedInferences": [
+        "不把明天安排当作今日已经完成的事实",
+        "最后一幕延期不等于整出戏今天取消"
+      ]
+    },
+    "rnbd002q2": {
+      "answer": "暂不录最后一幕的声音，但先确认那一幕的走动顺序",
+      "ability": "ellipsis",
+      "evidenceSentenceIDs": [
+        "rnbd002sb",
+        "rnbd002sc",
+        "rnbd002sf"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd002sb",
+          "text": "台本の後ろを開き"
+        },
+        {
+          "sentenceID": "rnbd002sc",
+          "text": "声はまだ。でも、動く順番だけ見といて"
+        },
+        {
+          "sentenceID": "rnbd002sf",
+          "text": "明日の立つ場所も書かれていた"
+        }
+      ],
+      "reasoning": "声はまだ承接最后一幕的录音；見といて是見ておいて，要求为明天先作准备。省略录音动作不等于不要查看台本或排练位置。",
+      "rejectedInferences": [
+        "不把暂不录声音读成禁止准备走动位置",
+        "不把最后一幕的范围扩大成所有场面"
+      ]
+    },
+    "rnbd002q3": {
+      "answer": "提议接下来录音、已先改好台本、接下来必须念名字",
+      "ability": "aspect",
+      "evidenceSentenceIDs": [
+        "rnbd002sb",
+        "rnbd002sd",
+        "rnbd002se",
+        "rnbd002sf"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd002sb",
+          "text": "録っとこう"
+        },
+        {
+          "sentenceID": "rnbd002sd",
+          "text": "直しといたよ"
+        },
+        {
+          "sentenceID": "rnbd002sd",
+          "text": "見せてくれたのは台本"
+        },
+        {
+          "sentenceID": "rnbd002se",
+          "text": "先に名前を読まなくちゃ"
+        }
+      ],
+      "reasoning": "録っとこう是録っておこう的提议；直しといた是直しておいた的过去形式，修改对象由纸和台本确定；なくちゃ在这里表达义务，不是否定念名字。",
+      "rejectedInferences": [
+        "不把意向提议读成过去完成",
+        "不把なくちゃ单独按否定理解",
+        "不把台本修改读成已录声音的修改"
+      ]
+    },
+    "rnbd003q1": {
+      "answer": "祖父不需要大幅照片，小幅照片仍希望收到",
+      "ability": "informationSource",
+      "evidenceSentenceIDs": [
+        "rnbd003sa",
+        "rnbd003sb",
+        "rnbd003sc"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd003sa",
+          "text": "兄は祖父に電話をかけた"
+        },
+        {
+          "sentenceID": "rnbd003sb",
+          "text": "大きいの、もういいって。小さい方だけ"
+        },
+        {
+          "sentenceID": "rnbd003sc",
+          "text": "大きい写真を飾る場所がない"
+        }
+      ],
+      "reasoning": "兄刚与祖父通完电话，って在这里转达祖父对大幅照片的取舍。后文给出摆放位置这一原因，不能仅凭もういい推成哥哥厌烦，也不能扩大到小幅照片。",
+      "rejectedInferences": [
+        "不把兄转述祖父的要求认作兄自己的厌烦",
+        "不把不要大照片扩大成不要任何照片"
+      ]
+    },
+    "rnbd003q2": {
+      "answer": "不能，前者是寄送请求，装信封是准备；傍晚的回复仍说还没寄",
+      "ability": "aspect",
+      "evidenceSentenceIDs": [
+        "rnbd003sb",
+        "rnbd003sd",
+        "rnbd003se"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd003sb",
+          "text": "先に送っといて"
+        },
+        {
+          "sentenceID": "rnbd003se",
+          "text": "もう出した？"
+        },
+        {
+          "sentenceID": "rnbd003se",
+          "text": "まだ。雨がやんだら"
+        }
+      ],
+      "reasoning": "送っといて相当于送っておいて，是对听者后续行动的请求。过去完成应看实际叙述；まだ明确保留尚未寄出的状态。",
+      "rejectedInferences": [
+        "请求不证明已经执行",
+        "写地址和装袋不等于寄出或寄达"
+      ]
+    },
+    "rnbd003q3": {
+      "answer": "照片还没寄，准备等雨停了再去寄",
+      "ability": "ellipsis",
+      "evidenceSentenceIDs": [
+        "rnbd003sd",
+        "rnbd003se",
+        "rnbd003sf"
+      ],
+      "anchors": [
+        {
+          "sentenceID": "rnbd003se",
+          "text": "もう出した？"
+        },
+        {
+          "sentenceID": "rnbd003se",
+          "text": "まだ。雨がやんだら"
+        },
+        {
+          "sentenceID": "rnbd003sf",
+          "text": "これから行くね"
+        }
+      ],
+      "reasoning": "まだ承接兄的问题もう出した，雨がやんだら后省略去寄送的动作。后文これから行く把出门留在那之后，未宣称此时已到邮局或已寄达。",
+      "rejectedInferences": [
+        "不把まだ承接成哥哥尚未出门",
+        "不把等雨停后的行动读成已经完成或祖父到访"
+      ]
+    }
+  },
+  "primarySources": [
+    {
+      "title": "国際交流基金：日本語教師のためのオンラインコース 読解の教え方 Unit2 Part1",
+      "url": "https://www.jpf.go.jp/j/urawa/j_rsorcs/methods/dl/dokkai_U2P1_text.pdf",
+      "checked": "2026-11-25",
+      "sections": "PDF8–9页：补回省略的人物、检查人和事件关系、分析复杂结构；PDF9–10页：问题与阅读方式的对应",
+      "scope": "原资料以初级文本说明分析方法；本项目据此设计原创衔接题，不宣称它验证了本项目N2材料或学习效果。未复制其课文、例句或题目。"
+    },
+    {
+      "title": "Tae Kim: Other uses of the te-form",
+      "url": "https://guidetojapanese.org/learn/grammar/teform",
+      "checked": "2026-11-25",
+      "sections": "Using the ておく form as preparation for the future",
+      "scope": "只核对准备含义与とく缩约；请求、意向、过去时要结合实际词尾辨认。本批语境与答案独立原创。"
+    },
+    {
+      "title": "TAKAHASHI MIHO (2024), 非典型的な引用の「～って。」文に関する研究 ～伝聞の「そうだ」との異同～",
+      "url": "https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART003065516",
+      "doi": "10.26591/jpedu.2024.107..010",
+      "checked": "2026-11-25",
+      "sections": "出版平台摘要与书目信息；未读全文",
+      "scope": "摘要区分引用动词能否恢复以及句末转述功能，提示不能把每个って无条件替换成そうだ。本批两个句末转述均有明确先行来源；不据摘要建立普遍替换规则或效果主张。"
+    }
+  ],
+  "assessmentPolicy": "rnbd003不作为词卡、例句、单元链接或普通阅读推荐；连续20字文本片段与全包旧材料及本批练习隔离。此为文本隔离，不是心理测量等值认证。",
+  "pending": [
+    "independent Japanese review",
+    "native iOS validation and physical device acceptance",
+    "other five reading bridges and full original N2 quotas"
+  ]
+}

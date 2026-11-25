@@ -36,7 +36,7 @@ def source_path(name):
 def base_pack():
     manifest = json.loads((ROOT / "content/manuscripts.json").read_text())
     excluded = set(CHAPTER_FILES)
-    for ledger_name in ["n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json", "n2-change-chapter.json"]:
+    for ledger_name in ["n2-basis-chapter.json", "n2-social-chapter.json", "n2-conditions-chapter.json", "n2-emotions-chapter.json", "n2-change-chapter.json", "n2-dialogue-bridge.json"]:
         later = ROOT / "content/source-checks" / ledger_name
         if later.exists():
             # Keep earlier backfills while independently rebuilding the N2

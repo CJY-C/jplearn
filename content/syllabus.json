@@ -2018,7 +2018,11 @@
       "id": "dialogue",
       "title": "会话省略与口语缩略",
       "minimumReadings": 3,
-      "readingIDs": []
+      "readingIDs": [
+        "rnbd001",
+        "rnbd002",
+        "rnbd003"
+      ]
     },
     {
       "id": "narration",

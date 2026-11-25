@@ -1,6 +1,7 @@
 import copy
 import json
 from pathlib import Path
+import subprocess
 import sys
 import unittest
 
@@ -54,7 +55,11 @@ class BasisChapterTests(unittest.TestCase):
         self.assertNotIn("N2:ni-motozuite", syllabus["grammarCoverage"])
         self.assertEqual(syllabus["grammarCoverage"]["N2:kara-suru-to-kara-sureba"]["itemIDs"], ["gn2b004", "gn2b005"])
         self.assertEqual(next(r for r in syllabus["levels"] if r["level"] == "N2")["words"], 2500)
-        self.assertTrue(all(not bridge["readingIDs"] for bridge in syllabus["readingBridges"]))
+        # This chapter added no bridge material. Later dedicated chapters may;
+        # verify the original checkpoint rather than requiring permanent gaps.
+        baseline_syllabus = json.loads(subprocess.check_output(
+            ["git", "show", ledger["baselineCommit"] + ":content/syllabus.json"], cwd=ROOT))
+        self.assertTrue(all(not bridge["readingIDs"] for bridge in baseline_syllabus["readingBridges"]))
 
 
 if __name__ == "__main__":

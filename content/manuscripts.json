@@ -505,6 +505,11 @@
       "kind": "reading",
       "source": "n2-change-readings.tsv",
       "batch": "101-n2-change-readings.json"
+    },
+    {
+      "kind": "reading",
+      "source": "n2-dialogue-bridge-readings.tsv",
+      "batch": "102-n2-dialogue-bridge-readings.json"
     }
   ]
 }
